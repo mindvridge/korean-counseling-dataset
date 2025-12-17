@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 배치 대화 생성 스크립트 (AIML API 사용)
 시드 시나리오를 기반으로 멀티턴 상담 대화를 생성합니다.
@@ -15,6 +16,13 @@ from datetime import datetime, timezone
 from typing import List, Dict, Optional
 from tqdm import tqdm
 import argparse
+
+# Windows 환경에서 UTF-8 인코딩 강제 설정
+if sys.platform == 'win32':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+    os.environ['PYTHONIOENCODING'] = 'utf-8'
 
 # 상위 디렉토리를 path에 추가
 sys.path.insert(0, str(Path(__file__).parent.parent))
