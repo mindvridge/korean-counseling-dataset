@@ -5,17 +5,16 @@
 """
 
 import json
-import subprocess
+import os
 import sys
 import time
 import random
-import asyncio
 from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Optional
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 import argparse
+from anthropic import Anthropic
 
 # 상위 디렉토리를 path에 추가
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -32,6 +31,7 @@ class ConversationGenerator:
     def __init__(self, max_workers: int = 3):
         self.max_workers = max_workers
         self.template = self._load_template()
+        self.client = Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
         self.stats = {
             "total": 0,
             "success": 0,
@@ -49,10 +49,17 @@ class ConversationGenerator:
         """시드 파일들을 로드"""
         seeds = []
 
+        # 카테고리 매핑 (영어 -> 한국어)
+        category_map = {
+            "adolescent": "청소년",
+            "adult": "성인",
+            "crisis": "위기대응"
+        }
+
         if category:
-            categories = [category]
+            categories = [category_map.get(category, category)]
         else:
-            categories = ["adolescent", "adult", "crisis"]
+            categories = ["청소년", "성인", "위기대응"]
 
         for cat in categories:
             cat_dir = SEEDS_DIR / cat
@@ -60,34 +67,33 @@ class ConversationGenerator:
                 print(f"경고: {cat} 카테고리 디렉토리가 없습니다.")
                 continue
 
-            for seed_file in cat_dir.glob("*.json"):
+            # 하위 디렉토리 재귀 탐색
+            for seed_file in cat_dir.rglob("*.json"):
                 with open(seed_file, 'r', encoding='utf-8') as f:
                     seed = json.load(f)
                     seed["_source_file"] = str(seed_file)
+                    seed["category"] = list(category_map.keys())[list(category_map.values()).index(cat)]
                     seeds.append(seed)
 
         return seeds
 
     def call_claude(self, prompt: str) -> str:
-        """Claude Code CLI 호출"""
+        """Anthropic API 호출"""
         for attempt in range(MAX_RETRIES):
             try:
-                result = subprocess.run(
-                    [CLAUDE_CMD, "-p", prompt, "--output-format", "text"],
-                    capture_output=True,
-                    text=True,
-                    timeout=180  # 대화 생성은 더 오래 걸릴 수 있음
+                message = self.client.messages.create(
+                    model="claude-3-5-sonnet-20241022",
+                    max_tokens=8192,
+                    temperature=0.7,
+                    messages=[
+                        {"role": "user", "content": prompt}
+                    ]
                 )
 
-                if result.returncode == 0:
-                    return result.stdout.strip()
-                else:
-                    print(f"오류 (시도 {attempt + 1}): {result.stderr[:100]}")
+                return message.content[0].text
 
-            except subprocess.TimeoutExpired:
-                print(f"타임아웃 (시도 {attempt + 1})")
             except Exception as e:
-                print(f"예외 (시도 {attempt + 1}): {e}")
+                print(f"오류 (시도 {attempt + 1}): {str(e)[:100]}")
 
             if attempt < MAX_RETRIES - 1:
                 time.sleep(RETRY_DELAY * (attempt + 1))
@@ -160,6 +166,24 @@ class ConversationGenerator:
 
         return filepath
 
+    def _save_checkpoint(self, category: str, generated: int, current_index: int):
+        """체크포인트 저장"""
+        checkpoint_data = {
+            "category": category,
+            "generated_count": generated,
+            "current_index": current_index,
+            "timestamp": datetime.now().isoformat(),
+            "stats": self.stats
+        }
+
+        LOGS_DIR.mkdir(parents=True, exist_ok=True)
+        checkpoint_file = LOGS_DIR / f"checkpoint_{category}_{generated}.json"
+
+        with open(checkpoint_file, 'w', encoding='utf-8') as f:
+            json.dump(checkpoint_data, f, ensure_ascii=False, indent=2)
+
+        return checkpoint_file
+
     def generate_for_category(self, category: str, target_count: int, start_index: int = 0) -> int:
         """특정 카테고리에 대해 대화 생성"""
         seeds = self.load_seeds(category)
@@ -170,9 +194,13 @@ class ConversationGenerator:
 
         generated = 0
         current_index = start_index
+        batch_size = 100  # 100개 단위 배치
+        checkpoint_interval = 1000  # 1,000개마다 체크포인트
 
         print(f"\n[{category}] {target_count}개 대화 생성 중...")
         print(f"  - 사용 가능한 시드: {len(seeds)}개")
+        print(f"  - 배치 크기: {batch_size}개")
+        print(f"  - 체크포인트 간격: {checkpoint_interval}개")
 
         with tqdm(total=target_count, desc=f"{category}") as pbar:
             while generated < target_count:
@@ -187,13 +215,22 @@ class ConversationGenerator:
                     current_index += 1
                     self.stats["success"] += 1
                     pbar.update(1)
+
+                    # 100개 단위 배치 완료 시 메시지
+                    if generated % batch_size == 0:
+                        pbar.write(f"✓ {generated}/{target_count} 배치 완료")
+
+                    # 1,000개마다 체크포인트 저장
+                    if generated % checkpoint_interval == 0:
+                        self._save_checkpoint(category, generated, current_index)
+                        pbar.write(f"💾 체크포인트 저장: {generated}개 완료")
                 else:
                     self.stats["failed"] += 1
 
                 self.stats["total"] += 1
 
-                # API 부하 방지
-                time.sleep(1)
+                # API 부하 방지 (1.2초 간격)
+                time.sleep(1.2)
 
         return generated
 
