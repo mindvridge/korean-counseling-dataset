@@ -54,6 +54,43 @@ class DatasetConfig:
     # 시드 수 (카테고리당)
     seeds_per_category: int = 50
 
+    # 세부 카테고리별 시드 분포 (200개 기준)
+    seed_distribution: Dict[str, int] = field(default_factory=lambda: {
+        "청소년_학업스트레스": 40,
+        "청소년_또래관계": 30,
+        "청소년_가족갈등": 20,
+        "청소년_진로고민": 10,
+        "청소년_정체성": 10,
+        "성인_직장스트레스": 30,
+        "성인_대인관계": 24,
+        "성인_우울불안": 16,
+        "성인_가족관계": 10,
+        "위기대응": 10
+    })
+
+
+# 상담 기법 라벨 정의
+COUNSELING_TECHNIQUES = [
+    "반영(reflection)",
+    "공감(empathy)",
+    "개방형질문(open_question)",
+    "폐쇄형질문(closed_question)",
+    "명료화(clarification)",
+    "요약(summarization)",
+    "재진술(restatement)",
+    "감정명명(emotion_labeling)",
+    "타당화(validation)",
+    "직면(confrontation)",
+    "해석(interpretation)",
+    "정보제공(information_giving)",
+    "자기개방(self_disclosure)",
+    "침묵(silence)",
+    "격려(encouragement)",
+    "구조화(structuring)",
+    "즉시성(immediacy)",
+    "목표설정(goal_setting)"
+]
+
 
 @dataclass
 class CategoryConfig:

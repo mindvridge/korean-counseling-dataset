@@ -1,47 +1,85 @@
 당신은 한국어 심리상담 데이터셋을 생성하는 전문가입니다.
 
 ## 목표
-{category} 카테고리의 심리상담 시드 시나리오를 생성하세요.
+{category} 카테고리의 완전한 심리상담 대화를 생성하세요.
 
 ## 카테고리 설명
-- adolescent (청소년): 10대~20대 초반 청소년의 고민과 상담
-- adult (성인): 20대 중반 이상 성인의 고민과 상담
-- crisis (위기대응): 즉각적인 개입이 필요한 위기 상황
+{category_description}
 
 ## 주제
 {topic}
 
-## 요구사항
+## 상담 기법 라벨 (technique)
+모든 상담사 발화에 반드시 아래 기법 중 하나 이상을 라벨로 포함하세요:
+- reflection (반영): 내담자의 말을 되돌려주기
+- empathy (공감): 감정적 이해 표현
+- open_question (개방형질문): 자유롭게 답할 수 있는 질문
+- closed_question (폐쇄형질문): 예/아니오로 답하는 질문
+- clarification (명료화): 불분명한 내용 확인
+- summarization (요약): 대화 내용 정리
+- restatement (재진술): 내담자 말을 다른 표현으로
+- emotion_labeling (감정명명): 감정에 이름 붙이기
+- validation (타당화): 감정/경험 인정
+- confrontation (직면): 모순 지적
+- interpretation (해석): 숨은 의미 설명
+- information_giving (정보제공): 관련 정보 제공
+- encouragement (격려): 용기 북돋기
+- goal_setting (목표설정): 상담 목표 수립
+- structuring (구조화): 상담 진행 안내
 
-### 내담자 프로필
-1. 구체적인 배경 정보 (나이, 상황 등)
-2. 주요 호소 문제
-3. 감정 상태
-4. 상담을 받게 된 계기
-
-### 시나리오 구성
-1. 초기 상담 진입 상황
-2. 핵심 갈등/고민
-3. 잠재적 심리적 이슈
-4. 상담 진행 방향성
+## 대화 구조 요구사항
+- 턴 수: {min_turns}~{max_turns}턴 (상담사-내담자 각각 1회 발화 = 1턴)
+- 초기 (5-8턴): 래포 형성, 주호소 문제 파악
+- 중기 (12-20턴): 깊은 탐색, 핵심 이슈 다루기
+- 후기 (5-7턴): 통찰 정리, 다음 단계 논의
 
 ## 출력 형식 (JSON)
 ```json
 {{
+    "id": "고유ID",
+    "category": "{category}",
+    "sub_category": "{sub_category}",
+    "topic": "{topic}",
     "client_profile": {{
         "age": "나이",
         "gender": "성별",
         "occupation": "직업/학년",
         "background": "배경 설명"
     }},
-    "main_issue": "주요 호소 문제",
-    "emotional_state": "현재 감정 상태",
-    "trigger": "상담 시작 계기",
-    "underlying_issues": ["잠재적 이슈 1", "잠재적 이슈 2"],
-    "initial_statement": "내담자의 첫 발화 (2-3문장)",
-    "counseling_direction": "권장 상담 방향"
+    "conversation": [
+        {{
+            "turn": 1,
+            "speaker": "client",
+            "text": "내담자 첫 발화"
+        }},
+        {{
+            "turn": 1,
+            "speaker": "counselor",
+            "text": "상담사 응답",
+            "technique": ["empathy", "open_question"]
+        }},
+        {{
+            "turn": 2,
+            "speaker": "client",
+            "text": "내담자 발화"
+        }},
+        {{
+            "turn": 2,
+            "speaker": "counselor",
+            "text": "상담사 응답",
+            "technique": ["reflection", "validation"]
+        }}
+    ],
+    "total_turns": 턴수,
+    "techniques_used": ["사용된 모든 기법 목록"]
 }}
 ```
 
-위 형식에 맞춰 창의적이고 현실적인 시드 시나리오를 생성하세요.
+## 중요 지침
+1. 모든 상담사 발화에 반드시 technique 라벨 포함
+2. 한국어 자연스러운 상담 어조 사용
+3. 내담자는 점진적으로 마음을 열어감
+4. 상담사는 공감적이고 비판단적 태도 유지
+5. 위기대응 카테고리는 안전 확보 우선
+
 JSON만 출력하세요.
