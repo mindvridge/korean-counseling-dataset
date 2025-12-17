@@ -96,7 +96,16 @@ class ParallelConversationGenerator:
     def load_seeds(self, category: str) -> List[Dict]:
         """시드 파일 로드"""
         seeds = []
-        seed_dir = SEEDS_DIR / CATEGORY_CONFIG[category]["korean_name"]
+
+        # 카테고리 매핑 (영어 -> 한국어)
+        category_map = {
+            "adolescent": "청소년",
+            "adult": "성인",
+            "crisis": "위기대응"
+        }
+
+        korean_category = category_map.get(category, category)
+        seed_dir = SEEDS_DIR / korean_category
 
         for seed_file in seed_dir.rglob("*.json"):
             try:
