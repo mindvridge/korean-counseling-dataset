@@ -36,8 +36,8 @@ ENV/
 logs/
 *.log
 
-# Data (exclude generated data, keep seeds)
-data/raw/
+# Data (exclude filtered and final data, keep seeds and raw)
+# data/raw/  # 주석 처리: 생성된 raw 데이터를 Git에 포함
 data/filtered/
 data/final/
 
