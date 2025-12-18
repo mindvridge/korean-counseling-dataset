@@ -17,7 +17,10 @@
       "speaker": "counselor",
       "text": "안녕하세요. 이렇게 찾아와 주셔서 감사해요. 어머니의 권유로 오셨군요. 지금 어떤 마음이 드세요?",
       "turn": 2,
-      "technique": "open_question"
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -28,7 +31,9 @@
       "speaker": "counselor",
       "text": "귀찮은 마음도 들지만, 어머니와의 관계를 개선하고 싶은 마음도 있으시군요. 그런 솔직한 마음을 말씀해주셔서 고마워요.",
       "turn": 4,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -39,7 +44,9 @@
       "speaker": "counselor",
       "text": "게임 때문에 어머니와 자주 갈등이 있으시군요. 어떤 일들이 있었는지 좀 더 들려주실 수 있을까요?",
       "turn": 6,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -50,7 +57,9 @@
       "speaker": "counselor",
       "text": "학교 다녀와서 밤늦게까지 게임을 하시는군요. 어머니는 공부를 더 하길 원하시고요. 게임을 많이 하게 된 특별한 이유가 있을까요?",
       "turn": 8,
-      "technique": "open_question"
+      "technique": [
+        "open_question"
+      ]
     },
     {
       "speaker": "client",
@@ -61,7 +70,9 @@
       "speaker": "counselor",
       "text": "게임이 현실의 스트레스에서 벗어날 수 있는 유일한 공간처럼 느껴지는군요. 학업과 진로 문제로 많이 힘드셨겠어요.",
       "turn": 10,
-      "technique": "empathy"
+      "technique": [
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -72,7 +83,9 @@
       "speaker": "counselor",
       "text": "성적이 떨어지면서 더 무기력해지고, 모든 게 귀찮아지는 악순환이 반복되고 있는 것 같네요. 언제부터 이런 느낌이 들기 시작했나요?",
       "turn": 12,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -83,7 +96,9 @@
       "speaker": "counselor",
       "text": "2학년이 되면서 학업 난이도가 높아지고, 주변 친구들과 비교하면서 더 압박감을 느끼셨군요. 그런 상황에서 게임이 유일한 위안이 되었던 거네요.",
       "turn": 14,
-      "technique": "empathy"
+      "technique": [
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -94,7 +109,9 @@
       "speaker": "counselor",
       "text": "어머니가 본인의 힘든 마음을 이해해주지 않는다고 느껴지니까 더 답답하고 화가 나시는군요.",
       "turn": 16,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -105,7 +122,9 @@
       "speaker": "counselor",
       "text": "새벽까지 게임을 하셨군요. 스스로 생각하기에 요즘 게임 시간이 어느 정도 되나요?",
       "turn": 18,
-      "technique": "open_question"
+      "technique": [
+        "open_question"
+      ]
     },
     {
       "speaker": "client",
@@ -116,7 +135,9 @@
       "speaker": "counselor",
       "text": "평일에 5-6시간, 주말에는 10시간 넘게 하실 때도 있으시군요. 그렇게 게임을 하고 나면 기분이 어떤가요?",
       "turn": 20,
-      "technique": "open_question"
+      "technique": [
+        "open_question"
+      ]
     },
     {
       "speaker": "client",
@@ -127,7 +148,9 @@
       "speaker": "counselor",
       "text": "게임하는 순간에는 좋지만, 끝나고 나면 허무함과 후회가 밀려오는군요. 그리고 다음 날 일상생활도 더 힘들어지고요. 이런 패턴을 스스로도 인식하고 계시네요.",
       "turn": 22,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -138,7 +161,9 @@
       "speaker": "counselor",
       "text": "변화가 필요하다는 걸 알면서도 실천하기 어려운 게 당연해요. 그런데도 이렇게 상담에 오신 것 자체가 변화를 위한 첫걸음이에요. 만약 게임 시간을 줄일 수 있다면, 그 시간에 뭘 하고 싶으세요?",
       "turn": 24,
-      "technique": "encouragement"
+      "technique": [
+        "encouragement"
+      ]
     },
     {
       "speaker": "client",
@@ -149,7 +174,9 @@
       "speaker": "counselor",
       "text": "농구를 좋아하셨었군요. 농구할 때는 어땠나요?",
       "turn": 26,
-      "technique": "open_question"
+      "technique": [
+        "open_question"
+      ]
     },
     {
       "speaker": "client",
@@ -160,7 +187,9 @@
       "speaker": "counselor",
       "text": "농구가 게임처럼 스트레스 해소가 되었었는데, 지금은 함께 할 친구들도 없어지면서 게임으로 대체된 것 같네요. 진로 문제도 말씀하셨는데, 어떤 고민이 있으신가요?",
       "turn": 28,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -171,7 +200,9 @@
       "speaker": "counselor",
       "text": "진로에 대한 확신이 없는 상태에서 공부를 강요받으니 더 동기가 생기지 않는 거네요. 이건 많은 청소년들이 겪는 자연스러운 고민이에요.",
       "turn": 30,
-      "technique": "normalization"
+      "technique": [
+        "normalization"
+      ]
     },
     {
       "speaker": "client",
@@ -182,7 +213,9 @@
       "speaker": "counselor",
       "text": "겉으로 보기에는 그렇게 보일 수 있지만, 실제로는 많은 친구들이 비슷한 고민을 하고 있어요. 지금 당장 명확한 진로를 정하지 못했다고 해서 문제가 있는 건 아니에요. 오늘 우리가 나눈 이야기를 정리해볼까요?",
       "turn": 32,
-      "technique": "normalization"
+      "technique": [
+        "normalization"
+      ]
     },
     {
       "speaker": "client",
@@ -193,7 +226,9 @@
       "speaker": "counselor",
       "text": "지금 학업 스트레스와 진로 고민으로 힘든 상황에서, 게임이 유일한 도피처가 되었고, 이것이 어머니와의 갈등으로 이어지고 있어요. 하지만 게임 후의 허무함도 느끼고 계시고, 변화가 필요하다는 것도 인식하고 계시네요. 다음에 만날 때는 어떤 이야기를 나누면 좋을까요?",
       "turn": 34,
-      "technique": "summarization"
+      "technique": [
+        "summarization"
+      ]
     },
     {
       "speaker": "client",
@@ -204,7 +239,100 @@
       "speaker": "counselor",
       "text": "좋아요. 그럼 다음 시간에는 게임 조절 방법과 어머니와의 소통 방법에 대해 구체적으로 이야기 나눠보도록 해요. 오늘 솔직하게 이야기해주셔서 고마워요.",
       "turn": 36,
-      "technique": "structuring"
+      "technique": [
+        "structuring"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
     }
   ],
   "metadata": {

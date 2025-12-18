@@ -17,7 +17,9 @@
       "speaker": "counselor",
       "text": "안녕하세요. 처음이라 긴장되는 건 당연해요. 편안하게 이야기 나눠보아요. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
-      "technique": "empathy"
+      "technique": [
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -28,7 +30,10 @@
       "speaker": "counselor",
       "text": "진로 문제로 많이 고민하고 계시는군요. 부모님의 기대와 본인이 원하는 길이 달라서 마음이 복잡하시겠어요.",
       "turn": 4,
-      "technique": "reflection"
+      "technique": [
+        "reflection",
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -39,7 +44,9 @@
       "speaker": "counselor",
       "text": "마음이 한쪽으로 쏠려있지 않으니 공부에도 집중하기 어려운 상황이네요. 이런 상태가 얼마나 지속되었나요?",
       "turn": 6,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -50,7 +57,9 @@
       "speaker": "counselor",
       "text": "6개월이면 꽤 오랜 시간 동안 혼자 힘들어하셨네요. 다른 친구들과 비교하면서 더 불안하고 조급한 마음이 드셨을 것 같아요.",
       "turn": 8,
-      "technique": "empathy"
+      "technique": [
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -61,7 +70,9 @@
       "speaker": "counselor",
       "text": "부모님의 그런 말씀이 격려보다는 압박으로 느껴지는군요. 그럴 때 어떤 감정이 드나요?",
       "turn": 10,
-      "technique": "open_question"
+      "technique": [
+        "open_question"
+      ]
     },
     {
       "speaker": "client",
@@ -72,7 +83,9 @@
       "speaker": "counselor",
       "text": "화남, 슬픔, 서운함... 여러 감정이 복합적으로 느껴지는군요. 본인의 선택을 존중받고 싶은 마음이 크신 것 같아요.",
       "turn": 12,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -83,7 +96,9 @@
       "speaker": "counselor",
       "text": "부모님의 마음도 이해하면서 동시에 자신의 바람도 소중히 여기고 계시네요. 그 사이에서 균형을 찾는 게 쉽지 않으시죠?",
       "turn": 14,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -94,7 +109,9 @@
       "speaker": "counselor",
       "text": "부모님께 마음을 표현해보려는 시도는 하셨군요. 디자인에 대한 관심은 언제부터 시작되었나요?",
       "turn": 16,
-      "technique": "open_question"
+      "technique": [
+        "open_question"
+      ]
     },
     {
       "speaker": "client",
@@ -105,7 +122,9 @@
       "speaker": "counselor",
       "text": "디자인 작업을 할 때는 시간 가는 줄도 모를 만큼 몰입하고 즐거움을 느끼셨네요. 그건 정말 중요한 신호예요. 자신이 진정으로 좋아하는 걸 발견한 거니까요.",
       "turn": 18,
-      "technique": "affirmation"
+      "technique": [
+        "affirmation"
+      ]
     },
     {
       "speaker": "client",
@@ -116,7 +135,9 @@
       "speaker": "counselor",
       "text": "철없는 게 아니에요. 17살에 자신이 좋아하는 걸 알고 그걸 진지하게 고민하는 건 오히려 성숙한 태도예요. 다만 현실적인 부분도 함께 고려해야 하는 시기인 거죠.",
       "turn": 20,
-      "technique": "reframing"
+      "technique": [
+        "reframing"
+      ]
     },
     {
       "speaker": "client",
@@ -127,7 +148,9 @@
       "speaker": "counselor",
       "text": "먼저 질문 하나 드릴게요. 디자인 분야에 대해 구체적으로 알아보신 적이 있나요? 예를 들어 어떤 종류의 디자인을 하고 싶은지, 관련 직업이나 진로는 어떤 게 있는지요.",
       "turn": 22,
-      "technique": "open_question"
+      "technique": [
+        "open_question"
+      ]
     },
     {
       "speaker": "client",
@@ -138,7 +161,9 @@
       "speaker": "counselor",
       "text": "솔직하게 말씀해주셔서 고마워요. 그렇다면 부모님을 설득하기 위해서, 그리고 본인의 진로를 명확히 하기 위해서 디자인 분야에 대해 좀 더 구체적으로 알아보는 게 어떨까요?",
       "turn": 24,
-      "technique": "suggestion"
+      "technique": [
+        "suggestion"
+      ]
     },
     {
       "speaker": "client",
@@ -147,9 +172,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "여러 방법이 있어요. 시각디자인, 제품디자인, 패션디자인 등 분야도 다양하고요. 각 분야의 진로와 전망을 조사해보고, 가능하다면 관련 체험 프로그램이나 멘토링도 찾아볼 수 있어요. 구체적인 정보를 가지고 부모님과 대화하면 더 진지하게 받아들여질 거예요.",
+      "text": "여러 방법이 있어요. 시각디자인, 제품디자인, 패션디자인 등 분야도 다양하고요. 각 분야의 진로와 전망을 조사해보고, 가능하다면 관련 체험 계획이나 멘토링도 찾아볼 수 있어요. 구체적인 정보를 가지고 부모님과 대화하면 더 진지하게 받아들여질 거예요.",
       "turn": 26,
-      "technique": "information_providing"
+      "technique": [
+        "information_providing"
+      ]
     },
     {
       "speaker": "client",
@@ -160,7 +187,9 @@
       "speaker": "counselor",
       "text": "좋은 질문이에요. 지금 공부에 집중이 안 되는 이유가 진로가 불명확해서라고 하셨잖아요. 진로를 명확히 하는 것도 중요한 '공부'의 일부예요. 방향을 정하면 오히려 학습 동기도 생길 수 있어요.",
       "turn": 28,
-      "technique": "reframing"
+      "technique": [
+        "reframing"
+      ]
     },
     {
       "speaker": "client",
@@ -171,7 +200,9 @@
       "speaker": "counselor",
       "text": "좋은 계획이에요. 그리고 부모님과 대화할 때는 대립하기보다는 '제가 이런 걸 알아봤는데 함께 고민해주실 수 있을까요?'라는 식으로 협력을 구하는 태도가 도움이 될 거예요.",
       "turn": 30,
-      "technique": "suggestion"
+      "technique": [
+        "suggestion"
+      ]
     },
     {
       "speaker": "client",
@@ -182,7 +213,9 @@
       "speaker": "counselor",
       "text": "한 번의 대화로 모든 게 해결되지 않을 수도 있어요. 중요한 건 꾸준히 소통하면서 서로를 이해해가는 과정이에요. 그 과정에서 필요하다면 제가 함께 고민하고 도와드릴 수 있어요.",
       "turn": 32,
-      "technique": "support"
+      "technique": [
+        "support"
+      ]
     },
     {
       "speaker": "client",
@@ -193,7 +226,9 @@
       "speaker": "counselor",
       "text": "스스로 해결 방법을 찾아가고 계세요. 잘하고 있어요. 다음 상담까지 디자인 분야 조사와 부모님과의 대화를 작은 목표로 삼아보는 건 어떨까요?",
       "turn": 34,
-      "technique": "affirmation"
+      "technique": [
+        "affirmation"
+      ]
     },
     {
       "speaker": "client",
@@ -204,7 +239,100 @@
       "speaker": "counselor",
       "text": "물론이죠. 언제든 필요할 때 오세요. 진행 상황도 함께 나누고, 어려운 점이 있으면 같이 고민해봐요. 오늘 용기 내서 와주셔서 고마워요.",
       "turn": 36,
-      "technique": "support"
+      "technique": [
+        "support"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
     }
   ],
   "metadata": {

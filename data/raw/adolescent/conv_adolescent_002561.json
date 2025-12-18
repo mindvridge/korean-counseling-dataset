@@ -17,7 +17,10 @@
       "speaker": "counselor",
       "text": "안녕하세요. 편하게 앉으세요. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
-      "technique": "open_question"
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -28,7 +31,9 @@
       "speaker": "counselor",
       "text": "친구들과 함께 있어도 혼자라는 느낌이 든다니, 많이 외롭고 힘들었겠어요.",
       "turn": 4,
-      "technique": "empathy"
+      "technique": [
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -39,7 +44,9 @@
       "speaker": "counselor",
       "text": "단체 채팅방에서 친구들은 활발하게 대화하는데, 본인은 어떻게 끼어들어야 할지 몰라서 주로 지켜보기만 한다는 거네요.",
       "turn": 6,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -50,7 +57,9 @@
       "speaker": "counselor",
       "text": "친구들의 반응이 무시인지, 아니면 자신이 지나치게 예민한 건지 판단하기 어려워서 더 혼란스러운 것 같네요.",
       "turn": 8,
-      "technique": "clarification"
+      "technique": [
+        "clarification"
+      ]
     },
     {
       "speaker": "client",
@@ -61,7 +70,9 @@
       "speaker": "counselor",
       "text": "말을 했을 때 기대했던 반응이 없으니까 점점 말하는 것 자체가 두려워지는 거군요. 그런 경험이 반복되면 누구라도 위축될 수밖에 없어요.",
       "turn": 10,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -72,18 +83,22 @@
       "speaker": "counselor",
       "text": "다른 친구들은 잘 지내는 것처럼 보이니까 혹시 나만 문제가 있는 건 아닐까 걱정되는 마음이 드는 거네요. 그런데 겉으로 보이는 모습과 실제는 다를 수 있어요. 많은 청소년들이 비슷한 고민을 하고 있답니다.",
       "turn": 12,
-      "technique": "normalization"
+      "technique": [
+        "normalization"
+      ]
     },
     {
       "speaker": "client",
-      "text": "그런가요... 근데 진짜 저만 빼고 애들끼리 놀러 가는 것 같을 때도 있어요. SNS 보면 다들 같이 찍은 사진 올리고...",
+      "text": "그런가요... 근데 진짜 저만 빼고 애들끼리 놀러 가는 것 같을 때도 있어요. 소셜미디어 보면 다들 같이 찍은 사진 올리고...",
       "turn": 13
     },
     {
       "speaker": "counselor",
       "text": "SNS에서 친구들끼리 함께 찍은 사진을 보면 어떤 기분이 드나요?",
       "turn": 14,
-      "technique": "open_question"
+      "technique": [
+        "open_question"
+      ]
     },
     {
       "speaker": "client",
@@ -94,7 +109,9 @@
       "speaker": "counselor",
       "text": "친구들이 자신을 빼고 만난 것 같아서 속상하고, 동시에 내가 무엇을 잘못했는지 자책하게 되는군요. 그런 감정을 느끼는 게 당연해요.",
       "turn": 16,
-      "technique": "empathy"
+      "technique": [
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -105,7 +122,9 @@
       "speaker": "counselor",
       "text": "상처받지 않으려고 SNS를 피하는 방법을 선택한 거네요. 그런데 그렇게 하니까 마음이 좀 나아지던가요?",
       "turn": 18,
-      "technique": "exploration"
+      "technique": [
+        "exploration"
+      ]
     },
     {
       "speaker": "client",
@@ -116,7 +135,9 @@
       "speaker": "counselor",
       "text": "SNS를 안 봐도 학교에서 직접 그 이야기를 듣게 되니까 결국 상처를 받게 되는 상황이군요.",
       "turn": 20,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -127,7 +148,9 @@
       "speaker": "counselor",
       "text": "지금 정말 막막한 상황인 것 같아요. 그런데 한 가지 여쭤보고 싶은 게 있어요. 이 친구들과 처음부터 이렇게 어색했던 건 아니었을 것 같은데, 언제부터 이런 느낌을 받기 시작했나요?",
       "turn": 22,
-      "technique": "exploration"
+      "technique": [
+        "exploration"
+      ]
     },
     {
       "speaker": "client",
@@ -138,7 +161,9 @@
       "speaker": "counselor",
       "text": "아, 고등학교에 진학하면서 환경이 바뀌고 친구 관계가 재편되는 과정에서 이런 어려움이 시작된 거네요. 새로운 환경에 적응하는 게 쉽지 않았겠어요.",
       "turn": 24,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -149,7 +174,9 @@
       "speaker": "counselor",
       "text": "본인이 낯을 가리는 성격이라는 걸 알고 계시는군요. 그런 성격 때문에 새로운 관계를 만드는 게 더 어려웠을 거예요. 혹시 정말 친하게 지내고 싶은 특정 친구가 있나요?",
       "turn": 26,
-      "technique": "open_question"
+      "technique": [
+        "open_question"
+      ]
     },
     {
       "speaker": "client",
@@ -160,7 +187,9 @@
       "speaker": "counselor",
       "text": "지우라는 친구가 본인에게 관심을 보여주긴 하지만, 다른 친구들과 더 가까워 보여서 조심스러운 마음이 드는 거네요.",
       "turn": 28,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -171,7 +200,9 @@
       "speaker": "counselor",
       "text": "거절당할까봐 두려운 마음, 충분히 이해해요. 그런데 만약 지우가 본인을 거절하지 않는다면 어떨 것 같아요? 함께 하고 싶은 일이 있나요?",
       "turn": 30,
-      "technique": "reframing"
+      "technique": [
+        "reframing"
+      ]
     },
     {
       "speaker": "client",
@@ -182,7 +213,9 @@
       "speaker": "counselor",
       "text": "편하게 대화할 수 있는 친구를 원하는 거네요. 그건 정말 자연스럽고 소중한 바람이에요. 작은 것부터 시도해보는 건 어떨까요? 예를 들어 지우에게 먼저 가벼운 질문을 해보는 거요.",
       "turn": 32,
-      "technique": "suggestion"
+      "technique": [
+        "suggestion"
+      ]
     },
     {
       "speaker": "client",
@@ -193,7 +226,9 @@
       "speaker": "counselor",
       "text": "숙제나 수업에 관한 것처럼 부담 없는 주제로 시작할 수 있어요. 또는 지우가 좋아하는 것에 대해 물어볼 수도 있고요. 작은 대화가 쌓이면 자연스럽게 관계가 가까워질 수 있어요.",
       "turn": 34,
-      "technique": "guidance"
+      "technique": [
+        "guidance"
+      ]
     },
     {
       "speaker": "client",
@@ -204,7 +239,9 @@
       "speaker": "counselor",
       "text": "실패가 두렵다는 게 느껴져요. 하지만 시도하는 것 자체가 이미 큰 용기예요. 만약 기대한 대로 되지 않더라도, 그건 본인의 가치와는 무관해요. 우리 다음에 만나서 어떻게 됐는지 함께 이야기 나눠볼까요?",
       "turn": 36,
-      "technique": "encouragement"
+      "technique": [
+        "encouragement"
+      ]
     },
     {
       "speaker": "client",
@@ -215,7 +252,87 @@
       "speaker": "counselor",
       "text": "그렇게 말해줘서 고마워요. 오늘 자신의 어려움을 용기내어 나눠준 것만으로도 정말 대단해요. 언제든 힘들면 다시 이야기하러 오세요.",
       "turn": 38,
-      "technique": "support"
+      "technique": [
+        "support"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
     }
   ],
   "metadata": {

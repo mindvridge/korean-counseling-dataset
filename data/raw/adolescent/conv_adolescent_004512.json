@@ -17,7 +17,10 @@
       "speaker": "counselor",
       "text": "안녕하세요. 처음이라 긴장되시죠? 편하게 지금 마음에 있는 이야기부터 천천히 나눠주시면 됩니다. 오늘 어떤 일로 상담을 신청하셨나요?",
       "turn": 2,
-      "technique": "rapport_building"
+      "technique": [
+        "rapport_building",
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -28,7 +31,9 @@
       "speaker": "counselor",
       "text": "친구들과의 관계에서 힘든 일이 있으셨군요. 친구들이 자신을 싫어한다고 느껴지면 정말 마음이 아플 것 같아요. 구체적으로 어떤 일이 있었는지 말씀해주실 수 있을까요?",
       "turn": 4,
-      "technique": "empathy"
+      "technique": [
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -39,7 +44,9 @@
       "speaker": "counselor",
       "text": "자신만 제외된 모임 사진을 SNS에서 보게 되었군요. 그런 상황을 마주했을 때 기분이 어땠나요?",
       "turn": 6,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -50,7 +57,9 @@
       "speaker": "counselor",
       "text": "그 사진을 보고 밤새 잠을 이루지 못할 만큼 큰 충격을 받으셨네요. 가까이 지내던 친구들이었다면 더욱 상처가 컸을 것 같아요.",
       "turn": 8,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -61,7 +70,9 @@
       "speaker": "counselor",
       "text": "오랜 시간 함께했던 가까운 친구까지 그 자리에 있었다는 게 특히 더 마음 아프게 했군요. 그 이후로 친구들과는 어떻게 지내고 있나요?",
       "turn": 10,
-      "technique": "empathy"
+      "technique": [
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -72,7 +83,9 @@
       "speaker": "counselor",
       "text": "상처받은 마음 때문에 친구들을 대하기가 어려웠고, 이번 주 내내 혼자 지내셨군요. 학교에서 혼자 지내는 게 어떤 느낌이었나요?",
       "turn": 12,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -83,7 +96,9 @@
       "speaker": "counselor",
       "text": "외로움, 창피함, 두려움까지 여러 감정들을 동시에 느끼고 계시네요. 특히 점심시간처럼 함께 어울려야 하는 시간이 가장 힘들다고 하셨는데, 그 시간을 어떻게 보내고 계세요?",
       "turn": 14,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -94,7 +109,9 @@
       "speaker": "counselor",
       "text": "힘든 상황을 피하기 위해 여러 방법을 찾고 계시는군요. 그렇게 지내는 게 쉽지 않으셨을 텐데, 혹시 친구들에게 직접 물어보거나 이야기해볼 생각은 해보셨나요?",
       "turn": 16,
-      "technique": "open_question"
+      "technique": [
+        "open_question"
+      ]
     },
     {
       "speaker": "client",
@@ -105,7 +122,9 @@
       "speaker": "counselor",
       "text": "거절당하거나 부정적인 반응을 받을까봐 두려운 마음이 드시는군요. 그런 걱정이 드는 건 자연스러운 일이에요. 혹시 친구들이 왜 자신을 부르지 않았을지에 대해 생각해본 적이 있나요?",
       "turn": 18,
-      "technique": "normalization"
+      "technique": [
+        "normalization"
+      ]
     },
     {
       "speaker": "client",
@@ -116,7 +135,9 @@
       "speaker": "counselor",
       "text": "자신에게 문제가 있지 않았을까 하는 생각들로 힘드셨겠어요. 그런데 혹시 그 전에 친구들과 갈등이 있었거나, 특별히 기억나는 일이 있었나요?",
       "turn": 20,
-      "technique": "exploration"
+      "technique": [
+        "exploration"
+      ]
     },
     {
       "speaker": "client",
@@ -125,9 +146,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "그때 함께하지 못한 것이 혹시 영향을 미쳤을까 생각하시는군요. 그 외에 최근에 친구들과의 관계에서 달라진 점은 없었나요?",
+      "text": "그때 함께하지 못한 것이 혹시 영향을 정신없이을까 생각하시는군요. 그 외에 최근에 친구들과의 관계에서 달라진 점은 없었나요?",
       "turn": 22,
-      "technique": "clarification"
+      "technique": [
+        "clarification"
+      ]
     },
     {
       "speaker": "client",
@@ -136,9 +159,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "아, 최근에 학원 때문에 바빠지면서 친구들과 함께하는 시간이 줄어들었군요. 그게 친구들과의 관계에 어떤 영향을 미쳤을 것 같다고 생각하세요?",
+      "text": "아, 최근에 학원 때문에 바빠지면서 친구들과 함께하는 시간이 줄어들었군요. 그게 친구들과의 관계에 어떤 영향을 정신없이을 것 같다고 생각하세요?",
       "turn": 24,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -149,7 +174,9 @@
       "speaker": "counselor",
       "text": "여러 가능성을 생각해보고 계시네요. 사실 정확한 이유는 친구들에게 직접 들어봐야 알 수 있을 것 같아요. 만약 친구들이 '바쁜 것 같아서 부담 주기 싫어서 안 불렀어'라고 한다면 기분이 어떨 것 같나요?",
       "turn": 26,
-      "technique": "reframing"
+      "technique": [
+        "reframing"
+      ]
     },
     {
       "speaker": "client",
@@ -160,7 +187,9 @@
       "speaker": "counselor",
       "text": "가능성은 충분히 있어요. 때로는 친구들도 상대방을 배려한다고 생각하고 한 행동이 오히려 오해를 불러일으킬 수 있거든요. 지금 가장 중요한 건, 이 상황을 어떻게 해결하고 싶으신가요?",
       "turn": 28,
-      "technique": "goal_setting"
+      "technique": [
+        "goal_setting"
+      ]
     },
     {
       "speaker": "client",
@@ -171,7 +200,9 @@
       "speaker": "counselor",
       "text": "친구들과의 관계를 회복하고 싶다는 명확한 목표가 있으시네요. 그렇다면 작은 것부터 시작해보면 어떨까요? 예를 들어, 가장 편하게 느껴지는 친구 한 명에게 먼저 다가가 보는 건 어떨까요?",
       "turn": 30,
-      "technique": "solution_focused"
+      "technique": [
+        "solution_focused"
+      ]
     },
     {
       "speaker": "client",
@@ -182,7 +213,9 @@
       "speaker": "counselor",
       "text": "수진이가 가장 가까운 친구니까 좋은 선택이에요. 솔직하게 자신의 마음을 표현해보는 건 어떨까요? '요즘 바빠서 같이 못 놀아줘서 미안해. 나도 너희랑 놀고 싶은데 연락 못 받아서 속상했어' 이런 식으로요.",
       "turn": 32,
-      "technique": "guidance"
+      "technique": [
+        "guidance"
+      ]
     },
     {
       "speaker": "client",
@@ -193,7 +226,9 @@
       "speaker": "counselor",
       "text": "솔직한 감정을 표현하는 것은 약함이 아니라 용기예요. 오히려 진솔한 대화가 친구 관계를 더 깊고 단단하게 만들어줄 수 있어요. 자신의 감정을 숨기고 오해한 채로 지내는 것보다 훨씬 건강한 방법이고요.",
       "turn": 34,
-      "technique": "encouragement"
+      "technique": [
+        "encouragement"
+      ]
     },
     {
       "speaker": "client",
@@ -204,7 +239,9 @@
       "speaker": "counselor",
       "text": "그런 결과가 나올 수도 있다는 걱정이 드시는군요. 하지만 그렇다 하더라도 명확하게 알게 되는 것 자체가 중요해요. 그래야 다음 단계를 계획할 수 있으니까요. 그리고 한 가지 기억해주세요. 어떤 결과가 나오든 그것이 당신의 가치를 결정하는 건 아니에요.",
       "turn": 36,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -215,7 +252,87 @@
       "speaker": "counselor",
       "text": "좋아요. 용기 내주셔서 고마워요. 다음 상담 때 어떻게 되었는지 이야기 나눠보면 좋겠어요. 혹시 그 전에 힘든 일이 생기면 언제든 연락주세요.",
       "turn": 38,
-      "technique": "support"
+      "technique": [
+        "support"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
     }
   ],
   "metadata": {

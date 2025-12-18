@@ -17,7 +17,9 @@
       "speaker": "counselor",
       "text": "안녕하세요. 편하게 앉으세요. 천천히 생각나시는 대로 말씀해주시면 됩니다. 오늘 이 자리에 오시기까지 쉽지 않으셨을 것 같아요.",
       "turn": 2,
-      "technique": "empathy"
+      "technique": [
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -28,7 +30,10 @@
       "speaker": "counselor",
       "text": "10년이라는 시간 동안 교직에 계셨는데, 최근 들어 출근 자체가 힘들어지셨군요. 언제부터 이런 느낌이 드셨나요?",
       "turn": 4,
-      "technique": "reflection"
+      "technique": [
+        "reflection",
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -39,7 +44,9 @@
       "speaker": "counselor",
       "text": "방학 동안 충분히 쉬었는데도 회복이 되지 않으셨다니, 정말 힘드셨겠어요. 구체적으로 어떤 부분이 가장 힘드신가요?",
       "turn": 6,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -50,7 +57,9 @@
       "speaker": "counselor",
       "text": "예전에는 학생들을 가르치는 것이 좋았는데, 지금은 오히려 학생들로 인해 힘들어지셨네요. 그 변화가 본인에게도 낯설고 당황스러우실 것 같아요.",
       "turn": 8,
-      "technique": "empathy"
+      "technique": [
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -61,7 +70,9 @@
       "speaker": "counselor",
       "text": "본인의 반응에 대해 후회하고 자책하고 계시는군요. 그런 순간에 느끼셨던 감정들을 조금 더 자세히 말씀해주실 수 있을까요?",
       "turn": 10,
-      "technique": "exploration"
+      "technique": [
+        "exploration"
+      ]
     },
     {
       "speaker": "client",
@@ -72,7 +83,9 @@
       "speaker": "counselor",
       "text": "무력감을 느끼고 계시고, 본인이 하시는 일의 의미에 대해서도 회의감이 드시는군요. 10년 동안 쌓아온 교사로서의 정체성이 흔들리는 느낌이실 것 같아요.",
       "turn": 12,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -83,7 +96,9 @@
       "speaker": "counselor",
       "text": "직장에서의 어려움이 가정생활에까지 영향을 미치고 있고, 전반적으로 에너지가 많이 고갈되어 있으신 것 같네요. 혹시 이런 상태에 대해 주변 분들과 이야기 나눠보신 적 있으세요?",
       "turn": 14,
-      "technique": "assessment"
+      "technique": [
+        "assessment"
+      ]
     },
     {
       "speaker": "client",
@@ -94,7 +109,9 @@
       "speaker": "counselor",
       "text": "주변에서 충분한 공감을 받지 못하셨고, 동료들 앞에서는 약한 모습을 보이기 어려우셨군요. 혼자 견디시느라 더 힘드셨을 것 같아요.",
       "turn": 16,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -105,7 +122,9 @@
       "speaker": "counselor",
       "text": "도움을 요청하는 것이 나약함이 아니에요. 오히려 자신의 어려움을 인정하고 해결하려는 용기 있는 행동이죠. 오늘 이 자리에 오신 것만으로도 중요한 첫걸음을 내디디신 거예요.",
       "turn": 18,
-      "technique": "support"
+      "technique": [
+        "support"
+      ]
     },
     {
       "speaker": "client",
@@ -116,7 +135,9 @@
       "speaker": "counselor",
       "text": "지금 경험하시는 증상들은 번아웃의 전형적인 모습들이에요. 하지만 번아웃이 직업 적합성의 문제는 아니에요. 10년 동안 의미 있게 해오셨던 일이잖아요. 지금은 그 의미를 다시 찾아가는 과정이 필요한 시기인 것 같아요.",
       "turn": 20,
-      "technique": "psychoeducation"
+      "technique": [
+        "psychoeducation"
+      ]
     },
     {
       "speaker": "client",
@@ -127,18 +148,22 @@
       "speaker": "counselor",
       "text": "지금 당장 큰 변화를 만들어야 한다는 부담은 내려놓으셔도 돼요. 먼저 지금 느끼시는 감정들을 충분히 인정하고, 작은 것부터 시작해보는 게 중요해요. 혹시 요즘 본인을 위해 시간을 내신 적이 있으세요?",
       "turn": 22,
-      "technique": "reframing"
+      "technique": [
+        "reframing"
+      ]
     },
     {
       "speaker": "client",
-      "text": "아니요... 학교 끝나면 집에 와서 그냥 쓰러져 자거나, TV 보면서 시간 보내는 게 전부예요. 예전에는 요가도 하고 친구들도 만났는데, 지금은 그럴 기력이 없어요.",
+      "text": "아니요... 학교 끝나면 집에 와서 그냥 쓰러져 자거나, 텔레비전 보면서 시간 보내는 게 전부예요. 예전에는 요가도 하고 친구들도 만났는데, 지금은 그럴 기력이 없어요.",
       "turn": 23
     },
     {
       "speaker": "counselor",
       "text": "일상에서 즐거움을 주던 활동들을 하지 못하고 계시네요. 그것도 번아웃의 증상 중 하나예요. 작은 것부터 다시 시작해보는 건 어떨까요? 예를 들어 하루 10분이라도 본인만을 위한 시간을 가져보시는 거예요.",
       "turn": 24,
-      "technique": "suggestion"
+      "technique": [
+        "suggestion"
+      ]
     },
     {
       "speaker": "client",
@@ -149,7 +174,9 @@
       "speaker": "counselor",
       "text": "작은 변화들이 모여서 큰 변화를 만들어요. 지금은 자신을 돌보는 연습을 하는 시기라고 생각해주세요. 그리고 교실에서의 상황도 함께 다뤄나가면서, 학생들과의 관계를 새로운 시각으로 바라보는 연습도 해볼 수 있어요.",
       "turn": 26,
-      "technique": "support"
+      "technique": [
+        "support"
+      ]
     },
     {
       "speaker": "client",
@@ -160,7 +187,9 @@
       "speaker": "counselor",
       "text": "지금은 내담자님이 너무 지쳐있어서 모든 것이 부정적으로 보이는 거예요. 마치 색안경을 쓴 것처럼요. 우리가 함께 그 안경을 벗어보는 작업을 해볼 수 있어요. 다음 상담까지 한 가지만 시도해보시겠어요?",
       "turn": 28,
-      "technique": "metaphor"
+      "technique": [
+        "metaphor"
+      ]
     },
     {
       "speaker": "client",
@@ -171,7 +200,9 @@
       "speaker": "counselor",
       "text": "매일 하루를 마치고 나서, 오늘 있었던 일 중에서 작은 긍정적인 순간 하나만 찾아보세요. 아주 사소한 것도 괜찮아요. 학생 한 명이 웃었다거나, 수업 중 한 순간이라도 집중했다거나. 그걸 메모해두시면 좋겠어요.",
       "turn": 30,
-      "technique": "homework"
+      "technique": [
+        "homework"
+      ]
     },
     {
       "speaker": "client",
@@ -182,7 +213,9 @@
       "speaker": "counselor",
       "text": "지금 이 순간에도 변화를 향한 의지를 보여주고 계세요. 회복에는 시간이 걸리지만, 충분히 가능해요. 우리 함께 한 걸음씩 나아가 보아요. 다음 주 같은 시간에 뵐까요?",
       "turn": 32,
-      "technique": "encouragement"
+      "technique": [
+        "encouragement"
+      ]
     },
     {
       "speaker": "client",
@@ -193,7 +226,113 @@
       "speaker": "counselor",
       "text": "말씀 나눠주셔서 감사해요. 힘든 이야기를 꺼내는 게 쉽지 않으셨을 텐데 용기 내주셨어요. 다음 주에 어떤 긍정적인 순간들을 발견하셨는지 함께 이야기 나눠봐요.",
       "turn": 34,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
     }
   ],
   "metadata": {

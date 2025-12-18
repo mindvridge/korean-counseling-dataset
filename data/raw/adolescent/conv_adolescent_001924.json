@@ -17,7 +17,9 @@
       "speaker": "counselor",
       "text": "안녕하세요. 처음 오셨군요. 상담실에 오기까지 용기가 필요했을 텐데 이렇게 찾아와 주셔서 감사해요. 편하게 앉으세요. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
-      "technique": "empathy"
+      "technique": [
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -28,7 +30,10 @@
       "speaker": "counselor",
       "text": "학교 오는 것이 힘들 정도로 친구 관계가 어려운 상황이군요. 그런 마음을 안고 매일 등교하는 게 쉽지 않았겠어요.",
       "turn": 4,
-      "technique": "reflection"
+      "technique": [
+        "reflection",
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -39,7 +44,9 @@
       "speaker": "counselor",
       "text": "중학교 때 친했던 친구들과 떨어지게 되면서 새로운 환경에서 관계를 맺는 것에 어려움을 느끼고 있는 거네요. 구체적으로 어떤 점이 가장 힘든가요?",
       "turn": 6,
-      "technique": "clarification"
+      "technique": [
+        "clarification"
+      ]
     },
     {
       "speaker": "client",
@@ -50,7 +57,9 @@
       "speaker": "counselor",
       "text": "이미 형성된 그룹들 사이에서 자신의 자리를 찾지 못하고 소외감을 느끼고 있군요. 점심시간 같은 때 특히 그런 감정이 더 크게 느껴지나요?",
       "turn": 8,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -61,18 +70,22 @@
       "speaker": "counselor",
       "text": "어려운 상황을 피하려고 하다 보니 악순환이 되는 것 같아서 답답한 마음도 드는 거네요. 그런데 친구들에게 먼저 다가가고 싶은 마음은 있으신가요?",
       "turn": 10,
-      "technique": "exploring"
+      "technique": [
+        "exploring"
+      ]
     },
     {
       "speaker": "client",
-      "text": "그러고 싶긴 한데... 제가 말을 걸면 귀찮아할 것 같고, 뭔가 어색할 것 같아서 못하겠어요. 그리고 SNS 보면 애들이 저 빼고 다 같이 놀러 다니는 것 같더라고요.",
+      "text": "그러고 싶긴 한데... 제가 말을 걸면 귀찮아할 것 같고, 뭔가 어색할 것 같아서 못하겠어요. 그리고 소셜미디어 보면 애들이 저 빼고 다 같이 놀러 다니는 것 같더라고요.",
       "turn": 11
     },
     {
       "speaker": "counselor",
       "text": "SNS를 보면서 자신만 빠진 것 같다는 느낌을 받으셨군요. SNS를 볼 때 어떤 감정이 드나요?",
       "turn": 12,
-      "technique": "emotional_exploration"
+      "technique": [
+        "emotional_exploration"
+      ]
     },
     {
       "speaker": "client",
@@ -83,7 +96,9 @@
       "speaker": "counselor",
       "text": "SNS를 보면서 자신을 다른 사람들과 비교하게 되고, 자신에게 문제가 있는 건 아닌가 하는 생각까지 하게 되는군요. 그런 생각들이 들 때 기분이 어떤가요?",
       "turn": 14,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -94,7 +109,9 @@
       "speaker": "counselor",
       "text": "많이 힘들었겠어요. 혼자서 이런 감정들을 감당하느라 정말 지쳤을 것 같아요. 부모님께는 왜 말씀드리기 어려웠나요?",
       "turn": 16,
-      "technique": "empathy"
+      "technique": [
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -105,7 +122,9 @@
       "speaker": "counselor",
       "text": "부모님이 해결책을 제시하시겠지만, 그것이 지금의 어려움을 이해받는 느낌은 아닐 것 같아서 말씀드리기 어려운 거네요. 이해받고 싶은 마음이 크신 것 같아요.",
       "turn": 18,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -116,7 +135,9 @@
       "speaker": "counselor",
       "text": "전혀 이상하지 않아요. 새로운 환경에서 관계를 맺는 것은 누구에게나 어려운 일이에요. 특히 고등학교 진학처럼 큰 변화가 있을 때는 더욱 그렇죠. 지금 느끼는 감정들은 충분히 자연스러운 거예요.",
       "turn": 20,
-      "technique": "normalization"
+      "technique": [
+        "normalization"
+      ]
     },
     {
       "speaker": "client",
@@ -127,7 +148,9 @@
       "speaker": "counselor",
       "text": "지금까지 혼자 감당하느라 정말 힘들었을 텐데, 이렇게 상담실을 찾아온 것 자체가 변화를 위한 중요한 첫걸음이에요. 혹시 반에서 조금이라도 편하게 느껴지는 친구가 있나요?",
       "turn": 22,
-      "technique": "reframing"
+      "technique": [
+        "reframing"
+      ]
     },
     {
       "speaker": "client",
@@ -138,7 +161,9 @@
       "speaker": "counselor",
       "text": "그래도 먼저 말을 걸어주는 친구가 있다는 건 긍정적인 신호예요. 그 친구와 대화할 때는 어떤 느낌이 드나요?",
       "turn": 24,
-      "technique": "strength_finding"
+      "technique": [
+        "strength_finding"
+      ]
     },
     {
       "speaker": "client",
@@ -149,7 +174,9 @@
       "speaker": "counselor",
       "text": "그 친구와 대화할 때는 괜찮다고 느끼지만, 먼저 다가가는 것에 대한 두려움이 있는 거네요. 거절당하거나 부담스러워할까 봐 걱정되는 건가요?",
       "turn": 26,
-      "technique": "clarification"
+      "technique": [
+        "clarification"
+      ]
     },
     {
       "speaker": "client",
@@ -160,7 +187,9 @@
       "speaker": "counselor",
       "text": "지금 가지고 있는 작은 연결고리마저 잃을까 봐 두려운 마음이 크군요. 그 두려움 때문에 한 발짝도 나아가기 어려운 상황인 거예요. 그런데 만약 그 친구가 귀찮아하지 않는다면 어떨 것 같아요?",
       "turn": 28,
-      "technique": "cognitive_restructuring"
+      "technique": [
+        "cognitive_restructuring"
+      ]
     },
     {
       "speaker": "client",
@@ -171,7 +200,9 @@
       "speaker": "counselor",
       "text": "함께 시간을 보낼 수 있는 친구가 생기는 것을 원하고 계시네요. 그렇다면 우리가 함께 작은 것부터 시도해 볼 수 있는 방법들을 찾아보면 어떨까요? 예를 들어, 부담스럽지 않은 작은 대화부터 시작하는 거예요.",
       "turn": 30,
-      "technique": "goal_setting"
+      "technique": [
+        "goal_setting"
+      ]
     },
     {
       "speaker": "client",
@@ -182,18 +213,22 @@
       "speaker": "counselor",
       "text": "물론이죠. 예를 들어, 수업 내용에 대해 간단히 물어보거나, 시험 범위에 대해 이야기하는 것처럼 자연스러운 주제로 시작할 수 있어요. 이미 그 친구가 먼저 말을 걸어준 적이 있다면, 여러분도 충분히 할 수 있어요.",
       "turn": 32,
-      "technique": "encouragement"
+      "technique": [
+        "encouragement"
+      ]
     },
     {
       "speaker": "client",
-      "text": "그 정도면... 해볼 수 있을 것 같기도 해요. 근데 SNS 보는 건 어떻게 해야 할까요? 자꾸 보게 되거든요.",
+      "text": "그 정도면... 해볼 수 있을 것 같기도 해요. 근데 소셜미디어 보는 건 어떻게 해야 할까요? 자꾸 보게 되거든요.",
       "turn": 33
     },
     {
       "speaker": "counselor",
       "text": "SNS가 지금은 오히려 기분을 더 안 좋게 만드는 것 같네요. SNS를 볼 때와 보지 않을 때 기분이 어떻게 다른지 한번 관찰해 보는 건 어떨까요? 그리고 보고 싶을 때 대신 할 수 있는 다른 활동을 생각해 보는 것도 도움이 될 거예요.",
       "turn": 34,
-      "technique": "behavioral_intervention"
+      "technique": [
+        "behavioral_intervention"
+      ]
     },
     {
       "speaker": "client",
@@ -202,9 +237,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "그런 패턴을 인식하신 것만으로도 중요한 발걸음이에요. 오늘 우리가 나눈 이야기를 정리해 볼까요? 우선 옆자리 친구와 작은 대화 시도해 보기, 그리고 SNS 사용 패턴 관찰해 보기. 다음에 만날 때 어떠셨는지 이야기 나눠보면 좋겠어요.",
+      "text": "그런 패턴을 인식하신 것만으로도 중요한 발걸음이에요. 오늘 우리가 나눈 이야기를 정리해 볼까요? 우선 옆자리 친구와 작은 대화 시도해 보기, 그리고 소셜미디어 사용 패턴 관찰해 보기. 다음에 만날 때 어떠셨는지 이야기 나눠보면 좋겠어요.",
       "turn": 36,
-      "technique": "summarization"
+      "technique": [
+        "summarization"
+      ]
     },
     {
       "speaker": "client",
@@ -215,7 +252,87 @@
       "speaker": "counselor",
       "text": "마음이 조금이라도 가벼워졌다니 다행이에요. 작은 시도들이 모여서 변화를 만들어낼 거예요. 언제든 힘들 때 다시 찾아와 주세요. 응원하고 있을게요.",
       "turn": 38,
-      "technique": "support"
+      "technique": [
+        "support"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
     }
   ],
   "metadata": {

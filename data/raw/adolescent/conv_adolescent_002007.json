@@ -17,7 +17,10 @@
       "speaker": "counselor",
       "text": "안녕하세요. 편하게 앉으세요. 오늘 무슨 일로 상담실을 찾아왔나요?",
       "turn": 2,
-      "technique": "open_question"
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -28,7 +31,9 @@
       "speaker": "counselor",
       "text": "친구들과 함께 있어도 혼자라고 느껴진다니, 많이 외롭고 힘들었겠어요.",
       "turn": 4,
-      "technique": "empathy"
+      "technique": [
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -39,7 +44,9 @@
       "speaker": "counselor",
       "text": "자신만 제외된 모임 사진을 보게 되었군요. 그 순간 어떤 기분이 들었나요?",
       "turn": 6,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -50,7 +57,9 @@
       "speaker": "counselor",
       "text": "그런 상황을 마주했을 때 충격받고 밤새 잠을 이루지 못할 만큼 힘들었다는 거, 충분히 이해가 돼요. 그런 감정을 느끼는 게 당연해요.",
       "turn": 8,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -61,7 +70,9 @@
       "speaker": "counselor",
       "text": "친구들이 그렇게 말했군요. 그 말을 들었을 때는 어땠나요?",
       "turn": 10,
-      "technique": "open_question"
+      "technique": [
+        "open_question"
+      ]
     },
     {
       "speaker": "client",
@@ -72,7 +83,9 @@
       "speaker": "counselor",
       "text": "자신의 감정이 무시당하는 것 같아서 더 속상했던 거네요. 당신의 감정은 충분히 중요하고 존중받을 가치가 있어요.",
       "turn": 12,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -83,7 +96,9 @@
       "speaker": "counselor",
       "text": "이런 일이 반복되어 왔다는 거군요. 언제부터 이런 느낌을 받기 시작했나요?",
       "turn": 14,
-      "technique": "exploration"
+      "technique": [
+        "exploration"
+      ]
     },
     {
       "speaker": "client",
@@ -94,7 +109,9 @@
       "speaker": "counselor",
       "text": "아, 반이 바뀌면서 친한 친구들과 떨어지게 되었고, 새로운 환경에 적응하는 게 쉽지 않았던 거네요.",
       "turn": 16,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -105,7 +122,9 @@
       "speaker": "counselor",
       "text": "양쪽 모두에서 소속감을 느끼기 어려운 상황이네요. 그럼 지금 학교에서 편하게 대화할 수 있는 친구가 있나요?",
       "turn": 18,
-      "technique": "assessment"
+      "technique": [
+        "assessment"
+      ]
     },
     {
       "speaker": "client",
@@ -116,7 +135,9 @@
       "speaker": "counselor",
       "text": "항상 우선순위에서 밀린다고 느껴지는 거군요. 그런 느낌이 들 때 보통 어떻게 행동하나요?",
       "turn": 20,
-      "technique": "exploration"
+      "technique": [
+        "exploration"
+      ]
     },
     {
       "speaker": "client",
@@ -127,7 +148,9 @@
       "speaker": "counselor",
       "text": "자신의 진짜 감정을 숨기고 괜찮은 척하고 있었네요. 그렇게 하는 게 관계를 지키는 방법이라고 생각했던 건가요?",
       "turn": 22,
-      "technique": "reflection"
+      "technique": [
+        "reflection"
+      ]
     },
     {
       "speaker": "client",
@@ -138,7 +161,9 @@
       "speaker": "counselor",
       "text": "혼자가 될까 봐 두려워서 자신의 진심을 표현하지 못하고 있었군요. 그 두려움을 안고 지내는 게 얼마나 힘들었을까요.",
       "turn": 24,
-      "technique": "empathy"
+      "technique": [
+        "empathy"
+      ]
     },
     {
       "speaker": "client",
@@ -149,7 +174,9 @@
       "speaker": "counselor",
       "text": "매일 가면을 쓰고 지내는 것처럼 느껴지니까 정말 지칠 수밖에 없었을 거예요. 그런데 지금 이렇게 용기 내어 상담실을 찾아온 것 자체가 대단한 일이에요.",
       "turn": 26,
-      "technique": "validation"
+      "technique": [
+        "validation"
+      ]
     },
     {
       "speaker": "client",
@@ -160,7 +187,9 @@
       "speaker": "counselor",
       "text": "네, 도움을 요청하는 것도 큰 용기가 필요한 일이에요. 지금 이 순간부터는 혼자가 아니에요. 함께 이 문제를 풀어나가 볼까요?",
       "turn": 28,
-      "technique": "support"
+      "technique": [
+        "support"
+      ]
     },
     {
       "speaker": "client",
@@ -171,7 +200,9 @@
       "speaker": "counselor",
       "text": "그것도 하나의 방법이 될 수 있겠네요. 그런데 그 전에, 당신은 친구 관계에서 무엇을 가장 원하나요? 어떤 관계를 맺고 싶은가요?",
       "turn": 30,
-      "technique": "goal_setting"
+      "technique": [
+        "goal_setting"
+      ]
     },
     {
       "speaker": "client",
@@ -182,7 +213,9 @@
       "speaker": "counselor",
       "text": "진정성 있는 관계, 서로를 소중히 여기는 관계를 원하는 거네요. 그런 관계를 만들기 위해서 우리가 함께 어떤 것들을 시도해볼 수 있을지 차근차근 생각해보면 어떨까요?",
       "turn": 32,
-      "technique": "collaboration"
+      "technique": [
+        "collaboration"
+      ]
     },
     {
       "speaker": "client",
@@ -193,7 +226,9 @@
       "speaker": "counselor",
       "text": "변화는 가능해요. 지금 이렇게 자신의 문제를 인식하고 도움을 구한 것만으로도 이미 변화의 첫걸음을 내디딘 거예요. 다음 시간에는 구체적인 방법들을 함께 찾아볼까요?",
       "turn": 34,
-      "technique": "encouragement"
+      "technique": [
+        "encouragement"
+      ]
     },
     {
       "speaker": "client",
@@ -204,7 +239,100 @@
       "speaker": "counselor",
       "text": "그렇게 느껴진다니 다행이에요. 오늘 용기 내준 것 정말 잘했어요. 다음 시간에 또 만나요.",
       "turn": 36,
-      "technique": "support"
+      "technique": [
+        "support"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
     }
   ],
   "metadata": {

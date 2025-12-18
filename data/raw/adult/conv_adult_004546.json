@@ -122,12 +122,12 @@
     {
       "turn": 9,
       "speaker": "client",
-      "text": "생각이 나요. 그럼 SNS 들어가서 프로필 보고, 그러다 문자하거나 전화해요."
+      "text": "생각이 나요. 그럼 소셜미디어 들어가서 프로필 보고, 그러다 문자하거나 전화해요."
     },
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "생각 → SNS 확인 → 연락, 이런 패턴이군요. 이 과정에서 어느 단계가 가장 끊기 어려워 보이세요?",
+      "text": "생각 → 소셜미디어 확인 → 연락, 이런 패턴이군요. 이 과정에서 어느 단계가 가장 끊기 어려워 보이세요?",
       "technique": [
         "summarization",
         "open_question"
@@ -136,7 +136,7 @@
     {
       "turn": 10,
       "speaker": "client",
-      "text": "SNS 보는 거요. 일단 보면... 참을 수가 없어요."
+      "text": "소셜미디어 보는 거요. 일단 보면... 참을 수가 없어요."
     },
     {
       "turn": 10,
@@ -281,7 +281,7 @@
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "사람마다 달라요. 하지만 조급해하지 말고 한 걸음씩 가면 돼요. 오늘부터 SNS 차단부터 시작해볼까요?",
+      "text": "사람마다 달라요. 하지만 조급해하지 말고 한 걸음씩 가면 돼요. 오늘부터 소셜미디어 차단부터 시작해볼까요?",
       "technique": [
         "information_giving",
         "goal_setting"
@@ -313,6 +313,45 @@
       "technique": [
         "encouragement",
         "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
       ]
     }
   ],
