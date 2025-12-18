@@ -3,7 +3,10 @@
     "category": "elderly",
     "topic": "역할 상실감",
     "session_number": 1,
-    "total_turns": 25
+    "total_turns": 26,
+    "therapeutic_outcome": "terminated",
+    "rapport_score": 3,
+    "session_effectiveness": 2
   },
   "client_profile": {
     "age": "65세",
@@ -54,7 +57,8 @@
       "technique": [
         "validation",
         "empathy",
-        "reflection"
+        "reflection",
+        "role_play"
       ]
     },
     {
@@ -386,6 +390,20 @@
         "validation",
         "behavioral_activation"
       ]
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "그 빈 의자에 당신의 내면 아이가 앉아있다고 생각해보세요. 뭐라고 말해주고 싶으세요?",
+      "technique": [
+        "empty_chair",
+        "inner_child_work"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ]
 }

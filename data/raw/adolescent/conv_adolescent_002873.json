@@ -255,7 +255,9 @@
       "technique": [
         "suggestion_and_encouragement",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play",
+        "imagery_work"
       ]
     },
     {
@@ -282,7 +284,9 @@
       "turn": 40,
       "technique": [
         "reframing_and_suggestion",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -296,7 +300,8 @@
       "turn": 42,
       "technique": [
         "role_play_and_suggestion",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -310,7 +315,8 @@
       "turn": 44,
       "technique": [
         "summarization_and_goal_setting",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -352,12 +358,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 49,
+      "speaker": "counselor",
+      "text": "그 상황을 여기서 한번 연습해볼까요? 제가 상대방 역할을 할게요.",
+      "technique": [
+        "role_play",
+        "behavioral_rehearsal"
+      ]
+    },
+    {
+      "turn": 49,
+      "speaker": "client",
+      "text": "네... 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T08:40:42.453798+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "in_progress",
+    "rapport_score": 5,
+    "session_effectiveness": 4,
+    "total_turns": 49
   },
   "client_profile": {
     "age": "15세",

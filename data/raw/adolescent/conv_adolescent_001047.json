@@ -2,7 +2,7 @@
   "metadata": {
     "category": "대인관계",
     "topic": "직장 내 관계 갈등 및 자존감 문제",
-    "total_turns": 25,
+    "total_turns": 26,
     "quality_indicators": [
       "적극적 경청",
       "감정 반영",
@@ -12,7 +12,10 @@
       "감정 명명하기",
       "통찰 촉진",
       "강점 발견"
-    ]
+    ],
+    "therapeutic_outcome": "maintaining",
+    "rapport_score": 5,
+    "session_effectiveness": 3
   },
   "conversation": [
     {
@@ -26,7 +29,8 @@
       "text": "안녕하세요. 처음 상담 오시는 게 쉽지 않으셨을 텐데 용기 내어 찾아와 주셨네요. 이곳은 안전한 공간이니 편안하게 말씀해 주시면 됩니다. 회사에서 어떤 일들이 힘드셨는지 천천히 이야기해 주시겠어요?",
       "technique": [
         "empathy",
-        "body_scan"
+        "body_scan",
+        "relaxation_training"
       ]
     },
     {
@@ -116,7 +120,8 @@
         "reflection",
         "open_question",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -278,7 +283,9 @@
       "text": "그 순간을 대비하는 것도 중요하죠. 회의 전에 '팀장님의 반응이 어떻든 내 의견은 가치가 있다'고 스스로에게 말해보세요. 그리고 거절당했을 때는 '이건 팀장님의 선택이지 내 가치에 대한 판단이 아니다'라고 속으로 되뇌어보는 거예요. 처음엔 어색하지만 반복하면 조금씩 달라질 거예요.",
       "technique": [
         "reflection",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -293,7 +300,8 @@
       "technique": [
         "reflection",
         "open_question",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -334,7 +342,9 @@
       "text": "좋아요. 다음 상담 때는 오늘 나눈 것들을 실천해보신 경험을 함께 나눠보면 좋겠어요. 어려운 점이나 변화된 점 모두요. 그리고 힘든 순간이 오면, 오늘 우리가 나눈 대화를 떠올려보세요. 본인은 충분히 가치 있는 사람이라는 것을요.",
       "technique": [
         "reflection",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play",
+        "imagery_work"
       ]
     },
     {
@@ -389,6 +399,20 @@
         "empathy",
         "encouragement"
       ]
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "만약 지금 그 사람이 여기 빈 의자에 앉아있다고 상상해보세요. 뭐라고 말하고 싶으세요?",
+      "technique": [
+        "empty_chair",
+        "imagery_work"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ],
   "seed_info": {

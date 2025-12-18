@@ -264,7 +264,9 @@
       "technique": [
         "action_planning",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play",
+        "imagery_work"
       ]
     },
     {
@@ -345,12 +347,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 41,
+      "speaker": "counselor",
+      "text": "그 상황을 마음속으로 그려보세요. 무엇이 보이나요?",
+      "technique": [
+        "imagery_work",
+        "exploration"
+      ]
+    },
+    {
+      "turn": 41,
+      "speaker": "client",
+      "text": "네... 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T08:16:46.017731+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 5,
+    "total_turns": 41
   },
   "client_profile": {
     "age": "18세",

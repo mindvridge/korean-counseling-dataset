@@ -275,7 +275,8 @@
       "technique": [
         "encouragement",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -342,12 +343,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 41,
+      "speaker": "counselor",
+      "text": "그 상황을 여기서 한번 연습해볼까요? 제가 상대방 역할을 할게요.",
+      "technique": [
+        "role_play",
+        "behavioral_rehearsal"
+      ]
+    },
+    {
+      "turn": 41,
+      "speaker": "client",
+      "text": "네... 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-18T01:04:37.290443+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 4,
+    "total_turns": 41
   },
   "client_profile": {
     "age": "18세",

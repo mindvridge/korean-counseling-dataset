@@ -3,7 +3,10 @@
     "category": "elderly",
     "topic": "건강 불안",
     "session_number": 1,
-    "total_turns": 25
+    "total_turns": 26,
+    "therapeutic_outcome": "in_progress",
+    "rapport_score": 4,
+    "session_effectiveness": 3
   },
   "client_profile": {
     "age": "68세",
@@ -54,7 +57,8 @@
       "technique": [
         "validation",
         "empathy",
-        "reflection"
+        "reflection",
+        "role_play"
       ]
     },
     {
@@ -386,6 +390,20 @@
         "validation",
         "behavioral_activation"
       ]
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "그 상황을 마음속으로 그려보세요. 무엇이 보이나요?",
+      "technique": [
+        "imagery_work",
+        "exploration"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ]
 }

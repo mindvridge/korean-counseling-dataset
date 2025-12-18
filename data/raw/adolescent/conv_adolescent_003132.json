@@ -198,7 +198,8 @@
       "turn": 28,
       "technique": [
         "guidance",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -255,7 +256,8 @@
       "technique": [
         "summarization",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -270,7 +272,8 @@
       "technique": [
         "encouragement",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -350,12 +353,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 39,
+      "speaker": "counselor",
+      "text": "눈을 감고, 가장 평화로웠던 장소를 떠올려보세요. 어떤 곳인가요?",
+      "technique": [
+        "imagery_work",
+        "relaxation_training"
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T09:10:45.199749+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 3,
+    "session_effectiveness": 4,
+    "total_turns": 39
   },
   "client_profile": {
     "age": "16세",

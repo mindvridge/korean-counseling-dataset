@@ -2,7 +2,7 @@
   "metadata": {
     "category": "대인관계",
     "topic": "직장 내 관계 갈등 및 자기표현의 어려움",
-    "total_turns": 25,
+    "total_turns": 26,
     "quality_indicators": [
       "적극적 경청",
       "감정 반영",
@@ -11,7 +11,10 @@
       "구체화",
       "강점 강화",
       "인지적 재구성"
-    ]
+    ],
+    "therapeutic_outcome": "terminated",
+    "rapport_score": 4,
+    "session_effectiveness": 2
   },
   "conversation": [
     {
@@ -25,7 +28,8 @@
       "text": "안녕하세요. 처음 상담 오시는 게 쉽지 않으셨을 텐데 용기 내주셨네요. 여기는 안전한 공간이니 편안하게 말씀해 주시면 됩니다. 직장에서 어떤 일들이 힘드셨는지 천천히 이야기해 주시겠어요?",
       "technique": [
         "empathy",
-        "body_scan"
+        "body_scan",
+        "relaxation_training"
       ]
     },
     {
@@ -123,7 +127,8 @@
         "open_question",
         "emotion_labeling",
         "cognitive_restructuring",
-        "body_scan"
+        "body_scan",
+        "exposure_technique"
       ]
     },
     {
@@ -155,7 +160,8 @@
         "reflection",
         "open_question",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -243,7 +249,8 @@
         "empathy",
         "open_question",
         "behavioral_experiment",
-        "breathing_technique"
+        "breathing_technique",
+        "role_play"
       ]
     },
     {
@@ -274,7 +281,8 @@
         "reflection",
         "empathy",
         "coping_question",
-        "body_scan"
+        "body_scan",
+        "relaxation_training"
       ]
     },
     {
@@ -302,7 +310,8 @@
       "text": "네, 기다리고 있을게요. 이번 주에 실천해보시고, 어떤 결과가 나오든 그 경험을 함께 나누면서 다음 단계를 계획해봐요. 혹시 그 전에 너무 힘들거나 궁금한 게 있으시면 언제든 연락주세요. 오늘 정말 수고 많으셨어요.",
       "technique": [
         "reflection",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -456,6 +465,20 @@
         "empathy",
         "encouragement"
       ]
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "역할을 바꿔서 상대방 입장에서 이야기해보시겠어요?",
+      "technique": [
+        "role_play",
+        "perspective_taking"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ],
   "seed_info": {

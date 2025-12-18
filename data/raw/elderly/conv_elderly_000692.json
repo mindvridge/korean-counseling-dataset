@@ -3,7 +3,10 @@
     "category": "elderly",
     "topic": "건강 불안",
     "session_number": 1,
-    "total_turns": 25
+    "total_turns": 26,
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 5
   },
   "client_profile": {
     "age": "70세",
@@ -54,7 +57,8 @@
       "technique": [
         "validation",
         "empathy",
-        "reflection"
+        "reflection",
+        "role_play"
       ]
     },
     {
@@ -386,6 +390,20 @@
         "validation",
         "behavioral_activation"
       ]
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "역할을 바꿔서 상대방 입장에서 이야기해보시겠어요?",
+      "technique": [
+        "role_play",
+        "perspective_taking"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "네... 해볼게요."
     }
   ]
 }

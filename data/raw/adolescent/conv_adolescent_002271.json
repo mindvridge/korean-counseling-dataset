@@ -272,7 +272,8 @@
       "technique": [
         "summarization",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -352,12 +353,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 41,
+      "speaker": "counselor",
+      "text": "잠시 호흡에 집중해볼까요? 천천히 들이쉬고... 내쉬고...",
+      "technique": [
+        "relaxation_training",
+        "breathing_technique"
+      ]
+    },
+    {
+      "turn": 41,
+      "speaker": "client",
+      "text": "네... 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T07:31:07.574266+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "in_progress",
+    "rapport_score": 5,
+    "session_effectiveness": 3,
+    "total_turns": 41
   },
   "client_profile": {
     "age": "15세",

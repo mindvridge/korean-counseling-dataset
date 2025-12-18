@@ -3,7 +3,10 @@
     "category": "elderly",
     "topic": "경제적 불안",
     "session_number": 1,
-    "total_turns": 25
+    "total_turns": 26,
+    "therapeutic_outcome": "improved",
+    "rapport_score": 5,
+    "session_effectiveness": 5
   },
   "client_profile": {
     "age": "75세",
@@ -54,7 +57,8 @@
       "technique": [
         "validation",
         "empathy",
-        "reflection"
+        "reflection",
+        "role_play"
       ]
     },
     {
@@ -386,6 +390,20 @@
         "validation",
         "behavioral_activation"
       ]
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "그 상황을 마음속으로 그려보세요. 무엇이 보이나요?",
+      "technique": [
+        "imagery_work",
+        "exploration"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ]
 }

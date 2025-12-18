@@ -2,8 +2,11 @@
   "metadata": {
     "category": "adolescent",
     "topic": "수면 문제",
-    "total_turns": 25,
-    "generated_at": "2025-12-18T07:14:27.412620+00:00"
+    "total_turns": 40,
+    "generated_at": "2025-12-18T07:14:27.412620+00:00",
+    "therapeutic_outcome": "in_progress",
+    "rapport_score": 4,
+    "session_effectiveness": 3
   },
   "client_profile": {
     "age": "15세",
@@ -78,7 +81,8 @@
       "text": "이 일이 일상생활에도 영향을 미치고 있네요. 학교에 가면 친구들을 마주치게 될 텐데, 그게 두렵나요?",
       "turn": 10,
       "technique": [
-        "exploration"
+        "exploration",
+        "exposure_technique"
       ]
     },
     {
@@ -172,7 +176,9 @@
       "technique": [
         "reframing",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -255,7 +261,9 @@
       "technique": [
         "summarization",
         "behavioral_experiment",
-        "mindfulness"
+        "mindfulness",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -348,6 +356,20 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 40,
+      "speaker": "counselor",
+      "text": "눈을 감고, 가장 평화로웠던 장소를 떠올려보세요. 어떤 곳인가요?",
+      "technique": [
+        "imagery_work",
+        "relaxation_training"
+      ]
+    },
+    {
+      "turn": 40,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ]
 }

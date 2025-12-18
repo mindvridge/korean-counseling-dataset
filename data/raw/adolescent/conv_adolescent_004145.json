@@ -267,7 +267,9 @@
       "technique": [
         "support",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -347,12 +349,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 39,
+      "speaker": "counselor",
+      "text": "그 빈 의자에 당신의 내면 아이가 앉아있다고 생각해보세요. 뭐라고 말해주고 싶으세요?",
+      "technique": [
+        "empty_chair",
+        "inner_child_work"
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T11:06:22.287454+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 3,
+    "session_effectiveness": 4,
+    "total_turns": 39
   },
   "client_profile": {
     "age": "18세",

@@ -224,7 +224,8 @@
       "turn": 32,
       "technique": [
         "problem_solving",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -252,7 +253,8 @@
       "turn": 36,
       "technique": [
         "guidance",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -345,12 +347,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 39,
+      "speaker": "counselor",
+      "text": "그 빈 의자에 당신의 내면 아이가 앉아있다고 생각해보세요. 뭐라고 말해주고 싶으세요?",
+      "technique": [
+        "empty_chair",
+        "inner_child_work"
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T06:27:40.780622+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 5,
+    "total_turns": 39
   },
   "client_profile": {
     "age": "14세",

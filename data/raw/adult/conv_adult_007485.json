@@ -2,8 +2,11 @@
   "metadata": {
     "category": "adult",
     "topic": "직장 내 인간관계 갈등",
-    "total_turns": 25,
-    "generated_at": "2025-12-18T07:14:30.675943+00:00"
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:30.675943+00:00",
+    "therapeutic_outcome": "terminated",
+    "rapport_score": 4,
+    "session_effectiveness": 3
   },
   "client_profile": {
     "age": "25세",
@@ -130,7 +133,9 @@
       "technique": [
         "information_giving",
         "clarification",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -174,7 +179,9 @@
         "open_question",
         "encouragement",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play",
+        "imagery_work"
       ]
     },
     {
@@ -450,6 +457,20 @@
         "empathy",
         "encouragement"
       ]
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "그 상황을 여기서 한번 연습해볼까요? 제가 상대방 역할을 할게요.",
+      "technique": [
+        "role_play",
+        "behavioral_rehearsal"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "네... 해볼게요."
     }
   ]
 }

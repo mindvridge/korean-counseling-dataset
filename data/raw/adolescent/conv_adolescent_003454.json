@@ -147,7 +147,9 @@
       "technique": [
         "perspective-taking",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play",
+        "imagery_work"
       ]
     },
     {
@@ -203,7 +205,9 @@
       "technique": [
         "open-ended question",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -230,7 +234,9 @@
       "turn": 32,
       "technique": [
         "suggestion",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -256,7 +262,8 @@
       "text": "맞아요. 오늘 이야기 나누면서 많이 정리가 된 것 같네요. 친구들과 대화해본 후에 어떻게 됐는지 다음에 또 이야기 나눠볼까요?",
       "turn": 36,
       "technique": [
-        "summarizing"
+        "summarizing",
+        "empty_chair"
       ]
     },
     {
@@ -349,12 +356,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 38,
+      "speaker": "counselor",
+      "text": "잠시 호흡에 집중해볼까요? 천천히 들이쉬고... 내쉬고...",
+      "technique": [
+        "relaxation_training",
+        "breathing_technique"
+      ]
+    },
+    {
+      "turn": 38,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T09:47:33.943468+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "in_progress",
+    "rapport_score": 4,
+    "session_effectiveness": 3,
+    "total_turns": 38
   },
   "client_profile": {
     "age": "18세",

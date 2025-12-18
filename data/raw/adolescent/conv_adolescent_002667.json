@@ -209,7 +209,8 @@
       "turn": 30,
       "technique": [
         "solution_focused",
-        "body_scan"
+        "body_scan",
+        "relaxation_training"
       ]
     },
     {
@@ -222,7 +223,8 @@
       "text": "그림을 좋아하는군요! 학교에 미술 동아리나 관련 활동이 있나요? 자신의 관심사를 드러내는 것이 비슷한 취향을 가진 친구를 만나는 좋은 방법이 될 수 있어요.",
       "turn": 32,
       "technique": [
-        "suggestion"
+        "suggestion",
+        "imagery_work"
       ]
     },
     {
@@ -250,7 +252,8 @@
       "turn": 36,
       "technique": [
         "exploration",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "empty_chair"
       ]
     },
     {
@@ -346,12 +349,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 43,
+      "speaker": "counselor",
+      "text": "잠시 호흡에 집중해볼까요? 천천히 들이쉬고... 내쉬고...",
+      "technique": [
+        "relaxation_training",
+        "breathing_technique"
+      ]
+    },
+    {
+      "turn": 43,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T08:16:59.977267+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 5,
+    "session_effectiveness": 5,
+    "total_turns": 43
   },
   "client_profile": {
     "age": "18세",

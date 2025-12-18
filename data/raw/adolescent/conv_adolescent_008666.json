@@ -2,8 +2,11 @@
   "metadata": {
     "category": "adolescent",
     "topic": "학원 스트레스",
-    "total_turns": 25,
-    "generated_at": "2025-12-18T07:14:27.139446+00:00"
+    "total_turns": 42,
+    "generated_at": "2025-12-18T07:14:27.139446+00:00",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 4
   },
   "client_profile": {
     "age": "15세",
@@ -131,7 +134,8 @@
       "text": "전혀 이상한 게 아니에요. 불확실한 상황에서 어떻게 행동해야 할지 모르는 건 자연스러운 반응이에요. 학교에서 친구들과 마주칠 때 구체적으로 어떤 상황이 가장 어려운가요?",
       "turn": 18,
       "technique": [
-        "reassurance"
+        "reassurance",
+        "exposure_technique"
       ]
     },
     {
@@ -228,7 +232,8 @@
       "technique": [
         "skill_building",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -351,6 +356,20 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 42,
+      "speaker": "counselor",
+      "text": "그 상황을 여기서 한번 연습해볼까요? 제가 상대방 역할을 할게요.",
+      "technique": [
+        "role_play",
+        "behavioral_rehearsal"
+      ]
+    },
+    {
+      "turn": 42,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ]
 }

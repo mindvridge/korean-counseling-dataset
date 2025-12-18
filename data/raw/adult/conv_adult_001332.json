@@ -216,7 +216,8 @@
       "technique": [
         "encouragement",
         "goal_setting",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -232,7 +233,8 @@
         "validation",
         "structuring",
         "behavioral_experiment",
-        "mindfulness"
+        "mindfulness",
+        "role_play"
       ]
     },
     {
@@ -293,7 +295,8 @@
         "emotion_labeling",
         "cognitive_restructuring",
         "behavioral_experiment",
-        "mindfulness"
+        "mindfulness",
+        "role_play"
       ]
     },
     {
@@ -328,7 +331,8 @@
         "emotion_labeling",
         "behavioral_experiment",
         "mindfulness",
-        "breathing_technique"
+        "breathing_technique",
+        "role_play"
       ]
     },
     {
@@ -388,7 +392,8 @@
       "technique": [
         "clarification",
         "closed_question",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -404,7 +409,8 @@
         "encouragement",
         "information_giving",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -464,6 +470,20 @@
         "validation",
         "emotion_labeling"
       ]
+    },
+    {
+      "turn": 31,
+      "speaker": "counselor",
+      "text": "잠시 호흡에 집중해볼까요? 천천히 들이쉬고... 내쉬고...",
+      "technique": [
+        "relaxation_training",
+        "breathing_technique"
+      ]
+    },
+    {
+      "turn": 31,
+      "speaker": "client",
+      "text": "네... 해볼게요."
     }
   ],
   "generated_at": "2025-12-17T00:00:00.000Z",
@@ -472,6 +492,10 @@
     "generated_at": "2025-12-18T03:01:29.000000+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
-    "generator": "claude_code_direct"
+    "generator": "claude_code_direct",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 4,
+    "total_turns": 31
   }
 }

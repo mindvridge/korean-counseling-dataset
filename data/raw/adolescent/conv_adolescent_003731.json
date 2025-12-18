@@ -226,7 +226,8 @@
       "text": "그거 좋은데요! 이미 경험도 있고 좋아하는 활동이라면 자신감을 가지고 참여할 수 있을 것 같아요. 그림이라는 공통 관심사를 통해 자연스럽게 대화를 나눌 수 있을 거예요.",
       "turn": 32,
       "technique": [
-        "encouragement"
+        "encouragement",
+        "imagery_work"
       ]
     },
     {
@@ -242,7 +243,9 @@
         "reframing",
         "emotion_labeling",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play",
+        "imagery_work"
       ]
     },
     {
@@ -256,7 +259,8 @@
       "turn": 36,
       "technique": [
         "goal_setting",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -350,12 +354,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 39,
+      "speaker": "counselor",
+      "text": "그 상황을 마음속으로 그려보세요. 무엇이 보이나요?",
+      "technique": [
+        "imagery_work",
+        "exploration"
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T10:19:36.594987+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 5,
+    "total_turns": 39
   },
   "client_profile": {
     "age": "16세",

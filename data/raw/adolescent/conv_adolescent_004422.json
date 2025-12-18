@@ -19,7 +19,8 @@
       "turn": 2,
       "technique": [
         "empathy",
-        "body_scan"
+        "body_scan",
+        "relaxation_training"
       ]
     },
     {
@@ -172,7 +173,8 @@
       "text": "그림 그리기를 좋아하셨군요. 그림을 그릴 때는 어떤 기분이 들었나요?",
       "turn": 24,
       "technique": [
-        "exploration"
+        "exploration",
+        "imagery_work"
       ]
     },
     {
@@ -186,7 +188,9 @@
       "turn": 26,
       "technique": [
         "coping strategy",
-        "body_scan"
+        "body_scan",
+        "imagery_work",
+        "relaxation_training"
       ]
     },
     {
@@ -258,7 +262,9 @@
       "technique": [
         "encouragement",
         "behavioral_experiment",
-        "grounding"
+        "grounding",
+        "role_play",
+        "imagery_work"
       ]
     },
     {
@@ -352,12 +358,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 39,
+      "speaker": "counselor",
+      "text": "그 빈 의자에 당신의 내면 아이가 앉아있다고 생각해보세요. 뭐라고 말해주고 싶으세요?",
+      "technique": [
+        "empty_chair",
+        "inner_child_work"
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "client",
+      "text": "네... 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T11:34:55.091275+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 3,
+    "session_effectiveness": 5,
+    "total_turns": 39
   },
   "client_profile": {
     "age": "15세",

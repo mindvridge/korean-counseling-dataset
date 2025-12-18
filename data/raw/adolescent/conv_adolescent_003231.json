@@ -213,7 +213,8 @@
       "text": "그림이 당신에게 위안이 되는 활동이군요. 혹시 학교에 미술 동아리나 비슷한 관심사를 가진 친구들이 모이는 곳이 있나요?",
       "turn": 30,
       "technique": [
-        "solution_focused"
+        "solution_focused",
+        "imagery_work"
       ]
     },
     {
@@ -228,7 +229,8 @@
       "technique": [
         "encouragement",
         "behavioral_experiment",
-        "grounding"
+        "grounding",
+        "role_play"
       ]
     },
     {
@@ -244,7 +246,10 @@
         "solution_focused",
         "behavioral_experiment",
         "cognitive_defusion",
-        "body_scan"
+        "body_scan",
+        "role_play",
+        "imagery_work",
+        "relaxation_training"
       ]
     },
     {
@@ -273,7 +278,8 @@
       "technique": [
         "collaboration",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -353,12 +359,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 41,
+      "speaker": "counselor",
+      "text": "역할을 바꿔서 상대방 입장에서 이야기해보시겠어요?",
+      "technique": [
+        "role_play",
+        "perspective_taking"
+      ]
+    },
+    {
+      "turn": 41,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T09:22:21.762075+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "maintaining",
+    "rapport_score": 5,
+    "session_effectiveness": 4,
+    "total_turns": 41
   },
   "client_profile": {
     "age": "14세",

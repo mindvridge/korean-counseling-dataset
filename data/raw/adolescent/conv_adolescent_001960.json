@@ -222,7 +222,8 @@
       "turn": 32,
       "technique": [
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -249,7 +250,9 @@
       "turn": 36,
       "technique": [
         "behavioral_rehearsal",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -302,7 +305,8 @@
       "text": "정말 잘 정리했어요. 이번 주에 친구들과 대화해볼 수 있을 것 같나요?",
       "turn": 44,
       "technique": [
-        "goal_setting"
+        "goal_setting",
+        "empty_chair"
       ]
     },
     {
@@ -343,12 +347,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 48,
+      "speaker": "counselor",
+      "text": "눈을 감고, 가장 평화로웠던 장소를 떠올려보세요. 어떤 곳인가요?",
+      "technique": [
+        "imagery_work",
+        "relaxation_training"
+      ]
+    },
+    {
+      "turn": 48,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T06:55:34.302905+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "maintaining",
+    "rapport_score": 5,
+    "session_effectiveness": 3,
+    "total_turns": 48
   },
   "client_profile": {
     "age": "15세",

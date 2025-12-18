@@ -131,7 +131,8 @@
         "information_giving",
         "reflection",
         "risk_assessment",
-        "miracle_question"
+        "miracle_question",
+        "role_play"
       ]
     },
     {
@@ -328,7 +329,8 @@
         "clarification",
         "reflection",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -392,7 +394,8 @@
         "goal_setting",
         "risk_assessment",
         "resource_connection",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -408,6 +411,20 @@
         "validation",
         "encouragement"
       ]
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "만약 지금 그 사람이 여기 빈 의자에 앉아있다고 상상해보세요. 뭐라고 말하고 싶으세요?",
+      "technique": [
+        "empty_chair",
+        "imagery_work"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "네... 해볼게요."
     }
   ],
   "generated_at": "2024-12-17T00:00:00.000Z",
@@ -416,6 +433,10 @@
     "generated_at": "2025-12-18T05:07:45.494459+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "crisis",
-    "generator": "claude_code_direct"
+    "generator": "claude_code_direct",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 5,
+    "total_turns": 27
   }
 }

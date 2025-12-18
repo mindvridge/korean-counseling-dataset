@@ -221,7 +221,8 @@
       "turn": 32,
       "technique": [
         "action_planning",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -235,7 +236,9 @@
       "turn": 34,
       "technique": [
         "problem_solving",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -250,7 +253,8 @@
       "technique": [
         "summarization",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -343,12 +347,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 39,
+      "speaker": "counselor",
+      "text": "만약 지금 그 사람이 여기 빈 의자에 앉아있다고 상상해보세요. 뭐라고 말하고 싶으세요?",
+      "technique": [
+        "empty_chair",
+        "imagery_work"
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T10:59:43.004611+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "maintaining",
+    "rapport_score": 4,
+    "session_effectiveness": 4,
+    "total_turns": 39
   },
   "client_profile": {
     "age": "16세",

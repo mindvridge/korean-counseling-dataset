@@ -36,7 +36,8 @@
         "validation",
         "empathy",
         "open_question",
-        "emotion_labeling"
+        "emotion_labeling",
+        "exposure_technique"
       ]
     },
     {
@@ -158,7 +159,8 @@
       "technique": [
         "information_giving",
         "clarification",
-        "emotion_labeling"
+        "emotion_labeling",
+        "exposure_technique"
       ]
     },
     {
@@ -220,7 +222,8 @@
         "information_giving",
         "emotion_labeling",
         "breathing_technique",
-        "body_scan"
+        "body_scan",
+        "relaxation_training"
       ]
     },
     {
@@ -252,7 +255,8 @@
         "information_giving",
         "structuring",
         "behavioral_experiment",
-        "breathing_technique"
+        "breathing_technique",
+        "role_play"
       ]
     },
     {
@@ -268,7 +272,8 @@
         "encouragement",
         "goal_setting",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -285,7 +290,8 @@
         "goal_setting",
         "emotion_labeling",
         "thought_record",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -456,6 +462,20 @@
         "validation",
         "reflection"
       ]
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "만약 지금 그 사람이 여기 빈 의자에 앉아있다고 상상해보세요. 뭐라고 말하고 싶으세요?",
+      "technique": [
+        "empty_chair",
+        "imagery_work"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ],
   "generated_at": "2024-12-17T00:00:00.000Z",
@@ -465,6 +485,9 @@
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct",
-    "total_turns": 25
+    "total_turns": 26,
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 5
   }
 }

@@ -230,7 +230,8 @@
         "suggestion",
         "cognitive_restructuring",
         "behavioral_experiment",
-        "grounding"
+        "grounding",
+        "role_play"
       ]
     },
     {
@@ -257,7 +258,8 @@
       "turn": 35,
       "technique": [
         "action_planning",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "empty_chair"
       ]
     },
     {
@@ -350,12 +352,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 38,
+      "speaker": "counselor",
+      "text": "그 상황을 마음속으로 그려보세요. 무엇이 보이나요?",
+      "technique": [
+        "imagery_work",
+        "exploration"
+      ]
+    },
+    {
+      "turn": 38,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T12:17:01.942088+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 5,
+    "total_turns": 38
   },
   "client_profile": {
     "age": "14세",

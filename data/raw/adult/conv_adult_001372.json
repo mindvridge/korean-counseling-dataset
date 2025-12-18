@@ -112,7 +112,8 @@
       "text": "맞아요. 요즘은 맞벌이 부부도 많고, 역할을 나누는 부부들도 있어요. 본인이 원하는 결혼 생활의 모습이 있나요?",
       "technique": [
         "validation",
-        "open_question"
+        "open_question",
+        "role_play"
       ]
     },
     {
@@ -450,6 +451,9 @@
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct",
-    "total_turns": 25
+    "total_turns": 25,
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 4
   }
 }

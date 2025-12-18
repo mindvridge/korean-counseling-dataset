@@ -227,7 +227,8 @@
       "technique": [
         "guidance",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -258,7 +259,9 @@
       "technique": [
         "encouragement",
         "behavioral_experiment",
-        "mindfulness"
+        "mindfulness",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -351,12 +354,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 39,
+      "speaker": "counselor",
+      "text": "역할을 바꿔서 상대방 입장에서 이야기해보시겠어요?",
+      "technique": [
+        "role_play",
+        "perspective_taking"
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T05:40:42.236681+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 4,
+    "total_turns": 39
   },
   "client_profile": {
     "age": "17세",

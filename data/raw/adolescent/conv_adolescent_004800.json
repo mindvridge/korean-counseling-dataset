@@ -209,7 +209,8 @@
       "turn": 30,
       "technique": [
         "encouragement",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -237,7 +238,8 @@
       "turn": 34,
       "technique": [
         "action_planning",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -251,7 +253,9 @@
       "turn": 36,
       "technique": [
         "action_planning",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -345,12 +349,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 41,
+      "speaker": "counselor",
+      "text": "어깨에 힘을 빼보세요. 긴장된 근육을 하나씩 풀어볼게요.",
+      "technique": [
+        "relaxation_training",
+        "body_scan"
+      ]
+    },
+    {
+      "turn": 41,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T12:18:41.063682+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "maintaining",
+    "rapport_score": 3,
+    "session_effectiveness": 3,
+    "total_turns": 41
   },
   "client_profile": {
     "age": "16세",

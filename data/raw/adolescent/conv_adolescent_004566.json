@@ -224,7 +224,9 @@
       "technique": [
         "guidance",
         "behavioral_experiment",
-        "body_scan"
+        "body_scan",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -345,12 +347,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 38,
+      "speaker": "counselor",
+      "text": "어깨에 힘을 빼보세요. 긴장된 근육을 하나씩 풀어볼게요.",
+      "technique": [
+        "relaxation_training",
+        "body_scan"
+      ]
+    },
+    {
+      "turn": 38,
+      "speaker": "client",
+      "text": "네... 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T11:50:49.320829+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 3,
+    "session_effectiveness": 5,
+    "total_turns": 38
   },
   "client_profile": {
     "age": "15세",

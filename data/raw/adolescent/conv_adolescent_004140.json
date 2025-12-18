@@ -153,7 +153,8 @@
       "turn": 22,
       "technique": [
         "validation",
-        "emotion_labeling"
+        "emotion_labeling",
+        "imagery_work"
       ]
     },
     {
@@ -166,7 +167,8 @@
       "text": "이 상황이 일상생활에도 영향을 미치고 있네요. 학교에서 그 친구들을 마주칠 때는 어떤가요?",
       "turn": 24,
       "technique": [
-        "open-ended question"
+        "open-ended question",
+        "exposure_technique"
       ]
     },
     {
@@ -197,7 +199,8 @@
       "technique": [
         "guided discovery",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -347,12 +350,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 43,
+      "speaker": "counselor",
+      "text": "그 상황을 여기서 한번 연습해볼까요? 제가 상대방 역할을 할게요.",
+      "technique": [
+        "role_play",
+        "behavioral_rehearsal"
+      ]
+    },
+    {
+      "turn": 43,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T11:05:35.846084+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "in_progress",
+    "rapport_score": 5,
+    "session_effectiveness": 4,
+    "total_turns": 43
   },
   "client_profile": {
     "age": "18세",

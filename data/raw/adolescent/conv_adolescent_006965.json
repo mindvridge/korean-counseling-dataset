@@ -2,8 +2,11 @@
   "metadata": {
     "category": "adolescent",
     "topic": "학원 스트레스",
-    "total_turns": 25,
-    "generated_at": "2025-12-18T07:14:25.359925+00:00"
+    "total_turns": 47,
+    "generated_at": "2025-12-18T07:14:25.359925+00:00",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 4
   },
   "client_profile": {
     "age": "15세",
@@ -264,7 +267,8 @@
       "turn": 36,
       "technique": [
         "suggestion",
-        "emotion_labeling"
+        "emotion_labeling",
+        "empty_chair"
       ]
     },
     {
@@ -319,7 +323,8 @@
       "text": "스스로 중요한 걸 깨달으셨네요. 이번 주에 지우와 대화해 보고, 다음에 만나서 어땠는지 이야기 나눠볼까요? 혼자가 아니라 함께 이 과정을 해나가는 거예요.",
       "turn": 44,
       "technique": [
-        "support"
+        "support",
+        "empty_chair"
       ]
     },
     {
@@ -360,6 +365,20 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 47,
+      "speaker": "counselor",
+      "text": "잠시 호흡에 집중해볼까요? 천천히 들이쉬고... 내쉬고...",
+      "technique": [
+        "relaxation_training",
+        "breathing_technique"
+      ]
+    },
+    {
+      "turn": 47,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ]
 }

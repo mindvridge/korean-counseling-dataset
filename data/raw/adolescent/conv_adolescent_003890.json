@@ -89,7 +89,8 @@
       "technique": [
         "exploration",
         "grounding",
-        "body_scan"
+        "body_scan",
+        "relaxation_training"
       ]
     },
     {
@@ -188,7 +189,8 @@
       "turn": 26,
       "technique": [
         "open_question",
-        "grounding"
+        "grounding",
+        "imagery_work"
       ]
     },
     {
@@ -203,7 +205,8 @@
       "technique": [
         "cognitive_restructuring",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -216,7 +219,8 @@
       "text": "게임 그래픽에 관심이 있었네요. 그림과 게임, 이 두 가지 관심사를 연결해볼 수도 있겠어요. 게임 디자인이나 그래픽 분야 같은 것 말이에요.",
       "turn": 30,
       "technique": [
-        "reframing"
+        "reframing",
+        "imagery_work"
       ]
     },
     {
@@ -243,7 +247,8 @@
       "turn": 34,
       "technique": [
         "summarization",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "imagery_work"
       ]
     },
     {
@@ -257,7 +262,8 @@
       "turn": 36,
       "technique": [
         "action_planning",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -350,12 +356,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 39,
+      "speaker": "counselor",
+      "text": "만약 지금 그 사람이 여기 빈 의자에 앉아있다고 상상해보세요. 뭐라고 말하고 싶으세요?",
+      "technique": [
+        "empty_chair",
+        "imagery_work"
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T10:37:12.646898+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 5,
+    "total_turns": 39
   },
   "client_profile": {
     "age": "15세",

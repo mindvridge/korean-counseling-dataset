@@ -169,7 +169,8 @@
         "clarification",
         "closed_question",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -212,7 +213,8 @@
       "technique": [
         "structuring",
         "goal_setting",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -303,7 +305,8 @@
         "emotion_labeling",
         "closed_question",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -405,6 +408,20 @@
         "encouragement",
         "structuring"
       ]
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "눈을 감고, 가장 평화로웠던 장소를 떠올려보세요. 어떤 곳인가요?",
+      "technique": [
+        "imagery_work",
+        "relaxation_training"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "네... 해볼게요."
     }
   ],
   "conversation_id": "ADU_20251218_1670",
@@ -412,6 +429,10 @@
     "generated_at": "2025-12-18T03:01:44.000000+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
-    "generator": "claude_code_direct"
+    "generator": "claude_code_direct",
+    "therapeutic_outcome": "terminated",
+    "rapport_score": 4,
+    "session_effectiveness": 3,
+    "total_turns": 28
   }
 }

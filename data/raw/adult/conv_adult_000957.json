@@ -21,7 +21,8 @@
         "empathy",
         "reflection",
         "cognitive_restructuring",
-        "body_scan"
+        "body_scan",
+        "relaxation_training"
       ]
     },
     {
@@ -51,7 +52,8 @@
         "validation",
         "emotion_labeling",
         "reflection",
-        "grounding"
+        "grounding",
+        "role_play"
       ]
     },
     {
@@ -65,7 +67,8 @@
       "turn": 8,
       "technique": [
         "normalization",
-        "emotion_labeling"
+        "emotion_labeling",
+        "role_play"
       ]
     },
     {
@@ -135,7 +138,8 @@
       "technique": [
         "prioritization",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -163,7 +167,8 @@
       "technique": [
         "psychoeducation",
         "cognitive_restructuring",
-        "body_scan"
+        "body_scan",
+        "relaxation_training"
       ]
     },
     {
@@ -220,7 +225,8 @@
       "technique": [
         "reframing",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -250,7 +256,8 @@
         "coping strategy",
         "emotion_labeling",
         "behavioral_experiment",
-        "breathing_technique"
+        "breathing_technique",
+        "role_play"
       ]
     },
     {
@@ -264,7 +271,8 @@
       "turn": 36,
       "technique": [
         "communication guidance",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -358,12 +366,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 41,
+      "speaker": "counselor",
+      "text": "그 빈 의자에 당신의 내면 아이가 앉아있다고 생각해보세요. 뭐라고 말해주고 싶으세요?",
+      "technique": [
+        "empty_chair",
+        "inner_child_work"
+      ]
+    },
+    {
+      "turn": 41,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T13:56:48.892427+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "therapeutic_outcome": "in_progress",
+    "rapport_score": 3,
+    "session_effectiveness": 4,
+    "total_turns": 41
   },
   "client_profile": {
     "age": "42세",

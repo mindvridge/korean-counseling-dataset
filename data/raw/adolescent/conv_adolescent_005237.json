@@ -100,7 +100,8 @@
       "technique": [
         "clarification",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -211,7 +212,9 @@
       "technique": [
         "socratic_questioning",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -253,7 +256,8 @@
       "turn": 36,
       "technique": [
         "suggestion",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "imagery_work"
       ]
     },
     {
@@ -267,7 +271,8 @@
       "turn": 38,
       "technique": [
         "summarization",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -281,7 +286,8 @@
       "turn": 40,
       "technique": [
         "support",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -348,12 +354,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 43,
+      "speaker": "counselor",
+      "text": "그 상황을 마음속으로 그려보세요. 무엇이 보이나요?",
+      "technique": [
+        "imagery_work",
+        "exploration"
+      ]
+    },
+    {
+      "turn": 43,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T13:09:39.720386+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adolescent"
+    "seed_category": "adolescent",
+    "therapeutic_outcome": "maintaining",
+    "rapport_score": 4,
+    "session_effectiveness": 3,
+    "total_turns": 43
   },
   "client_profile": {
     "age": "16세",

@@ -2,7 +2,7 @@
   "metadata": {
     "category": "adult",
     "topic": "친구 관계",
-    "total_turns": 25,
+    "total_turns": 26,
     "quality_indicators": [
       "validation",
       "empathy",
@@ -12,7 +12,10 @@
       "restatement",
       "emotion_labeling",
       "clarification"
-    ]
+    ],
+    "therapeutic_outcome": "improved",
+    "rapport_score": 5,
+    "session_effectiveness": 5
   },
   "seed_info": {
     "source_file": "성인_대인관계_0004_m3n4o5p6",
@@ -106,7 +109,8 @@
       "technique": [
         "emotion_labeling",
         "closed_question",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -380,8 +384,23 @@
         "encouragement",
         "structuring",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "그 상황을 여기서 한번 연습해볼까요? 제가 상대방 역할을 할게요.",
+      "technique": [
+        "role_play",
+        "behavioral_rehearsal"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ],
   "client_profile": {

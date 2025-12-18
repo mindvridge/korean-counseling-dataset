@@ -209,7 +209,8 @@
         "information_giving",
         "open_question",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -251,7 +252,8 @@
       "technique": [
         "information_giving",
         "goal_setting",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -394,6 +396,20 @@
       "technique": [
         "encouragement"
       ]
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "그 상황을 마음속으로 그려보세요. 무엇이 보이나요?",
+      "technique": [
+        "imagery_work",
+        "exploration"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ],
   "conversation_id": "ADO_20251218_5601",
@@ -401,6 +417,10 @@
     "generated_at": "2025-12-18T03:00:23.000000+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adolescent",
-    "generator": "claude_code_direct"
+    "generator": "claude_code_direct",
+    "therapeutic_outcome": "in_progress",
+    "rapport_score": 5,
+    "session_effectiveness": 4,
+    "total_turns": 28
   }
 }

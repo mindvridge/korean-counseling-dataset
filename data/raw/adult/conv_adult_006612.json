@@ -2,8 +2,11 @@
   "metadata": {
     "category": "adult",
     "topic": "수면장애",
-    "total_turns": 25,
-    "generated_at": "2025-12-18T07:14:29.811151+00:00"
+    "total_turns": 39,
+    "generated_at": "2025-12-18T07:14:29.811151+00:00",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 3,
+    "session_effectiveness": 5
   },
   "client_profile": {
     "age": "35세",
@@ -174,7 +177,8 @@
       "turn": 24,
       "technique": [
         "hope_instillation",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -243,7 +247,8 @@
       "turn": 34,
       "technique": [
         "goal_setting",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -259,7 +264,9 @@
         "homework_assignment",
         "behavioral_experiment",
         "breathing_technique",
-        "body_scan"
+        "body_scan",
+        "role_play",
+        "relaxation_training"
       ]
     },
     {
@@ -352,6 +359,20 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 39,
+      "speaker": "counselor",
+      "text": "눈을 감고, 가장 평화로웠던 장소를 떠올려보세요. 어떤 곳인가요?",
+      "technique": [
+        "imagery_work",
+        "relaxation_training"
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ]
 }

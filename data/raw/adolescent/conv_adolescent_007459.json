@@ -2,8 +2,11 @@
   "metadata": {
     "category": "adolescent",
     "topic": "학원 스트레스",
-    "total_turns": 25,
-    "generated_at": "2025-12-18T07:14:25.882575+00:00"
+    "total_turns": 39,
+    "generated_at": "2025-12-18T07:14:25.882575+00:00",
+    "therapeutic_outcome": "terminated",
+    "rapport_score": 4,
+    "session_effectiveness": 2
   },
   "client_profile": {
     "age": "18세",
@@ -176,7 +179,8 @@
       "turn": 24,
       "technique": [
         "reframing",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "empty_chair"
       ]
     },
     {
@@ -260,7 +264,8 @@
         "summarization",
         "emotion_labeling",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -354,6 +359,20 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 39,
+      "speaker": "counselor",
+      "text": "어깨에 힘을 빼보세요. 긴장된 근육을 하나씩 풀어볼게요.",
+      "technique": [
+        "relaxation_training",
+        "body_scan"
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ]
 }

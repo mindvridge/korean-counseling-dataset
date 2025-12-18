@@ -151,7 +151,8 @@
       "text": "먼저 질문을 드릴게요. 자신의 의견을 말할 때 어떻게 표현하시나요? 구체적인 상황을 떠올려보시겠어요?",
       "technique": [
         "open_question",
-        "structuring"
+        "structuring",
+        "imagery_work"
       ]
     },
     {
@@ -196,7 +197,8 @@
         "encouragement",
         "structuring",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -211,7 +213,9 @@
       "technique": [
         "encouragement",
         "open_question",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "empty_chair",
+        "role_play"
       ]
     },
     {
@@ -272,7 +276,8 @@
         "encouragement",
         "information_giving",
         "structuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -317,7 +322,8 @@
         "encouragement",
         "information_giving",
         "behavioral_experiment",
-        "cognitive_defusion"
+        "cognitive_defusion",
+        "role_play"
       ]
     },
     {
@@ -376,6 +382,20 @@
       "technique": [
         "encouragement"
       ]
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "잠시 호흡에 집중해볼까요? 천천히 들이쉬고... 내쉬고...",
+      "technique": [
+        "relaxation_training",
+        "breathing_technique"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ],
   "conversation_id": "ADO_20251218_5412",
@@ -383,6 +403,10 @@
     "generated_at": "2025-12-18T02:58:57.000000+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adolescent",
-    "generator": "claude_code_direct"
+    "generator": "claude_code_direct",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 5,
+    "total_turns": 26
   }
 }

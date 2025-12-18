@@ -173,7 +173,8 @@
       "turn": 24,
       "technique": [
         "strength_exploration",
-        "emotion_labeling"
+        "emotion_labeling",
+        "imagery_work"
       ]
     },
     {
@@ -255,7 +256,8 @@
       "turn": 36,
       "technique": [
         "guidance",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -349,12 +351,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 49,
+      "speaker": "counselor",
+      "text": "만약 지금 그 사람이 여기 빈 의자에 앉아있다고 상상해보세요. 뭐라고 말하고 싶으세요?",
+      "technique": [
+        "empty_chair",
+        "imagery_work"
+      ]
+    },
+    {
+      "turn": 49,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T13:38:40.432064+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 5,
+    "total_turns": 49
   },
   "client_profile": {
     "age": "28세",

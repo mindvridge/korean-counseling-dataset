@@ -2,8 +2,11 @@
   "metadata": {
     "category": "adult",
     "topic": "업무 스트레스와 번아웃",
-    "total_turns": 25,
-    "generated_at": "2025-12-18T07:14:29.273791+00:00"
+    "total_turns": 39,
+    "generated_at": "2025-12-18T07:14:29.273791+00:00",
+    "therapeutic_outcome": "terminated",
+    "rapport_score": 4,
+    "session_effectiveness": 3
   },
   "client_profile": {
     "age": "32세",
@@ -227,7 +230,8 @@
       "turn": 32,
       "technique": [
         "behavioral activation",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -254,7 +258,8 @@
       "turn": 36,
       "technique": [
         "goal-setting",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -347,6 +352,20 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 39,
+      "speaker": "counselor",
+      "text": "잠시 호흡에 집중해볼까요? 천천히 들이쉬고... 내쉬고...",
+      "technique": [
+        "relaxation_training",
+        "breathing_technique"
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "client",
+      "text": "조금 어색하지만 해볼게요."
     }
   ]
 }

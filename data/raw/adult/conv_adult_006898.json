@@ -2,8 +2,11 @@
   "metadata": {
     "category": "adult",
     "topic": "경제적 스트레스",
-    "total_turns": 25,
-    "generated_at": "2025-12-18T07:14:30.114426+00:00"
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:30.114426+00:00",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 5
   },
   "client_profile": {
     "age": "28세",
@@ -116,7 +119,8 @@
       "text": "맞아요. 요즘은 맞벌이 부부도 많고, 역할을 나누는 부부들도 있어요. 본인이 원하는 결혼 생활의 모습이 있나요?",
       "technique": [
         "validation",
-        "open_question"
+        "open_question",
+        "role_play"
       ]
     },
     {
@@ -442,6 +446,20 @@
         "encouragement",
         "information_giving"
       ]
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "그 상황을 마음속으로 그려보세요. 무엇이 보이나요?",
+      "technique": [
+        "imagery_work",
+        "exploration"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ]
 }

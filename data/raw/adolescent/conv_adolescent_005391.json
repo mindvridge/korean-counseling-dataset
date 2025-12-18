@@ -181,7 +181,8 @@
       "technique": [
         "information_giving",
         "structuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -446,6 +447,20 @@
         "encouragement",
         "validation"
       ]
+    },
+    {
+      "turn": 31,
+      "speaker": "counselor",
+      "text": "잠시 호흡에 집중해볼까요? 천천히 들이쉬고... 내쉬고...",
+      "technique": [
+        "relaxation_training",
+        "breathing_technique"
+      ]
+    },
+    {
+      "turn": 31,
+      "speaker": "client",
+      "text": "네... 해볼게요."
     }
   ],
   "conversation_id": "ADO_20251218_5391",
@@ -453,6 +468,10 @@
     "generated_at": "2025-12-18T02:57:53.000000+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adolescent",
-    "generator": "claude_code_direct"
+    "generator": "claude_code_direct",
+    "therapeutic_outcome": "maintaining",
+    "rapport_score": 3,
+    "session_effectiveness": 4,
+    "total_turns": 31
   }
 }

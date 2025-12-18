@@ -3,7 +3,10 @@
     "category": "elderly",
     "topic": "치매 불안",
     "session_number": 1,
-    "total_turns": 25
+    "total_turns": 26,
+    "therapeutic_outcome": "improved",
+    "rapport_score": 4,
+    "session_effectiveness": 5
   },
   "client_profile": {
     "age": "70세",
@@ -54,7 +57,8 @@
       "technique": [
         "validation",
         "empathy",
-        "reflection"
+        "reflection",
+        "role_play"
       ]
     },
     {
@@ -386,6 +390,20 @@
         "validation",
         "behavioral_activation"
       ]
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "그 상황을 여기서 한번 연습해볼까요? 제가 상대방 역할을 할게요.",
+      "technique": [
+        "role_play",
+        "behavioral_rehearsal"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ]
 }

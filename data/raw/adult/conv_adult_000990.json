@@ -267,7 +267,8 @@
       "technique": [
         "suggestion",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -348,7 +349,8 @@
       "turn": 50,
       "technique": [
         "summary",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -363,7 +365,8 @@
       "technique": [
         "support",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -376,14 +379,33 @@
       "text": "네, 이번 주 잘 보내시고, 혹시 힘든 순간이 있으면 오늘 우리가 이야기한 것들을 떠올려보세요. 다음 주에 뵙겠습니다.",
       "turn": 54,
       "technique": [
-        "closing"
+        "closing",
+        "imagery_work"
       ]
+    },
+    {
+      "turn": 55,
+      "speaker": "counselor",
+      "text": "그 상황을 여기서 한번 연습해볼까요? 제가 상대방 역할을 할게요.",
+      "technique": [
+        "role_play",
+        "behavioral_rehearsal"
+      ]
+    },
+    {
+      "turn": 55,
+      "speaker": "client",
+      "text": "네... 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T14:02:11.439107+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 5,
+    "session_effectiveness": 5,
+    "total_turns": 55
   },
   "client_profile": {
     "age": "45세",

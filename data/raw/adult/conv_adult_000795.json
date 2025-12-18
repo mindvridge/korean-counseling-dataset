@@ -19,7 +19,8 @@
       "turn": 2,
       "technique": [
         "empathy",
-        "body_scan"
+        "body_scan",
+        "relaxation_training"
       ]
     },
     {
@@ -46,7 +47,8 @@
       "turn": 6,
       "technique": [
         "validation",
-        "mindfulness"
+        "mindfulness",
+        "role_play"
       ]
     },
     {
@@ -117,7 +119,8 @@
         "psychoeducation",
         "emotion_labeling",
         "grounding",
-        "body_scan"
+        "body_scan",
+        "relaxation_training"
       ]
     },
     {
@@ -132,7 +135,8 @@
       "technique": [
         "reframing",
         "behavioral_experiment",
-        "mindfulness"
+        "mindfulness",
+        "role_play"
       ]
     },
     {
@@ -146,7 +150,8 @@
       "turn": 20,
       "technique": [
         "validation",
-        "mindfulness"
+        "mindfulness",
+        "role_play"
       ]
     },
     {
@@ -202,7 +207,8 @@
       "turn": 28,
       "technique": [
         "problem_solving",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -217,7 +223,8 @@
       "technique": [
         "behavioral_activation",
         "behavioral_experiment",
-        "mindfulness"
+        "mindfulness",
+        "role_play"
       ]
     },
     {
@@ -233,7 +240,8 @@
         "problem_solving",
         "emotion_labeling",
         "behavioral_experiment",
-        "mindfulness"
+        "mindfulness",
+        "role_play"
       ]
     },
     {
@@ -247,7 +255,8 @@
       "turn": 34,
       "technique": [
         "exploration",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -275,7 +284,8 @@
       "turn": 38,
       "technique": [
         "behavioral_activation",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -290,7 +300,8 @@
       "technique": [
         "summarization",
         "emotion_labeling",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -304,7 +315,8 @@
       "turn": 42,
       "technique": [
         "encouragement",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "role_play"
       ]
     },
     {
@@ -358,12 +370,30 @@
         "open_question",
         "empathy"
       ]
+    },
+    {
+      "turn": 43,
+      "speaker": "counselor",
+      "text": "만약 지금 그 사람이 여기 빈 의자에 앉아있다고 상상해보세요. 뭐라고 말하고 싶으세요?",
+      "technique": [
+        "empty_chair",
+        "imagery_work"
+      ]
+    },
+    {
+      "turn": 43,
+      "speaker": "client",
+      "text": "네... 해볼게요."
     }
   ],
   "metadata": {
     "generated_at": "2025-12-17T13:33:56.469764+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "therapeutic_outcome": "improved",
+    "rapport_score": 5,
+    "session_effectiveness": 5,
+    "total_turns": 43
   },
   "client_profile": {
     "age": "31세",

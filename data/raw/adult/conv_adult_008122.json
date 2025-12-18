@@ -2,8 +2,11 @@
   "metadata": {
     "category": "adult",
     "topic": "육아 스트레스",
-    "total_turns": 25,
-    "generated_at": "2025-12-18T07:14:31.288500+00:00"
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:31.288500+00:00",
+    "therapeutic_outcome": "in_progress",
+    "rapport_score": 4,
+    "session_effectiveness": 4
   },
   "client_profile": {
     "age": "38세",
@@ -115,7 +118,8 @@
       "text": "맞아요. 요즘은 맞벌이 부부도 많고, 역할을 나누는 부부들도 있어요. 본인이 원하는 결혼 생활의 모습이 있나요?",
       "technique": [
         "validation",
-        "open_question"
+        "open_question",
+        "role_play"
       ]
     },
     {
@@ -378,6 +382,20 @@
         "encouragement",
         "information_giving"
       ]
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "그 상황을 여기서 한번 연습해볼까요? 제가 상대방 역할을 할게요.",
+      "technique": [
+        "role_play",
+        "behavioral_rehearsal"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "눈을 감으니까... 뭔가 떠오르네요."
     }
   ]
 }
