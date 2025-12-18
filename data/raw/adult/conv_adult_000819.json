@@ -1,199 +1,215 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "주제",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_ADT_20250618_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "중학교 교사"
   },
-  "seed_info": {
-    "source_file": "seed.json",
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:13.723397",
+  "situation": "10년차 중학교 교사로 일하면서 최근 학생들과의 관계에서 심한 소진을 경험하고 있으며, 교직에 대한 회의감과 함께 진로 전환을 고민하고 있음",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Client 0"
+      "text": "안녕하세요... 사실 상담을 받으러 온다는 게 쉽지 않았는데, 요즘 너무 힘들어서 용기를 냈어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text 1",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 어려운 결정을 내리고 이렇게 찾아와 주셔서 감사합니다. 편하게 말씀해주세요. 어떤 부분이 가장 힘드신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Client 2"
+      "text": "저는 중학교에서 국어를 가르치는 교사인데요, 올해로 10년차예요. 그런데 요즘 아침에 일어나면 학교에 가기가 너무 싫어요. 예전엔 그래도 아이들이 귀엽고 보람도 느꼈는데...",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text 3",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Client 4"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text 5",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "10년 동안 교직에 계시면서 예전에는 보람을 느끼셨는데, 최근에는 출근 자체가 힘들어지셨군요. 언제부터 이런 변화를 느끼기 시작하셨나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Client 6"
+      "text": "정확히는 모르겠는데, 작년부터인 것 같아요. 학생들이 점점 통제가 안 되고, 학부모들은 더 까다로워지고... 그리고 행정 업무도 너무 많아졌어요. 수업 준비할 시간도 부족해요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text 7",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Client 8"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text 9",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학생 지도, 학부모 응대, 과중한 행정 업무까지... 여러 방면에서 압박을 느끼고 계시는 것 같네요. 그런 상황이라면 소진되는 게 당연해 보입니다.",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Client 10"
+      "text": "맞아요. 근데 제가 더 힘든 건... 다른 선생님들은 잘 버티시는 것 같은데 저만 이렇게 힘들어하는 것 같아서요. 제가 나약한 건가 싶어요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text 11",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Client 12"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text 13",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "다른 분들과 비교하면서 스스로를 나약하다고 생각하시는군요. 하지만 각자 느끼는 어려움의 정도는 다를 수 있어요. 선생님만의 상황이나 감수성이 있을 수 있고요. 스스로를 나약하다고 판단하시는 게 오히려 더 힘들게 만드는 건 아닐까요?",
       "turn": 8,
+      "technique": "reframing"
+    },
+    {
       "speaker": "client",
-      "text": "Client 14"
+      "text": "그럴 수도 있겠네요... 사실 저는 원래 예민한 편이긴 해요. 학생 한 명이 수업 시간에 자거나 떠들면 그게 하루 종일 신경 쓰이고, 학부모한테 전화 한 통 받으면 밤새 그 생각을 해요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text 15",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Client 16"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text 17",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "작은 일들이 마음에 오래 남고 반복적으로 떠오르는군요. 그런 민감성이 교사로서 학생들을 세심하게 돌보는 장점이 될 수도 있지만, 동시에 선생님 자신을 소진시키는 요인이 되기도 하는 것 같네요.",
       "turn": 10,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Client 18"
+      "text": "정확해요. 예전엔 그 민감함이 좋은 교사가 되는 데 도움이 된다고 생각했는데, 이제는 그게 저를 갉아먹는 것 같아요. 요즘은 퇴근하면 완전히 녹초가 돼서 아무것도 못해요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text 19",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Client 20"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text 21",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "일과가 끝나면 심신이 완전히 고갈되어 버리는 상태시군요. 그럼 퇴근 후나 주말에는 어떻게 시간을 보내시나요?",
       "turn": 12,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Client 22"
+      "text": "그냥... 집에서 누워있어요. TV 보거나 핸드폰만 만지작거리고. 친구들이 만나자고 해도 귀찮아서 거절하게 되고. 남편이 걱정할 정도예요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text 23",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Client 24"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text 25",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "사회적 관계도 줄어들고, 회복을 위한 활동도 하기 어려운 상태네요. 남편분은 선생님의 상황에 대해 어떻게 반응하시나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Client 26"
+      "technique": "exploration"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "남편은 이해해주려고 노력하는데... 가끔은 '그냥 그만두면 되지 않냐'고 해요. 근데 그게 그렇게 쉬운 일이 아니잖아요. 10년을 한 일인데, 그만두면 뭘 하나 싶고...",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text 27",
-      "technique": [
-        "empathy"
-      ]
+      "text": "그만두는 것에 대한 두려움과 10년이라는 시간에 대한 아쉬움이 있으시군요. 한편으로는 지금 상황이 힘들지만, 다른 한편으로는 교직을 떠나는 것도 쉽지 않은 결정이네요.",
+      "turn": 16,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 솔직히 말하면 교사라는 직업이 주는 안정감도 있잖아요. 월급도 꾸준히 나오고, 연금도 있고. 이걸 포기하고 새로 시작한다는 게 무섭기도 해요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "경제적 안정성에 대한 걱정도 크시군요. 그렇다면 선생님께서는 지금 어떤 선택을 하고 싶으신가요? 교직을 계속하면서 방법을 찾고 싶으신지, 아니면 진로 전환을 진지하게 고려하고 계신지요?",
+      "turn": 18,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "그게... 잘 모르겠어요. 어떤 날은 '내일 당장 사표 내야지' 하다가도, 또 어떤 날은 '조금만 더 버텨보자' 싶고. 계속 오락가락해요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "마음이 계속 흔들리고 있는 상태네요. 그 흔들림 자체가 지금 선생님이 중요한 기로에 서 있다는 신호일 수 있어요. 급하게 결정하기보다는, 먼저 선생님이 진정으로 원하는 것이 무엇인지 탐색해보는 시간이 필요할 것 같습니다.",
+      "turn": 20,
+      "technique": "guidance"
+    },
+    {
+      "speaker": "client",
+      "text": "제가 원하는 게 뭔지... 사실 그것조차 잘 모르겠어요. 너무 오랫동안 그냥 주어진 일만 하다 보니까.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "처음 교사가 되기로 결심했을 때를 떠올려보시면 어떨까요? 그때는 어떤 이유로 교직을 선택하셨나요?",
+      "turn": 22,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 그때는 아이들을 가르치는 게 좋았어요. 제가 국어를 좋아했고, 그걸 학생들과 나누고 싶었죠. 그리고 누군가의 성장을 돕는다는 게 의미 있게 느껴졌어요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "가르치는 일 자체와 학생들의 성장을 돕는다는 의미에 끌리셨군요. 그럼 지금은 그런 부분들을 느끼기 어려우신가요?",
+      "turn": 24,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 요즘은 수업보다 행정 업무가 더 많고, 학생들은 수업에 집중하지 않고... 제가 의미를 느꼈던 그 부분들이 다 사라진 것 같아요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "처음 교직을 선택하게 만들었던 의미들이 현재의 업무 환경에서는 잘 느껴지지 않는 상황이네요. 그렇다면 혹시 그 의미를 다시 찾을 수 있는 방법은 없을까요? 예를 들어 업무 방식을 조정한다거나, 다른 형태로 가르치는 일을 한다거나 하는 방법들이요.",
+      "turn": 26,
+      "technique": "problem-solving"
+    },
+    {
+      "speaker": "client",
+      "text": "생각해본 적은 있어요. 학원 강사나 온라인 강의 같은 것도 고려해봤는데... 그것도 결국 가르치는 건데 지금과 크게 다를까 싶기도 하고요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "다른 형태의 교육 활동도 고민해보셨지만 확신이 서지 않으시는군요. 선생님, 지금 당장 큰 결정을 내리시기보다는 먼저 두 가지를 해보시면 어떨까요? 하나는 현재 상황에서 선생님의 소진을 줄일 수 있는 방법을 찾는 것이고, 다른 하나는 천천히 선생님의 진짜 바람이 무엇인지 탐색하는 것입니다.",
+      "turn": 28,
+      "technique": "guidance"
+    },
+    {
+      "speaker": "client",
+      "text": "소진을 줄이는 방법이요... 구체적으로 어떤 게 있을까요?",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "우선 경계 설정이 중요할 것 같아요. 퇴근 후에는 업무 관련 생각을 내려놓는 연습, 모든 학생과 학부모의 문제를 다 책임지려 하지 않기, 동료 교사들과 어려움을 나누기 등이 있을 수 있겠네요. 또 선생님만의 회복 활동을 찾는 것도 중요하고요.",
+      "turn": 30,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "경계 설정... 저한테 정말 필요한 것 같아요. 저는 항상 모든 걸 제 책임으로 느끼거든요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 책임감이 선생님을 좋은 교사로 만들었지만, 동시에 지금은 선생님을 지치게 만들고 있네요. 모든 것을 통제할 수 없다는 것을 받아들이는 것도 필요합니다. 선생님이 할 수 있는 부분과 할 수 없는 부분을 구분하는 연습을 해보시면 어떨까요?",
+      "turn": 32,
+      "technique": "cognitive restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 해볼게요. 그리고 제 진짜 바람을 탐색한다는 게... 어떻게 하는 건가요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "천천히 자신에게 질문을 던져보는 거예요. '나는 어떤 일을 할 때 행복한가?', '어떤 가치를 중요하게 여기는가?', '5년 후 나는 어떤 모습이길 바라는가?' 같은 질문들이요. 그리고 다양한 가능성을 열어두고 탐색해보는 시간을 가지시는 겁니다.",
+      "turn": 34,
+      "technique": "guidance"
+    },
+    {
+      "speaker": "client",
+      "text": "생각보다 제 자신에 대해 모르고 있었던 것 같아요. 오늘 상담하면서 조금 정리가 되는 느낌이에요. 당장 답을 찾으려고 조급해했는데, 천천히 접근해봐야겠어요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 깨달음이십니다. 중요한 결정일수록 천천히, 그리고 자신을 돌보면서 진행하는 게 중요해요. 다음 상담에서는 경계 설정을 실천해보신 경험과 자기 탐색 과정을 함께 나눠보면 좋겠습니다. 오늘 용기 내어 오셔서 솔직하게 이야기해주셔서 감사합니다.",
+      "turn": 36,
+      "technique": "encouragement"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T13:37:04.027165+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

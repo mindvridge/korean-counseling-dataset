@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250620_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "중학교 교사"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.080859",
+  "situation": "10년차 교사로 학생들을 사랑하지만, 최근 학부모 민원과 과중한 업무로 인해 번아웃을 경험하고 있으며, 교직을 그만둘지 고민 중",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 사실 상담을 받으러 온다는 게 쉽지 않았어요. 제가 이런 상태가 될 줄은 몰랐거든요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 편안하게 오셨습니다. 상담실을 찾아오시기까지 많은 용기가 필요하셨을 텐데, 이렇게 와주셔서 감사합니다. 천천히 이야기 나눠보면 좋겠어요.",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 저는 중학교에서 국어를 가르치는 교사예요. 올해로 10년차인데, 요즘 들어 학교 가는 게 너무 힘들어요. 아침에 일어나면 출근하기 싫고, 교실에 들어가는 것조차 두렵습니다.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "10년 동안 교직 생활을 해오셨는데, 최근 들어 출근하는 것 자체가 힘들고 두려움까지 느끼고 계시는군요. 언제부터 이런 감정을 느끼기 시작하셨나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정확히는... 아마 6개월 전쯤부터인 것 같아요. 한 학부모님이 제게 강하게 민원을 제기하셨는데, 그게 시작이었던 것 같아요. 제가 학생을 차별한다고, 편애한다고 하시면서요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "6개월 전 학부모 민원이 큰 전환점이 되었군요. 그 일이 지금까지도 영향을 미치고 있는 것 같은데, 그때 어떤 일이 있었는지 좀 더 말씀해주실 수 있으실까요?",
       "turn": 6,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "한 학생이 수업 시간에 계속 떠들고 다른 친구들을 방해해서 제가 몇 번 주의를 줬어요. 그런데 그 학부모님이 '왜 우리 애만 혼내느냐, 다른 애들도 떠드는데'라고 하시면서 교육청에까지 민원을 넣으셨어요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "교육적으로 필요한 지도를 했는데 그것이 민원으로 이어지고, 더 큰 기관까지 가게 되었군요. 그 상황이 정말 당황스럽고 억울하셨을 것 같아요.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 정말 억울했어요. 저는 그저 수업 분위기를 위해서, 다른 학생들을 위해서 한 행동인데... 그 이후로 학생들을 지도하는 게 너무 조심스러워졌어요. 혹시 또 민원이 들어오면 어쩌나 하는 생각에요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "그 사건 이후로 학생 지도에 대한 두려움이 생기셨고, 교사로서의 역할을 수행하는 데 있어 많이 위축되신 것 같네요. 지금은 어떤 식으로 수업을 진행하고 계세요?",
       "turn": 10,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "솔직히 말하면... 거의 방관하고 있어요. 학생들이 떠들어도 강하게 제지하지 못하고, 그냥 '조용히 해주세요' 정도만 말하죠. 예전의 제가 아니에요. 예전엔 정말 열정적으로 가르쳤거든요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "예전의 열정적이었던 모습과 지금의 방관하게 된 모습 사이에서 많은 괴리감을 느끼고 계시는군요. 그 변화가 본인에게는 어떻게 느껴지세요?",
       "turn": 12,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "너무 힘들어요. 제가 교사가 된 이유는 아이들을 가르치는 게 좋아서였는데, 지금은 그냥... 월급 받으러 가는 느낌이에요. 저 자신이 너무 한심하고 죄책감도 들어요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "초심과 현재의 모습이 달라진 것에 대해 스스로에게 실망하시고, 죄책감까지 느끼고 계시네요. 그런 감정들이 얼마나 힘드실까 충분히 이해됩니다.",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "empathy"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "그리고 민원 문제만 있는 게 아니에요. 업무가 너무 많아요. 수업 준비, 생활지도, 각종 공문 처리, 행사 준비... 하루 종일 일해도 끝이 없어요. 집에 가서도 일해야 하고요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "민원에 대한 두려움에 더해서 과중한 업무까지 겹쳐있는 상황이시군요. 여러 가지 어려움이 동시에 쌓여있는 것 같은데, 현재 업무량은 어느 정도인가요?",
+      "turn": 16,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "하루에 5~6시간 수업하고, 점심시간엔 학생 상담하고, 방과 후엔 회의나 업무 처리... 집에 가면 밤 9시예요. 그리고 집에서도 수업 준비나 공문 확인을 해야 해요. 주말에도 일하는 경우가 많고요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "하루 대부분의 시간을 학교 일에 쏟고 계시고, 개인적인 시간이나 휴식은 거의 없는 상태네요. 이런 생활이 6개월 동안 계속되었다면 정말 지치실 수밖에 없었을 것 같아요.",
+      "turn": 18,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 요즘은 주말에도 그냥 누워만 있어요. 아무것도 하기 싫고, 친구들 만나자는 연락도 다 거절하고... 남편이 걱정할 정도예요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "평소 즐기던 활동이나 대인관계도 모두 멀어지고, 휴식 시간에도 회복이 되지 않는 상태시군요. 남편분은 어떻게 반응하시나요?",
+      "turn": 20,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "남편은 '그만두고 쉬어도 된다'고 해요. 하지만 제가 10년을 해온 일인데... 그냥 포기한다는 게 쉽지 않아요. 그리고 교사를 그만두면 뭘 할 수 있을지도 모르겠고요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "한편으로는 너무 힘들어서 그만두고 싶지만, 다른 한편으로는 10년간 쌓아온 경력과 정체성을 놓기가 어려우시고, 미래에 대한 불안도 있으신 거네요.",
+      "turn": 22,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "정확해요. 그래서 더 괴로운 것 같아요. 계속하자니 너무 힘들고, 그만두자니 불안하고... 요즘은 밤에 잠도 잘 못 자요. 계속 이런 생각들이 머릿속을 맴돌아요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "진퇴양난의 상황에서 불면까지 겪고 계시는군요. 이런 상태가 지속되면 신체적, 정신적으로 더 힘들어질 수 있어요. 혹시 다른 신체 증상은 없으신가요?",
+      "turn": 24,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "두통이 자주 오고, 소화도 잘 안 돼요. 식욕도 없고... 체중도 많이 빠졌어요. 병원에 가봤는데 특별한 이상은 없다고 하더라고요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "신체적으로도 여러 증상들이 나타나고 계시네요. 지금 말씀하신 증상들은 심리적 스트레스가 신체로 표현되는 것일 수 있어요. 번아웃의 전형적인 증상들입니다.",
+      "turn": 26,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "번아웃이요? 그게 정말 저한테 해당되는 건가요? 저는 그냥 제가 나약해서 이런 거라고 생각했어요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "절대 나약해서가 아닙니다. 오히려 10년 동안 열심히 해오셨기에, 그리고 지금도 책임감을 가지고 계시기에 더 힘든 상황이에요. 번아웃은 누구에게나 올 수 있는 상태입니다.",
+      "turn": 28,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 말씀해주시니 조금... 위로가 되네요. 그럼 저는 어떻게 해야 할까요? 정말 교사를 그만둬야 하나요?",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 당장 그만두거나 계속하거나를 결정하기보다는, 먼저 지금의 상태를 회복하는 것이 중요해 보여요. 그 후에 더 명확한 판단을 하실 수 있을 거예요. 혹시 휴직 같은 선택지는 고려해보셨나요?",
+      "turn": 30,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "휴직... 생각은 해봤는데, 동료 선생님들한테 피해가 갈까봐 망설여졌어요. 그리고 휴직한다는 게 왠지 패배 같은 느낌도 들고요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "동료들을 배려하시는 마음, 그리고 책임감이 느껴집니다. 하지만 지금 가장 중요한 건 내담자님의 건강이에요. 휴직은 패배가 아니라 회복을 위한 현명한 선택이 될 수 있습니다.",
+      "turn": 32,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각할 수도 있겠네요... 사실 제가 이 상태로 학생들을 가르치는 것도 학생들한테 좋지 않을 것 같아요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "중요한 통찰이세요. 자신을 돌보는 것이 결국 학생들을 더 잘 가르칠 수 있는 기반이 된다는 것을 알아차리셨네요. 오늘 상담을 통해 어떤 생각이 드시나요?",
+      "turn": 34,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "제 상태가 생각보다 심각하다는 걸 알게 됐어요. 그리고 이게 제 잘못이 아니라는 것도요. 휴직에 대해서 좀 더 진지하게 고민해봐야겠어요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "오늘 많은 것을 정리하셨네요. 앞으로 함께 회복의 과정을 만들어가면 좋겠습니다. 다음 상담 때는 구체적인 회복 계획과 함께, 내담자님이 다시 교직에 대한 의미를 찾아갈 수 있도록 도와드리겠습니다.",
+      "turn": 36,
+      "technique": "support"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T13:48:32.915676+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

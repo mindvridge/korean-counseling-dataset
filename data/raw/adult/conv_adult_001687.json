@@ -1,198 +1,220 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_ADT_20250618_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "중학교 교사"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.455981",
+  "situation": "10년차 교사로서 최근 학생들과의 관계에서 어려움을 겪고 있으며, 번아웃과 직업적 회의감을 느끼고 있음. 특히 학부모의 과도한 요구와 학교 행정 업무로 인해 교육 본연의 의미를 잃어가는 것 같아 고민 중",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 사실 상담을 받아야 할지 고민을 많이 했는데... 요즘 제가 너무 힘들어서 이렇게 찾아왔어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 고민 끝에 용기 내어 찾아와 주셔서 감사합니다. 편하게 말씀해 주시면 됩니다. 어떤 부분이 가장 힘드신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "저는 중학교에서 국어를 가르치는 교사인데요. 올해로 10년차가 됐어요. 처음엔 정말 열정적으로 학생들을 가르쳤는데, 요즘엔 학교 가는 게 너무 두렵고 힘들어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "10년이라는 시간 동안 교직에 계셨군요. 처음의 열정과 지금의 감정 사이에 큰 차이를 느끼시는 것 같습니다. 언제부터 이런 감정을 느끼셨나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정확히 언제부턴지는 모르겠지만, 작년부터 심해진 것 같아요. 특히 코로나 이후로 학부모님들의 요구가 더 많아지고, 학생들도 예전과 달라진 느낌이에요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "작년부터 변화를 느끼셨군요. 학부모님들의 요구와 학생들의 변화라고 말씀하셨는데, 구체적으로 어떤 상황들이 있으셨나요?",
       "turn": 6,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "예를 들면, 학생 성적에 대해 수시로 연락이 오고, 제 수업 방식에 대해서도 이래라저래라 하세요. 심지어 어떤 학부모는 자기 아이를 특별히 신경 써달라고 선물까지 주려고 하더라고요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "교사로서의 전문성과 자율성이 존중받지 못한다고 느끼시는 것 같네요. 그런 상황들이 반복되면 정말 힘들고 소진될 수밖에 없을 것 같습니다.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그리고 학생들도... 수업 시간에 집중을 안 하고 핸드폰만 보거나, 아예 엎드려 자거나. 주의를 주면 '왜 저만 그러냐'고 대들기도 하고요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "수업 진행 자체가 어려운 상황이시네요. 그런 일들이 반복되면 교사로서의 보람이나 의미를 찾기 어려워지실 것 같아요.",
       "turn": 10,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 정확해요. 처음엔 '아이들에게 좋은 영향을 주고 싶다'는 마음으로 시작했는데, 지금은 그냥 하루하루 버티는 느낌이에요. 수업 준비도 대충하게 되고...",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "초심과 현재의 모습 사이에서 괴리감을 느끼시는군요. 자신이 원하는 교사의 모습과 현실 사이의 간극이 크다는 게 느껴집니다.",
       "turn": 12,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그리고 죄책감도 들어요. 이렇게 대충 가르치는 제 모습이 싫고, 학생들한테 미안하기도 하고... 그런데 또 에너지가 없어요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "현재 상황과 이상적인 모습 사이에서 갈등하고 계시네요. 죄책감까지 느끼고 계시니 더욱 힘드실 것 같습니다. 혹시 이런 감정들을 주변에 나누신 적이 있으신가요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "validation"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "동료 교사들한테 얘기해봤는데, 다들 비슷하게 힘들어하더라고요. 그래서 위로는 됐지만 해결책은 없었어요. 남편한테는... 말해봤자 '그만두면 되지'라고 할 것 같아서 말 안 했어요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "동료들과 공감대는 형성하셨지만, 근본적인 해결은 어려우셨고, 가까운 가족에게는 이해받지 못할까 봐 말씀하지 못하셨군요. 혼자 감당하시느라 더 힘드셨겠어요.",
+      "turn": 16,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 사실 그만두는 것도 쉽지 않잖아요. 10년을 투자했는데, 지금 그만두면 뭘 할 수 있을까 싶기도 하고. 경제적으로도 안정적인 직업이니까요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "현실적인 부분들도 고려하고 계시는군요. 그만두기도 어렵고 계속하기도 힘든 상황에서 갇혀 있는 느낌이 드실 것 같습니다.",
+      "turn": 18,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "정확해요. 그래서 더 답답해요. 어떻게 해야 할지 모르겠어요. 이대로 계속 버틸 수도 없고, 그렇다고 그만둘 수도 없고...",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 양쪽 극단 사이에서 고민하고 계신 것 같아요. '이대로 버티기' 아니면 '그만두기'. 혹시 이 두 가지 외에 다른 가능성에 대해서는 생각해보신 적 있으신가요?",
+      "turn": 20,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "다른 가능성이요? 글쎄요... 생각해본 적은 없는데, 어떤 게 있을까요?",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "예를 들어, 교직은 유지하되 현재의 어려움을 조금씩 개선해나가는 방법도 있을 수 있겠죠. 지금 가장 큰 스트레스 요인이 무엇인지 구체적으로 파악해보면 어떨까요?",
+      "turn": 22,
+      "technique": "problem-solving"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 가장 힘든 건 학부모 응대인 것 같아요. 수업 외 시간에도 계속 연락이 오고, 그때마다 신경 쓰이고 스트레스받아요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "학부모 응대가 가장 큰 스트레스 요인이시군요. 현재 학부모님들과의 소통 방식은 어떻게 되시나요?",
+      "turn": 24,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "주로 전화나 문자로 연락이 와요. 거의 실시간으로 답해야 할 것 같은 압박감이 있어요. 안 그러면 불만을 제기하실까 봐...",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "즉각적으로 응대해야 한다는 부담감을 느끼고 계시네요. 혹시 학부모 상담 시간이나 방식에 대해 명확한 경계를 설정해보신 적은 있으신가요?",
+      "turn": 26,
+      "technique": "guidance"
+    },
+    {
+      "speaker": "client",
+      "text": "아니요, 그런 건 생각해본 적이 없어요. 그래도 되나요? 학부모님들이 불편해하시지 않을까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "선생님의 시간과 에너지도 소중합니다. 명확한 경계는 오히려 더 질 높은 교육과 소통을 가능하게 할 수 있어요. 예를 들어 상담 가능 시간을 정해두고 안내하는 것도 방법이 될 수 있습니다.",
+      "turn": 28,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 할 수 있다는 생각을 못 했어요. 그런데 이미 관계가 형성된 학부모님들한테 갑자기 그렇게 하면 이상하게 생각하지 않을까요?",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화를 시도할 때 주변의 반응이 걱정되시는 건 자연스러운 감정입니다. 하지만 '더 나은 교육을 위해'라는 명확한 이유와 함께 정중하게 안내하면 대부분 이해해주실 거예요. 작은 것부터 시도해보시면 어떨까요?",
+      "turn": 30,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 말씀하시니 조금 용기가 나네요. 한번 시도해볼 만할 것 같아요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그리고 학생들과의 관계에서도 어려움을 느끼신다고 하셨는데, 그 부분은 어떻게 개선해보고 싶으신가요?",
+      "turn": 32,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "학생들이 수업에 흥미를 가졌으면 좋겠어요. 예전처럼 제가 열정적으로 가르치고 싶은데, 지금은 그럴 에너지가 없어요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "에너지가 고갈된 상태에서 열정을 내기는 어렵죠. 먼저 선생님 자신을 돌보는 것이 우선일 수 있습니다. 최근에 스스로를 위해 시간을 가져보신 적이 있으신가요?",
+      "turn": 34,
+      "technique": "self-care"
+    },
+    {
+      "speaker": "client",
+      "text": "거의 없어요. 주말에도 밀린 업무 처리하고, 집안일 하다 보면 끝나요. 저를 위한 시간은... 생각해본 적도 없는 것 같아요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇다면 그것부터 시작해보면 어떨까요? 작은 것이라도 좋습니다. 선생님께서 에너지를 회복하셔야 학생들에게도 더 좋은 영향을 줄 수 있으실 거예요. 오늘 상담을 통해 어떤 부분이 가장 도움이 되셨나요?",
+      "turn": 36,
+      "technique": "summary"
+    },
+    {
+      "speaker": "client",
+      "text": "제가 '버티거나 그만두거나' 두 가지만 생각했는데, 다른 방법들도 있다는 걸 알게 됐어요. 그리고 제 자신을 돌보는 것도 중요하다는 것도요. 감사합니다.",
+      "turn": 37
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T15:24:29.113246+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

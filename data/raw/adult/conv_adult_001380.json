@@ -1,198 +1,193 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250619_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "마케팅 팀장"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.310987",
+  "situation": "최근 승진 후 팀 관리와 성과 압박으로 인한 스트레스와 불면증을 겪고 있으며, 일과 개인 생활의 균형을 잃어가고 있다고 느끼는 상황",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 상담 예약하고 처음 와보는데... 솔직히 제가 상담을 받아야 할 정도인가 싶기도 하고 조금 어색하네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 상담실을 찾는 것이 쉽지 않으셨을 텐데 용기 내어 오셨네요. 어색하고 낯선 느낌이 드시는 건 당연합니다. 편안하게 이야기 나눠보도록 하겠습니다. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "사실 요즘 잠을 제대로 못 자고 있어요. 6개월 전에 팀장으로 승진했는데, 그 이후로 계속 스트레스가 심해지고 있어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "6개월 전 승진 이후로 불면증과 스트레스가 계속되고 있으시군요. 승진이라는 변화가 생각보다 많은 부담을 가져온 것 같네요.",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 맞아요. 처음엔 기뻤는데... 이제는 매일 밤 일 생각에 잠을 못 자요. 새벽 3시에 눈이 떠지면 다시 못 자고, 팀원들 관리도 생각보다 너무 어렵고요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "승진의 기쁨도 잠시, 지금은 밤마다 일 걱정으로 잠들기 어렵고 새벽에 깨면 다시 잠들지 못하시는군요. 팀원 관리도 예상보다 힘드시다고 느끼시는 것 같아요.",
       "turn": 6,
+      "technique": "active_listening"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "그렇죠. 전엔 제 일만 잘하면 됐는데, 이제는 팀 전체 성과에 책임을 져야 하잖아요. 실적이 안 나오면 제 탓인 것 같고... 위에서는 계속 압박하고요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "개인 성과에서 팀 전체 성과로 책임의 범위가 넓어지면서 부담이 훨씬 커지셨네요. 그 무게감이 상당히 크게 느껴지시는 것 같습니다.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그리고 팀원들과의 관계도 애매해졌어요. 예전엔 같은 동료였는데 이제는 제가 평가하고 지시해야 하는 입장이니까... 어떻게 대해야 할지 모르겠어요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "동료에서 상사로 관계가 변하면서 어떤 거리를 유지해야 할지, 어떻게 소통해야 할지 혼란스러우신 거네요. 이런 역할 변화는 많은 분들이 어려워하시는 부분입니다.",
       "turn": 10,
+      "technique": "normalization"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정말요? 저만 이렇게 힘든 게 아닌가요? 다른 팀장들은 다 잘하는 것 같은데 저만 못하는 것 같아서 자책도 많이 했어요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "다른 사람들은 다 잘하는 것처럼 보이고 자신만 부족하다고 느끼셨군요. 하지만 실제로 리더십 역할로의 전환은 많은 분들에게 도전적인 과정입니다. 스스로를 너무 혹독하게 평가하고 계신 건 아닐까요?",
       "turn": 12,
+      "technique": "reframing"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "그런가요... 저는 제가 무능한 건 줄 알았어요. 요즘은 아침에 일어나는 것도 힘들고, 회사 가기가 두렵기까지 해요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "아침에 일어나기 힘들고 출근이 두려울 정도로 심리적 부담이 크시네요. 이런 증상은 얼마나 지속되었나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "assessment"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "한 두 달 정도 된 것 같아요. 처음 3-4개월은 그래도 버텼는데, 최근 들어 더 심해진 것 같아요. 집에서도 계속 일 생각만 하게 되고요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "초기에는 적응하려고 애쓰시다가 최근 2개월 사이에 증상이 악화되었군요. 집에서도 일에서 벗어나지 못하신다는 건 일과 개인 생활의 경계가 흐려진 상태네요.",
+      "turn": 16,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 맞아요. 주말에도 쉬질 못해요. 남편이 같이 시간을 보내자고 해도 머릿속은 온통 월요일 회의 생각뿐이고... 남편한테도 미안하고요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "일과 개인 생활 사이의 균형이 많이 무너진 상태시군요. 가족과의 시간도 온전히 즐기지 못하시고, 그로 인해 죄책감까지 느끼고 계시네요.",
+      "turn": 18,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇죠. 이렇게 살 수는 없는데... 어떻게 해야 할지 모르겠어요. 팀장 역할을 포기할 수도 없고, 그렇다고 이대로 계속 갈 수도 없고요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "현재 상황을 바꾸고 싶지만 방법을 찾기 어려워 막막하신 거네요. 역할을 포기하는 것도, 현 상태를 유지하는 것도 답이 아닌 것처럼 느껴지시는군요. 이런 딜레마 상황이 더욱 힘들게 하는 것 같습니다.",
+      "turn": 20,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "정확히 그래요. 저는 어떻게 해야 할까요? 이 상황에서 벗어날 수 있을까요?",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화는 충분히 가능합니다. 우선 지금 겪고 계신 어려움을 구체적으로 나눠서 살펴볼 필요가 있어요. 불면증, 업무 스트레스, 팀원 관리, 일과 삶의 균형 등 여러 영역이 얽혀있는데, 가장 먼저 다루고 싶은 부분은 무엇인가요?",
+      "turn": 22,
+      "technique": "problem_solving"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 일단 잠을 좀 잤으면 좋겠어요. 잠을 못 자니까 낮에 더 예민해지고 판단력도 떨어지는 것 같거든요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "불면증이 다른 문제들을 더 악화시키는 악순환을 만들고 있다는 걸 인식하고 계시네요. 좋은 출발점입니다. 잠들기 전이나 새벽에 깼을 때 주로 어떤 생각들이 떠오르시나요?",
+      "turn": 24,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "주로 '내가 잘못 결정한 건 아닐까', '팀원들이 나를 무능하다고 생각하면 어쩌지', '다음 분기 실적이 안 나오면 어떡하지' 같은 생각들이요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "실수에 대한 걱정, 타인의 평가에 대한 두려움, 미래에 대한 불안이 반복적으로 떠오르시는군요. 이런 생각들이 머릿속을 계속 맴돌면 잠들기 어려울 수밖에 없습니다.",
+      "turn": 26,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그런 생각들을 멈출 수가 없어요. 어떻게 하면 이런 생각에서 벗어날 수 있을까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "우선 이런 반복적인 걱정 패턴을 인식하신 것 자체가 중요한 첫걸음입니다. 앞으로 우리가 함께 할 수 있는 것들이 있어요. 생각을 다루는 방법, 스트레스 관리 기술, 그리고 리더로서의 역할에 대한 현실적인 기대 설정 등을 작업해볼 수 있습니다.",
+      "turn": 28,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 할 수 있다면 정말 좋겠어요. 저도 다시 예전처럼 잠도 잘 자고 일도 즐겁게 하고 싶어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화에 대한 동기와 희망이 느껴집니다. 그 마음이 중요합니다. 오늘 이야기 나눈 것을 바탕으로 다음 시간부터는 구체적인 대처 방법들을 함께 연습해보면 좋겠어요. 오늘 상담은 어떠셨나요?",
+      "turn": 30,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "생각보다 편하게 이야기할 수 있어서 좋았어요. 제 상황을 정리해서 말하다 보니 조금 더 명확해진 것 같기도 하고요. 다음에 또 올게요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "오늘 용기 내어 이야기 나눠주셔서 감사합니다. 다음 시간에는 수면 패턴과 스트레스 관리에 대해 더 구체적으로 다뤄보도록 하겠습니다. 그때까지 잘 지내시길 바랍니다.",
+      "turn": 32,
+      "technique": "closing"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T14:43:06.357218+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

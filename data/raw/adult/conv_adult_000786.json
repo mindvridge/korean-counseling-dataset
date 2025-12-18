@@ -1,186 +1,215 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "주제",
-    "total_turns": 26,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250612_001",
+  "category": "adult",
+  "persona": {
+    "age": 32,
+    "gender": "여성",
+    "occupation": "중학교 교사"
   },
-  "seed_info": {
-    "source_file": "seed.json",
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:13.707885",
+  "situation": "5년차 교사로 학생 지도와 학부모 민원 사이에서 번아웃을 겪고 있으며, 최근 담임 업무에 대한 부담감으로 출근이 두려워진 상태",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Client 0"
+      "text": "안녕하세요. 상담 예약하고 오긴 했는데... 어디서부터 말씀드려야 할지 모르겠네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text 1",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 편안하게 앉으세요. 천천히 생각나시는 대로 말씀해주시면 됩니다. 지금 어떤 마음으로 이 자리에 오셨나요?",
       "turn": 2,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Client 2"
+      "text": "요즘 출근하는 게 너무 힘들어요. 아침에 눈을 뜨면 학교에 가기 싫다는 생각부터 들고... 전 교사인데 이런 생각을 하는 게 맞나 싶어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text 3",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Client 4"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text 5",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "출근이 두렵고 힘드신 상황이시군요. 교사로서의 책임감과 현재 느끼시는 어려움 사이에서 많이 혼란스러우실 것 같습니다.",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Client 6"
+      "text": "네, 맞아요. 처음 교사 시작했을 땐 정말 열정이 있었거든요. 그런데 올해 담임을 맡으면서부터 모든 게 달라졌어요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text 7",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Client 8"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text 9",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "올해 담임을 맡으시면서 변화가 있으셨군요. 구체적으로 어떤 일들이 있으셨는지 말씀해주실 수 있을까요?",
       "turn": 6,
+      "technique": "clarification"
+    },
+    {
       "speaker": "client",
-      "text": "Client 10"
+      "text": "학생들 지도하는 것도 힘든데, 학부모 민원이 계속 들어와요. 어떤 학부모님은 자기 아이가 뒤에 앉는다고, 어떤 분은 급식이 마음에 안 든다고... 제가 할 수 있는 게 없는데도 계속 저한테 연락하세요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text 11",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Client 12"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text 13",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학생 지도와 학부모 대응을 동시에 하시면서 정말 많이 지치셨겠어요. 본인의 통제 범위를 벗어난 일들에 대해서도 책임을 느끼고 계신 것 같네요.",
       "turn": 8,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Client 14"
+      "text": "맞아요. 제가 해결할 수 없는 일인데도 제 잘못처럼 느껴져요. 그리고 요즘엔 학생들도 예전 같지 않아요. 수업 시간에 핸드폰 보고, 주의를 주면 오히려 대들고...",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text 15",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Client 16"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text 17",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학생들과의 관계에서도 어려움을 겪고 계시는군요. 선생님께서 노력하시는데도 상황이 나아지지 않으니 무력감이 드실 것 같습니다.",
       "turn": 10,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Client 18"
+      "text": "무력감... 그 말이 딱 맞는 것 같아요. 제가 뭘 해도 안 될 것 같은 느낌? 그래서 요즘엔 그냥 포기하고 싶어요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text 19",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Client 20"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text 21",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "지금 정말 힘든 시기를 보내고 계시네요. 포기하고 싶다는 생각이 드신다는 건, 그만큼 많은 노력을 하셨지만 결과가 따라주지 않아서 지치신 거예요.",
       "turn": 12,
+      "technique": "reframing"
+    },
+    {
       "speaker": "client",
-      "text": "Client 22"
+      "text": "네... 사실 지난주에는 수업 중에 갑자기 눈물이 나올 것 같아서 급하게 자습을 시키고 교무실로 나온 적도 있어요. 이러다가 학생들 앞에서 무너질까 봐 무서워요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text 23",
-      "technique": [
-        "empathy"
-      ]
+      "text": "학생들 앞에서 감정이 북받쳐 올랐던 순간이 있으셨군요. 그 상황에서 잠시 자리를 피하신 건 자신을 보호하기 위한 현명한 선택이었어요. 지금 선생님의 심신이 많이 지쳐있다는 신호입니다.",
+      "turn": 14,
+      "technique": "affirmation"
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "Client 24"
+      "text": "그래도 되는 건가요? 전 그냥 도망친 것 같아서... 교사로서 자격이 없는 것 같았어요.",
+      "turn": 15
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "Text 25",
-      "technique": [
-        "empathy"
-      ]
+      "text": "선생님께서는 스스로에게 너무 엄격한 기준을 적용하고 계신 것 같아요. 교사도 사람이고, 힘들 때 잠시 쉬어가는 것은 자격의 문제가 아니라 자기 돌봄의 문제입니다.",
+      "turn": 16,
+      "technique": "cognitive_restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "자기 돌봄이요... 생각해본 적이 없네요. 항상 학생들, 학부모님들 생각만 했지 제 자신은 돌보지 않았던 것 같아요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "그동안 다른 사람들을 돌보느라 정작 자신은 뒷전이었던 거네요. 요즘 선생님 자신을 위해 하시는 일이 있으신가요?",
+      "turn": 18,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 없는 것 같아요. 퇴근하면 너무 지쳐서 그냥 소파에 누워있다가 자요. 주말에도 밀린 업무 생각하면서 불안해하고...",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "퇴근 후나 주말에도 제대로 쉬지 못하고 계시는군요. 몸은 쉬고 있어도 마음은 계속 일에 묶여있는 상태네요.",
+      "turn": 20,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 머릿속이 항상 복잡해요. 이번 주에 처리할 일, 학부모 상담, 문제 학생... 끊임없이 뭔가를 생각하고 있어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "머리를 쉬게 할 시간이 없으시니 더 지치실 수밖에 없겠어요. 혹시 주변에 이런 어려움을 나눌 수 있는 분이 계신가요?",
+      "turn": 22,
+      "technique": "support_exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "동료 교사들도 다들 바쁘고... 친구들한테 말하면 '방학도 있고 좋겠다'는 소리만 들어요. 그래서 그냥 혼자 삭이게 돼요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "주변 사람들이 선생님의 어려움을 제대로 이해해주지 못해서 더 외롭고 힘드셨겠어요. 이해받지 못한다는 느낌은 고립감을 더 크게 만들죠.",
+      "turn": 24,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 정말 그래요. 아무도 제 마음을 모르는 것 같아서... 그래서 오늘 여기 온 것도 용기가 필요했어요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "이렇게 상담실 문을 두드리신 것 자체가 큰 용기였어요. 도움을 청하는 것은 약함이 아니라 자신을 돌보기 위한 적극적인 행동입니다.",
+      "turn": 26,
+      "technique": "affirmation"
+    },
+    {
+      "speaker": "client",
+      "text": "감사합니다. 그런데 저, 계속 이렇게 힘들면 어떡하죠? 교사를 그만둬야 하나요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 당장 큰 결정을 내리실 필요는 없어요. 먼저 선생님의 마음을 돌보고, 지친 에너지를 회복하는 것이 우선입니다. 그 후에 천천히 생각해보시는 게 어떨까요?",
+      "turn": 28,
+      "technique": "guidance"
+    },
+    {
+      "speaker": "client",
+      "text": "그게 가능할까요? 지금은 너무 지쳐서 회복할 수 있을지 모르겠어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금은 그렇게 느껴지실 수 있어요. 하지만 선생님께서는 5년 동안 교직을 이어오셨고, 처음엔 열정도 있으셨잖아요. 그 힘이 완전히 사라진 게 아니라 지금 잠시 가려져 있는 거예요.",
+      "turn": 30,
+      "technique": "hope_instillation"
+    },
+    {
+      "speaker": "client",
+      "text": "그럴 수도 있을까요? 다시 예전처럼 될 수 있을까요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "예전과 똑같을 필요는 없어요. 지금의 경험을 통해 자신을 더 잘 돌보는 방법을 배우신다면, 더 건강한 방식으로 일할 수 있게 되실 거예요. 함께 그 방법을 찾아가보면 어떨까요?",
+      "turn": 32,
+      "technique": "collaborative_approach"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 해보고 싶어요. 뭐부터 시작하면 좋을까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "우선 일상에서 작은 휴식 시간을 만드는 것부터 시작해볼까요? 하루 10분이라도 온전히 자신만을 위한 시간을 가져보세요. 그리고 다음 상담 때 어떠셨는지 나눠주시면 좋겠어요.",
+      "turn": 34,
+      "technique": "homework_assignment"
+    },
+    {
+      "speaker": "client",
+      "text": "10분이라면 할 수 있을 것 같아요. 그리고 여기서 이야기하니까 조금 마음이 가벼워진 것 같아요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "다행이에요. 오늘 용기 내서 오셔서 솔직하게 마음을 나눠주셔서 감사합니다. 다음 주 같은 시간에 다시 뵙겠습니다. 힘든 순간이 오면 오늘 나눈 이야기를 떠올려보세요.",
+      "turn": 36,
+      "technique": "closing"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T13:32:28.180676+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

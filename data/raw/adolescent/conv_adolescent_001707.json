@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adolescent",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADO_20250623_001",
+  "category": "adolescent",
+  "persona": {
+    "age": 16,
+    "gender": "여성",
+    "occupation": "고등학교 1학년"
   },
-  "seed_info": {
-    "category": "adolescent"
-  },
-  "generated_at": "2025-12-17T02:04:27.465593",
+  "situation": "학업 스트레스와 부모님의 과도한 기대로 인해 우울감과 무기력감을 느끼고 있으며, 최근 성적이 떨어지면서 자신감을 잃은 상태",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 어머니가 상담 받아보라고 하셔서 왔어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 오늘 이렇게 찾아와 주셔서 감사해요. 편하게 이야기 나눠보아요. 지금 어떤 마음이 드나요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "음... 잘 모르겠어요. 그냥 요즘 모든 게 귀찮고 힘들어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "모든 게 귀찮고 힘들다고 느껴지는구나. 그런 마음이 언제부터 시작되었는지 기억나나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "중학교 때는 괜찮았는데... 고등학교 올라오면서부터인 것 같아요. 특히 이번 중간고사 이후로 더 심해진 것 같고요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "고등학교에 올라오면서 변화가 생겼고, 특히 중간고사 이후에 더 힘들어졌군요. 중간고사 때 무슨 일이 있었나요?",
       "turn": 6,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "성적이 많이 떨어졌어요. 중학교 때는 항상 상위권이었는데, 이번에는 중간 정도밖에 안 나왔어요. 부모님이 너무 실망하셨어요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "중학교 때와 달리 성적이 기대만큼 나오지 않아서 힘들었겠어요. 부모님의 실망하신 모습을 보는 것도 쉽지 않았을 것 같고요.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 엄마는 매일 공부하라고 하시고, 학원도 더 다니라고 하세요. 근데 저는 이미 지쳐서 더 이상 못하겠어요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "이미 많이 지친 상태에서 더 많은 것을 요구받고 있다고 느껴지는구나. 그 부담감이 정말 크겠어요.",
       "turn": 10,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 아침에 일어나는 것도 힘들고, 학교 가기도 싫어요. 친구들 만나는 것도 이제는 별로예요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "일상적인 활동들에 대한 의욕이 많이 떨어진 상태네요. 예전에 즐겁게 했던 일들도 지금은 그렇지 않나요?",
       "turn": 12,
+      "technique": "assessment"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 예전에는 친구들이랑 노는 게 재밌었는데, 지금은 그냥 혼자 있고 싶어요. 방에만 있고 싶어요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "혼자만의 시간이 필요하다고 느끼는 거네요. 그런데 그 시간 동안 마음이 편안해지나요, 아니면 여전히 힘든가요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "open_question"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "편안하진 않아요. 그냥... 아무것도 안 하고 누워있어요. 핸드폰 보다가 잠들고 그래요. 그러면 엄마가 화내시고...",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "쉬고 싶어서 방에 있는데, 그것조차도 편안하지 않고 어머니와의 갈등으로 이어지는구나. 정말 힘든 상황이네요.",
+      "turn": 16,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 엄마는 제가 게으르다고 생각하시는 것 같아요. 근데 저는 정말 힘들어서 그런 건데...",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신의 힘든 마음을 이해받지 못한다고 느껴지는 거네요. 어머니께 지금 느끼는 이런 감정들을 말씀드려본 적이 있나요?",
+      "turn": 18,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "말해봤는데... 그냥 '누구나 힘들다', '네가 노력을 안 해서 그렇다'고 하세요. 그래서 이제는 말하기도 싫어요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신의 어려움을 표현했는데 이해받지 못했던 경험이 있었군요. 그래서 더 이상 말하고 싶지 않게 된 거네요. 그런 경험은 정말 외롭고 답답했을 것 같아요.",
+      "turn": 20,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 선생님, 저 이상한 건가요? 다른 애들은 다 잘하는데 저만 이러는 것 같아요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "전혀 이상한 게 아니에요. 지금 느끼는 감정들은 과도한 스트레스와 압박 속에서 나타날 수 있는 자연스러운 반응이에요. 많은 청소년들이 비슷한 어려움을 겪고 있답니다.",
+      "turn": 22,
+      "technique": "normalization"
+    },
+    {
+      "speaker": "client",
+      "text": "정말요? 저만 그런 게 아니에요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 정말이에요. 그리고 지금 이렇게 도움을 요청한 것은 정말 용기 있는 행동이에요. 스스로를 돌보려는 첫걸음을 내딛은 거예요.",
+      "turn": 24,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니까 조금... 마음이 가벼워지는 것 같아요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇게 느껴진다니 다행이에요. 지금부터 함께 천천히 이 상황을 헤쳐나가 볼까요? 먼저, 지금 가장 힘든 부분이 무엇인지 좀 더 구체적으로 이야기해볼 수 있을까요?",
+      "turn": 26,
+      "technique": "collaboration"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 부모님의 기대를 못 맞춰드리는 게 제일 힘들어요. 그리고 공부를 해야 하는데 집중이 안 돼요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "부모님의 기대와 실제 자신의 상태 사이에서 갈등을 느끼고 있고, 집중력도 떨어진 상태네요. 혹시 잠은 잘 자고 있나요? 식사는 규칙적으로 하고 있고요?",
+      "turn": 28,
+      "technique": "assessment"
+    },
+    {
+      "speaker": "client",
+      "text": "잠은... 늦게 자요. 새벽까지 핸드폰 보다가 자서 아침에 일어나기 힘들어요. 밥은 잘 안 먹어요. 입맛이 없어서요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "수면과 식사 패턴이 불규칙한 것도 지금의 무기력감과 집중력 저하에 영향을 주고 있을 수 있어요. 이런 기본적인 것들부터 조금씩 개선해보는 건 어떨까요?",
+      "turn": 30,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "그게 도움이 될까요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 충분한 수면과 규칙적인 식사는 우리의 기분과 에너지 수준에 큰 영향을 줘요. 작은 변화부터 시작해서 천천히 나아가보면 어떨까요? 너무 큰 목표보다는 실천 가능한 작은 것부터요.",
+      "turn": 32,
+      "technique": "goal_setting"
+    },
+    {
+      "speaker": "client",
+      "text": "해볼게요... 근데 부모님은 어떻게 해야 할까요? 계속 공부 얘기만 하시는데...",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "부모님과의 대화도 중요한 부분이네요. 필요하다면 부모님과 함께 상담 시간을 가져볼 수도 있어요. 지금의 상황을 함께 이해하고 해결방법을 찾아가는 거예요. 어떻게 생각하나요?",
+      "turn": 34,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "그것도 좋을 것 같아요. 엄마가 제 마음을 조금이라도 이해해주시면 좋겠어요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋아요. 그럼 오늘은 여기까지 이야기하고, 다음 시간에는 부모님과 함께 만나보도록 할게요. 그 전까지 우리가 이야기한 수면과 식사 패턴을 조금씩 개선해보는 것을 목표로 해볼까요? 오늘 용기 내어 이야기해줘서 고마워요.",
+      "turn": 36,
+      "technique": "summarization"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T06:26:52.233604+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adolescent"
+  }
 }

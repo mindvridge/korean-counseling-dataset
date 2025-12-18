@@ -1,0 +1,215 @@
+{
+  "conversation_id": "ADO_20250625_001",
+  "category": "adolescent",
+  "persona": {
+    "age": 16,
+    "gender": "남",
+    "occupation": "고등학교 1학년"
+  },
+  "situation": "학교에서 친구들과의 관계가 어려워지고, 게임에만 몰두하면서 성적이 급격히 떨어진 청소년이 부모님의 권유로 상담을 받으러 왔다.",
+  "conversation": [
+    {
+      "speaker": "client",
+      "text": "안녕하세요... 엄마가 오라고 해서 왔어요.",
+      "turn": 1
+    },
+    {
+      "speaker": "counselor",
+      "text": "안녕하세요. 만나서 반가워요. 어머니가 권유하셔서 오긴 했지만, 이렇게 와준 것 자체가 용기 있는 일이에요. 편하게 이야기 나눠봐요.",
+      "turn": 2,
+      "technique": "rapport_building"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 근데 사실 뭘 말해야 할지 잘 모르겠어요.",
+      "turn": 3
+    },
+    {
+      "speaker": "counselor",
+      "text": "괜찮아요. 천천히 시작해볼까요? 요즘 어떻게 지내고 있나요?",
+      "turn": 4,
+      "technique": "open_ended_question"
+    },
+    {
+      "speaker": "client",
+      "text": "그냥... 학교 가고 집에 오고 그래요. 요즘은 학교 가기도 싫고요.",
+      "turn": 5
+    },
+    {
+      "speaker": "counselor",
+      "text": "학교 가기가 싫다고 느끼고 있군요. 어떤 점이 힘들게 만드나요?",
+      "turn": 6,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "친구들이랑 잘 안 맞는 것 같아요. 중학교 때 친했던 애들이랑 다른 반이 됐는데, 새로운 반 애들이랑은 별로 친해지지 못했어요.",
+      "turn": 7
+    },
+    {
+      "speaker": "counselor",
+      "text": "친했던 친구들과 떨어지고 새로운 환경에 적응하는 게 쉽지 않았겠어요. 그런 변화는 누구에게나 어려운 일이에요.",
+      "turn": 8,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 처음엔 노력했는데, 다들 이미 친한 애들끼리 있으니까 끼기가 어렵더라고요.",
+      "turn": 9
+    },
+    {
+      "speaker": "counselor",
+      "text": "처음에는 노력도 해봤지만 쉽지 않았군요. 그 과정에서 많이 외로웠을 것 같아요.",
+      "turn": 10,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 그래서 점심시간도 그냥 혼자 먹고, 쉬는 시간에도 그냥 책상에 엎드려 있어요.",
+      "turn": 11
+    },
+    {
+      "speaker": "counselor",
+      "text": "혼자 있는 시간이 많아졌네요. 그럴 때 기분은 어떤가요?",
+      "turn": 12,
+      "technique": "open_ended_question"
+    },
+    {
+      "speaker": "client",
+      "text": "처음엔 슬프고 그랬는데... 이제는 그냥 빨리 집에 가고 싶어요. 집에 가면 게임이라도 할 수 있으니까요.",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "게임이 지금 유일한 위안이 되고 있는 것 같네요. 게임을 하면 기분이 좀 나아지나요?",
+      "turn": 14,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 게임할 땐 다 잊어버릴 수 있어요. 게임 안에서는 친구들도 있고, 제가 잘하면 인정도 받고요.",
+      "turn": 15
+    },
+    {
+      "speaker": "counselor",
+      "text": "게임 속에서는 소속감도 느끼고 성취감도 얻을 수 있군요. 그게 지금 현실에서 느끼지 못하는 것들이라서 더 의미 있게 느껴지는 것 같아요.",
+      "turn": 16,
+      "technique": "interpretation"
+    },
+    {
+      "speaker": "client",
+      "text": "그런 것 같아요. 근데 부모님은 게임만 한다고 엄청 화내세요. 성적도 많이 떨어졌거든요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "부모님의 걱정과 화가 부담스럽겠어요. 하루에 게임을 얼마나 하는 편인가요?",
+      "turn": 18,
+      "technique": "information_gathering"
+    },
+    {
+      "speaker": "client",
+      "text": "학교 끝나고 집에 오면 거의 밤 12시까지요. 주말에는 더 오래 하고요. 숙제도 안 하고 게임만 해요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "게임이 많은 시간을 차지하고 있네요. 스스로는 이게 문제라고 생각하나요?",
+      "turn": 20,
+      "technique": "confrontation"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 문제인 건 알아요. 성적도 떨어지고, 부모님이랑 맨날 싸우고. 근데 게임 안 하면 뭐 하고 있어야 할지 모르겠어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "문제인 건 알지만, 게임 외에 다른 대안을 찾기 어렵다는 거네요. 그 솔직한 마음을 나눠줘서 고마워요.",
+      "turn": 22,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 공부를 해야 하는 건 알지만 의욕도 안 나고, 친구들이랑 놀 수도 없고.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 상황을 정리해보면, 학교에서 친구 관계가 어려워지면서 외로움을 느끼고, 그 외로움을 게임으로 달래고 있는데, 그게 다시 성적 하락과 부모님과의 갈등으로 이어지고 있는 것 같아요.",
+      "turn": 24,
+      "technique": "summarizing"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 악순환인 것 같아요. 근데 어떻게 해야 할지 모르겠어요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "악순환을 인식하고 있다는 것 자체가 변화의 첫걸음이에요. 혹시 예전에, 중학교 때는 어땠나요? 친구들과 어떻게 지냈어요?",
+      "turn": 26,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "중학교 때는 괜찮았어요. 친한 애들 서너 명 있었고, 같이 축구도 하고 그랬어요. 성적도 중간은 했고요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "중학교 때는 친구들과 함께 운동도 하고 학교생활도 즐거웠군요. 그때와 지금의 가장 큰 차이는 뭐라고 생각해요?",
+      "turn": 28,
+      "technique": "comparison"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 친구들이 있었다는 거요? 그리고 뭔가 할 게 있었어요. 축구도 하고.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구들과 함께 할 수 있는 활동이 있었던 게 중요했네요. 지금은 그런 게 없어서 더 힘든 거고요.",
+      "turn": 30,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 맞아요. 고등학교 와서는 그런 게 하나도 없어요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇다면 우리가 함께 생각해볼 수 있는 건, 어떻게 하면 다시 그런 연결고리를 만들어갈 수 있을까 하는 거예요. 작은 것부터 시작해보면 어떨까요?",
+      "turn": 32,
+      "technique": "goal_setting"
+    },
+    {
+      "speaker": "client",
+      "text": "작은 것이요? 예를 들면 어떤 거요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "예를 들면, 반에서 관심 있는 동아리나 활동이 있는지 알아보거나, 중학교 친구들과 가끔 만나는 시간을 갖는 것도 방법이 될 수 있어요. 어떤 게 가능할 것 같아요?",
+      "turn": 34,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "중학교 친구들은 가끔 연락은 해요. 만나자고 하는데 제가 귀찮아서 안 나가거든요. 그런데 한번 나가볼까요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 생각이에요. 작은 시도지만 의미 있는 첫걸음이 될 수 있어요. 다음에 만나서 어땠는지 이야기 나눠봐요. 오늘 이야기 나눠줘서 정말 고마워요.",
+      "turn": 36,
+      "technique": "encouragement"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T12:24:37.927658+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adolescent"
+  }
+}

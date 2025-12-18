@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250612_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "남성",
+    "occupation": "중견기업 마케팅팀장"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.545490",
+  "situation": "최근 승진 후 팀장으로서의 역할과 책임감에 부담을 느끼며, 부하직원들과의 관계에서 어려움을 겪고 있음. 완벽주의 성향으로 인해 과도한 업무 부담을 스스로에게 지우고 있으며, 이로 인한 불면증과 불안감을 호소함",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 상담을 받아보는 게 처음이라 좀 떨리네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 상담실을 찾는 것은 누구에게나 쉽지 않은 일입니다. 용기 내어 방문해주셔서 감사합니다. 편안하게 이야기 나눠보도록 하겠습니다.",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 감사합니다. 사실 요즘 너무 힘들어서 아내가 상담을 받아보는 게 어떻겠냐고 권유했어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "아내분께서 내담자님의 어려움을 알아차리고 걱정해주셨군요. 어떤 점이 가장 힘드신가요?",
       "turn": 4,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "3개월 전에 팀장으로 승진했는데요. 처음엔 기뻤는데, 막상 해보니까 생각보다 훨씬 힘들더라고요. 책임감이 너무 무겁고...",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "승진이라는 긍정적인 변화였지만, 그에 따른 책임감이 예상보다 크게 느껴지시는군요. 구체적으로 어떤 부분이 가장 부담스러우신가요?",
       "turn": 6,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "팀원들 관리가 제일 어려워요. 제가 원래 실무자로 일할 때는 제 일만 잘하면 됐는데, 이제는 팀원들 업무도 챙겨야 하고, 실적도 책임져야 하고... 팀원 중 한 명은 저보다 나이도 많고 경력도 많아서 어떻게 대해야 할지 모르겠어요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "실무자에서 관리자로의 역할 전환이 쉽지 않으시군요. 특히 자신보다 연차가 높은 팀원을 관리하는 것에 대한 부담감이 크신 것 같습니다.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그 팀원분이 제 지시를 따르지 않을 때도 있고, 회의 때 제 의견에 반대하시면 제가 잘못하고 있는 건가 싶어서 자신감이 떨어져요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "팀원의 반응이 자신의 리더십에 대한 평가처럼 느껴지면서 자신감이 흔들리는 경험을 하고 계시는군요.",
       "turn": 10,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 그래서 더 완벽하게 하려고 노력하는데... 밤늦게까지 일하고, 주말에도 일 생각만 하게 돼요. 잠도 제대로 못 자고요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "자신감이 떨어지는 것을 완벽함으로 보완하려고 하시는 것 같은데, 그것이 오히려 내담자님을 더 힘들게 만들고 있는 것 같네요. 수면에도 영향을 미치고 있고요.",
       "turn": 12,
+      "technique": "interpretation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정확히 그래요. 잠들기 전에도 내일 할 일, 놓친 건 없는지 계속 생각하게 되고... 새벽 3~4시에 자서 7시에 일어나는 게 일상이 됐어요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "하루 3~4시간 정도밖에 주무시지 못하고 계시네요. 그런 상태가 얼마나 지속되셨나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "clarification"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "한 두 달 정도 된 것 같아요. 처음엔 괜찮았는데 요즘은 낮에도 집중이 안 되고, 짜증도 많이 나고... 아내한테도 신경질을 내게 되더라고요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "수면 부족이 일상생활 전반에 영향을 미치고 있군요. 업무 집중력 저하는 물론이고 가족 관계에도 영향을 주고 있어서 더 마음이 힘드실 것 같습니다.",
+      "turn": 16,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 아내가 이해해주긴 하는데, 제가 너무 미안하고... 이렇게 살면 안 되는데 어떻게 해야 할지 모르겠어요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 상황을 변화시키고 싶지만 방법을 찾기 어려워 답답하신 거군요. 내담자님께서 생각하시기에 가장 먼저 해결하고 싶은 부분은 무엇인가요?",
+      "turn": 18,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "일단 잠을 좀 자고 싶어요. 그래야 낮에도 제대로 일할 수 있을 것 같고... 그리고 팀원들과의 관계도 개선하고 싶어요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "수면 문제 해결과 팀원들과의 관계 개선, 두 가지를 목표로 말씀해주셨네요. 이 두 가지가 서로 연결되어 있다고 보시나요?",
+      "turn": 20,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 생각해보니 팀원들과의 관계 때문에 스트레스를 받아서 잠을 못 자는 것 같기도 해요. 계속 그 생각이 머릿속을 맴돌거든요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "관계에서 오는 스트레스가 수면을 방해하는 주요 요인이라는 것을 스스로 인식하셨네요. 그렇다면 팀원들과의 관계에서 내담자님이 기대하시는 모습은 어떤 건가요?",
+      "turn": 22,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "모든 팀원들이 제 말을 잘 따르고, 저를 리더로 인정해주길 바라는 것 같아요. 그래야 제가 제대로 팀장 역할을 하는 거라고 생각했거든요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "팀원들의 인정과 순응이 좋은 리더의 기준이라고 생각하셨군요. 혹시 내담자님이 생각하시는 '완벽한 팀장'의 모습이 있으신가요?",
+      "turn": 24,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "완벽한 팀장이요... 모든 걸 다 알고 있고, 실수하지 않고, 팀원들을 잘 이끌고, 성과도 내고... 그런 사람이요. 근데 말하고 보니 불가능한 것 같네요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "스스로 말씀하시면서 그 기준이 현실적으로 달성하기 어렵다는 것을 느끼셨군요. 이런 완벽주의적 기준이 내담자님에게 어떤 영향을 미쳤을까요?",
+      "turn": 26,
+      "technique": "insight_facilitation"
+    },
+    {
+      "speaker": "client",
+      "text": "계속 부족하다고 느끼게 만든 것 같아요. 아무리 해도 그 기준에 도달할 수 없으니까 불안하고... 그래서 더 열심히 하려고 하고...",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "중요한 통찰을 하셨네요. 도달하기 어려운 완벽함을 추구하면서 악순환이 만들어진 거죠. 내담자님이 실무자였을 때 존경했던 리더가 있으셨나요?",
+      "turn": 28,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 전 팀장님이 계셨어요. 그분은 모든 걸 다 아시는 분은 아니었지만, 팀원들 의견을 잘 들어주시고 실수해도 같이 해결하려고 하셨어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 팀장님의 어떤 점이 가장 좋았나요?",
+      "turn": 30,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "완벽하지 않아도 솔직하게 인정하시고, 우리를 믿어주신 거요. 그래서 오히려 더 따르고 싶었던 것 같아요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "완벽함보다는 진정성과 신뢰가 더 중요했다는 걸 경험으로 알고 계시네요. 지금 내담자님이 추구하시는 리더십과는 조금 다른 모습인 것 같은데, 어떻게 생각하시나요?",
+      "turn": 32,
+      "technique": "confrontation"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요... 저는 완벽해지려고만 했지, 팀원들을 믿거나 소통하려고 하지 않았네요. 제 기준에 안 맞으면 답답해하고...",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "스스로를 돌아보시는 모습이 인상적입니다. 이런 인식의 변화가 앞으로 어떤 행동의 변화로 이어질 수 있을까요?",
+      "turn": 34,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "팀원들과 더 대화를 해봐야 할 것 같아요. 특히 그 선배 팀원분과... 제가 부족한 부분도 인정하고 도움을 요청해볼 수도 있겠네요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "구체적인 실천 방안을 생각하셨네요. 오늘 상담을 통해 내담자님의 완벽주의가 어떻게 어려움을 만들어냈는지, 그리고 다른 방식의 리더십도 가능하다는 것을 발견하셨습니다. 다음 상담에서는 실제로 시도해보신 경험들을 나눠보면 좋겠습니다.",
+      "turn": 36,
+      "technique": "summarization"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T15:49:18.232077+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

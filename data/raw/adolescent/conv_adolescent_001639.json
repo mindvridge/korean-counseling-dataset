@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adolescent",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADO_20250619_001",
+  "category": "adolescent",
+  "persona": {
+    "age": 16,
+    "gender": "여성",
+    "occupation": "고등학교 1학년"
   },
-  "seed_info": {
-    "category": "adolescent"
-  },
-  "generated_at": "2025-12-17T02:04:27.433649",
+  "situation": "최근 전학을 온 후 새로운 학교에 적응하지 못하고 있으며, 이전 학교 친구들과의 관계도 소원해져 외로움과 불안을 느끼고 있음. 부모님께는 걱정을 끼치고 싶지 않아 힘든 내색을 하지 못하고 있음.",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 여기 처음 와봐서 좀 떨리네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 오는 곳이라 긴장되는 게 당연해요. 편안하게 이야기 나눠보아요. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "음... 사실 요즘 학교 가는 게 너무 힘들어요. 3개월 전에 전학을 왔는데, 아직도 적응이 안 되는 것 같아요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "전학 온 지 3개월이 됐는데도 적응이 어렵다고 느끼고 계시는군요. 학교 가는 게 힘들다는 게 구체적으로 어떤 부분이 가장 어려우신가요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "일단 친구가 없어요. 다들 이미 친한 애들끼리 그룹이 있고... 저는 혼자 밥도 먹고, 쉬는 시간에도 그냥 책 읽는 척하면서 시간 보내요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "혼자 밥을 먹고 쉬는 시간도 혼자 보내야 하는 상황이 정말 외롭고 힘들었겠어요. 새로운 환경에서 혼자라는 느낌은 누구에게나 어려운 일이에요.",
       "turn": 6,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 그리고 이전 학교 친구들이랑도 점점 연락이 뜸해지고 있어요. 처음엔 자주 연락했는데, 이제는 제가 먼저 연락해도 답장이 늦고...",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "새로운 학교에서도 친구를 사귀기 어렵고, 이전 친구들과도 관계가 소원해지면서 양쪽 모두에서 외로움을 느끼고 계시는 거네요.",
       "turn": 8,
+      "technique": "summarizing"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요... 정말 그래요. 가끔은 제가 문제가 있는 건가 싶기도 하고요. 왜 저만 이렇게 적응을 못하는 건지...",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "자신을 탓하게 되는군요. 하지만 새로운 환경에 적응하는 데 걸리는 시간은 사람마다 다르고, 3개월이면 아직 충분히 적응 과정 중에 있을 수 있어요. 스스로를 너무 책망하지 않았으면 좋겠어요.",
       "turn": 10,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "그런가요? 근데 다른 애들은 금방 친해지는 것 같던데... 저번에 전학 온 다른 애는 벌써 친구들이랑 잘 지내더라고요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "다른 사람과 비교하면서 자신을 평가하고 있는 것 같네요. 그런데 각자의 성격도 다르고, 상황도 다를 수 있어요. 혹시 이전 학교에서는 친구 관계가 어땠나요?",
       "turn": 12,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "이전 학교에서는 괜찮았어요. 중학교 때부터 같이 다닌 친구들이 있었고, 그 애들이랑은 편하게 지냈어요. 근데 처음부터 친구를 사귀는 건 원래 좀 어려워했던 것 같아요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "아, 그렇군요. 이미 알고 있던 친구들과는 편하게 지낼 수 있었지만, 새로운 친구를 사귀는 것은 원래 조금 어려움이 있었던 거네요. 그렇다면 지금의 어려움이 더 이해가 되네요.",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "reflection"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "네... 사실 저는 좀 내성적인 편이에요. 먼저 말 거는 것도 어렵고... 그래서 더 힘든 것 같아요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "내성적인 성격 때문에 먼저 다가가는 게 더 어렵게 느껴지는군요. 그런 상황에서 매일 학교에 가는 것 자체가 큰 용기를 내는 일이었을 거예요.",
+      "turn": 16,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요... 아침마다 학교 가기 싫어요. 엄마한테는 말 못하지만, 요즘은 배도 자주 아프고 머리도 아파요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "심리적인 스트레스가 신체 증상으로 나타나고 있는 것 같네요. 부모님께는 이런 어려움을 말씀드리지 못하고 계신가요?",
+      "turn": 18,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 엄마 아빠가 제 전학 때문에 많이 고생하셨거든요. 아빠 직장 때문에 이사한 건데, 저 때문에 걱정하시는 거 보기 싫어서요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "부모님을 걱정시키고 싶지 않아서 혼자 힘든 감정을 감당하고 있었군요. 가족을 생각하는 마음은 이해가 되지만, 혼자 모든 걸 감당하려니 더 힘들었을 것 같아요.",
+      "turn": 20,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "그냥... 시간이 지나면 나아질까 싶어서 참고 있었어요. 근데 점점 더 힘들어지는 것 같아요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "시간이 해결해줄 거라고 기대하며 참아왔는데, 오히려 더 힘들어지고 있다고 느끼는 거네요. 그래서 오늘 이렇게 상담을 받으러 오신 건가요?",
+      "turn": 22,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 선생님이 제가 요즘 좀 이상해 보인다고 상담 선생님께 한번 이야기해보는 게 어떻겠냐고 하셔서요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "선생님이 알아채셨군요. 그만큼 힘든 게 겉으로도 드러나고 있었던 것 같아요. 오늘 이렇게 용기 내서 와주셔서 고마워요. 함께 방법을 찾아볼 수 있을 거예요.",
+      "turn": 24,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "정말요? 저도 좀 나아질 수 있을까요?",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "물론이에요. 지금 이렇게 자신의 어려움을 인정하고 도움을 구하는 것 자체가 변화의 첫걸음이에요. 천천히 함께 해결 방법을 찾아가 봐요. 우선, 학교에서 조금이라도 편하게 느껴지는 순간이 있나요?",
+      "turn": 26,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 미술 시간은 좀 괜찮아요. 그림 그리는 거 좋아하거든요. 그때는 혼자여도 이상하지 않고요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "미술 시간에는 좀 더 편안함을 느끼는군요. 그림 그리기를 좋아한다는 것도 알게 됐고요. 이런 관심사가 친구를 사귀는 데 도움이 될 수도 있을 것 같아요.",
+      "turn": 28,
+      "technique": "strength_identification"
+    },
+    {
+      "speaker": "client",
+      "text": "어떻게요? 다들 자기들끼리만 이야기하던데...",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "예를 들어, 미술 동아리가 있다면 가입해보는 것도 방법이 될 수 있어요. 공통 관심사가 있으면 대화를 시작하기가 좀 더 쉬워질 수 있거든요. 학교에 미술 관련 동아리가 있나요?",
+      "turn": 30,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "있는 것 같긴 한데... 혼자 들어가는 게 무서워요. 또 거절당하면 어떡하죠?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "새로운 시도를 할 때 거절당할까봐 두려운 마음이 드는 건 자연스러운 거예요. 그런 두려움을 느끼면서도 시도해보는 게 쉽지 않다는 걸 알아요. 작은 것부터 천천히 시작해볼 수 있어요.",
+      "turn": 32,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "작은 것이요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 예를 들어 먼저 동아리 활동을 참관해보거나, 미술 시간에 옆자리 친구에게 작은 질문 하나를 건네보는 것부터 시작할 수 있어요. 어떤 게 가장 해볼 만할 것 같나요?",
+      "turn": 34,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "미술 시간에 말 거는 건... 한번 해볼 수 있을 것 같아요. 옆자리 애가 그림 잘 그리거든요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋아요! 그 친구의 그림을 칭찬해주는 것부터 시작해보는 건 어떨까요? 작은 시도지만 큰 용기가 필요한 일이에요. 다음에 만날 때 어떻게 됐는지 이야기 나눠봐요. 오늘 이야기 나눠줘서 정말 고마워요.",
+      "turn": 36,
+      "technique": "encouragement"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T06:19:12.975200+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adolescent"
+  }
 }

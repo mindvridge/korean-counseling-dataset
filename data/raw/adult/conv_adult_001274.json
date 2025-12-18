@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250619_ADT_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "중학교 교사"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.262003",
+  "situation": "10년차 교사로서 최근 학생들과의 관계에서 어려움을 겪고 있으며, 번아웃과 직업적 회의감을 느끼고 있음. 동료들과의 관계도 소원해지면서 고립감을 느끼고 있음.",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 상담 받는 게 처음이라 좀 떨리네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음이시라 긴장되실 수 있어요. 편안하게 이야기 나누는 시간이라고 생각하시면 됩니다. 오늘은 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "저는 중학교에서 국어를 가르치고 있는데요. 올해로 10년차인데... 요즘 들어 출근하는 게 너무 힘들어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "10년간 교직에 계셨는데, 최근 출근이 힘들어지셨군요. 어떤 점이 특히 힘드신가요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "학생들이 예전 같지 않아요. 수업 시간에 집중하지 않고, 제 말을 무시하는 것 같고... 제가 뭔가 잘못하고 있는 건지 모르겠어요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학생들과의 관계에서 변화를 느끼시고, 그것이 혹시 본인의 문제가 아닐까 하는 걱정이 드시는군요. 그런 생각을 하시면 더 힘드셨겠어요.",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 처음에는 열정도 있었고, 학생들과 소통하는 게 즐거웠거든요. 그런데 언제부턴가 제가 무엇을 위해 이 일을 하는지 모르겠어요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "초기의 열정과 즐거움이 있었는데, 지금은 그 의미를 찾기 어려워지신 거네요. 언제쯤부터 이런 변화를 느끼셨나요?",
       "turn": 8,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "작년부터인 것 같아요. 코로나 이후로 학생들이 많이 달라졌고, 학부모님들도 더 까다로워지신 것 같고... 동료 선생님들과도 예전처럼 편하게 이야기하지 못하겠어요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "작년부터 여러 방면에서 동시에 어려움을 겪으셨네요. 학생들, 학부모님들, 그리고 동료 선생님들과의 관계 모두에서 변화를 느끼신 거군요.",
       "turn": 10,
+      "technique": "summarizing"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 특히 동료들과의 관계가... 저만 뒤처지는 것 같아요. 다들 잘 지내시는 것 같은데 저만 힘들어하는 것 같아서 말도 못 꺼내겠고요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "다른 분들은 잘 지내시는 것처럼 보이는데, 본인만 힘들다고 느끼시니 더 고립감이 드셨겠어요. 혹시 동료 선생님들께 어려움을 나눠보신 적은 있으신가요?",
       "turn": 12,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "아니요... 약해 보일까봐요. 그리고 다들 바쁘시니까 제 얘기로 부담 드리고 싶지 않았어요. 그냥 혼자 견디면 되겠지 했는데, 점점 더 힘들어지네요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "약해 보일까봐, 부담을 드릴까봐 혼자 견디려고 하셨군요. 그렇게 혼자 감당하시느라 정말 힘드셨겠습니다.",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "validation"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "네... 요즘은 아침에 일어나는 것도 힘들고, 주말에도 계속 학교 생각이 나요. 쉬어도 쉰 것 같지 않아요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "일상생활에서도 영향을 받고 계시네요. 충분히 쉬지 못하시고 계속 긴장 상태에 있으신 것 같습니다. 이런 상태가 얼마나 지속되셨나요?",
+      "turn": 16,
+      "technique": "assessment"
+    },
+    {
+      "speaker": "client",
+      "text": "몇 달은 된 것 같아요. 남편한테도 짜증을 내게 되고... 제가 예전의 제가 아닌 것 같아요. 이렇게 부정적인 사람이 아니었는데.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "가정에서도 영향이 미치고, 본인이 변해가는 것 같아 당황스러우신 거네요. 남편분은 이런 상황에 대해 알고 계신가요?",
+      "turn": 18,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "대충은 알고 있어요. 힘들어 보인다고 휴직을 생각해보라고 하는데... 그게 답일까요? 휴직하면 더 무능력해 보일 것 같고, 복직하는 게 더 어려울 것 같아요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "휴직에 대한 제안이 있었지만, 그것이 오히려 무능력함의 증거처럼 느껴지시는군요. 휴직 외에 다른 선택지들에 대해서는 생각해보셨나요?",
+      "turn": 20,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "글쎄요... 그냥 참고 버티는 것? 사실 다른 방법을 생각해본 적이 없어요. 그냥 제가 더 노력하면 되는 거 아닌가요?",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금까지 충분히 노력하셨는데도 힘든 상황이신데, 더 노력해야 한다고 생각하시니 스스로에게 더 가혹하신 것 같네요. 혹시 이전에 비슷한 어려움을 겪으셨을 때 어떻게 극복하셨나요?",
+      "turn": 22,
+      "technique": "strength-based approach"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 예전에는 선배 선생님들과 이야기하면서 위로를 받았던 것 같아요. 그리고 학생들과의 좋은 순간들이 힘이 됐고요. 근데 지금은 그런 게 없어요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "예전에는 동료들과의 소통과 학생들과의 긍정적인 경험이 힘이 되었군요. 지금은 그런 자원들이 끊긴 것처럼 느껴지시는 거네요. 그렇다면 지금 상황에서 활용할 수 있는 자원은 무엇이 있을까요?",
+      "turn": 24,
+      "technique": "resource identification"
+    },
+    {
+      "speaker": "client",
+      "text": "자원이요? 잘 모르겠어요... 남편이 지지해주는 것? 그리고 아직 완전히 포기하지는 않았으니까 여기 상담을 받으러 온 것도 자원일까요?",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "맞습니다. 남편분의 지지와 변화를 위해 도움을 구하려는 의지, 이것들이 모두 중요한 자원이에요. 특히 스스로 도움을 청하신 것은 큰 용기입니다.",
+      "turn": 26,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니 조금... 덜 절망적인 것 같기도 하네요. 그럼 저는 어떻게 해야 할까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화의 가능성을 느끼시는 것 같아 다행입니다. 한 번에 모든 것을 해결하려고 하기보다는, 작은 것부터 시작해보면 어떨까요? 가장 먼저 개선하고 싶은 부분이 있다면 무엇일까요?",
+      "turn": 28,
+      "technique": "goal setting"
+    },
+    {
+      "speaker": "client",
+      "text": "일단... 동료 선생님들과 다시 가까워지고 싶어요. 혼자 있는 게 너무 외로워요. 그리고 학생들을 다시 예전처럼 대하고 싶고요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "관계 회복을 우선순위로 두고 계시네요. 동료 선생님들 중에서 가장 편하게 느껴지시는 분이 계신가요?",
+      "turn": 30,
+      "technique": "concrete planning"
+    },
+    {
+      "speaker": "client",
+      "text": "같은 학년 부장님이 원래 친하셨는데... 제가 먼저 거리를 둔 것 같아요. 그분은 여전히 관심을 보여주시는데 제가 피했던 것 같네요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇다면 그분과 다시 연결될 수 있는 작은 시도를 해볼 수 있겠네요. 어떤 방법이 가능할까요?",
+      "turn": 32,
+      "technique": "action planning"
+    },
+    {
+      "speaker": "client",
+      "text": "점심시간에 같이 식사하자고 먼저 말을 걸어볼 수 있을 것 같아요. 그리고 솔직하게 제가 힘들었다고 이야기해볼까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 계획이네요. 솔직함은 관계를 더 깊게 만들 수 있습니다. 다음 상담 때까지 이것을 실천해보시고, 어떤 경험을 하셨는지 나눠주시겠어요?",
+      "turn": 34,
+      "technique": "homework assignment"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 해볼게요. 오늘 이야기하니까 조금 마음이 가벼워진 것 같아요. 감사합니다.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "이야기 나눠주셔서 감사합니다. 혼자 견디지 않고 도움을 청하신 것, 그리고 변화를 위한 첫 걸음을 계획하신 것 모두 대단한 일입니다. 다음 주에 다시 만나 뵙겠습니다.",
+      "turn": 36,
+      "technique": "encouragement"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T14:28:04.034360+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

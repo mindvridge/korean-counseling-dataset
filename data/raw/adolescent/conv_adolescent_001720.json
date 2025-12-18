@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adolescent",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADO_20250619_001",
+  "category": "adolescent",
+  "persona": {
+    "age": 16,
+    "gender": "여성",
+    "occupation": "고등학교 1학년"
   },
-  "seed_info": {
-    "category": "adolescent"
-  },
-  "generated_at": "2025-12-17T02:04:27.471514",
+  "situation": "학교에서 친구들과의 관계 문제로 고민하고 있으며, 최근 단체 채팅방에서 자신에 대한 안 좋은 이야기가 오가는 것을 발견하고 큰 충격을 받음. 학교 가는 것이 두렵고 친구를 믿기 어려워진 상태",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 선생님.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 편하게 앉으세요. 오늘 이렇게 상담실을 찾아주셨는데, 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "음... 사실 학교 가기가 너무 힘들어요. 요즘 친구들이랑 사이가 이상해졌어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학교 가는 게 힘들 정도로 친구 관계에 어려움이 생겼군요. 그런 상황이라면 정말 마음이 많이 힘들었을 것 같아요.",
       "turn": 4,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 지난주에 우연히 친구들 단톡방을 봤는데, 거기서 저에 대해 안 좋게 말하는 걸 봤어요. 저는 그 친구들이 제일 친한 친구들이라고 생각했는데...",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "가장 가까운 친구들이라고 믿었던 사람들이 자신에 대해 안 좋게 이야기하는 걸 보셨다니, 그 충격이 정말 컸겠어요. 어떻게 그 대화를 보게 되었나요?",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "친구가 핸드폰을 잠깐 빌려달라고 해서 빌려줬는데, 그때 알림이 떠서 봤어요. 제 이름이 보여서 무심코 눌렀는데... 제가 없는 단톡방이더라고요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "우연히 보게 된 거였군요. 그 대화 내용은 어떤 것이었나요? 말하기 편한 만큼만 이야기해주세요.",
       "turn": 8,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "제가 좀... 오버한다는 얘기랑, 맨날 자기 자랑만 한다는 얘기가 있었어요. 그리고 저랑은 대학 가면 안 만날 거라는 말도 있었고요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친구들의 그런 말들을 보고 나니 어떤 감정이 들었나요?",
       "turn": 10,
+      "technique": "emotion_exploration"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "처음엔 믿기지 않았어요. 그리고 너무 화가 났고... 지금은 그냥 슬프고 무섭기도 해요. 학교에서 다른 애들도 저를 그렇게 생각하는 건 아닐까 하는 생각이 들어서요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "배신감과 분노, 슬픔, 그리고 다른 사람들의 시선에 대한 두려움까지 복잡한 감정들을 느끼고 계시는군요. 그런 감정들을 느끼는 게 당연해요.",
       "turn": 12,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "근데 제가 정말 그런 사람인가 싶기도 해요. 제가 오버하고 자랑을 많이 하나요? 저는 그냥 제 얘기를 한 것뿐인데...",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친구들의 말을 보고 나서 자기 자신에 대해 의심하게 되었네요. 그 이야기를 듣기 전에는 자신의 행동에 대해 어떻게 생각하고 있었나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "cognitive_exploration"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "저는... 그냥 평범하다고 생각했어요. 친구들이랑 제 일상 얘기하고, 시험 잘 봤으면 기뻐하고 그랬는데. 근데 이제 보니까 제가 너무 제 얘기만 한 것 같기도 하고...",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "친구들의 평가를 알고 나니 자신의 행동을 다시 해석하게 되는 것 같네요. 그런데 혹시 그 친구들에게 직접 이 일에 대해 이야기해본 적은 있나요?",
+      "turn": 16,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "아니요... 어떻게 말해야 할지 모르겠어요. 그냥 모른 척하고 있어요. 근데 그러니까 더 힘들어요. 친구들이랑 있어도 다 가짜 같고, 겉으로만 웃는 것 같아요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "모른 척 지내는 게 오히려 더 힘들게 만드는군요. 겉으로는 괜찮은 척하면서 속으로는 계속 그 생각을 하게 되니까 이중으로 힘든 상황이네요.",
+      "turn": 18,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 맞아요. 그리고 요즘은 다른 친구들도 다 그렇게 생각하는 것 같아요. 복도에서 애들이 웃으면 저 얘기하는 것 같고...",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 일 이후로 주변 상황들을 다르게 해석하게 되는 것 같네요. 실제로 다른 친구들이 당신에 대해 뭔가 말하거나 행동이 달라진 부분이 있나요?",
+      "turn": 20,
+      "technique": "reality_testing"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 사실 딱히 달라진 건 없는 것 같아요. 제가 먼저 피하는 것 같기도 하고요. 그냥 제가 예민해진 건가요?",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "예민해진 게 아니라, 큰 충격을 받은 후에 자연스럽게 나타나는 반응이에요. 신뢰가 깨졌을 때 주변을 경계하게 되는 건 자신을 보호하려는 마음에서 나오는 거예요.",
+      "turn": 22,
+      "technique": "normalization"
+    },
+    {
+      "speaker": "client",
+      "text": "그럼 저는 앞으로 어떻게 해야 하나요? 계속 이렇게 모른 척하고 지내야 하나요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "그건 당신이 선택할 수 있는 부분이에요. 지금 당신은 어떻게 하고 싶으세요? 이 상황을 어떻게 해결하면 좋을 것 같나요?",
+      "turn": 24,
+      "technique": "empowerment"
+    },
+    {
+      "speaker": "client",
+      "text": "솔직히 말하고 싶긴 해요. 근데 말하면 관계가 완전히 끝날 것 같아서 무서워요. 그래도... 이대로는 더 이상 못 견딜 것 같아요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "마음속에 있는 말을 하고 싶지만, 동시에 관계가 끝날까 봐 두렵기도 하군요. 그 두 가지 마음이 모두 이해가 돼요. 혹시 그 친구들 중에 가장 가까웠던 친구가 있나요?",
+      "turn": 26,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "수진이요. 수진이랑은 중학교 때부터 친했어요. 그 애가 그 대화에서 제일 많이 말한 건 아니었어요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "수진이와의 관계가 특별했군요. 수진이에게 먼저 솔직하게 이야기해보는 건 어떨까요? 당신이 그 대화를 보게 됐고, 어떤 마음이 들었는지 말이에요.",
+      "turn": 28,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 할 수 있을까요? 뭐라고 말해야 할지 모르겠어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "함께 생각해볼까요? 수진이에게 가장 먼저 전하고 싶은 말은 무엇인가요?",
+      "turn": 30,
+      "technique": "collaborative_approach"
+    },
+    {
+      "speaker": "client",
+      "text": "제가 그 대화를 봤다는 것, 그리고 많이 속상했다는 것... 그리고 제가 정말 그렇게 행동했는지 솔직하게 말해달라고 하고 싶어요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "아주 좋아요. 자신의 감정을 솔직하게 표현하면서도, 상대방의 입장도 듣고자 하는 태도네요. 이렇게 대화하면 오해를 풀 수 있는 기회가 될 수 있어요.",
+      "turn": 32,
+      "technique": "positive_reinforcement"
+    },
+    {
+      "speaker": "client",
+      "text": "근데 만약에 수진이가 진짜 그렇게 생각한다고 하면 어떡하죠?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "그럴 수도 있죠. 그렇다면 그건 당신이 성장할 수 있는 피드백이 될 수도 있어요. 물론 듣기 힘들겠지만, 자신을 돌아볼 기회가 될 수 있고, 원한다면 행동을 조정할 수도 있어요. 어떻게 생각하세요?",
+      "turn": 34,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니까 조금 덜 무섭네요. 그래도 여전히 떨리긴 하지만... 한번 해볼게요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "용기 있는 결정이에요. 다음 주에 다시 만나서 어떻게 됐는지 이야기 나눠볼까요? 대화 후에 어떤 일이 있어도, 우리가 함께 생각해볼 수 있을 거예요.",
+      "turn": 36,
+      "technique": "support"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T06:28:24.361738+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adolescent"
+  }
 }

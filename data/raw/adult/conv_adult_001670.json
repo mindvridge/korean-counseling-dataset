@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250619_ADT_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "남성",
+    "occupation": "중견기업 마케팅팀장"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.448073",
+  "situation": "최근 승진 후 과도한 업무 스트레스와 팀원 관리의 어려움으로 불면증과 불안감을 겪고 있으며, 가정에서도 아내와의 갈등이 심화되고 있음",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 사실 상담을 받는 게 처음이라 좀 어색하네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음이시라 긴장되실 수 있는데, 편안하게 생각하시면 됩니다. 오늘 이 자리에 오시기까지 용기를 내셨다는 것만으로도 큰 의미가 있습니다. 천천히 편하게 이야기 나눠보시죠.",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "감사합니다. 요즘 너무 힘들어서 어디서부터 말씀드려야 할지 모르겠어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "괜찮습니다. 지금 가장 힘드신 부분부터 편하게 말씀해주시면 됩니다.",
       "turn": 4,
+      "technique": "encouragement"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "6개월 전에 팀장으로 승진했는데요. 처음엔 기뻤는데 지금은... 매일 밤 잠을 제대로 못 자고 있어요. 새벽 3시, 4시까지 뒤척이다가 겨우 잠들면 알람이 울리고.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "승진이라는 기쁜 일이 있었지만, 그 이후로 불면증에 시달리고 계시는군요. 매일 밤 잠을 제대로 이루지 못하면 정말 힘드셨겠어요.",
       "turn": 6,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 맞아요. 낮에는 회의하고 보고서 쓰고, 팀원들 관리하느라 정신이 없고... 집에 가면 아내한테 또 잔소리 듣고. 도대체 숨 쉴 틈이 없어요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "직장에서도, 가정에서도 쉴 수 있는 공간이 없다고 느끼시는 거네요. 정말 숨 막히는 상황이시겠어요.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "그렇죠. 팀원들은 제가 팀장이 된 후로 더 까다로워졌다고 하고... 저는 그냥 일을 제대로 하라는 건데 그게 그렇게 힘든가 싶어요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "팀원들과의 관계에서도 어려움을 겪고 계시는군요. 본인은 일을 제대로 하자는 것뿐인데, 팀원들의 반응이 다르게 나타나는 것 같네요.",
       "turn": 10,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네. 전 팀장님은 되게 여유로워 보였는데, 막상 제가 해보니까 정말 어렵더라고요. 성과도 내야 하고, 팀원들 챙겨야 하고, 위에서는 압박하고...",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "여러 방향에서 오는 압박감을 모두 감당하셔야 하는 상황이시네요. 성과, 팀원 관리, 상사의 기대까지... 정말 많은 역할을 동시에 해내셔야 하는군요.",
       "turn": 12,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그런데 아내는 이해를 못 해요. 제가 집에 와서 피곤하다고 하면 '나도 힘들다', '애들 돌보는 것도 일이다' 이러면서 싸우게 되고...",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "집에서도 이해받지 못한다고 느끼시니 더 외롭고 힘드시겠어요. 아내분과는 어떤 대화를 주로 나누시나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "open_question"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "요즘엔 거의 안 해요. 대화하면 싸우니까. 그냥 필요한 말만 하고... 아이들 앞에서도 분위기가 안 좋아요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "대화 자체가 갈등으로 이어지니까 아예 대화를 피하게 되신 거네요. 그런 상황이 아이들에게까지 영향을 미치는 것 같아 더 마음이 무거우실 것 같아요.",
+      "turn": 16,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그게 제일 미안해요. 아이들한테. 근데 어떻게 해야 할지 모르겠어요. 제가 뭘 잘못하고 있는 건가요?",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "잘못하고 계신 게 아니라, 지금 너무 많은 것들을 한꺼번에 감당하려고 하시는 것 같아요. 스스로에게 너무 높은 기준을 적용하고 계신 건 아닐까요?",
+      "turn": 18,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "높은 기준이요? 저는 그냥... 팀장이니까 당연히 해야 할 일들을 하는 거라고 생각했는데요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇게 생각하실 수 있어요. 그런데 '당연히 해야 한다'는 생각이 혹시 스스로를 너무 몰아붙이고 있는 건 아닐까요? 완벽하게 모든 걸 해내야 한다는 압박감은 없으신가요?",
+      "turn": 20,
+      "technique": "cognitive_exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 생각해보니 그런 것 같기도 해요. 실수하면 안 된다는 생각이 항상 있어요. 팀장인데 실수하면 팀원들이 저를 어떻게 볼까 싶고.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "실수에 대한 두려움이 크시군요. 그 두려움이 밤잠을 설치게 만들고, 팀원들과의 관계에서도 경직되게 만드는 건 아닐까요?",
+      "turn": 22,
+      "technique": "interpretation"
+    },
+    {
+      "speaker": "client",
+      "text": "그럴 수도 있겠네요. 저는 제가 완벽해야 한다고 생각했던 것 같아요. 그래야 인정받을 수 있다고...",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "중요한 통찰이세요. 완벽해야만 인정받을 수 있다는 믿음이 지금의 어려움을 만들고 있는 것 같네요. 그런데 실제로 완벽한 사람은 없잖아요?",
+      "turn": 24,
+      "technique": "cognitive_restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 머리로는 알겠는데 막상 상황이 닥치면 그 생각이 안 나요. 그냥 불안하고 초조하고...",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 감정들을 느끼시는 게 자연스러운 거예요. 오랫동안 가지고 계셨던 생각의 패턴이니까요. 중요한 건 이제 그걸 알아차리셨다는 거예요. 천천히 바꿔나갈 수 있습니다.",
+      "turn": 26,
+      "technique": "normalization"
+    },
+    {
+      "speaker": "client",
+      "text": "그럼 어떻게 해야 할까요? 구체적으로 뭘 해야 할지...",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "먼저 작은 것부터 시작해보는 건 어떨까요? 예를 들어, 하루에 10분이라도 본인만의 시간을 가져보시는 거예요. 그 시간에는 아무것도 하지 않고 그냥 숨만 쉬어보는 거죠.",
+      "turn": 28,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "10분이요? 그것도 시간 내기 힘든데... 하지만 해볼 수는 있을 것 같아요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그리고 팀원들과의 관계에서도, 모든 걸 완벽하게 지시하고 통제하려고 하기보다는 그들의 의견을 듣는 시간을 가져보시는 건 어떨까요?",
+      "turn": 30,
+      "technique": "behavioral_suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "그게... 제가 통제를 놓으면 일이 제대로 안 될까 봐 걱정돼요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 걱정도 이해가 됩니다. 하지만 모든 걸 혼자 통제하려고 하면 결국 지치게 되고, 지금처럼 힘들어지실 수 있어요. 팀원들을 믿고 조금씩 위임해보는 연습이 필요할 것 같아요.",
+      "turn": 32,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "아내와의 관계는 어떻게 해야 할까요? 그게 제일 걱정이에요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "아내분과 대화할 때, 서로의 힘듦을 비교하기보다는 각자의 어려움을 인정해주는 대화를 시도해보시면 어떨까요? '나도 힘들다'가 아니라 '당신도 힘들구나, 나도 힘들어'라는 식으로요.",
+      "turn": 34,
+      "technique": "communication_skill"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 말하는 게 쉽지 않을 것 같은데... 연습이 필요하겠네요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "맞아요, 연습이 필요합니다. 오늘 나눈 이야기들을 바탕으로 천천히 시도해보시고, 다음에 만날 때 어떠셨는지 함께 이야기 나눠보면 좋겠습니다. 오늘 정말 용기 내서 많은 이야기 해주셨어요.",
+      "turn": 36,
+      "technique": "encouragement"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T15:22:29.611869+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

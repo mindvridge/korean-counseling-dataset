@@ -1,198 +1,231 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250624_ADT_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "중학교 교사"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.542580",
+  "situation": "10년차 교사로서 최근 학생들과의 관계에서 소진을 경험하고 있으며, 교직에 대한 회의감과 함께 자신의 진로를 재고민하고 있음",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 사실 상담을 받아야 할지 고민을 많이 했는데... 요즘 너무 힘들어서 이렇게 찾아왔습니다.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 상담을 받기로 결정하시기까지 쉽지 않으셨을 텐데, 용기내어 찾아주셔서 감사합니다. 편안하게 이야기 나눠보면 좋겠습니다. 요즘 어떤 점이 가장 힘드신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "저는 중학교에서 국어를 가르치고 있어요. 10년째인데... 예전에는 정말 학생들 가르치는 게 좋았거든요. 그런데 요즘은 학교만 가면 숨이 막히는 것 같아요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "10년간 교직 생활을 하시면서 예전에는 보람을 느끼셨는데, 지금은 학교에 가는 것 자체가 힘들어지셨군요. 언제부터 이런 변화를 느끼기 시작하셨나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정확히는 모르겠지만... 작년 말부터인 것 같아요. 한 학생이 수업 중에 계속 떠들고 핸드폰을 하길래 주의를 줬는데, 그 학생 부모님이 학교에 찾아와서 저한테 소리를 지르셨어요. 그때부터 뭔가 무너진 것 같아요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "정당한 교육적 지도를 했는데 오히려 비난을 받으셨군요. 그 경험이 정말 힘드셨을 것 같습니다. 교사로서의 권위와 자존감에 큰 상처를 받으셨겠어요.",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 그 이후로 학생들을 대하는 게 너무 조심스러워졌어요. 혹시 또 문제가 생기지 않을까 걱정되고, 수업 중에도 제대로 지도를 못하겠어요. 이게 교육인가 싶기도 하고요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "그 사건 이후로 학생들을 지도하는 것에 대한 두려움이 생기셨고, 본인이 생각하는 제대로 된 교육을 하지 못하고 계신다고 느끼시는군요.",
       "turn": 8,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그리고 요즘 학생들은... 제가 처음 교사 시작했을 때랑 너무 달라요. 수업에 관심도 없고, 자기들끼리만 떠들고... 저는 그냥 투명인간 같아요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학생들과의 소통이 잘 되지 않고, 교실에서 존재감을 느끼지 못하신다는 말씀이시네요. 교사로서 느끼시는 무력감이 상당히 크실 것 같습니다.",
       "turn": 10,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 그래서 요즘은 아침에 일어나는 것부터가 힘들어요. 학교 가기 싫고, 주말에도 월요일 생각하면 우울해지고... 이게 번아웃인가요?",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "말씀하신 증상들을 보면 심각한 소진 상태를 경험하고 계신 것 같습니다. 신체적으로도 영향을 받고 계신가요? 수면이나 식욕은 어떠신가요?",
       "turn": 12,
+      "technique": "assessment"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "잠을 잘 못 자요. 자다가도 학교 꿈을 꾸고 깨고... 식욕도 없어서 많이 먹지 못하고 있어요. 체중도 한 달 사이에 3킬로 정도 빠졌어요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "수면과 식욕에도 영향을 받고 계시고, 체중 감소까지 있으시네요. 신체적으로도 상당히 힘든 상태이신 것 같습니다. 주변에 이런 상황을 나누실 분은 계신가요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "assessment"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "남편한테 얘기는 했는데... 남편은 '그냥 참고 다녀라, 안정적인 직업인데 왜 그러냐'고 해요. 동료 교사들도 다들 비슷하게 힘들어하니까 딱히 위로가 안 되고요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "가장 가까운 분께도 이해받지 못하는 느낌을 받으셨군요. 그리고 같은 어려움을 겪는 동료들과도 서로 지지하기 어려운 상황이시네요. 그 고립감이 더 힘드셨을 것 같습니다.",
+      "turn": 16,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 저만 유난스러운 건가 싶기도 하고요. 다들 힘들어도 다니는데 저만 못 버티는 것 같아서 자책도 되고요. 그래서 요즘은 교사를 그만둬야 하나 하는 생각도 들어요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신을 자책하시면서도 동시에 교직을 떠나는 것에 대해서도 고민하고 계시는군요. 교사를 그만두는 것에 대해 구체적으로 생각해보신 적이 있으신가요?",
+      "turn": 18,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "막연하게는 생각해봤는데... 10년을 했는데 이걸 그만두면 뭘 할 수 있을까 싶기도 하고요. 그리고 경제적으로도 안정적이니까 쉽게 결정할 수가 없어요. 그냥 갇힌 것 같아요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "현재 상황은 힘들지만 떠나기도 어려운, 딜레마 상황에 계시는 거네요. 그만두고 싶은 마음과 그럴 수 없다는 현실 사이에서 갇힌 느낌을 받으신다는 표현이 정말 와닿습니다.",
+      "turn": 20,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 그래서 더 답답한 것 같아요. 이러지도 저러지도 못하고... 그냥 매일매일이 버티는 거예요. 이게 삶인가 싶어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "매일을 그냥 버티는 것으로만 살아가고 계신다는 게 얼마나 힘드실까요. 혹시 예전에 교사가 되고 싶으셨던 이유나, 보람을 느꼈던 순간들을 떠올려보실 수 있으실까요?",
+      "turn": 22,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "처음에는... 학생들이 성장하는 모습을 보는 게 정말 좋았어요. 특히 어려워하던 학생이 이해했을 때 보이는 그 표정, 그게 너무 좋았거든요. 제가 누군가의 인생에 긍정적인 영향을 줄 수 있다는 게 뿌듯했어요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "학생들의 성장을 함께하고, 그들의 인생에 긍정적인 영향을 주는 것에서 큰 의미를 느끼셨었군요. 그 마음은 지금도 여전히 내담자님 안에 있으실 것 같은데, 어떠세요?",
+      "turn": 24,
+      "technique": "strength_finding"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 그 마음이 완전히 사라진 건 아닌 것 같아요. 가끔 학생이 '선생님 덕분에 이해했어요'라고 할 때면 여전히 기분이 좋거든요. 그런데 그런 순간이 너무 드물어요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "아직도 그런 순간들에서 보람을 느끼시는군요. 다만 그런 긍정적인 경험보다 힘든 경험들이 훨씬 많아서 지쳐있는 상태인 것 같습니다. 내담자님께서 다시 교직에서 의미를 찾기 위해서는 어떤 변화가 필요하다고 생각하세요?",
+      "turn": 26,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "글쎄요... 학생들과 좀 더 진솔하게 소통할 수 있으면 좋겠어요. 그리고 제가 너무 움츠러들어 있는 것 같아요. 두려움 때문에 제대로 된 교육을 못하고 있으니까요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "학생들과의 진정한 소통과, 두려움을 극복하고 본인이 원하는 교육을 하고 싶으시다는 거네요. 그 두려움을 조금씩 극복해나가는 것부터 시작해볼 수 있을 것 같은데요, 어떻게 생각하세요?",
+      "turn": 28,
+      "technique": "goal_setting"
+    },
+    {
+      "speaker": "client",
+      "text": "그게 가능할까요? 솔직히 자신이 없어요. 너무 오랫동안 이렇게 지내왔어서...",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화에 대한 두려움과 회의감이 드시는 건 당연합니다. 하지만 오늘 이렇게 상담을 찾아오신 것 자체가 변화를 위한 첫 걸음이에요. 그리고 아직도 교육에 대한 열정이 남아있다는 것을 확인하셨잖아요. 작은 것부터 천천히 시도해보면 어떨까요?",
+      "turn": 30,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "작은 것이라면... 어떤 걸 말씀하시는 건가요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "예를 들어, 한 주에 한 명의 학생과 짧게라도 개인적인 대화를 나눠보신다거나, 수업 시작할 때 학생들의 이야기를 들어주는 시간을 5분이라도 가져보시는 거예요. 그리고 자기 돌봄도 중요합니다. 출근 전이나 퇴근 후에 내담자님만의 회복 시간을 갖는 것도 필요해요.",
+      "turn": 32,
+      "technique": "practical_advice"
+    },
+    {
+      "speaker": "client",
+      "text": "그 정도라면 해볼 수 있을 것 같기도 해요. 그런데 제 자신을 돌보는 건 어떻게 해야 할까요? 그런 걸 해본 적이 없어서...",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "내담자님께서 좋아하시는 활동이나 편안함을 느끼는 순간이 있으신가요? 아주 작은 것이라도 괜찮습니다.",
+      "turn": 34,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "예전에는 책 읽는 걸 좋아했는데... 요즘은 그럴 여유도, 마음도 없었어요. 그냥 집에 오면 쓰러져 자거나 멍하니 있었던 것 같아요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "독서를 좋아하셨군요. 그럼 하루에 10분이라도 좋아하는 책을 읽는 시간을 가져보시는 건 어떨까요? 그리고 오늘 이렇게 자신의 어려움을 나누신 것처럼, 정기적으로 상담을 통해 감정을 정리하고 변화를 함께 만들어가면 좋겠습니다. 어떻게 생각하세요?",
+      "turn": 36,
+      "technique": "goal_setting"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 해보고 싶어요. 오늘 이야기하면서 조금은 숨통이 트이는 느낌이에요. 혼자가 아니라는 생각도 들고요. 계속 상담받고 싶습니다.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "오늘 용기내어 힘든 이야기를 나눠주셔서 감사합니다. 내담자님의 어려움을 함께 이해하고, 앞으로 조금씩 변화를 만들어갈 수 있도록 함께하겠습니다. 다음 주 같은 시간에 뵙도록 할까요?",
+      "turn": 38,
+      "technique": "support"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 감사합니다. 다음 주에 뵙겠습니다.",
+      "turn": 39
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T15:49:17.988597+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

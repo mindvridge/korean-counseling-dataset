@@ -1,198 +1,209 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250622_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "남성",
+    "occupation": "중소기업 팀장"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.309624",
+  "situation": "승진 후 팀 관리 스트레스와 부하직원들과의 갈등으로 인해 번아웃을 경험하고 있으며, 최근 불면증과 불안감이 심해져 상담을 찾게 됨",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 사실 상담을 받는 게 처음이라 좀 떨리네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 상담을 받으시는 거라면 긴장되실 수 있어요. 편안하게 생각하시고 천천히 이야기 나눠보면 좋겠습니다. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "6개월 전에 팀장으로 승진했는데요. 처음엔 좋았는데 요즘은 너무 힘들어서... 밤에 잠도 잘 못 자고 있어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "승진 후 6개월 정도 지났는데 요즘 많이 힘드시고 불면증까지 겪고 계시는군요. 구체적으로 어떤 부분이 가장 힘드신가요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "팀원들 관리가 제일 어려워요. 예전엔 저도 팀원이었을 때는 팀장님이 별로 하는 일이 없어 보였는데, 막상 해보니 정말 어렵네요. 특히 한 팀원이 제 지시를 잘 안 따르고...",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "팀원이었을 때와 팀장이 되었을 때의 시각 차이를 직접 경험하시면서 어려움을 느끼고 계시는군요. 특히 한 팀원과의 관계가 신경 쓰이시나 봐요.",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 그 팀원이 저보다 나이도 많고 경력도 오래됐거든요. 제가 승진한 게 마음에 안 드는 것 같아요. 회의 때마다 제 의견에 반대하고...",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "나이와 경력이 더 많은 팀원이 내담자님의 승진을 받아들이기 어려워하는 것 같아 보이시는군요. 그런 상황에서 리더십을 발휘하기가 쉽지 않으셨겠어요.",
       "turn": 8,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그래서 제가 자꾸 위축되는 것 같아요. 다른 팀원들 앞에서 제 의견이 무시당하면 권위가 떨어질까봐 걱정되고... 그렇다고 너무 강하게 나가면 독재자 같을까봐 두렵고요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "권위를 지키는 것과 좋은 관계를 유지하는 것 사이에서 균형을 찾기가 어려우신 거네요. 어느 쪽으로 가야 할지 혼란스러우실 것 같아요.",
       "turn": 10,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정확히 그래요. 매일 출근하는 게 두려워요. 오늘은 또 무슨 일이 생길까, 또 무시당하지 않을까... 이런 생각 때문에 새벽에 자꾸 깨요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "출근 자체가 두려움의 대상이 되었고, 그것이 수면에까지 영향을 미치고 있군요. 이런 상태가 얼마나 지속되었나요?",
       "turn": 12,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "한 두 달 정도 된 것 같아요. 처음 3-4개월은 그래도 괜찮았는데, 프로젝트 하나가 잘 안 풀리면서부터 팀 분위기가 나빠졌어요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "프로젝트가 잘 안 풀린 것이 계기가 되었군요. 그 상황에서 어떤 일들이 있었나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "open-ended question"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "제가 결정한 방향으로 진행했는데 결과가 안 좋았어요. 그 나이 많은 팀원이 처음부터 다른 방법을 제안했었는데 제가 안 들었거든요. 그 이후로 더 무시하는 것 같아요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "그 경험이 내담자님께 큰 영향을 미쳤네요. 자신의 판단이 틀렸다는 것을 인정하는 게 쉽지 않으셨을 것 같아요.",
+      "turn": 16,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 사실 그게 제일 힘들어요. 제가 팀장 자격이 없는 건 아닐까 하는 생각이 들어요. 실제로 실력이 부족한 건지도 모르겠어요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "한 번의 실패 경험이 내담자님의 전체적인 능력에 대한 의심으로 이어진 것 같네요. 그 전에 승진하기까지 잘해오신 부분들도 많으셨을 텐데요.",
+      "turn": 18,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇긴 하죠. 실무자로서는 인정받았으니까 승진했을 테니까요. 근데 관리자는 다른 것 같아요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "실무 능력과 관리 능력이 다르다는 것을 경험하고 계시는군요. 그건 많은 신임 관리자들이 겪는 자연스러운 과정이에요. 내담자님만의 문제가 아닙니다.",
+      "turn": 20,
+      "technique": "normalization"
+    },
+    {
+      "speaker": "client",
+      "text": "그런가요? 다들 이렇게 힘든 건가요? 저만 유난히 못하는 줄 알았어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 역할 전환기에는 많은 분들이 비슷한 어려움을 겪으세요. 그런데 내담자님은 이 어려움을 혼자 감당하려고 하셨던 것 같아요. 주변에 도움을 요청하거나 이야기 나눈 적은 있으신가요?",
+      "turn": 22,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "아니요. 팀장이 힘들다고 하면 약해 보일까봐... 그리고 상사한테 말하면 무능하다고 생각할까봐 말 못했어요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "어려움을 표현하는 것이 약함이나 무능함으로 비춰질까봐 걱정되셨군요. 그래서 혼자 모든 걸 감당하려고 하시면서 더 힘드셨을 것 같아요.",
+      "turn": 24,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 그런데 이제는 한계인 것 같아요. 집에 가서도 계속 일 생각만 나고, 아내한테도 짜증을 내게 되고...",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "직장에서의 스트레스가 가정생활에까지 영향을 미치고 있네요. 일과 삶의 경계가 무너지고 있는 상황이시군요.",
+      "turn": 26,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 이래서는 안 되는데 어떻게 해야 할지 모르겠어요. 제가 뭘 바꿔야 할까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화가 필요하다는 것을 인식하신 것 자체가 중요한 첫걸음이에요. 지금 당장 모든 걸 바꾸려고 하기보다는, 가장 먼저 다루고 싶은 부분이 무엇인지 함께 생각해보면 어떨까요?",
+      "turn": 28,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "일단 그 팀원과의 관계를 개선하고 싶어요. 그게 해결되면 다른 것들도 나아질 것 같아요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 팀원과의 관계를 우선순위로 두고 계시는군요. 그분과 솔직하게 대화를 나눠본 적은 있으신가요?",
+      "turn": 30,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "아니요. 뭐라고 말해야 할지도 모르겠고, 관계가 더 나빠질까봐 두렵기도 하고요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "대화를 시도하는 것 자체가 부담스럽고 두려우신 거네요. 그 두려움은 충분히 이해가 됩니다. 다음 시간에는 그 팀원과 어떻게 소통할 수 있을지, 그리고 내담자님의 리더십 스타일을 찾아가는 방법에 대해 함께 탐색해보면 좋겠습니다.",
+      "turn": 32,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 하면 좋을 것 같아요. 오늘 이야기하니까 조금은 마음이 가벼워진 것 같아요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "이야기를 나누면서 조금이나마 편안해지셨다니 다행입니다. 오늘 용기 내어 상담실을 찾아주신 것, 그리고 솔직하게 이야기해주신 것에 감사드립니다.",
+      "turn": 34,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "감사합니다. 다음 주에 또 뵙겠습니다.",
+      "turn": 35
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T14:42:07.345820+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

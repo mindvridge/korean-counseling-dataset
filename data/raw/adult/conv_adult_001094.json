@@ -1,198 +1,209 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250619_ADT_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "중학교 교사"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.179460",
+  "situation": "10년차 교사로서 학생들을 가르치는 일에 회의감을 느끼고 있으며, 최근 학부모와의 갈등으로 인해 번아웃을 경험하고 있음. 교직을 그만둘지 고민 중",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 요즘 너무 힘들어서 상담을 신청하게 됐어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 오늘 이렇게 용기 내어 방문해주셔서 감사합니다. 어떤 점이 힘드신지 편하게 말씀해주세요.",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "저는 중학교에서 국어를 가르치는 교사인데요. 올해로 10년차예요. 그런데 요즘 학교 가는 게 너무 두렵고... 아침마다 출근하기가 싫어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "10년간 교직 생활을 하셨는데, 지금은 출근하는 것 자체가 두렵고 힘드신 상황이시군요. 언제부터 이런 감정을 느끼셨나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정확히는 작년부터인 것 같아요. 한 학부모님이 저를 교육청에 민원 넣으신 일이 있었거든요. 수업 방식이 마음에 안 든다고...",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "그런 일이 있으셨군요. 교사로서 최선을 다하고 계셨을 텐데, 민원을 받으셨다는 건 정말 힘든 경험이셨을 것 같아요.",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 그때 정말 충격이었어요. 저는 나름 학생들을 위해 열심히 준비하고 가르쳤다고 생각했는데, 그게 부정당한 느낌이었거든요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "자신의 노력과 헌신이 부정당한 것처럼 느껴지셨다는 말씀이시네요. 그 경험이 지금까지도 영향을 미치고 있는 것 같으신가요?",
       "turn": 8,
+      "technique": "clarification"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그 이후로 수업할 때마다 '내가 잘하고 있는 걸까?', '또 민원이 들어오면 어떡하지?' 이런 생각이 계속 들어요. 학생들 앞에서도 자신감이 없어졌고요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "그 일 이후로 수업 중에도 계속 불안하시고, 자신감도 많이 떨어지신 상태시군요. 이런 상태가 지속되면서 다른 변화들도 있으셨나요?",
       "turn": 10,
+      "technique": "exploration"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "잠도 잘 못 자고... 주말에도 학교 생각 때문에 쉬질 못해요. 남편한테도 짜증을 많이 내게 되고, 아무것도 하기 싫어요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "수면에도 문제가 생기고, 일상생활 전반에 영향을 미치고 있는 상황이네요. 가족관계에서도 어려움을 겪고 계시고요. 이런 상태가 얼마나 지속되셨나요?",
       "turn": 12,
+      "technique": "assessment"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "거의 1년 정도 된 것 같아요. 처음엔 '시간이 지나면 괜찮아지겠지' 했는데, 점점 더 심해지는 것 같아요. 요즘은 교직을 그만둬야 하나 진지하게 고민하고 있어요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "1년이라는 시간 동안 혼자서 이 어려움을 견뎌오셨네요. 그만큼 힘드셨을 텐데, 지금까지 버티신 것만으로도 대단하다고 생각해요. 교직을 그만두는 것에 대해서는 어떤 생각을 하고 계신가요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "validation"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "솔직히 그만두고 싶은 마음이 크긴 한데... 10년을 했는데 이제 와서 그만둔다는 게 아깝기도 하고, 다른 걸 할 수 있을지도 모르겠어요. 그리고 주변에서 뭐라고 할까 봐 두렵기도 하고요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "그만두고 싶은 마음과 동시에 여러 가지 현실적인 고민들이 있으시네요. 10년의 경력, 미래에 대한 불확실성, 주변의 시선까지... 복잡한 감정들이 얽혀있는 것 같아요.",
+      "turn": 16,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 머릿속이 너무 복잡해요. 처음 교사가 됐을 때는 정말 보람 있고 행복했거든요. 그때의 제가 지금의 저를 보면 실망할 것 같아요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "처음 시작했을 때의 열정과 보람을 기억하고 계시는군요. 그때와 지금을 비교하면서 자책하는 마음도 드시는 것 같은데, 그때는 어떤 점이 좋으셨나요?",
+      "turn": 18,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "학생들이 제 수업을 통해 성장하는 모습을 볼 때가 정말 좋았어요. '선생님 덕분에 국어가 재밌어졌어요'라는 말을 들을 때면 정말 뿌듯했죠. 그런데 지금은 그런 걸 느낄 여유가 없어요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "학생들의 성장과 긍정적인 피드백이 큰 보람이었는데, 지금은 그런 긍정적인 부분들을 느낄 여유조차 없으신 상태네요. 혹시 최근에도 그런 긍정적인 순간들이 있었는데 놓치고 계신 건 아닐까요?",
+      "turn": 20,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "글쎄요... 생각해보니 지난주에 한 학생이 제가 추천한 책을 읽고 감상문을 써왔더라고요. 그때 잠깐 기분이 좋았던 것 같긴 한데... 금방 또 불안한 생각이 들었어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 순간이 있었군요. 긍정적인 경험을 하셨는데도 불안이 그것을 덮어버리는 패턴이 있는 것 같네요. 이런 불안이 클 때 주로 어떤 생각들이 드시나요?",
+      "turn": 22,
+      "technique": "pattern_identification"
+    },
+    {
+      "speaker": "client",
+      "text": "'이번엔 괜찮았지만 다음엔 또 문제가 생길 거야', '학부모들이 나를 어떻게 생각할까', '내가 정말 잘하고 있는 걸까' 이런 생각들이요. 계속 반복돼요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "부정적인 예측과 타인의 평가에 대한 걱정이 반복적으로 떠오르시는군요. 이런 생각들이 실제로 일어날 가능성에 대해서는 어떻게 생각하세요?",
+      "turn": 24,
+      "technique": "cognitive_restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "냉정하게 생각해보면... 그 민원 이후로 실제로 큰 문제가 생긴 적은 없어요. 오히려 동료 교사들은 제 수업을 좋게 평가해주시고... 근데 막상 그 순간이 오면 이성적으로 생각이 안 돼요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "객관적으로는 잘하고 계시다는 걸 아시지만, 그 순간에는 불안이 압도해버리는 거네요. 이것은 한 번의 힘든 경험이 만든 트라우마 반응일 수 있어요. 이런 반응은 충분히 이해할 수 있고, 함께 다뤄나갈 수 있습니다.",
+      "turn": 26,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "그럼 제가 지금 느끼는 게 비정상적인 건 아니라는 말씀이신가요? 저는 제가 너무 나약한 건가 생각했거든요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "전혀 나약한 게 아니에요. 트라우마적 경험 후에 나타나는 자연스러운 반응입니다. 오히려 이런 상황에서도 1년간 교직을 지속하신 것은 강인함을 보여주는 거예요. 다만 이제는 적절한 도움을 받으며 회복해나가실 필요가 있어 보입니다.",
+      "turn": 28,
+      "technique": "normalization"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 말씀해주시니 조금 위안이 되네요. 그럼 저는 어떻게 해야 할까요? 당장 교직을 그만두는 게 답은 아닌 것 같은데...",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "중요한 결정은 조금 더 안정된 상태에서 내리시는 게 좋을 것 같아요. 우선은 불안을 다루는 방법을 배우고, 그 민원 사건에 대한 감정을 충분히 처리하는 과정이 필요해 보입니다. 그 후에 진로에 대해 더 명확하게 생각하실 수 있을 거예요.",
+      "turn": 30,
+      "technique": "guidance"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그게 맞는 것 같아요. 지금 상태에서 결정하면 나중에 후회할 것 같기도 하고... 상담을 계속 받으면 도움이 될까요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 함께 단계적으로 접근해나간다면 충분히 회복하실 수 있을 거예요. 불안 관리 기법도 배우고, 부정적 사고 패턴도 다루고, 자신감도 회복해나갈 수 있습니다. 이 과정에 함께 하고 싶으신가요?",
+      "turn": 32,
+      "technique": "collaboration"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 해보고 싶어요. 이렇게 힘든 상태로 계속 살 수는 없으니까요. 오늘 이야기하면서 조금은 마음이 가벼워진 것 같아요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 결정이세요. 오늘 용기 내어 자신의 어려움을 나누신 것이 회복의 첫걸음입니다. 다음 상담에서는 구체적으로 불안을 다루는 방법부터 시작해볼까요?",
+      "turn": 34,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 감사합니다. 다음 상담이 기대되네요. 오랜만에 희망 같은 걸 느껴요.",
+      "turn": 35
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T14:15:35.616272+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

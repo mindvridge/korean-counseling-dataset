@@ -1,198 +1,210 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250624_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "중학교 교사"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.266649",
+  "situation": "10년차 교사로 일하며 최근 학생들과의 관계에서 어려움을 겪고 있으며, 번아웃과 직업적 회의감을 느끼고 있음. 특히 학부모 민원과 학생 지도 과정에서의 무력감으로 인해 상담을 요청함",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 사실 상담을 받으러 온다는 게 쉽지 않았는데, 더 이상은 혼자 버티기 힘들 것 같아서 왔어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 이렇게 찾아와 주셔서 감사합니다. 상담을 받기로 결정하기까지 많은 고민이 있으셨을 텐데, 용기 내주셔서 고맙습니다. 편안하게 이야기 나눠보아요.",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 저는 중학교에서 국어를 가르치는 교사인데요. 올해로 10년차가 됐어요. 처음엔 정말 열정적으로 일했는데, 요즘은 학교에 가는 게 너무 힘들어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "10년 동안 교직에 계셨군요. 처음의 열정과 지금의 모습 사이에서 많은 변화를 느끼고 계신 것 같네요. 어떤 점이 특히 힘드신가요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "학생들이요... 예전엔 아이들이 귀엽고 가르치는 게 보람찼는데, 요즘은 아이들을 대하는 게 두렵기까지 해요. 뭘 해도 반응이 없고, 조금만 주의를 줘도 학부모한테 민원이 들어오고...",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학생들과의 관계에서 이전과는 다른 어려움을 겪고 계시는군요. 특히 학부모 민원 때문에 학생 지도에도 조심스러워지신 것 같아요. 그런 상황이 반복되면 정말 힘드실 것 같습니다.",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 지난달에도 수업 시간에 계속 떠드는 학생에게 조용히 하라고 했더니, 그날 저녁에 학부모한테 전화가 왔어요. 우리 아이를 창피 주었다고... 그 뒤로는 아무 말도 못하겠더라고요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "정상적인 수업 지도를 했는데도 민원을 받으셨다니, 그 상황이 얼마나 당황스럽고 억울하셨을까요. 그 이후로 학생 지도에 더 위축되셨을 것 같아요.",
       "turn": 8,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 이제는 뭘 해야 할지 모르겠어요. 학생들은 제 말을 안 듣고, 그렇다고 강하게 말하자니 또 민원이 들어올까 봐 무섭고. 교장선생님도 '요즘 시대에는 조심해야 한다'고만 하시고...",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학생 지도와 민원 사이에서 딜레마를 겪고 계시네요. 어느 쪽도 선택하기 어려운 상황에서 학교 차원의 지원도 충분하지 않다고 느끼시는 것 같아요.",
       "turn": 10,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정확히 그래요. 혼자 감당해야 하는 느낌이에요. 동료 선생님들도 다들 자기 일로 바쁘시고... 요즘은 아침에 일어나면 '오늘은 무슨 일이 생길까' 하는 불안감부터 들어요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "매일 아침 불안감으로 시작한다는 건 정말 힘든 일이에요. 예측할 수 없는 상황들이 계속되면서 심리적으로 많이 지쳐 계신 것 같습니다. 이런 상태가 얼마나 지속되셨나요?",
       "turn": 12,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "한 2년 정도 된 것 같아요. 코로나 이후로 학생들이 많이 달라졌거든요. 그때부터 점점 힘들어진 것 같아요. 요즘은 주말에도 학교 생각에 쉬질 못해요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "2년이라는 시간 동안 이런 어려움을 겪어오셨군요. 주말에도 학교 걱정으로 쉬지 못하신다니, 번아웃 상태에 가까워 보입니다. 신체적으로는 어떠신가요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "open_question"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "잠을 잘 못 자요. 자다가도 깨고... 그리고 요즘 두통이 자주 오고, 소화도 잘 안 되는 것 같아요. 병원에 가봤는데 특별한 이상은 없대요. 스트레스 때문이라고...",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "심리적 스트레스가 신체 증상으로까지 나타나고 있네요. 불면, 두통, 소화불량 모두 만성 스트레스의 신호일 수 있어요. 지금 상태를 방치하면 더 힘들어질 수 있습니다.",
+      "turn": 16,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "그래서 더 무서워요. 이렇게 계속 가다가는 정말 아프게 될 것 같아요. 하지만 교사를 그만둘 수도 없고... 제가 뭘 할 수 있을까요?",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 상황에서 벗어나고 싶지만 현실적으로 쉽지 않다는 것, 그 답답함이 느껴집니다. 그런데 '그만두는 것' 외에도 상황을 개선할 수 있는 방법들이 있을 거예요. 우선, 교직 생활에서 여전히 의미를 느끼는 부분이 있으신가요?",
+      "turn": 18,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 가끔 아이들이 제 수업 내용을 이해했을 때, 그리고 졸업한 제자들이 찾아와서 고맙다고 할 때는 보람을 느껴요. 그런데 그런 순간이 점점 줄어드는 것 같아요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "여전히 보람을 느끼는 순간들이 있으시군요. 그런 순간들이 줄어들고 있다고 느끼시는 건, 어쩌면 힘든 일들에 압도되어서 긍정적인 경험들을 놓치고 계신 건 아닐까요?",
+      "turn": 20,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "그럴 수도 있겠네요. 요즘은 부정적인 것만 보이더라고요. 좋은 학생들도 많은데, 문제 있는 몇몇 학생들 때문에 전체가 다 그렇게 보이는 것 같기도 해요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "중요한 통찰이세요. 어려운 상황들이 전체를 부정적으로 보게 만들고 있었군요. 실제로는 긍정적인 부분도 여전히 존재하는데 말이죠. 이런 관점의 변화가 첫 번째 단계가 될 수 있을 것 같아요.",
+      "turn": 22,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "그런데 관점을 바꾼다고 현실이 바뀌나요? 학부모 민원은 여전히 들어올 텐데...",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 지적이세요. 관점만으로는 충분하지 않죠. 실제적인 대처 방법도 필요합니다. 학부모 민원에 대해서, 혹시 학교에 공식적인 대응 매뉴얼이나 지원 시스템이 있나요?",
+      "turn": 24,
+      "technique": "problem_solving"
+    },
+    {
+      "speaker": "client",
+      "text": "있긴 한데... 잘 작동하는 것 같지 않아요. 결국엔 담임교사가 알아서 해결하라는 식이에요. 그래서 더 외롭고 힘든 것 같아요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "시스템이 있어도 실질적인 도움이 되지 않으면 더 무력감을 느끼실 수 있겠어요. 그렇다면 선생님께서 스스로를 보호하고 지지할 수 있는 방법들을 찾아보는 게 중요할 것 같아요. 예를 들어, 같은 어려움을 겪는 동료들과의 소통이나 교사 지원 프로그램 같은 것들이요.",
+      "turn": 26,
+      "technique": "support"
+    },
+    {
+      "speaker": "client",
+      "text": "동료들과 이야기해본 적은 없어요. 다들 바빠 보이고, 제가 유난스러워 보일까 봐... 그리고 교사 지원 프로그램이 있는지도 몰랐어요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "혼자 감당하려고 하셨군요. 하지만 선생님의 어려움은 유난스러운 게 아니라 많은 교사들이 겪는 현실적인 문제예요. 함께 나누면 서로에게 힘이 될 수 있습니다. 교육청이나 교원단체에서 운영하는 심리지원 프로그램도 찾아보시면 좋겠어요.",
+      "turn": 28,
+      "technique": "normalization"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇군요... 제가 너무 혼자 끙끙 앓았던 것 같네요. 이렇게 이야기하니까 조금 마음이 가벼워지는 것 같기도 해요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "이야기를 나누는 것만으로도 도움이 되셨다니 다행입니다. 선생님께서 지금까지 혼자 견뎌온 것도 대단하지만, 이제는 도움을 받으며 함께 가시면 좋겠어요. 앞으로 우리가 함께 작업해볼 수 있는 부분들이 있을 것 같은데, 어떠세요?",
+      "turn": 30,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 계속 상담을 받고 싶어요. 구체적으로 어떤 도움을 받을 수 있을까요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "우선 스트레스 관리와 감정 조절 방법을 배우고, 학생 및 학부모와의 관계에서 경계를 설정하는 방법, 그리고 번아웃에서 회복하는 과정을 함께 할 수 있어요. 또한 선생님의 직업적 정체성과 의미를 재발견하는 작업도 중요할 것 같습니다.",
+      "turn": 32,
+      "technique": "structuring"
+    },
+    {
+      "speaker": "client",
+      "text": "좋아요. 특히 경계 설정하는 방법이 필요할 것 같아요. 저는 학생들이나 학부모의 요구를 거절하는 게 너무 어려워요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "경계 설정의 어려움을 인식하신 것 자체가 중요한 출발점이에요. 다음 시간부터는 구체적인 상황들을 가지고 연습해보도록 하겠습니다. 오늘 이렇게 용기 내어 오셔서 솔직하게 이야기해 주신 것, 정말 잘하신 거예요.",
+      "turn": 34,
+      "technique": "reinforcement"
+    },
+    {
+      "speaker": "client",
+      "text": "감사합니다. 오늘 상담받기 잘한 것 같아요. 조금은 희망이 보이는 것 같아요.",
+      "turn": 35,
+      "technique": "closing"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T14:29:39.061159+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

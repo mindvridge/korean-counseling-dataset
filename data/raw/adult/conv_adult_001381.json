@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250619_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "중견기업 마케팅팀장"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.311497",
+  "situation": "최근 승진 후 업무 부담과 팀원 관리의 어려움으로 번아웃을 경험하고 있으며, 일과 개인 삶의 균형을 잃어가고 있음",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 사실 상담을 받아야 할 정도인가 싶어서 망설였는데... 요즘 너무 힘들어서 용기내서 왔습니다.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 어서 오세요. 상담을 받기로 결정하시기까지 많은 고민이 있으셨을 텐데, 이렇게 용기 내어 오신 것 자체가 큰 의미가 있습니다. 편하게 말씀해 주세요.",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "6개월 전에 팀장으로 승진했어요. 그동안 바라던 자리였는데, 막상 해보니까 제 상상과는 너무 달라서요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "오랫동안 바라던 승진이었는데, 실제로 해보니 기대했던 것과 많이 다르셨군요. 어떤 부분이 특히 힘드신가요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "일단 업무량이 엄청나게 늘었어요. 제 업무도 있고, 팀원들 관리도 해야 하고... 그리고 팀원들과의 관계도 생각보다 어렵더라고요. 예전엔 동료였는데 이제는 상사잖아요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "업무량의 증가와 함께 팀원들과의 관계에서도 역할 변화로 인한 어려움을 겪고 계시는군요. 동료에서 상사로의 전환이 쉽지 않으셨을 것 같습니다.",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 맞아요. 특히 저보다 연차가 높은 팀원이 한 명 있는데, 그 분이 제 지시를 잘 안 따르려고 하세요. 회의 때도 제 의견에 계속 반대하시고...",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "그런 상황이라면 리더로서의 권위를 세우는 것도 어렵고, 팀을 이끌어가는 데 많은 스트레스를 받으셨겠어요.",
       "turn": 8,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그래서 밤에 잠도 잘 못 자요. 자려고 누우면 오늘 있었던 일들이 자꾸 생각나고, 내일 회의는 어떻게 진행해야 하나 고민하다 보면 새벽이 되더라고요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "수면까지 영향을 받고 계시네요. 하루 평균 몇 시간 정도 주무시나요?",
       "turn": 10,
+      "technique": "assessment"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "요즘엔 4-5시간? 새벽 2-3시에 자서 7시에 일어나요. 아침에 일어나면 이미 피곤해요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "만성적인 수면 부족 상태시군요. 그 상태로 하루를 시작하시면 업무 집중도나 감정 조절도 더 어려우실 것 같은데, 실제로 어떠신가요?",
       "turn": 12,
+      "technique": "exploration"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정확히 그래요. 요즘 사소한 일에도 짜증이 나고, 팀원들한테 필요 이상으로 날카롭게 말할 때가 있어요. 그러고 나면 또 자책하게 되고...",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "악순환이 반복되고 있는 상황이네요. 수면 부족으로 감정 조절이 어려워지고, 그로 인한 행동에 대해 자책하시면서 스트레스가 더 쌓이는... 이런 패턴이 얼마나 지속되셨나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "pattern_identification"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "한 3-4개월 된 것 같아요. 처음엔 적응 기간이라고 생각했는데, 점점 더 심해지는 것 같아서 걱정이에요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "3-4개월이면 꽤 오랜 시간 동안 힘드셨네요. 이런 상황에서 본인을 돌보거나 스트레스를 해소할 시간은 가지고 계신가요?",
+      "turn": 16,
+      "technique": "assessment"
+    },
+    {
+      "speaker": "client",
+      "text": "전혀요. 주말에도 일 생각하고, 메일 확인하고... 예전엔 친구들도 만나고 운동도 했는데, 요즘은 그럴 여유가 없어요. 아니, 여유가 없다기보다는 너무 지쳐서 아무것도 하기 싫어요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "일에 완전히 압도되어 있고, 개인적인 삶과 회복의 시간이 사라진 상태시군요. 이런 상태가 지속되면 번아웃으로 이어질 수 있어서 걱정됩니다.",
+      "turn": 18,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "번아웃이요? 그게 정확히 뭔가요? 저한테 해당되는 건가요?",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "번아웃은 장기간의 스트레스로 인해 신체적, 정서적으로 극도로 소진된 상태를 말합니다. 만성 피로, 냉소적 태도, 업무 효율성 저하 등이 특징인데, 말씀하신 증상들이 이와 상당히 일치합니다.",
+      "turn": 20,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇군요... 그럼 저 어떻게 해야 하나요? 팀장 역할을 포기할 수는 없잖아요. 그렇다고 이대로 계속 갈 수도 없고...",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "역할을 포기하지 않으면서도 건강한 방식으로 업무를 수행할 수 있는 방법을 함께 찾아가는 것이 중요합니다. 우선, 가장 시급한 것은 수면과 기본적인 자기 돌봄을 회복하는 것입니다. 작은 변화부터 시작해볼까요?",
+      "turn": 22,
+      "technique": "solution_focused"
+    },
+    {
+      "speaker": "client",
+      "text": "작은 변화요? 구체적으로 어떤 걸 말씀하시는 건가요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "예를 들어, 잠들기 전 1시간은 업무 관련 생각을 내려놓는 시간으로 정하는 거예요. 핸드폰도 멀리 두고, 가벼운 스트레칭이나 독서 같은 걸로 마음을 진정시키는 루틴을 만드는 거죠. 이런 것부터 시도해보실 수 있을까요?",
+      "turn": 24,
+      "technique": "behavioral_intervention"
+    },
+    {
+      "speaker": "client",
+      "text": "해보고 싶긴 한데... 그 시간에도 메일이 오면 확인해야 할 것 같은 불안감이 들어요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 불안감, 충분히 이해합니다. 하지만 생각해보세요. 밤 10시 이후의 메일이 정말 그 순간 처리되어야 할 긴급한 일인 경우가 얼마나 되나요?",
+      "turn": 26,
+      "technique": "cognitive_restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 솔직히 말하면 거의 없어요. 대부분 다음날 아침에 봐도 되는 거죠. 그런데 왜 이렇게 확인하지 않으면 불안한 걸까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 질문입니다. 아마도 팀장으로서 '완벽하게 해내야 한다', '모든 것을 통제해야 한다'는 부담감이 있으신 것 같아요. 혹시 본인에게 그런 기대나 압박을 느끼시나요?",
+      "turn": 28,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 승진했으니까 완벽하게 해내야 한다는 압박이 있어요. 실수하면 '역시 안 될 거였어'라는 소리 들을까 봐 두렵기도 하고요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 두려움이 님을 24시간 긴장 상태로 만들고 있는 거네요. 하지만 완벽한 리더는 없습니다. 오히려 자신을 잘 돌보고, 적절히 휴식하면서 지속 가능한 방식으로 일하는 리더가 더 효과적이에요.",
+      "turn": 30,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니까 조금 마음이 편해지네요. 그런데 팀원들과의 관계는 어떻게 개선해야 할까요? 특히 그 연차 높은 분과의 관계요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 부분은 다음 상담에서 더 깊이 다뤄보면 좋을 것 같아요. 오늘은 우선 님의 소진 상태를 회복하는 것에 초점을 맞추고, 수면 루틴 만들기를 실천해보시는 건 어떨까요?",
+      "turn": 32,
+      "technique": "structuring"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그게 좋을 것 같아요. 오늘 이야기하면서 제가 얼마나 지쳐있었는지 깨달았어요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 깨달음 자체가 변화의 첫걸음입니다. 다음 주까지 밤 10시 이후 업무 차단하기를 실천해보시고, 그 경험을 다음 상담 때 나눠주세요. 어떤 어려움이 있었는지, 어떤 변화가 있었는지요.",
+      "turn": 34,
+      "technique": "homework_assignment"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 해볼게요. 오늘 상담 받길 잘한 것 같아요. 혼자 끙끙 앓고 있었는데, 이렇게 말하고 나니 조금 길이 보이는 것 같아요. 감사합니다.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "함께 천천히 풀어가면 됩니다. 다음 주에 뵙겠습니다. 이번 주 잘 보내시고, 힘들면 언제든 연락주세요.",
+      "turn": 36,
+      "technique": "support"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T14:43:10.913204+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

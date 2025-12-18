@@ -1,198 +1,204 @@
 {
-  "metadata": {
-    "category": "adolescent",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADO_20250623_001",
+  "category": "adolescent",
+  "persona": {
+    "age": 16,
+    "gender": "여성",
+    "occupation": "고등학교 1학년"
   },
-  "seed_info": {
-    "category": "adolescent"
-  },
-  "generated_at": "2025-12-17T02:04:27.416851",
+  "situation": "학업 스트레스와 친구 관계 문제로 인해 최근 불안감과 우울감을 느끼고 있으며, 부모님과의 소통도 어려워하는 청소년",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 처음이라 좀 떨리네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 오시는 거라 긴장되는 게 당연해요. 편안하게 이야기 나눠보아요. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "요즘 학교 가는 게 너무 힘들어요. 아침에 일어나기도 싫고... 그냥 모든 게 귀찮아요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학교 가는 것 자체가 많이 힘들게 느껴지시는군요. 아침에 일어나는 것부터 모든 게 부담스럽다고 하셨는데, 언제부터 이런 느낌이 들었나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정확히는 모르겠는데... 한 두 달 전부터인 것 같아요. 중학교 때는 괜찮았는데 고등학교 올라오면서 갑자기 힘들어진 것 같아요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "고등학교에 진학하면서 변화가 생긴 거네요. 그 시기에 특별히 어떤 일이 있었나요?",
       "turn": 6,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "친한 친구들이랑 다 다른 학교로 가게 됐어요. 그리고 공부도 갑자기 어려워지고... 성적도 많이 떨어졌어요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친한 친구들과 헤어지고, 학업도 어려워지면서 많이 힘들었겠어요. 새로운 환경에 적응하는 것도, 성적 변화도 모두 부담스러웠을 것 같아요.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 그리고 새로운 반에서 친구 사귀는 것도 잘 안 돼요. 다들 이미 친한 애들끼리 있고, 저는 혼자 있는 시간이 많아요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "새로운 환경에서 친구를 사귀는 게 쉽지 않으셨군요. 혼자 있는 시간이 많다는 게 외롭고 힘들게 느껴질 수 있어요.",
       "turn": 10,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "점심시간이 제일 싫어요. 밥 먹을 때 혼자 있으면 다들 저 보고 이상하게 생각하는 것 같아요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "점심시간에 혼자 있을 때 다른 사람들의 시선이 신경 쓰이는군요. 그럴 때 어떤 생각이 드나요?",
       "turn": 12,
+      "technique": "exploration"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "'나는 친구도 없는 애구나', '나는 이상한 애인가' 이런 생각이 들어요. 그러면 더 위축되고... 말 걸기도 더 어려워져요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "자신에 대해 부정적인 생각이 들면서 더 움츠러들게 되는 악순환이 생긴 것 같네요. 그런 생각들이 들 때 기분은 어떤가요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "reflection"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "우울하고... 불안하고... 가슴이 답답해요. 가끔은 울고 싶을 때도 있어요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "정말 힘든 감정들을 느끼고 계시네요. 이런 상황을 부모님께는 이야기해보셨나요?",
+      "turn": 16,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "아니요... 엄마한테 말하면 '공부나 열심히 해', '친구는 저절로 생긴다'고만 하실 것 같아요. 아빠는 더 바쁘셔서 얘기할 시간도 없고요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "부모님께 이해받지 못할 것 같다는 생각이 드는군요. 그래서 혼자 감당하고 있었던 거네요. 그게 얼마나 외롭고 힘들었을까요.",
+      "turn": 18,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 사실 엄마는 제 성적에만 관심 있으세요. 요즘 성적 떨어진 거 때문에 자꾸 학원 더 보내려고 하시는데, 전 그게 더 싫어요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "엄마는 성적에 집중하시는데, 지금 당신이 정말 필요한 건 다른 것인 것 같네요. 지금 가장 힘든 건 무엇인가요?",
+      "turn": 20,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "그냥... 누가 제 얘기를 들어주고 이해해줬으면 좋겠어요. 성적이나 공부 얘기 말고, 제가 지금 얼마나 힘든지를요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 이 순간 당신이 겪고 있는 힘든 감정들을 누군가 알아주고 이해해주길 바라는 거군요. 그건 정말 당연하고 중요한 욕구예요.",
+      "turn": 22,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "그런데 선생님... 제가 너무 예민한 건가요? 다른 애들은 다 잘 지내는 것 같은데 저만 힘들어하는 것 같아요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신을 다른 사람들과 비교하면서 '나만 이상한 건 아닐까' 걱정하고 계시네요. 하지만 각자가 느끼는 어려움은 다를 수 있어요. 당신의 감정은 충분히 타당하고 이해할 수 있는 것이에요.",
+      "turn": 24,
+      "technique": "normalization"
+    },
+    {
+      "speaker": "client",
+      "text": "정말요? 제가 이상한 게 아니라는 거죠?",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 전혀 이상한 게 아니에요. 새로운 환경, 친구들과의 이별, 학업 스트레스... 이런 것들은 누구에게나 힘든 일이에요. 당신은 지금 많은 변화를 동시에 겪고 있는 거예요.",
+      "turn": 26,
+      "technique": "normalization"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 말씀해주시니까 조금 마음이 편해지는 것 같아요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "다행이네요. 그럼 앞으로 우리가 함께 어떤 부분을 다뤄보면 좋을까요? 가장 먼저 해결하고 싶은 것이 있나요?",
+      "turn": 28,
+      "technique": "goal-setting"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 학교에서 친구를 좀 사귀고 싶어요. 그리고 엄마랑도 좀 더 잘 대화하고 싶어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋아요. 친구 관계와 부모님과의 소통, 두 가지 모두 중요한 목표네요. 이 두 가지를 하나씩 천천히 다뤄보도록 해요. 오늘 이렇게 용기 내서 와주셔서 정말 잘하셨어요.",
+      "turn": 30,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "감사합니다, 선생님. 다음에 또 와도 되죠?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "물론이죠. 다음 주에 같은 시간에 만나서 조금 더 깊이 이야기 나눠보아요. 이번 주 동안은 학교에서 느끼는 감정들을 조금씩 관찰해보는 것도 좋을 것 같아요.",
+      "turn": 32,
+      "technique": "homework assignment"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 해볼게요. 오늘 와서 정말 다행이라는 생각이 들어요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "저도 당신을 만나게 되어 기쁘고, 함께 이 시간을 잘 헤쳐나갈 수 있을 거라 믿어요. 다음 주에 봐요.",
+      "turn": 34,
+      "technique": "support"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T06:15:17.972418+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adolescent"
+  }
 }

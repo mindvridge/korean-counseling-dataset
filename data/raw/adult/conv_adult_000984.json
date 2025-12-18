@@ -1,198 +1,209 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250624_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "남성",
+    "occupation": "중견기업 마케팅팀장"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.129210",
+  "situation": "최근 승진 후 팀장 역할에 대한 부담감과 팀원들과의 관계에서 오는 스트레스로 인해 불면증과 불안감을 경험하고 있음. 완벽주의 성향으로 인해 모든 것을 혼자 해결하려 하며, 가족과의 시간도 줄어들어 아내와의 갈등도 생기기 시작함.",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 사실 상담을 받으러 온 게 처음이라 좀 떨리네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 오시는 분들은 대부분 긴장하시는데, 편안하게 생각하셔도 됩니다. 오늘 이 자리에 오신 것만으로도 큰 용기를 내신 거예요. 천천히 편하게 말씀해 주시면 됩니다.",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "감사합니다. 요즘 너무 힘들어서요. 6개월 전에 팀장으로 승진했는데, 그때부터 잠을 제대로 못 자고 있어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "승진하신 지 6개월이 되셨는데 그때부터 불면증이 시작되셨군요. 축하할 일인데 오히려 힘든 시간을 보내고 계시는 것 같아 마음이 무겁네요.",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 맞아요. 처음엔 기뻤는데 막상 팀장이 되니까 책임감이 너무 무겁더라고요. 팀원들 관리도 해야 하고, 성과도 내야 하고...",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "새로운 역할에 대한 책임감과 기대가 상당히 부담스럽게 느껴지시는군요. 구체적으로 어떤 부분이 가장 어려우신가요?",
       "turn": 6,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "음... 제일 힘든 건 팀원들과의 관계인 것 같아요. 예전엔 같은 팀원이었는데 이제는 제가 평가하고 지시해야 하는 입장이 되니까 어색하고... 특히 저보다 나이 많은 선배님들한테 뭐라고 하기가 정말 어렵습니다.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "동료에서 상사로 관계가 변화하면서 생기는 어려움이시네요. 특히 연장자 팀원들과의 관계에서 더 조심스럽고 부담스러우신 것 같습니다.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그래서 제가 더 완벽하게 해야 한다는 생각이 들어요. 제가 실수하면 안 되잖아요. 그래서 밤늦게까지 일하고, 주말에도 일 생각만 하게 되고...",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "완벽하게 해내야 한다는 압박감이 크시군요. 그 부담감 때문에 일과 삶의 균형이 무너지고 있는 것 같은데, 이런 상황이 얼마나 지속되셨나요?",
       "turn": 10,
+      "technique": "clarification"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "거의 승진한 이후로 계속이요. 처음엔 적응 기간이라 생각했는데 점점 더 심해지는 것 같아요. 요즘은 새벽 3-4시까지 잠을 못 자요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "6개월 동안 계속 이런 상태셨다니 정말 힘드셨겠어요. 수면 부족은 신체적으로나 정신적으로 많은 영향을 미치는데, 일상생활에서 다른 어려움은 없으신가요?",
       "turn": 12,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 사실 집에서도 문제가 생겼어요. 아내가 요즘 저한테 불만이 많아요. 애들하고 시간도 안 보내고, 주말에도 일만 한다고...",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "직장에서의 스트레스가 가정생활에까지 영향을 미치고 있군요. 아내분과는 이런 상황에 대해 대화를 나눠보신 적이 있으신가요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "open_question"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "대화를 하려고 하면 제가 너무 피곤해서... 그냥 '조금만 참아달라', '바쁜 시기가 지나면 괜찮을 거다' 이렇게만 얘기했어요. 근데 아내는 그게 불만인 것 같아요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "지금 당장의 어려움을 넘기는 데 집중하다 보니 가족과의 소통도 미루게 되는 상황이시네요. 아내분의 마음도 이해가 되시나요?",
+      "turn": 16,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 당연히 이해는 돼요. 제가 잘못하고 있다는 걸 알아요. 근데 어떻게 해야 할지 모르겠어요. 회사 일도 놓칠 수 없고, 가족도 소중한데...",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "양쪽 모두 중요한데 어느 하나도 포기할 수 없어서 더욱 힘드시겠어요. 지금 느끼시는 이 딜레마와 고민 자체가 두 가지 모두를 소중히 여기고 계신다는 증거입니다.",
+      "turn": 18,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니 조금... 위로가 되네요. 근데 선생님, 제가 너무 약한 건 아닐까요? 다른 팀장들은 다 잘하는 것 같은데 저만 이렇게 힘들어하는 것 같아요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "다른 사람들은 다 잘하는 것처럼 보이는데 나만 힘들다고 느끼시는군요. 하지만 겉으로 보이는 모습과 실제 속마음은 다를 수 있어요. 그리고 도움을 요청하는 것은 약함이 아니라 자신을 돌보는 용기입니다.",
+      "turn": 20,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그런가요... 사실 저는 어릴 때부터 뭐든 혼자 해결해야 한다고 배워왔어요. 아버지가 항상 '남자는 강해야 한다'고 하셨거든요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "어릴 때부터 형성된 신념이 지금의 완벽주의와 연결되어 있는 것 같네요. '강해야 한다'는 메시지가 '약함을 보여서는 안 된다'는 압박으로 작용하고 있는 것 같습니다.",
+      "turn": 22,
+      "technique": "interpretation"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 그래서 회사에서도 힘든 티를 내면 안 될 것 같고, 팀원들한테 도움을 요청하는 것도 제 무능력을 드러내는 것 같아서 못 하겠더라고요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "도움을 요청하는 것을 무능력으로 여기시는군요. 그렇다면 질문 하나 드려도 될까요? 만약 팀원 중 누군가가 어려움을 겪을 때 도움을 요청한다면, 그 사람을 무능하다고 생각하시나요?",
+      "turn": 24,
+      "technique": "socratic_questioning"
+    },
+    {
+      "speaker": "client",
+      "text": "아니요, 당연히 아니죠. 오히려 솔직하게 말해줘서 고맙다고 생각할 것 같은데... 아, 제가 이중 잣대를 적용하고 있었네요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 스스로 알아차리셨네요. 다른 사람에게는 관대한데 자신에게는 매우 엄격한 기준을 적용하고 계셨어요. 이런 패턴을 인식하는 것이 변화의 첫걸음입니다.",
+      "turn": 26,
+      "technique": "feedback"
+    },
+    {
+      "speaker": "client",
+      "text": "그러고 보니 제가 저한테 너무 가혹했던 것 같네요. 그럼 어떻게 해야 할까요? 이 상황을 어떻게 바꿀 수 있을까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화하고 싶은 의지가 느껴집니다. 한 번에 모든 것을 바꾸기보다는 작은 것부터 시작해보면 어떨까요? 우선 가장 먼저 개선하고 싶은 부분이 무엇인가요?",
+      "turn": 28,
+      "technique": "goal_setting"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 일단 잠을 좀 자야 할 것 같아요. 그래야 다른 것도 할 수 있을 것 같고요. 그리고 가족과의 시간도 조금씩 늘리고 싶어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 수면과 가족과의 시간, 두 가지를 우선순위로 정하셨네요. 이번 주에 실천 가능한 작은 목표를 하나 정해볼까요? 예를 들어 '주중 하루는 밤 11시 전에 잠자리에 들기' 같은 구체적인 목표는 어떨까요?",
+      "turn": 30,
+      "technique": "behavioral_activation"
+    },
+    {
+      "speaker": "client",
+      "text": "그 정도는 할 수 있을 것 같아요. 그리고 주말에 아이들이랑 한 시간이라도 공원에 가보려고 해요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "아주 구체적이고 실현 가능한 목표를 세우셨네요. 완벽하게 하려고 하지 마시고, 작은 변화들이 쌓여간다는 것에 의미를 두시면 좋겠습니다. 다음 상담 때 어떠셨는지 나눠주시겠어요?",
+      "turn": 32,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 할게요. 오늘 상담 받으면서 제가 왜 이렇게 힘들었는지 조금 이해가 된 것 같아요. 감사합니다.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "오늘 솔직하게 자신의 어려움을 나눠주셔서 감사합니다. 변화는 시간이 걸리지만, 오늘처럼 자신을 돌아보고 이해하려는 노력이 계속된다면 분명 좋아지실 거예요. 다음 주에 뵙겠습니다.",
+      "turn": 34,
+      "technique": "support"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 다음 주에 뵙겠습니다. 감사합니다.",
+      "turn": 35
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T14:00:44.376159+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

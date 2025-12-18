@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adolescent",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADL_20250625_001",
+  "category": "adolescent",
+  "persona": {
+    "age": 16,
+    "gender": "여성",
+    "occupation": "고등학교 1학년"
   },
-  "seed_info": {
-    "category": "adolescent"
-  },
-  "generated_at": "2025-12-17T02:04:27.199764",
+  "situation": "학교에서 친구들과의 관계에서 소외감을 느끼고 있으며, SNS에서 자신만 빠진 친구들의 모임 사진을 보고 상처받은 청소년",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 선생님께 말씀드릴 게 있어서 왔어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 편하게 앉으세요. 오늘 무슨 일로 상담실을 찾아주셨나요?",
       "turn": 2,
+      "technique": "rapport_building"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "저... 요즘 친구들이랑 잘 안 맞는 것 같아요. 어제도 인스타에서 애들이 같이 놀러 간 사진을 봤는데, 저만 빼고 다 있더라고요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친구들이 함께 있는 모습을 보면서 자신만 빠져있다는 걸 알게 됐군요. 그 순간 어떤 기분이 들었나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정말 속상했어요. 왜 나만 안 부른 건지... 내가 뭘 잘못한 건지 계속 생각하게 되더라고요. 밤새 잠도 잘 못 잤어요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "밤새 잠도 못 잘 정도로 많이 힘들었겠어요. 친구들에게 소중한 존재인데 소외된 느낌을 받으면 정말 마음이 아프죠.",
       "turn": 6,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 그리고 이게 처음이 아니에요. 가끔씩 이런 일이 있었는데, 그때마다 그냥 넘어갔거든요. 근데 이번엔 너무 서러워서...",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "이런 일이 반복되면서 쌓였던 감정들이 이번에 터진 것 같네요. 그동안 혼자 참아왔던 거군요.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 친구들한테 직접 물어보기도 뭐하고... 제가 예민한 건가 싶기도 하고요. 그냥 우연히 못 부른 걸 수도 있잖아요?",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친구들에게 직접 말하기가 어렵고, 동시에 자신이 너무 예민한 건 아닌가 하는 생각도 드는군요. 이런 상황에서 어떻게 해야 할지 혼란스러울 것 같아요.",
       "turn": 10,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 정말 그래요. 어떻게 해야 할지 모르겠어요. 제가 먼저 다가가야 하나, 아니면 그냥 거리를 두는 게 나을까요?",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "결정을 내리기 전에, 평소에 그 친구들과는 어떤 관계였는지 좀 더 이야기해 볼까요? 학교에서는 어떻게 지내나요?",
       "turn": 12,
+      "technique": "exploration"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "학교에서는... 같이 밥도 먹고 수다도 떨어요. 그런데 방과 후에는 잘 안 만나는 것 같아요. 애들이 따로 약속 잡을 때 저는 잘 못 끼는 느낌?",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학교 안에서는 함께 시간을 보내지만, 방과 후 모임에서는 자주 빠지는 느낌을 받는군요. 혹시 그 이유가 뭘까 생각해본 적 있나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "open_question"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "글쎄요... 제가 좀 조용한 편이라서 그런가? 애들은 되게 활발하고 시끄럽게 노는 걸 좋아하는데, 저는 그런 게 좀 부담스러워요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "아, 친구들과 성향이 좀 다른 부분이 있네요. 활발한 친구들 사이에서 조용한 성격의 자신이 어울리지 못한다고 느끼는 건가요?",
+      "turn": 16,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 그런 것 같기도 해요. 근데 그렇다고 제가 성격을 바꿀 수도 없잖아요. 저도 친구들이랑 친하게 지내고 싶은데...",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "성격을 바꾸지 않으면서도 친구들과 가까워지고 싶은 마음이 있군요. 그건 정말 자연스럽고 소중한 바람이에요.",
+      "turn": 18,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "근데 어떻게 해야 할지 모르겠어요. 억지로 시끄럽게 구는 것도 이상하고...",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신답지 않은 모습을 보이는 건 부담스럽죠. 그런데 조용한 성격도 하나의 매력이 될 수 있어요. 혹시 지금 친구들 말고 다른 친구들과의 관계는 어떤가요?",
+      "turn": 20,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "다른 친구들요? 음... 같은 반에 저랑 비슷하게 조용한 애들이 몇 명 있긴 한데, 그 애들이랑은 그냥 그렇게 친하진 않아요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "비슷한 성향의 친구들이 있지만 아직 깊은 관계는 아니군요. 혹시 그 친구들과 더 가까워지는 것에 대해서는 어떻게 생각하나요?",
+      "turn": 22,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "생각해본 적은 없는데... 그래도 지금 친구들이랑 계속 친하게 지내고 싶어요. 중학교 때부터 알던 애들이거든요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "오랜 시간 함께한 친구들이라 더 소중하고, 관계를 유지하고 싶은 마음이 큰 거네요. 그 마음 충분히 이해해요.",
+      "turn": 24,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그래서 더 힘든 것 같아요. 포기하고 싶지 않은데, 어떻게 해야 할지 모르겠어요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "그럼 이렇게 생각해볼까요? 친구들과의 관계를 유지하되, 자신에게 맞는 방식으로 다가가는 거예요. 예를 들어, 큰 모임보다는 한두 명씩 만나는 건 어떨까요?",
+      "turn": 26,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "한두 명씩요? 그런 생각은 못 해봤어요. 그게 가능할까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "물론이죠. 친구 중에 특히 편하게 느껴지는 친구가 있나요? 그 친구에게 먼저 연락해서 둘이 만나보는 건 어떨까요?",
+      "turn": 28,
+      "technique": "problem_solving"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 지혜라는 친구가 있는데, 그 애는 다른 애들보다 좀 조용한 편이에요. 그 애한테 먼저 연락해볼까요?",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 생각이에요! 지혜 친구와 먼저 관계를 깊게 만들어가면, 전체 친구 그룹과의 관계도 자연스럽게 좋아질 수 있어요. 어떤 방법으로 연락해볼 생각인가요?",
+      "turn": 30,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "카톡으로 먼저 말 걸어보고, 주말에 같이 카페 갈래? 이렇게 물어볼까요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "아주 구체적이고 좋은 계획이네요. 그리고 한 가지 더, 어제 봤던 SNS 사진에 대해서는 너무 마음 아파하지 않았으면 해요. 모든 모임에 다 참여할 필요는 없으니까요.",
+      "turn": 32,
+      "technique": "normalization"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니까 좀 마음이 편해지네요. 제가 너무 예민하게 받아들인 건가요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "예민한 게 아니라, 친구들과의 관계를 소중히 여기기 때문에 민감하게 반응한 거예요. 그건 나쁜 게 아니에요. 다만 앞으로는 그런 상황을 조금 다르게 해석해보는 연습을 해보면 좋을 것 같아요.",
+      "turn": 34,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 알겠어요. 오늘 상담하고 나니까 좀 후련해요. 지혜한테 연락해볼게요!",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "잘 생각했어요. 용기 내서 상담실을 찾아준 것도 대단하고요. 다음에 또 궁금한 게 있거나 이야기하고 싶은 게 있으면 언제든 오세요. 응원할게요!",
+      "turn": 36,
+      "technique": "support"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T05:20:11.753366+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adolescent"
+  }
 }

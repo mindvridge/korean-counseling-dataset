@@ -1,198 +1,204 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250624_ADT_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "중견기업 마케팅팀 과장"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.489846",
+  "situation": "최근 승진 후 팀장과의 갈등과 업무 스트레스로 인해 불면증과 불안감을 겪고 있으며, 일과 개인 삶의 균형을 잃어가고 있다고 느낌",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 사실 상담을 받는 게 처음이라 좀 떨리네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 오시는 분들은 다들 긴장하시는 게 자연스러운 일이에요. 편안하게 생각하시고 천천히 이야기 나눠보면 좋겠습니다. 오늘은 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 최근에 과장으로 승진했는데요. 좋은 일인데도 오히려 더 힘들어진 것 같아요. 밤에 잠도 잘 못 자고요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "승진이라는 좋은 일이 있었는데, 오히려 그 이후로 힘든 시간을 보내고 계시는군요. 잠도 잘 못 주무신다고 하셨는데, 얼마나 오래 그런 상태가 지속되고 있나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "한 두 달 정도 된 것 같아요. 승진하고 나서부터요. 새벽 3시, 4시까지 뒤척이다가 겨우 잠들고, 아침에 일어나면 피곤해서 출근하는 게 너무 힘들어요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "두 달 동안 제대로 쉬지 못하셨다면 정말 힘드셨겠어요. 몸도 마음도 많이 지쳐있으실 것 같습니다. 승진 후에 구체적으로 어떤 변화들이 있었나요?",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "일단 업무량이 엄청 늘었고요. 그리고 새로 오신 팀장님이... 좀 까다로우세요. 제가 하는 일마다 다시 하라고 하시고, 회의 때마다 제 의견을 무시하시는 느낌이에요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "업무량 증가와 함께 팀장님과의 관계에서도 어려움을 겪고 계시는군요. 자신의 의견이 무시당한다고 느끼는 건 정말 힘든 일이에요. 구체적으로 어떤 상황이 가장 힘드셨나요?",
       "turn": 8,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "지난주에도 제가 2주 동안 준비한 마케팅 기획안을 팀장님께 보고했는데, 5분도 안 보시고 '이건 아닌 것 같은데'라고만 하시더라고요. 구체적으로 뭐가 문제인지도 안 말씀하시고요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "2주 동안 공들여 준비한 기획안에 대해 구체적인 피드백 없이 그런 반응을 받으셨다면, 정말 좌절감이 크셨을 것 같아요. 그때 어떤 감정이 드셨나요?",
       "turn": 10,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "처음엔 화가 났어요. 그런데 곧 '내가 뭘 잘못한 걸까', '내가 능력이 없는 건가' 하는 생각이 들더라고요. 그 이후로 계속 자신감이 없어요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "분노에서 자책으로 감정이 변화했고, 그것이 자신감 상실로 이어졌군요. 이전에는 일에 대한 자신감이 있으셨나요?",
       "turn": 12,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 대리 때까지만 해도 제가 잘한다는 평가를 많이 받았어요. 프로젝트도 성공적으로 이끌었고요. 그래서 승진도 한 거고... 근데 지금은 제가 뭘 잘하는 사람인지 모르겠어요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "이전까지 쌓아온 성과와 자신감이 있었는데, 최근 몇 달 사이에 그것이 많이 흔들리고 있는 상황이네요. 그 변화가 더 혼란스럽게 느껴지실 것 같아요.",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "empathy"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "맞아요. 제가 갑자기 무능해진 건지, 아니면 팀장님이 유독 저한테만 그러시는 건지... 다른 팀원들은 어떤지 모르겠어요. 비교하게 되더라고요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "다른 팀원들과 비교하면서 혼자만 이런 대우를 받는 건 아닌가 하는 생각도 드시는군요. 팀 내에서 다른 분들과는 어떻게 지내고 계신가요?",
+      "turn": 16,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "팀원들이랑은 괜찮아요. 그런데 요즘 제가 예민해져서... 사소한 말에도 상처받고, 혹시 저에 대해 안 좋게 생각하는 건 아닌가 의심하게 돼요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 겪고 있는 스트레스가 다른 관계에도 영향을 미치고 있는 것 같네요. 평소와 다르게 예민해지고 의심하게 되는 자신의 모습을 알아차리고 계신 거죠?",
+      "turn": 18,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 이런 제 모습이 싫어요. 집에 가서도 남편한테 짜증내고, 주말에도 일 생각에 아무것도 못하고... 제 삶이 온통 일로만 가득 찬 것 같아요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "일이 삶의 전부가 되어버린 느낌이시군요. 그리고 그런 자신의 모습이 싫다고 느끼고 계시고요. 이전에는 일과 개인 삶의 균형이 어떠셨나요?",
+      "turn": 20,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "예전엔 주말에 남편이랑 등산도 가고, 친구들도 만나고 그랬는데... 요즘엔 그럴 여유가 없어요. 아니, 여유가 없다기보다 마음이 안 생겨요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "시간의 문제라기보다는 심리적인 여유가 없어진 상태네요. 지금 가장 힘든 점이 무엇이라고 생각하시나요?",
+      "turn": 22,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 계속 불안해요. 내일 또 뭐라고 할까, 이번 프로젝트도 안 된다고 하면 어떡하지... 이런 생각이 머릿속을 떠나질 않아요. 그래서 잠도 못 자는 것 같고요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "지속적인 불안감이 가장 큰 어려움이시군요. 그 불안이 수면에도 영향을 미치고, 일상생활 전반에 영향을 주고 있는 것 같습니다. 혹시 이런 상황을 누군가와 나눠보신 적은 있나요?",
+      "turn": 24,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "남편한테는 조금 얘기했는데, '너무 예민한 거 아니야?'라고 하더라고요. 그 말 듣고 더 이상 말 안 했어요. 이해받지 못하는 것 같아서요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘든 마음을 나눴는데 오히려 이해받지 못한다고 느끼셨다면, 더 외롭고 고립된 느낌이 드셨을 것 같아요. 그래서 오늘 이렇게 상담을 찾아오신 거군요.",
+      "turn": 26,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 더 이상 혼자 감당하기 힘들어서요. 이대로 가다간 정말 무너질 것 같아요. 어떻게 해야 할까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "용기 내어 도움을 요청하신 것 자체가 정말 중요한 첫걸음이에요. 지금 상황을 함께 정리해보면, 승진 후 업무 스트레스, 팀장과의 관계 어려움, 그로 인한 불안과 불면증, 그리고 자신감 저하가 복합적으로 작용하고 있는 것 같습니다.",
+      "turn": 28,
+      "technique": "summarization"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 맞아요. 다 연결되어 있는 것 같아요. 어디서부터 풀어야 할지 모르겠어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "복잡하게 얽혀있는 실타래처럼 느껴지실 거예요. 하지만 하나씩 차근차근 풀어갈 수 있습니다. 우선 가장 시급한 것은 불안감을 조절하고 수면의 질을 개선하는 것일 것 같아요. 그 다음 팀장님과의 관계나 업무 대처 방식을 함께 고민해볼 수 있을 것 같습니다.",
+      "turn": 30,
+      "technique": "guidance"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 하나씩 접근하면 좋을 것 같아요. 오늘 이야기하면서 제 상황을 좀 더 명확하게 볼 수 있게 된 것 같아요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "오늘 많은 이야기를 나눠주셔서 감사합니다. 다음 상담에서는 불안을 다루는 구체적인 방법들과 함께, 팀장님과의 소통 방식에 대해서도 이야기 나눠보면 좋겠습니다. 그 전까지 하루 10분이라도 자신만의 시간을 가져보시는 건 어떨까요?",
+      "turn": 32,
+      "technique": "homework assignment"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 해볼게요. 오늘 상담받길 정말 잘한 것 같아요. 조금은 마음이 가벼워진 느낌이에요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇게 느끼신다니 다행입니다. 변화는 천천히 일어나지만, 분명히 나아질 수 있어요. 다음 주에 뵙겠습니다.",
+      "turn": 34,
+      "technique": "encouragement"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T15:33:57.372906+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

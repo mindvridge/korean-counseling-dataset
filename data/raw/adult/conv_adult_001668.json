@@ -1,198 +1,204 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADT_20250623_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "남성",
+    "occupation": "IT 스타트업 대표"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.447156",
+  "situation": "3년 전 공동창업한 회사가 성장하면서 공동창업자와의 관계가 악화되고, 의사결정 갈등으로 인해 심한 스트레스와 불면증을 겪고 있음. 회사를 떠날지 남을지 고민 중.",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 요즘 너무 힘들어서 상담을 신청하게 됐습니다.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 편안하게 앉으세요. 힘든 상황에서 용기 내어 상담실을 찾아주셔서 감사합니다. 어떤 일로 힘드신지 천천히 말씀해주시겠어요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "제가 3년 전에 대학 동기랑 같이 IT 회사를 창업했거든요. 처음엔 정말 잘 맞았는데, 회사가 커지면서 모든 게 달라졌어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "회사를 함께 창업하셨는데, 성장 과정에서 관계가 변화했군요. 구체적으로 어떤 점이 달라졌나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "처음엔 둘이서 모든 걸 같이 결정했는데, 이제는 의견이 맞지 않는 일이 너무 많아요. 특히 회사 방향성에 대해서요. 저는 안정적으로 가고 싶은데, 동업자는 계속 공격적으로 투자받고 확장하려고 해요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "회사의 미래 방향에 대한 근본적인 시각 차이가 있으시군요. 안정과 확장, 두 가지 다 중요한 가치인데 의견이 다르니 힘드시겠어요.",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 맞아요. 그리고 요즘엔 회의 때마다 말다툼을 해요. 직원들 앞에서도 그러니까 분위기가 정말 안 좋아졌어요. 제가 밤에 잠도 제대로 못 자요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "갈등이 공개적으로 드러나면서 조직 분위기에도 영향을 미치고, 불면증까지 생기셨네요. 얼마나 오래 잠을 못 주무시고 계세요?",
       "turn": 8,
+      "technique": "assessment"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "한 두 달 정도 됐어요. 자려고 누우면 회사 생각, 동업자와의 갈등이 머릿속에서 계속 맴돌아요. 새벽 3-4시까지 뒤척이다가 겨우 잠들고, 아침에 일어나면 피곤해서 죽겠어요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "두 달 동안 제대로 쉬지 못하셨다니, 신체적으로나 정신적으로 정말 고되셨겠습니다. 지금 가장 힘든 감정은 어떤 건가요?",
       "turn": 10,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "배신감이요. 우리 둘이 함께 꿈을 꾸고 시작했는데, 이제는 그 사람이 제 말을 무시하는 것 같아요. 마치 제가 회사 발목을 잡는 사람처럼 취급해요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "함께 시작한 동료로부터 배신감을 느끼신다는 거, 그리고 자신의 의견이 무시당한다고 느끼시는 게 가장 큰 상처인 것 같네요.",
       "turn": 12,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 맞아요. 그래서 요즘은 회사를 나가는 게 맞는 건가 싶기도 해요. 근데 제가 3년 동안 쏟아부은 시간과 노력을 생각하면 또 쉽게 포기할 수가 없고...",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "한편으로는 떠나고 싶고, 다른 한편으로는 그동안의 투자를 포기할 수 없어서 양가감정을 느끼고 계시는군요. 이런 딜레마 상황이 더 힘들게 만드는 것 같아요.",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "validation"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "정확해요. 매일 아침 출근할 때마다 '오늘은 사표를 내야 하나' 생각하다가도, 회사에 도착하면 또 일을 시작하게 돼요. 이런 제 자신이 한심하게 느껴져요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "스스로를 한심하게 느끼신다고 하셨는데, 그건 결코 한심한 게 아니에요. 중요한 결정 앞에서 신중하게 고민하는 건 당연한 거예요. 혹시 동업자분과 이런 감정들에 대해 솔직하게 대화해보신 적은 있으세요?",
+      "turn": 16,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "시도는 해봤는데, 제대로 된 대화가 안 돼요. 저는 감정적인 부분을 얘기하고 싶은데, 그 친구는 계속 사업 논리로만 얘기하거든요. '감정적으로 접근하면 사업을 망친다'는 식이에요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "대화의 방식 자체가 다르시군요. 님께서는 관계와 감정에 대해 이야기하고 싶으신데, 상대방은 사업 논리로만 접근하니 소통이 되지 않는 거네요.",
+      "turn": 18,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 그래서 더 답답해요. 제가 너무 감정적인 건가요? 사업가라면 감정을 배제해야 하는 건가요?",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "전혀 그렇지 않습니다. 감정은 우리에게 중요한 정보를 주는 신호예요. 특히 동업 관계는 단순한 비즈니스 관계가 아니라 사람과 사람 사이의 관계이기도 하니까요. 님의 감정은 충분히 타당하고 중요합니다.",
+      "turn": 20,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 말씀해주시니 조금 위안이 되네요. 그런데 선생님, 저는 어떻게 해야 할까요? 계속 이렇게 있을 수는 없잖아요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "급하게 결정하기보다는, 먼저 님 자신의 마음을 정리하는 게 중요할 것 같아요. 질문 하나 드려도 될까요? 만약 동업자와의 관계 문제가 없다면, 지금 회사에서 일하는 것 자체는 만족스러우신가요?",
+      "turn": 22,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 일 자체는 좋아요. 우리가 만드는 서비스도 의미 있다고 생각하고, 팀원들도 좋고요. 문제는 정말 동업자와의 관계예요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇다면 일과 회사 자체에 대한 애착은 있으시군요. 그럼 동업자분과의 관계를 개선할 수 있는 방법을 먼저 모색해보는 건 어떨까요? 예를 들어, 제3자를 통한 중재나 명확한 역할 분담 같은 것들 말이에요.",
+      "turn": 24,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "그런 방법도 있겠네요. 근데 그 친구가 받아들일까요? 요즘 제 말은 잘 안 듣는 것 같아서요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 부분이 걱정되시는군요. 하지만 제안하기 전에 이미 결과를 단정 짓는 건 어떨까요? 혹시 모르잖아요. 상대방도 지금의 갈등 상황이 불편할 수 있어요.",
+      "turn": 26,
+      "technique": "cognitive_restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "그건 생각 못 해봤네요. 저만 힘든 줄 알았는데... 그 친구도 스트레스받고 있을 수도 있겠네요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 그럴 가능성이 있어요. 갈등은 양방향이니까요. 그리고 님께서 지금 겪고 계신 불면증과 스트레스는 우선적으로 관리가 필요해 보여요. 잠을 제대로 못 주무시면 판단력도 떨어지고 감정 조절도 어려워지거든요.",
+      "turn": 28,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 요즘 사소한 일에도 짜증이 나고, 집중도 잘 안 돼요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "그럼 우선 수면 위생을 개선하는 것부터 시작해볼까요? 그리고 동업자분과의 대화를 시도해보되, 좀 더 구조화된 방식으로 접근해보시는 건 어떨까요? 다음 상담 때 구체적인 대화 전략을 함께 준비해볼 수 있을 것 같아요.",
+      "turn": 30,
+      "technique": "action_planning"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 좋아요. 오늘 상담하면서 제 감정이 이상한 게 아니라는 걸 알게 돼서 조금 마음이 편해졌어요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "다행입니다. 님의 감정은 충분히 타당하고, 지금 상황은 충분히 힘든 상황이에요. 중요한 건 이 상황을 어떻게 헤쳐나갈지인데, 함께 방법을 찾아가 보도록 해요.",
+      "turn": 32,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "감사합니다. 다음 주에 다시 올게요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 그때 뵙겠습니다. 이번 주는 우선 수면에 집중해보시고, 동업자분과의 관계에 대해서도 조금 더 생각해보세요. 힘든 순간이 있으면 언제든 연락주세요.",
+      "turn": 34,
+      "technique": "support"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T15:21:40.606870+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

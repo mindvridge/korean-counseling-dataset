@@ -1,204 +1,204 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "주제",
-    "total_turns": 29,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250624_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "프리랜서 디자이너"
   },
-  "seed_info": {
-    "source_file": "seed.json",
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:13.741434",
+  "situation": "프리랜서로 일하면서 불규칙한 수입과 불안정한 생활로 인해 불안감이 커지고, 최근 대인관계에서도 위축되어 상담을 찾게 됨",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Client 0"
+      "text": "안녕하세요... 사실 상담을 받아야 할지 말아야 할지 고민을 많이 했어요. 제가 너무 예민한 건가 싶기도 하고...",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text 1",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 오시느라 수고하셨어요. 상담을 받을지 고민하셨다는 것 자체가 자신을 돌아보려는 용기 있는 선택이에요. 편하게 이야기 나눠보아요. 어떤 부분이 힘드셨나요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Client 2"
+      "text": "저는 프리랜서 디자이너로 일한 지 2년 정도 됐는데요. 처음엔 자유로워서 좋았는데, 요즘은 계속 불안해요. 다음 달 수입이 얼마나 될지 모르겠고...",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text 3",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Client 4"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text 5",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "프리랜서로 일하시면서 수입의 불확실성 때문에 많이 불안하시군요. 2년 동안 그런 불안을 안고 일하셨다는 게 쉽지 않으셨을 것 같아요.",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Client 6"
+      "text": "네... 처음엔 괜찮았는데 시간이 지날수록 더 힘들어지는 것 같아요. 밤에 잠도 잘 못 자고, 항상 일 걱정만 하게 돼요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text 7",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Client 8"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text 9",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "불안감이 수면에까지 영향을 미치고 있네요. 구체적으로 어떤 생각들이 밤에 잠을 방해하나요?",
       "turn": 6,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Client 10"
+      "text": "'이번 프로젝트가 끝나면 다음 일이 있을까?', '나이는 먹어가는데 이렇게 계속 살아도 되나?' 이런 생각들이요. 그리고 친구들은 다들 안정적인 직장 다니면서 결혼도 하고 그러는데...",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text 11",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Client 12"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text 13",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "미래에 대한 불확실성과 주변 사람들과의 비교가 불안을 더 키우고 있는 것 같네요. 그런 생각들이 들 때 기분이 어떠세요?",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Client 14"
+      "text": "초라하고... 뒤처진 것 같아요. 친구들 만나는 것도 요즘은 피하게 돼요. 다들 잘 사는 것 같은데 저만 이러고 있는 것 같아서요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text 15",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Client 16"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text 17",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친구들을 만나는 것조차 부담스러워질 만큼 스스로를 초라하게 느끼고 계시는군요. 그 감정이 정말 힘드셨겠어요.",
       "turn": 10,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Client 18"
+      "text": "네... 사실 제가 프리랜서를 선택한 건 회사 생활이 너무 답답해서였거든요. 그런데 이제는 그때가 더 나았나 싶기도 하고...",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text 19",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Client 20"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text 21",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "당시에는 자유를 찾아 선택하셨던 건데, 지금은 그 선택에 대해 후회가 드시는군요. 회사 생활이 답답했던 이유는 무엇이었나요?",
       "turn": 12,
+      "technique": "exploration"
+    },
+    {
       "speaker": "client",
-      "text": "Client 22"
+      "text": "상사의 눈치를 봐야 하고, 제 의견은 잘 반영되지 않고... 창의적인 일을 하고 싶었는데 틀에 박힌 일만 하라고 해서요. 그래서 나왔는데 막상 나오니까 이것도 쉽지 않네요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text 23",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Client 24"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text 25",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "창의성과 자율성을 추구하셨던 거네요. 그 가치들이 지금도 여전히 중요하신가요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Client 26"
+      "technique": "clarification"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "음... 중요하긴 한데요. 요즘은 그냥 안정적으로 살고 싶다는 생각이 더 커요. 제가 원하는 게 뭔지도 모르겠어요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text 27",
-      "technique": [
-        "empathy"
-      ]
+      "text": "불안이 커지면서 본인이 원하는 것조차 혼란스러워진 상태시군요. 그런 혼란스러움 속에서 상담을 찾아오신 게 대단하세요.",
+      "turn": 16,
+      "technique": "validation"
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "Client 28"
+      "text": "감사해요... 그런데 제가 정말 걱정되는 건 요즘 사람들을 만나는 게 너무 힘들다는 거예요. 클라이언트 미팅도 가기 전에 너무 긴장되고...",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "대인관계에서도 어려움을 겪고 계시네요. 미팅 전에 긴장될 때 어떤 생각이 드시나요?",
+      "turn": 18,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "'내가 잘 할 수 있을까?', '실수하면 어떡하지?', '이 사람이 나를 어떻게 볼까?' 이런 생각들이요. 그러다 보면 말도 꼬이고 더 이상해져요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "타인의 평가에 대한 두려움이 크시고, 그것이 실제 상황에서도 영향을 미치는군요. 이런 패턴이 언제부터 시작되었나요?",
+      "turn": 20,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "프리랜서 하면서부터인 것 같아요. 회사 다닐 때는 회사 이름이 있으니까 괜찮았는데, 지금은 제 이름으로만 일하잖아요. 제가 부족하면 바로 티가 나는 것 같아서요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "조직이라는 울타리가 사라지면서 스스로에게 더 많은 압박을 느끼시는 거네요. 그 압박감이 자신감을 떨어뜨리고 있는 것 같아요.",
+      "turn": 22,
+      "technique": "interpretation"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요... 제가 생각해도 너무 제 자신을 몰아붙이는 것 같긴 해요. 근데 안 그러면 일을 못 구할 것 같고...",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "스스로를 몰아붙이는 게 일을 구하는 유일한 방법처럼 느껴지시는군요. 하지만 그렇게 하면서 많이 지쳐가고 계신 것 같아요.",
+      "turn": 24,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 정말 지쳐요. 이렇게 계속 살 수는 없을 것 같은데, 어떻게 해야 할지 모르겠어요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화가 필요하다는 걸 느끼시지만 방법을 찾기 어려우신 거네요. 지금 당장 모든 걸 바꿀 필요는 없어요. 함께 천천히 살펴보면서 님에게 맞는 방법을 찾아가면 좋겠어요.",
+      "turn": 26,
+      "technique": "support"
+    },
+    {
+      "speaker": "client",
+      "text": "그럴 수 있을까요? 저도 변하고 싶긴 한데... 뭐부터 시작해야 할지...",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화를 원하신다는 것만으로도 이미 중요한 첫걸음이에요. 우선 님이 느끼는 불안의 패턴을 이해하고, 스스로에게 주는 압박을 조금씩 줄여가는 연습을 해볼 수 있을 것 같아요.",
+      "turn": 28,
+      "technique": "guidance"
+    },
+    {
+      "speaker": "client",
+      "text": "압박을 줄인다는 게 구체적으로 어떤 건가요?",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "예를 들어, '완벽해야 한다'는 생각 대신 '충분히 잘하고 있다'는 관점으로 바라보는 연습이 될 수 있어요. 또 실수를 실패가 아닌 배움의 기회로 받아들이는 것도 포함되고요.",
+      "turn": 30,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "쉽지 않을 것 같지만... 해보고 싶어요. 이대로는 정말 안 될 것 같거든요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화에 대한 의지가 느껴져요. 쉽지 않은 과정이지만 함께 해나가면 충분히 가능해요. 다음 상담에서는 님의 강점과 자원들을 함께 찾아보면 어떨까요?",
+      "turn": 32,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 좋아요. 오늘 이야기하면서 조금은 마음이 가벼워진 것 같아요. 제 이야기를 들어주셔서 감사해요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "함께 나눠주셔서 감사해요. 오늘 용기 내어 많은 이야기를 해주셨어요. 다음 만남까지 스스로를 너무 몰아붙이지 않으시길 바라요.",
+      "turn": 34,
+      "technique": "support"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T13:42:00.048420+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

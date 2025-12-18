@@ -1,198 +1,209 @@
 {
-  "metadata": {
-    "category": "adolescent",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADO_20250619_001",
+  "category": "adolescent",
+  "persona": {
+    "age": 16,
+    "gender": "female",
+    "occupation": "고등학교 1학년"
   },
-  "seed_info": {
-    "category": "adolescent"
-  },
-  "generated_at": "2025-12-17T02:04:27.469647",
+  "situation": "학교에서 친구들과의 관계가 어려워지면서 점점 고립감을 느끼고 있으며, SNS에서 자신이 제외된 친구들의 모임 사진을 보고 상처받아 상담을 요청함",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 사실 상담받으러 오는 게 좀 부끄럽긴 한데, 요즘 너무 힘들어서 왔어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 용기 내서 와주셔서 고마워요. 힘든 이야기를 나누는 게 쉽지 않은데, 이렇게 찾아와 주셨네요. 편하게 이야기해주시면 됩니다.",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 저는 고1인데요, 요즘 친구들이랑 관계가 너무 안 좋아요. 아니, 안 좋다기보다는 제가 점점 소외되는 느낌이에요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친구들과의 관계에서 소외감을 느끼고 계시는군요. 그런 느낌은 정말 힘들었을 것 같아요.",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 특히 어제 인스타그램을 봤는데, 제 친구들이 저 빼고 다 같이 놀러 간 사진을 올린 거예요. 저한테는 아무 말도 없었는데...",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "자신만 빼고 친구들이 모인 사진을 SNS에서 보게 되었군요. 그 순간 어떤 기분이 들었나요?",
       "turn": 6,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정말... 가슴이 철렁했어요. 그리고 화도 나고, 슬프기도 하고... 제가 뭘 잘못한 건가 싶기도 하고요. 밤새 그 생각만 했어요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "여러 가지 복잡한 감정들이 한꺼번에 밀려왔네요. 화도 나고, 슬프고, 자책하는 마음까지... 밤새 잠도 제대로 못 잤겠어요.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 맞아요. 진짜 한숨도 못 잤어요. 계속 생각하니까 중학교 때까지는 괜찮았는데, 고등학교 올라오면서부터 이런 것 같아요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "고등학교에 진학하면서부터 친구 관계에 변화가 생기기 시작했다는 거네요. 구체적으로 언제부터 이런 느낌을 받기 시작했나요?",
       "turn": 10,
+      "technique": "clarification"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "음... 1학기 중간고사 끝나고부터인 것 같아요. 그 전까지는 같이 밥도 먹고 그랬는데, 그 이후로 애들이 저를 좀 피하는 느낌?",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "중간고사 이후부터 친구들의 태도가 달라진 것 같다고 느끼셨군요. 혹시 그 시기에 특별한 일이 있었나요?",
       "turn": 12,
+      "technique": "exploration"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "글쎄요... 딱히 기억나는 건 없는데... 아, 그때 제가 시험 성적이 좀 잘 나왔어요. 그래서 선생님이 칭찬하셨는데...",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "성적이 잘 나와서 선생님께 칭찬을 받으셨군요. 그 이후로 친구들의 반응이 어땠나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "open-ended question"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "생각해보니까... 그때부터 좀 이상했던 것 같아요. 제가 공부 좀 한다고 애들이 저한테 '공부벌레', '모범생' 이런 식으로 놀리기 시작했어요. 처음엔 장난인 줄 알았는데...",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "처음에는 장난이라고 생각했지만, 점점 그게 아니라는 걸 느끼게 되었네요. 그런 상황에서 어떻게 대응하셨어요?",
+      "turn": 16,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "저는 그냥... 웃어넘겼어요. 괜찮은 척했죠. 진지하게 반응하면 더 놀림받을 것 같아서요. 그런데 그게 계속되니까 너무 힘들더라고요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "상처받지 않은 척 웃어넘기면서 혼자 힘들어하셨군요. 그렇게 자신의 감정을 숨기는 게 얼마나 힘들었을까요.",
+      "turn": 18,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 진짜 힘들었어요. 집에 오면 울기도 하고... 그런데 부모님한테도 말 못 했어요. 말하면 '친구 관계도 제대로 못 하냐'고 하실 것 같아서요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "부모님께도 말씀드리지 못하고 혼자 감당해왔네요. 정말 외롭고 힘든 시간을 보내셨겠어요.",
+      "turn": 20,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요... 그래서 요즘은 학교 가기가 너무 싫어요. 쉬는 시간이 제일 힘들어요. 애들은 다 같이 떠들고 노는데 저만 혼자 있으니까...",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "학교에서 쉬는 시간이 가장 힘든 시간이 되어버렸네요. 지금 이 순간도 내일 학교 가는 게 걱정되나요?",
+      "turn": 22,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 매일 밤 내일 학교 가기 싫다는 생각만 해요. 그런데 안 갈 수도 없잖아요. 어떻게 해야 할지 모르겠어요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "매일 학교 가는 게 두렵지만 안 갈 수도 없는 상황이라 더욱 막막하게 느껴지는군요. 지금까지 정말 잘 버텨왔어요.",
+      "turn": 24,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "그런가요? 저는 제가 너무 약한 것 같아요. 다른 애들은 다 잘 지내는데 저만 이러니까...",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "다른 친구들과 비교하면서 자신을 약하다고 생각하고 계시네요. 하지만 이렇게 힘든 상황에서도 매일 학교에 가고, 도움을 요청하기 위해 여기까지 온 것은 약한 게 아니라 용기 있는 행동이에요.",
+      "turn": 26,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각해본 적은 없었어요... 그냥 저는 친구도 제대로 못 사귀는 이상한 애인 줄만 알았어요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금까지 자신을 많이 탓해왔네요. 그런데 이 상황은 전적으로 당신의 잘못이 아니에요. 친구 관계에서 어려움을 겪는 것은 많은 청소년들이 경험하는 일이고, 특히 학교 환경이 바뀌면 더 그럴 수 있어요.",
+      "turn": 28,
+      "technique": "normalization"
+    },
+    {
+      "speaker": "client",
+      "text": "정말요? 저만 이런 게 아니었구나... 그럼 저는 어떻게 하면 좋을까요? 친구들이랑 다시 친해질 수 있을까요?",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "관계를 회복하고 싶은 마음이 있으시군요. 그 전에 먼저 여쭤보고 싶은데, 지금 그 친구들과 꼭 관계를 회복해야 한다고 생각하세요? 아니면 새로운 친구 관계를 만드는 것도 생각해보셨나요?",
+      "turn": 30,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 사실 잘 모르겠어요. 그냥 친구가 있었으면 좋겠어요. 누구든... 저랑 진짜 친하게 지낼 수 있는 친구요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "진정으로 마음을 나눌 수 있는 친구를 원하시는군요. 그건 정말 소중한 바람이에요. 우리 함께 그 방법을 찾아가 보면 어떨까요?",
+      "turn": 32,
+      "technique": "support"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 좋아요. 그런데 정말 가능할까요? 저도 할 수 있을까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "충분히 가능해요. 오늘 이야기를 나누면서 느낀 건, 당신은 자신의 감정을 잘 표현하고, 상황을 객관적으로 바라볼 수 있는 힘이 있다는 거예요. 이런 강점들이 앞으로 큰 도움이 될 거예요. 다음 시간에는 구체적인 방법들을 함께 찾아볼까요?",
+      "turn": 34,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 감사합니다. 오늘 이야기하고 나니까 조금은 마음이 가벼워진 것 같아요.",
+      "turn": 35
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T06:27:56.274765+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adolescent"
+  }
 }

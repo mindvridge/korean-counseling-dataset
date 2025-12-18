@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_ADULT_20250623_001",
+  "category": "adult",
+  "persona": {
+    "age": 38,
+    "gender": "남성",
+    "occupation": "중견기업 팀장"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.300358",
+  "situation": "승진 후 팀 관리와 성과 압박으로 인한 스트레스와 불안감을 호소하며 내담자가 상담을 요청함",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 사실 상담을 받아야 할지 고민을 많이 했는데... 요즘 너무 힘들어서 이렇게 찾아왔습니다.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 상담을 받기로 결정하시기까지 쉽지 않으셨을 텐데, 용기 내어 찾아주셔서 감사합니다. 편안하게 말씀해 주세요. 어떤 점이 가장 힘드신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "6개월 전에 팀장으로 승진했는데요. 처음엔 좋았는데 지금은... 매일 밤 잠을 제대로 못 자고 있어요. 머릿속이 복잡하고 불안해서요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "승진 후 6개월이 지났는데 오히려 불안감과 불면증을 겪고 계시는군요. 잠을 제대로 못 주무신다는 것은 정말 힘드셨겠어요.",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 팀원이 12명인데 다들 저보다 나이도 많고 경력도 많은 분들이에요. 제가 뭘 지시하거나 피드백을 줘야 하는데, 그게 너무 부담스럽습니다.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "나이와 경력이 많은 팀원들을 이끌어야 하는 상황에서 리더십을 발휘하는 것이 큰 부담으로 느껴지시는군요.",
       "turn": 6,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그리고 회사에서는 계속 성과를 내라고 압박하고... 위에서는 실적을 요구하고, 아래에서는 제 지시를 따르지 않는 것 같고. 저는 그냥 샌드위치 같아요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "위로부터는 성과 압박을, 아래로부터는 리더십에 대한 도전을 동시에 느끼시면서 중간에 끼인 느낌을 받고 계시네요. 그런 상황이라면 정말 심리적으로 힘드실 수밖에 없겠습니다.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "그렇죠? 제가 너무 예민한 건가 싶기도 했는데... 다른 팀장들은 다 잘하는 것 같거든요. 저만 못하는 것 같아요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "다른 팀장들과 비교하면서 자신만 부족하다고 느끼고 계시는군요. 그런 생각이 들 때 기분이 어떠세요?",
       "turn": 10,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "초라하고... 무능력하다는 생각이 들어요. 이렇게 승진시켜준 회사에 미안하고, 가족들한테도 미안하고. 집에 가면 아내랑 아이들이 있는데 짜증만 나요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "자책감과 미안함, 그리고 가족에게까지 영향을 미치고 있다는 죄책감까지 느끼고 계시네요. 여러 감정들이 복합적으로 얽혀있는 것 같습니다.",
       "turn": 12,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 어제도 아들이 숙제 도와달라고 했는데 화를 냈어요. 나중에 너무 후회됐지만 이미 늦었죠. 제가 점점 나쁜 아빠가 되어가는 것 같아요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "직장에서의 스트레스가 가정생활에까지 영향을 미치고, 그것이 다시 자책감으로 이어지는 악순환이 일어나고 있는 것 같네요. 이런 패턴을 인식하신 것 자체가 중요한 첫걸음입니다.",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "reframing"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "그런가요? 하지만 인식한다고 해서 뭐가 달라질까요? 상황은 계속 똑같은데...",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "지금 당장은 변화가 보이지 않아 회의적인 마음이 드시는군요. 구체적으로 어떤 상황이 가장 힘드신가요? 최근에 있었던 일 중에서 예를 들어주실 수 있을까요?",
+      "turn": 16,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "지난주에 프로젝트 회의가 있었어요. 제가 준비한 기획안을 발표했는데, 팀원 한 분이 회의 중에 '이건 현실성이 없다'고 바로 반박하더라고요. 다른 팀원들 앞에서요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "팀원 앞에서 공개적으로 반박을 받으셨군요. 그 순간 어떤 감정이 드셨나요?",
+      "turn": 18,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "창피하고 화가 났어요. 하지만 화를 낼 수도 없고... 그냥 '의견 감사합니다. 검토해보겠습니다'라고만 했죠. 근데 속으로는 계속 그 생각만 나요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "겉으로는 침착하게 대응하셨지만, 내면에서는 분노와 수치심이 해결되지 않은 채 남아있는 상태네요. 그 이후로도 그 상황이 계속 머릿속을 맴도나요?",
+      "turn": 20,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 맞아요. 밤에 잠들려고 하면 그 장면이 자꾸 떠올라요. '그때 이렇게 말할 걸', '저렇게 대응할 걸' 하면서 계속 반복해서 생각해요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 상황을 반복적으로 되새기면서 다른 대응 방법을 찾으려고 하시는군요. 그런데 그게 오히려 수면을 방해하고 있네요. 혹시 팀장이 되기 전에는 이런 경험이 없으셨나요?",
+      "turn": 22,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "전에는 그냥 제 일만 잘하면 됐어요. 누가 뭐라고 해도 '제 업무는 제대로 했는데요'라고 말할 수 있었죠. 근데 지금은 팀 전체를 책임져야 하니까... 모든 게 제 책임인 것 같아요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "역할의 변화가 책임감의 범위를 크게 확장시켰고, 그것이 큰 부담으로 다가오고 있군요. 개인 기여자에서 리더로의 전환은 많은 분들이 어려워하는 과정입니다. 이것은 자연스러운 적응 과정이에요.",
+      "turn": 24,
+      "technique": "normalization"
+    },
+    {
+      "speaker": "client",
+      "text": "그런가요? 다른 사람들도 이런 어려움을 겪나요? 저는 제가 유독 무능한 줄 알았어요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 리더십 전환기에 많은 분들이 비슷한 어려움을 경험합니다. 오히려 이런 고민을 하신다는 것은 책임감이 강하고 팀을 잘 이끌고 싶은 마음이 크다는 증거예요. 지금 느끼시는 감정들을 부정적으로만 볼 필요는 없습니다.",
+      "turn": 26,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각해본 적은 없었네요... 그냥 제가 부족해서 힘든 줄만 알았는데.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신을 부족하다고 평가하는 대신, 새로운 역할에 적응하는 과정에 있다고 보는 것은 어떨까요? 지금까지 6개월 동안 어떤 것들은 잘 해오신 부분도 있을 텐데, 그런 것들은 어떤 것들이 있을까요?",
+      "turn": 28,
+      "technique": "strength-based approach"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 생각해보니 분기 실적은 목표를 달성했어요. 그리고 신입사원이 한 명 들어왔는데, 그 친구는 저를 잘 따라주는 것 같아요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "실적 목표도 달성하셨고, 신입사원과는 좋은 관계를 형성하고 계시네요. 이런 성과들도 분명히 있는데, 왜 이런 부분들은 잘 보이지 않으셨을까요?",
+      "turn": 30,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "그냥... 안 되는 것들만 보였던 것 같아요. 경력 많은 팀원들이 저를 무시하는 것 같고, 제가 부족한 것들만 계속 신경 쓰였어요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "부정적인 측면에 초점이 맞춰져 있었던 거네요. 이것을 '선택적 주의'라고 하는데, 스트레스 상황에서는 누구나 부정적인 것에 더 집중하게 됩니다. 앞으로 우리가 함께 이런 패턴을 조금씩 바꿔나가는 연습을 해볼 수 있을 것 같아요.",
+      "turn": 32,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "그게 가능할까요? 오랫동안 이렇게 생각해왔는데...",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화는 시간이 걸리지만 충분히 가능합니다. 오늘 이렇게 상담을 시작하신 것처럼, 작은 단계부터 시작하면 됩니다. 다음 상담까지 한 가지만 실천해보시면 어떨까요? 매일 잠들기 전에 그날 있었던 일 중 잘된 일 한 가지만 떠올려보는 거예요.",
+      "turn": 34,
+      "technique": "homework assignment"
+    },
+    {
+      "speaker": "client",
+      "text": "그 정도는 할 수 있을 것 같네요. 해보겠습니다. 오늘 이야기하면서 조금은 마음이 가벼워진 것 같아요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "다행입니다. 오늘 많은 이야기를 나눠주셔서 감사합니다. 힘든 상황 속에서도 변화를 위해 노력하시려는 모습이 보기 좋습니다. 다음 상담 때 또 뵙겠습니다.",
+      "turn": 36,
+      "technique": "encouragement"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T14:39:31.250523+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

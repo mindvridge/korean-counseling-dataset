@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250624_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "남성",
+    "occupation": "IT 개발자"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.124895",
+  "situation": "최근 승진 후 관리자 역할을 맡게 되면서 팀원들과의 관계와 업무 스트레스로 인해 불안감과 불면증을 겪고 있음",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 요즘 잠을 잘 못 자서... 회사에서도 집중이 안 되고 힘드네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 오늘 상담을 위해 방문해 주셔서 감사합니다. 불면증으로 많이 힘드신 것 같네요. 언제부터 이런 증상이 시작되셨나요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "한 3개월 전쯤부터요. 제가 팀장으로 승진을 했거든요. 그 이후로 계속 이런 것 같아요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "3개월 전 팀장으로 승진하신 후부터 불면증이 시작되셨군요. 승진은 긍정적인 변화지만, 동시에 새로운 책임과 역할에 대한 부담도 함께 오는 것 같습니다.",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 처음에는 기뻤는데, 막상 팀장이 되고 보니 팀원들 관리하는 게 생각보다 훨씬 어렵더라고요. 개발만 하던 때가 그립습니다.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "개발자에서 관리자로의 역할 전환이 쉽지 않으셨군요. 구체적으로 어떤 부분이 가장 어려우신가요?",
       "turn": 6,
+      "technique": "open_ended_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "팀원들과의 소통이 제일 힘들어요. 제가 원래 말이 많은 편이 아니거든요. 그리고 피드백을 줄 때도 제가 너무 직설적인 건 아닌지, 상처를 주는 건 아닌지 계속 신경 쓰이고요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "팀원들에게 상처를 주지 않을까 걱정하시는 마음이 느껴집니다. 그런 고민을 하신다는 것 자체가 팀원들을 배려하는 좋은 리더의 모습이라고 생각합니다.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "그렇게 봐주시니 감사한데... 실제로는 제가 잘하고 있는 건지 모르겠어요. 밤에 누우면 낮에 있었던 일들이 자꾸 떠올라요. '그때 저렇게 말할 게 아니라 이렇게 말할걸' 하면서요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "밤마다 낮에 있었던 대화들을 반복해서 떠올리시는군요. 그렇게 계속 생각하다 보면 잠들기가 정말 어려우실 것 같습니다.",
       "turn": 10,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 맞아요. 그러다 보면 새벽 2-3시가 되고... 아침에 일어나면 피곤해서 또 하루가 힘들고. 악순환이에요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "불면증과 피로가 악순환을 이루고 있는 상황이시네요. 혹시 이런 상황에서 내담자님께서는 완벽하게 해내야 한다는 압박감을 느끼시나요?",
       "turn": 12,
+      "technique": "clarification"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "그런 것 같아요. 승진했으니까 잘해야 한다는 생각이 크죠. 그리고 제 밑에 있는 팀원들 중에는 저보다 나이도 많고 경력도 오래된 사람들도 있어서... 더 부담스러워요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "나이와 경력이 많은 팀원들 앞에서 리더로서의 역할을 해내야 한다는 부담감이 상당히 크시겠어요. 그런 상황에서 완벽해야 한다는 기대는 스스로에게 너무 가혹한 것일 수 있습니다.",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "validation"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "사실 제가 너무 예민한 건가 싶기도 해요. 다른 팀장들은 잘만 하는 것 같은데 저만 이렇게 힘들어하는 것 같아서요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "다른 사람들은 쉽게 해내는 것처럼 보여서 자신만 유독 힘들다고 느끼시는군요. 하지만 겉으로 보이는 모습과 실제 내면의 어려움은 다를 수 있습니다. 내담자님의 어려움은 충분히 타당한 것입니다.",
+      "turn": 16,
+      "technique": "normalization"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 말씀해 주시니 조금 위안이 되네요. 그런데 이걸 어떻게 해결해야 할지 모르겠어요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "해결 방법을 찾고 싶으신 마음이 크시군요. 먼저 밤에 잠들기 전 반복되는 생각들에 대해 좀 더 이야기해 볼까요? 그 생각들의 내용은 주로 어떤 것들인가요?",
+      "turn": 18,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "주로 '내가 실수한 건 아닐까', '팀원들이 날 무시하는 건 아닐까', '윗사람들이 나를 승진시킨 게 잘못된 선택이라고 생각하는 건 아닐까' 이런 생각들이요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "실수에 대한 걱정, 타인의 평가에 대한 두려움이 주된 내용이시네요. 이런 생각들이 떠오를 때, 실제로 그런 일이 있었나요? 아니면 그럴 수도 있다는 가정인가요?",
+      "turn": 20,
+      "technique": "cognitive_restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 생각해 보니 대부분 가정이네요. 실제로 누가 뭐라고 한 적은 없어요. 그냥 제가 혼자 그렇게 생각하는 거죠.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "중요한 통찰이십니다. 실제 사실보다는 '혹시 그럴까봐'하는 불안이 더 크다는 걸 알아차리셨네요. 이런 생각들을 조금 다른 시각에서 바라볼 수 있다면 어떨까요?",
+      "turn": 22,
+      "technique": "cognitive_restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "다른 시각이요? 어떻게요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "예를 들어, '실수할 수도 있다'는 가능성을 인정하는 것입니다. 완벽한 리더는 없으며, 실수를 통해 배우고 성장하는 것이 자연스러운 과정이라는 관점으로요. 내담자님은 이런 관점에 대해 어떻게 생각하시나요?",
+      "turn": 24,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "머리로는 이해가 되는데... 마음으로 받아들이기는 어렵네요. 그래도 그렇게 생각하려고 노력해 볼게요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화는 시간이 걸리는 과정입니다. 노력하시겠다는 의지를 보여주신 것만으로도 의미 있습니다. 그리고 실제로 팀원들과의 관계는 어떤가요? 구체적인 피드백을 받아보신 적이 있으신가요?",
+      "turn": 26,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "공식적인 피드백은 아직 없었어요. 그냥 일상적인 대화만 하는 정도죠. 사실 피드백 받는 게 무섭기도 해요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "피드백이 부정적일까봐 두려우신 거군요. 하지만 실제 피드백 없이는 내담자님의 추측만으로 판단하게 되는 상황이네요. 팀원들과 소통의 기회를 만들어보는 것은 어떨까요?",
+      "turn": 28,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "그게 좋을 것 같긴 한데... 어떻게 시작해야 할지 모르겠어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "작은 것부터 시작해보면 어떨까요? 예를 들어 일대일 면담 시간을 정기적으로 갖거나, 편안한 분위기에서 커피 한 잔 하면서 대화하는 것도 좋습니다. 내담자님이 편하게 시작할 수 있는 방법이 있을까요?",
+      "turn": 30,
+      "technique": "problem_solving"
+    },
+    {
+      "speaker": "client",
+      "text": "커피 한 잔 하면서 대화하는 건 할 수 있을 것 같아요. 부담이 덜하니까요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그리고 잠들기 전 반복되는 생각들을 다루는 방법도 함께 연습해보면 좋겠습니다. 생각이 떠오를 때 '이건 사실인가, 아니면 가정인가'를 구분해보는 것부터 시작하시면 어떨까요?",
+      "turn": 32,
+      "technique": "homework_assignment"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 해볼게요. 그리고 잠들기 전에 할 수 있는 다른 방법도 있을까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "잠들기 한 시간 전에는 스마트폰을 멀리하고, 가벼운 스트레칭이나 심호흡을 해보시는 것도 도움이 됩니다. 또 하루 중 잘했던 일 한 가지를 떠올려보는 것도 긍정적인 마무리가 될 수 있습니다.",
+      "turn": 34,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "감사합니다. 오늘 상담하면서 제가 혼자 너무 많이 걱정하고 있었다는 걸 알게 됐어요. 조금씩 해보겠습니다.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "오늘 많은 것을 통찰하셨네요. 변화는 단번에 일어나지 않습니다. 작은 실천들을 하나씩 해나가시면서, 다음 상담 때 어떤 변화가 있었는지 함께 나눠보면 좋겠습니다. 오늘 용기 내어 상담 오신 것 자체가 큰 첫걸음입니다.",
+      "turn": 36,
+      "technique": "encouragement"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T13:59:22.922970+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

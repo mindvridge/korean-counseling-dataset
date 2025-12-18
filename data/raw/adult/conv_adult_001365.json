@@ -1,198 +1,237 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADT_20250619_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "중학교 교사"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.304382",
+  "situation": "10년차 교사로서 학생들과의 관계는 좋지만, 최근 학교 내 파벌 갈등과 업무 과중으로 인해 극심한 번아웃을 경험하고 있음. 아침에 일어나는 것조차 힘들고, 퇴근 후에는 아무것도 하지 못한 채 누워만 있게 됨.",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 사실 상담을 받아야 할 정도인가 싶었는데, 요즘 너무 힘들어서 용기내서 왔어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 힘든 상황에서도 이렇게 용기내서 상담실을 찾아주셔서 감사합니다. 편하게 말씀해주세요. 요즘 어떤 점이 가장 힘드신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "저는 중학교에서 국어를 가르치는 교사인데요... 10년째 일하고 있어요. 예전에는 정말 보람차고 좋았는데, 요즘은 학교에 가는 게 너무 두렵고 힘들어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "10년간 교직 생활을 해오셨군요. 예전에는 보람을 느끼셨는데 지금은 학교에 가는 것 자체가 두렵고 힘들다고 하셨네요. 언제부터 이런 변화가 시작되었나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정확히는 작년 말부터인 것 같아요. 학교에 새로운 교감 선생님이 오시면서 분위기가 많이 바뀌었거든요. 선생님들 사이에 파벌 같은 게 생기고... 저는 어느 쪽에도 속하고 싶지 않은데 계속 눈치를 봐야 하는 상황이에요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학교 내 분위기 변화가 큰 스트레스가 되고 계시는군요. 어느 편에도 서고 싶지 않은데 그 사이에서 눈치를 봐야 하는 상황, 정말 힘드셨겠어요.",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 그리고 업무도 계속 늘어나요. 행정업무, 생활지도, 수업 준비에다가 각종 공문 처리까지... 집에 가져가는 일도 많고요. 주말에도 쉬지 못할 때가 많아요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "업무 과중까지 겹쳐있는 상황이시네요. 수업 외에도 처리해야 할 일들이 너무 많아서 주말에도 제대로 쉬지 못하신다는 거죠?",
       "turn": 8,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그런데 제일 힘든 건... 아침에 일어날 때예요. 알람이 울리면 온몸이 무거워서 일어날 수가 없어요. 학교에 가야 한다는 생각만 하면 가슴이 답답하고 숨쉬기가 힘들어요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "신체적으로도 증상이 나타나고 있으시네요. 아침에 일어나기 힘들고, 학교를 떠올리면 가슴이 답답하고 호흡이 힘들어지는 증상... 이런 증상은 얼마나 자주 경험하시나요?",
       "turn": 10,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "거의 매일이요. 주말에는 좀 나은데, 일요일 저녁만 되면 또 시작돼요. 월요일이 다가온다는 생각만으로도... 그래서 요즘은 일요일 오후부터 우울해져요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "일요일 오후부터 시작되는 '예기 불안'을 경험하고 계시는군요. 주중에는 거의 매일 이런 증상이 있다고 하셨는데, 퇴근 후나 주말에는 어떻게 지내시나요?",
       "turn": 12,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "퇴근하면... 그냥 침대에 누워있어요. 아무것도 하기 싫고, 아무것도 할 힘이 없어요. 예전에는 친구들도 만나고 운동도 했는데, 지금은 그런 것들이 다 귀찮아요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "예전에 즐기시던 활동들에 대한 흥미도 잃으셨고, 에너지가 많이 고갈된 상태시네요. 주변 분들은 지금 상황을 알고 계신가요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "assessment"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "가족들은 대충 알아요. 남편이 걱정을 많이 하는데... 저도 남편한테 짜증을 많이 내게 돼요. 원래 그런 사람이 아닌데 요즘은 사소한 일에도 화가 나요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "감정 조절도 예전 같지 않으시군요. 본인의 평소 모습이 아닌데도 가까운 사람에게 짜증을 내게 되는 것, 그것 때문에 또 자책하시게 되지는 않나요?",
+      "turn": 16,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요... 그게 또 스트레스예요. 남편한테 미안하고, 제 자신이 싫어요. 원래 저는 밝은 사람이었거든요. 학생들한테도 요즘은 예전처럼 못해주는 것 같고... 교사로서 자격이 없는 것 같아요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 많이 힘든 상황에서 자신을 책망하고 계시네요. 하지만 10년간 학생들을 가르치며 보람을 느끼셨던 분이시잖아요. 지금의 어려움이 선생님의 가치나 자격을 결정하는 건 아니에요.",
+      "turn": 18,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하고 싶은데... 요즘은 제가 뭘 잘하는지도 모르겠고, 앞으로 계속 교사로 일할 수 있을지도 모르겠어요. 그만둬야 하나 싶기도 하고요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "번아웃이 심한 상태에서는 모든 것이 부정적으로 보이고, 극단적인 결정을 고려하게 되기도 해요. 지금 당장 큰 결정을 내리시기보다는, 먼저 선생님의 상태를 회복하는 데 집중하는 게 중요할 것 같아요.",
+      "turn": 20,
+      "technique": "guidance"
+    },
+    {
+      "speaker": "client",
+      "text": "회복이 가능할까요? 저는 너무 지쳐서... 다시 예전처럼 돌아갈 수 있을지 모르겠어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금은 그렇게 느껴지실 수 있어요. 하지만 번아웃은 적절한 도움과 시간이 있다면 충분히 회복될 수 있는 상태예요. 선생님께서 이렇게 상담을 받으러 오신 것 자체가 회복을 위한 첫걸음이고요.",
+      "turn": 22,
+      "technique": "hope instillation"
+    },
+    {
+      "speaker": "client",
+      "text": "그럼... 제가 뭘 해야 할까요? 어디서부터 시작해야 할지 모르겠어요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "우선 선생님의 현재 상태를 정확히 파악하는 것이 중요해요. 혹시 수면은 어떠신가요? 잠을 잘 주무시나요?",
+      "turn": 24,
+      "technique": "assessment"
+    },
+    {
+      "speaker": "client",
+      "text": "잠은... 들기 힘들어요. 누워서 한두 시간은 뒤척이다가 자는 것 같아요. 그리고 새벽에 자꾸 깨요. 한 번 깨면 다시 잠들기 어렵고요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "수면 문제도 있으시네요. 입면 장애와 수면 유지의 어려움 모두 겪고 계시군요. 식사는 규칙적으로 하시나요?",
+      "turn": 26,
+      "technique": "assessment"
+    },
+    {
+      "speaker": "client",
+      "text": "식욕이 별로 없어요. 먹어야 한다는 생각에 억지로 먹는 정도예요. 맛도 잘 모르겠고... 살도 좀 빠진 것 같아요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "수면, 식욕, 에너지 저하, 흥미 상실, 감정 조절의 어려움 등 여러 증상이 복합적으로 나타나고 계시네요. 선생님, 혹시 정신건강의학과 진료를 받아보신 적은 있으신가요?",
+      "turn": 28,
+      "technique": "assessment"
+    },
+    {
+      "speaker": "client",
+      "text": "아니요, 없어요. 그런 데 가는 건 좀... 부담스러워요. 주변에 알려질까봐 걱정도 되고요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 걱정을 하시는 건 자연스러운 일이에요. 하지만 선생님의 증상들을 들어보니, 상담과 함께 전문의의 진단과 치료가 병행되면 더 빠르게 회복하실 수 있을 것 같아요. 정신건강의학과 진료는 비밀이 철저히 보장됩니다.",
+      "turn": 30,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇군요... 생각해볼게요. 그런데 상담으로는 어떤 도움을 받을 수 있을까요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "상담에서는 선생님의 스트레스 요인을 구체적으로 파악하고, 대처 방법을 함께 찾아갈 거예요. 학교에서의 관계 문제, 업무 관리, 감정 조절 방법 등을 다루고, 무엇보다 선생님 자신을 돌보는 방법을 배우실 수 있어요.",
+      "turn": 32,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "자신을 돌보는 방법이요... 사실 저는 항상 다른 사람들 생각만 하고 살았던 것 같아요. 학생들, 동료들, 가족들... 제 자신은 뒷전이었죠.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "중요한 통찰이에요. 교사라는 직업 특성상 늘 다른 사람을 돌보는 역할을 하시다 보니, 정작 자신을 돌보는 것은 소홀히 하셨던 거네요. 이제는 선생님 자신에게도 그 돌봄을 제공할 때가 된 것 같아요.",
+      "turn": 34,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그런 것 같아요. 그런데 어떻게 시작해야 할지 막막해요. 지금 당장은 내일 학교 가는 것도 두려운데...",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "작은 것부터 시작해봐요. 우선 오늘 저녁에는 자기 전에 따뜻한 물로 샤워하시고, 좋아하는 차 한 잔 마시면서 10분 정도 조용히 앉아계시는 건 어떨까요? 그리고 내일은 점심시간에 잠깐이라도 밖에 나가서 햇볕을 쬐어보세요.",
+      "turn": 36,
+      "technique": "behavioral activation"
+    },
+    {
+      "speaker": "client",
+      "text": "그 정도는... 할 수 있을 것 같아요. 그런데 그게 도움이 될까요?",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "작은 실천들이 쌓이면 큰 변화가 됩니다. 지금은 작게 느껴지시겠지만, 자신을 돌보는 작은 행동들이 회복의 시작이에요. 다음 상담 때 어떠셨는지 함께 이야기 나눠보면 좋겠어요.",
+      "turn": 38,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "알겠습니다. 해볼게요. 그리고... 오늘 이야기하고 나니 조금 후련한 것 같아요. 누군가한테 제 이야기를 다 한 게 처음이거든요.",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "용기 내서 마음을 나눠주셔서 감사해요. 혼자 감당하기 힘든 짐을 계속 지고 계셨는데, 이제는 함께 나눠지고 계신 거예요. 다음 주에 다시 뵐 때까지 오늘 말씀드린 작은 실천들 해보시고, 힘든 순간이 있으면 메모해두셨다가 다음에 함께 이야기해봐요.",
+      "turn": 40,
+      "technique": "support"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T14:41:01.833771+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

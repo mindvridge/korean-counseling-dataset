@@ -1,198 +1,209 @@
 {
-  "metadata": {
-    "category": "adolescent",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADO_20250623_001",
+  "category": "adolescent",
+  "persona": {
+    "age": 16,
+    "gender": "여성",
+    "occupation": "고등학교 1학년"
   },
-  "seed_info": {
-    "category": "adolescent"
-  },
-  "generated_at": "2025-12-17T02:04:27.336436",
+  "situation": "학교에서 친구들과의 관계가 어려워지고, 최근 SNS에서 자신에 대한 안 좋은 소문이 퍼지면서 학교 가기가 두렵고 우울감을 느끼고 있음",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 엄마가 상담 받아보라고 해서 왔어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 오늘 이렇게 찾아와 주셔서 고마워요. 처음이라 좀 긴장되거나 어색할 수 있는데, 편하게 이야기 나눠봐요. 어떤 일로 상담을 받아보고 싶으셨나요?",
       "turn": 2,
+      "technique": "rapport_building"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "음... 사실 저는 별로 오고 싶지 않았는데요. 엄마가 요즘 제가 너무 우울해 보인다고 걱정하셔서요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "그렇군요. 본인 의지보다는 어머니의 권유로 오게 되었네요. 그런데도 이렇게 와준 것만으로도 용기 있는 행동이에요. 어머니가 우울해 보인다고 하셨는데, 스스로는 요즘 어떤가요?",
       "turn": 4,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "솔직히... 요즘 학교 가기가 너무 싫어요. 아침에 일어나면 배가 아프고, 학교 생각만 하면 막 답답해져요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학교 가는 게 많이 힘들게 느껴지는군요. 아침에 신체적으로도 반응이 나타날 만큼 부담스러운 상황인 것 같아요. 학교에서 어떤 일이 있었나요?",
       "turn": 6,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "한 달 전쯤에... 제 친한 친구였던 애랑 싸웠어요. 그 후로 그 친구가 다른 애들한테 제 얘기를 이상하게 말하고 다닌 것 같아요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친했던 친구와 싸운 후에 그 친구가 다른 친구들에게 본인에 대해 이야기를 했다고 느꼈군요. 그게 어떻게 알게 되었나요?",
       "turn": 8,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "SNS에서... 제 이름은 안 나왔지만 저인 걸 다 알 수 있게 글을 올렸어요. '어떤 애가 나한테 이렇게 했다'면서요. 그런데 사실이 아닌 것도 있고, 과장된 것도 많았어요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "SNS에 사실과 다른 내용이 올라간 거네요. 그걸 보고 어떤 기분이 들었나요?",
       "turn": 10,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "처음엔 너무 화가 났어요. 그래서 바로 해명하려고 했는데... 그러면 더 관심 받는 것 같아서 그냥 뒀어요. 근데 그게 더 안 좋았던 것 같아요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "화가 났지만 해명하면 오히려 더 주목받을까 봐 참았던 거네요. 그런데 그 선택이 상황을 더 어렵게 만든 것 같다고 느끼는군요. 그 후에 어떤 일들이 있었나요?",
       "turn": 12,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "친구들이 저를 피하기 시작했어요. 복도에서 마주치면 수군거리고, 점심시간에도 같이 먹을 친구가 없어요. 혼자 먹거나 아예 안 먹고요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친구들과의 관계가 갑자기 단절되면서 학교에서 혼자가 된 거네요. 점심시간조차 견디기 힘들 정도로 외롭고 힘든 상황이었겠어요.",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "empathy"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "네... 정말 외로워요. 그리고 제가 뭘 잘못한 건지도 모르겠어요. 그 친구랑 싸운 건 작은 일이었는데, 이렇게까지 될 줄 몰랐어요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "작은 다툼이 이렇게 큰 일로 번질 거라고는 예상하지 못했던 거네요. 처음에 그 친구와는 어떤 일로 싸우게 되었나요?",
+      "turn": 16,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "제가 그 친구 비밀을 다른 친구한테 말했대요. 근데 저는 그게 비밀인 줄 몰랐어요. 그냥 평범한 얘기라고 생각했거든요. 근데 그 친구는 엄청 화를 냈어요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "본인은 비밀이라고 생각하지 않았던 이야기였는데, 그 친구에게는 중요한 비밀이었던 거네요. 그 친구가 화를 냈을 때 어떻게 대응했나요?",
+      "turn": 18,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "저도 화가 나서... '그게 뭐가 비밀이냐'고 했어요. 지금 생각하면 사과를 했어야 했는데, 그때는 제가 왜 사과해야 하는지 이해가 안 됐어요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 순간에는 친구의 입장을 이해하기 어려웠고, 자신도 억울한 마음이 들었던 거네요. 지금은 그때를 돌아보면 어떤 생각이 드나요?",
+      "turn": 20,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "지금은... 제가 좀 더 친구 입장을 생각했어야 했다는 생각이 들어요. 그런데 이미 너무 늦었고, 이제 와서 사과해도 소용없을 것 같아요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신의 행동을 돌아보고 친구의 입장을 이해하게 되었지만, 이미 관계가 너무 멀어져서 회복하기 어려울 것 같다는 두려움이 있네요. 그 친구에게 사과하고 싶은 마음은 있나요?",
+      "turn": 22,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "있어요. 근데 무서워요. 거절당할 것 같고, 더 창피당할 것 같아요. 그리고 이미 저에 대한 소문이 다 퍼진 상태인데 사과한다고 달라질까요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "사과하고 싶지만 거절당하거나 상황이 더 나빠질까 봐 두렵고, 이미 퍼진 소문 때문에 회복이 불가능하게 느껴지는 거네요. 그런 두려움은 충분히 이해가 돼요.",
+      "turn": 24,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "그럼 저는 어떻게 해야 하나요? 계속 이렇게 혼자 지내야 하나요?",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 상황이 너무 힘들고 막막하게 느껴지는군요. 당장 해결책이 보이지 않아서 답답하죠. 우리가 함께 단계적으로 생각해볼 수 있어요. 먼저, 지금 가장 힘든 부분이 무엇인가요? 친구와의 관계 회복인가요, 아니면 학교생활 자체인가요?",
+      "turn": 26,
+      "technique": "problem_solving"
+    },
+    {
+      "speaker": "client",
+      "text": "둘 다요... 근데 사실 친구들이 저를 어떻게 생각하는지가 제일 신경 쓰여요. 다들 저를 나쁜 애라고 생각할 것 같아요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "다른 친구들의 시선과 평가가 가장 부담스럽고 두렵네요. 실제로 친구들이 본인에게 직접적으로 뭐라고 한 적은 있나요?",
+      "turn": 28,
+      "technique": "reality_testing"
+    },
+    {
+      "speaker": "client",
+      "text": "직접적으로는... 없어요. 그냥 피하거나 쳐다보는 것 같은 느낌? 근데 제 생각일 수도 있어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "직접적인 말은 없었지만 피하는 것처럼 느껴지고, 그게 확실한 건지 본인도 혼란스러운 거네요. 그런 불확실한 상황이 오히려 더 불안하게 만들 수 있어요. 혹시 여전히 본인과 대화하거나 괜찮게 지내는 친구는 없나요?",
+      "turn": 30,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 한두 명 정도는 가끔 말 걸어주는 애들이 있긴 해요. 근데 그 애들도 저랑 너무 가까이 지내면 안 좋게 보일까 봐 조심하는 것 같아요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "완전히 혼자는 아니네요. 여전히 연결되어 있는 친구들이 있다는 건 중요한 부분이에요. 그 친구들과의 관계를 조금씩 회복해나가는 것도 하나의 방법이 될 수 있어요. 오늘 이야기 나눠보니 어떤가요?",
+      "turn": 32,
+      "technique": "strength_finding"
+    },
+    {
+      "speaker": "client",
+      "text": "생각보다... 말하니까 좀 후련해요. 그리고 제가 생각했던 것보다 상황이 완전히 최악은 아닐 수도 있겠다는 생각도 들어요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "이야기를 나누면서 상황을 좀 더 객관적으로 볼 수 있게 된 것 같네요. 오늘 용기 내서 와준 것, 그리고 솔직하게 이야기해준 것 정말 잘했어요. 다음에 만날 때는 구체적으로 어떤 행동을 시작해볼 수 있을지 함께 계획해보면 좋겠어요.",
+      "turn": 34,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그럼 다음에 또 올게요. 생각보다 나쁘지 않았어요.",
+      "turn": 35
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T05:56:24.112335+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adolescent"
+  }
 }

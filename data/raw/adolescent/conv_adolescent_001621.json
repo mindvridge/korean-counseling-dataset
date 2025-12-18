@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adolescent",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADO_20250619_001",
+  "category": "adolescent",
+  "persona": {
+    "age": 16,
+    "gender": "여성",
+    "occupation": "고등학교 1학년"
   },
-  "seed_info": {
-    "category": "adolescent"
-  },
-  "generated_at": "2025-12-17T02:04:27.425736",
+  "situation": "학교에서 친한 친구들이 자신을 제외하고 따로 만나는 것을 SNS를 통해 알게 된 후 배신감과 외로움을 느끼고 있음. 친구들에게 직접 말하지 못하고 혼자 고민하면서 학교 가기가 두렵고 불안함.",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 선생님.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 편하게 앉으세요. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "음... 사실 요즘 학교 가는 게 너무 힘들어요. 친구들 때문에...",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친구들 때문에 학교 가는 게 힘들다고 하셨네요. 많이 힘드셨겠어요. 어떤 일이 있었는지 천천히 이야기해주실 수 있나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "지난주에 인스타 스토리를 봤는데요... 제 친한 친구들이 저 빼고 다 같이 놀러 간 거예요. 저는 아무 연락도 못 받았어요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친한 친구들이 자신만 빼고 만난 걸 SNS로 알게 되셨군요. 그 순간 어떤 기분이 드셨나요?",
       "turn": 6,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "너무 충격이었어요. 배신당한 기분이랄까... 왜 나만 빼고 만났을까 계속 생각하게 되더라고요. 내가 뭘 잘못했나 싶고...",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "배신감을 느끼셨고, 자신이 뭔가 잘못한 건 아닐까 하는 생각이 드셨군요. 그런 상황을 마주했을 때 그렇게 느끼는 건 자연스러운 반응이에요.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "그런데 친구들한테 직접 물어보지도 못했어요. 괜히 제가 예민한 건가 싶기도 하고, 물어봤다가 더 관계가 이상해질까봐 무서워요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친구들에게 직접 말하는 것도 쉽지 않으셨겠네요. 관계가 더 나빠질까봐 걱정되는 마음도 이해가 돼요. 그 이후로 친구들과는 어떻게 지내고 있나요?",
       "turn": 10,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "겉으로는 평소처럼 행동하려고 해요. 그런데 계속 신경 쓰이고... 친구들이 제 앞에서 뭔가 이야기하다가 갑자기 말을 멈추면 '나 얘기하는 건가?' 이런 생각도 들어요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "겉으로는 괜찮은 척하지만 마음속으로는 계속 신경이 쓰이고, 친구들의 작은 행동 하나하나에도 민감해지셨네요. 정말 힘든 시간을 보내고 계시는 것 같아요.",
       "turn": 12,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 집에 와서도 계속 생각나요. 밤에 잠도 잘 안 오고, 아침에 일어나면 학교 가기 싫어요. 그냥 아프다고 하고 쉬고 싶을 때도 있어요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "이 일이 일상생활에도 많은 영향을 주고 있네요. 잠도 잘 못 자고 학교 가는 것도 두렵고... 혼자 이런 감정들을 감당하기가 정말 버거웠을 것 같아요.",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "validation"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "맞아요. 근데 부모님한테도 말 못 했어요. 엄마가 아시면 '그런 친구들이랑 놀지 마' 이럴 것 같아서요. 그래도 저는 그 친구들이 좋거든요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "부모님께 말씀드리기도 어려운 상황이었군요. 친구들에 대한 마음이 있기 때문에 더 복잡하고 힘든 거네요. 그 친구들과는 얼마나 오래 친하게 지냈나요?",
+      "turn": 16,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "중학교 때부터니까... 거의 3년 정도요. 그동안 진짜 친하게 지냈거든요. 그래서 더 이해가 안 가요. 왜 갑자기 이러는지...",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "3년이나 함께한 소중한 친구들이었기에 더 마음이 아프셨겠어요. 혹시 그 전에도 비슷한 일이 있었나요, 아니면 이번이 처음인가요?",
+      "turn": 18,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "이렇게 명확하게 느낀 건 처음이에요. 근데 돌이켜 생각해보니까... 가끔 단톡방에서 제가 모르는 얘기들을 할 때가 있었어요. 그땐 그냥 넘어갔는데...",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "이전에도 작은 신호들이 있었는데 그때는 크게 신경 쓰지 않으셨다가, 이번 일로 그런 것들이 다시 떠오르면서 더 불안해지신 거네요.",
+      "turn": 20,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그래서 더 혼란스러워요. 제가 너무 예민한 건지, 아니면 정말 친구들이 저를 멀리하는 건지 모르겠어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 느끼는 감정들이 정당한 것인지 확신이 서지 않아서 더 힘드신 거네요. 혹시 친구들 중에 누군가 한 명과라도 이야기를 나눠볼 수 있을까요?",
+      "turn": 22,
+      "technique": "problem_solving"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 지은이라는 친구가 있는데, 그 애는 좀 다른 것 같기도 해요. 그 애는 제 눈을 보고 얘기하고 그래요. 근데 그 애한테 말하면 다른 애들한테 얘기할까봐 무서워요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "지은이라는 친구는 조금 다르게 느껴지지만, 그 친구에게 말했을 때의 결과가 걱정되시는군요. 만약 지은이와 이야기를 나눈다면, 어떻게 말하고 싶으세요?",
+      "turn": 24,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "그냥... '요즘 나한테 뭔가 문제 있어?' 이렇게 물어보고 싶어요. 아니면 '너희 지난주에 만났잖아, 나는 왜 안 불렀어?' 이렇게요. 근데 너무 직접적인가요?",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신의 감정을 솔직하게 표현하고 싶은 마음이 느껴져요. 직접적으로 물어보는 것도 하나의 방법이에요. 다만 상대방이 방어적으로 반응할 수도 있으니, '나는 이렇게 느꼈어'라는 식으로 자신의 감정을 중심으로 이야기하는 것도 좋을 것 같아요.",
+      "turn": 26,
+      "technique": "guidance"
+    },
+    {
+      "speaker": "client",
+      "text": "아, '나는 이렇게 느꼈어'라고요? 예를 들면 어떻게 말하는 건가요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "예를 들어 '지난주에 너희가 만난 걸 SNS로 봤는데, 나만 빠진 것 같아서 속상했어. 혹시 내가 뭔가 잘못한 게 있을까?'처럼 비난보다는 자신의 감정을 전달하는 거예요. 이렇게 하면 상대방도 덜 방어적으로 반응할 수 있어요.",
+      "turn": 28,
+      "technique": "guidance"
+    },
+    {
+      "speaker": "client",
+      "text": "아... 그렇게 말하는 게 좀 더 나을 것 같네요. 그런데 만약에 친구들이 '별 거 아니야' 이렇게 넘어가려고 하면 어떡하죠?",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 질문이에요. 그럴 때는 '나한테는 중요한 일이야. 내 감정을 이해해줬으면 좋겠어'라고 한 번 더 자신의 마음을 전달해볼 수 있어요. 진짜 친구라면 여러분의 감정을 존중해줄 거예요.",
+      "turn": 30,
+      "technique": "guidance"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 한번 용기 내서 말해볼게요. 그래도 너무 무서워요. 만약에 관계가 완전히 끝나버리면 어떡하죠?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 두려움이 당연해요. 하지만 지금처럼 혼자 속으로만 삭이면서 힘들어하는 것도 이미 관계에 영향을 주고 있어요. 솔직한 대화를 통해 오히려 관계가 더 깊어질 수도 있고, 만약 친구들이 이해해주지 않는다면 그건 진정한 친구 관계가 아니었을 수도 있어요.",
+      "turn": 32,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "맞는 말씀이에요. 지금도 충분히 힘든데, 계속 이렇게 있을 수는 없잖아요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 그렇죠. 스스로 변화를 만들어가려는 용기가 정말 대단해요. 혹시 이야기를 나눈 후에 어떤 결과가 나오든, 다시 한번 만나서 이야기 나눠볼까요?",
+      "turn": 34,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그러고 싶어요. 선생님과 얘기하니까 좀 정리가 되는 것 같아요. 혼자 생각할 때보다 훨씬 나아요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "함께 이야기 나눌 수 있어서 저도 기뻐요. 친구와 대화하기 전에 불안하거나 힘들면 언제든 연락주세요. 오늘 정말 용기 있게 자신의 마음을 나눠주셔서 고마워요.",
+      "turn": 36,
+      "technique": "support"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T06:17:38.791052+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adolescent"
+  }
 }

@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adolescent",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADO_20250619_001",
+  "category": "adolescent",
+  "persona": {
+    "age": 16,
+    "gender": "여성",
+    "occupation": "고등학교 1학년"
   },
-  "seed_info": {
-    "category": "adolescent"
-  },
-  "generated_at": "2025-12-17T02:04:27.205294",
+  "situation": "학업 스트레스와 친구 관계 문제로 불안감을 느끼고 있으며, 최근 성적이 떨어지면서 부모님과의 갈등도 심화되고 있는 상황",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 선생님이 상담받아보라고 하셔서 왔어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 편하게 앉아주세요. 선생님께서 추천해주셨군요. 오늘 이렇게 와줘서 고마워요. 혹시 어떤 이야기를 나누고 싶은지 편하게 말해줄 수 있을까요?",
       "turn": 2,
+      "technique": "rapport_building"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "음... 사실 요즘 너무 힘들어요. 성적도 떨어지고, 친구들이랑도 잘 안 맞는 것 같고...",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "여러 가지 일들이 한꺼번에 힘들게 느껴지고 있네요. 성적 문제와 친구 관계가 모두 부담스러운 상황이군요.",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 중학교 때는 공부도 잘하고 친구들이랑도 잘 지냈는데, 고등학교 오니까 다 달라진 것 같아요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "중학교 때와 비교했을 때 많은 변화가 있었고, 그 변화에 적응하는 게 쉽지 않았나 봐요. 구체적으로 어떤 부분이 가장 힘든가요?",
       "turn": 6,
+      "technique": "open_ended_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "일단 공부가 너무 어려워요. 중간고사 때 반에서 20등 정도 했는데, 엄마 아빠가 되게 실망하신 것 같아요. 원래는 5등 안에 들었거든요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "성적이 떨어지면서 부모님의 기대에 미치지 못한 것 같아서 마음이 무거웠겠어요. 그런 상황에서 느끼는 부담감이 상당했을 것 같아요.",
       "turn": 8,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 엄마는 매일 공부하라고 하시고, 학원도 더 다니라고 하세요. 근데 저는 이미 너무 지쳐서... 하기 싫어요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "이미 많이 지친 상태에서 더 많은 것을 요구받으니까 부담스럽고 힘들겠네요. 지금 느끼는 피로감과 스트레스가 상당한 것 같아요.",
       "turn": 10,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그리고 친구들도 문제예요. 제 친한 친구가 다른 애들이랑 더 친해져서 저는 혼자 있는 시간이 많아졌어요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친구 관계에서도 소외감을 느끼고 있군요. 가까웠던 친구가 다른 친구들과 어울리는 걸 보면서 어떤 감정이 들었나요?",
       "turn": 12,
+      "technique": "exploration"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "처음엔 섭섭했어요. 그런데 요즘엔 그냥 저한테 문제가 있는 건가 싶어요. 제가 재미없는 사람인가 봐요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친구 관계의 변화를 자신의 탓으로 돌리면서 자책하고 있네요. 그런 생각을 하면 더 힘들었을 것 같아요. 혹시 그 친구와 이야기를 나눠본 적은 있나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "empathy"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "아니요... 말을 걸기가 어색해서요. 그냥 피하게 되더라고요. 점심시간에도 저는 주로 혼자 있어요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "어색함과 불편함 때문에 오히려 거리를 두게 되는군요. 혼자 있는 시간이 많아지면서 외로움도 느껴졌을 것 같아요.",
+      "turn": 16,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 외롭기도 하고, 학교 가는 게 싫어요. 요즘은 아침에 일어나는 것도 힘들어요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "학업 스트레스와 친구 관계 문제가 겹치면서 학교 자체가 부담스러운 공간이 되어버렸네요. 아침에 일어나기 힘들다는 것은 많이 지쳐있다는 신호일 수 있어요.",
+      "turn": 18,
+      "technique": "interpretation"
+    },
+    {
+      "speaker": "client",
+      "text": "그런 것 같아요. 잠도 잘 안 오고, 자도 피곤하고... 집중도 안 되니까 공부는 더 안 되고요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "악순환이 반복되고 있는 상황이네요. 스트레스로 인해 수면에 문제가 생기고, 그것이 다시 학업에 영향을 주는... 이런 상황에서 혹시 도움이 되는 것이 있었나요?",
+      "turn": 20,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 음악 듣는 게 좀 도움이 되는 것 같아요. 그리고 주말에 그림 그리는 건 좋아해요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋아요. 음악과 그림이 당신에게 위안이 되는 활동이군요. 그런 시간을 가질 때는 기분이 어떤가요?",
+      "turn": 22,
+      "technique": "strength_identification"
+    },
+    {
+      "speaker": "client",
+      "text": "그때는 좀 편안해요. 아무 생각 안 하게 되고... 근데 엄마는 그런 것도 시간 낭비라고 하세요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신에게 의미 있는 활동인데 부모님께서는 다르게 생각하시니까 그것마저 마음 편히 하기 어려웠겠어요. 부모님과는 이런 이야기를 나눠본 적이 있나요?",
+      "turn": 24,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "말해봤자 소용없을 것 같아요. 엄마는 공부만 하면 된다고 생각하시거든요. 제 마음은 안 궁금해하시는 것 같아요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "부모님이 자신의 마음을 이해해주지 못한다고 느끼니까 더 외롭고 답답했겠네요. 그런 감정을 느끼는 게 당연해요.",
+      "turn": 26,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "선생님... 저 어떻게 해야 할까요? 다 너무 힘들어요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 많은 것들이 한꺼번에 버겁게 느껴지고 있죠. 한 번에 모든 걸 해결하려고 하면 더 힘들 수 있어요. 우선 가장 먼저 다루고 싶은 문제가 무엇일까요?",
+      "turn": 28,
+      "technique": "prioritization"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 친구 관계요. 학교에서 혼자 있는 게 제일 힘들어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구 관계를 먼저 개선하고 싶다는 거네요. 그렇다면 작은 것부터 시도해볼까요? 예를 들어 그 친구에게 간단한 인사나 메시지를 보내는 것은 어떨까요?",
+      "turn": 30,
+      "technique": "action_planning"
+    },
+    {
+      "speaker": "client",
+      "text": "그게 될까요? 거절당하면 어떡해요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "거절당할까 봐 두려운 마음이 드는 건 자연스러운 거예요. 하지만 시도하지 않으면 변화도 없을 거예요. 만약 반응이 좋지 않더라도, 그건 당신의 가치를 결정하는 게 아니에요.",
+      "turn": 32,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "맞는 말씀이긴 한데... 용기가 안 나요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "용기를 내는 게 쉽지 않죠. 그래도 오늘 이렇게 상담실에 와서 자신의 이야기를 나눈 것도 큰 용기였어요. 이미 첫걸음을 내딛은 거예요.",
+      "turn": 34,
+      "technique": "positive_reinforcement"
+    },
+    {
+      "speaker": "client",
+      "text": "감사해요, 선생님. 조금은 마음이 가벼워진 것 같아요. 다음에 또 와도 될까요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "물론이죠. 언제든 편하게 와서 이야기 나눠요. 오늘 나눈 이야기들을 천천히 생각해보고, 다음에 만날 때 어떤 변화가 있었는지 함께 나눠봐요. 잘 해낼 수 있을 거예요.",
+      "turn": 36,
+      "technique": "support"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T05:21:44.331924+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adolescent"
+  }
 }

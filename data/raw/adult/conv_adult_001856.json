@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250619_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "남성",
+    "occupation": "중견기업 마케팅팀장"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.535382",
+  "situation": "최근 승진 후 팀장으로서의 역할과 책임감에 압도되어 불안과 불면증을 겪고 있으며, 팀원들과의 관계에서도 어려움을 느끼고 있음",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 상담 받아보는 게 처음이라 좀 긴장되네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 상담 오시기까지 용기 내주셔서 감사합니다. 긴장되시는 건 당연한 일이에요. 편안하게 이야기 나누시면 됩니다. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "3개월 전에 팀장으로 승진했는데요. 처음엔 좋았는데 요즘은... 너무 힘들어요. 잠도 제대로 못 자고 있습니다.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "승진 후 3개월이 지났는데 잠을 제대로 못 주무실 정도로 힘든 상황이시군요. 구체적으로 어떤 부분이 가장 어려우신가요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "모든 게 제 책임인 것 같아요. 팀원들의 실수도, 프로젝트 결과도... 예전엔 제 일만 잘하면 됐는데 이젠 8명의 팀원을 챙겨야 하잖아요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "역할이 바뀌면서 책임의 범위가 크게 넓어진 것에 대한 부담감을 느끼고 계시는 거네요. 개인 기여자에서 리더로의 전환이 쉽지 않으셨겠어요.",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 맞아요. 그리고 팀원들과의 관계도 애매해졌어요. 전에는 같은 팀원으로 친하게 지냈는데, 이제는 평가도 해야 하고... 어떻게 대해야 할지 모르겠어요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "동료에서 상사로 관계가 변화하면서 거리 조절이 어려우신 거군요. 혹시 구체적으로 어떤 상황에서 가장 불편함을 느끼시나요?",
       "turn": 8,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "회의 때요. 제가 의견을 내면 다들 그냥 따르려고만 해요. 전엔 자유롭게 토론했는데 이제는 제 눈치를 보는 것 같아서... 제가 뭘 잘못하고 있는 건가 싶어요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "팀원들이 자유롭게 의견을 나누지 못하는 것처럼 보여서 본인이 잘못하고 있다고 생각하시는군요. 그런 상황에서 어떤 감정이 드세요?",
       "turn": 10,
+      "technique": "emotion exploration"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "답답하고... 외롭기도 해요. 그리고 제가 무능한 리더인 것 같아서 자책감도 들고요. 밤에 잠들기 전에 하루 일을 계속 되돌아보게 돼요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "답답함, 외로움, 자책감... 여러 감정들이 복합적으로 느껴지시는군요. 특히 잠들기 전에 반복적으로 생각하신다고 하셨는데, 그게 불면증으로 이어지는 건가요?",
       "turn": 12,
+      "technique": "clarification"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 맞아요. 침대에 누우면 '오늘 회의에서 저렇게 말할 게 아니었는데', '저 팀원한테 좀 더 친절하게 말할 걸' 이런 생각들이 계속 돌아요. 그러다 보면 새벽 2-3시가 되고...",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "하루의 일들을 반추하면서 자책하는 패턴이 수면을 방해하고 있네요. 이런 상황이 얼마나 자주 일어나나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "assessment"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "거의 매일이요. 주말에도 월요일 걱정 때문에 잠을 설쳐요. 아침에 일어나면 피곤하고, 그 상태로 출근하니까 더 실수하게 되고... 악순환이에요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "매일 반복되는 악순환 속에서 정말 힘드셨겠어요. 그런데 승진 전에는 이런 불면증이나 반추 패턴이 없으셨나요?",
+      "turn": 16,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "없었어요. 물론 바쁘긴 했지만 일이 끝나면 확실히 쉴 수 있었어요. 지금은... 항상 긴장 상태인 것 같아요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "이전에는 일과 휴식의 경계가 명확했는데, 지금은 계속 긴장 상태를 유지하고 계시는군요. 혹시 주변에 이런 고민을 나눌 수 있는 분이 계신가요?",
+      "turn": 18,
+      "technique": "support system exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "그게... 없어요. 같은 팀 사람들한테는 약한 모습 보이기 싫고, 다른 팀장들은 다 잘하는 것처럼 보여서 제가 유독 못하는 것 같아서 말 못 하겠어요. 아내한테도 걱정 끼치기 싫어서 괜찮은 척했고요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "어디에서도 속마음을 털어놓지 못하고 혼자 감당하려고 하셨네요. 그 무게가 얼마나 무거웠을까요. 다른 팀장들이 다 잘하는 것처럼 보인다고 하셨는데, 실제로 그들과 이야기 나눠보신 적은 있으신가요?",
+      "turn": 20,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "아니요... 그냥 회의 때 보면 다들 자신감 있어 보이고, 팀 관리도 잘하는 것 같아서요. 저만 허우적대는 것 같아요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "겉으로 보이는 모습만으로 판단하고 계시는 것 같아요. 사람들은 대부분 어려움보다는 잘하는 모습을 보여주려 하죠. 혹시 완벽한 팀장이 되어야 한다는 기준을 스스로에게 적용하고 계신 건 아닐까요?",
+      "turn": 22,
+      "technique": "cognitive restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 그럴 수도 있겠네요. 승진했으니까 완벽하게 해내야 한다고 생각했던 것 같아요. 실수하면 안 된다고요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 기준이 현실적으로 달성 가능한 것일까요? 처음 팀장이 되신 분이 모든 걸 완벽하게 하는 게 가능할까요?",
+      "turn": 24,
+      "technique": "socratic questioning"
+    },
+    {
+      "speaker": "client",
+      "text": "말씀하시니까... 불가능한 것 같네요. 하지만 제가 실수하면 팀원들에게 피해가 가잖아요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "팀원들에 대한 책임감이 크시네요. 그런데 실수와 학습은 성장의 과정이기도 해요. 완벽하지 않더라도 함께 성장하는 팀을 만들어갈 수는 없을까요?",
+      "turn": 26,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그런 관점은 생각 못 해봤어요. 항상 제가 모든 걸 알고 이끌어야 한다고만 생각했는데...",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "리더십에는 여러 형태가 있어요. 모든 걸 아는 리더보다 함께 배우고 성장하는 리더가 팀원들에게 더 긍정적일 수도 있죠. 회의 때 팀원들이 눈치를 본다고 하셨는데, 그들에게 솔직하게 '자유롭게 의견 나눠달라'고 요청해보신 적 있으세요?",
+      "turn": 28,
+      "technique": "guidance"
+    },
+    {
+      "speaker": "client",
+      "text": "아니요. 그냥 제가 분위기를 만들어야 한다고만 생각했어요. 직접 말하는 건 생각 못 했네요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "소통이 관계 변화의 시작점이 될 수 있어요. 그리고 불면증 문제로 돌아가서, 잠들기 전 반추를 줄이기 위한 방법들을 함께 찾아보면 어떨까요? 예를 들어 저녁에 하루를 정리하는 시간을 따로 갖는다든지요.",
+      "turn": 30,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "그게 도움이 될까요? 어떻게 하는 건가요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "침대에 들어가기 1-2시간 전에 10-15분 정도 시간을 내서 오늘 있었던 일을 노트에 적어보는 거예요. 잘한 것 3가지, 개선할 점 1가지 정도로요. 침대는 수면을 위한 공간으로만 사용하는 거죠.",
+      "turn": 32,
+      "technique": "behavioral intervention"
+    },
+    {
+      "speaker": "client",
+      "text": "해볼 만한 것 같네요. 그런데 개선할 점을 생각하다 보면 또 자책하게 될 것 같은데요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 지적이세요. 그래서 '잘한 것'을 먼저, 그리고 더 많이 적는 게 중요해요. 개선할 점도 '내가 못해서'가 아니라 '다음엔 이렇게 해보자'는 식으로 긍정적으로 표현하는 거죠. 자책이 아닌 성장의 관점으로요.",
+      "turn": 34,
+      "technique": "cognitive restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 이해했어요. 오늘 상담하면서 제가 너무 혼자 완벽하려고 했다는 걸 알게 됐어요. 조금은 마음이 가벼워진 것 같기도 하고요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "스스로를 돌아보시고 새로운 관점을 받아들이시는 모습이 인상적이에요. 오늘 나눈 이야기들을 바탕으로 이번 주에 작은 것 하나만 실천해보시면 어떨까요? 예를 들어 팀원들에게 솔직하게 의견을 구한다든지, 저녁 일기를 시작해본다든지요.",
+      "turn": 36,
+      "technique": "encouragement"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T15:46:37.448089+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

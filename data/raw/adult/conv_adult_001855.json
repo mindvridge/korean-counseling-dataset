@@ -1,198 +1,237 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250619_ADT_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "남성",
+    "occupation": "IT 기업 팀장"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.534915",
+  "situation": "최근 승진 후 팀원들과의 관계가 어색해지고, 과도한 업무 부담으로 불면증과 불안감을 경험하며 리더십에 대한 자신감을 잃어가는 상황",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 상담을 받아보는 게 처음이라 좀 떨리네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 상담을 시작하시는 거라 긴장되실 수 있어요. 편안하게 이야기 나눠보도록 해요. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "사실 3개월 전에 팀장으로 승진했는데요. 처음엔 좋았는데 요즘은 너무 힘들어서요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "승진하신 지 3개월 정도 되셨군요. 처음에는 좋았는데 지금은 힘드시다고 하셨는데, 구체적으로 어떤 부분이 힘드신가요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "일단 업무량이 너무 많아졌어요. 그리고 예전에 같이 일하던 동료들이 이제는 제 팀원이 됐는데, 관계가 너무 어색해졌어요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "업무량의 증가와 함께 동료에서 상사로 역할이 바뀌면서 관계의 어색함을 느끼고 계시는군요. 두 가지 어려움을 동시에 겪고 계신 것 같네요.",
       "turn": 6,
+      "technique": "summarization"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 맞아요. 특히 관계 문제가 더 힘들어요. 예전엔 같이 점심 먹고 농담도 하던 사이였는데, 이제는 제가 지시를 내려야 하니까...",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친밀했던 동료 관계에서 상하 관계로 변화하는 것이 쉽지 않으시겠어요. 그런 변화 속에서 어떤 감정을 느끼시나요?",
       "turn": 8,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "죄책감이 들기도 하고... 제가 너무 권위적으로 보일까 봐 걱정도 되고요. 그래서 지시를 내릴 때도 너무 조심스러워요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "동료들에게 어떻게 보일지 걱정되어서 리더로서 필요한 행동을 하는 것도 조심스러워지셨군요. 그런 상황이 지속되면서 어떤 일들이 일어나고 있나요?",
       "turn": 10,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "일이 제대로 진행이 안 돼요. 제가 명확하게 지시를 못 내리니까 팀원들도 혼란스러워하는 것 같고... 그러다 보니 제가 직접 일을 더 많이 하게 되더라고요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "명확한 지시를 내리지 못하면서 결국 본인이 더 많은 업무를 떠안게 되는 악순환이 생긴 거네요. 그런 상황이 지속되면서 어떤 영향을 받고 계신가요?",
       "turn": 12,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "밤에 잠을 못 자요. 자려고 누우면 '내가 팀장으로서 제대로 하고 있는 걸까', '팀원들이 나를 무시하는 건 아닐까' 이런 생각들이 계속 들어서요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "불면증까지 겪고 계시는군요. 자신에 대한 의심과 걱정이 밤잠까지 방해하고 있다니, 정말 힘드셨겠어요.",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "empathy"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "네... 요즘은 회사 가는 게 너무 두려워요. 아침에 일어나면 출근하기 싫고, 팀원들 얼굴 보는 게 부담스럽고...",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "출근 자체가 두렵고 부담스러울 정도로 심리적 압박이 크시군요. 이런 상태가 얼마나 지속되었나요?",
+      "turn": 16,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "한 달 정도 된 것 같아요. 처음 두 달은 그래도 괜찮았는데, 최근 한 달 사이에 급격히 나빠진 느낌이에요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "최근 한 달 사이에 특별히 어떤 일이 있었나요? 상황이 급격히 나빠지게 된 계기가 있을까요?",
+      "turn": 18,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "아, 한 달 전쯤에 프로젝트 하나를 실패했어요. 제가 일정 관리를 제대로 못해서... 그 이후로 더 자신감이 없어진 것 같아요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "프로젝트 실패 경험이 자신감에 큰 타격을 준 거군요. 그 일을 어떻게 받아들이고 계신가요?",
+      "turn": 20,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "제가 팀장 자격이 없다는 증거처럼 느껴져요. '역시 난 리더 역할을 할 수 없는 사람이구나' 이런 생각이 들었어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "한 번의 프로젝트 실패를 본인의 전체 능력과 자격에 대한 판단으로 확대해서 해석하고 계시네요. 혹시 그 전에 성공적으로 마친 프로젝트나 잘했던 일들은 없었나요?",
+      "turn": 22,
+      "technique": "cognitive restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 사실 처음 두 달 동안은 작은 프로젝트 두 개를 잘 마무리했어요. 그때는 상사한테 칭찬도 받았고요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇군요. 성공적으로 완수한 프로젝트들도 있었는데, 한 번의 실패가 그 모든 성공을 지워버린 것처럼 느껴지시는 거네요. 이런 생각의 패턴을 알아차리셨나요?",
+      "turn": 24,
+      "technique": "awareness building"
+    },
+    {
+      "speaker": "client",
+      "text": "말씀하시니까 그러네요. 좋았던 건 다 잊어버리고 실패한 것만 계속 생각하고 있었어요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇게 자각하신 것 자체가 중요한 첫걸음이에요. 우리가 스트레스를 받을 때는 부정적인 것에 더 집중하게 되는 경향이 있거든요. 이건 매우 자연스러운 반응이에요.",
+      "turn": 26,
+      "technique": "normalization"
+    },
+    {
+      "speaker": "client",
+      "text": "그런가요? 저만 이런 게 아니라는 게 조금 위안이 되네요. 그럼 어떻게 해야 할까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "여러 방향에서 접근해볼 수 있을 것 같아요. 먼저, 팀장으로서의 역할에 대해 어떤 기대를 가지고 계신지 이야기해볼까요? 완벽한 팀장은 어떤 모습이라고 생각하시나요?",
+      "turn": 28,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 모든 일을 완벽하게 처리하고, 팀원들한테 존경받고, 실수하지 않는 사람? 그런데 말하고 보니 그런 사람이 있을까 싶네요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "스스로도 느끼시는 것처럼, 완벽한 리더는 존재하지 않아요. 실수도 하고, 때로는 어려움도 겪으면서 성장하는 것이 리더십이에요. 지금 겪고 계신 어려움도 성장 과정의 일부일 수 있어요.",
+      "turn": 30,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니까 조금 마음이 편해지네요. 그런데 팀원들과의 관계는 어떻게 풀어야 할까요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 질문이에요. 팀원들과 솔직하게 대화해보신 적이 있나요? 역할이 바뀌면서 느끼는 어색함에 대해서요.",
+      "turn": 32,
+      "technique": "solution-focused"
+    },
+    {
+      "speaker": "client",
+      "text": "아니요, 그런 얘기는 한 번도 못 해봤어요. 약해 보일까 봐 두려웠거든요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "솔직함을 약함으로 보시는 거네요. 하지만 오히려 자신의 감정과 상황을 솔직하게 나누는 것이 진정한 리더십의 시작일 수 있어요. 완벽한 척하는 것보다 인간적인 모습을 보이는 것이 신뢰를 쌓는 데 도움이 될 수 있습니다.",
+      "turn": 34,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그런 관점은 생각해본 적이 없네요. 그럼 어떻게 시작하면 좋을까요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "다음 상담에서는 구체적인 실행 방법들을 함께 계획해보면 좋겠어요. 오늘 상담을 통해 어떤 생각이나 느낌이 드셨나요?",
+      "turn": 36,
+      "technique": "summarization"
+    },
+    {
+      "speaker": "client",
+      "text": "제가 너무 완벽주의적으로 생각하고 있었다는 걸 알게 됐어요. 그리고 실패 하나로 모든 걸 판단하고 있었다는 것도요. 조금 희망이 보이는 것 같아요.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "오늘 스스로 많은 것을 알아차리셨네요. 이런 자각이 변화의 시작이에요. 다음 상담 때까지 한 가지만 해보시겠어요? 매일 자기 전에 그날 잘한 일 한 가지씩만 적어보는 거예요. 아주 작은 것도 괜찮아요.",
+      "turn": 38,
+      "technique": "homework assignment"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 해볼게요. 오늘 상담받길 잘한 것 같아요. 감사합니다.",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "용기 내어 상담을 시작하신 것 자체가 정말 대단한 일이에요. 다음 주에 다시 뵙겠습니다. 힘내세요.",
+      "turn": 40,
+      "technique": "encouragement"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T15:46:34.214616+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

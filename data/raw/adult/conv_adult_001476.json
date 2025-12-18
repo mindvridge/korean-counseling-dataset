@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADT_2024_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "남성",
+    "occupation": "중견기업 마케팅팀장"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.356031",
+  "situation": "승진 후 팀장이 되었지만 부하직원들과의 관계에서 어려움을 겪고 있으며, 업무 스트레스와 대인관계 갈등으로 불안과 불면증을 경험하고 있음",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 상담을 받아보는 게 처음이라 좀 떨리네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 상담을 받으러 오시는 것이 쉽지 않으셨을 텐데, 용기 내어 오셨네요. 편안하게 이야기 나눠보시죠. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "사실 요즘 너무 힘들어서요. 6개월 전에 팀장으로 승진했는데, 그 이후로 계속 스트레스가 심해졌어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "승진하신 지 6개월 정도 되셨군요. 승진 후 스트레스가 계속되고 있다고 하셨는데, 구체적으로 어떤 부분이 가장 힘드신가요?",
       "turn": 4,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "팀원들이랑 관계가 제일 어려워요. 전에는 같은 팀원이었는데 이제 제가 상사가 되니까... 어떻게 대해야 할지 모르겠어요. 특히 저보다 나이 많은 선배님들도 계시거든요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "이전에는 동료였던 분들과의 관계가 직급이 바뀌면서 어색하고 어려워지셨군요. 특히 연상의 선배들과는 더 조심스러우실 것 같네요.",
       "turn": 6,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 지시를 내려야 하는데 말 한마디 한마디가 조심스럽고... 그렇다고 너무 친하게 대하면 권위가 없어 보일까봐 걱정되고요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "리더로서의 권위와 기존의 친밀한 관계 사이에서 균형을 찾기가 쉽지 않으신 거네요. 그 고민이 정말 현실적이고 많은 분들이 겪는 어려움입니다.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "그래도 괜찮은 건가요? 저는 제가 리더 자질이 부족한 건 아닌가 계속 생각하게 돼요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "자신의 리더십에 대해 의문을 가지고 계시는군요. 혹시 최근에 특별히 그런 생각이 들게 된 계기가 있으셨나요?",
       "turn": 10,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "지난주에 팀 회의에서 제 의견에 반대하는 팀원이 있었어요. 김 대리라는 친구인데... 전에는 친하게 지냈거든요. 그런데 회의 때 제 앞에서 대놓고 반대 의견을 내더라고요. 다른 팀원들 앞에서요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친하게 지냈던 동료가 공개적으로 반대 의견을 내셨을 때 어떤 기분이 드셨나요?",
       "turn": 12,
+      "technique": "emotion_exploration"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "솔직히 배신감 같은 게 들었어요. 그리고 창피하기도 하고... 다른 팀원들이 저를 어떻게 볼까 걱정도 되고요. 그 이후로 김 대리랑 어떻게 대화해야 할지 모르겠어요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "배신감과 창피함, 그리고 다른 팀원들의 시선에 대한 걱정까지... 여러 감정이 복잡하게 얽혀있으시네요. 그 상황이 정말 힘드셨겠어요.",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "empathy"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "네... 그 이후로 밤에 잠도 잘 못 자요. 계속 그 장면이 떠오르고, 내일 출근하면 또 어떤 일이 생길까 불안해요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "불면증까지 경험하고 계시는군요. 얼마나 자주 잠을 못 이루시나요?",
+      "turn": 16,
+      "technique": "assessment"
+    },
+    {
+      "speaker": "client",
+      "text": "거의 매일이요. 새벽 2-3시까지 뒤척이다가 겨우 잠들고, 아침에 일어나면 피곤해서 출근하기 싫어요. 그런데 또 안 갈 수도 없잖아요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "매일 밤 수면 문제로 힘들고, 피로가 누적되는 악순환이 반복되고 있네요. 이런 상태가 얼마나 지속되셨나요?",
+      "turn": 18,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "한 두 달 정도 된 것 같아요. 처음에는 일주일에 한두 번 정도였는데 점점 심해졌어요. 아내도 걱정하더라고요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "가족분도 걱정하실 정도로 상태가 악화되고 있으시군요. 혹시 아내분께는 직장에서의 어려움에 대해 이야기 나누시나요?",
+      "turn": 20,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "별로요. 아내한테 걱정 끼치기 싫어서... 그냥 일이 좀 바쁘다고만 했어요. 사실 남자가 이런 걸로 힘들다고 하면 약해 보일 것 같기도 하고요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘든 감정을 혼자 감당하고 계시는군요. '남자는 강해야 한다'는 생각이 오히려 더 큰 부담이 되고 있는 것 같네요. 하지만 누구나 어려움을 겪을 수 있고, 그것을 표현하는 것은 약함이 아니라 용기입니다.",
+      "turn": 22,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각해본 적은 없었네요... 그런데 정말 제가 리더로서 부족한 건 아닐까요? 다른 팀장들은 다 잘하는 것 같은데.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "다른 팀장들과 자신을 비교하고 계시네요. 혹시 다른 팀장들이 실제로 어떻게 일하는지 가까이서 보신 적이 있으신가요?",
+      "turn": 24,
+      "technique": "cognitive_restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 사실 자세히는 모르죠. 그냥 회의 때 보면 다들 자신감 있어 보이고, 팀원들도 잘 따르는 것 같아서요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "겉으로 보이는 모습만으로 판단하고 계신 거네요. 실제로 그분들도 내부적으로는 비슷한 고민을 하고 계실 수 있습니다. 님께서는 승진하신 지 6개월밖에 안 되셨는데, 스스로에게 너무 높은 기준을 적용하고 계신 건 아닐까요?",
+      "turn": 26,
+      "technique": "cognitive_restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "그럴 수도 있겠네요... 생각해보니 제가 너무 완벽하게 하려고 했던 것 같아요. 실수하면 안 된다는 압박감도 크고요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "완벽주의적인 성향이 오히려 스트레스를 가중시키고 있군요. 김 대리님이 회의에서 반대 의견을 냈던 상황으로 다시 돌아가볼까요? 그 상황을 다르게 해석해볼 수 있을까요?",
+      "turn": 28,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "다르게요? 어떻게요?",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "예를 들어, 김 대리님이 반대 의견을 낸 것이 님을 공격하려는 의도가 아니라, 프로젝트를 더 좋게 만들기 위한 진솔한 의견일 수도 있지 않을까요? 오히려 자유롭게 의견을 낼 수 있는 분위기를 만들어주신 것일 수도 있고요.",
+      "turn": 30,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "아... 그런 관점은 생각 못 해봤네요. 그냥 저를 무시하는 거라고만 생각했어요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇게 받아들이셨던 거군요. 만약 김 대리님과 직접 대화를 나눈다면 어떨까요? 그때 어떤 의도였는지 솔직하게 물어보시는 것도 방법일 수 있습니다.",
+      "turn": 32,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "그게 가능할까요? 괜히 더 어색해지지 않을까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 걱정이 드시는군요. 대화를 시작하는 것이 두려우신 마음, 충분히 이해됩니다. 하지만 지금처럼 오해가 쌓이는 것과, 솔직하게 대화해보는 것 중 어느 쪽이 더 나을까요?",
+      "turn": 34,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 대화를 해보는 게 나을 것 같긴 해요. 근데 어떻게 시작해야 할지 모르겠어요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 결정이세요. 다음 상담에서는 구체적인 대화 방법과 리더십 스킬에 대해 함께 연습해볼까요? 그리고 수면 문제도 함께 다뤄보면 좋겠습니다. 오늘 용기 내어 이야기해주셔서 감사합니다.",
+      "turn": 36,
+      "technique": "structuring"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T14:55:30.287586+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_ADT_20250619_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "중학교 교사"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.362690",
+  "situation": "10년차 교사로 일하면서 최근 학생들과의 관계에서 어려움을 겪고 있으며, 번아웃과 함께 직업에 대한 회의감을 느끼고 있음",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 상담 받는 게 처음이라 좀 떨리네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 오시는 분들은 다들 그러시니 너무 긴장하지 않으셔도 됩니다. 편하게 이야기 나눈다고 생각하시면 돼요. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "rapport_building"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "저는 중학교에서 국어를 가르치고 있는데요... 요즘 학교 가는 게 너무 힘들어요. 아침에 일어나면 출근하기가 싫고, 교실에 들어가는 것도 두렵고...",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학교에 가는 것 자체가 힘들고 두려우시군요. 교사로 일하시면서 지금 많이 힘든 시기를 보내고 계신 것 같아요. 언제부터 이런 감정을 느끼셨나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정확히는 모르겠는데... 작년 말부터였던 것 같아요. 올해 새 학기 시작하면서 더 심해진 것 같고요. 저는 교사가 천직이라고 생각했는데, 요즘은 제가 이 일을 계속할 수 있을까 싶어요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "천직이라고 생각했던 일에 대해 회의감이 드신다는 게 정말 힘드실 것 같아요. 10년 동안 열심히 해오셨는데 말이죠. 구체적으로 어떤 상황에서 가장 힘드신가요?",
       "turn": 6,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "학생들이요... 예전에는 학생들과 소통하는 게 즐거웠는데, 요즘은 아이들 눈빛이 무섭게 느껴져요. 제 수업을 지루해하고, 휴대폰만 보고... 주의를 주면 대들기도 하고요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학생들과의 관계에서 예전과 다른 변화를 느끼시는군요. 소통이 잘 되지 않고, 때로는 갈등 상황도 생기는 것 같네요. 그럴 때 어떤 감정이 드세요?",
       "turn": 8,
+      "technique": "open_ended_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "무력감이요. 제가 뭘 해도 소용없다는 느낌? 그리고 화도 나고... 동시에 제 자신이 실패한 교사 같아서 자책도 되고요. 밤에 잠도 잘 못 자요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "무력감, 분노, 자책감... 여러 감정들이 복합적으로 얽혀있고, 그게 수면에도 영향을 주고 있네요. 이런 감정들을 혼자 감당하시느라 정말 힘드셨겠어요.",
       "turn": 10,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 남편한테도 말 못하고 있어요. 남편은 제가 교사라는 직업에 자부심이 있다는 걸 아니까, 이런 모습 보이기가 창피해서요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "가장 가까운 사람에게도 이야기하지 못하고 혼자 안고 계셨군요. 그런 마음을 이해합니다. 그런데 오늘 이렇게 용기내어 상담실을 찾아주셨잖아요. 그 자체가 큰 용기예요.",
       "turn": 12,
+      "technique": "encouragement"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "감사해요... 근데 선생님, 제가 이렇게 된 게 제 문제인 걸까요? 아니면 요즘 학생들이 문제인 걸까요?",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "누구의 문제라고 규정하기보다는, 지금 상황을 함께 이해해보는 게 중요할 것 같아요. 10년 전 처음 교사가 되셨을 때와 지금, 교육 환경이나 학생들의 특성이 많이 달라졌을 수도 있고요. 처음 교사가 되셨을 때는 어떠셨나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "reframing"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "처음엔... 정말 열정적이었어요. 수업 준비도 밤새워서 하고, 학생들 한 명 한 명 관심 가지려고 노력했고요. 학생들도 저를 좋아해줬던 것 같아요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "그때의 열정과 학생들과의 좋은 관계가 기억나시는군요. 그럼 언제부터 그 느낌이 달라지기 시작했을까요?",
+      "turn": 16,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "정확히는 모르겠는데... 5-6년차쯤부터였던 것 같아요. 그때 담임도 맡고, 업무도 많아지고... 그러다 보니 수업 준비에 소홀해지고, 학생들에게도 피곤한 모습을 보이게 됐어요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "업무량이 늘어나면서 자연스럽게 에너지가 분산되고, 그게 수업과 학생들과의 관계에도 영향을 미쳤군요. 그런 변화를 느끼셨을 때 어떤 대응을 하셨나요?",
+      "turn": 18,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "그냥... 버텼어요. 다들 이렇게 힘들게 하니까, 저만 힘든 게 아니라고 생각하면서요. 그런데 이제는 더 이상 버틸 수가 없어요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "그동안 많이 참고 버텨오셨네요. 지금은 그 한계점에 다다른 것 같고요. 이건 나약함이 아니라 우리 몸과 마음이 보내는 신호예요. 휴식과 변화가 필요하다는 신호 말이죠.",
+      "turn": 20,
+      "technique": "normalization"
+    },
+    {
+      "speaker": "client",
+      "text": "그런데 휴식을 어떻게 취해요? 학기 중에는 불가능하잖아요. 그리고 제가 쉬면 학생들은 어떡하고...",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "학생들에 대한 책임감이 크시네요. 그런데 선생님이 지쳐서 쓰러지면 학생들을 더 잘 가르칠 수 없겠죠? 큰 휴식이 아니더라도 일상에서 자신을 돌볼 수 있는 작은 방법들을 찾아보는 건 어떨까요?",
+      "turn": 22,
+      "technique": "gentle_challenge"
+    },
+    {
+      "speaker": "client",
+      "text": "작은 방법이요? 예를 들면 어떤 거요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "예를 들어, 하루 중 15분이라도 온전히 자신만을 위한 시간을 갖는다거나, 퇴근 후 산책을 한다거나, 주말에 좋아하는 활동을 하나 정해서 실천하는 것들이요. 선생님은 평소에 어떤 활동을 할 때 가장 편안하고 즐거우셨나요?",
+      "turn": 24,
+      "technique": "solution_focused"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 예전에는 책 읽는 걸 좋아했는데, 요즘은 그럴 여유가 없어요. 아니, 여유가 없다기보다 그럴 마음의 여유가 없는 것 같아요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "마음의 여유가 없다는 표현이 정확한 것 같네요. 번아웃 상태에서는 좋아하던 것도 즐기기 어려워요. 그렇다면 더 작은 것부터 시작해볼까요? 하루 5분, 좋아하는 음악을 듣는다거나 차 한 잔을 천천히 마신다거나요.",
+      "turn": 26,
+      "technique": "behavioral_activation"
+    },
+    {
+      "speaker": "client",
+      "text": "그 정도는 할 수 있을 것 같아요. 근데 그게 정말 도움이 될까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "작은 변화들이 모이면 큰 변화가 됩니다. 지금 당장은 작아 보일 수 있지만, 자신을 돌보는 연습을 시작하는 게 중요해요. 그리고 학생들과의 관계도 함께 생각해봐야 할 것 같은데, 최근에 학생들과 긍정적인 상호작용을 한 경험이 있나요?",
+      "turn": 28,
+      "technique": "strength_based"
+    },
+    {
+      "speaker": "client",
+      "text": "글쎄요... 생각해보니 제가 너무 부정적인 것만 보고 있었나봐요. 지난주에 한 학생이 제 수업 후에 와서 질문하고 갔어요. 그때는 좋았던 것 같아요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 순간들도 있었군요. 모든 학생이 무관심한 게 아니라, 여전히 선생님의 수업에 관심을 보이는 학생들도 있다는 거죠. 지금은 힘든 상황들이 크게 보여서 이런 긍정적인 순간들이 잘 보이지 않았을 수 있어요.",
+      "turn": 30,
+      "technique": "cognitive_restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 제가 너무 극단적으로 생각하고 있었나봐요. 모든 게 다 나쁘다고만 생각했던 것 같아요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 인식을 하신 것만으로도 큰 진전이에요. 번아웃 상태에서는 모든 것이 부정적으로 보이기 쉽거든요. 앞으로 우리가 함께 할 수 있는 건, 선생님의 에너지를 회복하고, 학생들과의 관계를 새롭게 바라보는 연습을 하는 거예요. 어떠세요?",
+      "turn": 32,
+      "technique": "summarization"
+    },
+    {
+      "speaker": "client",
+      "text": "좋아요. 그런데 시간이 얼마나 걸릴까요? 빨리 나아지고 싶어요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "빨리 나아지고 싶은 마음 충분히 이해합니다. 하지만 오랜 시간 쌓인 피로와 스트레스는 천천히 풀어가야 해요. 조급해하지 마시고, 한 걸음씩 나아가는 자신을 격려해주세요. 다음 주에 다시 만나서 이번 주 어떻게 지내셨는지 이야기 나눠볼까요?",
+      "turn": 34,
+      "technique": "expectation_management"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 하죠. 오늘 이야기하고 나니 조금 마음이 가벼워진 것 같아요. 감사합니다.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "다행이네요. 오늘 용기내어 오신 것, 그리고 솔직하게 이야기해주신 것 정말 고마워요. 이번 주는 하루 5분이라도 자신을 위한 시간을 가져보시고, 학생들과의 작은 긍정적인 순간들도 기억해보세요. 다음 주에 뵙겠습니다.",
+      "turn": 36,
+      "technique": "homework_assignment"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T14:57:48.434719+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

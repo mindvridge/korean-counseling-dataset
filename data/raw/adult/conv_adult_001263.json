@@ -1,198 +1,237 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250627_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "남성",
+    "occupation": "IT 스타트업 대표"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.256957",
+  "situation": "창업 3년차 IT 스타트업 대표로서 최근 투자 유치 실패와 핵심 인력 이탈로 인해 극심한 스트레스와 불안을 겪고 있으며, 불면증과 함께 사업을 포기해야 하는지 고민 중",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 사실 상담을 받는 게 처음이라 좀 어색하네요. 요즘 너무 힘들어서 지인의 권유로 오게 됐습니다.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 상담을 받으러 오시는 게 쉽지 않은 결정이었을 텐데, 용기 내어 찾아주셔서 감사합니다. 편안하게 이야기 나눠보도록 하겠습니다. 요즘 어떤 점이 가장 힘드신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "저는 IT 스타트업을 운영하고 있는데요, 3년 정도 됐습니다. 최근에 투자 유치에 실패했고, 함께 시작했던 핵심 개발자 두 명이 더 나은 조건으로 다른 회사로 이직했어요. 이제 어떻게 해야 할지 모르겠습니다.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "창업 3년차에 투자 유치 실패와 핵심 인력 이탈을 동시에 경험하고 계시는군요. 그동안 쌓아온 것들이 한순간에 흔들리는 것처럼 느껴지실 것 같습니다.",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 맞아요. 제가 3년 동안 쏟아부은 시간과 노력, 그리고 돈이... 부모님께 빌린 돈도 있고, 집도 담보로 잡혔거든요. 밤에 잠도 제대로 못 자요. 자려고 누우면 온갖 생각이 다 들어서요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "경제적인 부담까지 함께 지고 계시니 불안감이 더 클 수밖에 없겠습니다. 불면증까지 겹치면 심신이 모두 지치실 텐데, 이런 상태가 얼마나 지속되셨나요?",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "한 두 달 정도 된 것 같아요. 투자 유치 실패 통보를 받은 게 두 달 전이고, 그 직후부터 팀원들이 하나둘씩 나가기 시작했어요. 지금은 저 포함해서 4명밖에 안 남았습니다.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "두 달간 연속적으로 어려운 상황들을 마주하셨네요. 그 과정에서 가장 힘들었던 순간은 언제였나요?",
       "turn": 8,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "투자 실패 통보를 받았을 때보다... 사실은 같이 시작했던 친구가 나간다고 했을 때가 더 힘들었어요. 그 친구는 제가 대학 때부터 알던 친구였거든요. 배신당한 기분이었습니다.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "오랜 친구이자 동료의 이탈이 단순한 인력 손실을 넘어서 개인적인 배신감으로 다가왔군요. 그 친구와는 그 후에 대화를 나누셨나요?",
       "turn": 10,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "아니요. 그냥... 연락을 안 하고 있어요. 사실 화가 나기도 하고, 뭐라고 말해야 할지도 모르겠고요. 그 친구 입장도 이해는 가요. 가족도 있고, 안정적인 수입이 필요하니까요. 그래도 서운한 건 어쩔 수 없네요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "상대방의 입장을 이해하면서도 동시에 서운함과 배신감을 느끼시는 거군요. 이렇게 복잡한 감정을 느끼는 것은 매우 자연스러운 반응입니다.",
       "turn": 12,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "요즘은 사무실에 가는 것도 두려워요. 남은 팀원들 얼굴을 보면 미안하고... 이 사람들도 언제 나갈지 모른다는 생각도 들고요. 제가 리더로서 자격이 없는 건 아닌가 하는 생각도 듭니다.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "지금 스스로에 대한 신뢰가 많이 흔들리고 있는 상태시군요. 리더로서의 자격에 대해 의심하신다고 하셨는데, 구체적으로 어떤 부분에서 그렇게 느끼시나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "clarification"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "투자를 못 받은 것도 결국 제 능력 부족이고, 팀원들을 붙잡지 못한 것도 제 탓이잖아요. 더 좋은 비전을 제시했어야 하는데, 더 나은 대우를 해줬어야 하는데... 그러지 못했으니까요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "모든 책임을 본인에게 돌리고 계시네요. 그런데 투자 유치나 인력 유지는 대표 혼자만의 노력으로 결정되는 것일까요? 시장 상황, 경쟁사, 타이밍 등 다른 요인들도 있지 않을까요?",
+      "turn": 16,
+      "technique": "cognitive restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇긴 하죠... 최근에 경기도 안 좋고, 투자 시장도 얼어붙었다고들 하니까요. 하지만 그래도 잘하는 회사들은 투자 받잖아요. 결국 우리가 부족했던 거죠.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "다른 회사들과 비교하시면서 더 자책하게 되시는군요. 혹시 창업 초기부터 지금까지 이루신 성과나 잘했던 부분들도 있지 않으셨나요?",
+      "turn": 18,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 생각해보면 첫 해에 매출 목표는 달성했고, 두 번째 해에는 대기업과 파트너십도 맺었어요. 제품 자체는 사용자들 반응이 좋았고요. 그런데 지금은 그게 다 무의미하게 느껴져요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "현재의 어려움이 너무 크다 보니 그동안 이루신 성과들이 보이지 않는 상태인 것 같습니다. 매출 목표 달성, 대기업 파트너십, 좋은 제품 평가... 이런 것들은 분명 의미 있는 성과들입니다.",
+      "turn": 20,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 말씀해주시니 조금... 위안이 되네요. 그런데 지금 당장의 문제가 너무 커요. 이번 달 월급도 제대로 못 줄 것 같고, 사무실 임대료도 밀리고 있어요. 정말 문을 닫아야 하나 싶어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "당장의 현실적인 문제들이 압박으로 다가오고 있군요. 사업을 접는 것에 대해서도 고민하고 계신데, 그 선택지에 대해서는 어떻게 느끼시나요?",
+      "turn": 22,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "한편으로는 이렇게 힘들게 사는 것보다 편해질 것 같기도 하고... 다른 한편으로는 3년을 여기에 쏟아부었는데 이대로 포기하는 게 맞나 싶기도 하고요. 그리고 부모님께 빌린 돈은 어떻게 갚아야 할지...",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "계속할 것인가 그만둘 것인가 사이에서 갈등하고 계시는군요. 두 선택 모두 각각의 어려움이 있어 보입니다. 지금 당장 결정을 내려야 하는 상황인가요?",
+      "turn": 24,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "아니요, 당장은 아니에요. 다음 달까지는 버틸 수 있을 것 같고... 그 사이에 다른 투자자를 찾아볼 수도 있고요. 근데 자신이 없어요. 또 거절당하면 어쩌나 싶어서요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "실패에 대한 두려움이 새로운 시도를 가로막고 있는 것 같습니다. 이전의 거절이 너무 큰 상처로 남아있는 거죠. 그런데 시도하지 않으면 결과를 알 수 없는 것도 사실입니다.",
+      "turn": 26,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요... 안 해보고 포기하는 건 더 후회될 것 같기도 해요. 그런데 지금 제 상태로 투자자들을 만나는 게 맞을까요? 이렇게 불안하고 자신감 없는 모습으로요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 질문입니다. 지금의 심리적 상태를 먼저 돌보는 것이 중요할 수 있겠네요. 불면증과 불안감을 관리하고, 어느 정도 심리적 안정을 찾으신 후에 다음 단계를 준비하는 것은 어떨까요?",
+      "turn": 28,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "그게 가능할까요? 어떻게 해야 마음을 좀 추스를 수 있을까요?",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "먼저 수면 패턴을 개선하는 것부터 시작해볼 수 있습니다. 규칙적인 수면 시간, 잠들기 전 스크린 차단, 가벼운 운동 등이 도움이 될 수 있어요. 그리고 정기적인 상담을 통해 감정을 정리하고, 현실적인 계획을 세워나가는 것도 필요합니다.",
+      "turn": 30,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "운동... 생각해보니 창업하고 나서 운동을 거의 안 했네요. 시간도 없고 여유도 없어서요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "바쁜 일상 속에서 자신을 돌보는 시간을 갖지 못하셨군요. 하루 20-30분이라도 산책이나 가벼운 운동을 하시면 스트레스 해소와 수면에 큰 도움이 됩니다. 이것도 사업을 위한 투자라고 생각해보시면 어떨까요?",
+      "turn": 32,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니 좀 다르게 느껴지네요. 제가 건강해야 사업도 할 수 있는 거니까요. 그리고... 혹시 제 친구, 나간 그 친구와는 어떻게 하는 게 좋을까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 관계가 아직 마음에 걸리시는군요. 친구에게 솔직하게 당신의 감정을 전하고 싶으신가요, 아니면 시간을 두고 싶으신가요?",
+      "turn": 34,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "솔직히 말하면... 연락하고 싶긴 해요. 화난 것도 있지만, 그래도 오랜 친구니까요. 그냥 서운했다는 말 정도는 하고 싶어요. 하지만 그게 괜찮은 건지 모르겠어요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "감정을 표현하고 싶은 마음과 그것이 적절한지에 대한 고민이 함께 있으시네요. 솔직한 감정을 비난이 아닌 '나-전달법'으로 표현하신다면, 관계를 회복하는 데 도움이 될 수 있습니다. '네가 나를 배신했다'가 아니라 '나는 네가 떠날 때 많이 서운했다' 같은 방식으로요.",
+      "turn": 36,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "아, 그런 방법이 있군요. 한번 시도해볼게요. 오늘 상담하면서 조금 마음이 정리되는 느낌이에요. 모든 게 제 잘못만은 아니라는 것도 알게 됐고요.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "오늘 대화를 통해 스스로를 좀 더 객관적으로 바라보게 되셨다니 다행입니다. 앞으로 몇 가지를 함께 작업해보면 좋겠습니다. 수면 관리, 규칙적인 운동, 그리고 사업에 대한 현실적인 계획 수립이요. 다음 상담 때 이야기 나눠볼까요?",
+      "turn": 38,
+      "technique": "summary"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 좋아요. 다음 주에 또 올게요. 오늘 정말 고맙습니다. 이렇게 이야기하니까 혼자 끙끙 앓는 것보다 훨씬 낫네요.",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "용기 내어 오셔서 솔직하게 이야기해주셔서 감사합니다. 힘든 시기지만 함께 잘 헤쳐나가보도록 하겠습니다. 다음 주에 뵙겠습니다.",
+      "turn": 40,
+      "technique": "support"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T14:27:15.238176+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

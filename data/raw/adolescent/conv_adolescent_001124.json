@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adolescent",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADO_20250623_001",
+  "category": "adolescent",
+  "persona": {
+    "age": 16,
+    "gender": "여성",
+    "occupation": "고등학교 1학년"
   },
-  "seed_info": {
-    "category": "adolescent"
-  },
-  "generated_at": "2025-12-17T02:04:27.193074",
+  "situation": "학교에서 친구들과의 관계가 어려워지면서 점점 고립되고 있다고 느끼는 청소년. 최근 SNS에서 자신이 빠진 단체 채팅방이 있다는 것을 알게 되어 큰 상처를 받았다.",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 선생님.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 편하게 앉으세요. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "rapport_building"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "음... 사실 요즘 학교 가기가 너무 싫어요. 친구들이랑 관계가 이상해졌어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학교 가는 게 힘들 정도로 친구 관계에 어려움이 있으시군요. 언제부터 그렇게 느끼셨나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "한 달 전쯤부터요. 처음엔 별거 아닌 줄 알았는데... 지난주에 우연히 알게 됐어요. 애들이 저 빼고 따로 단톡방을 만들었더라고요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "자신만 빠진 단체 채팅방이 있다는 걸 알게 되셨군요. 그 순간 어떤 기분이 드셨나요?",
       "turn": 6,
+      "technique": "open_ended_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정말... 충격이었어요. 배신당한 기분? 그리고 제가 뭘 잘못했나 계속 생각하게 되더라고요. 밤에 잠도 잘 못 자요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "배신감을 느끼고, 자신이 무엇을 잘못했는지 계속 생각하게 되면서 잠도 제대로 못 주무시는군요. 정말 힘든 시간을 보내고 계시네요.",
       "turn": 8,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 그리고 더 이상한 건, 애들은 제 앞에서는 평소처럼 행동해요. 그게 더 이상해요. 진짜 친구면 그럴 수 있나요?",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "겉으로는 평소처럼 대하는데 뒤에서는 다르게 행동한다는 것을 알게 되어서 혼란스러우시겠어요. 그런 상황에서 어떻게 대처하고 계세요?",
       "turn": 10,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "저도 모르는 척하고 있어요. 근데 점심시간이 제일 힘들어요. 같이 밥 먹자고 하면 가긴 하는데, 대화에 끼지 못하고 그냥 있는 것 같아요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "함께 있지만 대화에는 끼지 못하는 느낌을 받으시는군요. 그 시간들이 참 외롭고 불편하셨겠어요.",
       "turn": 12,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그래서 요즘은 아예 혼자 있는 게 나을 것 같기도 해요. 근데 또 혼자 있으면 더 외톨이처럼 보일까봐 무서워요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "함께 있어도 외롭고, 혼자 있으면 외톨이로 보일까 걱정되는 상황이네요. 어느 쪽을 선택해도 편하지 않은 상황에 놓여계신 것 같아요.",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "reflection"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "네... 진짜 그래요. 어떻게 해야 할지 모르겠어요. 엄마한테도 말 못했어요. 말하면 '네가 먼저 다가가봐라' 이럴 것 같아서요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "부모님께 말씀드리기도 어려운 상황이시군요. 혹시 이 문제에 대해 이야기할 수 있는 사람이 있나요?",
+      "turn": 16,
+      "technique": "open_ended_question"
+    },
+    {
+      "speaker": "client",
+      "text": "없어요... 그래서 더 답답한 것 같아요. 중학교 때 친구들이랑은 연락이 끊긴 지 오래고, 학원에서도 딱히 친한 애가 없어요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "주변에 이런 어려움을 나눌 사람이 없다는 것이 더욱 고립감을 느끼게 하는군요. 그런데도 오늘 이렇게 상담실에 오신 건 큰 용기였어요.",
+      "turn": 18,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "감사해요... 사실 오기까지 일주일 동안 고민했어요. 창피할 것 같기도 하고.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "일주일 동안 고민하다가 결국 도움을 청하기로 결정하신 거군요. 자신의 어려움을 인정하고 도움을 구하는 것은 약함이 아니라 성숙함의 표현이에요.",
+      "turn": 20,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각해본 적은 없었어요. 근데 선생님, 저 진짜 뭘 잘못한 걸까요? 계속 생각해봐도 모르겠어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 단톡방이 생기기 전에 친구들과 사이에 특별한 일이 있었나요? 혹시 기억나는 게 있다면 말씀해주세요.",
+      "turn": 22,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 한 달 반 전쯤에 제가 시험 기간에 같이 공부하자는 걸 거절한 적이 있어요. 그때 집안 사정이 좀 안 좋아서 기분이 안 좋았거든요. 그게 문제였을까요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "그때 개인적으로 힘든 상황이었는데 친구들에게 그 사정을 설명하지 못하셨던 건가요?",
+      "turn": 24,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그냥 '바쁘다'고만 했어요. 솔직히 가족 얘기를 하고 싶지 않았어요. 근데 그게 애들한테는 차갑게 느껴졌을 수도 있겠네요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신의 상황을 설명하지 못한 것이 오해를 불러일으켰을 수 있다는 생각이 드시는군요. 그건 중요한 통찰이에요.",
+      "turn": 26,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "그럼 제가 이제라도 설명하면 나아질까요? 근데 이미 한 달이 지났는데...",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구들과 대화를 시도해보고 싶은 마음이 있으시군요. 동시에 시간이 많이 지나서 망설여지기도 하시고요. 만약 대화를 한다면 어떻게 시작하고 싶으세요?",
+      "turn": 28,
+      "technique": "open_ended_question"
+    },
+    {
+      "speaker": "client",
+      "text": "글쎄요... 상상해보면 너무 떨려요. 거절당하면 어떡하죠? 아니면 '지금 와서 무슨 얘기냐'고 하면요?",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "대화를 시도하는 것에 대한 두려움이 크시네요. 거절당하거나 비난받을까봐 걱정되시는 거죠. 그런 감정은 자연스러운 거예요.",
+      "turn": 30,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 근데 이대로 있는 것도 힘들어요. 매일 학교 가는 게 고문 같아요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 상태를 유지하는 것도 힘들고, 변화를 시도하는 것도 두렵고... 정말 어려운 선택의 순간에 계시네요. 우리가 함께 작은 단계부터 계획해볼 수 있을까요?",
+      "turn": 32,
+      "technique": "collaboration"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그럼 좋겠어요. 어떻게 시작하면 될까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "먼저, 친구들 중에서 가장 대화하기 편했던 친구가 있나요? 모두에게 한꺼번에 말하는 것보다 한 명과 먼저 이야기하는 게 부담이 덜할 수 있어요.",
+      "turn": 34,
+      "technique": "problem_solving"
+    },
+    {
+      "speaker": "client",
+      "text": "지혜라는 친구가 있어요. 얘가 제일 오래 알고 지낸 친구고, 예전에 제 고민도 들어줬던 적이 있어요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋아요. 지혜라는 친구와 먼저 대화를 시도해보는 것도 하나의 방법이 될 수 있겠네요. 다음 주까지 우리가 함께 준비해보면 어떨까요? 오늘 이야기 나눈 것만으로도 중요한 첫걸음을 내디딘 거예요.",
+      "turn": 36,
+      "technique": "encouragement"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T05:18:53.669252+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adolescent"
+  }
 }

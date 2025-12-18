@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adolescent",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADO_20250623_001",
+  "category": "adolescent",
+  "persona": {
+    "age": 16,
+    "gender": "여성",
+    "occupation": "고등학교 1학년"
   },
-  "seed_info": {
-    "category": "adolescent"
-  },
-  "generated_at": "2025-12-17T02:04:27.531341",
+  "situation": "학교에서 친구들과의 관계에서 소외감을 느끼고 있으며, SNS상에서 자신만 제외된 모임 사진을 보고 큰 상처를 받음",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 선생님께 말씀드리기가 좀 부끄럽긴 한데, 요즘 너무 힘들어서 왔어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 용기 내어 찾아와 주셔서 고마워요. 편하게 이야기 나눠보아요. 어떤 일로 힘드신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "제가... 친구들이랑 관계가 좀 안 좋아진 것 같아요. 아니, 정확히는 제가 왕따 당하는 건지 잘 모르겠어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친구들과의 관계가 예전 같지 않아서 혼란스럽고 불안한 마음이 드는군요. 구체적으로 어떤 일이 있었나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "지난주에 인스타그램을 보는데, 제 친한 친구들이 노래방에 간 사진을 올렸더라고요. 근데 저는 아무도 부르지 않았어요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "자신만 제외되었다는 걸 SNS를 통해 알게 되었을 때, 정말 마음이 많이 아팠겠어요.",
       "turn": 6,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 정말 충격이었어요. 그 친구들이랑 중학교 때부터 계속 친하게 지냈거든요. 왜 저만 안 부른 건지 이해가 안 가요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "오랫동안 함께 해온 친구들이라서 더 배신감과 상처가 컸을 것 같네요. 그 후로 친구들과는 어떻게 지내고 있나요?",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "그 뒤로는 학교에서 마주쳐도 어색해요. 제가 먼저 말 걸기도 힘들고... 친구들은 평소처럼 대하는데, 저만 이상한 건가 싶기도 하고요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친구들은 평소와 다름없는 것처럼 보이는데, 자신만 마음이 불편하니까 '내가 예민한 걸까?' 하는 생각도 드는 거네요.",
       "turn": 10,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 제가 너무 오버하는 건가 싶어서 친구한테 물어볼까도 생각했는데, 괜히 물어봤다가 더 이상해질까 봐 무서워요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "직접 물어보고 싶은 마음과 동시에, 관계가 더 나빠질까 봐 두려운 마음이 공존하는군요. 그 마음 충분히 이해가 돼요.",
       "turn": 12,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 그리고 사실 생각해보면 그 전부터도 조금씩 신호가 있었던 것 같아요. 단톡방에서 제 말에는 반응이 없다던가...",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "그 일 이전에도 친구들이 자신에게 조금씩 거리를 두는 듯한 느낌을 받았었군요. 혹시 언제부터 그런 느낌이 들었나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "clarification"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "한 두 달 전부터요? 고등학교 올라오면서 반이 달라졌는데, 그때부터인 것 같아요. 친구들끼리는 같은 반이거든요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "아, 반이 달라지면서 친구들은 같은 반에 있고, 자신만 다른 반이 되었군요. 그럼 요즘 학교생활은 어떤가요?",
+      "turn": 16,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "솔직히 학교 가기가 싫어요. 쉬는 시간에도 혼자 있는 경우가 많고, 점심시간도 어색해요. 새 반 친구들과는 아직 친해지지 못했어요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "새로운 환경에 적응하는 것도 쉽지 않은데, 기존 친구들과의 관계까지 불편해지니 학교생활 전체가 힘들게 느껴지는 거네요.",
+      "turn": 18,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 집에만 있고 싶어요. 엄마는 제가 요즘 말이 없다고 걱정하시는데, 말하기도 싫고... 이해 못 하실 것 같아요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "부모님께 말씀드리기도 어렵고, 혼자 이 힘든 감정을 감당하고 있었네요. 정말 외롭고 힘들었겠어요.",
+      "turn": 20,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그런데 선생님, 제가 뭘 잘못한 걸까요? 왜 친구들이 저를 피하는 걸까요?",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신이 무엇을 잘못했는지 계속 생각하고 있었군요. 혹시 친구들과 사이가 불편해지기 전에 특별한 일이나 갈등이 있었나요?",
+      "turn": 22,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "특별히 싸운 건 없어요. 그냥... 제가 좀 공부를 열심히 하는 편이라서, 친구들이 놀자고 할 때 몇 번 거절한 적은 있어요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "공부에 집중하고 싶어서 몇 번 약속을 거절했던 게 있었네요. 그때 친구들의 반응은 어땠나요?",
+      "turn": 24,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "그냥 '그래, 알았어'라고 했는데... 지금 생각해보니 그때부터 좀 달라진 것 같기도 해요. 제가 너무 이기적이었던 걸까요?",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신의 상황과 필요를 표현한 것이 이기적인 게 아니에요. 다만 친구들과의 소통이 충분하지 않았을 수는 있겠네요.",
+      "turn": 26,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그럼 제가 어떻게 해야 할까요? 친구들한테 사과해야 하나요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "먼저, 자신이 어떻게 하고 싶은지가 중요해요. 그 친구들과의 관계를 회복하고 싶은 마음이 있나요?",
+      "turn": 28,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 당연히요. 그 친구들이랑 다시 친하게 지내고 싶어요. 그런데 어떻게 시작해야 할지 모르겠어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "관계를 회복하고 싶다는 마음이 있다는 게 중요해요. 그럼 가장 편하게 이야기할 수 있는 친구가 있나요?",
+      "turn": 30,
+      "technique": "solution-focused"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 지수가 그나마 제일 오래 알고 지낸 친구예요. 얘가 제일 착하기도 하고요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋아요. 지수와 먼저 솔직하게 대화를 나눠보는 건 어떨까요? 자신의 마음과 그동안 느꼈던 외로움을 진솔하게 나누어 보는 거예요.",
+      "turn": 32,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "그게 가능할까요? 너무 무섭고 떨려요. 거절당하면 어떡하죠?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 두려움이 드는 건 당연해요. 하지만 지금처럼 계속 불안하고 외로운 상태로 지내는 것과, 용기 내어 대화를 시도해보는 것 중 어느 쪽이 더 나을 것 같나요?",
+      "turn": 34,
+      "technique": "reality testing"
+    },
+    {
+      "speaker": "client",
+      "text": "말씀 들으니까... 한번 해보는 게 나을 것 같긴 해요. 이대로 있으면 아무것도 안 변하니까요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "훌륭해요. 변화를 위해 행동하겠다는 결심을 한 거예요. 다음에 만났을 때 어떻게 되었는지 이야기 나눠봐요. 언제든 힘들면 찾아오세요.",
+      "turn": 36,
+      "technique": "encouragement"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T06:42:32.104756+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adolescent"
+  }
 }

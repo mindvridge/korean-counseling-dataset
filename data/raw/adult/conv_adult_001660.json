@@ -1,198 +1,209 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250624_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "남성",
+    "occupation": "중견기업 마케팅팀장"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.443162",
+  "situation": "최근 승진 후 팀장 역할에 대한 부담감과 후배들과의 관계에서 오는 스트레스로 상담을 찾아옴. 업무 성과는 좋으나 리더십에 자신감이 없고, 완벽주의 성향으로 인해 번아웃 증상을 경험하고 있음.",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 상담 처음 받아보는데 좀 떨리네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 상담을 받으러 오시는 것이 쉽지 않은 결정이셨을 텐데, 용기 내어 찾아주셔서 감사합니다. 편안하게 이야기 나누시면 됩니다.",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 감사합니다. 사실 요즘 일 때문에 스트레스가 너무 심해서 왔어요. 6개월 전에 팀장으로 승진했는데, 생각보다 너무 힘드네요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "승진을 하셨군요. 그런데 그것이 오히려 스트레스가 되고 있다는 말씀이시네요. 어떤 부분이 특히 힘드신가요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "팀원들을 관리하는 게 제일 어려워요. 전에는 제 일만 잘하면 됐는데, 이제는 팀 전체 성과에 책임을 져야 하잖아요. 팀원들이 실수하면 제가 다 커버해야 하고...",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "개인 기여자에서 리더로의 역할 전환이 쉽지 않으시군요. 팀원들의 실수까지 본인이 책임져야 한다는 부담감이 크게 느껴지시는 것 같습니다.",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그래서 요즘은 팀원들이 제출한 보고서도 다 제가 다시 검토하고 수정하고... 밤 11시까지 일하는 날이 대부분이에요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "팀원들의 업무를 모두 직접 검토하고 수정하시느라 업무 시간이 많이 늘어난 상황이시네요. 그렇게 하시는 이유가 있으실까요?",
       "turn": 8,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "완벽하지 않으면 불안해요. 팀원들이 실수하면 결국 저한테 책임이 오니까... 그리고 사실 제가 하는 게 더 빠르고 정확하거든요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "완벽하게 해내지 못하면 불안하시고, 본인이 직접 하는 것이 더 확실하다고 느끼시는군요. 그런데 그렇게 하시면서 본인은 어떤 상태이신가요?",
       "turn": 10,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "솔직히 지쳤어요. 주말에도 일 생각에 쉬지 못하고... 최근에는 잠도 잘 안 오고, 아침에 회사 가기가 너무 싫어요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "신체적으로나 정신적으로 많이 소진되신 상태시네요. 번아웃 증상이 나타나고 있는 것 같습니다. 이런 상태가 얼마나 지속되셨나요?",
       "turn": 12,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "한 3개월 정도 된 것 같아요. 처음에는 적응 기간이라고 생각했는데, 점점 더 힘들어지네요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "3개월 동안 이런 상태를 혼자 견뎌오셨군요. 주변에 이런 어려움을 나눌 수 있는 분은 계신가요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "open-ended question"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "아내한테도 말 못했어요. 승진했는데 힘들다고 하면 한심하게 보일 것 같아서... 그리고 팀원들한테는 더더욱 약한 모습 보일 수 없죠.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "리더로서 강한 모습을 보여야 한다는 압박감 때문에 어려움을 나누지 못하고 혼자 감당하고 계셨네요. 그 마음이 얼마나 무거우셨을까요.",
+      "turn": 16,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 사실 그게 제일 힘든 것 같아요. 누구한테도 말 못하고 혼자 버티는 게.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "그동안 정말 힘드셨겠습니다. 팀원들과의 관계는 어떠신가요? 혹시 구체적으로 어려운 상황이 있으신가요?",
+      "turn": 18,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "제 밑에 7년차 후배가 있는데, 그 친구가 좀... 일을 대충대충 하는 것 같아요. 여러 번 피드백 줬는데도 안 고쳐지니까 짜증이 나요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "반복적인 피드백에도 변화가 없으니 답답하고 짜증이 나시는군요. 그 후배분께 어떤 방식으로 피드백을 주셨나요?",
+      "turn": 20,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "보고서에 빨간 줄 쫙 그어서 돌려주고, '이렇게 하면 안 된다'고 말하죠. 근데 다음에도 똑같이 해오니까... 요즘은 아예 제가 다시 쓰는 게 빨라요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "피드백을 주시지만 기대한 결과가 나오지 않으니, 결국 직접 하시게 되는 패턴이 반복되고 있네요. 그 후배분의 반응은 어떤가요?",
+      "turn": 22,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "글쎄요... 요즘은 저를 피하는 것 같기도 하고. 예전에는 점심도 같이 먹고 그랬는데, 이제는 거의 대화가 없어요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "관계가 예전과 많이 달라졌군요. 그 부분에 대해서는 어떻게 느끼시나요?",
+      "turn": 24,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "사실 좀... 서운하기도 해요. 저도 그 친구 잘되라고 하는 건데. 근데 또 한편으로는 제가 너무 엄격한 건가 싶기도 하고.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "후배를 위한 마음으로 피드백을 주셨는데 관계가 멀어지니 서운하시고, 동시에 본인의 방식에 대해서도 의문이 드시는군요. 이런 복잡한 감정을 느끼시는 게 자연스러운 것 같습니다.",
+      "turn": 26,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 제가 뭘 잘못하고 있는 건지 모르겠어요. 팀장으로서 성과도 내야 하고, 팀원들도 잘 이끌어야 하는데... 둘 다 못하고 있는 것 같아요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 말씀하신 것을 들어보면, 완벽한 리더가 되어야 한다는 기준을 스스로에게 적용하고 계신 것 같습니다. 그 기준은 어디서 온 것일까요?",
+      "turn": 28,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 제가 원래 일을 완벽하게 하려는 성격이에요. 그래서 여기까지 온 거고요. 근데 팀장이 되니까 그게 오히려 독이 되는 것 같아요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "완벽주의가 개인 기여자로서는 강점이었지만, 리더 역할에서는 다르게 작동하고 있다는 것을 스스로 인식하고 계시네요. 이건 매우 중요한 통찰입니다.",
+      "turn": 30,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇다면 어떻게 해야 할까요? 제 성격을 바꿀 수는 없잖아요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "성격을 바꾸는 것이 아니라, 상황에 맞게 다르게 적용하는 방법을 찾아볼 수 있습니다. 우선, 지금 가장 바꾸고 싶은 부분이 무엇인가요?",
+      "turn": 32,
+      "technique": "solution-focused"
+    },
+    {
+      "speaker": "client",
+      "text": "일단 이렇게 매일 밤늦게까지 일하는 건 못 버틸 것 같아요. 그리고 팀원들과의 관계도 개선하고 싶고요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "업무 시간 관리와 팀원들과의 관계, 두 가지를 개선하고 싶으시군요. 오늘 상담에서 이 부분들을 함께 살펴보면서, 작은 변화부터 시작해볼 수 있을 것 같습니다. 어떠세요?",
+      "turn": 34,
+      "technique": "collaboration"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 좋아요. 뭐라도 해야 할 것 같아요. 이대로는 정말 안 될 것 같거든요.",
+      "turn": 35
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T15:21:04.179145+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

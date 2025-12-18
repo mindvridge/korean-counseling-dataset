@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adolescent",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "ADO_2024_001",
+  "category": "adolescent",
+  "persona": {
+    "age": 17,
+    "gender": "남성",
+    "occupation": "고등학교 2학년"
   },
-  "seed_info": {
-    "category": "adolescent"
-  },
-  "generated_at": "2025-12-17T02:04:27.514035",
+  "situation": "최근 성적이 급격히 떨어지고 게임에 몰두하면서 부모님과의 갈등이 심화되고 있는 남학생. 진로에 대한 압박감과 친구관계에서의 소외감을 동시에 경험하고 있음.",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 어머니가 상담 받아보라고 하셔서 왔는데, 솔직히 별로 오고 싶지 않았어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 오고 싶지 않은 마음으로 여기까지 오느라 쉽지 않았을 것 같아요. 솔직하게 말해줘서 고마워요. 편하게 이야기 나눠볼까요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 어머니랑 요즘 너무 자주 싸워요. 맨날 게임 그만하라고, 공부하라고만 하시거든요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "어머니와 자주 부딪히고 있군요. 게임과 공부 문제로 갈등이 있는 것 같은데, 좀 더 자세히 이야기해 줄 수 있을까요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "중간고사 성적이 많이 떨어졌어요. 전에는 중위권이었는데 이번엔 거의 밑바닥이에요. 그래서 더 난리시는 것 같아요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "성적이 많이 떨어져서 걱정이 되시나 봐요. 본인도 그 변화에 대해 어떻게 느끼고 있나요?",
       "turn": 6,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "처음엔 좀 걱정했는데... 지금은 그냥 무기력해요. 공부해도 안 될 것 같고, 그냥 게임이나 하는 게 낫죠.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "무기력함을 느끼고 있고, 노력해도 소용없을 것 같다는 생각이 드는군요. 그런 마음이 들면 정말 힘들 것 같아요.",
       "turn": 8,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 그리고 친구들도 요즘 저를 좀 피하는 것 같아요. 학교 가는 것도 별로예요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "친구들과의 관계에서도 어려움을 겪고 있네요. 성적 문제와 친구 관계, 두 가지가 동시에 힘든 상황이군요.",
       "turn": 10,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그래서 집에 오면 게임만 하게 돼요. 게임할 때만 좀 잊을 수 있거든요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "게임이 현실의 힘든 일들을 잠시 잊게 해주는 도피처 같은 역할을 하고 있는 것 같네요.",
       "turn": 12,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "그런 것 같아요. 게임 안에서는 제가 잘할 수 있는 게 있고, 친구들도 있거든요. 온라인 친구들이요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "게임 속에서는 성취감도 느끼고 소속감도 느낄 수 있는 거네요. 현실에서 채워지지 않는 부분들을 게임에서 채우고 있는 것 같아요.",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "interpretation"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "그렇게 말씀하시니까... 맞는 것 같기도 해요. 근데 이게 문제인가요?",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "게임 자체가 문제라기보다는, 현실의 어려움들을 피하는 방법으로만 사용되고 있다는 점이 중요해 보여요. 학교생활이나 친구관계에서 무슨 일이 있었는지 이야기해 줄 수 있나요?",
+      "turn": 16,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "1학기 때 친했던 친구들이 갑자기 저를 단톡방에서 빼더라고요. 이유도 모르겠어요. 그 후로 학교에서 혼자 있는 시간이 많아졌어요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "갑자기 친구들에게서 배제당하는 경험을 했군요. 이유도 모른 채 그런 일을 겪으면 정말 상처받고 혼란스러웠을 것 같아요.",
+      "turn": 18,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 처음엔 물어보려고 했는데, 용기가 안 나더라고요. 그냥 괜찮은 척했어요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "상처받은 마음을 숨기고 혼자 견뎌왔네요. 그 시기가 언제쯤이었나요?",
+      "turn": 20,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "2학기 시작하고 한 달쯤 됐을 때요. 그때부터 공부도 집중이 안 되고... 그냥 모든 게 의미 없어진 것 같았어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구관계에서의 상처가 공부 의욕에도 영향을 미쳤던 거네요. 그 연결고리를 스스로 인식하고 있나요?",
+      "turn": 22,
+      "technique": "insight"
+    },
+    {
+      "speaker": "client",
+      "text": "아... 그렇게 생각해본 적은 없었는데, 말씀 듣고 보니 그때부터 모든 게 꼬인 것 같아요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "중요한 깨달음이에요. 성적 하락이 단순히 게임 때문이 아니라, 친구관계에서 받은 상처와 연결되어 있다는 걸 알게 됐네요.",
+      "turn": 24,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "그럼 어떻게 해야 하죠? 친구들한테 다시 말을 걸어야 하나요?",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 부분은 천천히 생각해볼 필요가 있어요. 우선 본인이 지금 어떤 감정을 느끼고 있는지, 무엇이 필요한지 먼저 이해하는 게 중요해요. 그 친구들과의 관계에서 어떤 점이 가장 힘들었나요?",
+      "turn": 26,
+      "technique": "exploring"
+    },
+    {
+      "speaker": "client",
+      "text": "이유를 모른다는 게 제일 힘들었어요. 제가 뭘 잘못했는지... 그게 계속 머릿속을 맴돌아요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "불확실함이 가장 괴로웠던 거네요. 그 질문에 대한 답을 찾고 싶은 마음이 크겠어요.",
+      "turn": 28,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 근데 물어보기도 무섭고. 더 안 좋은 얘기 들을까봐요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "거절이나 상처받는 게 두렵군요. 그 두려움은 충분히 이해가 돼요. 하지만 지금처럼 회피하는 것도 본인을 계속 힘들게 하고 있어요. 작은 것부터 시도해볼 수 있는 방법을 함께 찾아볼까요?",
+      "turn": 30,
+      "technique": "supportive"
+    },
+    {
+      "speaker": "client",
+      "text": "어떤 방법이요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "예를 들어, 그 친구들이 아닌 다른 사람들과 관계를 시작해보는 것도 방법이 될 수 있어요. 혹은 학교에서 관심 있는 동아리나 활동이 있나요?",
+      "turn": 32,
+      "technique": "problem-solving"
+    },
+    {
+      "speaker": "client",
+      "text": "음... e-스포츠 동아리가 있긴 한데, 거기 가입하면 부모님이 더 화내실 것 같아요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "게임 관련 동아리에 관심이 있지만, 부모님의 반응이 걱정되는군요. 부모님과는 진로나 게임에 대해 깊이 있는 대화를 나눠본 적이 있나요?",
+      "turn": 34,
+      "technique": "open-ended question"
+    },
+    {
+      "speaker": "client",
+      "text": "아니요. 항상 싸우기만 해요. 저는 제 얘기를 하려고 하는데, 부모님은 듣지도 않고 무조건 공부하라고만 하세요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "본인의 이야기를 들어주지 않는다고 느끼고 있네요. 부모님도 걱정되는 마음에 그러시는 것 같지만, 서로 대화가 아닌 일방적인 지시처럼 느껴지는 거죠. 다음 시간에는 부모님과의 소통 방법과 본인이 진정으로 원하는 것이 무엇인지 더 깊이 탐색해보면 좋겠어요. 오늘 이야기 나눠줘서 고마워요.",
+      "turn": 36,
+      "technique": "summarizing"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T06:38:09.744552+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adolescent"
+  }
 }

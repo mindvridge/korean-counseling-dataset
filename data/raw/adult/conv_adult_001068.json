@@ -1,198 +1,204 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250619_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "남성",
+    "occupation": "IT 개발자"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.167685",
+  "situation": "최근 승진 후 팀장이 되었으나 리더십 부담과 후배들과의 관계에서 어려움을 겪고 있으며, 업무 스트레스로 인한 불면증과 불안감을 호소함",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 상담 받는 게 처음이라 좀 떨리네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음이라 긴장되시는 건 당연합니다. 편안하게 생각하시고 천천히 이야기 나눠보시면 좋겠어요. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "사실 요즘 너무 힘들어서요. 3개월 전에 팀장으로 승진했는데, 그 이후로 계속 잠을 제대로 못 자고 있어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "승진하신 지 3개월이 되셨는데 그때부터 불면증이 시작되셨군요. 축하드려야 할 일인데 힘드신 상황이네요. 어떤 점이 가장 어려우신가요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "팀원들이 5명인데, 그 중에 3명은 저랑 같이 일했던 동료들이에요. 갑자기 제가 상사가 되니까 관계가 어색해졌어요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "동료에서 상사로 관계가 변화하면서 어색함을 느끼고 계시는군요. 그런 상황에서 어떤 감정이 드시나요?",
       "turn": 6,
+      "technique": "open-ended question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "부담스럽죠. 전에는 같이 농담도 하고 편하게 지냈는데, 이제는 제가 평가도 해야 하고 지시도 내려야 하잖아요. 그게 너무 불편해요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "예전의 편안했던 관계를 유지하고 싶은데, 팀장으로서의 역할 때문에 그러지 못해서 부담스러우신 거네요. 그 사이에서 갈등하고 계신 것 같아요.",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 그리고 제가 결정을 내리면 그게 맞는 건지 계속 고민하게 돼요. 밤에 자려고 누우면 그런 생각들이 계속 떠올라서 잠을 못 자요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "업무상 내린 결정들에 대해 반복적으로 고민하시면서 불면증까지 이어지는 상황이시군요. 혹시 구체적으로 어떤 결정들이 가장 마음에 걸리시나요?",
       "turn": 10,
+      "technique": "clarification"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "지난주에 프로젝트 일정을 조정했는데, 팀원들이 야근을 좀 해야 했어요. 그때 한 후배가 불만스러운 표정을 지었는데, 그게 계속 생각나요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "후배의 불만스러운 표정이 계속 마음에 남아있으시네요. 그 모습을 보셨을 때 어떤 생각이 드셨나요?",
       "turn": 12,
+      "technique": "exploration"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "'내가 나쁜 상사가 되는 건 아닐까', '팀원들이 날 싫어하는 건 아닐까' 이런 생각이 들었어요. 그리고 제가 팀장 역할을 제대로 못하는 것 같다는 생각도 들고요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "한 사람의 표정에서 '나쁜 상사', '싫어함', '역할을 못함'이라는 여러 부정적인 생각들로 확장되는 것 같네요. 이런 생각의 패턴을 인식하고 계셨나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "cognitive restructuring"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "아... 그러고 보니 제가 너무 극단적으로 생각하는 것 같기도 하네요. 하지만 그 순간에는 정말 그렇게 느껴져요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "스스로 인식하신 것이 중요한 첫걸음입니다. 그 순간의 감정은 매우 실제적으로 느껴지는 게 당연해요. 혹시 그 후배와 직접 대화를 나눠보신 적은 있으신가요?",
+      "turn": 16,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "아니요... 어떻게 말을 꺼내야 할지 모르겠어서요. 괜히 물어봤다가 더 어색해질까봐 무섭기도 하고요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "대화를 시도하는 것 자체가 두려우신 거군요. 만약 그 두려움이 없다면, 이상적으로는 어떻게 소통하고 싶으신가요?",
+      "turn": 18,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "솔직하게 물어보고 싶죠. '그때 힘들었어? 미안해' 이런 식으로요. 그리고 앞으로 어떻게 하면 좋을지 같이 이야기하고 싶어요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "진솔한 소통을 원하시는군요. 그런 대화 방식은 오히려 신뢰를 쌓는 데 도움이 될 수 있어요. 그런데 실제로 시도하지 못하게 막는 건 무엇일까요?",
+      "turn": 20,
+      "technique": "exploration"
+    },
+    {
+      "speaker": "client",
+      "text": "제가 약해 보일까봐요. 팀장이면 확신 있고 강해야 한다고 생각했거든요. 미안하다고 하면 리더십이 약해 보이지 않을까요?",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "리더는 항상 강하고 확신에 차 있어야 한다는 믿음을 갖고 계시네요. 그런데 실제로 좋은 리더들을 보면 어떤 모습이던가요? 혹시 존경하는 리더가 있으신가요?",
+      "turn": 22,
+      "technique": "socratic questioning"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 전 팀장님이 좋았어요. 그분은 실수하면 인정하고, 팀원들 의견도 많이 물어보셨어요. 생각해보니 그래서 더 신뢰가 갔던 것 같네요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "중요한 통찰이네요. 전 팀장님은 완벽하지 않아도 솔직하고 소통하는 모습으로 신뢰를 얻으셨군요. 그렇다면 님께서 생각하시는 '강한 리더'의 정의를 다시 생각해볼 수 있을까요?",
+      "turn": 24,
+      "technique": "cognitive restructuring"
+    },
+    {
+      "speaker": "client",
+      "text": "그러게요... 제가 너무 틀에 박힌 생각을 하고 있었나봐요. 강한 리더가 꼭 완벽해야 하는 건 아니네요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "스스로 깨달음을 얻으신 것 같아 기쁩니다. 완벽함보다는 진정성과 소통이 더 중요할 수 있어요. 이제 작은 실천을 해보면 어떨까요?",
+      "turn": 26,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 해보고 싶어요. 그런데 여전히 불안하긴 해요. 어떻게 시작하면 좋을까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "불안한 마음이 드는 건 자연스러워요. 작은 것부터 시작해보시면 어떨까요? 예를 들어 한 명의 팀원과 커피 한 잔 하면서 편하게 이야기하는 것부터요.",
+      "turn": 28,
+      "technique": "behavioral activation"
+    },
+    {
+      "speaker": "client",
+      "text": "그 정도면 할 수 있을 것 같아요. 그런데 불면증은 어떻게 해야 할까요? 여전히 밤에 생각이 많아져서요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "잠들기 전 생각이 많아지는 것도 다뤄볼 수 있어요. 자기 전에 그날의 걱정거리를 노트에 적어보고, '내일 생각하기'라고 적어두는 방법을 시도해보시겠어요?",
+      "turn": 30,
+      "technique": "coping strategy"
+    },
+    {
+      "speaker": "client",
+      "text": "오, 그런 방법이 있군요. 해볼게요. 오늘 상담하면서 제 생각의 패턴을 좀 알게 된 것 같아요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "스스로 많은 것을 발견하셨네요. 리더십은 완벽함이 아니라 진정성에서 나온다는 것, 그리고 극단적인 생각 패턴을 인식하신 것이 큰 진전입니다. 다음 주에 어떻게 지내셨는지 이야기 나눠볼까요?",
+      "turn": 32,
+      "technique": "summarization"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 좋아요. 팀원이랑 커피 한번 마셔보고, 잠자기 전 노트 쓰는 것도 해볼게요. 감사합니다.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "실천 계획을 명확하게 세우셨네요. 잘하실 거예요. 혹시 너무 힘들면 언제든 연락주시고, 다음 주에 뵙겠습니다.",
+      "turn": 34,
+      "technique": "support"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T14:11:44.613457+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

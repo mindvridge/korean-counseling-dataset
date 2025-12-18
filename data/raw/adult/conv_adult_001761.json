@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_ADT_20250619_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "중학교 교사"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.492048",
+  "situation": "10년차 교사로서 학생들과의 관계는 좋지만, 최근 학교 내 파벌 갈등과 업무 과중으로 번아웃을 경험하고 있으며, 교직을 그만둘지 고민 중",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 사실 상담을 받아야 할지도 오래 고민했어요. 제가 너무 나약한 건가 싶기도 하고...",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 상담을 받기로 결정하기까지 많은 고민이 있으셨군요. 용기 내어 오셨다는 것만으로도 자신을 돌보려는 의지가 있다는 거예요. 편안하게 이야기 나눠보아요.",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "감사합니다. 저는 중학교에서 국어를 가르치는 교사인데요, 올해로 10년차가 됐어요. 그런데 요즘 출근하는 게 너무 힘들어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "10년이면 꽤 오랜 시간 교직에 계셨네요. 출근이 힘들어지셨다고 하셨는데, 언제부터 그런 느낌이 드셨나요?",
       "turn": 4,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정확히는 작년 말부터인 것 같아요. 학교에 새로운 교감 선생님이 오시면서 분위기가 많이 바뀌었거든요. 선생님들 사이에 파벌 같은 게 생기고...",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "학교 내 분위기 변화가 큰 영향을 주셨군요. 파벌이 생겼다고 하셨는데, 그게 구체적으로 어떤 상황인가요?",
       "turn": 6,
+      "technique": "clarification"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "새로 오신 교감 선생님이 특정 선생님들만 편애하시는 게 눈에 보여요. 업무 배분도 불공평하고, 회의 때도 일부 의견만 받아들이시고... 저는 어느 쪽에도 속하지 않으려고 하는데, 그게 오히려 더 힘든 것 같아요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "어느 편에도 서지 않으려고 중립을 지키는 것이 오히려 더 외롭고 힘든 상황을 만들고 있는 것 같네요. 그 속에서 많이 고립감을 느끼셨겠어요.",
       "turn": 8,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "맞아요. 정말 외로워요. 예전에는 동료 선생님들과 점심도 같이 먹고 이야기도 나누고 그랬는데, 지금은 누구랑 밥을 먹어야 할지도 고민이 돼요. 괜히 오해받을까봐.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "일상적인 점심 식사조차도 신경 쓰이는 상황이라니, 직장에서의 심리적 안전감이 많이 무너진 상태시네요. 그런 환경에서 10개월 넘게 지내셨다는 게 정말 힘드셨을 것 같아요.",
       "turn": 10,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 그리고 업무도 너무 많아졌어요. 행정 업무, 생활지도, 수업 준비에다가 각종 공문 처리까지... 집에 가면 녹초가 돼요. 주말에도 일 생각하면 우울해지고요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "업무 과중까지 겹치면서 신체적으로도 정신적으로도 지쳐가고 계시는군요. 주말에도 일로부터 벗어나지 못하신다고 하셨는데, 그럼 쉴 수 있는 시간이 거의 없으신 건가요?",
       "turn": 12,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "거의 없어요. 주말에 잠깐 쉬는 것 같아도 월요일 생각하면 일요일 저녁부터 불안해지고... 최근엔 잠도 잘 못 자요. 새벽에 자꾸 깨요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "수면까지 영향을 받고 계시네요. 불안과 스트레스가 신체적 증상으로도 나타나고 있는 것 같은데, 이런 상태가 얼마나 지속되셨나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "assessment"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "한 3~4개월 정도 된 것 같아요. 처음엔 일시적인 거라고 생각했는데, 점점 더 심해지는 것 같아요. 아침에 일어나면 출근하기 싫어서 눈물이 나기도 하고...",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "아침에 눈물이 날 정도라면 정말 심각한 번아웃 상태에 계신 것 같아요. 그런데도 계속 출근하고 계신 거잖아요. 그 자체로도 대단한 노력이에요.",
+      "turn": 16,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "그냥... 책임감 때문에요. 아이들은 죄가 없잖아요. 제 수업을 기다리는 학생들을 생각하면 그냥 못 나가겠더라고요. 그런데 최근엔 그것조차 버거워요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "학생들에 대한 책임감으로 버티고 계셨군요. 그런데 그 책임감마저도 이제는 버거워질 만큼 힘든 상태가 되셨다는 거네요. 교직을 그만두는 것도 고려하고 계신가요?",
+      "turn": 18,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 요즘 매일 생각해요. 그만둘까, 아니면 다른 학교로 전근을 갈까... 근데 10년을 했는데 이제 와서 그만둔다는 게 패배 같기도 하고, 부모님도 실망하실 것 같고...",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "한편으로는 이 상황에서 벗어나고 싶은데, 다른 한편으로는 그만두는 것이 패배처럼 느껴지고 주변의 시선도 신경 쓰이시는 거군요. 양가감정 속에서 많이 혼란스러우시겠어요.",
+      "turn": 20,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 정말 혼란스러워요. 제가 원래 교사가 꿈이었거든요. 학생들 가르치는 건 정말 좋아하는데, 이런 조직 문화나 과도한 업무는 감당이 안 되는 거예요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "교사라는 직업 자체와 학생들을 가르치는 일은 여전히 의미 있고 좋아하시는데, 조직의 환경적인 문제들이 그 본질을 가리고 있는 상황이네요. 이 두 가지를 분리해서 생각해보신 적 있으세요?",
+      "turn": 22,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "분리해서요? 어떻게요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 힘든 것이 '교사'라는 일 자체 때문인지, 아니면 '현재 이 학교의 환경' 때문인지를 구분해보는 거예요. 만약 환경이 달라진다면 어떨 것 같으세요?",
+      "turn": 24,
+      "technique": "clarification"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 생각해보니까 작년까지만 해도 힘들어도 보람 있었거든요. 학교 분위기도 좋았고. 그러니까 환경이 문제인 것 같네요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 중요한 통찰이에요. 문제의 핵심이 직업 자체가 아니라 현재의 환경에 있다는 걸 인식하셨네요. 그렇다면 환경을 바꾸는 방법에는 어떤 것들이 있을까요?",
+      "turn": 26,
+      "technique": "solution_focused"
+    },
+    {
+      "speaker": "client",
+      "text": "전근을 가거나... 아니면 이 상황을 견디거나... 다른 방법이 있을까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "전근도 하나의 방법이 될 수 있겠네요. 그 외에도 현재 학교에 있으면서 상황을 개선할 수 있는 방법은 없을까요? 예를 들어 업무 조정이나 동료들과의 관계 회복 같은 것들요.",
+      "turn": 28,
+      "technique": "brainstorming"
+    },
+    {
+      "speaker": "client",
+      "text": "글쎄요... 교감 선생님께 업무 조정을 요청할 수는 있을 것 같은데, 괜히 찍힐까봐 두려워요. 동료들은... 어떻게 접근해야 할지 모르겠어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "요청하는 것에 대한 두려움이 있으시군요. 그 두려움은 충분히 이해가 돼요. 하지만 지금처럼 계속 견디는 것과 용기 내어 변화를 시도하는 것 중에서, 어떤 것이 더 나은 결과를 가져올 것 같으세요?",
+      "turn": 30,
+      "technique": "socratic_questioning"
+    },
+    {
+      "speaker": "client",
+      "text": "변화를 시도하는 게 나을 것 같긴 한데... 어떻게 시작해야 할지 막막해요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "작은 것부터 시작해보는 건 어떨까요? 예를 들어 가장 편하게 느껴지는 동료 선생님 한 분과 먼저 대화를 시도해보거나, 업무 중 가장 부담되는 한 가지만 조정을 요청해보는 거예요.",
+      "turn": 32,
+      "technique": "behavioral_activation"
+    },
+    {
+      "speaker": "client",
+      "text": "작은 것부터라... 그게 덜 부담스러울 것 같네요. 사실 같은 학년 부장 선생님이 괜찮으신 분이거든요. 그분한테 먼저 이야기해볼 수 있을 것 같아요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 시작점을 찾으셨네요. 그분께 어떤 이야기를 하고 싶으세요?",
+      "turn": 34,
+      "technique": "action_planning"
+    },
+    {
+      "speaker": "client",
+      "text": "요즘 제가 힘들다는 것, 그리고 학교 분위기에 대해서 어떻게 생각하시는지... 조언을 구하고 싶어요. 혼자가 아니라는 느낌을 받고 싶기도 하고요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "연결감을 회복하고 싶으신 거네요. 그것도 중요한 욕구예요. 오늘 상담을 통해 스스로 문제를 명확히 하시고, 작은 실천 방법도 찾으셨어요. 다음 주에 그 대화를 나눠보시고, 어떠셨는지 함께 이야기 나눠볼까요?",
+      "turn": 36,
+      "technique": "summary"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T15:35:53.330547+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

@@ -1,198 +1,237 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_20250101_ADT_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "중학교 교사"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.076867",
+  "situation": "10년차 교사로서 최근 학생들과의 관계에서 번아웃을 경험하고 있으며, 교직에 대한 회의감과 함께 진로 변경을 고민하고 있음",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요... 사실 상담받는 게 처음이라 좀 떨리네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 상담 오시기까지 용기 내주셔서 감사합니다. 긴장되시는 건 자연스러운 일이에요. 편안하게 말씀해주시면 됩니다. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "저는 중학교에서 국어를 가르치는 교사예요. 10년째 일하고 있는데... 요즘 너무 힘들어서요. 아침에 일어나는 게 고통스럽고, 학교 가는 게 두렵기까지 해요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "10년간 교직에 계셨는데, 최근 출근 자체가 힘들어지셨군요. '고통스럽다', '두렵다'는 표현을 쓰실 만큼 많이 힘드신 것 같아요. 언제부터 이런 감정을 느끼기 시작하셨나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "정확히는 모르겠지만... 작년 하반기부터인 것 같아요. 처음엔 그냥 피곤한 줄 알았는데, 점점 더 심해지더라고요. 학생들 보는 것도 이제는 부담스럽고요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "작년 하반기부터 증상이 시작되어 점차 심해지고 계시는군요. 학생들을 보는 것까지 부담스러워지셨다니, 교사로서 정말 힘든 상황이실 것 같습니다. 혹시 그 시기에 특별한 일이 있으셨나요?",
       "turn": 6,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "특별한 일이라기보다는... 그냥 누적된 것 같아요. 학생들은 점점 통제가 안 되고, 학부모들은 까다로워지고, 행정 업무는 늘어나고... 제가 왜 교사가 되고 싶었는지 기억도 안 나요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "여러 어려움들이 쌓이면서 초심마저 잃어버리신 것 같네요. 학생 지도, 학부모 응대, 행정 업무까지... 다양한 방면에서 압박을 받고 계시는군요.",
       "turn": 8,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네, 맞아요. 그리고 솔직히 말하면... 저는 교사라는 직업이 적성에 안 맞는 것 같아요. 처음부터 그랬던 건 아닌데, 이제는 정말 확신이 들어요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "지금은 적성에 맞지 않는다고 느끼시지만, 처음부터 그랬던 건 아니셨다고 하셨어요. 초기에는 어떠셨나요? 교사가 되고 싶으셨던 이유가 있으셨을 텐데요.",
       "turn": 10,
+      "technique": "open_question"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "처음엔... 학생들 가르치는 게 좋았어요. 아이들이 성장하는 모습 보는 게 보람 있었고요. 근데 언젠가부터 그런 감정이 사라졌어요. 이제는 그냥 의무감으로만 일하는 것 같아요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "초기에는 학생들의 성장을 보며 보람을 느끼셨는데, 지금은 그런 긍정적인 감정이 사라지고 의무감만 남았다고 느끼시는군요. 그 변화가 참 안타까우시겠어요.",
       "turn": 12,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 그래서 요즘 진지하게 퇴사를 고민하고 있어요. 하지만 34살에 10년 경력 버리고 나가는 게 맞는 건지, 나가서 뭘 할 수 있을지도 모르겠고... 너무 혼란스러워요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "퇴사를 고민하고 계시지만, 동시에 경력과 나이, 그리고 미래에 대한 불확실성 때문에 결정을 내리기 어려우신 상황이군요. 양쪽 모두 무게감이 있어서 혼란스러우실 것 같습니다.",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "validation"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "맞아요. 주변에서는 공무원 신분 버리는 게 미친 짓이라고 하고... 남편도 반대해요. 그런데 저는 정말 더 이상 못 버틸 것 같거든요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "주변의 반대와 본인의 한계 사이에서 갈등하고 계시네요. 남편분께서는 어떤 이유로 반대하시나요?",
+      "turn": 16,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "경제적인 이유요. 저희 아이가 아직 어리거든요. 다섯 살이에요. 남편 수입만으로는 부족하니까 제가 안정적인 수입을 유지해야 한다는 거죠.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "아, 어린 자녀가 있으시군요. 그렇다면 경제적 안정성이 더욱 중요한 고려사항이 되겠네요. 엄마로서, 아내로서, 그리고 본인 자신으로서의 욕구들이 충돌하는 상황이시네요.",
+      "turn": 18,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그래서 더 죄책감이 들어요. 엄마로서 무책임한 건가 싶기도 하고요. 근데 이대로 가다간 제가 정말 무너질 것 같아요. 요즘 애한테도 짜증을 많이 내게 되더라고요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "죄책감을 느끼고 계시지만, 동시에 본인의 한계도 분명히 인식하고 계시네요. 그리고 그 스트레스가 자녀와의 관계에도 영향을 미치고 있다는 것을 알아차리신 거죠. 이런 자각 자체가 중요한 첫걸음입니다.",
+      "turn": 20,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "정말요? 저는 그냥 제가 나약한 사람인 것 같아서... 다른 선생님들은 다 잘 버티는데 저만 못 버티는 것 같거든요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "다른 분들과 비교하시면서 스스로를 나약하다고 평가하고 계시네요. 하지만 각자의 상황과 감내할 수 있는 스트레스 수준은 다릅니다. 그리고 겉으로 보이는 것과 실제는 다를 수도 있고요. 본인의 감정과 한계를 인정하는 것은 나약함이 아니라 용기입니다.",
+      "turn": 22,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각해본 적은 없었어요... 그럼 선생님, 저는 어떻게 해야 할까요? 퇴사를 해야 할까요, 아니면 버텨야 할까요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "제가 정답을 드릴 수는 없지만, 함께 생각해볼 수 있을 것 같아요. 우선, 지금 당장 퇴사와 지속 두 가지 선택지만 있는 건 아닐 수도 있어요. 혹시 중간 단계나 다른 대안들을 생각해보신 적 있으신가요?",
+      "turn": 24,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "중간 단계요? 어떤 걸 말씀하시는 거예요?",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "예를 들어, 휴직을 고려해보신다거나, 학교 내에서 다른 역할이나 업무 조정을 요청하는 것, 또는 근무 시간을 조정하는 것 등이 있을 수 있겠죠. 현재 상황에서 가능한 옵션들을 먼저 탐색해보는 것도 방법일 수 있습니다.",
+      "turn": 26,
+      "technique": "information_providing"
+    },
+    {
+      "speaker": "client",
+      "text": "아... 휴직은 생각 못 해봤어요. 그게 가능할까요? 그런데 휴직하면 경제적으로는 더 어려워지지 않나요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "교사의 경우 여러 종류의 휴직 제도가 있고, 일부는 급여가 지급되기도 합니다. 정확한 정보는 학교나 교육청에 확인해보셔야 하겠지만, 탐색해볼 가치는 있을 것 같아요. 이런 옵션들을 알아보는 동안, 우리는 내담자님의 번아웃 상태를 개선하는 데 집중할 수도 있고요.",
+      "turn": 28,
+      "technique": "information_providing"
+    },
+    {
+      "speaker": "client",
+      "text": "번아웃이요... 제가 번아웃인 건가요?",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "말씀하신 증상들 - 아침에 일어나기 힘들고, 출근이 두렵고, 의욕이 없고, 자녀에게 짜증이 늘고, 초심을 잃었다고 느끼시는 것들이 전형적인 번아웃 증상들과 일치합니다. 이건 개인의 나약함이 아니라 과도한 스트레스에 대한 자연스러운 반응이에요.",
+      "turn": 30,
+      "technique": "psychoeducation"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇군요... 그럼 번아웃은 회복할 수 있는 건가요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 충분히 회복 가능합니다. 적절한 휴식, 스트레스 관리, 그리고 상황 개선을 위한 노력들을 통해서요. 다만 시간이 필요하고, 환경적인 변화도 함께 고려해야 할 수 있습니다. 내담자님의 경우, 퇴사를 결정하시기 전에 먼저 회복의 기회를 가져보시는 건 어떨까요?",
+      "turn": 32,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "그게 좋을 것 같긴 한데... 구체적으로 어떻게 해야 할지 모르겠어요. 지금도 시간이 없는데 뭘 더 할 수 있을까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "이해합니다. 지금 상태에서 '뭔가 더 하기'는 부담스럽게 느껴지실 거예요. 그래서 우선은 불필요한 것들을 덜어내는 것부터 시작해볼 수 있습니다. 혹시 지금 하고 계신 일들 중에 꼭 필요하지 않거나 다른 사람에게 도움을 요청할 수 있는 것들이 있을까요?",
+      "turn": 34,
+      "technique": "problem_solving"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 집안일은 남편이 좀 더 도와줄 수 있을 것 같긴 해요. 그리고 학교에서도 제가 너무 많은 걸 혼자 떠안으려고 했던 것 같기도 하고요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 인식이세요. 혼자 모든 것을 감당하려 하셨군요. 남편분과 집안일에 대해 대화해보시고, 학교에서도 동료들과 업무를 나누는 것에 대해 이야기해보시면 좋겠어요. 그리고 우리가 정기적으로 만나면서 내담자님의 상태를 점검하고, 회복 과정을 함께 가는 건 어떨까요?",
+      "turn": 36,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 하고 싶어요. 오늘 상담하면서 조금 마음이 가벼워진 것 같아요. 제가 나약한 게 아니라는 말씀이 특히 위로가 됐어요.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "다행입니다. 오늘 용기 내서 오신 것만으로도 변화의 첫걸음을 내디디신 거예요. 다음 상담 때는 남편분과의 대화, 그리고 휴직 제도에 대해 알아보신 것들을 함께 나눠보면 좋겠습니다. 그리고 무엇보다 본인을 돌보는 시간을 조금씩 가져보세요.",
+      "turn": 38,
+      "technique": "encouragement"
+    },
+    {
+      "speaker": "client",
+      "text": "네, 노력해볼게요. 다음 주에 또 뵐 수 있을까요?",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "물론입니다. 다음 주 같은 시간에 뵙겠습니다. 그 전에 힘든 일이 있으면 언제든 연락주세요. 오늘 고생 많으셨어요.",
+      "turn": 40,
+      "technique": "support"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T13:47:12.917838+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }

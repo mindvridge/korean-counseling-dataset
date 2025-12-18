@@ -1,198 +1,215 @@
 {
-  "metadata": {
-    "category": "adult",
-    "topic": "T",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy"
-    ]
+  "conversation_id": "CONV_ADT_20250619_001",
+  "category": "adult",
+  "persona": {
+    "age": 34,
+    "gender": "여성",
+    "occupation": "회계사"
   },
-  "seed_info": {
-    "category": "adult"
-  },
-  "generated_at": "2025-12-17T02:04:27.265340",
+  "situation": "10년간 다니던 회계법인에서 최근 승진에서 탈락했고, 후배가 먼저 승진하면서 자존감이 낮아지고 직장 내에서 소외감을 느끼고 있음. 일에 대한 열정도 사라지고 출근하는 것 자체가 두렵고 힘든 상황",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "Text"
+      "text": "안녕하세요. 상담 예약하고 오긴 했는데... 사실 이렇게 상담을 받는 게 처음이라 좀 떨리네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "안녕하세요. 처음 오시는 거라 긴장되실 수 있어요. 편안하게 생각하시고, 천천히 이야기 나눠보면 좋겠습니다. 오늘 어떤 이야기를 나누고 싶으신가요?",
       "turn": 2,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "요즘 회사 다니는 게 너무 힘들어요. 아침에 일어나면 출근하기가 싫고, 회사만 생각하면 가슴이 답답해지고... 이런 적이 처음이에요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "회사에 가는 것 자체가 부담스럽고 힘드신 상황이시군요. 이런 감정이 언제부터 시작되셨나요?",
       "turn": 4,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "한 두 달 전부터요. 그때 승진 발표가 있었는데... 저는 떨어지고 저보다 3년 늦게 입사한 후배가 승진했어요. 10년 동안 열심히 일했는데 말이죠.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "10년간 열심히 노력해오셨는데 승진에서 탈락하시고, 후배가 먼저 승진하는 걸 보셨다니... 그 충격과 실망감이 정말 크셨겠어요.",
       "turn": 6,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "네... 솔직히 제가 일을 못한다고 생각하진 않았거든요. 실수도 거의 없었고, 야근도 마다하지 않았는데... 왜 나만 안 됐을까 하는 생각이 계속 들어요.",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "자신의 노력과 성과에 대한 확신이 있으셨는데, 예상과 다른 결과를 받으시면서 혼란스러우신 것 같아요. 승진 탈락 이유에 대해 회사에서 설명을 들으셨나요?",
       "turn": 8,
+      "technique": "validation"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "팀장님이 '리더십이 좀 부족하다'고 하시더라고요. 그런데 그게 무슨 의미인지 구체적으로 설명해주시진 않았어요. 그냥 두루뭉술하게만 말씀하셔서 더 답답했어요.",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "명확한 피드백 없이 추상적인 이유만 들으셨으니 더 혼란스럽고 억울하셨을 것 같습니다. 그 이후로 직장 생활이 어떻게 달라지셨나요?",
       "turn": 10,
+      "technique": "empathy"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "사람들 눈치가 보이기 시작했어요. 승진한 후배는 이제 제 상사가 됐고... 회의 때 의견을 내는 것도 주저하게 되더라고요. '내가 리더십이 없다는데 말해봤자...' 이런 생각이 들어서요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "승진 탈락 이후로 스스로를 바라보는 시선이 부정적으로 변하셨고, 그것이 업무에서의 행동에도 영향을 미치고 있는 것 같네요. 예전의 본인과 지금의 본인이 많이 다르게 느껴지시나요?",
       "turn": 12,
+      "technique": "reflection"
+    },
+    {
       "speaker": "client",
-      "text": "Text"
+      "text": "완전히 달라졌어요. 예전엔 자신감 있게 일했는데, 지금은 모든 게 의심스러워요. '내가 이 일을 제대로 하고 있나', '또 실수하는 건 아닐까' 이런 생각들로 머릿속이 복잡해요.",
+      "turn": 13
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "Text"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
+      "text": "한 번의 사건이 자기 자신에 대한 전반적인 믿음을 흔들어놓은 상황이시네요. 그 불안감과 자기 의심이 일상생활에도 영향을 미치고 있나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "Text"
+      "technique": "validation"
     },
     {
-      "turn": 14,
+      "speaker": "client",
+      "text": "네. 집에 가서도 계속 생각나요. 잠도 잘 못 자고... 친구들 만나는 것도 피하게 되더라고요. '너는 잘 지내냐'는 질문이 두려워서요. 제가 승진 못 한 얘기를 하고 싶지 않아서요.",
+      "turn": 15
+    },
+    {
       "speaker": "counselor",
-      "text": "Text",
-      "technique": [
-        "empathy"
-      ]
+      "text": "직장에서의 일이 사생활 전반에까지 영향을 미치고 계시네요. 수면 문제와 사회적 관계 회피까지... 지금 정말 힘든 시기를 보내고 계신 것 같습니다.",
+      "turn": 16,
+      "technique": "empathy"
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 그리고 제일 힘든 건... 일에 대한 의욕이 완전히 사라졌다는 거예요. 예전엔 새로운 프로젝트가 오면 설렜는데, 이젠 그냥 '해야 하는 일'일 뿐이에요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "일에 대한 열정과 의미를 잃어버리신 것 같아 안타깝습니다. 10년간 쌓아온 커리어인데, 지금은 그 가치를 느끼기 어려우신 상황이시군요. 혹시 이직이나 다른 선택지에 대해서도 고민해보셨나요?",
+      "turn": 18,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "생각은 해봤어요. 근데 또 '내가 여기서도 인정받지 못했는데 다른 데 가면 뭐가 달라질까' 싶기도 하고... 그냥 도망가는 것 같기도 하고요. 제 나이도 이제 30대 중반인데 새로 시작하기엔 너무 늦은 것 같기도 하고요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화를 생각하면서도 동시에 두려움과 자기 의심이 함께 올라오는 것 같네요. '도망'이라는 표현을 쓰셨는데, 지금 상황을 떠나는 것이 왜 도망처럼 느껴지시나요?",
+      "turn": 20,
+      "technique": "reflection"
+    },
+    {
+      "speaker": "client",
+      "text": "음... 문제를 해결하지 못하고 피하는 것 같아서요? 그리고 10년이라는 시간이 아깝기도 하고... 여기서 승진하는 게 제 목표였는데 그걸 이루지 못하고 떠나면 실패한 것 같아서요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "승진이 성공의 유일한 기준이 되어버린 것 같네요. 그런데 10년간의 경험과 성장, 그리고 쌓아온 전문성은 승진 여부와 관계없이 존재하는 가치 아닐까요?",
+      "turn": 22,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각해본 적은 없네요... 항상 '다음 단계'만 생각했던 것 같아요. 승진하면 인정받는 거고, 못 하면 실패라고만 생각했어요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "그동안 외부의 평가나 직급이 본인의 가치를 증명하는 수단이 되어왔던 것 같습니다. 그런데 지금 이 힘든 시기가 오히려 '나에게 진짜 중요한 것이 무엇인가'를 돌아볼 기회가 될 수도 있을 것 같아요.",
+      "turn": 24,
+      "technique": "reframing"
+    },
+    {
+      "speaker": "client",
+      "text": "진짜 중요한 것... 사실 잘 모르겠어요. 그냥 열심히 일하면 인정받고, 승진하고, 그게 당연한 거라고 생각했는데...",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 당연하다고 생각했던 것들이 흔들리면서 혼란스러우신 거예요. 그렇다면 우리 함께 천천히 탐색해볼까요? 일을 떠나서, 본인이 가치 있게 여기는 것들이나 잘하는 것들에 대해 생각해보신 적 있으세요?",
+      "turn": 26,
+      "technique": "open_question"
+    },
+    {
+      "speaker": "client",
+      "text": "글쎄요... 일 외에는 별로 생각해본 적이 없어요. 주말에도 일 생각하고, 자격증 공부하고... 제 삶이 온통 일뿐이었던 것 같네요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "일에 모든 에너지를 쏟으셨기 때문에 지금 더 큰 충격을 받으신 것 같아요. 이제는 삶의 균형을 찾아가는 것도 중요할 것 같습니다. 작은 것부터 시작해보면 어떨까요? 예전에 좋아했던 활동이나 관심사가 있으셨나요?",
+      "turn": 28,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "대학교 때는 그림 그리는 걸 좋아했어요. 동아리도 했었고... 근데 취업하고 나서는 시간이 없어서 완전히 손을 놨죠.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "그림을 좋아하셨군요. 그런 창작 활동은 자기표현의 통로가 되고, 성취감을 느낄 수 있는 다른 영역이 될 수 있어요. 지금 당장은 어렵겠지만, 조금씩 그런 활동들을 다시 시작해보시는 건 어떨까요?",
+      "turn": 30,
+      "technique": "suggestion"
+    },
+    {
+      "speaker": "client",
+      "text": "그럴 여유가 있을까요? 회사 일도 제대로 못하는데...",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금은 '제대로 못한다'고 느끼시지만, 실제로는 10년간 쌓은 전문성으로 업무를 수행하고 계세요. 다만 자신감이 떨어져서 그렇게 느껴지는 것뿐이에요. 오히려 다른 활동을 통해 에너지를 회복하면 업무에도 긍정적인 영향을 줄 수 있습니다.",
+      "turn": 32,
+      "technique": "validation"
+    },
+    {
+      "speaker": "client",
+      "text": "그럴 수도 있겠네요... 사실 요즘 너무 우울해서 뭘 해야 할지도 모르겠고, 그냥 하루하루가 버겁기만 해요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 느끼시는 우울감과 무기력함은 충분히 이해가 됩니다. 중요한 건 이런 감정이 영구적인 게 아니라는 거예요. 지금은 힘든 시기를 통과하고 있는 중이고, 함께 한 걸음씩 나아갈 수 있어요. 앞으로 상담을 통해 어떤 도움을 받고 싶으신가요?",
+      "turn": 34,
+      "technique": "hope_instillation"
+    },
+    {
+      "speaker": "client",
+      "text": "일단... 출근하는 게 덜 두렵고 힘들었으면 좋겠어요. 그리고 제 자신을 다시 믿을 수 있게 됐으면 좋겠고요. 제가 정말 가치 없는 사람은 아니잖아요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "물론이죠. 승진 여부가 당신의 가치를 결정하지 않습니다. 함께 자존감을 회복하고, 일과 삶의 균형을 찾아가면서, 당신만의 의미 있는 삶을 만들어갈 수 있도록 도와드리겠습니다. 다음 상담부터는 구체적인 목표를 설정하고 작은 변화부터 시작해볼까요?",
+      "turn": 36,
+      "technique": "support"
     }
-  ]
+  ],
+  "metadata": {
+    "generated_at": "2025-12-17T14:29:30.152262+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "adult"
+  }
 }
