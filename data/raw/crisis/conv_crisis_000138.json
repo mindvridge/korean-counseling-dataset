@@ -1,249 +1,414 @@
 {
-  "metadata": {
-    "category": "crisis",
-    "topic": "극심한 우울",
-    "total_turns": 33,
-    "quality_indicators": [
-      "information_giving",
-      "confrontation",
-      "empathy",
-      "encouragement",
-      "emotion_labeling"
-    ]
+  "category": "crisis",
+  "client_profile": {
+    "age": "19",
+    "gender": "여성",
+    "occupation": "고등학생",
+    "background": "반복적 자해, 부모와의 갈등, 학업 스트레스"
   },
-  "seed_info": {
-    "source_file": "data/seeds/crisis/seed_0038.json",
-    "category": "crisis"
-  },
-  "generated_at": "2025-12-17T02:03:42.811010",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "극심한 우울로 힘들어요."
+      "text": "[자해 충동 - 증상이나 위기 상황 호소]"
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "어서 오세요. 편하게 말씀해주세요.",
+      "text": "[공감과 안전 확인 대응]",
       "technique": [
-        "reflection",
         "empathy",
-        "emotion_labeling"
+        "validation"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "상황이 점점 악화되고 있어요."
+      "text": "[자해 충동 - 구체적 상황 설명]"
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "많이 힘드셨나 봐요. 함께 이야기 나눠봐요.",
+      "text": "[경청과 반영 대응]",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "[자해 충동 - 감정 표현]"
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "[감정 인정 및 라벨링 대응]",
+      "technique": [
+        "emotion_labeling",
+        "validation"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "[자해 충동 - 위기 정도 설명]"
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "[위험도 평가 질문 대응]",
+      "technique": [
+        "closed_question",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "[자해 충동 - 자해/자살 생각 여부]"
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "[직접적 질문과 평가 대응]",
+      "technique": [
+        "closed_question",
+        "validation"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "[자해 충동 - 계획이나 수단 유무]"
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "[구체적 평가 대응]",
       "technique": [
         "closed_question",
         "information_giving"
       ]
     },
     {
-      "turn": 3,
-      "speaker": "client",
-      "text": "시도해볼게요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "그런 감정이 드는 게 자연스러워요.",
-      "technique": [
-        "structuring"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "시도해볼게요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "함께 방법을 찾아봐요.",
-      "technique": [
-        "goal_setting",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "쉽지 않을 것 같은데..."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "잘하고 계세요. 계속 이어가세요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "시도해볼게요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "작은 변화부터 시작해볼까요?",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
       "turn": 7,
       "speaker": "client",
-      "text": "시도해볼게요."
+      "text": "[자해 충동 - 과거 시도 이력]"
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "함께 방법을 찾아봐요.",
+      "text": "[이력 확인 대응]",
       "technique": [
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "주변 사람들은 이해를 못 해요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "함께 방법을 찾아봐요.",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "정말 그럴까요?"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "잘하고 계세요. 계속 이어가세요.",
-      "technique": [
-        "empathy"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "조금씩 나아지는 것 같아요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "함께 방법을 찾아봐요.",
-      "technique": [
-        "encouragement",
-        "emotion_labeling",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "주변 사람들은 이해를 못 해요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "함께 방법을 찾아봐요.",
-      "technique": [
-        "restatement",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "혼자서 감당하기 힘들어요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "작은 변화부터 시작해볼까요?",
-      "technique": [
-        "validation",
-        "closed_question",
+        "clarification",
         "reflection"
       ]
     },
     {
-      "turn": 13,
+      "turn": 8,
       "speaker": "client",
-      "text": "쉽지 않을 것 같은데..."
+      "text": "[자해 충동 - 보호 요인 확인]"
     },
     {
-      "turn": 13,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "작은 변화부터 시작해볼까요?",
-      "technique": [
-        "structuring"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "시도해볼게요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "잘하고 계세요. 계속 이어가세요.",
-      "technique": [
-        "structuring",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "쉽지 않을 것 같은데..."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "응원할게요. 잘하실 거예요.",
+      "text": "[지지체계 탐색 대응]",
       "technique": [
         "open_question",
         "validation"
       ]
     },
     {
+      "turn": 9,
+      "speaker": "client",
+      "text": "[자해 충동 - 가족/친구 유무]"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "[자원 확인 대응]",
+      "technique": [
+        "open_question",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "[자해 충동 - 도움 요청 어려움]"
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "[격려와 정보 제공 대응]",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "[자해 충동 - 즉각적 안전 확보]"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "[안전 계획 시작 대응]",
+      "technique": [
+        "structuring",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "[자해 충동 - 위험 요소 제거]"
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "[구체적 지시 대응]",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "[자해 충동 - 24시간 연락처]"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "[핫라인 안내 대응]",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "[자해 충동 - 병원 방문 필요성]"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "[응급 의료 안내 대응]",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "[자해 충동 - 거부감 표현]"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "[설득과 정보 대응]",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 16,
       "speaker": "client",
-      "text": "감사합니다."
+      "text": "[자해 충동 - 가족 연락 동의]"
     },
     {
       "turn": 16,
       "speaker": "counselor",
-      "text": "응원할게요. 잘하실 거예요.",
+      "text": "[보호자 연락 계획 대응]",
       "technique": [
-        "reflection",
-        "open_question"
+        "structuring",
+        "goal_setting"
       ]
     },
     {
       "turn": 17,
       "speaker": "client",
-      "text": "다음에 또 올게요."
+      "text": "[자해 충동 - 단기 안전 계획]"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "[구체적 계획 수립 대응]",
+      "technique": [
+        "structuring",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "[자해 충동 - 대처 전략]"
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "[즉시 사용 가능한 기법 대응]",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "[자해 충동 - 지지 자원]"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "[네트워크 활성화 대응]",
+      "technique": [
+        "structuring",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "[자해 충동 - 추후 상담 계획]"
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "[후속 조치 안내 대응]",
+      "technique": [
+        "goal_setting",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "[자해 충동 - 약물 치료 필요성]"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "[정신과 진료 권고 대응]",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "[자해 충동 - 입원 필요성]"
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "[평가 및 권고 대응]",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "[자해 충동 - 저항감]"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "[필요성 설명 대응]",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "[자해 충동 - 현재 안전 확인]"
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "[재확인 대응]",
+      "technique": [
+        "closed_question",
+        "validation"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "[자해 충동 - 다음 단계]"
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "[명확한 지시 대응]",
+      "technique": [
+        "structuring",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "[자해 충동 - 감사 표현]"
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "[격려와 지지 대응]",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "[자해 충동 - 불안 지속]"
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "[재안심 대응]",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "[자해 충동 - 약속]"
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "[안전 계약 및 마무리 대응]",
+      "technique": [
+        "structuring",
+        "encouragement"
+      ]
     }
-  ]
+  ],
+  "crisis_level": "high",
+  "safety_plan_included": true,
+  "referral_made": true,
+  "generated_at": "2025-12-17T00:00:00.000Z",
+  "conversation_id": "CRI_20251218_0138",
+  "metadata": {
+    "generated_at": "2025-12-18T03:07:36.106659+00:00",
+    "model": "claude-sonnet-4-5",
+    "seed_category": "crisis",
+    "generator": "claude_code_direct"
+  }
 }
