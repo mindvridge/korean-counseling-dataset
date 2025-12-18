@@ -1,209 +1,399 @@
 {
-  "conversation_id": "CONV_ADULT_20250622_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "여성",
-    "occupation": "중학교 교사"
+  "client_profile": {
+    "age": "45",
+    "gender": "남성",
+    "occupation": "회계사",
+    "background": "6개월간 지속되는 불면증, 잠들기 어렵고 새벽에 자주 깸, 낮 동안 피로와 집중력 저하, 업무 효율 감소"
   },
-  "situation": "10년차 교사로서 최근 학생들과의 관계에서 어려움을 겪고 있으며, 번아웃과 함께 교직에 대한 회의감을 느끼고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 사실 상담을 받으러 온다는 게 조금 부끄럽긴 한데, 요즘 너무 힘들어서 이렇게 찾아왔어요.",
-      "turn": 1
+      "text": "밤에 잠을 못 자겠어요. 누워도 몇 시간씩 뒤척이다가 겨우 잠들어요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 찾아와 주셔서 감사합니다. 도움을 요청하는 것은 부끄러운 일이 아니라 용기 있는 선택이에요. 편안하게 말씀해주세요. 어떤 점이 힘드신가요?",
+      "text": "잠드는 데 어려움이 있으시군요. 보통 얼마나 걸리시나요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치는 교사인데요. 올해로 10년차가 됐어요. 처음엔 정말 열정적으로 했는데, 요즘은 학교 가는 게 너무 힘들어요.",
-      "turn": 3
+      "text": "한두 시간은 기본이고, 심하면 세 시간도 걸려요. 그러다 보니 새벽 2-3시에 겨우 잠들어요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년간 교직 생활을 하시면서 처음의 열정과 지금의 상태가 많이 달라지셨군요. 구체적으로 어떤 부분이 가장 힘드신가요?",
+      "text": "입면까지 2-3시간이 걸리시는군요. 그럼 아침에 일어나는 시간은 언제인가요?",
+      "technique": [
+        "restatement",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "7시에 일어나야 해요. 출근해야 하니까... 그래서 잠을 4-5시간밖에 못 자요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "4-5시간 수면으로 하루를 버티시는군요. 낮 동안은 어떠세요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "학생들이요... 예전엔 아이들이 귀엽고 가르치는 게 즐거웠는데, 요즘은 수업 시간에 자거나 휴대폰만 보고... 주의를 줘도 전혀 듣지 않아요. 제가 무슨 말을 해도 소용이 없는 것 같아요.",
-      "turn": 5
+      "text": "너무 피곤해요. 집중도 안 되고, 실수도 많아지고... 오후만 되면 정신이 하나도 없어요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "학생들과의 소통이 잘 되지 않아서 무력감을 느끼고 계시는군요. 선생님의 노력이 전달되지 않는다고 느껴질 때 정말 힘드실 것 같아요.",
+      "text": "수면 부족으로 업무에도 영향이 있으시군요. 이런 상태가 얼마나 지속됐나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "6개월 정도요. 처음엔 일시적인 줄 알았는데, 계속되네요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "6개월이면 만성 불면증이에요. 6개월 전쯤 스트레스받을 일이 있었나요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 그리고 학부모들도 문제예요. 제가 학생을 지도하면 바로 항의 전화가 오고... 심지어 교육청에 민원을 넣겠다고 협박하는 분도 계세요.",
-      "turn": 7
+      "text": "회사에서 감사 업무가 있었어요. 그때 스트레스가 심했죠. 근데 그건 이미 끝났는데도 잠은 여전히 안 와요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "학생 지도에 대한 학부모의 반응 때문에도 어려움을 겪고 계시네요. 교사로서 해야 할 일을 하는데 오히려 비난받는 상황이 반복되면 정말 지치실 것 같습니다.",
+      "text": "스트레스는 끝났지만 불면증은 지속되고 있군요. 잠자리에 누워서 주로 무슨 생각을 하시나요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "'오늘도 잠 못 자면 어떡하지', '내일 회의에서 졸면 어떡하지' 이런 생각들이요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "잠에 대한 걱정이 오히려 잠을 방해하고 있네요. 전형적인 불면증의 악순환이에요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "정말 그래요. 요즘은 아침에 일어나면 학교에 가기 싫어서... 출근 준비하면서 울기도 하고, 주말에도 월요일 생각하면 불안해요. 이게 정상인가 싶어요.",
-      "turn": 9
+      "text": "악순환이요? 그럼 어떻게 끊어야 하나요?"
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "출근 자체가 큰 스트레스가 되고 있고, 주말에도 편히 쉬지 못하시는군요. 이런 증상들은 얼마나 오래 지속되셨나요?",
+      "text": "먼저 수면에 대한 압박감을 줄여야 해요. '반드시 자야 한다'는 생각이 오히려 각성을 높이거든요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "그런데 자야 하잖아요. 안 자면 다음 날이 힘든데..."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "맞아요. 하지만 '자야 한다'고 애쓸수록 뇌는 깨어있게 돼요. 역설적이죠. 수면위생에 대해 들어보셨나요?",
+      "technique": [
+        "validation",
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "한 1년 정도 된 것 같아요. 작년에 특히 힘든 학급을 맡았는데, 그때부터 심해진 것 같아요. 올해는 학급이 바뀌었는데도 나아지지 않네요.",
-      "turn": 11
+      "text": "아니요, 그게 뭔가요?"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "1년 정도 이런 상태가 지속되었다는 것은 상당히 깊은 번아웃 상태일 수 있겠네요. 이 기간 동안 주변에 도움을 요청하거나 이야기를 나눈 적은 있으신가요?",
+      "text": "좋은 수면을 위한 생활 습관이에요. 예를 들어 침실 환경, 취침 시간, 자기 전 활동 같은 거죠. 지금 어떤 습관들이 있으세요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "침대에서 핸드폰 보다가 자려고 해요. 그리고 잠 안 오면 TV 켜놓고..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "침대에서 핸드폰과 TV를 보시는군요. 이게 문제가 될 수 있어요. 블루라이트가 멜라토닌 분비를 방해하거든요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "assessment"
-    },
-    {
       "speaker": "client",
-      "text": "동료 교사들한테 말해봤는데... 다들 비슷하게 힘들어해요. 그냥 '우리 다 그래' 이런 식이에요. 남편한테도 말했는데, 남편은 '그냥 적당히 해'라고만 하더라고요.",
-      "turn": 13
+      "text": "그럼 뭘 해야 하나요? 가만히 누워있으면 더 답답한데..."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "주변에서 공감은 받으셨지만 실질적인 지지나 해결책을 얻지 못하셨군요. 혼자서 이 무게를 감당하시느라 더 힘드셨을 것 같아요.",
+      "text": "30분 이상 잠이 안 오면 침대에서 일어나세요. 다른 방에서 차분한 활동을 하다가 졸리면 다시 침대에 가는 거예요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "침대에서 일어나라고요? 그럼 더 잠이 안 올 것 같은데..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "처음엔 그렇게 느껴질 수 있어요. 하지만 침대는 '수면의 공간'이라는 인식을 심어주는 게 중요해요. 침대에서 뒤척이는 시간이 길어지면 침대가 '불면의 공간'이 돼요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그리고 제일 괴로운 건, 제가 교사를 그만둬야 하나 하는 생각이 자꾸 들어요. 근데 10년을 했는데 이걸 그만두면 뭘 할 수 있을까... 그것도 막막하고요.",
-      "turn": 15
+      "text": "그렇군요... 그럼 일어나서 뭘 하면 좋을까요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "지금의 상황은 너무 힘든데, 그렇다고 그만두기도 쉽지 않은 딜레마 속에 계시는군요. 이런 양가감정이 더 큰 스트레스가 되고 있을 것 같아요.",
+      "text": "조명을 어둡게 하고, 책을 읽거나 음악을 듣거나... 자극적이지 않은 활동이 좋아요. 핸드폰은 피하시고요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "알겠어요. 그리고 낮잠은요? 너무 피곤해서 점심 먹고 자고 싶은데..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "낮잠은 가능하면 피하세요. 만약 꼭 자야 한다면 20분 이내로, 오후 3시 전에 자세요. 늦은 낮잠은 밤 수면을 방해해요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 제가 원래는 교사가 천직이라고 생각했거든요. 학생들 가르치는 게 좋았고, 보람도 느꼈는데... 지금은 제가 이 일에 맞지 않는 건가 싶어요.",
-      "turn": 17
+      "text": "20분만요? 알람 맞춰놓고 자야겠네요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "처음 가졌던 소명의식과 지금의 현실 사이에서 정체성의 혼란도 경험하고 계시는 것 같네요. 선생님, 혹시 지난 10년 중에서 가장 보람 있었던 순간을 떠올려보실 수 있을까요?",
+      "text": "네, 정확해요. 그리고 취침 시간과 기상 시간을 일정하게 유지하는 게 중요해요. 주말에도요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "주말에도요? 주말엔 좀 늦게까지 자고 싶은데..."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그 마음은 이해해요. 하지만 불규칙한 수면 패턴이 불면증을 악화시켜요. 생체 리듬을 일정하게 유지하는 게 핵심이에요.",
+      "technique": [
+        "empathy",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "음... 몇 년 전에 제가 담임했던 학생 중에 공부를 정말 싫어하던 아이가 있었어요. 그 아이랑 방과 후에 많이 이야기하고 관심 가져줬더니, 나중에 고등학교 가서도 찾아와서 고맙다고 하더라고요. 그때는 정말... 뿌듯했죠.",
-      "turn": 19
+      "text": "생체 리듬... 그럼 몇 시에 자는 게 좋나요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "그 순간을 이야기하실 때 목소리에서 따뜻함이 느껴지네요. 선생님께서 학생과의 진정한 연결과 변화를 만들어낼 때 큰 의미를 느끼셨던 것 같아요. 지금은 그런 연결을 만들기 어려운 환경이 되어버린 건 아닐까요?",
+      "text": "본인에게 맞는 시간이면 돼요. 다만 7시에 일어나신다면 11시-11시 30분에는 누우시는 게 좋겠어요. 7-8시간 수면 기회를 주는 거죠.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "11시요... 지금은 10시에 누워도 새벽에 자는데, 더 늦게 누우라는 건가요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "네, 역설적이지만 침대에 있는 시간을 줄이는 거예요. 수면효율을 높이기 위해서요. 이걸 수면제한요법이라고 해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "strength-based approach"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 생각하니까... 제가 문제가 아니라 상황이 문제일 수도 있겠네요. 요즘 교육 환경 자체가 많이 바뀌었잖아요. 학생들도, 학부모들도, 제도도...",
-      "turn": 21
+      "text": "수면효율이요?"
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "네, 맞아요. 선생님 개인의 능력이나 적성의 문제가 아니라, 교육 환경 전체의 변화 속에서 어려움을 겪고 계신 거예요. 이런 관점의 전환이 중요합니다.",
+      "text": "침대에 누워있는 시간 대비 실제 잔 시간의 비율이에요. 지금은 3시간 누워서 1-2시간 자시니 효율이 낮죠. 누워있는 시간을 줄여서 효율을 높이는 거예요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "아, 그렇게 하면 피곤해서라도 빨리 잠들겠네요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "정확해요. 그리고 낮에 햇빛을 쬐는 것도 중요해요. 점심시간에 밖에서 10-20분 정도 산책해보세요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "그럼 저는 어떻게 해야 할까요? 이 상황에서 계속 버텨야 하나요, 아니면 정말 그만둬야 하나요?",
-      "turn": 23
+      "text": "햇빛이 수면과 무슨 상관이 있나요?"
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "지금 당장 그만두거나 버티거나 양자택일을 하실 필요는 없어요. 우선은 선생님의 소진된 에너지를 회복하는 것이 먼저입니다. 그 다음에 선생님이 원하는 교사의 모습과 현실 사이의 간극을 어떻게 좁힐 수 있을지 함께 찾아보면 어떨까요?",
+      "text": "햇빛이 생체 리듬을 조절하는 호르몬인 멜라토닌 분비에 영향을 줘요. 낮에 햇빛을 충분히 받으면 밤에 멜라토닌이 잘 분비돼요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "그렇군요. 운동은 어때요? 저녁에 운동하면 잠 오려나 해서..."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "운동은 좋아요. 하지만 잠들기 3-4시간 전에는 피하세요. 늦은 운동은 오히려 각성을 높여요. 오전이나 오후 이른 시간이 좋아요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "guidance"
-    },
-    {
       "speaker": "client",
-      "text": "에너지를 회복한다는 게... 구체적으로 어떤 건가요? 휴가를 내야 하는 건가요?",
-      "turn": 25
+      "text": "아침에 운동하면 좋겠네요. 근데 일어나자마자 운동할 기력이 있을지..."
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "휴가도 하나의 방법이 될 수 있지만, 일상 속에서 할 수 있는 것들도 있어요. 선생님께서 학교와 학생 이외에 에너지를 얻으시는 활동이나 관계가 있으신가요?",
+      "text": "처음엔 힘들 수 있어요. 가벼운 스트레칭이나 10분 걷기부터 시작해보세요. 작은 것부터요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "알겠어요. 그리고 잠들기 전에 술을 한잔하면 잘 자게 되던데..."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "술은 일시적으로 졸음을 유발하지만, 수면의 질을 떨어뜨려요. 특히 새벽에 자주 깨게 만들어요. 피하시는 게 좋아요.",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "resource exploration"
-    },
-    {
       "speaker": "client",
-      "text": "예전엔 요가도 하고 친구들도 자주 만났는데... 요즘은 그냥 집에서 쉬기만 해요. 그것도 쉬는 게 아니라 그냥 누워있는 거죠. 아무것도 하기 싫어요.",
-      "turn": 27
+      "text": "그렇군요... 카페인도 피해야겠죠?"
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "번아웃 상태에서는 그런 무기력감이 자연스러운 반응이에요. 하지만 역설적으로 그럴 때일수록 작은 활동들이 회복에 도움이 됩니다. 요가나 친구 만남 중에서 가장 부담 없이 다시 시작해볼 수 있는 게 있을까요?",
-      "turn": 28,
-      "technique": "behavioral activation"
+      "text": "맞아요. 오후 2시 이후에는 카페인 섭취를 피하세요. 카페인은 체내에 오래 남아있거든요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
     },
     {
+      "turn": 27,
       "speaker": "client",
-      "text": "친구 만나는 건... 좀 부담스럽고요. 요가는 집 근처에 센터가 있긴 한데, 일주일에 한 번 정도는 할 수 있을 것 같아요.",
-      "turn": 29
+      "text": "할 게 많네요... 다 할 수 있을까요?"
     },
     {
+      "turn": 27,
       "speaker": "counselor",
-      "text": "좋습니다. 일주일에 한 번 요가로 시작해보는 거, 아주 현실적인 목표네요. 그리고 학교에서는 선생님만의 경계선을 만드는 것도 필요할 것 같아요. 모든 학생을 변화시킬 수는 없다는 것을 받아들이는 것도 자기 보호의 한 방법입니다.",
-      "turn": 30,
-      "technique": "goal-setting"
-    },
-    {
-      "speaker": "client",
-      "text": "경계선이요... 그게 쉽지 않을 것 같은데, 그래도 해봐야겠네요. 제가 모든 걸 책임질 필요는 없는 거죠?",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "정확합니다. 선생님은 최선을 다하시되, 결과에 대해서는 모든 책임을 지실 필요가 없어요. 학생의 변화는 많은 요인들이 함께 작용하는 것이니까요. 선생님 자신을 돌보는 것이 더 나은 교사가 되는 첫걸음입니다.",
-      "turn": 32,
-      "technique": "validation"
-    },
-    {
-      "speaker": "client",
-      "text": "오늘 이야기하면서 조금 마음이 가벼워진 것 같아요. 제가 잘못한 게 아니라는 생각이 드니까... 좀 숨통이 트이는 느낌이에요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "그렇게 느껴주셔서 다행입니다. 오늘 용기 내어 오신 것 자체가 변화의 시작이에요. 다음 주에는 요가를 시작하신 경험과 학교에서의 경계선 설정에 대해 이야기 나눠보면 좋겠습니다. 어떠세요?",
-      "turn": 34,
-      "technique": "encouragement"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 좋아요. 다음 주에 또 뵙겠습니다. 감사합니다.",
-      "turn": 35
+      "text": "한 번에 다 하려고 하지 마세요. 이번 주에는 취침 시간 조정하기, 침대에서 핸드폰 안 보기, 이 두 가지만 해보세요.",
+      "technique": [
+        "validation",
+        "goal_setting",
+        "structuring"
+      ]
     }
   ],
+  "generated_at": "2025-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1870",
   "metadata": {
-    "generated_at": "2025-12-17T15:49:04.318398+00:00",
+    "generated_at": "2025-12-18T03:02:29.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

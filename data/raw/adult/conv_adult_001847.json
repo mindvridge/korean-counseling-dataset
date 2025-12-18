@@ -1,215 +1,299 @@
 {
-  "conversation_id": "CONV_20250623_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "여성",
-    "occupation": "중학교 교사"
+  "client_profile": {
+    "age": "30",
+    "gender": "남성",
+    "occupation": "재택근무 개발자",
+    "background": "코로나 이후 재택근무로 전환, 사회적 접촉 감소, 외로움"
   },
-  "situation": "10년차 중학교 교사로 일하면서 최근 학생들과의 관계에서 어려움을 겪고 있으며, 번아웃 증상으로 교직에 대한 회의감을 느끼고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 상담 예약하고 오긴 했는데... 사실 제가 여기 와야 하는 건지 잘 모르겠어요.",
-      "turn": 1
+      "text": "재택근무 시작한 지 2년 됐는데요. 사람 만나는 게 너무 힘들어졌어요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 오시느라 수고하셨어요. 상담실을 찾는 것 자체가 쉬운 결정은 아니었을 텐데, 용기 내주셔서 감사합니다. 편안하게 이야기 나눠보면 좋겠어요.",
+      "text": "재택근무 후 사회적 접촉이 줄어들었군요. 사람을 만나는 게 어떻게 힘들어지셨나요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 저는 중학교에서 국어를 가르치는 교사예요. 올해로 10년차인데, 요즘 들어 학교 가는 게 너무 힘들어요.",
-      "turn": 3
+      "text": "대화하는 게 어색하고... 무슨 말을 해야 할지 모르겠어요. 집에만 있다 보니까요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년차 교사시군요. 학교 가는 것이 힘들다고 하셨는데, 구체적으로 어떤 점이 가장 힘드신가요?",
+      "text": "대화 자체가 어색하게 느껴지시는군요. 재택 전에는 어떠셨나요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "그땐 괜찮았어요. 회사에서 동료들이랑 자연스럽게 얘기하고 그랬는데..."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "회사에서의 자연스러운 교류가 없어지니 대화 기술이 퇴화된 느낌이시군요. 지금 사회적 접촉은 어느 정도 되시나요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "예전에는 학생들을 가르치는 게 정말 좋았거든요. 그런데 요즘은... 애들이 수업 시간에 전혀 집중을 안 해요. 휴대폰만 보고, 주의를 주면 대들고... 저한테 문제가 있는 건지 모르겠어요.",
-      "turn": 5
+      "text": "거의 없어요. 화상회의 말고는... 밖에 나가는 것도 일주일에 한두 번?"
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "예전에는 학생들을 가르치는 일이 좋았는데, 지금은 학생들의 태도 때문에 힘들고, 혹시 본인에게 문제가 있는 건 아닌가 하는 생각도 드시는군요.",
+      "text": "대부분의 시간을 집에서 혼자 보내시는군요. 이런 생활이 얼마나 계속되었나요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "2년이요. 처음엔 좋았어요. 출퇴근 안 해도 되고, 편하고... 근데 점점 외로워지더라고요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "처음엔 편했지만 시간이 지나며 외로움을 느끼기 시작하셨군요. 언제부터 문제라고 느끼셨나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 동료 교사들은 잘 하는 것 같은데 저만 유독 학생들이 말을 안 듣는 것 같아요. 제가 수업을 재미없게 하는 건지, 아니면 너무 엄하게 대하는 건지...",
-      "turn": 7
+      "text": "몇 달 전부터요. 주말에도 아무도 안 만나고 집에만 있으니까... 이게 정상인가 싶었어요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "다른 선생님들과 비교하면서 스스로를 되돌아보게 되시는 것 같네요. 그런 생각들이 들 때 기분이 어떠세요?",
+      "text": "주말에도 사회적 교류가 없으시군요. 친구들이나 가족은 어떠세요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "친구들은 다 바쁘고... 가족은 지방에 계세요. 전화는 가끔 하지만 직접 만나진 못해요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "물리적으로 가까운 사람들이 없으시군요. 외로움을 느낄 때 어떻게 하시나요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "emotion exploration"
-    },
-    {
       "speaker": "client",
-      "text": "무력감이 들어요. 그리고 자꾸 제 자신이 무능한 것 같고... 아침에 일어나면 학교에 가기 싫어서 배가 아프기도 해요.",
-      "turn": 9
+      "text": "게임하거나 유튜브 봐요. 그것도 지겹긴 한데... 다른 할 게 없어요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "신체적인 증상까지 나타나고 계시네요. 그런 상황이 얼마나 지속되었나요?",
+      "text": "온라인 활동으로 외로움을 달래시는군요. 하지만 만족스럽지는 않으신 것 같네요.",
+      "technique": [
+        "interpretation",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "네. 진짜 사람이랑 얘기하고 싶은데... 막상 기회가 생기면 피하게 돼요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "외로운데 사람을 피한다는 게 모순적으로 들리시나요? 왜 피하게 되는 것 같으세요?",
+      "technique": [
+        "confrontation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "assessment"
-    },
-    {
       "speaker": "client",
-      "text": "한 6개월 정도 된 것 같아요. 작년 2학기부터였던 것 같은데... 처음에는 그냥 일시적인 거라고 생각했는데 점점 더 심해지는 것 같아요.",
-      "turn": 11
+      "text": "어색할 것 같아서요. 그리고 피곤하기도 하고... 집이 편해요."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "6개월이라는 시간 동안 혼자서 이 어려움을 감당해오셨네요. 그 과정이 쉽지 않으셨을 텐데, 지금 이렇게 도움을 구하신 것은 정말 현명한 선택이에요.",
+      "text": "단기적으로는 집이 편하지만, 장기적으로는 고립되고 있는 거예요. 이게 계속되면 어떻게 될 것 같으세요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "더 심해지겠죠... 이미 사람 만나는 게 너무 힘들어졌는데."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "악순환이 되고 있다는 걸 알고 계시네요. 이 패턴을 깨고 싶으신가요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "감사합니다... 사실 남편한테도 제대로 말 못했어요. 그냥 '요즘 좀 힘들다' 정도만 얘기했지, 이렇게까지 힘든지는 말 안 했어요.",
-      "turn": 13
+      "text": "깨고 싶긴 한데... 어떻게 해야 할지 모르겠어요."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "가까운 사람에게도 온전히 털어놓지 못하셨군요. 혹시 말씀하시기 어려웠던 이유가 있을까요?",
+      "text": "작은 것부터 시작하면 돼요. 갑자기 많은 사람을 만나려고 하지 말고요. 예를 들어, 카페에 가서 주문하는 것부터요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "카페 주문이요? 그건 별로 안 어려운데..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "그럼 거기서 한 단계 더 나가보는 거예요. 점원에게 추천 메뉴 물어보기, 같은 테이블 사람에게 간단히 인사하기 같은 거요.",
+      "technique": [
+        "clarification",
+        "structuring"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "남편은 회사 다니면서 자기도 힘든데... 제가 더 짐이 될까봐요. 그리고 솔직히 부끄럽기도 해요. 10년이나 했는데 이런 걸로 힘들어한다는 게...",
-      "turn": 15
+      "text": "그게 도움이 될까요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "배우자에게 부담을 주고 싶지 않은 마음과, 경력이 있는데도 어려움을 겪는다는 것에 대한 부끄러움이 있으시군요. 그런데 경력과 상관없이 누구나 힘든 시기를 겪을 수 있어요. 이것은 부끄러운 일이 아니에요.",
+      "text": "사회적 근육을 키우는 거예요. 운동 안 하던 사람이 갑자기 마라톤 뛸 수 없듯이, 작은 상호작용부터 연습하는 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그렇게 생각하니 이해가 되네요. 다른 방법도 있나요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "취미 모임이나 동호회에 참여해보는 건 어떨까요? 공통 관심사가 있으니 대화하기 쉬워요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "normalization"
-    },
-    {
       "speaker": "client",
-      "text": "정말요? 저는 제가 약한 건 줄 알았어요. 다른 선생님들은 다 잘 버티는데...",
-      "turn": 17
+      "text": "동호회요... 가본 적이 없는데 어떻게 찾아요?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "겉으로 보기에는 다들 잘 버티는 것처럼 보일 수 있지만, 실제로는 많은 교사분들이 비슷한 어려움을 겪고 계세요. 교직 번아웃은 매우 흔한 현상이에요. 혹시 학교에서 동료 선생님들과 이런 이야기를 나눠보신 적 있으세요?",
+      "text": "온라인 플랫폼에 지역별, 관심사별로 많아요. 우선 온라인 모임부터 시작해도 좋아요. 화상으로 시작하면 부담이 덜하죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "온라인이면 좀 나을 것 같아요. 근데 뭘 해야 할까요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "본인이 좋아하는 게 뭔가요? 게임, 독서, 운동, 뭐든 좋아요.",
+      "technique": [
+        "open_question",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "information provision"
-    },
-    {
       "speaker": "client",
-      "text": "아니요, 전혀요. 다들 바쁘고... 그리고 제가 먼저 약한 모습 보이기가 싫었어요. 학교에서는 항상 괜찮은 척했어요.",
-      "turn": 19
+      "text": "게임 좋아해요. 근데 혼자 하는 게임만..."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "학교에서는 괜찮은 척 가면을 쓰고 계셨던 거네요. 그게 얼마나 힘들고 외로웠을까요.",
+      "text": "그럼 온라인 게임 커뮤니티에 참여해보세요. 같이 게임하면서 자연스럽게 대화할 수 있어요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "그거라면 해볼 만할 것 같아요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "좋아요. 이번 주에 하나 찾아서 참여해보시고, 다음 주에 어떠셨는지 얘기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 정말 외로웠어요. 아무도 제 마음을 모르는 것 같고... 이렇게 말하니까 눈물이 나네요.",
-      "turn": 21
+      "text": "네, 해볼게요. 감사합니다."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "눈물이 나오시는군요. 괜찮아요. 여기서는 충분히 그 감정을 느끼셔도 돼요. 그동안 참아왔던 감정들이 표현되고 있는 거예요.",
-      "turn": 22,
-      "technique": "permission giving"
-    },
-    {
-      "speaker": "client",
-      "text": "죄송해요... 제가 너무 약하게 보이나요?",
-      "turn": 23
-    },
-    {
-      "speaker": "counselor",
-      "text": "전혀요. 오히려 자신의 감정을 솔직하게 표현하는 것은 강한 사람만이 할 수 있는 일이에요. 지금 이렇게 자신의 어려움을 직면하고 계신 것 자체가 용기 있는 행동이에요.",
-      "turn": 24,
-      "technique": "reframing"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇게 생각해본 적은 없었어요. 항상 제 자신을 책망하기만 했는데...",
-      "turn": 25
-    },
-    {
-      "speaker": "counselor",
-      "text": "스스로를 많이 책망해오셨군요. 혹시 교사로서 완벽해야 한다는 압박감 같은 게 있으신가요?",
-      "turn": 26,
-      "technique": "open-ended question"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 있어요. 학생들한테 모범이 되어야 한다는 생각, 항상 준비된 모습을 보여야 한다는 생각... 그런 게 항상 있었어요.",
-      "turn": 27
-    },
-    {
-      "speaker": "counselor",
-      "text": "완벽해야 한다는 기준이 스스로에게 큰 부담이 되어왔네요. 그런 기준들은 언제부터 갖게 되셨나요?",
-      "turn": 28,
-      "technique": "exploration"
-    },
-    {
-      "speaker": "client",
-      "text": "생각해보니까... 어릴 때부터 그랬던 것 같아요. 부모님이 항상 '넌 모범생이어야 한다'고 하셨거든요. 교사가 된 것도 그런 기대 때문이었고요.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "어린 시절부터 형성된 '모범생'이어야 한다는 신념이 지금까지 영향을 주고 있군요. 그 기준을 충족시키지 못한다고 느낄 때 스스로를 힘들게 하셨던 거네요.",
-      "turn": 30,
-      "technique": "insight facilitation"
-    },
-    {
-      "speaker": "client",
-      "text": "맞아요. 그런 것 같아요. 그럼 저는 어떻게 해야 할까요?",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "먼저, 스스로에게 조금 더 너그러워지는 연습이 필요할 것 같아요. 완벽하지 않아도 괜찮다는 것을 받아들이는 거죠. 그리고 현재 느끼고 계신 번아웃 증상들을 다루는 것도 중요해요. 함께 천천히 작업해나가면 좋겠어요.",
-      "turn": 32,
-      "technique": "guidance"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 그렇게 하고 싶어요. 그런데 당장 내일도 학교에 가야 하는데... 어떻게 버텨야 할까요?",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "당장의 대처도 중요하시겠네요. 우선 작은 목표부터 세워보는 건 어떨까요? 하루 전체를 버티려고 하기보다는, '오전만 잘 지내보자', '이 수업만 집중해보자' 이런 식으로요. 그리고 힘들 때 잠깐 숨을 고를 수 있는 자신만의 방법을 찾아보세요.",
-      "turn": 34,
-      "technique": "coping strategy"
-    },
-    {
-      "speaker": "client",
-      "text": "작은 목표... 그렇게 생각하니까 좀 숨통이 트이는 것 같아요. 오늘 상담받길 잘한 것 같아요.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "다행이에요. 오늘 나눈 이야기를 시작으로 앞으로도 함께 차근차근 나아가보면 좋겠습니다. 다음 상담 때는 구체적인 상황들과 대처 방법을 더 깊이 다뤄볼까요?",
-      "turn": 36,
-      "technique": "session closing"
+      "text": "작은 시작이 큰 변화를 만들어요. 잘하실 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1847",
   "metadata": {
-    "generated_at": "2025-12-17T15:44:59.580667+00:00",
+    "generated_at": "2025-12-18T03:02:28.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

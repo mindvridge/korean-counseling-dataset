@@ -1,237 +1,327 @@
 {
-  "conversation_id": "CONV_20250619_ADT_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "25",
     "gender": "남성",
-    "occupation": "IT 기업 팀장"
+    "occupation": "프리랜서 디자이너",
+    "background": "첫사랑과 1년 전 이별, 재회 시도 반복, 미련과 집착"
   },
-  "situation": "최근 승진 후 팀원들과의 관계가 어색해지고, 과도한 업무 부담으로 불면증과 불안감을 경험하며 리더십에 대한 자신감을 잃어가는 상황",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 상담을 받아보는 게 처음이라 좀 떨리네요.",
-      "turn": 1
+      "text": "첫사랑을 잊을 수가 없어요. 1년이 지났는데도요. 자꾸 연락하게 돼요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음 상담을 시작하시는 거라 긴장되실 수 있어요. 편안하게 이야기 나눠보도록 해요. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "1년이 지났는데도 첫사랑에 대한 미련이 남아있고, 연락을 계속하고 계시는군요. 상대방은 어떻게 반응하나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "사실 3개월 전에 팀장으로 승진했는데요. 처음엔 좋았는데 요즘은 너무 힘들어서요.",
-      "turn": 3
+      "text": "처음엔 답장했어요. 근데 요즘엔 무시하거나 짧게만 답해요. '그만 연락해달라'고도 했고요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "승진하신 지 3개월 정도 되셨군요. 처음에는 좋았는데 지금은 힘드시다고 하셨는데, 구체적으로 어떤 부분이 힘드신가요?",
+      "text": "상대방이 명확하게 경계를 표현했군요. 그 말을 들었을 때 기분이 어땠어요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "가슴이 아팠어요. 근데... 며칠 지나면 또 연락하고 싶어져요. 통제가 안 돼요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "통제가 안 된다고 느끼시는군요. 연락하고 싶을 때 어떤 생각과 감정이 드시나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "일단 업무량이 너무 많아졌어요. 그리고 예전에 같이 일하던 동료들이 이제는 제 팀원이 됐는데, 관계가 너무 어색해졌어요.",
-      "turn": 5
+      "text": "'지금 뭐하나', '밥은 먹었나', '나 생각은 안 하나'... 이런 생각들이요. 그리고 불안해요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "업무량의 증가와 함께 동료에서 상사로 역할이 바뀌면서 관계의 어색함을 느끼고 계시는군요. 두 가지 어려움을 동시에 겪고 계신 것 같네요.",
+      "text": "상대방에 대한 걱정과 함께 불안이 올라오는군요. 그 불안의 정체가 뭘까요?",
+      "technique": [
+        "emotion_labeling",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "완전히 잊혀질까봐요. 저 없이도 잘 살까봐... 저는 못 잊는데."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "본인만 힘들고 상대는 괜찮을까봐 두려우신 거군요. 첫사랑이라고 하셨는데, 어떻게 만나게 되셨나요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "summarization"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 특히 관계 문제가 더 힘들어요. 예전엔 같이 점심 먹고 농담도 하던 사이였는데, 이제는 제가 지시를 내려야 하니까...",
-      "turn": 7
+      "text": "대학교 동아리에서 만났어요. 2년 정도 사귀었고... 정말 행복했거든요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "친밀했던 동료 관계에서 상하 관계로 변화하는 것이 쉽지 않으시겠어요. 그런 변화 속에서 어떤 감정을 느끼시나요?",
+      "text": "2년간 행복한 시간을 보내셨군요. 어떻게 헤어지게 되셨어요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "제가 너무 집착했대요. 항상 어디 있는지 물어보고, 다른 이성이랑 얘기하면 질투하고... 결국 지쳤다고 하더라고요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "본인의 집착이 이별의 원인이었다는 걸 알고 계시네요. 지금도 그때와 비슷한 패턴을 보이고 계신 것 같아요. 어떻게 생각하세요?",
+      "technique": [
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "죄책감이 들기도 하고... 제가 너무 권위적으로 보일까 봐 걱정도 되고요. 그래서 지시를 내릴 때도 너무 조심스러워요.",
-      "turn": 9
+      "text": "... 맞는 것 같아요. 계속 연락하는 것도 집착이죠. 근데 어떻게 멈춰요?"
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "동료들에게 어떻게 보일지 걱정되어서 리더로서 필요한 행동을 하는 것도 조심스러워지셨군요. 그런 상황이 지속되면서 어떤 일들이 일어나고 있나요?",
+      "text": "멈추고 싶은 마음은 있으시군요. 좋은 출발점이에요. 연락하고 싶은 충동이 올 때 실제로 연락하기 전까지 어떤 과정을 거치나요?",
+      "technique": [
+        "encouragement",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "생각이 나요. 그럼 SNS 들어가서 프로필 보고, 그러다 문자하거나 전화해요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "생각 → SNS 확인 → 연락, 이런 패턴이군요. 이 과정에서 어느 단계가 가장 끊기 어려워 보이세요?",
+      "technique": [
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "일이 제대로 진행이 안 돼요. 제가 명확하게 지시를 못 내리니까 팀원들도 혼란스러워하는 것 같고... 그러다 보니 제가 직접 일을 더 많이 하게 되더라고요.",
-      "turn": 11
+      "text": "SNS 보는 거요. 일단 보면... 참을 수가 없어요."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "명확한 지시를 내리지 못하면서 결국 본인이 더 많은 업무를 떠안게 되는 악순환이 생긴 거네요. 그런 상황이 지속되면서 어떤 영향을 받고 계신가요?",
+      "text": "SNS를 보는 순간 충동이 강해지는군요. 그렇다면 SNS를 아예 보지 못하게 하는 건 어떨까요? 차단하거나 앱을 삭제하는 거죠.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그건... 너무 극단적인 것 같아요. 그러면 정말 끝나는 거잖아요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "이미 끝난 관계예요. 상대방도 '그만 연락해달라'고 했죠. 인정하기 어렵지만, 현실을 직시해야 해요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "밤에 잠을 못 자요. 자려고 누우면 '내가 팀장으로서 제대로 하고 있는 걸까', '팀원들이 나를 무시하는 건 아닐까' 이런 생각들이 계속 들어서요.",
-      "turn": 13
+      "text": "알아요. 머리로는 아는데... 마음이 안 따라와요."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "불면증까지 겪고 계시는군요. 자신에 대한 의심과 걱정이 밤잠까지 방해하고 있다니, 정말 힘드셨겠어요.",
+      "text": "머리와 마음이 따로 노는 느낌이시죠. 그게 자연스러워요. 하지만 행동은 마음이 아니라 의지로 결정할 수 있어요.",
+      "technique": [
+        "empathy",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "어떻게요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "연락하고 싶은 마음이 들 때, 바로 하는 대신 10분만 참아보는 거예요. 그 10분 동안 다른 일을 하고요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 요즘은 회사 가는 게 너무 두려워요. 아침에 일어나면 출근하기 싫고, 팀원들 얼굴 보는 게 부담스럽고...",
-      "turn": 15
+      "text": "10분이요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "출근 자체가 두렵고 부담스러울 정도로 심리적 압박이 크시군요. 이런 상태가 얼마나 지속되었나요?",
+      "text": "네. 충동은 파도 같아서 올라왔다가 내려가요. 10분만 견디면 충동이 줄어들 거예요. 그 시간에 산책하거나 음악 듣거나 게임을 하는 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "시도해볼게요. 근데 실패하면요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "실패해도 괜찮아요. 처음부터 완벽할 순 없어요. 중요한 건 포기하지 않고 계속 시도하는 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "한 달 정도 된 것 같아요. 처음 두 달은 그래도 괜찮았는데, 최근 한 달 사이에 급격히 나빠진 느낌이에요.",
-      "turn": 17
+      "text": "그런데 왜 저는 이렇게 집착하는 걸까요?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "최근 한 달 사이에 특별히 어떤 일이 있었나요? 상황이 급격히 나빠지게 된 계기가 있을까요?",
+      "text": "좋은 질문이에요. 첫사랑이기 때문일 수도 있고, 상실에 대한 두려움일 수도 있어요. 어렸을 때 부모님과의 관계는 어땠나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "부모님은... 일 때문에 바빠서 저한테 관심이 없으셨어요. 외로웠죠."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "어릴 때 관심과 사랑이 부족했던 경험이 있으시군요. 그래서 사랑을 받으면 놓치지 않으려고 더 집착하게 될 수 있어요.",
+      "technique": [
+        "empathy",
+        "interpretation"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "아, 한 달 전쯤에 프로젝트 하나를 실패했어요. 제가 일정 관리를 제대로 못해서... 그 이후로 더 자신감이 없어진 것 같아요.",
-      "turn": 19
+      "text": "그렇구나... 그럼 어떻게 해야 하나요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "프로젝트 실패 경험이 자신감에 큰 타격을 준 거군요. 그 일을 어떻게 받아들이고 계신가요?",
+      "text": "먼저 본인을 이해하고 받아들이는 게 중요해요. 그리고 건강한 관계를 배워야 해요. 집착은 사랑이 아니에요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "건강한 관계요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "네. 서로를 존중하고, 적절한 거리를 유지하고, 상대의 경계를 존중하는 관계요. 지금은 그런 관계를 배울 시간이에요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "제가 팀장 자격이 없다는 증거처럼 느껴져요. '역시 난 리더 역할을 할 수 없는 사람이구나' 이런 생각이 들었어요.",
-      "turn": 21
+      "text": "시간이 얼마나 걸릴까요?"
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "한 번의 프로젝트 실패를 본인의 전체 능력과 자격에 대한 판단으로 확대해서 해석하고 계시네요. 혹시 그 전에 성공적으로 마친 프로젝트나 잘했던 일들은 없었나요?",
+      "text": "사람마다 달라요. 하지만 조급해하지 말고 한 걸음씩 가면 돼요. 오늘부터 SNS 차단부터 시작해볼까요?",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "네... 해보겠습니다."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "용기 있는 결정이에요. 다음 주에 어떠셨는지 얘기 나눠봐요. 힘들면 언제든 연락하세요.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "cognitive restructuring"
-    },
-    {
       "speaker": "client",
-      "text": "음... 사실 처음 두 달 동안은 작은 프로젝트 두 개를 잘 마무리했어요. 그때는 상사한테 칭찬도 받았고요.",
-      "turn": 23
+      "text": "감사합니다."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "그렇군요. 성공적으로 완수한 프로젝트들도 있었는데, 한 번의 실패가 그 모든 성공을 지워버린 것처럼 느껴지시는 거네요. 이런 생각의 패턴을 알아차리셨나요?",
-      "turn": 24,
-      "technique": "awareness building"
-    },
-    {
-      "speaker": "client",
-      "text": "말씀하시니까 그러네요. 좋았던 건 다 잊어버리고 실패한 것만 계속 생각하고 있었어요.",
-      "turn": 25
-    },
-    {
-      "speaker": "counselor",
-      "text": "그렇게 자각하신 것 자체가 중요한 첫걸음이에요. 우리가 스트레스를 받을 때는 부정적인 것에 더 집중하게 되는 경향이 있거든요. 이건 매우 자연스러운 반응이에요.",
-      "turn": 26,
-      "technique": "normalization"
-    },
-    {
-      "speaker": "client",
-      "text": "그런가요? 저만 이런 게 아니라는 게 조금 위안이 되네요. 그럼 어떻게 해야 할까요?",
-      "turn": 27
-    },
-    {
-      "speaker": "counselor",
-      "text": "여러 방향에서 접근해볼 수 있을 것 같아요. 먼저, 팀장으로서의 역할에 대해 어떤 기대를 가지고 계신지 이야기해볼까요? 완벽한 팀장은 어떤 모습이라고 생각하시나요?",
-      "turn": 28,
-      "technique": "exploration"
-    },
-    {
-      "speaker": "client",
-      "text": "음... 모든 일을 완벽하게 처리하고, 팀원들한테 존경받고, 실수하지 않는 사람? 그런데 말하고 보니 그런 사람이 있을까 싶네요.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "스스로도 느끼시는 것처럼, 완벽한 리더는 존재하지 않아요. 실수도 하고, 때로는 어려움도 겪으면서 성장하는 것이 리더십이에요. 지금 겪고 계신 어려움도 성장 과정의 일부일 수 있어요.",
-      "turn": 30,
-      "technique": "reframing"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇게 생각하니까 조금 마음이 편해지네요. 그런데 팀원들과의 관계는 어떻게 풀어야 할까요?",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "좋은 질문이에요. 팀원들과 솔직하게 대화해보신 적이 있나요? 역할이 바뀌면서 느끼는 어색함에 대해서요.",
-      "turn": 32,
-      "technique": "solution-focused"
-    },
-    {
-      "speaker": "client",
-      "text": "아니요, 그런 얘기는 한 번도 못 해봤어요. 약해 보일까 봐 두려웠거든요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "솔직함을 약함으로 보시는 거네요. 하지만 오히려 자신의 감정과 상황을 솔직하게 나누는 것이 진정한 리더십의 시작일 수 있어요. 완벽한 척하는 것보다 인간적인 모습을 보이는 것이 신뢰를 쌓는 데 도움이 될 수 있습니다.",
-      "turn": 34,
-      "technique": "reframing"
-    },
-    {
-      "speaker": "client",
-      "text": "그런 관점은 생각해본 적이 없네요. 그럼 어떻게 시작하면 좋을까요?",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "다음 상담에서는 구체적인 실행 방법들을 함께 계획해보면 좋겠어요. 오늘 상담을 통해 어떤 생각이나 느낌이 드셨나요?",
-      "turn": 36,
-      "technique": "summarization"
-    },
-    {
-      "speaker": "client",
-      "text": "제가 너무 완벽주의적으로 생각하고 있었다는 걸 알게 됐어요. 그리고 실패 하나로 모든 걸 판단하고 있었다는 것도요. 조금 희망이 보이는 것 같아요.",
-      "turn": 37
-    },
-    {
-      "speaker": "counselor",
-      "text": "오늘 스스로 많은 것을 알아차리셨네요. 이런 자각이 변화의 시작이에요. 다음 상담 때까지 한 가지만 해보시겠어요? 매일 자기 전에 그날 잘한 일 한 가지씩만 적어보는 거예요. 아주 작은 것도 괜찮아요.",
-      "turn": 38,
-      "technique": "homework assignment"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 해볼게요. 오늘 상담받길 잘한 것 같아요. 감사합니다.",
-      "turn": 39
-    },
-    {
-      "speaker": "counselor",
-      "text": "용기 내어 상담을 시작하신 것 자체가 정말 대단한 일이에요. 다음 주에 다시 뵙겠습니다. 힘내세요.",
-      "turn": 40,
-      "technique": "encouragement"
+      "text": "잘하실 거예요. 본인을 믿으세요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1855",
   "metadata": {
-    "generated_at": "2025-12-17T15:46:34.214616+00:00",
+    "generated_at": "2025-12-18T03:02:28.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

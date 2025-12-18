@@ -1,209 +1,300 @@
 {
-  "conversation_id": "CONV_20250619_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "여성",
-    "occupation": "중학교 교사"
+  "client_profile": {
+    "age": "37",
+    "gender": "남성",
+    "occupation": "IT 스타트업 대표",
+    "background": "연애 경험 부족, 결혼 의지 없음, 주변 압박과 외로움 사이 갈등"
   },
-  "situation": "10년차 교사로 학생 지도에 어려움을 겪으며 번아웃을 경험하고 있음. 최근 학생과의 갈등으로 자신의 직업 선택에 대해 회의감을 느끼고 있음.",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 상담 받는 게 처음이라 좀 떨리네요.",
-      "turn": 1
+      "text": "주변에서 결혼 안 하냐고 계속 물어봐요. 솔직히 필요성을 못 느끼는데... 이상한 건가요?"
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음이시라 긴장되실 수 있어요. 편안하게 말씀해주시면 됩니다. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "결혼의 필요성을 느끼지 못하신다는 게 이상한 건 아니에요. 각자 다른 가치관을 가질 수 있으니까요. 결혼에 대해 어떻게 생각하시나요?",
+      "technique": [
+        "validation",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치는 교사인데요... 요즘 학교 가는 게 너무 힘들어요. 아침에 일어나면 출근하기 싫고, 학교만 생각하면 가슴이 답답해져요.",
-      "turn": 3
+      "text": "복잡하고 귀찮은 것 같아요. 혼자 사는 게 편한데 왜 굳이 누군가와 살아야 하나 싶고요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "학교에 가는 것 자체가 큰 부담이 되고 있으시군요. 신체적으로도 답답함을 느끼실 정도라니 많이 힘드셨겠어요.",
+      "text": "현재 혼자의 삶에 만족하고 계시는군요. 연애 경험은 있으신가요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "거의 없어요. 한두 번 만나다가 끝났고... 깊은 관계까지 간 적은 없어요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "친밀한 관계 경험이 많지 않으시군요. 그게 결혼에 대한 생각에 영향을 미칠 수도 있어요. 연애가 안 됐던 이유가 뭐라고 생각하세요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네... 교사가 된 지 10년이 됐는데, 처음에는 정말 열정적이었거든요. 학생들을 가르치는 게 좋았고, 보람도 느꼈어요. 그런데 지금은...",
-      "turn": 5
+      "text": "제가 연애에 관심이 없었어요. 일이 더 재밌고 중요했거든요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "처음의 열정과 지금의 모습 사이에 큰 차이를 느끼시는군요. 그 변화가 언제부터 시작되었나요?",
+      "text": "일에 집중하면서 연애 우선순위가 낮았군요. 지금도 여전히 그런가요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "네. 회사 키우는 게 목표고... 연애나 결혼은 그다음 문제 같아요. 근데 주변에서 계속 물어보니까 제가 잘못된 건가 싶기도 하고요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "주변의 질문이 본인을 의심하게 만드는군요. 하지만 우선순위는 사람마다 달라요. 잘못된 게 아니에요.",
+      "technique": [
+        "empathy",
+        "validation"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "정확히는 모르겠지만... 2~3년 전부터인 것 같아요. 학생들이 점점 통제가 안 되고, 학부모들의 요구도 많아지고... 특히 지난달에 한 학생과 크게 부딪힌 일이 있었어요.",
-      "turn": 7
+      "text": "근데 이렇게 계속 혼자 살아도 괜찮을까요? 나중에 늙으면 외롭지 않을까요?"
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "지난달에 있었던 일이 특히 영향을 많이 준 것 같네요. 그때 무슨 일이 있었는지 말씀해주실 수 있을까요?",
+      "text": "미래에 대한 불안이 있으시군요. 지금 외롭다고 느끼시나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "가끔요. 퇴근하고 집에 혼자 있으면... 근데 그렇다고 누군가와 살고 싶은 건 아니에요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "외로움은 느끼지만 동거는 원하지 않으시는군요. 외로움을 해소하는 다른 방법들도 있어요. 친구나 가족은 어떠세요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "encouragement"
-    },
-    {
       "speaker": "client",
-      "text": "수업 시간에 계속 떠드는 학생을 제지했는데, 그 학생이 제게 욕설을 했어요. 저도 순간 화가 나서 목소리를 높였고... 그 다음날 학부모가 학교에 찾아와서 제가 아이를 괴롭힌다고 항의하셨어요.",
-      "turn": 9
+      "text": "친구들은 다 결혼해서 바쁘고... 가족은 지방에 있어요. 자주 못 봐요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "정당하게 학생을 지도하려 했던 상황에서 오히려 비난을 받으셨네요. 그 순간 어떤 감정을 느끼셨나요?",
+      "text": "가까운 사람들과의 접촉이 줄어들었군요. 새로운 사회적 관계를 만들 생각은 없으세요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "어떻게요? 일하느라 시간도 없는데..."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "시간이 없다고 느끼시지만, 외로움을 해소하려면 관계에 시간을 투자해야 해요. 결혼이 아니어도 취미 모임이나 동호회 같은 것도 있죠.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "억울하고... 화나고... 무력했어요. 내가 뭘 잘못했나 싶기도 하고. 그 이후로 학생들을 대하는 게 너무 조심스러워졌어요. 제대로 지도도 못하겠고.",
-      "turn": 11
+      "text": "그런 건 생각 안 해봤네요. 결혼 아니면 혼자인 줄 알았어요."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "억울함, 분노, 무력감을 동시에 느끼셨고, 그 일이 지금도 선생님의 교육 방식에 영향을 주고 있는 것 같네요.",
+      "text": "결혼과 고립 사이에 많은 선택지가 있어요. 친구, 동료, 커뮤니티 등으로 외로움을 해소할 수 있죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그럼 결혼은 안 해도 되는 건가요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "결혼은 의무가 아니에요. 선택이죠. 본인이 원하지 않으면 안 해도 돼요. 다만 외로움을 관리하는 방법은 필요해요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 이제는 학생들이 뭘 해도 그냥 넘어가게 돼요. 또 문제가 생길까봐요. 그러다 보니 수업 분위기도 엉망이고... 제가 교사로서 무능한 것 같아요.",
-      "turn": 13
+      "text": "부모님은 어떻게 설득해요? '대를 이어야 한다'고 하시는데..."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "자신을 무능하다고 평가하고 계시네요. 하지만 10년간 교직을 유지해오셨고, 처음에는 열정도 있으셨잖아요. 지금의 어려움이 선생님의 능력 부족 때문일까요?",
+      "text": "부모님 세대의 가치관이 있으시겠죠. 하지만 본인의 삶이에요. 솔직하게 결혼 의사가 없다고 말씀드리는 게 어떨까요?",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "큰일 나겠네요. 엄청 실망하실 텐데..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "처음엔 그러실 수 있어요. 하지만 시간이 지나면 받아들이실 거예요. 그리고 본인이 행복하면 부모님도 결국 안심하시게 돼 있어요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "글쎄요... 다른 선생님들은 잘 하시는 것 같은데 저만 이런 것 같아요. 동료들한테 이런 얘기도 못하겠고요.",
-      "turn": 15
+      "text": "만약에요, 만약에 나중에 마음이 바뀌면 어떡하죠?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "다른 선생님들과 비교하시면서 더 힘들어하시는군요. 혹시 동료 선생님들도 비슷한 어려움을 겪고 있을 가능성은 생각해보셨나요?",
+      "text": "그럼 그때 생각하면 돼요. 지금 결정이 평생 결정이 아니에요. 사람은 변하고, 우선순위도 바뀌죠.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그렇긴 하네요. 지금은 확실히 필요성을 못 느끼거든요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그럼 지금은 그 감정을 존중하세요. 억지로 결혼하면 본인도 상대방도 불행해져요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "cognitive restructuring"
-    },
-    {
       "speaker": "client",
-      "text": "음... 생각해보니 쉬는 시간에 다들 힘들다는 얘기는 하긴 해요. 그런데 저처럼 심각하지는 않은 것 같아요. 저는 정말 그만두고 싶을 정도거든요.",
-      "turn": 17
+      "text": "맞는 말이에요. 근데 혹시 제가 친밀감 회피형이거나 그런 건 아닐까요?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "그만두고 싶다는 생각까지 하실 정도로 지쳐계시는군요. 교직 외에 다른 것들에서는 어떠신가요? 쉴 수 있는 시간이나 즐거움을 느끼는 순간이 있으신가요?",
+      "text": "그럴 수도 있어요. 하지만 그게 꼭 나쁜 건 아니에요. 어떤 사람은 독립성을 더 중시하거든요. 관계에서 불편함을 느끼시나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "가까워지면 부담스러워요. 제 공간이 침범당하는 느낌?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "경계가 중요하신 타입이시군요. 그런 사람들은 독립적인 관계를 선호해요. 결혼보다는 각자의 공간을 유지하는 관계가 더 맞을 수 있어요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "assessment"
-    },
-    {
       "speaker": "client",
-      "text": "주말에도 그냥 집에서 누워있어요. 아무것도 하기 싫고... 예전에는 친구들도 만나고 영화도 보고 그랬는데, 요즘은 그럴 에너지가 없어요.",
-      "turn": 19
+      "text": "그런 관계도 가능한가요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "일상생활 전반에서 에너지가 고갈된 상태시네요. 이런 상태가 얼마나 지속되었나요? 그리고 수면이나 식사는 어떠신가요?",
+      "text": "물론이죠. 각자 집을 유지하면서 만나는 커플들도 있고, 법적 결혼 없이 동반자 관계를 유지하는 사람들도 있어요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "그런 선택지가 있다는 걸 몰랐어요. 조금 안심이 되네요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "본인에게 맞는 형태를 찾으면 돼요. 전통적인 결혼만이 답은 아니에요. 중요한 건 본인이 행복한 거죠.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "assessment"
-    },
-    {
       "speaker": "client",
-      "text": "몇 달은 된 것 같아요. 잠은... 잘 못 자요. 자다가도 학교 생각에 깨고. 식사는 그냥 때우는 정도예요. 맛도 잘 모르겠고.",
-      "turn": 21
+      "text": "감사합니다. 많이 편해졌어요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "수면과 식사에도 영향을 받고 계시네요. 선생님께서 지금 경험하시는 것들은 번아웃의 전형적인 증상들입니다. 이건 선생님이 무능해서가 아니라, 오랜 기간 높은 스트레스에 노출되었기 때문이에요.",
-      "turn": 22,
-      "technique": "psychoeducation"
-    },
-    {
-      "speaker": "client",
-      "text": "번아웃이요? 그게... 저한테 해당되는 건가요? 저는 그냥 제가 약한 건 줄 알았어요.",
-      "turn": 23
-    },
-    {
-      "speaker": "counselor",
-      "text": "약한 게 아니에요. 오히려 10년간 헌신적으로 일해오신 결과예요. 번아웃은 누구에게나 올 수 있는 것이고, 특히 교사처럼 감정노동이 많은 직업에서 흔합니다.",
-      "turn": 24,
-      "technique": "normalization"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇게 말씀해주시니까 조금... 위로가 되네요. 그럼 저는 어떻게 해야 할까요? 정말 그만둬야 하나요?",
-      "turn": 25
-    },
-    {
-      "speaker": "counselor",
-      "text": "지금 당장 큰 결정을 내리실 필요는 없어요. 먼저 선생님의 에너지를 회복하는 것이 우선입니다. 작은 것부터 시작해볼 수 있을까요? 예를 들어, 하루 10분이라도 선생님만을 위한 시간을 가져보는 건 어떨까요?",
-      "turn": 26,
-      "technique": "solution-focused"
-    },
-    {
-      "speaker": "client",
-      "text": "10분이요... 그 정도는 할 수 있을 것 같아요. 뭘 하면 좋을까요?",
-      "turn": 27
-    },
-    {
-      "speaker": "counselor",
-      "text": "선생님께서 예전에 즐거워하셨던 것들 중에서 가장 부담 없는 것을 선택해보세요. 산책, 음악 듣기, 차 한 잔 마시기... 무엇이든 좋습니다.",
-      "turn": 28,
-      "technique": "behavioral activation"
-    },
-    {
-      "speaker": "client",
-      "text": "음악 듣는 건 좋아했어요. 예전에는 출퇴근길에 항상 음악을 들었는데 언제부턴가 그것도 안 하게 됐네요.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "좋은 시작점이네요. 이번 주에 출퇴근길에 좋아하시는 음악을 들어보시는 건 어떨까요? 그리고 그때 느껴지는 감정을 한번 관찰해보세요.",
-      "turn": 30,
-      "technique": "homework assignment"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 해볼게요. 그리고... 학생들과의 관계는 어떻게 해야 할까요? 여전히 두렵거든요.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "그 부분은 천천히 다뤄가면 좋겠어요. 우선은 선생님 자신을 돌보는 것이 먼저입니다. 그 다음에 학생 지도에 대한 구체적인 전략들을 함께 찾아갈 수 있어요. 다음 상담 때 더 이야기 나눠볼까요?",
-      "turn": 32,
-      "technique": "pacing"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 그게 좋을 것 같아요. 오늘 이야기하고 나니까 조금 마음이 가벼워진 것 같아요. 제가 이상한 게 아니라는 걸 알게 돼서요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "이상한 게 전혀 아니에요. 용기 내서 상담실 문을 두드려주신 것만으로도 변화의 첫걸음을 내디딘 거예요. 이번 주 음악 들으시면서 어떤 느낌이 드는지 다음에 들려주세요.",
-      "turn": 34,
-      "technique": "encouragement"
-    },
-    {
-      "speaker": "client",
-      "text": "감사합니다. 다음 주에 또 뵐게요.",
-      "turn": 35
+      "text": "잘하실 거예요. 본인의 속도로, 본인의 방식으로 살아가세요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1865",
   "metadata": {
-    "generated_at": "2025-12-17T15:47:49.857884+00:00",
+    "generated_at": "2025-12-18T03:02:29.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

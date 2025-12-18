@@ -1,215 +1,342 @@
 {
-  "conversation_id": "CONV_20250623_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "남성",
-    "occupation": "IT 기업 팀장"
+  "client_profile": {
+    "age": "27",
+    "gender": "여성",
+    "occupation": "마케터",
+    "background": "5년 연애 후 3개월 전 이별, 일상생활 어려움, 우울감"
   },
-  "situation": "최근 승진 후 팀원들과의 관계가 어색해지고, 리더십에 대한 자신감이 부족하여 업무 스트레스와 불안감을 겪고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 상담 받아보는 게 처음이라 좀 긴장되네요.",
-      "turn": 1
+      "text": "헤어진 지 3개월이 됐는데도 아직도 힘들어요. 이게 정상인가요?"
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음이시라 긴장되실 수 있어요. 편안하게 생각하시고 천천히 이야기 나눠보면 좋겠습니다. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "3개월이 지났는데도 여전히 힘드시군요. 5년이나 함께하셨으니 충분히 그럴 수 있어요. 지금 어떤 점이 가장 힘드신가요?",
+      "technique": [
+        "validation",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는... 3개월 전에 팀장으로 승진했는데요. 처음엔 좋았는데 요즘 너무 힘들어서요.",
-      "turn": 3
+      "text": "모든 게요. 일도 집중이 안 되고, 친구들 만나도 재미없고... 그냥 무기력해요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "3개월 전 팀장으로 승진하셨군요. 처음엔 좋으셨는데 최근 들어 힘들어지셨다고 하셨는데, 어떤 부분이 가장 힘드신가요?",
+      "text": "일상의 모든 부분에서 의욕이 없으시군요. 하루 일과가 어떠신지 말씀해주시겠어요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "아침에 일어나기 싫고, 출근해서도 멍하니 있고, 퇴근하면 그냥 누워있어요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "기본적인 일상도 버겁게 느껴지시는군요. 식사는 제대로 하고 계세요?",
+      "technique": [
+        "empathy",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "예전에는 같은 팀원이었던 사람들이 이제 제 부하직원이 됐잖아요. 그게 너무 어색하고... 제가 지시를 내리는 게 맞나 싶고요.",
-      "turn": 5
+      "text": "아니요. 입맛도 없고... 먹어도 맛도 모르겠고요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "동료였던 분들이 이제 팀원이 되면서 관계의 변화가 생겼고, 그 속에서 어떻게 행동해야 할지 혼란스러우신 거네요. 그런 상황에서 어색함을 느끼시는 건 자연스러운 일입니다.",
+      "text": "식욕까지 떨어지셨네요. 수면은 어떠세요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "잠을 못 자요. 자려고 누우면 생각이 많아져서요. 그 사람 생각이 계속 나요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "밤에 잠들기 어려우시고 생각이 많아지시는군요. 어떤 생각들이 주로 드시나요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 특히 저보다 나이가 많은 팀원도 있거든요. 그 사람한테 일을 지시하는 게 정말 부담스러워요.",
-      "turn": 7
+      "text": "왜 헤어졌을까, 내가 뭘 잘못했을까, 다시 연락하면 어떨까... 이런 생각들이요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "나이가 더 많은 팀원분께 지시를 내리는 상황이 특히 부담스러우시군요. 구체적으로 어떤 상황에서 가장 어려움을 느끼시나요?",
+      "text": "후회와 자책, 그리고 미련이 공존하고 있군요. 실제로 연락해보신 적은 있으세요?",
+      "technique": [
+        "emotion_labeling",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "몇 번요. 근데 답이 없어요. SNS는 차단당했고요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "연락을 시도했지만 응답이 없었군요. 그때 기분이 어땠어요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "회의할 때요. 제가 의견을 말하면 그분이 미묘하게 반대 의견을 내시는데, 제가 너무 어리고 경험이 부족해서 그런가 싶어서... 자신감이 없어져요.",
-      "turn": 9
+      "text": "처음엔 화가 났는데, 나중엔 그냥... 비참했어요. 제가 너무 초라해 보였어요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "회의 시간에 반대 의견을 들으시면 '내가 경험이 부족해서 틀렸나'라는 생각이 드시는군요. 그럴 때 어떤 감정이 드시나요?",
+      "text": "분노에서 자괴감으로 이어졌네요. 이별의 이유가 무엇이었나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "그 사람이 '마음이 식었다'고 했어요. 갑자기요. 아무 예고도 없이."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "예상치 못한 이별이었군요. 그래서 더 받아들이기 어려우셨을 것 같아요.",
+      "technique": [
+        "empathy",
+        "validation"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "불안하고... 창피하기도 하고요. 다른 팀원들도 다 보는 앞에서 제 의견이 부정당하는 것 같아서요. 그래서 요즘은 회의 전날 밤에 잠을 못 자요.",
-      "turn": 11
+      "text": "네. 정말 갑자기였어요. 전날까지도 평소처럼 연락했는데..."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "회의 상황에서 불안하고 창피한 감정을 느끼시고, 그게 수면에까지 영향을 미치고 있네요. 이런 상황이 얼마나 자주 일어나나요?",
+      "text": "갑작스러운 변화라 혼란스러우셨겠어요. 혹시 돌이켜보면 징조 같은 게 있었나요?",
+      "technique": [
+        "validation",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "지금 생각해보면... 몇 달 전부터 연락이 좀 뜸해지긴 했어요. 근데 그땐 몰랐어요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "당시에는 알아차리기 어려웠던 변화들이 있었군요. 그 징조들을 못 봤다고 본인을 자책하고 계신가요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "주 2회 정기 회의가 있는데, 거의 매번이요. 요즘은 아예 회의를 피하고 싶을 정도예요.",
-      "turn": 13
+      "text": "네... 제가 너무 둔했던 것 같아요. 좀 더 신경 썼으면..."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "매주 2번씩 그런 불안을 경험하시는 거네요. 그 상황을 피하고 싶은 마음이 드실 만큼 힘드시겠어요. 혹시 그 팀원분과 개별적으로 대화를 나눠보신 적은 있으신가요?",
+      "text": "본인을 많이 탓하고 계시네요. 하지만 관계는 혼자 만드는 게 아니에요. 상대방도 자신의 마음 변화를 솔직히 말할 책임이 있었죠.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그래도... 제가 뭔가 했으면 달라졌을 수도 있잖아요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "그 가능성을 계속 생각하시는군요. 하지만 '만약에'는 현실이 아니에요. 그리고 상대의 마음을 본인이 통제할 수는 없어요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "아니요... 그럴 용기가 안 나요. 괜히 관계만 더 나빠질 것 같아서요. 차라리 제가 참는 게 낫지 않을까요?",
-      "turn": 15
+      "text": "그럼 저는 뭘 해야 하나요? 계속 이렇게 힘들 순 없잖아요."
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "대화를 시도하는 것보다 참는 게 더 안전하다고 느끼시는군요. 지금까지 참아오시면서 상황이 나아지셨나요?",
+      "text": "회복하고 싶으신 마음이 있으시군요. 그게 중요한 첫걸음이에요. 지금 SNS나 공통 친구를 통해 그 사람 소식을 접하고 계신가요?",
+      "technique": [
+        "encouragement",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "가끔요. SNS는 차단당했지만 공통 친구가 얘기해줘요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "간접적으로라도 소식을 듣고 계시군요. 그 소식을 들으면 기분이 어떠세요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "gentle challenge"
-    },
-    {
       "speaker": "client",
-      "text": "아니요... 오히려 더 힘들어지는 것 같아요. 요즘은 출근하는 것 자체가 두렵고, 주말에도 월요일 생각에 우울해요.",
-      "turn": 17
+      "text": "궁금하면서도... 듣고 나면 더 아파요. 그 사람은 잘 지내는 것 같더라고요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "참는 것만으로는 상황이 개선되지 않고 있고, 오히려 일상 전반에 영향을 미치고 있네요. 이런 상황에서 어떤 변화를 원하시나요?",
+      "text": "상대는 회복한 것처럼 보이니 본인만 힘든 것 같아서 더 괴로우신 거죠. 이별 회복을 위해 첫 번째로 필요한 건 '연결 끊기'예요.",
+      "technique": [
+        "empathy",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "연결 끊기요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "네. SNS 차단, 공통 친구에게 그 사람 소식 안 듣기, 추억의 물건 정리 등이요. 상처가 아물려면 계속 건드리지 말아야 해요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "팀장으로서 자신감을 갖고 싶어요. 그리고 팀원들과도 좋은 관계를 유지하면서 일하고 싶고요. 그게 가능할까요?",
-      "turn": 19
+      "text": "근데 그러면 완전히 끝나는 거잖아요..."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "자신감 있는 리더십과 좋은 팀 관계, 두 가지 모두 중요한 목표시네요. 충분히 가능한 목표라고 생각합니다. 먼저, 팀장으로서 본인의 강점은 무엇이라고 생각하시나요?",
+      "text": "이미 끝난 관계예요. 인정하기 어렵지만요. 끝을 받아들여야 새로운 시작이 가능해요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "... 너무 무서워요. 그 사람 없는 삶이."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "5년을 함께했으니 두려운 게 당연해요. 하지만 그 사람 이전의 본인도 있었고, 이후의 본인도 있을 거예요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "strength-based approach"
-    },
-    {
       "speaker": "client",
-      "text": "강점이요? 잘 모르겠는데... 기술적인 부분은 자신 있어요. 그리고 팀원들 입장을 이해하려고 노력하는 편이고요.",
-      "turn": 21
+      "text": "어떻게 시작하죠?"
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "기술적 전문성과 팀원에 대한 이해와 공감 능력, 이 두 가지는 리더에게 매우 중요한 강점입니다. 이런 강점들을 가지고 계신데도 자신감이 부족하다고 느끼시는 이유가 뭘까요?",
+      "text": "작은 것부터요. 오늘은 제시간에 잠자리에 들기, 내일은 아침 식사 챙기기. 이렇게 하나씩이요.",
+      "technique": [
+        "goal_setting",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "그게 도움이 될까요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "일상의 리듬을 되찾는 게 회복의 기초예요. 작은 성취들이 쌓이면 힘이 돼요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "음... 제가 완벽해야 한다고 생각하는 것 같아요. 팀장이니까 모든 걸 다 알아야 하고, 실수하면 안 된다는 압박감이 있어요.",
-      "turn": 23
+      "text": "해볼게요. 근데 힘들면 어떡하죠?"
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "팀장은 완벽해야 한다는 기준을 스스로에게 적용하고 계시네요. 그 기준은 현실적으로 달성 가능한 것일까요? 그리고 그 기준은 어디서 온 것 같으세요?",
-      "turn": 24,
-      "technique": "cognitive restructuring"
+      "text": "힘들면 다시 상담 오시면 돼요. 혼자 견딜 필요 없어요. 함께 해나가요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
     },
     {
+      "turn": 23,
       "speaker": "client",
-      "text": "생각해보니 불가능한 기준이네요. 아무도 완벽할 순 없잖아요. 아마... 제가 어렸을 때부터 실수를 용납받지 못했던 것 같아요. 아버지가 굉장히 엄격하셨거든요.",
-      "turn": 25
+      "text": "감사합니다. 조금은... 희망이 보이는 것 같아요."
     },
     {
+      "turn": 23,
       "speaker": "counselor",
-      "text": "중요한 통찰을 하셨네요. 어린 시절의 경험이 지금의 완벽주의적 기준에 영향을 주고 있다는 것을 알아차리셨어요. 그렇다면 이제 성인이 된 지금, 본인만의 새로운 기준을 만들어볼 수 있지 않을까요?",
-      "turn": 26,
-      "technique": "insight facilitation"
-    },
-    {
-      "speaker": "client",
-      "text": "새로운 기준이요... 어떻게 만들어야 할까요?",
-      "turn": 27
-    },
-    {
-      "speaker": "counselor",
-      "text": "좋은 팀장이란 완벽한 사람이 아니라, 어떤 사람일까요? 본인이 존경했던 리더나 상사가 있으셨다면, 그분은 어떤 모습이었나요?",
-      "turn": 28,
-      "technique": "guided discovery"
-    },
-    {
-      "speaker": "client",
-      "text": "전 팀장님이 좋으셨어요. 실수해도 혼내지 않고 배울 기회로 만들어주셨고, 모르는 건 솔직하게 모른다고 하시면서 같이 찾아보자고 하셨죠.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "그분은 완벽함보다는 솔직함과 성장 지향적인 태도를 보여주셨네요. 그런 모습이 오히려 더 신뢰를 주었던 거죠. 지금 팀원들에게도 그런 리더가 될 수 있지 않을까요?",
-      "turn": 30,
-      "technique": "reframing"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇네요... 제가 너무 완벽하게 보이려고만 했던 것 같아요. 그게 오히려 저를 더 불안하게 만들었고요.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "정말 중요한 깨달음이에요. 다음 회의 전에 작은 실험을 해보시는 건 어떨까요? 나이 많은 팀원분의 의견에 방어적으로 반응하는 대신, '좋은 지적이네요. 그 부분도 고려해서 함께 논의해봅시다'라고 말해보시는 거예요.",
-      "turn": 32,
-      "technique": "behavioral experiment"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇게 하면... 제가 약해 보이지 않을까요?",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "오히려 다른 의견을 수용할 수 있는 여유와 자신감으로 보일 수 있어요. 협력적인 태도는 리더십의 약점이 아니라 강점입니다. 한번 시도해보시고 다음에 어떤 결과가 있었는지 이야기 나눠볼까요?",
-      "turn": 34,
-      "technique": "encouragement"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 해볼게요. 오늘 상담 받고 나니 조금 마음이 가벼워진 것 같아요. 제가 너무 스스로를 몰아붙이고 있었네요.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "오늘 많은 것을 나누셨고, 스스로를 돌아보는 시간을 가지셨어요. 변화는 한 번에 일어나지 않으니 천천히, 작은 시도부터 해보시면 좋겠습니다. 다음 주에 어떤 경험을 하셨는지 함께 나눠보면 좋겠네요.",
-      "turn": 36,
-      "technique": "supportive closure"
+      "text": "그 마음 잘 간직하세요. 회복은 직선이 아니라 곡선이에요. 나쁜 날도 있지만 결국 나아질 거예요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1832",
   "metadata": {
-    "generated_at": "2025-12-17T15:43:22.251162+00:00",
+    "generated_at": "2025-12-18T03:02:27.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }
