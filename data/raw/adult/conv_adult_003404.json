@@ -1,290 +1,427 @@
 {
   "category": "adult",
   "client_profile": {
-    "age": "26",
-    "gender": "남성",
-    "occupation": "온라인 쇼핑몰 운영",
-    "background": "사회불안 증상, 사람 만나는 것에 극심한 공포, 대면 접촉 회피"
+    "age": "38",
+    "gender": "여성",
+    "occupation": "회계법인 팀장",
+    "background": "입사 10년차, 같은 팀 동료와의 업무 스타일 차이로 지속적 마찰, 팀 성과에도 영향"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "사람 만나는 게 너무 무서워요. 심장이 빨리 뛰고 식은땀 나고... 그래서 집에서만 일해요."
+      "text": "같은 팀 동료 때문에 너무 스트레스예요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "사람을 만날 때 신체적 반응까지 나타나시는군요. 사회불안 증상이 있으신 것 같아요. 언제부터 이런 증상이 있었나요?",
+      "text": "팀 동료와의 관계가 많이 힘드신가 봐요. 어떤 상황인지 말씀해 주시겠어요?",
       "technique": [
-        "reflection",
         "empathy",
-        "clarification"
+        "open_question"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "고등학교 때부터요. 발표할 때 떨리고 그랬는데, 점점 심해져서 이제는 일상적인 대화도 힘들어요."
+      "text": "저는 완벽주의 성향이 있어서 모든 걸 꼼꼼하게 확인하는데, 그 동료는 대충대충 해요. 같이 일하면 제가 다 다시 확인해야 해요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "10년 가까이 이런 어려움이 있었군요. 증상이 점점 악화되어 일상생활까지 영향을 미치고 있네요. 가장 두려운 상황이 무엇인가요?",
+      "text": "본인은 꼼꼼한 스타일인데 동료는 덜 꼼꼼해서, 결국 본인이 재확인 작업을 하게 되시는군요. 구체적으로 어떤 문제들이 있었나요?",
       "technique": [
-        "validation",
-        "empathy",
+        "reflection",
         "open_question"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "사람들이 저를 쳐다보는 거요. '저 사람 이상하다', '어색하다' 이렇게 생각할 것 같아서요."
+      "text": "지난주에도 그 동료가 작성한 보고서에 숫자 오류가 세 군데나 있었어요. 제가 최종 검토하다가 발견해서 고쳤는데, 만약 못 찾았으면 큰일 날 뻔했어요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "타인의 평가에 대한 두려움이 크시군요. 실제로 누군가 그렇게 말한 적이 있나요?",
+      "text": "중요한 오류를 발견하셨네요. 그 상황에서 어떤 감정이 드셨나요?",
       "technique": [
-        "interpretation",
-        "closed_question"
+        "reflection",
+        "emotion_labeling"
       ]
     },
     {
       "turn": 4,
       "speaker": "client",
-      "text": "직접적으로는 아니지만... 제가 어색하게 행동하면 사람들이 이상하게 쳐다봐요."
+      "text": "화나고, 불안하고... '이 사람 믿을 수 없다'는 생각이 들었어요."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "본인이 어색하다고 느끼실 때 사람들의 시선을 의식하시는군요. 그 시선이 정말 '이상하다'는 의미일까요, 아니면 본인의 해석일까요?",
+      "text": "화와 불안, 그리고 신뢰가 깨진 느낌이시군요. 그 동료에게 이런 오류에 대해 피드백을 주시나요?",
       "technique": [
-        "clarification",
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "말하죠. '여기 틀렸어요, 다음엔 더 꼼꼼히 확인해주세요'라고. 근데 그 사람은 '네' 하고는 또 똑같이 실수해요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "피드백을 주지만 행동 변화가 없어서 더 답답하시겠어요. 그럴 때 어떻게 하시나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "처음부터 제가 하죠. 뭐. 그게 더 빨라요. 두 번 일하는 것보다는..."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "동료의 일까지 본인이 떠안고 계시는군요. 그러면 업무량은 어떻게 되나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "당연히 많아지죠. 야근도 늘고... 근데 제가 안 하면 팀 전체가 문제가 생기니까 어쩔 수 없어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "'내가 해야 팀이 안전하다'고 느끼시는군요. 그런데 이렇게 계속 대신 해주시면 그 동료는 어떻게 될까요?",
+      "technique": [
+        "reflection",
         "confrontation"
       ]
     },
     {
-      "turn": 5,
-      "speaker": "client",
-      "text": "... 제 해석일 수도 있겠네요. 확실히는 모르겠어요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "정직하게 말씀해주셨네요. 불안할 때는 중립적인 표정도 부정적으로 해석하게 되거든요. 지금 온라인 쇼핑몰 운영하신다고 하셨는데, 대면 접촉이 전혀 없나요?",
-      "technique": [
-        "validation",
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "네. 모든 걸 온라인으로 해요. 택배도 문 앞에 두고 가달라고 하고요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "완전히 대면 접촉을 차단하고 계시네요. 이런 생활에 만족하시나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "아니요. 외롭고... 정상적인 삶이 아니라는 거 알아요. 근데 무서워요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "변화를 원하지만 두려움이 크시군요. 두려움의 정체가 정확히 뭘까요? '사람을 만나면 무슨 일이 생길 것 같으세요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
       "turn": 8,
       "speaker": "client",
-      "text": "창피당할 것 같아요. 말을 더듬거나, 어색하게 행동하거나... 그러면 사람들이 저를 이상한 사람으로 볼 거예요."
+      "text": "... 계속 그대로겠죠. 어차피 제가 확인해주니까."
     },
     {
       "turn": 8,
       "speaker": "counselor",
-      "text": "'창피당하는 것'이 최악의 시나리오시군요. 만약 정말 그런 일이 생긴다면 어떻게 될까요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "견딜 수 없을 것 같아요. 그래서 아예 안 하는 거예요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "회피가 단기적으로는 안전하게 느껴지지만, 장기적으로는 삶을 제한하고 있어요. 이 패턴을 깨고 싶으신가요?",
-      "technique": [
-        "information_giving",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "깨고 싶긴 한데... 어떻게요?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "노출 치료라는 방법이 있어요. 두려운 상황에 점진적으로 노출되면서 불안을 견디는 법을 배우는 거죠.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "무서운데요..."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "당연히 무섭죠. 하지만 갑자기 큰 것부터 하는 게 아니에요. 가장 덜 무서운 것부터 시작해요. 예를 들어, 편의점 가서 물건 사기 같은 거요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "편의점도 무서운데..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "그럼 더 작은 것부터요. 창문 열고 밖 보기, 베란다에 나가기, 집 앞 계단까지 내려가기. 이렇게 단계적으로요.",
-      "technique": [
-        "structuring",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그게 도움이 될까요?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "처음엔 불안하겠지만, 반복하면 점점 줄어들어요. 뇌가 '이 상황이 위험하지 않구나'라고 학습하거든요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "혼자 할 수 있을까요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "상담을 통해 함께 해나가면 돼요. 그리고 불안 관리 기법도 배우고요. 호흡법, 이완 훈련 같은 거요.",
+      "text": "정확히 파악하셨어요. 본인이 대신 해주는 게 오히려 그 동료의 성장을 막고 있을 수 있어요.",
       "technique": [
         "encouragement",
         "information_giving"
       ]
     },
     {
-      "turn": 15,
+      "turn": 9,
       "speaker": "client",
-      "text": "호흡법이요?"
+      "text": "그럼 어떡해요? 실수한 걸 그대로 놔두라는 건가요?"
     },
     {
-      "turn": 15,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "네. 불안할 때 호흡이 빨라지는데, 의식적으로 천천히 호흡하면 신체 반응이 진정돼요. 지금 한번 해볼까요?",
+      "text": "그게 아니라, 피드백 방식을 바꿔보는 거예요. 지금은 '여기 틀렸어요'라고 결과만 알려주시잖아요. 대신 '어디가 틀렸는지 직접 찾아보세요'라고 하면 어떨까요?",
       "technique": [
-        "information_giving",
-        "goal_setting"
+        "clarification",
+        "information_giving"
       ]
     },
     {
-      "turn": 16,
+      "turn": 10,
       "speaker": "client",
-      "text": "네, 해보고 싶어요."
+      "text": "그럼 시간이 더 걸리잖아요."
     },
     {
-      "turn": 16,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "코로 4초 들이마시고, 7초 참았다가, 입으로 8초에 걸쳐 내쉬세요. 천천히 따라 해보세요.",
+      "text": "단기적으로는 그럴 수 있어요. 하지만 장기적으로는 그 동료가 스스로 확인하는 습관을 갖게 되면 본인 부담이 줄어들 거예요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "... 그렇긴 하네요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "그리고 중요한 건, 그 동료가 정말 '대충' 하는 건지, 아니면 '다른 기준'을 가지고 있는 건지 구분해볼 필요가 있어요. 그 동료와 업무 기준에 대해 이야기해보신 적 있으세요?",
+      "technique": [
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "업무 기준이요? 틀린 건 틀린 거죠. 기준이 뭐가 있어요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "예를 들어, 본인은 '100% 완벽'이 기준이라면, 그 동료는 '80% 정확도면 충분'이라고 생각할 수 있어요. 서로 기대치가 다를 수 있다는 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "회계 업무는 100%가 맞아야죠!"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "회계에서 정확성이 중요한 건 맞아요. 그렇다면 팀 차원에서 그 기준을 명확히 공유하고, 체크리스트나 검수 절차를 만드는 건 어떨까요?",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "체크리스트요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "네, '보고서 제출 전 반드시 확인할 항목' 같은 걸 만드는 거예요. 그럼 개인의 성향이 아니라 팀의 규칙이 되는 거죠.",
       "technique": [
         "information_giving",
         "structuring"
       ]
     },
     {
-      "turn": 17,
+      "turn": 15,
       "speaker": "client",
-      "text": "(호흡 연습) 조금... 진정되는 것 같아요."
+      "text": "그게... 도움이 될까요?"
     },
     {
-      "turn": 17,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "좋아요. 이 기법을 불안할 때 사용하면 도움이 돼요. 이번 주에 연습해보시겠어요?",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "네, 해볼게요. 그리고 밖에 나가는 것도... 계단까지는 할 수 있을 것 같아요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "훌륭해요. 계단까지 내려가는 것부터 시작해보세요. 하루에 한 번씩이요. 그리고 그때의 불안 정도를 기록해보세요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "기록이요?"
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "네. 0점(전혀 불안하지 않음)부터 10점(극도로 불안함)까지요. 패턴을 보면 도움이 돼요.",
+      "text": "최소한 '왜 이렇게까지 해야 하냐'는 반발은 줄일 수 있어요. 개인 요구가 아니라 팀 규칙이니까요. 그리고 본인도 매번 전체를 다시 확인하는 대신 체크리스트만 확인하면 되고요.",
       "technique": [
         "information_giving",
-        "clarification"
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "그렇긴 하네요. 근데 그 동료가 따라줄까요?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "팀장으로서 팀 규칙을 만드는 건 권한 내의 일이에요. 그리고 따르지 않을 경우의 결과도 명확히 해야죠.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "결과요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "예를 들어, '체크리스트 확인 없이 제출한 보고서는 반려한다' 같은 거요. 그럼 그 동료도 책임감을 갖게 되겠죠.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "아, 그렇게 명확하게 정하는 거군요."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "네. 그리고 한 가지 더 생각해볼 게 있어요. 혹시 본인의 완벽주의가 때로는 과도한 건 아닌지요. 정말 모든 부분이 100%여야 하나요?",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "... 글쎄요. 작은 실수도 용납이 안 되거든요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "그 기준이 본인을 지치게 하고, 동료와의 갈등도 만들고 있을 수 있어요. 중요한 것과 덜 중요한 것을 구분해보는 건 어떨까요?",
+      "technique": [
+        "interpretation",
+        "information_giving"
       ]
     },
     {
       "turn": 20,
       "speaker": "client",
-      "text": "알겠습니다. 해볼게요."
+      "text": "그게 쉽지 않아요. 다 중요해 보이거든요."
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "잘하실 거예요. 작은 한 걸음이 큰 변화의 시작이에요. 다음 주에 어떠셨는지 얘기 나눠봐요.",
+      "text": "그럴 수 있어요. 하지만 '치명적 오류'와 '사소한 오류'는 다르잖아요. 숫자 오류는 치명적이지만, 예를 들어 폰트 크기 같은 건 덜 중요할 수 있죠.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "맞는 말이에요. 제가 너무 모든 걸 완벽하게 하려고 했나봐요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "본인에게도, 동료에게도 너무 높은 기준을 적용하고 계셨던 것 같아요. 이번 주에 할 수 있는 걸 정해볼까요?",
+      "technique": [
+        "interpretation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "네, 뭐부터 시작하면 좋을까요?"
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "먼저 팀 회의를 열어서 보고서 체크리스트를 함께 만들어보세요. 동료의 의견도 듣고요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "그 동료 의견도요?"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "네. 그래야 '내 규칙'이 아니라 '우리 규칙'이 되니까요. 그리고 그 과정에서 동료가 왜 특정 부분을 놓치는지 이해할 수도 있어요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "알겠어요. 해보겠습니다."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "그리고 동료가 실수했을 때, 바로 고쳐주는 대신 '다시 한번 확인해보세요'라고 돌려보내는 연습도 해보세요.",
+      "technique": [
+        "goal_setting",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "그게 참기 힘들 것 같은데... 해볼게요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "처음엔 어렵겠지만, 장기적으로는 본인도 편해지실 거예요. 그리고 본인의 완벽주의도 조금씩 내려놓는 연습을 하세요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "완벽주의를 내려놓는다는 게... 구체적으로 어떻게 하는 건가요?"
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "'이 정도면 충분하다'는 선을 정하는 거예요. 예를 들어 '치명적 오류만 없으면 OK'라고요. 완벽을 추구하되, 완벽하지 않아도 괜찮다는 걸 받아들이는 거죠.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "쉽지 않겠지만... 시도는 해보겠습니다."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "오늘 정한 것들을 정리해볼까요? 팀 회의에서 체크리스트 함께 만들기, 동료에게 재확인 기회 주기, 본인의 완벽주의 기준 조정하기. 맞나요?",
+      "technique": [
+        "summarization",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "네, 맞아요. 생각보다 제가 바꿔야 할 것도 많네요."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "갈등은 한쪽만의 문제가 아니에요. 본인의 높은 기준과 동료의 다른 스타일이 부딪힌 거니, 서로 조율이 필요해요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "알겠습니다. 다음 주에 결과 말씀드릴게요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "좋아요. 완벽하게 하려고 하지 마세요. 조금씩 시도해보는 것만으로도 충분해요. 다음 주에 어떻게 되었는지 이야기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "client",
+      "text": "감사합니다. 다음 주에 뵙겠습니다."
+    },
+    {
+      "turn": 30,
+      "speaker": "counselor",
+      "text": "본인에게도 동료에게도 조금 더 관대해지시길 바라요. 다음 주에 뵙겠습니다.",
       "technique": [
         "encouragement",
         "validation"
@@ -294,7 +431,7 @@
   "generated_at": "2024-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3404",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:27.000000+00:00",
+    "generated_at": "2025-12-18T05:17:23.507540+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"

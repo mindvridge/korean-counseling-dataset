@@ -2,92 +2,20 @@
   "category": "adult",
   "client_profile": {
     "age": "29",
-    "gender": "남성",
-    "occupation": "게임 개발자",
-    "background": "번아웃으로 인한 극심한 무기력, 동시에 미래에 대한 불안, 회사 그만두고 싶지만 경제적 부담"
+    "gender": "여성",
+    "occupation": "프리랜서 작가",
+    "background": "친구들과 경제적 격차로 인한 소외감, 모임 참석 어려움"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "아무것도 하고 싶지 않은데, 동시에 미래가 불안해요. 이게 말이 되나요?"
+      "text": "친구들이랑 만나기가 부담스러워요. 다들 돈을 잘 버는데 저만 프리랜서라 불안정하거든요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "무기력과 불안이 동시에 있으시군요. 모순되게 느껴지지만, 실제로 자주 함께 나타나요. 각각 좀 더 구체적으로 말씀해주시겠어요?",
-      "technique": [
-        "reflection",
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 2,
-      "speaker": "client",
-      "text": "회사 가기 싫어요. 컴퓨터 앞에 앉아도 코드가 안 써져요. 근데 이렇게 계속하다간 잘릴 것 같고, 그럼 어떡하나 싶고..."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "일하기 싫은 무기력과 해고될지 모른다는 불안이 함께 있네요. 이런 상태가 얼마나 됐나요?",
-      "technique": [
-        "summarization",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "2-3개월요? 큰 프로젝트 끝나고 나서부터인 것 같아요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "큰 프로젝트 후에 시작됐군요. 그 프로젝트는 어땠나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "지옥이었어요. 몇 달간 밤샘 야근하고, 주말도 없었어요. 겨우 끝냈는데... 이제 아무것도 하기 싫어요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "극심한 과로 후에 번아웃이 온 거예요. 몸과 마음이 '이제 쉬어야 해'라고 신호를 보내는 거죠.",
-      "technique": [
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "번아웃이요? 그럼 쉬면 나아지나요?"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "휴식이 필요하긴 하지만, 번아웃은 단순한 피로가 아니에요. 일에 대한 의미 상실, 냉소, 효능감 저하가 특징이에요. 지금 그런 느낌이 있으세요?",
-      "technique": [
-        "clarification",
-        "information_giving",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "완전히요. '내가 이 일을 왜 하나' 싶고, 게임 개발이 재미없어요. 예전엔 그렇게 좋아했는데..."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "좋아하던 일이 의미 없게 느껴지시는군요. 이게 얼마나 상실감이 클까요. 일 외에 다른 영역은 어떠세요?",
+      "text": "친구들과의 경제적 격차 때문에 부담감을 느끼시는군요. 구체적으로 어떤 상황에서 그런 감정을 느끼시나요?",
       "technique": [
         "reflection",
         "empathy",
@@ -95,347 +23,304 @@
       ]
     },
     {
-      "turn": 7,
+      "turn": 2,
       "speaker": "client",
-      "text": "다 똑같아요. 친구 만나는 것도 귀찮고, 취미 생활도 안 하고... 그냥 집에서 누워있어요."
+      "text": "만나면 비싼 레스토랑 가자고 하고, 해외여행 가자고 하고... 저는 그럴 여유가 없거든요."
     },
     {
-      "turn": 7,
+      "turn": 2,
       "speaker": "counselor",
-      "text": "모든 활동에서 의욕이 없어진 상태군요. 우울 증상도 함께 있는 것 같아요.",
-      "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "우울증인가요? 그냥 게을러진 줄 알았는데..."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "게으름이 아니에요. 번아웃과 우울이 겹친 상태예요. 그런데 동시에 불안도 있으시잖아요. 뭐가 가장 불안하세요?",
-      "technique": [
-        "validation",
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "돈이요. 회사 그만두고 싶은데, 생활비가 있으니... 근데 계속 다니자니 미칠 것 같고."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "그만두고 싶지만 경제적 부담 때문에 못 그만두는 딜레마에 있으시군요. 갇혀있는 느낌이 드시겠어요.",
+      "text": "친구들이 제안하는 활동들이 경제적으로 부담되시는군요. 그럴 때 어떻게 하시나요?",
       "technique": [
         "restatement",
-        "empathy"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "정확히 그래요. 갇혀있어요. 출구가 없는 것 같아요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "지금은 그렇게 느껴지지만, 출구는 있어요. 함께 찾아봐요. 먼저, 정말 회사를 그만두고 싶으신 건가요, 아니면 쉬고 싶으신 건가요?",
-      "technique": [
-        "validation",
         "open_question"
       ]
     },
     {
-      "turn": 11,
+      "turn": 3,
       "speaker": "client",
-      "text": "음... 게임 개발은 좋아하는데, 이 회사, 이 방식은 싫어요. 크런치 모드가 너무 심해요."
+      "text": "핑계 대고 안 나가죠. '바쁘다', '몸이 안 좋다' 이렇게요."
     },
     {
-      "turn": 11,
+      "turn": 3,
       "speaker": "counselor",
-      "text": "일 자체보다는 근무 환경과 방식이 문제군요. 그럼 선택지를 정리해볼까요? 계속 다니기, 그만두기, 아니면 변화를 요청하기.",
+      "text": "솔직한 이유를 말하지 못하고 핑계를 대시는군요. 진짜 이유를 말하기 어려운 이유가 있나요?",
       "technique": [
-        "clarification",
-        "structuring"
+        "reflection",
+        "clarification"
       ]
     },
     {
-      "turn": 12,
+      "turn": 4,
       "speaker": "client",
-      "text": "변화 요청이요? 회사가 들어줄까요?"
+      "text": "창피해요. '돈 없어서 못 간다'고 하면 초라해 보일 것 같아서요."
     },
     {
-      "turn": 12,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "시도해보지 않으면 모르죠. 상사에게 현재 상태를 솔직하게 얘기하고, 업무량 조정이나 휴가를 요청해볼 수 있어요.",
+      "text": "경제적 상황을 드러내는 게 자존심 상하게 느껴지시는군요. 친구들이 본인의 상황을 알고 있나요?",
       "technique": [
-        "encouragement",
-        "information_giving"
+        "validation",
+        "closed_question"
       ]
     },
     {
-      "turn": 13,
+      "turn": 5,
       "speaker": "client",
-      "text": "그런데 '나 번아웃이에요'라고 말하면... 약해 보이지 않을까요?"
+      "text": "대충은 알죠. 제가 프리랜서라는 건 아니까. 근데 얼마나 힘든지는 모를 거예요."
     },
     {
-      "turn": 13,
+      "turn": 5,
       "speaker": "counselor",
-      "text": "도움을 요청하는 게 약함이 아니에요. 오히려 문제를 인식하고 해결하려는 강함이에요. 그리고 번아웃은 개인의 문제가 아니라 조직 문제예요.",
+      "text": "프리랜서라는 건 알지만 구체적인 어려움은 모르시는군요. 친구들이 알면 어떨 것 같으세요?",
       "technique": [
-        "confrontation",
-        "information_giving"
+        "restatement",
+        "open_question"
       ]
     },
     {
-      "turn": 14,
+      "turn": 6,
       "speaker": "client",
-      "text": "조직 문제라고요?"
+      "text": "동정받을 것 같아요. 아니면 저 빼고 만날 것 같고..."
     },
     {
-      "turn": 14,
+      "turn": 6,
       "speaker": "counselor",
-      "text": "네, 과도한 업무량, 휴식 부족, 비현실적인 마감... 이런 환경이 번아웃을 만들어요. 본인 탓이 아니에요.",
+      "text": "동정받거나 배제될까봐 두려우시군요. 그런데 지금도 스스로 배제되고 있는 건 아닌가요?",
       "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그렇게 생각하니 조금 덜 죄책감이 드네요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "죄책감을 느끼고 계셨군요. 하지만 본인을 탓할 필요 없어요. 지금 필요한 건 회복이에요.",
-      "technique": [
-        "emotion_labeling",
-        "validation"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "어떻게 회복하나요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "먼저 충분한 휴식이요. 가능하면 휴가를 쓰세요. 그리고 일과 삶의 경계를 명확히 하는 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "경계요? 지금은 퇴근해도 일 생각만 나요."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "그게 문제예요. 퇴근하면 완전히 일에서 분리되어야 해요. 회사 메일 안 보기, 업무 메신저 끄기... 작은 것부터 실천해보세요.",
-      "technique": [
-        "interpretation",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "그래도 되나요? 급한 일 생기면 어떡해요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "'급한 일'이 정말 급한가요, 아니면 습관적으로 급하다고 느끼는 건가요?",
-      "technique": [
-        "open_question",
+        "reflection",
         "confrontation"
       ]
     },
     {
-      "turn": 19,
+      "turn": 7,
       "speaker": "client",
-      "text": "음... 대부분은 그렇게 급하진 않은 것 같긴 해요."
+      "text": "... 맞네요. 계속 안 나가니까 연락도 뜸해졌어요."
     },
     {
-      "turn": 19,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "그럼 명확한 규칙을 만드세요. '퇴근 후 업무 연락 받지 않기', '주말엔 회사 메일 안 보기'처럼요.",
+      "text": "회피가 오히려 관계를 멀어지게 하고 있군요. 친구들 중에 가까운 사람은 없나요?",
       "technique": [
-        "validation",
-        "goal_setting"
+        "interpretation",
+        "closed_question"
       ]
     },
     {
-      "turn": 20,
+      "turn": 8,
       "speaker": "client",
-      "text": "해볼게요. 근데 무기력은 어떻게 해요? 아침에 일어나기도 힘든데..."
+      "text": "한 명 있긴 해요. 대학 때부터 친했던 친구요."
     },
     {
-      "turn": 20,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "작은 활동부터 시작하세요. 침대에서 일어나 커튼 열기, 물 한 잔 마시기... 아주 작은 것부터요.",
+      "text": "그 친구에게는 솔직하게 얘기해보신 적 있으세요? 본인의 경제적 상황에 대해서요.",
       "technique": [
-        "information_giving",
-        "goal_setting"
+        "open_question",
+        "clarification"
       ]
     },
     {
-      "turn": 21,
+      "turn": 9,
       "speaker": "client",
-      "text": "그런 것도 해야 하나요? 자동으로 하는 거 아닌가요?"
+      "text": "아니요... 그 친구도 대기업 다니거든요. 말하기 민망해요."
     },
     {
-      "turn": 21,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "번아웃과 우울 상태에서는 자동적인 일도 힘들어요. 의식적으로 해야 하죠. 하지만 이런 작은 행동들이 모여서 변화를 만들어요.",
+      "text": "가장 친한 친구에게도 말하기 어려우시군요. 하지만 진짜 친구라면 본인의 상황을 이해해줄 거예요.",
+      "technique": [
+        "empathy",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "그럴까요? '프리랜서 하지 말고 취직하지 그래?' 이럴 것 같은데..."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "조언이나 비판을 받을까봐 걱정되시는군요. 혹시 실제로 그런 말을 들어보신 적 있나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "아니요. 제 상상이에요. 근데 충분히 그럴 수 있잖아요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "아직 일어나지 않은 일을 미리 걱정하고 계시네요. 친구를 신뢰하기보다 최악의 시나리오를 상상하고 계세요.",
+      "technique": [
+        "interpretation",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "... 그런 것 같네요. 근데 만약 정말 그렇게 말하면요?"
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "그럼 그 친구는 본인의 상황을 이해하지 못하는 사람이에요. 하지만 시도해보기 전에는 모르죠. 친구를 믿어볼 기회를 주는 건 어떨까요?",
       "technique": [
         "information_giving",
         "encouragement"
       ]
     },
     {
-      "turn": 22,
+      "turn": 13,
       "speaker": "client",
-      "text": "알겠어요. 시도해볼게요."
+      "text": "뭐라고 말해야 할까요?"
     },
     {
-      "turn": 22,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "그리고 예전에 좋아하던 취미가 있나요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "게임이요. 근데 요즘은 게임도 재미없어요. 개발하는 게 싫어서 게임 자체도 싫어진 것 같아요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "일과 취미가 겹치면 그럴 수 있어요. 완전히 다른 활동을 찾아보는 건 어때요? 운동, 음악, 요리...?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "운동은... 예전에 헬스장 다녔는데. 다시 가볼까요?"
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "좋아요. 운동이 우울과 무기력에 도움이 돼요. 일주일에 두세 번, 30분씩만 해보세요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 해볼게요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "그리고 전문적인 도움도 받으세요. 정신건강의학과에서 항우울제 처방받으면 증상 완화에 도움이 돼요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "약을 먹어야 할까요?"
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "의사 선생님이 판단하실 거예요. 하지만 번아웃과 우울이 겹쳐있으면 약물 치료가 효과적일 수 있어요.",
+      "text": "'요즘 프리랜서 일이 불안정해서 경제적으로 여유가 없어. 비싼 곳은 부담스러워서 솔직히 말하고 싶었어'라고 정직하게 표현하는 거예요.",
       "technique": [
         "information_giving",
         "clarification"
       ]
     },
     {
-      "turn": 27,
+      "turn": 14,
       "speaker": "client",
-      "text": "알겠어요. 병원 예약해볼게요."
+      "text": "그렇게 말하면 친구가 이해해줄까요?"
     },
     {
-      "turn": 27,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "좋은 결정이에요. 그리고 회사 상사와도 대화해보세요. 현재 상태를 솔직하게 말하고, 도움을 요청하는 거예요.",
+      "text": "진짜 친구라면 이해해줄 거예요. 그리고 본인에게 맞는 활동을 제안할 수도 있어요. 집에서 만나거나 저렴한 카페 가는 것처럼요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "만약 이해 못 해주면요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그럼 그 관계를 재평가해볼 필요가 있어요. 진정한 우정은 경제적 상황에 좌우되지 않거든요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "맞는 말이긴 한데... 친구 잃을까봐 무서워요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "두려움이 크시군요. 하지만 지금처럼 계속 거짓말하고 피하다 보면 어차피 관계는 멀어질 거예요. 솔직함이 오히려 관계를 지킬 수 있어요.",
+      "technique": [
+        "empathy",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "... 그렇게 생각하니까 시도해볼 만한 것 같네요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "용기 있는 결정이에요. 그리고 한 가지 더, 본인의 가치는 돈으로 결정되는 게 아니에요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "알아요. 근데 자꾸 비교하게 돼요."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "비교는 자연스러운 거예요. 하지만 각자 다른 길을 가고 있다는 걸 인정해야 해요. 프리랜서로서의 장점도 있잖아요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "장점이요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "자유로운 시간, 하고 싶은 일 하기, 자기 결정권 같은 거요. 친구들은 돈은 많지만 시간이 없을 수 있어요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "그건... 맞아요. 친구들 얘기 들어보면 야근도 많고 스트레스도 심하더라고요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "맞아요. 각자 다른 장단점이 있는 거죠. 본인의 길을 존중하면서 친구들과도 건강한 관계를 유지하는 게 중요해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "이번 주에 친구한테 연락해서 솔직하게 얘기해볼게요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "훌륭한 결정이에요. 용기 내주셔서 고마워요. 다음 주에 어떻게 되었는지 얘기 나눠봐요.",
       "technique": [
         "encouragement",
         "goal_setting"
       ]
     },
     {
-      "turn": 28,
+      "turn": 22,
       "speaker": "client",
-      "text": "용기를 내야겠네요."
+      "text": "감사합니다. 힘이 났어요."
     },
     {
-      "turn": 28,
+      "turn": 22,
       "speaker": "counselor",
-      "text": "네, 용기가 필요해요. 하지만 이대로 버티는 것보다 훨씬 나아요. 변화는 불편하지만, 성장의 기회예요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 29,
-      "speaker": "client",
-      "text": "맞는 말씀이에요. 이제 더 이상 버틸 수 없으니까... 변화를 시도해봐야겠어요."
-    },
-    {
-      "turn": 29,
-      "speaker": "counselor",
-      "text": "좋은 마음가짐이에요. 이번 주에 해볼 것들 정리해봐요. 상사와 대화, 퇴근 후 업무 차단, 운동 시작, 병원 예약. 어떠세요?",
+      "text": "잘하실 거예요. 본인을 믿으세요.",
       "technique": [
         "encouragement",
-        "summarization"
-      ]
-    },
-    {
-      "turn": 30,
-      "speaker": "client",
-      "text": "할 게 많지만... 해볼게요. 감사합니다."
-    },
-    {
-      "turn": 30,
-      "speaker": "counselor",
-      "text": "한 번에 다 하려고 하지 마세요. 하나씩, 천천히요. 다음 주에 어떠셨는지 이야기 나눠요. 응원할게요.",
-      "technique": [
-        "validation",
-        "encouragement"
+        "validation"
       ]
     }
   ],
-  "generated_at": "2025-12-17T00:00:00.000Z",
+  "generated_at": "2024-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3513",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:33.000000+00:00",
+    "generated_at": "2025-12-18T05:17:27.408470+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"

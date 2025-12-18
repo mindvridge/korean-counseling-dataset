@@ -1,273 +1,273 @@
 {
   "category": "adult",
   "client_profile": {
-    "age": "35",
-    "gender": "여성",
-    "occupation": "전업주부",
-    "background": "결혼 5년차, 3살 아이 육아 중, 지난 2년간 지속되는 우울감, 무기력, 일상의 의미 상실"
+    "age": "30",
+    "gender": "남성",
+    "occupation": "재택근무 개발자",
+    "background": "코로나 이후 재택근무로 전환, 사회적 접촉 감소, 외로움"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "요즘 아무것도 하기 싫고, 매일이 똑같이 힘들어요. 이렇게 사는 게 뭔가 싶어요."
+      "text": "재택근무 시작한 지 2년 됐는데요. 사람 만나는 게 너무 힘들어졌어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "매일이 힘들고 의미를 찾기 어려우신 상태시군요. 얼마나 힘드셨을지 느껴져요. 이런 상태가 언제부터 시작됐나요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 2,
-      "speaker": "client",
-      "text": "한 2년 전부터요. 아이 낳고 나서 점점 심해진 것 같아요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "출산 후에 시작되어 2년이나 지속되고 계시군요. 그 기간 동안 정말 힘드셨겠어요.",
+      "text": "재택근무 후 사회적 접촉이 줄어들었군요. 사람을 만나는 게 어떻게 힘들어지셨나요?",
       "technique": [
         "reflection",
-        "validation"
+        "clarification"
       ]
     },
     {
-      "turn": 3,
+      "turn": 2,
       "speaker": "client",
-      "text": "네, 처음엔 육아가 힘들어서 그런가 했는데, 아이가 좀 크니까 괜찮아질 줄 알았거든요. 근데 아니더라고요."
+      "text": "대화하는 게 어색하고... 무슨 말을 해야 할지 모르겠어요. 집에만 있다 보니까요."
     },
     {
-      "turn": 3,
+      "turn": 2,
       "speaker": "counselor",
-      "text": "육아 때문이라고 생각하셨는데, 상황이 나아져도 기분은 나아지지 않으셨군요. 지금은 어떤 증상들이 있으세요?",
+      "text": "대화 자체가 어색하게 느껴지시는군요. 재택 전에는 어떠셨나요?",
       "technique": [
         "restatement",
         "open_question"
       ]
     },
     {
-      "turn": 4,
+      "turn": 3,
       "speaker": "client",
-      "text": "아침에 일어나기가 너무 힘들어요. 그리고 뭘 해도 재미가 없고, 밥도 잘 안 먹게 되고..."
+      "text": "그땐 괜찮았어요. 회사에서 동료들이랑 자연스럽게 얘기하고 그랬는데..."
     },
     {
-      "turn": 4,
+      "turn": 3,
       "speaker": "counselor",
-      "text": "아침에 일어나기 힘들고, 즐거움을 못 느끼시고, 식욕도 떨어지셨군요. 수면은 어떠세요?",
+      "text": "회사에서의 자연스러운 교류가 없어지니 대화 기술이 퇴화된 느낌이시군요. 지금 사회적 접촉은 어느 정도 되시나요?",
       "technique": [
-        "summarization",
-        "closed_question"
+        "interpretation",
+        "open_question"
       ]
     },
     {
-      "turn": 5,
+      "turn": 4,
       "speaker": "client",
-      "text": "밤에 잠이 잘 안 와요. 누워있어도 이런저런 생각만 나고. 새벽에 깨서 다시 잠들기도 어렵고요."
+      "text": "거의 없어요. 화상회의 말고는... 밖에 나가는 것도 일주일에 한두 번?"
     },
     {
-      "turn": 5,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "수면 문제도 있으시네요. 말씀하신 증상들이 우울증의 전형적인 모습이에요. 혹시 병원 진료를 받아보신 적 있으세요?",
-      "technique": [
-        "information_giving",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "아니요, 그냥 제가 나약한 거라고 생각했어요. 다른 엄마들은 다 잘하는데 저만 이러니까..."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "'나약해서 그렇다'고 자신을 탓해오셨군요. 그런데 우울증은 의지의 문제가 아니에요. 뇌의 화학적 불균형과 관련이 있는 질환이에요.",
+      "text": "대부분의 시간을 집에서 혼자 보내시는군요. 이런 생활이 얼마나 계속되었나요?",
       "technique": [
         "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "그래요? 저는 제가 노력을 안 해서 이런 줄 알았어요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "그렇게 자책하셨던 시간이 얼마나 고통스러우셨을까요. 우울증은 감기처럼 누구에게나 올 수 있는 거예요. 나약함과 관계없어요.",
-      "technique": [
-        "empathy",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "... 그 말 듣으니까 좀 위로가 되네요. 저만 이런 건 아니었구나."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "많은 분들이 비슷한 경험을 해요. 특히 출산 후 호르몬 변화와 육아 스트레스가 결합되면 우울증에 취약해지거든요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "남편한테 말해도 잘 모르겠다고 하더라고요. '뭐가 힘든지 모르겠다'고..."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "가장 가까운 사람에게 이해받지 못하니 더 외로우셨겠어요. 남편분께 어떻게 설명하셨어요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "그냥 힘들다고만 했어요. 저도 뭐가 힘든지 설명하기가 어려워서..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "우울감은 말로 설명하기 어려운 경우가 많아요. '그냥 힘들다'는 게 바로 그 증상이에요. 명확한 이유 없이도 힘들 수 있거든요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "그렇구나... 저도 왜 힘든지 모르겠어서 더 답답했어요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "답답하셨겠어요. 우울증은 뚜렷한 원인 없이도 생길 수 있어요. 중요한 건 지금 힘들다는 것을 인정하고 도움을 받는 거예요.",
-      "technique": [
-        "empathy",
-        "interpretation"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "도움이요? 어떤 도움을 받을 수 있어요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "상담과 함께 정신건강의학과 진료를 권해드려요. 필요하면 약물 치료도 고려해볼 수 있어요. 약에 대한 거부감이 있으세요?",
-      "technique": [
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "약은 좀 무서워요. 중독되거나 그러지 않을까요?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "걱정되시는 게 당연해요. 하지만 우울증 약은 중독성이 없어요. 뇌의 화학물질 균형을 맞춰주는 역할을 해요. 의사 선생님과 상의하면서 결정하시면 돼요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "그렇군요. 생각해볼게요. 근데 아이 때문에 병원 가기도 어려워요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "아이를 돌봐야 하니 시간 내기 어려우시죠. 남편분이나 다른 가족에게 잠깐 맡기실 수 있는 상황인가요?",
-      "technique": [
-        "empathy",
         "clarification"
       ]
     },
     {
-      "turn": 15,
+      "turn": 5,
       "speaker": "client",
-      "text": "남편이 주말에 좀 봐줄 수 있을 것 같긴 한데... 제가 병원 간다고 하면 뭐라 할까 봐요."
+      "text": "2년이요. 처음엔 좋았어요. 출퇴근 안 해도 되고, 편하고... 근데 점점 외로워지더라고요."
     },
     {
-      "turn": 15,
+      "turn": 5,
       "speaker": "counselor",
-      "text": "남편분 반응이 걱정되시는군요. 우울증 치료는 엄마인 본인뿐 아니라 아이를 위해서도 중요한 일이에요. 어떻게 말씀드리면 좋을지 같이 생각해볼까요?",
+      "text": "처음엔 편했지만 시간이 지나며 외로움을 느끼기 시작하셨군요. 언제부터 문제라고 느끼셨나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "몇 달 전부터요. 주말에도 아무도 안 만나고 집에만 있으니까... 이게 정상인가 싶었어요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "주말에도 사회적 교류가 없으시군요. 친구들이나 가족은 어떠세요?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 16,
+      "turn": 7,
       "speaker": "client",
-      "text": "네, 도와주시면 좋겠어요."
+      "text": "친구들은 다 바쁘고... 가족은 지방에 계세요. 전화는 가끔 하지만 직접 만나진 못해요."
     },
     {
-      "turn": 16,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "남편분께 '요즘 내가 힘든 게 단순한 피곤함이 아닌 것 같아서 전문가 상담을 받아보려고 해. 나도 아이에게 좋은 엄마가 되고 싶으니까'라고 말씀해보시는 건 어떨까요?",
+      "text": "물리적으로 가까운 사람들이 없으시군요. 외로움을 느낄 때 어떻게 하시나요?",
       "technique": [
-        "information_giving",
-        "goal_setting"
+        "empathy",
+        "open_question"
       ]
     },
     {
-      "turn": 17,
+      "turn": 8,
       "speaker": "client",
-      "text": "그렇게 말하면 좀 이해해줄 것 같기도 해요."
+      "text": "게임하거나 유튜브 봐요. 그것도 지겹긴 한데... 다른 할 게 없어요."
     },
     {
-      "turn": 17,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "좋아요. 그리고 남편분도 함께 상담에 오시면 좋은데, 우울증에 대해 이해하는 데 도움이 되거든요.",
+      "text": "온라인 활동으로 외로움을 달래시는군요. 하지만 만족스럽지는 않으신 것 같네요.",
+      "technique": [
+        "interpretation",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "네. 진짜 사람이랑 얘기하고 싶은데... 막상 기회가 생기면 피하게 돼요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "외로운데 사람을 피한다는 게 모순적으로 들리시나요? 왜 피하게 되는 것 같으세요?",
+      "technique": [
+        "confrontation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "어색할 것 같아서요. 그리고 피곤하기도 하고... 집이 편해요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "단기적으로는 집이 편하지만, 장기적으로는 고립되고 있는 거예요. 이게 계속되면 어떻게 될 것 같으세요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "더 심해지겠죠... 이미 사람 만나는 게 너무 힘들어졌는데."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "악순환이 되고 있다는 걸 알고 계시네요. 이 패턴을 깨고 싶으신가요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "깨고 싶긴 한데... 어떻게 해야 할지 모르겠어요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "작은 것부터 시작하면 돼요. 갑자기 많은 사람을 만나려고 하지 말고요. 예를 들어, 카페에 가서 주문하는 것부터요.",
       "technique": [
         "encouragement",
         "information_giving"
       ]
     },
     {
+      "turn": 13,
+      "speaker": "client",
+      "text": "카페 주문이요? 그건 별로 안 어려운데..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "그럼 거기서 한 단계 더 나가보는 거예요. 점원에게 추천 메뉴 물어보기, 같은 테이블 사람에게 간단히 인사하기 같은 거요.",
+      "technique": [
+        "clarification",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "그게 도움이 될까요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "사회적 근육을 키우는 거예요. 운동 안 하던 사람이 갑자기 마라톤 뛸 수 없듯이, 작은 상호작용부터 연습하는 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그렇게 생각하니 이해가 되네요. 다른 방법도 있나요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "취미 모임이나 동호회에 참여해보는 건 어떨까요? 공통 관심사가 있으니 대화하기 쉬워요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "동호회요... 가본 적이 없는데 어떻게 찾아요?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "온라인 플랫폼에 지역별, 관심사별로 많아요. 우선 온라인 모임부터 시작해도 좋아요. 화상으로 시작하면 부담이 덜하죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "온라인이면 좀 나을 것 같아요. 근데 뭘 해야 할까요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "본인이 좋아하는 게 뭔가요? 게임, 독서, 운동, 뭐든 좋아요.",
+      "technique": [
+        "open_question",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 18,
       "speaker": "client",
-      "text": "남편이 같이 와도 되는 거예요?"
+      "text": "게임 좋아해요. 근데 혼자 하는 게임만..."
     },
     {
       "turn": 18,
       "speaker": "counselor",
-      "text": "네, 물론이죠. 가족의 이해와 지지가 회복에 큰 도움이 되거든요. 처음엔 혼자 오셔도 되고, 나중에 함께 오셔도 돼요.",
+      "text": "그럼 온라인 게임 커뮤니티에 참여해보세요. 같이 게임하면서 자연스럽게 대화할 수 있어요.",
       "technique": [
-        "validation",
-        "information_giving"
+        "information_giving",
+        "goal_setting"
       ]
     },
     {
       "turn": 19,
       "speaker": "client",
-      "text": "알겠어요. 일단 저부터 치료를 시작해볼게요."
+      "text": "그거라면 해볼 만할 것 같아요."
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "좋은 결정이에요. 그리고 일상에서 할 수 있는 것도 있어요. 하루에 짧은 시간이라도 자신만을 위한 시간을 가져보시는 거예요.",
+      "text": "좋아요. 이번 주에 하나 찾아서 참여해보시고, 다음 주에 어떠셨는지 얘기 나눠봐요.",
       "technique": [
         "encouragement",
         "goal_setting"
@@ -276,92 +276,22 @@
     {
       "turn": 20,
       "speaker": "client",
-      "text": "자신만을 위한 시간이요? 아이가 있어서 그런 게 가능할까요?"
+      "text": "네, 해볼게요. 감사합니다."
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "아이가 낮잠 잘 때 10분이라도요. 좋아하던 음악 듣기, 따뜻한 차 마시기... 작은 것부터 시작해보세요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "예전엔 커피 마시면서 드라마 보는 거 좋아했는데... 요즘은 그것도 귀찮아요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "'귀찮다'는 것도 우울증 증상이에요. 하고 싶지 않아도 억지로 조금씩 해보시면 기분이 조금씩 나아질 수 있어요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "억지로 해도 되는 거예요?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "네, 행동이 기분에 영향을 줄 수 있어요. '기분이 좋아지면 하겠다'가 아니라 '일단 하면 기분이 나아진다'는 거죠. 행동활성화라고 해요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "그렇군요. 한번 해볼게요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "좋아요. 오늘 상담에서 어떤 것들이 도움이 되셨어요?",
+      "text": "작은 시작이 큰 변화를 만들어요. 잘하실 거예요.",
       "technique": [
         "encouragement",
-        "summarization"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "우울증이 제 잘못이 아니라는 것, 병원 가봐야 한다는 것, 그리고 작은 것부터 시작해보는 게 좋다는 거요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "잘 정리해주셨어요. 이번 주에 정신건강의학과 예약하시고, 하루 10분이라도 자신을 위한 시간을 가져보세요. 그리고 다음 주에 어떠셨는지 이야기 나눠봐요.",
-      "technique": [
-        "validation",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 알겠어요. 오랜만에 누군가한테 이렇게 얘기하니까 속이 좀 후련해요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "이야기하니 후련해지셨다니 다행이에요. 혼자 끙끙 앓지 마시고 앞으로도 편하게 이야기해주세요. 함께 나아가봐요.",
-      "technique": [
-        "validation",
-        "encouragement"
+        "validation"
       ]
     }
   ],
   "generated_at": "2024-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3627",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:39.000000+00:00",
+    "generated_at": "2025-12-18T05:17:31.422053+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"

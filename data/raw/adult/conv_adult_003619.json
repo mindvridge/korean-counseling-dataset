@@ -1,340 +1,297 @@
 {
   "category": "adult",
   "client_profile": {
-    "age": "27",
-    "gender": "여성",
-    "occupation": "마케터",
-    "background": "5년 연애 후 3개월 전 이별, 일상생활 어려움, 우울감"
+    "age": "30",
+    "gender": "남성",
+    "occupation": "재택근무 개발자",
+    "background": "코로나 이후 재택근무로 전환, 사회적 접촉 감소, 외로움"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "헤어진 지 3개월이 됐는데도 아직도 힘들어요. 이게 정상인가요?"
+      "text": "재택근무 시작한 지 2년 됐는데요. 사람 만나는 게 너무 힘들어졌어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "3개월이 지났는데도 여전히 힘드시군요. 5년이나 함께하셨으니 충분히 그럴 수 있어요. 지금 어떤 점이 가장 힘드신가요?",
-      "technique": [
-        "validation",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 2,
-      "speaker": "client",
-      "text": "모든 게요. 일도 집중이 안 되고, 친구들 만나도 재미없고... 그냥 무기력해요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "일상의 모든 부분에서 의욕이 없으시군요. 하루 일과가 어떠신지 말씀해주시겠어요?",
+      "text": "재택근무 후 사회적 접촉이 줄어들었군요. 사람을 만나는 게 어떻게 힘들어지셨나요?",
       "technique": [
         "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "아침에 일어나기 싫고, 출근해서도 멍하니 있고, 퇴근하면 그냥 누워있어요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "기본적인 일상도 버겁게 느껴지시는군요. 식사는 제대로 하고 계세요?",
-      "technique": [
-        "empathy",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "아니요. 입맛도 없고... 먹어도 맛도 모르겠고요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "식욕까지 떨어지셨네요. 수면은 어떠세요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "잠을 못 자요. 자려고 누우면 생각이 많아져서요. 그 사람 생각이 계속 나요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "밤에 잠들기 어려우시고 생각이 많아지시는군요. 어떤 생각들이 주로 드시나요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "왜 헤어졌을까, 내가 뭘 잘못했을까, 다시 연락하면 어떨까... 이런 생각들이요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "후회와 자책, 그리고 미련이 공존하고 있군요. 실제로 연락해보신 적은 있으세요?",
-      "technique": [
-        "emotion_labeling",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "몇 번요. 근데 답이 없어요. SNS는 차단당했고요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "연락을 시도했지만 응답이 없었군요. 그때 기분이 어땠어요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "처음엔 화가 났는데, 나중엔 그냥... 비참했어요. 제가 너무 초라해 보였어요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "분노에서 자괴감으로 이어졌네요. 이별의 이유가 무엇이었나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "그 사람이 '마음이 식었다'고 했어요. 갑자기요. 아무 예고도 없이."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "예상치 못한 이별이었군요. 그래서 더 받아들이기 어려우셨을 것 같아요.",
-      "technique": [
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "네. 정말 갑자기였어요. 전날까지도 평소처럼 연락했는데..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "갑작스러운 변화라 혼란스러우셨겠어요. 혹시 돌이켜보면 징조 같은 게 있었나요?",
-      "technique": [
-        "validation",
         "clarification"
       ]
     },
     {
-      "turn": 11,
+      "turn": 2,
       "speaker": "client",
-      "text": "지금 생각해보면... 몇 달 전부터 연락이 좀 뜸해지긴 했어요. 근데 그땐 몰랐어요."
+      "text": "대화하는 게 어색하고... 무슨 말을 해야 할지 모르겠어요. 집에만 있다 보니까요."
     },
     {
-      "turn": 11,
+      "turn": 2,
       "speaker": "counselor",
-      "text": "당시에는 알아차리기 어려웠던 변화들이 있었군요. 그 징조들을 못 봤다고 본인을 자책하고 계신가요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "네... 제가 너무 둔했던 것 같아요. 좀 더 신경 썼으면..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "본인을 많이 탓하고 계시네요. 하지만 관계는 혼자 만드는 게 아니에요. 상대방도 자신의 마음 변화를 솔직히 말할 책임이 있었죠.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그래도... 제가 뭔가 했으면 달라졌을 수도 있잖아요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "그 가능성을 계속 생각하시는군요. 하지만 '만약에'는 현실이 아니에요. 그리고 상대의 마음을 본인이 통제할 수는 없어요.",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "그럼 저는 뭘 해야 하나요? 계속 이렇게 힘들 순 없잖아요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "회복하고 싶으신 마음이 있으시군요. 그게 중요한 첫걸음이에요. 지금 SNS나 공통 친구를 통해 그 사람 소식을 접하고 계신가요?",
-      "technique": [
-        "encouragement",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "가끔요. SNS는 차단당했지만 공통 친구가 얘기해줘요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "간접적으로라도 소식을 듣고 계시군요. 그 소식을 들으면 기분이 어떠세요?",
+      "text": "대화 자체가 어색하게 느껴지시는군요. 재택 전에는 어떠셨나요?",
       "technique": [
         "restatement",
         "open_question"
       ]
     },
     {
-      "turn": 16,
+      "turn": 3,
       "speaker": "client",
-      "text": "궁금하면서도... 듣고 나면 더 아파요. 그 사람은 잘 지내는 것 같더라고요."
+      "text": "그땐 괜찮았어요. 회사에서 동료들이랑 자연스럽게 얘기하고 그랬는데..."
     },
     {
-      "turn": 16,
+      "turn": 3,
       "speaker": "counselor",
-      "text": "상대는 회복한 것처럼 보이니 본인만 힘든 것 같아서 더 괴로우신 거죠. 이별 회복을 위해 첫 번째로 필요한 건 '연결 끊기'예요.",
+      "text": "회사에서의 자연스러운 교류가 없어지니 대화 기술이 퇴화된 느낌이시군요. 지금 사회적 접촉은 어느 정도 되시나요?",
       "technique": [
-        "empathy",
-        "information_giving"
+        "interpretation",
+        "open_question"
       ]
     },
     {
-      "turn": 17,
+      "turn": 4,
       "speaker": "client",
-      "text": "연결 끊기요?"
+      "text": "거의 없어요. 화상회의 말고는... 밖에 나가는 것도 일주일에 한두 번?"
     },
     {
-      "turn": 17,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "네. SNS 차단, 공통 친구에게 그 사람 소식 안 듣기, 추억의 물건 정리 등이요. 상처가 아물려면 계속 건드리지 말아야 해요.",
+      "text": "대부분의 시간을 집에서 혼자 보내시는군요. 이런 생활이 얼마나 계속되었나요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "2년이요. 처음엔 좋았어요. 출퇴근 안 해도 되고, 편하고... 근데 점점 외로워지더라고요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "처음엔 편했지만 시간이 지나며 외로움을 느끼기 시작하셨군요. 언제부터 문제라고 느끼셨나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "몇 달 전부터요. 주말에도 아무도 안 만나고 집에만 있으니까... 이게 정상인가 싶었어요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "주말에도 사회적 교류가 없으시군요. 친구들이나 가족은 어떠세요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "친구들은 다 바쁘고... 가족은 지방에 계세요. 전화는 가끔 하지만 직접 만나진 못해요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "물리적으로 가까운 사람들이 없으시군요. 외로움을 느낄 때 어떻게 하시나요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "게임하거나 유튜브 봐요. 그것도 지겹긴 한데... 다른 할 게 없어요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "온라인 활동으로 외로움을 달래시는군요. 하지만 만족스럽지는 않으신 것 같네요.",
+      "technique": [
+        "interpretation",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "네. 진짜 사람이랑 얘기하고 싶은데... 막상 기회가 생기면 피하게 돼요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "외로운데 사람을 피한다는 게 모순적으로 들리시나요? 왜 피하게 되는 것 같으세요?",
+      "technique": [
+        "confrontation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "어색할 것 같아서요. 그리고 피곤하기도 하고... 집이 편해요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "단기적으로는 집이 편하지만, 장기적으로는 고립되고 있는 거예요. 이게 계속되면 어떻게 될 것 같으세요?",
       "technique": [
         "information_giving",
-        "clarification"
+        "open_question"
       ]
     },
     {
-      "turn": 18,
+      "turn": 11,
       "speaker": "client",
-      "text": "근데 그러면 완전히 끝나는 거잖아요..."
+      "text": "더 심해지겠죠... 이미 사람 만나는 게 너무 힘들어졌는데."
     },
     {
-      "turn": 18,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "이미 끝난 관계예요. 인정하기 어렵지만요. 끝을 받아들여야 새로운 시작이 가능해요.",
+      "text": "악순환이 되고 있다는 걸 알고 계시네요. 이 패턴을 깨고 싶으신가요?",
       "technique": [
-        "confrontation",
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "깨고 싶긴 한데... 어떻게 해야 할지 모르겠어요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "작은 것부터 시작하면 돼요. 갑자기 많은 사람을 만나려고 하지 말고요. 예를 들어, 카페에 가서 주문하는 것부터요.",
+      "technique": [
+        "encouragement",
         "information_giving"
       ]
     },
     {
-      "turn": 19,
+      "turn": 13,
       "speaker": "client",
-      "text": "... 너무 무서워요. 그 사람 없는 삶이."
+      "text": "카페 주문이요? 그건 별로 안 어려운데..."
     },
     {
-      "turn": 19,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "5년을 함께했으니 두려운 게 당연해요. 하지만 그 사람 이전의 본인도 있었고, 이후의 본인도 있을 거예요.",
+      "text": "그럼 거기서 한 단계 더 나가보는 거예요. 점원에게 추천 메뉴 물어보기, 같은 테이블 사람에게 간단히 인사하기 같은 거요.",
       "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "어떻게 시작하죠?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "작은 것부터요. 오늘은 제시간에 잠자리에 들기, 내일은 아침 식사 챙기기. 이렇게 하나씩이요.",
-      "technique": [
-        "goal_setting",
+        "clarification",
         "structuring"
       ]
     },
     {
-      "turn": 21,
+      "turn": 14,
       "speaker": "client",
       "text": "그게 도움이 될까요?"
     },
     {
-      "turn": 21,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "일상의 리듬을 되찾는 게 회복의 기초예요. 작은 성취들이 쌓이면 힘이 돼요.",
+      "text": "사회적 근육을 키우는 거예요. 운동 안 하던 사람이 갑자기 마라톤 뛸 수 없듯이, 작은 상호작용부터 연습하는 거죠.",
       "technique": [
         "information_giving",
-        "encouragement"
+        "clarification"
       ]
     },
     {
-      "turn": 22,
+      "turn": 15,
       "speaker": "client",
-      "text": "해볼게요. 근데 힘들면 어떡하죠?"
+      "text": "그렇게 생각하니 이해가 되네요. 다른 방법도 있나요?"
     },
     {
-      "turn": 22,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "힘들면 다시 상담 오시면 돼요. 혼자 견딜 필요 없어요. 함께 해나가요.",
+      "text": "취미 모임이나 동호회에 참여해보는 건 어떨까요? 공통 관심사가 있으니 대화하기 쉬워요.",
       "technique": [
-        "validation",
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "동호회요... 가본 적이 없는데 어떻게 찾아요?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "온라인 플랫폼에 지역별, 관심사별로 많아요. 우선 온라인 모임부터 시작해도 좋아요. 화상으로 시작하면 부담이 덜하죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "온라인이면 좀 나을 것 같아요. 근데 뭘 해야 할까요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "본인이 좋아하는 게 뭔가요? 게임, 독서, 운동, 뭐든 좋아요.",
+      "technique": [
+        "open_question",
         "encouragement"
       ]
     },
     {
-      "turn": 23,
+      "turn": 18,
       "speaker": "client",
-      "text": "감사합니다. 조금은... 희망이 보이는 것 같아요."
+      "text": "게임 좋아해요. 근데 혼자 하는 게임만..."
     },
     {
-      "turn": 23,
+      "turn": 18,
       "speaker": "counselor",
-      "text": "그 마음 잘 간직하세요. 회복은 직선이 아니라 곡선이에요. 나쁜 날도 있지만 결국 나아질 거예요.",
+      "text": "그럼 온라인 게임 커뮤니티에 참여해보세요. 같이 게임하면서 자연스럽게 대화할 수 있어요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "그거라면 해볼 만할 것 같아요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "좋아요. 이번 주에 하나 찾아서 참여해보시고, 다음 주에 어떠셨는지 얘기 나눠봐요.",
       "technique": [
         "encouragement",
-        "information_giving"
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "네, 해볼게요. 감사합니다."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "작은 시작이 큰 변화를 만들어요. 잘하실 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
       ]
     }
   ],
   "generated_at": "2024-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3619",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:39.000000+00:00",
+    "generated_at": "2025-12-18T05:17:31.143996+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"

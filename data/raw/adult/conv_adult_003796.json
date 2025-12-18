@@ -1,21 +1,21 @@
 {
   "category": "adult",
   "client_profile": {
-    "age": "28",
-    "gender": "남성",
-    "occupation": "IT 스타트업 개발자",
-    "background": "입사 2년차, 연속된 프로젝트 데드라인으로 3개월째 주말 근무 중, 최근 공황발작 경험"
+    "age": "35",
+    "gender": "여성",
+    "occupation": "전업주부",
+    "background": "결혼 5년차, 3살 아이 육아 중, 지난 2년간 지속되는 우울감, 무기력, 일상의 의미 상실"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 사실 상담 받는 거 처음이라 좀 떨리네요."
+      "text": "요즘 아무것도 하기 싫고, 매일이 똑같이 힘들어요. 이렇게 사는 게 뭔가 싶어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "처음이시라 긴장되실 수 있어요. 편하게 이야기 나누는 시간이니 천천히 말씀해 주세요. 오늘 무엇 때문에 상담을 받아보고 싶으셨나요?",
+      "text": "매일이 힘들고 의미를 찾기 어려우신 상태시군요. 얼마나 힘드셨을지 느껴져요. 이런 상태가 언제부터 시작됐나요?",
       "technique": [
         "empathy",
         "open_question"
@@ -24,411 +24,334 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "지난주에 회사에서... 갑자기 숨이 안 쉬어지고 심장이 미친 듯이 뛰더라고요. 병원 갔더니 공황발작이래요."
+      "text": "한 2년 전부터요. 아이 낳고 나서 점점 심해진 것 같아요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "공황발작을 경험하셨군요. 갑자기 숨이 막히고 심장이 빠르게 뛰는 경험은 정말 무서우셨을 거예요. 그때 어떤 상황이었나요?",
+      "text": "출산 후에 시작되어 2년이나 지속되고 계시군요. 그 기간 동안 정말 힘드셨겠어요.",
       "technique": [
         "reflection",
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "프로젝트 데드라인 하루 전이었어요. 버그가 계속 생기는데 시간은 없고... 그때 갑자기 가슴이 조여오면서 쓰러질 것 같았어요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "촉박한 데드라인과 해결되지 않는 문제들이 겹치면서 신체가 극심한 스트레스 반응을 보인 거네요. 그런 일이 처음이셨나요?",
-      "technique": [
-        "interpretation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "네, 처음이었어요. 그래서 더 놀랐죠. 저는 원래 스트레스에 강한 편이라고 생각했거든요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "'나는 스트레스에 강하다'고 생각하셨는데 몸이 다른 신호를 보내니 당황스러우셨겠어요. 요즘 업무 상황은 어떠세요?",
-      "technique": [
-        "empathy",
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "지옥이에요. 솔직히 말하면... 3개월 전부터 주 7일 일하고 있어요. 주말도 없고, 하루에 12시간 이상씩 코딩하고 있어요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "3개월 동안 주 7일, 하루 12시간 이상 일하고 계시는군요. 휴식 없이 이렇게 일하시는 이유가 있으신가요?",
-      "technique": [
-        "reflection",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "저희 스타트업이 투자 유치를 해야 하는데, 그러려면 제품을 빨리 완성해야 한대요. 개발팀이 저 포함해서 3명뿐이거든요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "투자 유치를 위해 빠른 제품 출시가 필요하고, 개발자가 3명뿐이니 업무 부담이 클 수밖에 없는 상황이네요. 이런 상황에서 어떤 감정을 느끼세요?",
-      "technique": [
-        "summarization",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "처음엔 의욕이 넘쳤어요. 좋은 기회라고 생각했죠. 근데 이제는... 그냥 로봇 된 기분이에요. 아무 감정도 없고 그냥 기계적으로 일만 하는."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "처음의 의욕이 사라지고 지금은 감정이 무뎌진 채로 기계적으로 일만 하고 계시는군요. 이건 번아웃의 핵심 증상 중 하나예요. 일 외에 다른 활동은 하시나요?",
-      "technique": [
-        "reflection",
-        "information_giving",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "아무것도 안 해요. 회사 갔다 집 와서 자고, 또 출근하고... 친구들 연락도 다 끊었어요. 만날 시간도 없고 만나고 싶은 마음도 없어요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "일과 수면만 반복하고 사회적 관계도 끊어진 상태네요. 예전에 즐기셨던 취미나 활동이 있으셨나요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "게임 좋아했고, 주말에 농구도 했었는데... 이제는 그런 거 할 생각도 안 나요. 그냥 피곤해요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "게임이나 농구 같은 취미에도 흥미가 없어지고 늘 피곤한 상태시군요. 수면은 충분히 취하고 계신가요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "잠은... 5-6시간? 근데 자도 잔 것 같지 않아요. 아침에 일어나면 이미 지쳐있어요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "수면 시간도 부족하고 수면의 질도 좋지 않으신 거네요. 잠들기 전이나 자는 중에 어떤 생각을 하시나요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "내일 할 일, 해결 안 된 버그, 데드라인... 머릿속이 계속 돌아가요. 꿈도 코드 짜는 꿈 꿔요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "잠자는 시간에도 일에서 벗어나지 못하시는군요. 뇌가 쉬지 못하니 아침에 더 피곤하실 수밖에 없어요. 이런 상태가 계속되면 어떻게 될 것 같으세요?",
-      "technique": [
-        "empathy",
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "모르겠어요. 진짜 쓰러질 것 같긴 해요. 근데 제가 안 하면 프로젝트가 지연되고, 그럼 투자 못 받고, 회사가 망할 수도 있잖아요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "회사의 성공이 본인 어깨에 달려있다고 느끼시는군요. 그 책임감이 본인을 계속 몰아붙이고 있는 것 같아요. 실제로 회사 성공이 전적으로 본인에게만 달려있나요?",
-      "technique": [
-        "reflection",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "... 그건 아니죠. 다른 팀원들도 있고, 대표님도 계시고. 근데 제가 맡은 부분은 제가 해야 하잖아요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "본인 역할에 대한 책임감은 맞지만, 전체 회사의 성패까지 본인이 책임질 필요는 없어요. 지금 본인이 쓰러지면 프로젝트는 어떻게 되나요?",
-      "technique": [
-        "validation",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "당연히 더 지연되겠죠. 아, 그러니까 제가 쉬면 안 되는 거 아닌가요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "반대로 생각해 볼게요. 지금처럼 계속 가다가 정말 쓰러지신다면? 공황발작이 심해지거나 다른 건강 문제가 생긴다면 몇 주, 몇 달을 쉬어야 할 수도 있어요. 지금 조금 쉬시는 게 나을까요, 나중에 강제로 오래 쉬게 되는 게 나을까요?",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "... 지금 쉬는 게 낫겠죠. 근데 어떻게 쉬어요? 일은 계속 쌓이는데."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "그 질문이 중요해요. 현재 상황을 대표님이나 팀원들과 솔직하게 공유해 보신 적 있으세요?",
-      "technique": [
-        "encouragement",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "아니요. 다들 바쁜데 제가 힘들다고 하면... 약해 보일 것 같아서요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "'약해 보일 것 같다'는 걱정이 드시는군요. 하지만 본인의 한계를 알고 도움을 요청하는 건 약함이 아니라 성숙함이에요. 스타트업에서 핵심 개발자가 번아웃으로 쓰러지는 건 회사에게도 큰 손실 아닐까요?",
-      "technique": [
-        "empathy",
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "그건... 맞는 말이네요. 대표님도 제가 건강하게 오래 일하길 바라시겠죠."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "맞아요. 이번 주에 대표님께 현재 상황과 본인 상태를 솔직히 말씀드리는 건 어떨까요? 업무 조정이나 추가 인력에 대해서도 이야기해 볼 수 있을 거예요.",
-      "technique": [
-        "validation",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "그렇게 말하면 될까요? 뭐라고 말해야 할지 모르겠어요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "현재 업무량, 근무 시간, 그리고 최근 공황발작까지 겪었다는 사실을 객관적으로 전달하시면 돼요. '3개월간 주 7일 하루 12시간 근무 중이고, 공황발작을 겪었으며, 이대로는 더 이상 지속 가능하지 않다'고 말이죠.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "그 정도면... 대표님도 심각하게 받아들이시겠네요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "네, 그리고 해결 방안도 함께 제안해보세요. 예를 들어, 일부 기능을 다음 버전으로 미루거나, 외부 개발자를 단기로 고용하거나, 업무를 재분배하는 방법 등이요.",
-      "technique": [
-        "information_giving",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "일부 기능을 미루는 건 저도 생각했었어요. 근데 혼자 결정할 수 없으니까..."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "바로 그거예요. 혼자 결정할 수 없는 문제는 같이 논의해야 해요. 본인만 감당하려고 하지 마시고 팀으로 해결책을 찾아보세요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "네, 이번 주 안에 대표님께 말씀드려 볼게요. 근데 당장 오늘부터 제가 할 수 있는 게 있을까요?"
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "좋은 질문이에요. 오늘부터 할 수 있는 것들을 함께 정리해볼까요? 첫째, 퇴근 시간을 정하는 거예요. 예를 들어 밤 10시 이후에는 노트북을 끄는 거죠.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "밤 10시요? 보통 12시까지는 일하는데..."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "지금 상황에서는 근무 시간을 줄이는 게 필수예요. 10시가 어렵다면 11시로 시작해도 좋아요. 중요한 건 경계선을 만드는 거예요.",
-      "technique": [
-        "information_giving",
         "validation"
       ]
     },
     {
-      "turn": 23,
+      "turn": 3,
       "speaker": "client",
-      "text": "11시면... 할 수 있을 것 같아요."
+      "text": "네, 처음엔 육아가 힘들어서 그런가 했는데, 아이가 좀 크니까 괜찮아질 줄 알았거든요. 근데 아니더라고요."
     },
     {
-      "turn": 23,
+      "turn": 3,
       "speaker": "counselor",
-      "text": "좋아요. 둘째, 주말 중 하루는 완전히 일을 내려놓는 거예요. 토요일이든 일요일이든, 하루는 코드를 보지 않는 날로 정하세요.",
+      "text": "육아 때문이라고 생각하셨는데, 상황이 나아져도 기분은 나아지지 않으셨군요. 지금은 어떤 증상들이 있으세요?",
       "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "하루를요? 그게... 가능할까요?"
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "불가능해 보이죠? 하지만 3개월 동안 하루도 쉬지 않고 일했는데도 프로젝트가 끝나지 않았어요. 하루 쉰다고 해서 크게 달라질 건 없어요. 오히려 그 하루가 다음 주 효율을 높여줄 거예요.",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "그렇게 생각하니 맞는 말 같네요. 일요일은 쉬어보겠습니다."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "훌륭해요. 그 날은 예전에 좋아하셨던 것들을 해보세요. 게임을 하거나, 농구를 하거나, 그냥 누워서 쉬어도 좋아요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "농구... 오랜만에 해보고 싶네요. 친구들한테 연락해봐야겠어요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "아주 좋은 생각이에요. 사회적 관계도 다시 회복하시는 거니까요. 셋째, 잠들기 전 30분은 디지털 기기를 끄고 몸과 마음을 이완하는 시간을 가지세요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "자기 전에 보통 누워서 노트북으로 코드 보는데... 그걸 끊어야겠네요."
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "네, 그게 수면의 질을 떨어뜨리는 주범이에요. 대신 가벼운 스트레칭이나 심호흡을 해보세요. 뇌에게 '이제 일 끝, 쉴 시간'이라는 신호를 주는 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 28,
-      "speaker": "client",
-      "text": "네, 해볼게요. 오늘 상담 받길 잘한 것 같아요. 제가 얼마나 심각한 상태였는지 깨달았어요."
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "본인 상태를 인식하신 게 가장 중요한 첫걸음이에요. 오늘 정한 것들을 정리해볼까요? 대표님과의 대화, 퇴근 시간 정하기, 주말 하루 쉬기, 잠들기 전 디지털 기기 끄기. 이 중에서 가장 먼저 해보고 싶은 게 뭔가요?",
-      "technique": [
-        "encouragement",
-        "summarization",
+        "restatement",
         "open_question"
       ]
     },
     {
-      "turn": 29,
+      "turn": 4,
       "speaker": "client",
-      "text": "오늘부터 11시에 노트북 끄는 거요. 그리고 일요일에 친구들 만나기. 대표님께 말씀드리는 건 내일 해볼게요."
+      "text": "아침에 일어나기가 너무 힘들어요. 그리고 뭘 해도 재미가 없고, 밥도 잘 안 먹게 되고..."
     },
     {
-      "turn": 29,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "아주 구체적으로 계획을 세우셨네요. 다음 주에 만나서 어떻게 진행되었는지 이야기 나눠보면 좋겠어요. 그리고 공황발작 증상이 다시 나타나면 즉시 병원에 가시고, 심하면 정신건강의학과 진료도 고려해주세요.",
+      "text": "아침에 일어나기 힘들고, 즐거움을 못 느끼시고, 식욕도 떨어지셨군요. 수면은 어떠세요?",
       "technique": [
-        "encouragement",
-        "goal_setting",
+        "summarization",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "밤에 잠이 잘 안 와요. 누워있어도 이런저런 생각만 나고. 새벽에 깨서 다시 잠들기도 어렵고요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "수면 문제도 있으시네요. 말씀하신 증상들이 우울증의 전형적인 모습이에요. 혹시 병원 진료를 받아보신 적 있으세요?",
+      "technique": [
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "아니요, 그냥 제가 나약한 거라고 생각했어요. 다른 엄마들은 다 잘하는데 저만 이러니까..."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "'나약해서 그렇다'고 자신을 탓해오셨군요. 그런데 우울증은 의지의 문제가 아니에요. 뇌의 화학적 불균형과 관련이 있는 질환이에요.",
+      "technique": [
+        "reflection",
         "information_giving"
       ]
     },
     {
-      "turn": 30,
+      "turn": 7,
       "speaker": "client",
-      "text": "네, 알겠습니다. 오늘 정말 도움이 많이 됐어요. 감사합니다."
+      "text": "그래요? 저는 제가 노력을 안 해서 이런 줄 알았어요."
     },
     {
-      "turn": 30,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "도움이 되셨다니 다행이에요. 본인을 돌보는 것도 일만큼 중요하다는 걸 기억해주세요. 다음 주에 뵙겠습니다.",
+      "text": "그렇게 자책하셨던 시간이 얼마나 고통스러우셨을까요. 우울증은 감기처럼 누구에게나 올 수 있는 거예요. 나약함과 관계없어요.",
+      "technique": [
+        "empathy",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "... 그 말 듣으니까 좀 위로가 되네요. 저만 이런 건 아니었구나."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "많은 분들이 비슷한 경험을 해요. 특히 출산 후 호르몬 변화와 육아 스트레스가 결합되면 우울증에 취약해지거든요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "남편한테 말해도 잘 모르겠다고 하더라고요. '뭐가 힘든지 모르겠다'고..."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "가장 가까운 사람에게 이해받지 못하니 더 외로우셨겠어요. 남편분께 어떻게 설명하셨어요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "그냥 힘들다고만 했어요. 저도 뭐가 힘든지 설명하기가 어려워서..."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "우울감은 말로 설명하기 어려운 경우가 많아요. '그냥 힘들다'는 게 바로 그 증상이에요. 명확한 이유 없이도 힘들 수 있거든요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그렇구나... 저도 왜 힘든지 모르겠어서 더 답답했어요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "답답하셨겠어요. 우울증은 뚜렷한 원인 없이도 생길 수 있어요. 중요한 건 지금 힘들다는 것을 인정하고 도움을 받는 거예요.",
+      "technique": [
+        "empathy",
+        "interpretation"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "도움이요? 어떤 도움을 받을 수 있어요?"
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "상담과 함께 정신건강의학과 진료를 권해드려요. 필요하면 약물 치료도 고려해볼 수 있어요. 약에 대한 거부감이 있으세요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "약은 좀 무서워요. 중독되거나 그러지 않을까요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "걱정되시는 게 당연해요. 하지만 우울증 약은 중독성이 없어요. 뇌의 화학물질 균형을 맞춰주는 역할을 해요. 의사 선생님과 상의하면서 결정하시면 돼요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "그렇군요. 생각해볼게요. 근데 아이 때문에 병원 가기도 어려워요."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "아이를 돌봐야 하니 시간 내기 어려우시죠. 남편분이나 다른 가족에게 잠깐 맡기실 수 있는 상황인가요?",
+      "technique": [
+        "empathy",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "남편이 주말에 좀 봐줄 수 있을 것 같긴 한데... 제가 병원 간다고 하면 뭐라 할까 봐요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "남편분 반응이 걱정되시는군요. 우울증 치료는 엄마인 본인뿐 아니라 아이를 위해서도 중요한 일이에요. 어떻게 말씀드리면 좋을지 같이 생각해볼까요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "네, 도와주시면 좋겠어요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "남편분께 '요즘 내가 힘든 게 단순한 피곤함이 아닌 것 같아서 전문가 상담을 받아보려고 해. 나도 아이에게 좋은 엄마가 되고 싶으니까'라고 말씀해보시는 건 어떨까요?",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그렇게 말하면 좀 이해해줄 것 같기도 해요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 남편분도 함께 상담에 오시면 좋은데, 우울증에 대해 이해하는 데 도움이 되거든요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "남편이 같이 와도 되는 거예요?"
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "네, 물론이죠. 가족의 이해와 지지가 회복에 큰 도움이 되거든요. 처음엔 혼자 오셔도 되고, 나중에 함께 오셔도 돼요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "알겠어요. 일단 저부터 치료를 시작해볼게요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "좋은 결정이에요. 그리고 일상에서 할 수 있는 것도 있어요. 하루에 짧은 시간이라도 자신만을 위한 시간을 가져보시는 거예요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "자신만을 위한 시간이요? 아이가 있어서 그런 게 가능할까요?"
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "아이가 낮잠 잘 때 10분이라도요. 좋아하던 음악 듣기, 따뜻한 차 마시기... 작은 것부터 시작해보세요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "예전엔 커피 마시면서 드라마 보는 거 좋아했는데... 요즘은 그것도 귀찮아요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "'귀찮다'는 것도 우울증 증상이에요. 하고 싶지 않아도 억지로 조금씩 해보시면 기분이 조금씩 나아질 수 있어요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "억지로 해도 되는 거예요?"
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "네, 행동이 기분에 영향을 줄 수 있어요. '기분이 좋아지면 하겠다'가 아니라 '일단 하면 기분이 나아진다'는 거죠. 행동활성화라고 해요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "그렇군요. 한번 해볼게요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "좋아요. 오늘 상담에서 어떤 것들이 도움이 되셨어요?",
+      "technique": [
+        "encouragement",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "우울증이 제 잘못이 아니라는 것, 병원 가봐야 한다는 것, 그리고 작은 것부터 시작해보는 게 좋다는 거요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "잘 정리해주셨어요. 이번 주에 정신건강의학과 예약하시고, 하루 10분이라도 자신을 위한 시간을 가져보세요. 그리고 다음 주에 어떠셨는지 이야기 나눠봐요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네, 알겠어요. 오랜만에 누군가한테 이렇게 얘기하니까 속이 좀 후련해요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "이야기하니 후련해지셨다니 다행이에요. 혼자 끙끙 앓지 마시고 앞으로도 편하게 이야기해주세요. 함께 나아가봐요.",
       "technique": [
         "validation",
         "encouragement"
@@ -438,7 +361,7 @@
   "generated_at": "2024-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3796",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:48.000000+00:00",
+    "generated_at": "2025-12-18T05:17:37.594223+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"

@@ -1,340 +1,395 @@
 {
   "category": "adult",
   "client_profile": {
-    "age": "27",
-    "gender": "여성",
-    "occupation": "마케터",
-    "background": "5년 연애 후 3개월 전 이별, 일상생활 어려움, 우울감"
+    "age": "37",
+    "gender": "남성",
+    "occupation": "교사",
+    "background": "육아 휴직 중 정체성 혼란, 주변 시선, 복직 불안"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "헤어진 지 3개월이 됐는데도 아직도 힘들어요. 이게 정상인가요?"
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 1턴]"
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "3개월이 지났는데도 여전히 힘드시군요. 5년이나 함께하셨으니 충분히 그럴 수 있어요. 지금 어떤 점이 가장 힘드신가요?",
+      "text": "[상담사 응답 1턴]",
       "technique": [
-        "validation",
-        "empathy",
-        "open_question"
+        "open_question",
+        "validation"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "모든 게요. 일도 집중이 안 되고, 친구들 만나도 재미없고... 그냥 무기력해요."
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 2턴]"
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "일상의 모든 부분에서 의욕이 없으시군요. 하루 일과가 어떠신지 말씀해주시겠어요?",
+      "text": "[상담사 응답 2턴]",
       "technique": [
-        "reflection",
-        "open_question"
+        "empathy",
+        "reflection"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "아침에 일어나기 싫고, 출근해서도 멍하니 있고, 퇴근하면 그냥 누워있어요."
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 3턴]"
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "기본적인 일상도 버겁게 느껴지시는군요. 식사는 제대로 하고 계세요?",
+      "text": "[상담사 응답 3턴]",
       "technique": [
-        "empathy",
-        "closed_question"
+        "open_question",
+        "validation"
       ]
     },
     {
       "turn": 4,
       "speaker": "client",
-      "text": "아니요. 입맛도 없고... 먹어도 맛도 모르겠고요."
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 4턴]"
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "식욕까지 떨어지셨네요. 수면은 어떠세요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "잠을 못 자요. 자려고 누우면 생각이 많아져서요. 그 사람 생각이 계속 나요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "밤에 잠들기 어려우시고 생각이 많아지시는군요. 어떤 생각들이 주로 드시나요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "왜 헤어졌을까, 내가 뭘 잘못했을까, 다시 연락하면 어떨까... 이런 생각들이요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "후회와 자책, 그리고 미련이 공존하고 있군요. 실제로 연락해보신 적은 있으세요?",
-      "technique": [
-        "emotion_labeling",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "몇 번요. 근데 답이 없어요. SNS는 차단당했고요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "연락을 시도했지만 응답이 없었군요. 그때 기분이 어땠어요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "처음엔 화가 났는데, 나중엔 그냥... 비참했어요. 제가 너무 초라해 보였어요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "분노에서 자괴감으로 이어졌네요. 이별의 이유가 무엇이었나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "그 사람이 '마음이 식었다'고 했어요. 갑자기요. 아무 예고도 없이."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "예상치 못한 이별이었군요. 그래서 더 받아들이기 어려우셨을 것 같아요.",
+      "text": "[상담사 응답 4턴]",
       "technique": [
         "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 5턴]"
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "[상담사 응답 5턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 6턴]"
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "[상담사 응답 6턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 7턴]"
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "[상담사 응답 7턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 8턴]"
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "[상담사 응답 8턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 9턴]"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "[상담사 응답 9턴]",
+      "technique": [
+        "open_question",
         "validation"
       ]
     },
     {
       "turn": 10,
       "speaker": "client",
-      "text": "네. 정말 갑자기였어요. 전날까지도 평소처럼 연락했는데..."
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 10턴]"
     },
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "갑작스러운 변화라 혼란스러우셨겠어요. 혹시 돌이켜보면 징조 같은 게 있었나요?",
-      "technique": [
-        "validation",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "지금 생각해보면... 몇 달 전부터 연락이 좀 뜸해지긴 했어요. 근데 그땐 몰랐어요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "당시에는 알아차리기 어려웠던 변화들이 있었군요. 그 징조들을 못 봤다고 본인을 자책하고 계신가요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "네... 제가 너무 둔했던 것 같아요. 좀 더 신경 썼으면..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "본인을 많이 탓하고 계시네요. 하지만 관계는 혼자 만드는 게 아니에요. 상대방도 자신의 마음 변화를 솔직히 말할 책임이 있었죠.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그래도... 제가 뭔가 했으면 달라졌을 수도 있잖아요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "그 가능성을 계속 생각하시는군요. 하지만 '만약에'는 현실이 아니에요. 그리고 상대의 마음을 본인이 통제할 수는 없어요.",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "그럼 저는 뭘 해야 하나요? 계속 이렇게 힘들 순 없잖아요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "회복하고 싶으신 마음이 있으시군요. 그게 중요한 첫걸음이에요. 지금 SNS나 공통 친구를 통해 그 사람 소식을 접하고 계신가요?",
-      "technique": [
-        "encouragement",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "가끔요. SNS는 차단당했지만 공통 친구가 얘기해줘요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "간접적으로라도 소식을 듣고 계시군요. 그 소식을 들으면 기분이 어떠세요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "궁금하면서도... 듣고 나면 더 아파요. 그 사람은 잘 지내는 것 같더라고요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "상대는 회복한 것처럼 보이니 본인만 힘든 것 같아서 더 괴로우신 거죠. 이별 회복을 위해 첫 번째로 필요한 건 '연결 끊기'예요.",
+      "text": "[상담사 응답 10턴]",
       "technique": [
         "empathy",
-        "information_giving"
+        "reflection"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 11턴]"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "[상담사 응답 11턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 12턴]"
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "[상담사 응답 12턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 13턴]"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "[상담사 응답 13턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 14턴]"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "[상담사 응답 14턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 15턴]"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "[상담사 응답 15턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 16턴]"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "[상담사 응답 16턴]",
+      "technique": [
+        "empathy",
+        "reflection"
       ]
     },
     {
       "turn": 17,
       "speaker": "client",
-      "text": "연결 끊기요?"
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 17턴]"
     },
     {
       "turn": 17,
       "speaker": "counselor",
-      "text": "네. SNS 차단, 공통 친구에게 그 사람 소식 안 듣기, 추억의 물건 정리 등이요. 상처가 아물려면 계속 건드리지 말아야 해요.",
+      "text": "[상담사 응답 17턴]",
       "technique": [
-        "information_giving",
-        "clarification"
+        "open_question",
+        "validation"
       ]
     },
     {
       "turn": 18,
       "speaker": "client",
-      "text": "근데 그러면 완전히 끝나는 거잖아요..."
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 18턴]"
     },
     {
       "turn": 18,
       "speaker": "counselor",
-      "text": "이미 끝난 관계예요. 인정하기 어렵지만요. 끝을 받아들여야 새로운 시작이 가능해요.",
+      "text": "[상담사 응답 18턴]",
       "technique": [
-        "confrontation",
-        "information_giving"
+        "empathy",
+        "reflection"
       ]
     },
     {
       "turn": 19,
       "speaker": "client",
-      "text": "... 너무 무서워요. 그 사람 없는 삶이."
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 19턴]"
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "5년을 함께했으니 두려운 게 당연해요. 하지만 그 사람 이전의 본인도 있었고, 이후의 본인도 있을 거예요.",
+      "text": "[상담사 응답 19턴]",
       "technique": [
-        "validation",
-        "encouragement"
+        "open_question",
+        "validation"
       ]
     },
     {
       "turn": 20,
       "speaker": "client",
-      "text": "어떻게 시작하죠?"
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 20턴]"
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "작은 것부터요. 오늘은 제시간에 잠자리에 들기, 내일은 아침 식사 챙기기. 이렇게 하나씩이요.",
+      "text": "[상담사 응답 20턴]",
       "technique": [
-        "goal_setting",
-        "structuring"
+        "empathy",
+        "reflection"
       ]
     },
     {
       "turn": 21,
       "speaker": "client",
-      "text": "그게 도움이 될까요?"
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 21턴]"
     },
     {
       "turn": 21,
       "speaker": "counselor",
-      "text": "일상의 리듬을 되찾는 게 회복의 기초예요. 작은 성취들이 쌓이면 힘이 돼요.",
+      "text": "[상담사 응답 21턴]",
       "technique": [
-        "information_giving",
-        "encouragement"
+        "open_question",
+        "validation"
       ]
     },
     {
       "turn": 22,
       "speaker": "client",
-      "text": "해볼게요. 근데 힘들면 어떡하죠?"
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 22턴]"
     },
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "힘들면 다시 상담 오시면 돼요. 혼자 견딜 필요 없어요. 함께 해나가요.",
+      "text": "[상담사 응답 22턴]",
       "technique": [
-        "validation",
-        "encouragement"
+        "empathy",
+        "reflection"
       ]
     },
     {
       "turn": 23,
       "speaker": "client",
-      "text": "감사합니다. 조금은... 희망이 보이는 것 같아요."
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 23턴]"
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "그 마음 잘 간직하세요. 회복은 직선이 아니라 곡선이에요. 나쁜 날도 있지만 결국 나아질 거예요.",
+      "text": "[상담사 응답 23턴]",
       "technique": [
-        "encouragement",
-        "information_giving"
+        "open_question",
+        "validation"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 24턴]"
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "[상담사 응답 24턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 25턴]"
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "[상담사 응답 25턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 26턴]"
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "[상담사 응답 26턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "[남성 육아자의 어려움 관련 내담자 발화 27턴]"
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "[상담사 응답 27턴]",
+      "technique": [
+        "open_question",
+        "validation"
       ]
     }
   ],
-  "generated_at": "2024-12-17T00:00:00.000Z",
+  "generated_at": "2025-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3846",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:51.000000+00:00",
+    "generated_at": "2025-12-18T05:17:39.231294+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"

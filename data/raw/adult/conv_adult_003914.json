@@ -1,78 +1,77 @@
 {
   "category": "adult",
   "client_profile": {
-    "age": "34",
-    "gender": "여성",
-    "occupation": "외과 전문의",
-    "background": "커리어 vs 결혼 선택 압박, 가족의 결혼 독촉, 비혼 가능성 고민"
+    "age": "37",
+    "gender": "남성",
+    "occupation": "스타트업 개발팀 리더",
+    "background": "입사 2년차, 투자 유치를 위한 제품 출시 압박, 팀원 관리와 개발 병행으로 과부하"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "부모님이 결혼하라고 계속 압박해요. 저는 일이 좋은데... 결혼하면 일을 포기해야 할 것 같아요."
+      "text": "한 달 안에 제품을 완성해야 하는데 불가능해 보여요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "커리어와 결혼 사이에서 갈등하고 계시군요. 부모님의 압박도 부담스러우시고요. 왜 결혼하면 일을 포기해야 한다고 생각하시나요?",
+      "text": "한 달이라는 짧은 기한에 압박을 느끼시는군요. 이 제품이 왜 그렇게 급하게 필요한가요?",
       "technique": [
         "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "text": "투자 PT가 다음 달이거든요. 제품이 없으면 투자를 못 받고, 투자 못 받으면 회사가 문 닫아요."
+    },
+    {
+      "turn": 2,
+      "speaker": "counselor",
+      "text": "투자와 회사 존폐가 걸려있으니 엄청난 압박이시겠어요. 지금 개발 진행 상황은 어떤가요?",
+      "technique": [
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 2,
-      "speaker": "client",
-      "text": "외과의사는 시간이 불규칙하잖아요. 수술 스케줄, 응급 콜... 가정을 돌보기 힘들어요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "직업 특성상 시간 관리가 어려우시군요. 주변에 결혼한 여성 외과의는 없나요?",
-      "technique": [
-        "restatement",
-        "clarification"
-      ]
-    },
-    {
       "turn": 3,
       "speaker": "client",
-      "text": "있긴 한데... 다들 힘들어 보여요. 일과 가정 둘 다 완벽히 못 하면서 죄책감 느끼고..."
+      "text": "70% 정도요? 근데 나머지 30%가 핵심 기능이에요. 그걸 한 달 안에..."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "주변 사례를 보며 두 가지를 병행하는 게 어렵겠다고 느끼시는군요. 본인은 결혼 자체를 원하시나요, 아니면 부모님 때문에 고민하시는 건가요?",
-      "technique": [
-        "validation",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "잘 모르겠어요. 외롭지 않은 건 아니지만... 결혼까지 해야 하나 싶기도 하고요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "외로움은 느끼지만 결혼이 해답인지는 확신이 없으시군요. 결혼에 대해 어떤 이미지를 갖고 계세요?",
+      "text": "핵심 기능을 한 달 안에 완성해야 하는 상황이군요. 개발팀은 몇 명인가요?",
       "technique": [
         "reflection",
-        "open_question"
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "저 포함 4명이요. 근데 한 명은 신입이라 사실상 3명이에요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "3명이 한 달 안에 핵심 기능을 완성해야 하는군요. 현실적으로 가능하다고 생각하세요?",
+      "technique": [
+        "reflection",
+        "confrontation"
       ]
     },
     {
       "turn": 5,
       "speaker": "client",
-      "text": "희생이요. 제 시간, 제 꿈, 제 자유를 포기하는 거..."
+      "text": "... 솔직히 모르겠어요. 해야 하니까 하는 거죠."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "결혼을 희생으로 보시는군요. 그런 생각은 어디서 오는 걸까요?",
+      "text": "'해야 하니까 한다'는 마음이시군요. 지금 어떤 방식으로 일하고 계신가요?",
       "technique": [
         "reflection",
         "open_question"
@@ -81,208 +80,348 @@
     {
       "turn": 6,
       "speaker": "client",
-      "text": "엄마를 보면... 엄마는 꿈이 많았는데 결혼하고 다 포기했어요. 저는 그렇게 살고 싶지 않아요."
+      "text": "매일 새벽 2시까지 일하고, 주말도 없어요. 팀원들도 마찬가지고..."
     },
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "어머니의 삶을 보며 결혼을 희생과 동일시하게 되셨군요. 하지만 모든 결혼이 어머니의 경우와 같을까요?",
+      "text": "하루 16시간 넘게 일하시는군요. 이런 속도로 한 달 가면 어떻게 될 것 같으세요?",
       "technique": [
-        "interpretation",
+        "reflection",
         "confrontation"
       ]
     },
     {
       "turn": 7,
       "speaker": "client",
-      "text": "... 다르긴 하겠죠. 시대도 다르고..."
+      "text": "쓰러지겠죠. 벌써 팀원 한 명이 과로로 병원 갔어요."
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "맞아요. 요즘은 맞벌이 부부도 많고, 역할을 나누는 부부들도 있어요. 본인이 원하는 결혼 생활의 모습이 있나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "서로 독립적이면서도 지지해주는... 그런 관계요. 근데 그런 사람을 찾을 수 있을까요?"
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "본인의 커리어를 존중하고 지지해줄 파트너를 원하시는군요. 그런 사람이 없을 거라고 생각하시나요?",
+      "text": "이미 과로로 쓰러진 팀원이 있군요. 그럼 실질적으로 2명이 남은 건데, 이 상황을 대표나 투자팀에 보고하셨나요?",
       "technique": [
         "reflection",
         "closed_question"
       ]
     },
     {
+      "turn": 8,
+      "speaker": "client",
+      "text": "대표님한테 말씀드렸는데... '어떻게든 해야 한다, 이게 안 되면 다 끝이다'라고만 하세요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "실질적 해결책 없이 압박만 받고 계시는군요. 그럼 투자 PT 일정을 조정하거나, 제품 범위를 조정하는 건 논의해보셨나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 9,
       "speaker": "client",
-      "text": "있을 수도 있겠지만... 찾기 힘들 것 같아요. 그리고 시간도 없고요."
+      "text": "대표님이 안 된대요. 투자자가 정한 일정이라 미룰 수 없고, 제품도 약속한 기능을 다 보여줘야 한대요."
     },
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "시간이 없다는 게 결혼을 미루는 또 다른 이유이기도 하군요. 만약 시간이 있다면 결혼을 하고 싶으실까요?",
+      "text": "일정도 범위도 조정 불가능한 상황이군요. 그럼 자원 추가는요? 외부 개발자 영입이나 아웃소싱 같은 거요.",
       "technique": [
-        "interpretation",
+        "reflection",
         "open_question"
       ]
     },
     {
       "turn": 10,
       "speaker": "client",
-      "text": "잘 모르겠어요. 결혼 자체가 필수라고 생각하지 않거든요."
+      "text": "돈이 없대요. 투자 받기 전까지는..."
     },
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "결혼을 필수로 보지 않으시는군요. 그렇다면 비혼을 선택하는 것도 고려하고 계신가요?",
+      "text": "일정, 범위, 자원 모두 고정된 상태에서 불가능한 미션을 수행하고 계시는군요. 이런 상황에서 본인이 가장 필요한 게 뭐라고 생각하세요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "현실적 계획이요. 지금은 그냥 미친 듯이 일만 하고 있어요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "계획 없이 무작정 일하고 계시는군요. 한 달 동안 무엇을 우선순위로 할지 정리해보는 건 어떨까요?",
       "technique": [
         "reflection",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "다 우선순위예요. 다 중요해요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "'다 중요하다'는 건 '우선순위가 없다'는 뜻이에요. 정말로 투자 PT에서 모든 기능을 다 보여줘야 하나요?",
+      "technique": [
+        "confrontation",
         "closed_question"
       ]
     },
     {
-      "turn": 11,
-      "speaker": "client",
-      "text": "생각은 해봤어요. 근데 부모님이 너무 실망하실 것 같고... 나중에 후회하면 어쩌나 싶기도 하고요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "부모님의 기대와 본인의 미래에 대한 불안이 있으시군요. 지금 결정을 서둘러야 하는 이유가 있나요?",
-      "technique": [
-        "summarization",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "나이요. 34살인데 늦었잖아요. 아이 낳으려면..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "생물학적 시계에 대한 압박이 있으시군요. 그런데 아이를 꼭 원하시나요?",
-      "technique": [
-        "reflection",
-        "clarification"
-      ]
-    },
-    {
       "turn": 13,
       "speaker": "client",
-      "text": "그것도 잘 모르겠어요. 있으면 좋겠지만 없어도... 제 인생이 불행할 것 같지는 않아요."
+      "text": "... 꼭 그렇진 않을 수도 있겠네요. 핵심만 작동하면..."
     },
     {
       "turn": 13,
       "speaker": "counselor",
-      "text": "아이에 대한 강한 욕구는 없으시군요. 그렇다면 결혼과 출산에 대한 압박이 사회적 기대 때문일 수도 있어요.",
+      "text": "그거예요. MVP(Minimum Viable Product) 개념이에요. 완벽한 제품보다 작동하는 핵심 기능이 먼저예요.",
       "technique": [
-        "interpretation",
+        "encouragement",
         "information_giving"
       ]
     },
     {
       "turn": 14,
       "speaker": "client",
-      "text": "맞아요. 모두가 그렇게 사는데 저만 안 하면 이상한 사람 같고..."
+      "text": "근데 대표님이 원하시는 건..."
     },
     {
       "turn": 14,
       "speaker": "counselor",
-      "text": "사회적 규범에서 벗어나는 게 두려우시군요. 하지만 '정상'이란 건 개인마다 달라요. 본인에게 맞는 삶을 사는 게 중요하죠.",
+      "text": "대표님께 다시 한번 제안해보는 건 어떨까요? '모든 기능'과 '핵심 기능만 완벽하게', 두 옵션을 놓고요.",
       "technique": [
-        "validation",
+        "structuring",
         "information_giving"
       ]
     },
     {
       "turn": 15,
       "speaker": "client",
-      "text": "제게 맞는 삶이요... 어떻게 알아요?"
+      "text": "거절하실 것 같은데..."
     },
     {
       "turn": 15,
       "speaker": "counselor",
-      "text": "시간을 두고 본인의 가치관을 탐색하는 거예요. '내가 진짜 원하는 건 뭔가?', '어떤 삶이 나를 행복하게 할까?'요.",
+      "text": "데이터를 준비해서 제시하는 거예요. '현재 리소스로 모든 기능 구현 시 품질 위험 80%, 핵심 기능만 구현 시 성공률 90%' 이런 식으로요.",
       "technique": [
         "information_giving",
-        "clarification"
+        "structuring"
       ]
     },
     {
       "turn": 16,
       "speaker": "client",
-      "text": "지금 당장은 일이 제일 중요해요. 그게 저를 가장 만족시켜요."
+      "text": "그렇게 객관적으로 보여드리면 들어주실 수도 있겠네요."
     },
     {
       "turn": 16,
       "speaker": "counselor",
-      "text": "현재는 커리어가 우선순위군요. 그렇다면 지금은 그것에 집중하고, 결혼은 나중에 생각해도 되지 않을까요?",
+      "text": "그리고 팀원 건강 문제도 중요해요. 지금처럼 가다가 또 쓰러지면 2명이 되고, 그럼 정말 불가능해져요.",
       "technique": [
-        "reflection",
-        "information_giving"
+        "information_giving",
+        "validation"
       ]
     },
     {
       "turn": 17,
       "speaker": "client",
-      "text": "그래도 되나요? 부모님은..."
+      "text": "맞아요. 근데 어떻게 쉬게 하죠? 시간이 없는데..."
     },
     {
       "turn": 17,
       "speaker": "counselor",
-      "text": "부모님의 기대도 중요하지만 본인의 삶이에요. 부모님께 솔직하게 지금은 커리어에 집중하고 싶다고 말씀드려보는 건 어떨까요?",
+      "text": "최소한의 휴식은 필수예요. 하루 수면 6시간, 일주일에 하루 휴무. 이건 성과를 위한 투자예요.",
       "technique": [
-        "validation",
+        "information_giving",
         "goal_setting"
       ]
     },
     {
       "turn": 18,
       "speaker": "client",
-      "text": "실망하실 텐데..."
+      "text": "그 시간에 일하면 더 많이 할 수 있는데..."
     },
     {
       "turn": 18,
       "speaker": "counselor",
-      "text": "처음엔 그러실 수 있어요. 하지만 본인의 진심을 알면 이해하실 거예요. 그리고 결혼 안 한다는 게 아니라 '지금은 아니다'라고 말하는 거죠.",
+      "text": "과로한 상태에서의 10시간보다 충분히 쉰 후의 8시간이 더 생산적이에요. 실수도 줄고, 효율도 높아지고요.",
       "technique": [
-        "validation",
-        "clarification"
+        "information_giving",
+        "confrontation"
       ]
     },
     {
       "turn": 19,
       "speaker": "client",
-      "text": "그렇게 말하면 조금 나을 것 같네요. 해볼게요."
+      "text": "... 그럴 수도 있겠네요. 요즘 실수가 늘긴 했어요."
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "좋아요. 그리고 결혼이든 비혼이든, 본인이 선택하는 거예요. 서두를 필요 없어요. 다음 주에 어떠셨는지 얘기 나눠봐요.",
+      "text": "바로 그거예요. 지금 방식은 지속 가능하지 않아요. 한 달을 버티려면 페이스 조절이 필요해요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "알겠습니다. 팀원들이랑 얘기해볼게요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "그리고 본인 자신도 돌보세요. 리더가 쓰러지면 팀 전체가 무너져요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "저요? 저는 괜찮아요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "정말요? 지금 수면 시간은 몇 시간이신가요?",
+      "technique": [
+        "confrontation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "3-4시간? 근데 버틸 만해요."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "3-4시간은 위험 수준이에요. 판단력, 창의력, 문제해결 능력 모두 떨어져요. 리더가 잘못된 결정하면 팀 전체가 영향받아요.",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "... 맞는 말이에요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "이번 주에 할 것들 정리해볼까요? 대표님께 MVP 접근 제안하기, 팀 최소 휴식 시간 확보하기, 본인 수면 6시간으로 늘리기. 이 중 가장 먼저 할 건 뭔가요?",
+      "technique": [
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "대표님께 제안이요. 데이터 준비해서 내일 말씀드려야겠어요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 팀원들과도 솔직하게 이야기 나누세요. '우리가 할 수 있는 최선'을 함께 정하는 거죠.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네, 오늘 저녁에 팀 회의 소집할게요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "훌륭해요. 그리고 자책하지 마세요. 불가능한 미션을 받은 게 본인 잘못이 아니에요.",
       "technique": [
         "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 20,
+      "turn": 26,
       "speaker": "client",
-      "text": "감사합니다. 마음이 좀 편해졌어요."
+      "text": "그래도 제가 리더인데..."
     },
     {
-      "turn": 20,
+      "turn": 26,
       "speaker": "counselor",
-      "text": "잘하실 거예요. 본인의 삶을 사세요, 타인의 기대를 사는 게 아니라요.",
+      "text": "리더는 만능이 아니에요. 불가능한 걸 가능하게 만드는 게 아니라, 가능한 최선을 찾는 게 리더의 역할이에요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "가능한 최선... 그걸 찾아야겠네요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "맞아요. 그리고 최악의 경우도 대비하세요. 만약 투자가 안 되면 어떻게 할지도 생각해두는 거죠.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "생각하기 싫지만... 필요하긴 하네요."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "오늘 상담에서 어떤 게 가장 도움이 됐나요?",
+      "technique": [
+        "open_question",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "무작정 일하는 게 답이 아니라는 것, 그리고 우선순위를 정해야 한다는 것. 팀과 저 자신도 돌봐야 한다는 거요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "완벽하게 정리하셨네요. 한 달이 힘들겠지만, 현명하게 접근하시면 충분히 해낼 수 있어요. 다음 주에 어떻게 됐는지 이야기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "client",
+      "text": "감사합니다. 조금 길이 보이는 것 같아요. 다음 주에 뵙겠습니다."
+    },
+    {
+      "turn": 30,
+      "speaker": "counselor",
+      "text": "힘든 상황이지만 본인과 팀을 믿으세요. 잘하실 거예요. 다음 주에 뵙겠습니다.",
       "technique": [
         "encouragement",
         "validation"
@@ -292,7 +431,7 @@
   "generated_at": "2024-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3914",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:55.000000+00:00",
+    "generated_at": "2025-12-18T05:17:41.623003+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"

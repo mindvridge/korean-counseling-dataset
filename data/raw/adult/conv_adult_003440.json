@@ -1,35 +1,35 @@
 {
   "category": "adult",
   "client_profile": {
-    "age": "26",
-    "gender": "여성",
-    "occupation": "간호사",
-    "background": "남자친구와 1년 반 연애 중, 남자친구의 무관심과 연락 부재로 갈등"
+    "age": "32",
+    "gender": "남성",
+    "occupation": "회계사",
+    "background": "결혼을 앞둔 약혼녀와 결혼 준비 과정에서 가치관 차이로 갈등"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "남자친구가 요즘 저한테 관심이 없는 것 같아요. 연락도 잘 안 하고요."
+      "text": "결혼 준비하면서 약혼녀랑 계속 싸워요. 사소한 것도 의견이 안 맞아요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "남자친구분의 무관심이 느껴지시는군요. 연락도 뜸해지면 불안하시겠어요.",
+      "text": "결혼 준비 과정에서 의견 충돌이 많으시군요. 어떤 부분에서 특히 그런가요?",
       "technique": [
         "reflection",
-        "empathy"
+        "open_question"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "네. 제가 먼저 연락해야 답장이 오는데, 그것도 몇 시간씩 지나서요."
+      "text": "돈 문제요. 저는 검소하게 하자는데 약혼녀는 평생에 한 번인데 제대로 하자고 해요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "항상 본인이 먼저 연락하시고, 답장도 늦게 온다는 거죠? 언제부터 이런 패턴이 시작되었나요?",
+      "text": "결혼 비용에 대한 가치관이 다르시군요. 검소하게 하고 싶은 이유가 있으세요?",
       "technique": [
         "restatement",
         "open_question"
@@ -38,246 +38,246 @@
     {
       "turn": 3,
       "speaker": "client",
-      "text": "한 두 달 전부터요. 처음엔 바쁜가보다 했는데 계속되니까 이게 뭔가 싶어요."
+      "text": "집 사려면 돈을 모아야 하거든요. 결혼식에 너무 많이 쓰면 나중에 힘들잖아요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "처음엔 이해하려 하셨는데, 계속되니 마음이 많이 불편하신 거군요. 남자친구분께 이런 감정을 표현해보셨나요?",
-      "technique": [
-        "empathy",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "말했죠. '왜 연락을 안 해?'라고요. 그랬더니 '바빠서 그래'라고만 하더라고요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "'왜 연락을 안 해?'라고 물어보셨을 때 어떤 감정이셨어요?",
-      "technique": [
-        "clarification",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "솔직히 화가 났어요. 바쁘면 얼마나 바쁜데 몇 분도 연락 못 하나 싶고요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "화가 나셨군요. 그 뒤에는 어떤 감정들이 더 있으셨나요?",
+      "text": "미래를 위해 지금 절약해야 한다는 생각이시군요. 실용적인 관점이네요. 약혼녀분의 입장은 어떻게 이해하고 계세요?",
       "technique": [
         "validation",
         "open_question"
       ]
     },
     {
-      "turn": 6,
+      "turn": 4,
       "speaker": "client",
-      "text": "서운하고... 내가 중요하지 않은 건가 싶어서 슬펐어요."
+      "text": "글쎄요. 그냥 허영심 아닌가 싶기도 하고... 친구들한테 보여주고 싶은 거 아닌가 해요."
     },
     {
-      "turn": 6,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "화남, 서운함, 슬픔까지 복합적인 감정을 느끼고 계시네요. '중요하지 않은 것 같다'는 생각이 가장 힘드셨을 것 같아요.",
+      "text": "약혼녀분의 바람을 허영심으로 해석하고 계시네요. 혹시 직접 물어보신 적은 있으세요? 왜 제대로 하고 싶은지요.",
       "technique": [
-        "summarization",
-        "empathy"
+        "reflection",
+        "clarification"
       ]
     },
     {
-      "turn": 7,
+      "turn": 5,
       "speaker": "client",
-      "text": "네, 맞아요. 저는 열심히 노력하는데 남자친구는 그냥 저를 당연하게 생각하는 것 같아요."
+      "text": "물어봤죠. 그랬더니 '이런 것도 아껴야 하냐'며 삐졌어요."
     },
     {
-      "turn": 7,
+      "turn": 5,
       "speaker": "counselor",
-      "text": "본인은 노력하는데 상대는 당연하게 여긴다고 느끼시니 허탈하셨겠어요. '바빠서 그래'라는 답변을 들었을 때 어떻게 반응하셨나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "'그래, 알았어'라고 하고 전화 끊었어요. 더 말해봤자 똑같을 것 같아서요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "대화를 포기하고 끊으셨군요. 그런데 이렇게 대화를 중단하면 문제가 해결되던가요?",
-      "technique": [
-        "restatement",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "아니요... 오히려 더 답답하고 서로 멀어지는 것 같아요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "맞아요, 문제를 회피하면 더 멀어지게 되죠. 남자친구분이 '바빠서'라고 할 때, 구체적으로 무엇 때문에 바쁜지 물어보신 적은 있으세요?",
-      "technique": [
-        "information_giving",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "아니요, 그냥 변명처럼 들려서... 물어보지 않았어요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "변명처럼 들렸다는 건 남자친구분의 말을 신뢰하지 못하고 계신 거네요. 혹시 정말 바쁜 상황일 수도 있다고 생각해보신 적은 있으세요?",
+      "text": "질문 자체가 비난처럼 들렸을 수도 있겠네요. '왜 그렇게 생각하는지' 궁금해서가 아니라 '왜 그렇게 낭비하려 하냐'는 뉘앙스로 전달됐을 수 있어요.",
       "technique": [
         "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "음... 생각해보니 요즘 프로젝트 막바지라고는 했어요. 그래도 연락은 할 수 있잖아요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "프로젝트 막바지라는 상황은 있지만, 그래도 연락은 가능할 거라고 생각하시는군요. 본인이 바쁠 때는 어떻게 하시나요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "저요? 저는 아무리 바빠도 틈틈이 연락해요. 점심시간이나 쉬는 시간에요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "본인은 바빠도 연락하는 스타일이시군요. 그런데 사람마다 바쁠 때 대처 방식이 다를 수 있어요. 어떤 사람은 일에 몰두하면 주변이 안 보이기도 하거든요.",
-      "technique": [
-        "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 13,
+      "turn": 6,
       "speaker": "client",
-      "text": "그럼 저는 어떻게 해야 하나요? 계속 기다리고만 있어야 하나요?"
+      "text": "그랬을 수도... 있겠네요. 근데 저도 답답해요. 제 입장도 이해해줘야 하는 거 아니에요?"
     },
     {
-      "turn": 13,
+      "turn": 6,
       "speaker": "counselor",
-      "text": "기다리기만 하는 게 아니라, 대화 방식을 바꿔볼 수 있어요. '왜 연락 안 해?'라는 질문 대신 '요즘 많이 바쁜가 봐. 괜찮아?'라고 먼저 걱정해주는 거죠.",
+      "text": "본인도 이해받고 싶으시죠. 두 분 다 이해받고 싶은 마음은 같은 것 같아요. 약혼녀분도 똑같은 생각을 하고 계실 거예요.",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "그럼 어떻게 해야 하나요? 계속 이러면 결혼도 못 할 것 같아요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "먼저, 서로의 입장을 제대로 이해하는 시간이 필요해요. 각자가 왜 그렇게 생각하는지 진심으로 들어보는 거죠.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "어떻게요?"
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "예를 들어, 약혼녀분께 '당신이 제대로 하고 싶은 이유를 듣고 싶어. 비판하려는 게 아니라 이해하고 싶어서'라고 말해보세요.",
       "technique": [
         "information_giving",
         "clarification"
       ]
     },
     {
-      "turn": 14,
+      "turn": 9,
       "speaker": "client",
-      "text": "그게 달라질까요? 제가 먼저 걱정해주면요?"
+      "text": "그럼 제 입장은요?"
     },
     {
-      "turn": 14,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "비난받는다고 느끼면 사람들은 방어하게 되지만, 걱정받는다고 느끼면 마음을 열게 되거든요. 한번 시도해보시겠어요?",
+      "text": "상대의 말을 충분히 들은 후에 '나는 이런 이유로 절약하고 싶어'라고 표현하는 거예요. 순서가 중요해요.",
       "technique": [
         "information_giving",
-        "encouragement"
+        "structuring"
       ]
     },
     {
-      "turn": 15,
+      "turn": 10,
       "speaker": "client",
-      "text": "해볼게요. 근데 솔직히 제 감정도 표현하고 싶은데요."
+      "text": "왜 제가 먼저 들어야 하죠?"
     },
     {
-      "turn": 15,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "물론이죠, 감정 표현은 중요해요. 다만 방법이 중요한 거예요. '너 때문에 힘들어' 대신 '나는 연락이 없으면 불안해'라고 표현하는 거죠.",
+      "text": "누군가는 먼저 시작해야 하니까요. 그리고 먼저 이해해주는 사람이 대화를 주도하게 되거든요.",
       "technique": [
-        "validation",
+        "confrontation",
         "information_giving"
       ]
     },
     {
-      "turn": 16,
+      "turn": 11,
       "speaker": "client",
-      "text": "아, 나를 주어로 하라는 거네요?"
+      "text": "음... 그렇게 생각해본 적은 없네요."
     },
     {
-      "turn": 16,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "정확해요. 그러면 상대를 공격하지 않으면서도 내 감정을 전달할 수 있어요.",
+      "text": "약혼녀분이 결혼식을 중요하게 생각하는 이유가 뭘까요? 한번 상상해보세요.",
       "technique": [
-        "encouragement",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "그런데 남자친구가 제 말을 안 들으면 어떡하죠?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "그건 그때 가봐야 알 수 있는 일이에요. 하지만 최소한 본인은 최선을 다했다는 것을 알 수 있죠. 결과보다 과정에 집중해보세요.",
-      "technique": [
-        "structuring",
+        "open_question",
         "encouragement"
       ]
     },
     {
-      "turn": 18,
+      "turn": 12,
       "speaker": "client",
-      "text": "네, 이번 주말에 만날 때 한번 제대로 얘기해볼게요."
+      "text": "글쎄요... 어렸을 때부터 꿈꿔온 거라고는 했어요."
     },
     {
-      "turn": 18,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "좋은 계획이에요. 주말에 만나서 얘기해보시고, 다음 주에 어떠셨는지 이야기 나눠봐요.",
+      "text": "어렸을 때부터의 꿈이었군요. 그렇다면 단순한 허영이 아니라 인생의 중요한 순간일 수 있겠네요.",
       "technique": [
-        "encouragement",
+        "reflection",
+        "interpretation"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그렇게 생각하니까 좀... 미안하네요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "이해가 되기 시작하시는군요. 동시에 집 마련도 현실적으로 중요한 문제죠. 둘 다 중요해요.",
+      "technique": [
+        "validation",
+        "empathy"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "그럼 어떻게 절충하죠?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "절충은 서로를 이해한 후에 가능해요. 먼저 각자에게 정말 중요한 게 뭔지 찾아보세요.",
+      "technique": [
+        "information_giving",
         "goal_setting"
       ]
     },
     {
+      "turn": 15,
+      "speaker": "client",
+      "text": "중요한 게요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "네. 예를 들어, 약혼녀분은 결혼식장 규모보다 드레스가 더 중요할 수도 있고, 본인은 신혼여행보다 집 계약금이 더 중요할 수도 있죠.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "아, 우선순위를 정하라는 거군요?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "맞아요. 서로의 우선순위를 존중하면서 조율하는 거예요. 둘 다 100% 포기할 필요는 없어요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그렇게 얘기하면 좀 나아질까요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "대화 방식이 바뀌면 결과도 달라져요. 중요한 건 서로를 이기려는 게 아니라 함께 해결책을 찾는 거예요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "네, 이번 주말에 제대로 얘기해보겠습니다."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "좋아요. 대화할 때 감정적으로 격해지면 잠시 쉬는 시간을 갖는 것도 방법이에요.",
+      "technique": [
+        "goal_setting",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 19,
       "speaker": "client",
-      "text": "알겠습니다. 감사해요."
+      "text": "감사합니다. 도움이 많이 됐어요."
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "오늘 상담이 도움이 되셨길 바라요. 힘내세요.",
+      "text": "잘하실 거예요. 다음 상담 때 어떻게 되었는지 얘기 나눠봐요.",
       "technique": [
         "encouragement",
-        "validation"
+        "structuring"
       ]
     }
   ],
   "generated_at": "2024-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3440",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:29.000000+00:00",
+    "generated_at": "2025-12-18T05:17:24.772948+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"

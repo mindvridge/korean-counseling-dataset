@@ -1,22 +1,23 @@
 {
   "category": "adult",
   "client_profile": {
-    "age": "34",
-    "gender": "여성",
-    "occupation": "전업주부",
-    "background": "2살 쌍둥이 육아로 인한 극심한 스트레스, 육아 우울감, 자아 상실감, 남편의 육아 불참"
+    "age": "37",
+    "gender": "남성",
+    "occupation": "IT 스타트업 대표",
+    "background": "연애 경험 부족, 결혼 의지 없음, 주변 압박과 외로움 사이 갈등"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "쌍둥이 키우는 게 너무 힘들어요. 잠도 못 자고, 쉴 시간도 없고... 미칠 것 같아요."
+      "text": "주변에서 결혼 안 하냐고 계속 물어봐요. 솔직히 필요성을 못 느끼는데... 이상한 건가요?"
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "쌍둥이 육아로 지쳐계시군요. 하루 일과가 어떤가요?",
+      "text": "결혼의 필요성을 느끼지 못하신다는 게 이상한 건 아니에요. 각자 다른 가치관을 가질 수 있으니까요. 결혼에 대해 어떻게 생각하시나요?",
       "technique": [
+        "validation",
         "empathy",
         "open_question"
       ]
@@ -24,344 +25,274 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "아침부터 밤까지 애들 돌보느라 정신없어요. 밥 먹이고, 기저귀 갈고, 재우고... 끝도 없어요."
+      "text": "복잡하고 귀찮은 것 같아요. 혼자 사는 게 편한데 왜 굳이 누군가와 살아야 하나 싶고요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "끊임없는 돌봄의 연속이시군요. 본인만의 시간은 있으세요?",
+      "text": "현재 혼자의 삶에 만족하고 계시는군요. 연애 경험은 있으신가요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "거의 없어요. 한두 번 만나다가 끝났고... 깊은 관계까지 간 적은 없어요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "친밀한 관계 경험이 많지 않으시군요. 그게 결혼에 대한 생각에 영향을 미칠 수도 있어요. 연애가 안 됐던 이유가 뭐라고 생각하세요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "제가 연애에 관심이 없었어요. 일이 더 재밌고 중요했거든요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "일에 집중하면서 연애 우선순위가 낮았군요. 지금도 여전히 그런가요?",
       "technique": [
         "reflection",
         "closed_question"
       ]
     },
     {
-      "turn": 3,
-      "speaker": "client",
-      "text": "없어요. 애들 자면 집안일 하고, 그러다 보면 또 깨고... 화장실 가는 것도 눈치 봐요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "자신을 위한 시간이 전혀 없는 상태시군요. 남편분은 육아에 참여하시나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "주말에 조금요. 평일엔 늦게 들어와서... 그리고 '나도 피곤하다'고 하면서 안 도와줘요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "남편의 도움이 부족하다고 느끼시는군요. 그럴 때 어떤 감정이 드세요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
       "turn": 5,
       "speaker": "client",
-      "text": "화나요. 그리고 외로워요. 혼자 다 하는 것 같아서..."
+      "text": "네. 회사 키우는 게 목표고... 연애나 결혼은 그다음 문제 같아요. 근데 주변에서 계속 물어보니까 제가 잘못된 건가 싶기도 하고요."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "분노와 외로움을 느끼시는군요. 이런 감정이 쌓이면 어떻게 되나요?",
+      "text": "주변의 질문이 본인을 의심하게 만드는군요. 하지만 우선순위는 사람마다 달라요. 잘못된 게 아니에요.",
       "technique": [
-        "emotion_labeling",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "애들한테 짜증 내게 돼요. 그리고 나서 죄책감 들고... '나 나쁜 엄마야' 싶고..."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "짜증을 내고 자책하는 패턴이 있으시군요. 나쁜 엄마가 아니에요. 지쳐있는 엄마예요.",
-      "technique": [
-        "interpretation",
+        "empathy",
         "validation"
       ]
     },
     {
-      "turn": 7,
+      "turn": 6,
       "speaker": "client",
-      "text": "(울먹이며) 근데 애들한테 소리 지르면... 너무 미안해요."
+      "text": "근데 이렇게 계속 혼자 살아도 괜찮을까요? 나중에 늙으면 외롭지 않을까요?"
     },
     {
-      "turn": 7,
+      "turn": 6,
       "speaker": "counselor",
-      "text": "죄책감이 크시군요. 하지만 본인도 돌봄이 필요한 사람이에요. 지금처럼 소진되면 아무도 잘 돌볼 수 없어요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "그럼 어떻게 해야 해요? 애들을 돌봐야 하는데..."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "먼저 도움을 받아야 해요. 남편, 부모님, 돌봄 서비스... 혼자 다 할 수 없어요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "남편한테 여러 번 말했는데 안 들어요. '당신도 애들 아빠잖아' 했더니 '돈 벌어오는 것도 일이야' 하더라고요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "남편이 육아를 본인의 일이 아니라고 생각하는군요. 구체적으로 요청해보셨나요?",
-      "technique": [
-        "interpretation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "'도와줘'라고만 했는데..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "구체적인 요청이 필요해요. '주말 아침에 애들 밥 먹여줘', '목욕은 네가 시켜줘' 이렇게요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "그렇게 말하면 들어줄까요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "시도해볼 만해요. 그리고 부모님이나 친정엄마의 도움은 받을 수 있나요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "친정엄마는 지방에 계시고... 시어머니는 간섭이 심해서..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "그럼 육아 도우미나 아이돌봄 서비스는 고려해보셨나요?",
-      "technique": [
-        "open_question",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "돈이 들잖아요. 남편이 허락할지..."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "본인의 정신 건강에 투자하는 거예요. 남편과 진지하게 대화해보세요. 지금 상태가 얼마나 힘든지요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "해볼게요... 그런데 저 요즘 우울해요. 아무것도 하고 싶지 않고..."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "우울감이 있으시군요. 산후우울증이 지속된 것일 수 있어요. 병원은 가보셨나요?",
+      "text": "미래에 대한 불안이 있으시군요. 지금 외롭다고 느끼시나요?",
       "technique": [
         "reflection",
         "closed_question"
       ]
     },
     {
-      "turn": 15,
+      "turn": 7,
       "speaker": "client",
-      "text": "아니요. 시간도 없고..."
+      "text": "가끔요. 퇴근하고 집에 혼자 있으면... 근데 그렇다고 누군가와 살고 싶은 건 아니에요."
     },
     {
-      "turn": 15,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "시간을 만들어야 해요. 정신건강의학과 진료를 받아보시는 게 좋겠어요.",
+      "text": "외로움은 느끼지만 동거는 원하지 않으시는군요. 외로움을 해소하는 다른 방법들도 있어요. 친구나 가족은 어떠세요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "친구들은 다 결혼해서 바쁘고... 가족은 지방에 있어요. 자주 못 봐요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "가까운 사람들과의 접촉이 줄어들었군요. 새로운 사회적 관계를 만들 생각은 없으세요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "어떻게요? 일하느라 시간도 없는데..."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "시간이 없다고 느끼시지만, 외로움을 해소하려면 관계에 시간을 투자해야 해요. 결혼이 아니어도 취미 모임이나 동호회 같은 것도 있죠.",
       "technique": [
         "confrontation",
         "information_giving"
       ]
     },
     {
+      "turn": 10,
+      "speaker": "client",
+      "text": "그런 건 생각 안 해봤네요. 결혼 아니면 혼자인 줄 알았어요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "결혼과 고립 사이에 많은 선택지가 있어요. 친구, 동료, 커뮤니티 등으로 외로움을 해소할 수 있죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그럼 결혼은 안 해도 되는 건가요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "결혼은 의무가 아니에요. 선택이죠. 본인이 원하지 않으면 안 해도 돼요. 다만 외로움을 관리하는 방법은 필요해요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "부모님은 어떻게 설득해요? '대를 이어야 한다'고 하시는데..."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "부모님 세대의 가치관이 있으시겠죠. 하지만 본인의 삶이에요. 솔직하게 결혼 의사가 없다고 말씀드리는 게 어떨까요?",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "큰일 나겠네요. 엄청 실망하실 텐데..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "처음엔 그러실 수 있어요. 하지만 시간이 지나면 받아들이실 거예요. 그리고 본인이 행복하면 부모님도 결국 안심하시게 돼 있어요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "만약에요, 만약에 나중에 마음이 바뀌면 어떡하죠?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "그럼 그때 생각하면 돼요. 지금 결정이 평생 결정이 아니에요. 사람은 변하고, 우선순위도 바뀌죠.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그렇긴 하네요. 지금은 확실히 필요성을 못 느끼거든요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그럼 지금은 그 감정을 존중하세요. 억지로 결혼하면 본인도 상대방도 불행해져요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 16,
       "speaker": "client",
-      "text": "약 먹으면 모유 수유는 어떻게 해요?"
+      "text": "맞는 말이에요. 근데 혹시 제가 친밀감 회피형이거나 그런 건 아닐까요?"
     },
     {
       "turn": 16,
       "speaker": "counselor",
-      "text": "의사 선생님께 수유 중이라고 말씀드리면 안전한 약을 처방해주세요. 본인의 건강이 우선이에요.",
+      "text": "그럴 수도 있어요. 하지만 그게 꼭 나쁜 건 아니에요. 어떤 사람은 독립성을 더 중시하거든요. 관계에서 불편함을 느끼시나요?",
       "technique": [
-        "information_giving",
-        "validation"
+        "validation",
+        "open_question"
       ]
     },
     {
       "turn": 17,
       "speaker": "client",
-      "text": "알겠어요... 병원 가볼게요."
+      "text": "가까워지면 부담스러워요. 제 공간이 침범당하는 느낌?"
     },
     {
       "turn": 17,
       "speaker": "counselor",
-      "text": "그리고 하루 10분이라도 본인만의 시간을 가져보세요. 애들 낮잠 잘 때요.",
+      "text": "경계가 중요하신 타입이시군요. 그런 사람들은 독립적인 관계를 선호해요. 결혼보다는 각자의 공간을 유지하는 관계가 더 맞을 수 있어요.",
       "technique": [
-        "encouragement",
-        "goal_setting"
+        "interpretation",
+        "information_giving"
       ]
     },
     {
       "turn": 18,
       "speaker": "client",
-      "text": "그 시간에 집안일 하는데..."
+      "text": "그런 관계도 가능한가요?"
     },
     {
       "turn": 18,
       "speaker": "counselor",
-      "text": "집안일은 잠깐 미뤄도 괜찮아요. 본인을 돌보는 게 더 중요해요. 좋아하는 차 마시기, 음악 듣기... 뭐든 좋아요.",
+      "text": "물론이죠. 각자 집을 유지하면서 만나는 커플들도 있고, 법적 결혼 없이 동반자 관계를 유지하는 사람들도 있어요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "그런 선택지가 있다는 걸 몰랐어요. 조금 안심이 되네요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "본인에게 맞는 형태를 찾으면 돼요. 전통적인 결혼만이 답은 아니에요. 중요한 건 본인이 행복한 거죠.",
       "technique": [
         "validation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "해볼게요. 그런데 엄마들 모임 같은 데도 못 가요. 애들 데리고 가기 힘들어서..."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "사회적 고립도 우울감을 키워요. 온라인 육아 커뮤니티는 어때요? 비슷한 처지의 엄마들과 소통할 수 있어요.",
-      "technique": [
-        "information_giving",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "그런 곳이 있나요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "네, 많아요. 쌍둥이 육아 카페도 있고요. 거기서 정보도 얻고 공감도 받을 수 있어요.",
-      "technique": [
-        "information_giving",
         "encouragement"
       ]
     },
     {
-      "turn": 21,
+      "turn": 20,
       "speaker": "client",
-      "text": "찾아볼게요. 조금 위로가 될 것 같아요."
+      "text": "감사합니다. 많이 편해졌어요."
     },
     {
-      "turn": 21,
+      "turn": 20,
       "speaker": "counselor",
-      "text": "좋아요. 혼자가 아니라는 걸 느끼는 게 중요해요. 그리고 자기 자신에게 관대해지세요.",
+      "text": "잘하실 거예요. 본인의 속도로, 본인의 방식으로 살아가세요.",
       "technique": [
         "encouragement",
         "validation"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "관대해지다니요?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "완벽한 엄마가 되려고 하지 마세요. '충분히 좋은 엄마'면 돼요. 실수해도 괜찮아요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "충분히 좋은 엄마... 처음 듣는 말이네요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "완벽을 추구하면 지쳐요. 70-80%만 해도 충분해요. 나머지는 내려놓으세요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "해볼게요. 오늘 상담 받으니까 조금 마음이 가벼워져요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "이번 주에 남편과 구체적으로 대화하기, 병원 예약, 하루 10분 본인 시간 갖기, 온라인 커뮤니티 가입... 해보세요.",
-      "technique": [
-        "summarization",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 해볼게요. 감사합니다."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "힘든 육아를 버티고 계신 거, 대단해요. 다음 주에 어땠는지 이야기 나눠요.",
-      "technique": [
-        "validation",
-        "encouragement"
       ]
     }
   ],
-  "generated_at": "2025-12-17T00:00:00.000Z",
+  "generated_at": "2024-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3607",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:38.000000+00:00",
+    "generated_at": "2025-12-18T05:17:30.720927+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"

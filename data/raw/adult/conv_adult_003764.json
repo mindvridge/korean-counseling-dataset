@@ -1,91 +1,94 @@
 {
   "category": "adult",
   "client_profile": {
-    "age": "30",
+    "age": "26",
     "gender": "남성",
-    "occupation": "재택근무 개발자",
-    "background": "코로나 이후 재택근무로 전환, 사회적 접촉 감소, 외로움"
+    "occupation": "온라인 쇼핑몰 운영",
+    "background": "사회불안 증상, 사람 만나는 것에 극심한 공포, 대면 접촉 회피"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "재택근무 시작한 지 2년 됐는데요. 사람 만나는 게 너무 힘들어졌어요."
+      "text": "사람 만나는 게 너무 무서워요. 심장이 빨리 뛰고 식은땀 나고... 그래서 집에서만 일해요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "재택근무 후 사회적 접촉이 줄어들었군요. 사람을 만나는 게 어떻게 힘들어지셨나요?",
+      "text": "사람을 만날 때 신체적 반응까지 나타나시는군요. 사회불안 증상이 있으신 것 같아요. 언제부터 이런 증상이 있었나요?",
       "technique": [
         "reflection",
+        "empathy",
         "clarification"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "대화하는 게 어색하고... 무슨 말을 해야 할지 모르겠어요. 집에만 있다 보니까요."
+      "text": "고등학교 때부터요. 발표할 때 떨리고 그랬는데, 점점 심해져서 이제는 일상적인 대화도 힘들어요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "대화 자체가 어색하게 느껴지시는군요. 재택 전에는 어떠셨나요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "그땐 괜찮았어요. 회사에서 동료들이랑 자연스럽게 얘기하고 그랬는데..."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "회사에서의 자연스러운 교류가 없어지니 대화 기술이 퇴화된 느낌이시군요. 지금 사회적 접촉은 어느 정도 되시나요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "거의 없어요. 화상회의 말고는... 밖에 나가는 것도 일주일에 한두 번?"
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "대부분의 시간을 집에서 혼자 보내시는군요. 이런 생활이 얼마나 계속되었나요?",
-      "technique": [
-        "reflection",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "2년이요. 처음엔 좋았어요. 출퇴근 안 해도 되고, 편하고... 근데 점점 외로워지더라고요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "처음엔 편했지만 시간이 지나며 외로움을 느끼기 시작하셨군요. 언제부터 문제라고 느끼셨나요?",
+      "text": "10년 가까이 이런 어려움이 있었군요. 증상이 점점 악화되어 일상생활까지 영향을 미치고 있네요. 가장 두려운 상황이 무엇인가요?",
       "technique": [
         "validation",
+        "empathy",
         "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "사람들이 저를 쳐다보는 거요. '저 사람 이상하다', '어색하다' 이렇게 생각할 것 같아서요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "타인의 평가에 대한 두려움이 크시군요. 실제로 누군가 그렇게 말한 적이 있나요?",
+      "technique": [
+        "interpretation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "직접적으로는 아니지만... 제가 어색하게 행동하면 사람들이 이상하게 쳐다봐요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "본인이 어색하다고 느끼실 때 사람들의 시선을 의식하시는군요. 그 시선이 정말 '이상하다'는 의미일까요, 아니면 본인의 해석일까요?",
+      "technique": [
+        "clarification",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "... 제 해석일 수도 있겠네요. 확실히는 모르겠어요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "정직하게 말씀해주셨네요. 불안할 때는 중립적인 표정도 부정적으로 해석하게 되거든요. 지금 온라인 쇼핑몰 운영하신다고 하셨는데, 대면 접촉이 전혀 없나요?",
+      "technique": [
+        "validation",
+        "information_giving",
+        "clarification"
       ]
     },
     {
       "turn": 6,
       "speaker": "client",
-      "text": "몇 달 전부터요. 주말에도 아무도 안 만나고 집에만 있으니까... 이게 정상인가 싶었어요."
+      "text": "네. 모든 걸 온라인으로 해요. 택배도 문 앞에 두고 가달라고 하고요."
     },
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "주말에도 사회적 교류가 없으시군요. 친구들이나 가족은 어떠세요?",
+      "text": "완전히 대면 접촉을 차단하고 계시네요. 이런 생활에 만족하시나요?",
       "technique": [
         "reflection",
         "open_question"
@@ -94,12 +97,12 @@
     {
       "turn": 7,
       "speaker": "client",
-      "text": "친구들은 다 바쁘고... 가족은 지방에 계세요. 전화는 가끔 하지만 직접 만나진 못해요."
+      "text": "아니요. 외롭고... 정상적인 삶이 아니라는 거 알아요. 근데 무서워요."
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "물리적으로 가까운 사람들이 없으시군요. 외로움을 느낄 때 어떻게 하시나요?",
+      "text": "변화를 원하지만 두려움이 크시군요. 두려움의 정체가 정확히 뭘까요? '사람을 만나면 무슨 일이 생길 것 같으세요?",
       "technique": [
         "empathy",
         "open_question"
@@ -108,180 +111,180 @@
     {
       "turn": 8,
       "speaker": "client",
-      "text": "게임하거나 유튜브 봐요. 그것도 지겹긴 한데... 다른 할 게 없어요."
+      "text": "창피당할 것 같아요. 말을 더듬거나, 어색하게 행동하거나... 그러면 사람들이 저를 이상한 사람으로 볼 거예요."
     },
     {
       "turn": 8,
       "speaker": "counselor",
-      "text": "온라인 활동으로 외로움을 달래시는군요. 하지만 만족스럽지는 않으신 것 같네요.",
-      "technique": [
-        "interpretation",
-        "reflection"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "네. 진짜 사람이랑 얘기하고 싶은데... 막상 기회가 생기면 피하게 돼요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "외로운데 사람을 피한다는 게 모순적으로 들리시나요? 왜 피하게 되는 것 같으세요?",
-      "technique": [
-        "confrontation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "어색할 것 같아서요. 그리고 피곤하기도 하고... 집이 편해요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "단기적으로는 집이 편하지만, 장기적으로는 고립되고 있는 거예요. 이게 계속되면 어떻게 될 것 같으세요?",
-      "technique": [
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "더 심해지겠죠... 이미 사람 만나는 게 너무 힘들어졌는데."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "악순환이 되고 있다는 걸 알고 계시네요. 이 패턴을 깨고 싶으신가요?",
+      "text": "'창피당하는 것'이 최악의 시나리오시군요. 만약 정말 그런 일이 생긴다면 어떻게 될까요?",
       "technique": [
         "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "견딜 수 없을 것 같아요. 그래서 아예 안 하는 거예요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "회피가 단기적으로는 안전하게 느껴지지만, 장기적으로는 삶을 제한하고 있어요. 이 패턴을 깨고 싶으신가요?",
+      "technique": [
+        "information_giving",
         "closed_question"
       ]
     },
     {
+      "turn": 10,
+      "speaker": "client",
+      "text": "깨고 싶긴 한데... 어떻게요?"
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "노출 치료라는 방법이 있어요. 두려운 상황에 점진적으로 노출되면서 불안을 견디는 법을 배우는 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "무서운데요..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "당연히 무섭죠. 하지만 갑자기 큰 것부터 하는 게 아니에요. 가장 덜 무서운 것부터 시작해요. 예를 들어, 편의점 가서 물건 사기 같은 거요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 12,
       "speaker": "client",
-      "text": "깨고 싶긴 한데... 어떻게 해야 할지 모르겠어요."
+      "text": "편의점도 무서운데..."
     },
     {
       "turn": 12,
       "speaker": "counselor",
-      "text": "작은 것부터 시작하면 돼요. 갑자기 많은 사람을 만나려고 하지 말고요. 예를 들어, 카페에 가서 주문하는 것부터요.",
+      "text": "그럼 더 작은 것부터요. 창문 열고 밖 보기, 베란다에 나가기, 집 앞 계단까지 내려가기. 이렇게 단계적으로요.",
+      "technique": [
+        "structuring",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그게 도움이 될까요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "처음엔 불안하겠지만, 반복하면 점점 줄어들어요. 뇌가 '이 상황이 위험하지 않구나'라고 학습하거든요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "혼자 할 수 있을까요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "상담을 통해 함께 해나가면 돼요. 그리고 불안 관리 기법도 배우고요. 호흡법, 이완 훈련 같은 거요.",
       "technique": [
         "encouragement",
         "information_giving"
       ]
     },
     {
-      "turn": 13,
+      "turn": 15,
       "speaker": "client",
-      "text": "카페 주문이요? 그건 별로 안 어려운데..."
+      "text": "호흡법이요?"
     },
     {
-      "turn": 13,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "그럼 거기서 한 단계 더 나가보는 거예요. 점원에게 추천 메뉴 물어보기, 같은 테이블 사람에게 간단히 인사하기 같은 거요.",
+      "text": "네. 불안할 때 호흡이 빨라지는데, 의식적으로 천천히 호흡하면 신체 반응이 진정돼요. 지금 한번 해볼까요?",
       "technique": [
-        "clarification",
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "네, 해보고 싶어요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "코로 4초 들이마시고, 7초 참았다가, 입으로 8초에 걸쳐 내쉬세요. 천천히 따라 해보세요.",
+      "technique": [
+        "information_giving",
         "structuring"
       ]
     },
     {
-      "turn": 14,
-      "speaker": "client",
-      "text": "그게 도움이 될까요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "사회적 근육을 키우는 거예요. 운동 안 하던 사람이 갑자기 마라톤 뛸 수 없듯이, 작은 상호작용부터 연습하는 거죠.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그렇게 생각하니 이해가 되네요. 다른 방법도 있나요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "취미 모임이나 동호회에 참여해보는 건 어떨까요? 공통 관심사가 있으니 대화하기 쉬워요.",
-      "technique": [
-        "information_giving",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "동호회요... 가본 적이 없는데 어떻게 찾아요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "온라인 플랫폼에 지역별, 관심사별로 많아요. 우선 온라인 모임부터 시작해도 좋아요. 화상으로 시작하면 부담이 덜하죠.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
       "turn": 17,
       "speaker": "client",
-      "text": "온라인이면 좀 나을 것 같아요. 근데 뭘 해야 할까요?"
+      "text": "(호흡 연습) 조금... 진정되는 것 같아요."
     },
     {
       "turn": 17,
       "speaker": "counselor",
-      "text": "본인이 좋아하는 게 뭔가요? 게임, 독서, 운동, 뭐든 좋아요.",
-      "technique": [
-        "open_question",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "게임 좋아해요. 근데 혼자 하는 게임만..."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "그럼 온라인 게임 커뮤니티에 참여해보세요. 같이 게임하면서 자연스럽게 대화할 수 있어요.",
-      "technique": [
-        "information_giving",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "그거라면 해볼 만할 것 같아요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "좋아요. 이번 주에 하나 찾아서 참여해보시고, 다음 주에 어떠셨는지 얘기 나눠봐요.",
+      "text": "좋아요. 이 기법을 불안할 때 사용하면 도움이 돼요. 이번 주에 연습해보시겠어요?",
       "technique": [
         "encouragement",
         "goal_setting"
       ]
     },
     {
+      "turn": 18,
+      "speaker": "client",
+      "text": "네, 해볼게요. 그리고 밖에 나가는 것도... 계단까지는 할 수 있을 것 같아요."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "훌륭해요. 계단까지 내려가는 것부터 시작해보세요. 하루에 한 번씩이요. 그리고 그때의 불안 정도를 기록해보세요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "기록이요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "네. 0점(전혀 불안하지 않음)부터 10점(극도로 불안함)까지요. 패턴을 보면 도움이 돼요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 20,
       "speaker": "client",
-      "text": "네, 해볼게요. 감사합니다."
+      "text": "알겠습니다. 해볼게요."
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "작은 시작이 큰 변화를 만들어요. 잘하실 거예요.",
+      "text": "잘하실 거예요. 작은 한 걸음이 큰 변화의 시작이에요. 다음 주에 어떠셨는지 얘기 나눠봐요.",
       "technique": [
         "encouragement",
         "validation"
@@ -291,7 +294,7 @@
   "generated_at": "2024-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3764",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:47.000000+00:00",
+    "generated_at": "2025-12-18T05:17:36.485718+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"

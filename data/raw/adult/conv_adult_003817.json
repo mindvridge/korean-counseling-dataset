@@ -1,35 +1,36 @@
 {
   "category": "adult",
   "client_profile": {
-    "age": "29",
-    "gender": "여성",
-    "occupation": "광고 기획자",
-    "background": "입사 4년차, 3개 프로젝트 동시 진행 중, 최근 실수 증가 및 자신감 상실"
+    "age": "38",
+    "gender": "여",
+    "occupation": "외국계 제약회사 부장",
+    "background": "커리어에 몰두하다 청소년 자녀와의 관계가 단절되고 배우자와도 갈등"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "요즘 제가 일을 너무 못하는 것 같아서... 상담을 받아보려고요."
+      "text": "상담사님, 제 딸이 '엄마는 회사가 우리보다 중요하다'고 하더라고요. 충격이었어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "일을 못한다고 느끼시는군요. 구체적으로 어떤 부분에서 그렇게 느끼시나요?",
+      "text": "안녕하세요. 딸의 그 말이 많이 아프셨겠어요. 자녀가 몇 살인가요? 그리고 어떤 상황에서 그런 말을 했나요?",
       "technique": [
-        "reflection",
-        "open_question"
+        "empathy",
+        "open_question",
+        "structuring"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "실수가 너무 많아졌어요. 어제도 클라이언트 미팅에서 자료를 잘못 가져갔고, 그제는 메일에 첨부파일을 빼먹었어요."
+      "text": "딸이 중2예요. 지난주에 학교 상담 주간이었는데 제가 참석을 못 했거든요. 중요한 미팅이 있어서... 그때 딸이 그렇게 말했대요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "최근 업무상 실수들이 늘어나셨군요. 예전에도 이런 실수를 자주 하셨나요?",
+      "text": "딸이 엄마의 참석을 기대했는데 오시지 못해서 실망했군요. 학교 행사에 참석하지 못한 게 이번이 처음인가요?",
       "technique": [
         "reflection",
         "closed_question"
@@ -38,401 +39,371 @@
     {
       "turn": 3,
       "speaker": "client",
-      "text": "아니요, 예전엔 꼼꼼하다는 소리 들었는데... 요즘엔 제가 뭘 하는지도 모르겠어요. 집중이 안 돼요."
+      "text": "아니요... 솔직히 말하면 거의 못 갔어요. 초등학교 때부터... 항상 남편이 갔어요. 저는 일이 바빠서..."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "예전에는 꼼꼼했는데 최근에 집중력이 떨어지고 실수가 늘었다는 거네요. 언제부터 이런 변화가 생겼나요?",
+      "text": "오랫동안 중요한 순간들을 함께하지 못하셨군요. 그게 딸에게는 '엄마는 나보다 일이 더 중요하다'는 메시지로 전달됐을 거예요. 그 사실을 알았을 때 기분이 어떠셨나요?",
       "technique": [
-        "summarization",
-        "clarification"
+        "emotion_labeling",
+        "interpretation",
+        "open_question"
       ]
     },
     {
       "turn": 4,
       "speaker": "client",
-      "text": "한 달 전부터요. 그때 프로젝트가 2개에서 3개로 늘었거든요. 각각 다 중요한 클라이언트라서..."
+      "text": "죄책감이 엄청났어요. 그리고 억울하기도 하고... 저는 가족을 위해 열심히 일한 건데, 왜 이렇게 됐을까 싶어요."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "한 달 전부터 프로젝트가 늘어나면서 변화가 시작됐군요. 지금 3개 프로젝트를 혼자 담당하고 계신가요?",
+      "text": "죄책감과 억울함이 동시에 느껴지시는군요. '가족을 위해 일했다'고 하셨는데, 가족은 당신의 일을 어떻게 받아들이고 있을까요?",
       "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "네... 팀원이 퇴사하면서 그 사람 프로젝트까지 제가 맡게 됐어요. 회사에서 새 사람 뽑는다고 하는데 언제 올지 모르겠어요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "동료가 퇴사하면서 그 업무까지 떠안게 되셨군요. 새 직원이 오기 전까지 혼자 감당하고 계시는 거네요. 하루 일과가 어떻게 되시나요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "9시 출근해서 새벽 1-2시에 퇴근해요. 집 가서 씻고 자면 4-5시간? 그리고 또 출근하고..."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "하루 16-17시간 일하시고 수면은 4-5시간밖에 못 주무시는군요. 주말은요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "주말에도 나와서 일해요. 안 그러면 못 끝내요. 월요일 미팅 준비도 해야 하고..."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "주 7일 일하시는군요. 이런 생활이 한 달째 지속되고 있는 거네요. 몸과 마음은 어떠세요?",
-      "technique": [
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "피곤해요. 너무 피곤한데 잠이 잘 안 와요. 자다가도 자꾸 깨고... 악몽도 꿔요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "극심한 피로에도 불구하고 수면의 질도 좋지 않으시군요. 어떤 악몽을 꾸시나요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "마감을 못 지키는 꿈, 클라이언트가 화내는 꿈... 그런 꿈 꾸고 일어나면 식은땀 범벅이에요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "낮에 겪는 업무 스트레스가 밤에도 이어지고 있네요. 지금 말씀하신 증상들 - 집중력 저하, 수면 장애, 반복되는 악몽 - 모두 극심한 스트레스와 과로의 신호예요.",
-      "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "저도 뭔가 이상하다는 건 알겠는데... 그래도 일은 해야 하잖아요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "일을 해야 한다는 책임감이 크시군요. 그런데 지금처럼 집중력이 떨어지고 실수가 늘어나는 상태에서 일하는 게 효율적일까요?",
-      "technique": [
-        "validation",
+        "emotion_labeling",
         "confrontation"
       ]
     },
     {
-      "turn": 11,
+      "turn": 5,
       "speaker": "client",
-      "text": "... 아니에요. 사실 실수 때문에 더 시간이 오래 걸려요. 고치는 데 시간 더 쓰고..."
+      "text": "글쎄요... 남편은 제 커리어를 응원해준다고 했지만, 요즘은 '네가 너무 일에만 빠져있다'고 해요. 딸은... 저한테 기대를 안 하는 것 같아요."
     },
     {
-      "turn": 11,
+      "turn": 5,
       "speaker": "counselor",
-      "text": "정확히 파악하셨어요. 과로로 인한 실수가 오히려 더 많은 시간을 소모하게 만들고 있네요. 이 상황을 상사나 팀장님께 말씀드려 보셨나요?",
+      "text": "딸이 기대를 안 한다는 게 어떤 의미일까요? 구체적으로 어떤 모습인가요?",
       "technique": [
-        "encouragement",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "말씀드렸어요. 근데 '조금만 더 버텨, 곧 새 팀원 온다'고만 하세요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "도움을 요청했지만 실질적인 지원은 받지 못하셨군요. '조금만 더'라는 말이 한 달째 계속되고 있는 거네요.",
-      "technique": [
-        "reflection",
-        "validation"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "네... 그래서 그냥 제가 버텨야 하나 봐요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "본인이 버티는 수밖에 없다고 느끼시는군요. 그런데 지금 상태로 얼마나 더 버틸 수 있을 것 같으세요?",
-      "technique": [
-        "empathy",
+        "clarification",
         "open_question"
       ]
     },
     {
-      "turn": 14,
+      "turn": 6,
       "speaker": "client",
-      "text": "모르겠어요. 솔직히 한계예요. 어제는 회의 중에 갑자기 눈물이 나더라고요."
+      "text": "학교 일이나 친구 일, 고민 같은 걸 저한테 안 말해요. 다 아빠한테 말하더라고요. 저한테는 '엄마 바쁘잖아'라고만 하고..."
     },
     {
-      "turn": 14,
+      "turn": 6,
       "speaker": "counselor",
-      "text": "회의 중에 감정 조절이 안 될 정도로 한계 상황이시군요. 이건 정말 심각한 신호예요. 몸이 'SOS'를 보내고 있는 거예요.",
+      "text": "딸이 당신을 의도적으로 배제하고 있군요. 상처받지 않기 위한 방어기제일 수도 있어요. '어차피 엄마는 안 올 거니까 기대하지 말자'는 거죠. 그 사실을 알았을 때 어떠셨나요?",
       "technique": [
-        "reflection",
-        "information_giving"
+        "interpretation",
+        "emotion_labeling"
       ]
     },
     {
-      "turn": 15,
+      "turn": 7,
       "speaker": "client",
-      "text": "저도 놀랐어요. 저는 원래 회사에서 안 우는데... 정말 창피했어요."
+      "text": "가슴이 미어졌어요. 제가 딸한테 상처를 줬다는 게... 제 일이 딸에게는 엄마의 부재였구나 싶었어요."
     },
     {
-      "turn": 15,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "창피하셨겠어요. 하지만 그건 본인이 약해서가 아니라 너무 오랫동안 과부하 상태였기 때문이에요. 지금 상태로는 일도 제대로 할 수 없고 건강도 해칠 수 있어요.",
+      "text": "중요한 깨달음이네요. 자신의 일이 가족에게 어떤 의미로 받아들여졌는지 이해하기 시작하신 거예요. 이제 어떻게 하고 싶으세요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "관계를 회복하고 싶어요. 근데... 어떻게 해야 할지 모르겠어요. 너무 늦은 건 아닐까요?"
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "관계 회복은 절대 늦지 않았어요. 딸이 중2라면 아직 충분히 가능해요. 하지만 진심 어린 노력이 필요해요. 당신이 변화할 준비가 되어 있나요?",
+      "technique": [
+        "encouragement",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "준비돼 있어요. 근데... 일을 줄일 수는 없어요. 제가 부장이고, 팀을 책임져야 하거든요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "일을 완전히 포기하라는 게 아니에요. 중요한 건 '양'이 아니라 '질'이에요. 함께하는 시간이 적더라도, 그 시간에 온전히 집중하면 달라질 수 있어요.",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 16,
+      "turn": 10,
       "speaker": "client",
-      "text": "그럼 어떻게 해야 하나요? 그만둘 수도 없고..."
+      "text": "질이요? 구체적으로 어떻게 하면 되나요?"
     },
     {
-      "turn": 16,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "그만두는 것 외에도 방법이 있어요. 먼저, 3개 프로젝트 중 일부를 다른 팀원에게 이관하거나 일정을 조정하는 게 가능한가요?",
+      "text": "예를 들어, 주말 중 하루는 온전히 딸과 함께 보내는 날로 정하는 거예요. 그날은 휴대폰도 끄고, 회사 연락도 받지 않고, 오직 딸에게만 집중하는 거죠. 어떻게 생각하세요?",
       "technique": [
         "information_giving",
-        "open_question"
+        "structuring"
       ]
     },
     {
-      "turn": 17,
+      "turn": 11,
       "speaker": "client",
-      "text": "팀원들도 다들 바빠요. 근데... 다시 생각해보니 프로젝트 B는 마감이 다음 달이니까 우선순위를 낮출 수는 있을 것 같아요."
+      "text": "휴대폰을 끄는 게... 쉽지 않을 것 같아요. 회사에서 연락 오면 어떡하죠?"
     },
     {
-      "turn": 17,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "좋은 생각이에요. 모든 걸 동시에 최우선으로 할 수는 없어요. 우선순위를 정하고 팀장님께 일정 조정을 제안해보시는 건 어떨까요?",
+      "text": "그게 바로 문제예요. 당신에게 회사가 가장 우선순위라는 것. 하루도 회사와 단절할 수 없다면, 가족은 항상 2순위일 수밖에 없어요. 딸의 말이 맞는 거죠.",
+      "technique": [
+        "confrontation",
+        "interpretation"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "그렇게 들으니까... 뼈아프네요. 맞아요, 제가 항상 회사를 1순위에 뒀어요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "인정하시는 게 중요한 첫걸음이에요. 이제 우선순위를 재조정할 시간이에요. 딸은 금방 자라요. 몇 년 후면 집을 떠날 수도 있어요. 그때 후회하지 않으려면 지금 변화해야 해요.",
       "technique": [
         "encouragement",
-        "goal_setting"
+        "information_giving"
       ]
     },
     {
-      "turn": 18,
+      "turn": 13,
       "speaker": "client",
-      "text": "그렇게 말씀드려볼게요. 근데 거절당하면 어떡하죠?"
+      "text": "맞아요... 시간이 별로 없네요. 그럼 주말 중 하루는 딸한테 온전히 쓰기로 할게요. 근데 딸이 받아줄까요? 갑자기 변하면 의아해하지 않을까요?"
     },
     {
-      "turn": 18,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "거절이 걱정되시는군요. 하지만 지금 본인 상태 - 수면 부족, 집중력 저하, 잦은 실수 - 를 구체적으로 말씀드리면서 제안하세요. 이대로 가다가 정말 쓰러지시면 3개 프로젝트 모두 문제가 생겨요.",
+      "text": "처음엔 의심할 수도 있어요. '엄마가 왜 갑자기 그래?' 할 수도 있죠. 하지만 꾸준히 하면 신뢰가 쌓여요. 중요한 건 지속성이에요. 한두 번 하다 말면 오히려 더 큰 상처를 줄 수 있어요.",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
+      "turn": 14,
+      "speaker": "client",
+      "text": "알겠어요. 꾸준히 해야겠네요. 딸이랑 뭘 하면 좋을까요? 솔직히 요즘 애가 뭘 좋아하는지도 모르겠어요."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "그럼 딸에게 직접 물어보세요. '엄마랑 뭐 하고 싶어?'라고요. 딸이 선택하게 하는 거예요. 그게 관심의 표현이고, 존중의 표현이에요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "딸한테 물어보는 거... 쉬워 보이지만 사실 잘 안 했던 것 같아요. 제가 일방적으로 정했던 것 같아요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그것도 중요한 깨달음이에요. 일방적인 관계가 아니라 쌍방향 관계를 만드는 거죠. 그리고 딸의 이야기를 들어주세요. 평가하거나 조언하지 말고, 그냥 들어주기만 해도 돼요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "들어주기만 하는 게... 저한테는 어려운 것 같아요. 회사에서는 항상 문제 해결해야 하니까, 애 얘기 들어도 자꾸 해결책을 제시하게 돼요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "그게 바로 많은 워킹맘들의 고민이에요. 직장 모드를 가정으로 가져오는 것. 하지만 딸은 부하 직원이 아니에요. 해결책보다는 공감이 필요한 존재죠.",
+      "technique": [
+        "validation",
+        "interpretation"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "공감이요... '힘들었겠다', '속상했겠다' 이런 거요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "맞아요. '그래서 어떻게 했어?', '네 기분이 어땠어?'처럼 딸의 감정과 생각을 물어보는 거예요. 조언은 딸이 원할 때만 하면 돼요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "연습이 필요하겠네요. 그런데... 남편과의 관계는 어떻게 하죠? 남편도 저한테 서운해하거든요."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "배우자와의 관계도 중요하죠. 남편분은 구체적으로 어떤 점에서 서운해하시나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 19,
       "speaker": "client",
-      "text": "맞는 말이에요. 그렇게 말씀드려 볼게요."
+      "text": "제가 항상 피곤해서 대화를 안 하고, 주말에도 일하고, 데이트도 안 하고... '우리 부부가 아니라 동거인 같다'고 하더라고요."
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "그리고 당장 오늘부터 할 수 있는 것도 정해봐요. 퇴근 시간을 정하는 거예요. 예를 들어 밤 11시 이후에는 퇴근한다든지.",
+      "text": "감정적 교류가 끊긴 상태네요. 남편분도 외로움을 느끼고 계시는 거예요. 딸과의 시간뿐 아니라 부부의 시간도 필요해요. 한 달에 한 번이라도 데이트 시간을 가질 수 있을까요?",
       "technique": [
-        "goal_setting",
+        "emotion_labeling",
         "structuring"
       ]
     },
     {
       "turn": 20,
       "speaker": "client",
-      "text": "밤 11시요? 그러면 일이 안 끝날 텐데..."
+      "text": "한 달에 한 번... 할 수 있을 것 같아요. 그 정도는 회사 일을 조정할 수 있을 것 같아요."
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "지금도 새벽 1-2시까지 일해도 끝나지 않잖아요. 2-3시간 더 일한다고 해서 크게 달라지지 않아요. 오히려 충분히 자고 다음 날 집중력을 높이는 게 더 효율적이에요.",
+      "text": "좋아요. 그럼 딸과 주말 하루, 남편과 한 달에 한 번 데이트. 이렇게 시작해보는 거예요. 그리고 남편에게도 솔직하게 이야기하세요. '내가 일에 너무 빠져서 가족을 소홀히 했다. 미안하다. 변하고 싶다'고요.",
       "technique": [
-        "confrontation",
+        "encouragement",
         "information_giving"
       ]
     },
     {
       "turn": 21,
       "speaker": "client",
-      "text": "그렇게 생각하니... 맞는 것 같네요."
+      "text": "사과를 해야겠네요. 제가 잘못했으니까... 근데 남편이 받아줄까요?"
     },
     {
       "turn": 21,
       "speaker": "counselor",
-      "text": "수면 시간을 최소 6-7시간은 확보하세요. 그리고 주말 중 하루는 완전히 쉬는 날로 정하세요.",
+      "text": "진심 어린 사과와 구체적인 변화 계획을 보여주면 받아줄 거예요. 중요한 건 말뿐이 아니라 행동으로 보여주는 거예요. 약속을 지키는 것.",
       "technique": [
-        "information_giving",
-        "goal_setting"
+        "encouragement",
+        "information_giving"
       ]
     },
     {
       "turn": 22,
       "speaker": "client",
-      "text": "주말도요? 그럼 일이 너무 밀릴 것 같은데..."
+      "text": "네, 약속 지키는 게 제일 중요하겠네요. 그런데... 회사 일은 정말 어떻게 해야 할까요? 부장이라서 책임이 무거워요."
     },
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "일은 항상 있어요. 하지만 본인이 쓰러지면 일주일, 한 달을 쉬어야 할 수도 있어요. 하루 쉬는 것과 한 달 쉬는 것 중 뭐가 나아요?",
+      "text": "당신은 훌륭한 리더인 것 같아요. 하지만 번아웃되면 리더 역할도 할 수 없어요. 자기 관리도 리더십의 일부예요. 팀원들에게 권한을 위임하고, 효율적으로 일하는 방법을 찾아야 해요.",
       "technique": [
-        "information_giving",
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "효율적으로... 사실 제가 완벽주의라서 모든 걸 컨트롤하려고 해요. 그게 문제인 것 같아요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "스스로 인식하셨네요. 완벽주의가 당신을 일 중독으로 만들고, 결과적으로 가족과의 시간을 빼앗은 거예요. 80%의 완성도로도 충분한 일들이 많아요.",
+      "technique": [
+        "validation",
         "confrontation"
       ]
     },
     {
-      "turn": 23,
-      "speaker": "client",
-      "text": "... 하루 쉬는 게 낫죠."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "맞아요. 그리고 일하는 중간중간 짧은 휴식도 필요해요. 2시간마다 5-10분씩 일어나서 스트레칭하거나 바람 쐬세요.",
-      "technique": [
-        "validation",
-        "goal_setting"
-      ]
-    },
-    {
       "turn": 24,
       "speaker": "client",
-      "text": "그 시간도 아까운데... 근데 집중도 안 되니까 휴식이 필요할 것 같긴 해요."
+      "text": "맞아요. 제가 너무 높은 기준을 세웠던 것 같아요. 조금 내려놓아야겠어요."
     },
     {
       "turn": 24,
       "speaker": "counselor",
-      "text": "짧은 휴식이 오히려 집중력을 높여줘요. 쉬지 않고 16시간 일하는 것보다 중간중간 쉬면서 12시간 집중해서 일하는 게 훨씬 효율적이에요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 해볼게요. 오늘 상담 받으면서 제가 얼마나 무리하고 있었는지 깨달았어요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "그 깨달음이 중요해요. 오늘 정한 것들을 다시 정리해볼까요? 팀장님께 일정 조정 제안하기, 밤 11시 퇴근 원칙, 주말 하루 휴식, 2시간마다 짧은 휴식. 이 중 가장 먼저 실천하실 건 뭔가요?",
+      "text": "훌륭한 결정이에요. 그럼 오늘 상담을 통해 세운 계획을 정리해볼까요?",
       "technique": [
         "encouragement",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네, 부탁드려요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "첫째, 주말 중 하루는 딸과 온전히 함께하기 - 휴대폰 끄고. 둘째, 딸의 이야기 경청하기 - 해결책 제시보다 공감. 셋째, 한 달에 한 번 부부 데이트. 넷째, 가족에게 진심 어린 사과하기. 다섯째, 완벽주의 내려놓고 업무 효율화하기. 맞나요?",
+      "technique": [
         "summarization",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "완벽해요. 이렇게 정리하니까 할 수 있을 것 같아요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "언제부터 시작하실 거예요?",
+      "technique": [
         "open_question"
       ]
     },
     {
-      "turn": 26,
+      "turn": 27,
       "speaker": "client",
-      "text": "오늘부터 11시 퇴근이요. 그리고 내일 팀장님께 말씀드려볼게요."
+      "text": "오늘 집에 가서 남편이랑 딸한테 먼저 사과하고, 이번 주말부터 실천할게요."
     },
     {
-      "turn": 26,
+      "turn": 27,
       "speaker": "counselor",
-      "text": "아주 구체적으로 계획을 세우셨네요. 훌륭해요.",
+      "text": "빠른 실행이네요. 좋아요. 한 가지만 더, 완벽하게 하려고 하지 마세요. 실수할 수도 있고, 약속을 못 지킬 수도 있어요. 그때는 솔직하게 사과하고 다시 시작하면 돼요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "근데... 만약 팀장님이 안 된다고 하시면요?"
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "그럴 경우를 대비해서 인사팀이나 더 상위 관리자에게 도움을 요청할 수도 있어요. 그리고 필요하면 병가를 내는 것도 권리예요. 지금 증상들로 진단서를 받을 수도 있거든요.",
-      "technique": [
-        "information_giving",
-        "validation"
+        "information_giving"
       ]
     },
     {
       "turn": 28,
       "speaker": "client",
-      "text": "그렇군요. 그래도 일단은 팀장님께 먼저 말씀드려볼게요."
+      "text": "네, 완벽하지 않아도 괜찮다는 거... 저에게 필요한 말이에요. 감사합니다."
     },
     {
       "turn": 28,
       "speaker": "counselor",
-      "text": "좋아요. 다음 주에 만나서 어떻게 진행됐는지 이야기 나눠봐요. 그 전에 증상이 더 심해지면 - 특히 일상생활이 불가능할 정도면 - 즉시 병원에 가세요.",
-      "technique": [
-        "goal_setting",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 29,
-      "speaker": "client",
-      "text": "네, 알겠습니다. 오늘 많은 도움이 됐어요."
-    },
-    {
-      "turn": 29,
-      "speaker": "counselor",
-      "text": "4년간 열심히 일하신 만큼, 이제는 본인 건강도 챙기셔야 해요. 일을 잘하려면 먼저 건강해야 한다는 걸 기억하세요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 30,
-      "speaker": "client",
-      "text": "감사합니다. 다음 주에 뵙겠습니다."
-    },
-    {
-      "turn": 30,
-      "speaker": "counselor",
-      "text": "힘내세요. 본인을 너무 혹사하지 마시고요. 다음 주에 뵙겠습니다.",
+      "text": "가족과의 관계 회복은 시간이 걸려요. 인내심을 갖고 꾸준히 하시면 분명 변화가 올 거예요. 응원할게요.",
       "technique": [
         "encouragement",
         "validation"
       ]
     }
   ],
-  "generated_at": "2024-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3817",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:50.000000+00:00",
+    "generated_at": "2025-12-18T05:17:38.290304+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"

@@ -1,50 +1,50 @@
 {
   "category": "adult",
   "client_profile": {
-    "age": "28",
+    "age": "35",
     "gender": "여성",
-    "occupation": "교사",
-    "background": "부모의 불화 목격, 약속을 지키지 않는 사람들에 대한 분노, 완벽주의적 신뢰 기준"
+    "occupation": "초등교사",
+    "background": "결혼 7년차, 남편과의 의사소통 단절, 육아 부담 불균형"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "사람들이 약속을 안 지키면 화가 나요. 한 번이라도 어기면 그 사람을 못 믿겠어요."
+      "text": "남편이랑 대화가 안 돼요. 육아는 저만 하고, 남편은 일만 핑계 대고요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "약속 이행에 대한 기준이 엄격하시군요. 한 번의 실수도 용납하기 어려우신 것 같아요. 이런 성향이 언제부터 있었나요?",
+      "text": "육아 부담이 불공평하게 느껴지시고, 남편과의 소통도 어려우신 상황이군요. 얼마나 오래되셨어요?",
       "technique": [
         "reflection",
         "empathy",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "text": "아이가 태어난 후부터요. 이제 5살인데... 5년 동안 혼자 키운 것 같아요."
+    },
+    {
+      "turn": 2,
+      "speaker": "counselor",
+      "text": "5년간 혼자 육아를 감당하신 느낌이시군요. 남편분은 육아에 어느 정도 참여하시나요?",
+      "technique": [
+        "validation",
         "open_question"
       ]
     },
     {
-      "turn": 2,
-      "speaker": "client",
-      "text": "어릴 때부터요. 아버지가 약속을 안 지키는 사람이었거든요. '주말에 놀아주겠다', '다음에 사주겠다' 이런 거... 다 거짓말이었어요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "어릴 때 아버지의 약속 불이행으로 상처를 받으셨군요. 그 경험이 지금의 신뢰 기준에 영향을 미치고 있네요.",
-      "technique": [
-        "empathy",
-        "interpretation"
-      ]
-    },
-    {
       "turn": 3,
       "speaker": "client",
-      "text": "맞아요. 그래서 저는 절대 약속을 안 어겨요. 다른 사람들도 그래야 한다고 생각해요."
+      "text": "주말에 잠깐 놀아주는 게 전부예요. 기저귀 갈거나 밥 먹이거나 하는 건 안 해요. '모르겠다'면서요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "본인은 약속을 철저히 지키시고, 다른 사람들에게도 같은 기준을 적용하시는군요. 이게 관계에 어떤 영향을 미치나요?",
+      "text": "일상적인 돌봄은 하지 않고 놀아주기만 하시는군요. '모르겠다'는 말을 들으면 어떤 기분이 드세요?",
       "technique": [
         "restatement",
         "open_question"
@@ -53,236 +53,265 @@
     {
       "turn": 4,
       "speaker": "client",
-      "text": "사람들이 저를 까다롭다고 해요. 그리고 친구들이 별로 없어요. 한두 번 약속 어기면 연락을 끊어버리니까..."
+      "text": "화나죠. 저도 처음엔 몰랐어요. 근데 배웠잖아요. 왜 남편만 예외인가요?"
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "높은 기준 때문에 관계가 오래 유지되지 못하는군요. 약속을 어긴 사람들은 어떤 이유였나요?",
+      "text": "본인도 배워가며 했는데 남편은 배우려 하지 않으니 억울하시군요. 이런 감정을 남편분께 표현해보셨나요?",
       "technique": [
-        "reflection",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "갑자기 일이 생겼다거나, 깜빡했다거나... 변명들이죠."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "그걸 변명으로 보시는군요. 혹시 정말 불가피한 상황일 수도 있다고 생각해보신 적 있나요?",
-      "technique": [
-        "reflection",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "... 있을 수도 있겠죠. 근데 제가 약속을 지키는데 왜 다른 사람들은 못 지켜요?"
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "본인의 기준을 다른 사람에게 적용하고 계시네요. 혹시 본인은 한 번도 약속을 못 지킨 적이 없으세요?",
-      "technique": [
-        "interpretation",
+        "empathy",
         "closed_question"
       ]
     },
     {
-      "turn": 7,
+      "turn": 5,
       "speaker": "client",
-      "text": "없어요. 아파도 가고, 힘들어도 가요. 약속은 약속이니까요."
+      "text": "수없이 말했죠. '좀 도와달라'고요. 그럼 '나도 힘들다', '회사 일이 바쁘다'고만 해요."
     },
     {
-      "turn": 7,
+      "turn": 5,
       "speaker": "counselor",
-      "text": "본인에게 매우 엄격하시군요. 그런데 그렇게까지 해야 할 때도 있나요? 아플 때는 쉬는 게 맞지 않을까요?",
+      "text": "'도와달라'고 요청하셨군요. 혹시 '도와달라'는 표현이 어떤 의미를 담고 있는지 생각해보신 적 있으세요?",
       "technique": [
-        "validation",
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "도와달라는 게... 문제가 있나요?"
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "'도와달라'는 말은 육아가 본래 본인의 일이고 남편은 돕는 사람이라는 뉘앙스가 있어요. 하지만 육아는 두 사람의 책임이죠.",
+      "technique": [
+        "information_giving",
         "confrontation"
       ]
     },
     {
-      "turn": 8,
+      "turn": 7,
       "speaker": "client",
-      "text": "그래도... 약속은 지켜야죠."
+      "text": "아... 그렇네요. 저도 모르게 그렇게 생각했던 것 같아요."
     },
     {
-      "turn": 8,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "약속을 지키는 게 중요하지만, 때로는 상황이 변할 수 있어요. 그리고 완벽한 사람은 없거든요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "그럼 사람들한테 계속 실망해야 하나요?"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "실망하는 이유가 기대가 너무 높아서일 수 있어요. '약속은 100% 지켜져야 한다'는 기대 말이에요. 좀 더 유연한 기대를 갖는다면 어떨까요?",
-      "technique": [
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "유연한 기대요?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "네. '약속은 일반적으로 지켜지지만, 불가피한 상황에서는 어겨질 수 있다. 그럴 때 어떻게 대처하는지가 중요하다' 같은 거요.",
-      "technique": [
-        "clarification",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "대처요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "네. 약속을 못 지킬 때 미리 연락하고 사과하고 대안을 제시하는 거죠. 그런 태도가 있으면 신뢰가 유지될 수 있어요.",
-      "technique": [
-        "clarification",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "... 그렇게 생각하면 좀 다르네요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "맞아요. 약속 자체보다 그 사람의 전반적인 태도가 더 중요할 수 있어요. 한 번의 실수로 사람을 판단하지 말고 패턴을 보는 거죠.",
+      "text": "스스로 깨달으셨네요. 그렇다면 '도와달라' 대신 '함께 하자'고 말하면 어떨까요?",
       "technique": [
         "encouragement",
         "information_giving"
       ]
     },
     {
-      "turn": 13,
+      "turn": 8,
       "speaker": "client",
-      "text": "패턴이요?"
+      "text": "그렇게 말한다고 달라질까요? 남편은 계속 바쁘다고 할 것 같은데요."
     },
     {
-      "turn": 13,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "네. 가끔 어기지만 대부분 지키고 성의를 보이는 사람과, 자주 어기고 변명만 하는 사람은 다르죠. 그 차이를 구별하는 거예요.",
+      "text": "회의적이시군요. 남편분이 정말 바쁘신가요? 실제 근무 시간이 어떻게 되나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "9시에 출근해서 7시쯤 퇴근해요. 그렇게 늦지는 않아요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "근무 시간은 일반적인 수준이군요. '바쁘다'는 게 실제 시간 부족이 아니라 다른 의미일 수도 있어요.",
+      "technique": [
+        "restatement",
+        "interpretation"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "다른 의미요?"
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "육아에 자신이 없거나, 어떻게 해야 할지 몰라서 회피하는 것일 수도 있어요. 혹은 정말로 퇴근 후 휴식이 필요할 수도 있고요.",
       "technique": [
         "clarification",
         "information_giving"
       ]
     },
     {
-      "turn": 14,
+      "turn": 11,
       "speaker": "client",
-      "text": "저는 그냥 한 번이라도 어기면 끝이었는데..."
+      "text": "그럼 저는요? 저는 24시간 일하는데 휴식은 언제 해요?"
     },
     {
-      "turn": 14,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "그건 너무 엄격한 기준이에요. 본인도 실수할 수 있고, 다른 사람도 그렇죠. 완벽을 요구하면 아무도 남지 않아요.",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "... 그래서 친구가 없는 건가..."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "스스로 깨달으셨네요. 기준을 조금 낮추면 관계가 더 풍요로워질 수 있어요. 완벽하지 않아도 괜찮은 사람들을 받아들이는 거죠.",
+      "text": "본인의 힘듦도 인정받고 싶으시죠. 당연해요. 남편분이 본인의 상황을 정확히 알고 계실까요?",
       "technique": [
         "validation",
-        "encouragement"
+        "empathy",
+        "open_question"
       ]
     },
     {
-      "turn": 16,
+      "turn": 12,
       "speaker": "client",
-      "text": "어떻게 기준을 낮춰요? 불안할 것 같은데..."
+      "text": "알 거예요. 눈만 있으면 보이는데..."
     },
     {
-      "turn": 16,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "한 번에 완전히 바꿀 필요는 없어요. 다음에 누군가 약속을 못 지키면, 바로 끊지 말고 이유를 들어보는 거예요.",
+      "text": "보면 안다고 생각하시지만, 실제로 말하지 않으면 모를 수 있어요. 구체적으로 얼마나 힘든지 말씀해보신 적 있으세요?",
       "technique": [
-        "information_giving",
-        "goal_setting"
+        "confrontation",
+        "closed_question"
       ]
     },
     {
-      "turn": 17,
+      "turn": 13,
       "speaker": "client",
-      "text": "이유를 들어봐요?"
+      "text": "그냥 '힘들다'고만 했지, 구체적으로는... 안 한 것 같아요."
     },
     {
-      "turn": 17,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "네. 그리고 그 사람의 전반적인 모습을 고려해보는 거죠. '이 사람이 평소에는 어땠지?' '이번이 처음인가?' 같은 거요.",
-      "technique": [
-        "clarification",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "해볼게요. 근데 어렸을 때 상처가 계속 생각나면 어떡하죠?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "그럴 때는 '지금은 어릴 때가 아니다. 이 사람은 아버지가 아니다'라고 스스로에게 말해주세요. 과거와 현재를 분리하는 거예요.",
+      "text": "막연히 '힘들다'는 말만으로는 전달이 안 될 수 있어요. '하루에 몇 시간을 쉬지 못한다', '육아하면서 어떤 점이 버겁다' 이런 식으로 구체적으로 말하는 게 중요해요.",
       "technique": [
         "information_giving",
         "clarification"
       ]
     },
     {
+      "turn": 14,
+      "speaker": "client",
+      "text": "그렇게 말하면 들어줄까요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "보장할 순 없지만, 지금보다는 나을 거예요. 그리고 대화할 때 비난보다는 감정과 필요를 표현하는 게 좋아요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "감정과 필요요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "네. '당신은 일만 한다'는 비난 대신, '나는 혼자 육아하면서 외롭고 지친다. 당신의 도움이 필요하다'고 표현하는 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "저한테 그렇게 말할 여유가 있을까요... 화가 나서요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "화가 나는 게 당연해요. 5년간 쌓였으니까요. 하지만 화를 쏟아내면 상대는 방어하게 되고 대화는 안 돼요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그럼 어떡하죠? 화를 참으라는 건가요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "참으라는 게 아니라, 화가 가라앉은 후에 대화하라는 거예요. 그리고 화의 이면에 있는 진짜 감정을 찾는 게 중요해요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "진짜 감정이요?"
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "화는 표면 감정이에요. 그 밑에는 외로움, 서운함, 무력감 같은 게 있을 거예요. 그걸 찾아서 표현하는 거죠.",
+      "technique": [
+        "information_giving",
+        "emotion_labeling"
+      ]
+    },
+    {
       "turn": 19,
       "speaker": "client",
-      "text": "알겠습니다. 연습해볼게요."
+      "text": "... 외롭긴 해요. 결혼했는데 혼자인 것 같아요."
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "잘하실 거예요. 다음 주에 어떠셨는지 얘기 나눠봐요. 완벽하지 않아도 괜찮다는 걸 기억하세요.",
+      "text": "그 감정을 남편분께 전달해보세요. '화나다'가 아니라 '외롭다'고요. 훨씬 와닿을 거예요.",
       "technique": [
         "encouragement",
-        "validation"
+        "goal_setting"
       ]
     },
     {
       "turn": 20,
       "speaker": "client",
-      "text": "감사합니다."
+      "text": "시도해볼게요. 근데 언제 얘기하는 게 좋을까요?"
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "천천히 가도 돼요. 본인에게도, 다른 사람에게도 더 너그러워지길 바라요.",
+      "text": "아이가 자고 난 후, 두 분이 진정할 수 있는 시간에요. 그리고 '얘기 좀 하자'고 미리 말하는 게 좋아요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "알겠습니다. 이번 주말에 한번 해볼게요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "좋은 계획이에요. 대화가 잘 되길 바라요. 다음 주에 어떠셨는지 얘기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "감사합니다."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "잘하실 거예요. 변화의 첫걸음을 내디디고 계세요.",
       "technique": [
         "encouragement",
         "validation"
@@ -292,7 +321,7 @@
   "generated_at": "2024-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3483",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:32.000000+00:00",
+    "generated_at": "2025-12-18T05:17:26.334983+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"

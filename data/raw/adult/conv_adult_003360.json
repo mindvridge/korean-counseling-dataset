@@ -1,21 +1,21 @@
 {
   "category": "adult",
   "client_profile": {
-    "age": "34",
+    "age": "28",
     "gender": "여성",
-    "occupation": "박사과정 연구원",
-    "background": "학업에 몰두하며 친구들과 멀어짐, 연구실에만 있어 외로움"
+    "occupation": "교사",
+    "background": "부모의 불화 목격, 약속을 지키지 않는 사람들에 대한 분노, 완벽주의적 신뢰 기준"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "박사 과정하면서 친구들이 다 떠났어요. 이제 연구실 사람들밖에 없는데 그마저도 경쟁 관계라..."
+      "text": "사람들이 약속을 안 지키면 화가 나요. 한 번이라도 어기면 그 사람을 못 믿겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "학업에 집중하면서 사회적 관계가 축소되었군요. 연구실 동료들과도 편하지 않으시고요. 지금 가장 힘든 점이 뭔가요?",
+      "text": "약속 이행에 대한 기준이 엄격하시군요. 한 번의 실수도 용납하기 어려우신 것 같아요. 이런 성향이 언제부터 있었나요?",
       "technique": [
         "reflection",
         "empathy",
@@ -25,264 +25,264 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "외로워요. 하루 종일 논문만 읽고 실험만 하다 보면... 사람이랑 얘기하고 싶은데 할 사람이 없어요."
+      "text": "어릴 때부터요. 아버지가 약속을 안 지키는 사람이었거든요. '주말에 놀아주겠다', '다음에 사주겠다' 이런 거... 다 거짓말이었어요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "대화할 사람이 없어서 외로우시군요. 예전 친구들과는 어떻게 되었나요?",
+      "text": "어릴 때 아버지의 약속 불이행으로 상처를 받으셨군요. 그 경험이 지금의 신뢰 기준에 영향을 미치고 있네요.",
       "technique": [
-        "emotion_labeling",
-        "open_question"
+        "empathy",
+        "interpretation"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "다들 결혼하고 애 낳고... 저랑은 다른 세계 사는 것 같아요. 만나도 공감대가 없어요."
+      "text": "맞아요. 그래서 저는 절대 약속을 안 어겨요. 다른 사람들도 그래야 한다고 생각해요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "생활 패턴과 관심사가 달라져서 소원해지셨군요. 친구들이 본인을 이해하지 못한다고 느끼시나요?",
+      "text": "본인은 약속을 철저히 지키시고, 다른 사람들에게도 같은 기준을 적용하시는군요. 이게 관계에 어떤 영향을 미치나요?",
       "technique": [
         "restatement",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "네. 제가 연구 얘기하면 지루해하고... 친구들 육아 얘기는 저한테 와닿지 않고요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "서로의 세계가 너무 달라서 대화가 어려우시군요. 박사 과정 동기들은 어떠세요?",
-      "technique": [
-        "validation",
         "open_question"
       ]
     },
     {
-      "turn": 5,
+      "turn": 4,
       "speaker": "client",
-      "text": "있긴 한데... 다들 경쟁자예요. 논문 실적, 장학금, 나중에 교수 자리까지... 진짜 친구가 될 순 없어요."
+      "text": "사람들이 저를 까다롭다고 해요. 그리고 친구들이 별로 없어요. 한두 번 약속 어기면 연락을 끊어버리니까..."
     },
     {
-      "turn": 5,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "공통점은 있지만 경쟁 구도 때문에 깊은 관계를 맺기 어려우시군요. 이런 상황이 얼마나 지속되었나요?",
+      "text": "높은 기준 때문에 관계가 오래 유지되지 못하는군요. 약속을 어긴 사람들은 어떤 이유였나요?",
       "technique": [
         "reflection",
         "clarification"
       ]
     },
     {
+      "turn": 5,
+      "speaker": "client",
+      "text": "갑자기 일이 생겼다거나, 깜빡했다거나... 변명들이죠."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "그걸 변명으로 보시는군요. 혹시 정말 불가피한 상황일 수도 있다고 생각해보신 적 있나요?",
+      "technique": [
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 6,
       "speaker": "client",
-      "text": "2년? 박사 시작하고 나서 점점 심해졌어요."
+      "text": "... 있을 수도 있겠죠. 근데 제가 약속을 지키는데 왜 다른 사람들은 못 지켜요?"
     },
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "2년간 고립되어 오셨군요. 이 기간 동안 외로움을 어떻게 대처하셨나요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "그냥 참았어요. 연구에 집중하면 잊혀질 줄 알았는데... 안 되더라고요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "연구로 외로움을 잊으려 했지만 효과가 없었군요. 지금 정서 상태는 어떠세요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "우울해요. 아침에 일어나기 싫고, 연구실 가기도 싫고... 그냥 다 의미 없는 것 같아요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "우울감과 무기력감까지 느끼고 계시네요. 이런 감정이 연구에도 영향을 미치나요?",
-      "technique": [
-        "emotion_labeling",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "당연하죠. 집중도 안 되고 실수도 많아졌어요. 이러다 박사도 못 따는 거 아닌가 싶어요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "외로움이 학업 성취에도 부정적 영향을 미치고 있군요. 악순환이 되고 있어요. 이 패턴을 끊고 싶으신가요?",
+      "text": "본인의 기준을 다른 사람에게 적용하고 계시네요. 혹시 본인은 한 번도 약속을 못 지킨 적이 없으세요?",
       "technique": [
         "interpretation",
         "closed_question"
       ]
     },
     {
-      "turn": 10,
+      "turn": 7,
       "speaker": "client",
-      "text": "물론이죠. 근데 어떻게요? 시간도 없고..."
+      "text": "없어요. 아파도 가고, 힘들어도 가요. 약속은 약속이니까요."
     },
     {
-      "turn": 10,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "시간이 없다고 느끼시지만, 사회적 관계는 선택 사항이 아니라 필수예요. 건강한 관계가 있어야 연구도 잘 할 수 있어요.",
+      "text": "본인에게 매우 엄격하시군요. 그런데 그렇게까지 해야 할 때도 있나요? 아플 때는 쉬는 게 맞지 않을까요?",
       "technique": [
-        "confrontation",
-        "information_giving"
+        "validation",
+        "confrontation"
       ]
     },
     {
-      "turn": 11,
+      "turn": 8,
       "speaker": "client",
-      "text": "그건 알아요. 근데 누구랑 어떻게 관계를 맺어요?"
+      "text": "그래도... 약속은 지켜야죠."
     },
     {
-      "turn": 11,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "연구와 무관한 영역에서 관계를 찾아보는 건 어떨까요? 취미 활동이나 운동 같은 거요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "취미요? 연구하느라 취미를 잃어버린 지 오래됐는데..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "예전에 좋아하던 게 있었나요? 박사 과정 시작 전에요.",
-      "technique": [
-        "open_question",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "요가 좋아했어요. 그리고 독서 모임도 나갔었고..."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "요가와 독서를 좋아하셨군요. 그걸 다시 시작해보는 건 어떨까요?",
-      "technique": [
-        "reflection",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "시간 낼 수 있을까요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "주 1회, 1시간이면 충분해요. 그것도 못 낼 정도로 바쁘진 않으시죠? 오히려 그 시간이 재충전 시간이 되어 연구 효율을 높일 수 있어요.",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그렇게 생각하니까 해볼 만할 것 같네요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "좋아요. 요가 수업이나 독서 모임 중 하나를 골라서 이번 주에 등록해보시겠어요?",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "요가가 나을 것 같아요. 운동도 되고..."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "훌륭한 선택이에요. 요가 수업에서 사람들과 자연스럽게 대화할 기회가 생길 거예요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "근데 연구와 무관한 사람들이랑 뭘 얘기해요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "그게 오히려 좋아요. 연구 얘기에서 벗어나서 본인의 다른 면을 발견할 수 있거든요. 본인이 연구자로서만이 아니라 한 사람으로서 존재할 수 있는 공간이에요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "... 생각해보니 저 요즘 연구자 정체성밖에 없었어요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "스스로 깨달으셨네요. 박사 과정도 중요하지만, 본인의 정체성이 그것만으로 이루어진 건 아니에요.",
+      "text": "약속을 지키는 게 중요하지만, 때로는 상황이 변할 수 있어요. 그리고 완벽한 사람은 없거든요.",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
+      "turn": 9,
+      "speaker": "client",
+      "text": "그럼 사람들한테 계속 실망해야 하나요?"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "실망하는 이유가 기대가 너무 높아서일 수 있어요. '약속은 100% 지켜져야 한다'는 기대 말이에요. 좀 더 유연한 기대를 갖는다면 어떨까요?",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "유연한 기대요?"
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "네. '약속은 일반적으로 지켜지지만, 불가피한 상황에서는 어겨질 수 있다. 그럴 때 어떻게 대처하는지가 중요하다' 같은 거요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "대처요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "네. 약속을 못 지킬 때 미리 연락하고 사과하고 대안을 제시하는 거죠. 그런 태도가 있으면 신뢰가 유지될 수 있어요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "... 그렇게 생각하면 좀 다르네요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "맞아요. 약속 자체보다 그 사람의 전반적인 태도가 더 중요할 수 있어요. 한 번의 실수로 사람을 판단하지 말고 패턴을 보는 거죠.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "패턴이요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "네. 가끔 어기지만 대부분 지키고 성의를 보이는 사람과, 자주 어기고 변명만 하는 사람은 다르죠. 그 차이를 구별하는 거예요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "저는 그냥 한 번이라도 어기면 끝이었는데..."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "그건 너무 엄격한 기준이에요. 본인도 실수할 수 있고, 다른 사람도 그렇죠. 완벽을 요구하면 아무도 남지 않아요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "... 그래서 친구가 없는 건가..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "스스로 깨달으셨네요. 기준을 조금 낮추면 관계가 더 풍요로워질 수 있어요. 완벽하지 않아도 괜찮은 사람들을 받아들이는 거죠.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "어떻게 기준을 낮춰요? 불안할 것 같은데..."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "한 번에 완전히 바꿀 필요는 없어요. 다음에 누군가 약속을 못 지키면, 바로 끊지 말고 이유를 들어보는 거예요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "이유를 들어봐요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "네. 그리고 그 사람의 전반적인 모습을 고려해보는 거죠. '이 사람이 평소에는 어땠지?' '이번이 처음인가?' 같은 거요.",
+      "technique": [
+        "clarification",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "해볼게요. 근데 어렸을 때 상처가 계속 생각나면 어떡하죠?"
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "그럴 때는 '지금은 어릴 때가 아니다. 이 사람은 아버지가 아니다'라고 스스로에게 말해주세요. 과거와 현재를 분리하는 거예요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 19,
       "speaker": "client",
-      "text": "맞아요. 균형을 찾아야겠어요."
+      "text": "알겠습니다. 연습해볼게요."
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "좋은 결론이에요. 이번 주에 요가 수업 등록하시고, 다음 주에 어떠셨는지 얘기 나눠봐요.",
+      "text": "잘하실 거예요. 다음 주에 어떠셨는지 얘기 나눠봐요. 완벽하지 않아도 괜찮다는 걸 기억하세요.",
       "technique": [
         "encouragement",
-        "goal_setting"
+        "validation"
       ]
     },
     {
       "turn": 20,
       "speaker": "client",
-      "text": "감사합니다. 희망이 보이는 것 같아요."
+      "text": "감사합니다."
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "잘하실 거예요. 본인을 돌보는 게 연구를 돌보는 것만큼 중요해요.",
+      "text": "천천히 가도 돼요. 본인에게도, 다른 사람에게도 더 너그러워지길 바라요.",
       "technique": [
         "encouragement",
         "validation"
@@ -292,7 +292,7 @@
   "generated_at": "2024-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3360",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:25.000000+00:00",
+    "generated_at": "2025-12-18T05:17:21.915097+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"

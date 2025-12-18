@@ -1,381 +1,437 @@
 {
   "category": "adult",
   "client_profile": {
-    "age": "28",
+    "age": "37",
     "gender": "남성",
-    "occupation": "IT 회사 개발자",
-    "background": "3년 교제 중인 여자친구와 잦은 다툼, 대화 단절 상태, 이별 위기"
+    "occupation": "스타트업 개발팀 리더",
+    "background": "입사 2년차, 투자 유치를 위한 제품 출시 압박, 팀원 관리와 개발 병행으로 과부하"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "여자친구랑 문제가 심각해져서요. 요즘 거의 말도 안 하고 있어요."
+      "text": "한 달 안에 제품을 완성해야 하는데 불가능해 보여요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "여자친구분과의 관계가 많이 힘드신 상황이군요. 대화가 단절된 상태라면 답답하고 걱정되실 것 같아요.",
+      "text": "한 달이라는 짧은 기한에 압박을 느끼시는군요. 이 제품이 왜 그렇게 급하게 필요한가요?",
       "technique": [
         "reflection",
-        "empathy"
+        "open_question"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "네, 3년 사귀었는데 이렇게 된 적은 처음이에요. 무슨 말을 해도 싸움이 돼요."
+      "text": "투자 PT가 다음 달이거든요. 제품이 없으면 투자를 못 받고, 투자 못 받으면 회사가 문 닫아요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "3년이나 함께하셨는데 처음으로 이런 상황을 겪고 계시는군요. 어떤 일이 있었는지 말씀해 주시겠어요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "한 달 전쯤 제가 회사 일이 바빠서 약속을 몇 번 못 지켰거든요. 그때부터 시작된 것 같아요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "약속을 지키지 못한 일이 계기가 되었군요. 그때 여자친구분은 어떤 반응을 보이셨나요?",
-      "technique": [
-        "clarification",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "처음엔 이해한다고 했는데, 계속되니까 화가 많이 났나 봐요. 저한테 '나는 네 우선순위가 아니다'라고 하더라고요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "'우선순위가 아니다'라는 말에서 여자친구분이 느끼셨을 서운함과 상처가 느껴지네요. 그 말을 들었을 때 어떠셨어요?",
+      "text": "투자와 회사 존폐가 걸려있으니 엄청난 압박이시겠어요. 지금 개발 진행 상황은 어떤가요?",
       "technique": [
         "empathy",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "솔직히 억울했어요. 저도 일하느라 힘든 건데, 왜 저만 나쁜 사람이 되어야 하나 싶고..."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "본인도 힘든 상황인데 이해받지 못한다고 느끼시니 억울하셨겠어요. 두 분 모두 각자의 입장에서 힘드셨던 거네요.",
-      "technique": [
-        "validation",
-        "reflection"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "그렇죠. 근데 제가 그 말을 했을 때 더 싸움이 커졌어요. '너는 항상 네 입장만 생각한다'면서요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "본인 입장을 말씀하셨는데 오히려 상황이 악화됐군요. 그때 기분이 어떠셨어요?",
-      "technique": [
-        "restatement",
         "open_question"
       ]
     },
     {
-      "turn": 7,
+      "turn": 3,
       "speaker": "client",
-      "text": "답답했어요. 뭘 말해도 안 통하니까요. 그래서 저도 그냥 입을 닫았어요."
+      "text": "70% 정도요? 근데 나머지 30%가 핵심 기능이에요. 그걸 한 달 안에..."
     },
     {
-      "turn": 7,
+      "turn": 3,
       "speaker": "counselor",
-      "text": "대화가 통하지 않는다고 느끼시니 말문을 닫게 되셨네요. 그런데 침묵은 문제 해결에 도움이 되었나요?",
+      "text": "핵심 기능을 한 달 안에 완성해야 하는 상황이군요. 개발팀은 몇 명인가요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "저 포함 4명이요. 근데 한 명은 신입이라 사실상 3명이에요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "3명이 한 달 안에 핵심 기능을 완성해야 하는군요. 현실적으로 가능하다고 생각하세요?",
       "technique": [
         "reflection",
         "confrontation"
       ]
     },
     {
-      "turn": 8,
+      "turn": 5,
       "speaker": "client",
-      "text": "아니요, 더 심해졌어요. 이제는 같이 있어도 각자 폰만 보고 있어요."
+      "text": "... 솔직히 모르겠어요. 해야 하니까 하는 거죠."
     },
     {
-      "turn": 8,
+      "turn": 5,
       "speaker": "counselor",
-      "text": "함께 있지만 마음은 멀어진 상태군요. 그런 상황에서 어떤 감정을 느끼세요?",
-      "technique": [
-        "empathy",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "외로워요. 같이 있는데 혼자 있는 것 같아요. 그리고 이러다 진짜 끝나는 거 아닌가 무섭기도 하고요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "외로움과 관계가 끝날지 모른다는 두려움이 있으시군요. 여자친구분에 대한 마음은 어떠세요?",
-      "technique": [
-        "summarization",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "아직 좋아해요. 그래서 더 힘든 것 같아요. 헤어지고 싶지 않은데 어떻게 해야 할지 모르겠어요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "마음은 여전히 있는데 방법을 모르겠다는 거군요. 지금까지 관계 회복을 위해 어떤 시도를 해보셨어요?",
+      "text": "'해야 하니까 한다'는 마음이시군요. 지금 어떤 방식으로 일하고 계신가요?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 11,
+      "turn": 6,
       "speaker": "client",
-      "text": "그냥... 시간이 지나면 괜찮아지겠지 생각했어요. 특별히 뭘 한 건 없는 것 같아요."
+      "text": "매일 새벽 2시까지 일하고, 주말도 없어요. 팀원들도 마찬가지고..."
     },
     {
-      "turn": 11,
+      "turn": 6,
       "speaker": "counselor",
-      "text": "시간에 맡기셨군요. 하지만 상황이 나아지지 않았네요. 혹시 직접 대화를 시도해보신 적은 있으세요?",
+      "text": "하루 16시간 넘게 일하시는군요. 이런 속도로 한 달 가면 어떻게 될 것 같으세요?",
       "technique": [
-        "restatement",
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "쓰러지겠죠. 벌써 팀원 한 명이 과로로 병원 갔어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "이미 과로로 쓰러진 팀원이 있군요. 그럼 실질적으로 2명이 남은 건데, 이 상황을 대표나 투자팀에 보고하셨나요?",
+      "technique": [
+        "reflection",
         "closed_question"
       ]
     },
     {
-      "turn": 12,
+      "turn": 8,
       "speaker": "client",
-      "text": "몇 번 '우리 얘기 좀 하자'고 했는데 '할 말 없다'고 하더라고요."
+      "text": "대표님한테 말씀드렸는데... '어떻게든 해야 한다, 이게 안 되면 다 끝이다'라고만 하세요."
     },
     {
-      "turn": 12,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "먼저 대화를 시도하셨는데 거절당하셨군요. 그때 어떤 기분이었어요?",
+      "text": "실질적 해결책 없이 압박만 받고 계시는군요. 그럼 투자 PT 일정을 조정하거나, 제품 범위를 조정하는 건 논의해보셨나요?",
       "technique": [
-        "empathy",
+        "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 13,
+      "turn": 9,
       "speaker": "client",
-      "text": "포기하고 싶었어요. 제가 이렇게까지 해야 하나 싶고, 자존심도 상하고..."
+      "text": "대표님이 안 된대요. 투자자가 정한 일정이라 미룰 수 없고, 제품도 약속한 기능을 다 보여줘야 한대요."
     },
     {
-      "turn": 13,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "노력이 받아들여지지 않으니 포기하고 싶고 자존심도 상하셨군요. 그런데 '우리 얘기 좀 하자'고 할 때 어떤 태도로 말씀하셨어요?",
+      "text": "일정도 범위도 조정 불가능한 상황이군요. 그럼 자원 추가는요? 외부 개발자 영입이나 아웃소싱 같은 거요.",
       "technique": [
-        "validation",
-        "clarification"
+        "reflection",
+        "open_question"
       ]
     },
     {
-      "turn": 14,
+      "turn": 10,
       "speaker": "client",
-      "text": "음... 솔직히 짜증 섞인 목소리였을 수도 있어요. '도대체 언제까지 이럴 거냐'는 느낌으로요."
+      "text": "돈이 없대요. 투자 받기 전까지는..."
     },
     {
-      "turn": 14,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "그렇다면 여자친구분 입장에서는 대화 제안이 아니라 비난처럼 느껴졌을 수도 있겠네요. 어떻게 생각하세요?",
+      "text": "일정, 범위, 자원 모두 고정된 상태에서 불가능한 미션을 수행하고 계시는군요. 이런 상황에서 본인이 가장 필요한 게 뭐라고 생각하세요?",
       "technique": [
         "interpretation",
         "open_question"
       ]
     },
     {
-      "turn": 15,
+      "turn": 11,
       "speaker": "client",
-      "text": "... 그렇게 들렸을 수도 있겠네요. 저는 몰랐는데."
+      "text": "현실적 계획이요. 지금은 그냥 미친 듯이 일만 하고 있어요."
     },
     {
-      "turn": 15,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "대화의 '내용'도 중요하지만 '태도'도 중요해요. 같은 말도 어떻게 하느냐에 따라 전혀 다르게 전달되거든요.",
+      "text": "계획 없이 무작정 일하고 계시는군요. 한 달 동안 무엇을 우선순위로 할지 정리해보는 건 어떨까요?",
       "technique": [
-        "information_giving",
-        "reflection"
+        "reflection",
+        "goal_setting"
       ]
     },
     {
-      "turn": 16,
+      "turn": 12,
       "speaker": "client",
-      "text": "그럼 어떻게 말해야 할까요? 저도 감정이 있으니까 냉정하게 말하기가 쉽지 않아요."
+      "text": "다 우선순위예요. 다 중요해요."
     },
     {
-      "turn": 16,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "그럼요, 감정이 있으니까 당연히 어려우실 거예요. 한 가지 방법은 '나-전달법'을 사용하는 거예요. '네가 이래서 문제야' 대신 '나는 이런 상황에서 이런 감정을 느껴'라고 표현하는 거죠.",
+      "text": "'다 중요하다'는 건 '우선순위가 없다'는 뜻이에요. 정말로 투자 PT에서 모든 기능을 다 보여줘야 하나요?",
       "technique": [
-        "validation",
-        "information_giving"
+        "confrontation",
+        "closed_question"
       ]
     },
     {
-      "turn": 17,
+      "turn": 13,
       "speaker": "client",
-      "text": "나-전달법이요? 예를 들면 어떻게 하는 건가요?"
+      "text": "... 꼭 그렇진 않을 수도 있겠네요. 핵심만 작동하면..."
     },
     {
-      "turn": 17,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "예를 들어 '너는 맨날 내 얘기를 안 들어'라고 하면 비난이 되지만, '나는 내 얘기가 들리지 않는 것 같아서 외로워'라고 하면 내 감정을 전달하는 거예요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "아... 그렇게 하면 다르게 들리겠네요. 근데 연습이 필요할 것 같아요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "맞아요, 처음엔 어색할 수 있어요. 하지만 연습하면 나아져요. 그리고 또 하나, 대화를 시작할 때 여자친구분의 감정을 먼저 인정해주는 것도 중요해요.",
+      "text": "그거예요. MVP(Minimum Viable Product) 개념이에요. 완벽한 제품보다 작동하는 핵심 기능이 먼저예요.",
       "technique": [
         "encouragement",
         "information_giving"
       ]
     },
     {
-      "turn": 19,
+      "turn": 14,
       "speaker": "client",
-      "text": "감정을 먼저 인정한다고요?"
+      "text": "근데 대표님이 원하시는 건..."
     },
     {
-      "turn": 19,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "네, 예를 들면 '네가 많이 서운했겠다. 그동안 내가 약속을 잘 못 지켜서 힘들었을 거야'라고 먼저 상대방 마음을 알아주는 거예요.",
+      "text": "대표님께 다시 한번 제안해보는 건 어떨까요? '모든 기능'과 '핵심 기능만 완벽하게', 두 옵션을 놓고요.",
       "technique": [
-        "information_giving",
-        "clarification"
+        "structuring",
+        "information_giving"
       ]
     },
     {
-      "turn": 20,
+      "turn": 15,
       "speaker": "client",
-      "text": "근데 저도 힘들었는데 제가 먼저 그렇게 해야 하나요?"
+      "text": "거절하실 것 같은데..."
     },
     {
-      "turn": 20,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "좋은 질문이에요. 누가 먼저 하느냐가 중요한 게 아니라, 관계를 회복하고 싶은 쪽이 먼저 손 내미는 거예요. 그게 약해지는 게 아니에요.",
+      "text": "데이터를 준비해서 제시하는 거예요. '현재 리소스로 모든 기능 구현 시 품질 위험 80%, 핵심 기능만 구현 시 성공률 90%' 이런 식으로요.",
       "technique": [
-        "validation",
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "그렇게 객관적으로 보여드리면 들어주실 수도 있겠네요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "그리고 팀원 건강 문제도 중요해요. 지금처럼 가다가 또 쓰러지면 2명이 되고, 그럼 정말 불가능해져요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "맞아요. 근데 어떻게 쉬게 하죠? 시간이 없는데..."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "최소한의 휴식은 필수예요. 하루 수면 6시간, 일주일에 하루 휴무. 이건 성과를 위한 투자예요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "그 시간에 일하면 더 많이 할 수 있는데..."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "과로한 상태에서의 10시간보다 충분히 쉰 후의 8시간이 더 생산적이에요. 실수도 줄고, 효율도 높아지고요.",
+      "technique": [
+        "information_giving",
         "confrontation"
       ]
     },
     {
+      "turn": 19,
+      "speaker": "client",
+      "text": "... 그럴 수도 있겠네요. 요즘 실수가 늘긴 했어요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "바로 그거예요. 지금 방식은 지속 가능하지 않아요. 한 달을 버티려면 페이스 조절이 필요해요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "알겠습니다. 팀원들이랑 얘기해볼게요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "그리고 본인 자신도 돌보세요. 리더가 쓰러지면 팀 전체가 무너져요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
       "turn": 21,
       "speaker": "client",
-      "text": "... 그렇게 생각해보니 제가 먼저 해볼 수도 있겠네요."
+      "text": "저요? 저는 괜찮아요."
     },
     {
       "turn": 21,
       "speaker": "counselor",
-      "text": "좋은 결심이에요. 그리고 이번엔 대화할 시간과 장소도 정하는 게 좋아요. 조용하고 두 분 다 편한 상태에서요.",
+      "text": "정말요? 지금 수면 시간은 몇 시간이신가요?",
       "technique": [
-        "encouragement",
-        "goal_setting"
+        "confrontation",
+        "closed_question"
       ]
     },
     {
       "turn": 22,
       "speaker": "client",
-      "text": "그렇게 하면 좀 달라질까요?"
+      "text": "3-4시간? 근데 버틸 만해요."
     },
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "상대방이 어떻게 반응할지는 모르지만, 최소한 본인은 노력했다는 것을 알 수 있어요. 그리고 진심은 전달되기 마련이에요.",
+      "text": "3-4시간은 위험 수준이에요. 판단력, 창의력, 문제해결 능력 모두 떨어져요. 리더가 잘못된 결정하면 팀 전체가 영향받아요.",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "... 맞는 말이에요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "이번 주에 할 것들 정리해볼까요? 대표님께 MVP 접근 제안하기, 팀 최소 휴식 시간 확보하기, 본인 수면 6시간으로 늘리기. 이 중 가장 먼저 할 건 뭔가요?",
+      "technique": [
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "대표님께 제안이요. 데이터 준비해서 내일 말씀드려야겠어요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 팀원들과도 솔직하게 이야기 나누세요. '우리가 할 수 있는 최선'을 함께 정하는 거죠.",
       "technique": [
         "encouragement",
-        "reflection"
+        "structuring"
       ]
     },
     {
-      "turn": 23,
+      "turn": 25,
       "speaker": "client",
-      "text": "네, 한번 해볼게요. 근데 만약 그래도 안 되면요?"
+      "text": "네, 오늘 저녁에 팀 회의 소집할게요."
     },
     {
-      "turn": 23,
+      "turn": 25,
       "speaker": "counselor",
-      "text": "그때는 또 다른 방법을 찾아보면 돼요. 지금은 일단 한 번 제대로 대화해보는 것에 집중해보시죠. 결과에 대한 걱정은 잠시 내려놓고요.",
+      "text": "훌륭해요. 그리고 자책하지 마세요. 불가능한 미션을 받은 게 본인 잘못이 아니에요.",
       "technique": [
-        "structuring",
-        "encouragement"
+        "encouragement",
+        "validation"
       ]
     },
     {
-      "turn": 24,
+      "turn": 26,
       "speaker": "client",
-      "text": "알겠어요. 뭔가 좀 정리가 되는 것 같아요."
+      "text": "그래도 제가 리더인데..."
     },
     {
-      "turn": 24,
+      "turn": 26,
       "speaker": "counselor",
-      "text": "정리가 되신다니 다행이에요. 오늘 상담에서 어떤 것들이 도움이 되셨나요?",
+      "text": "리더는 만능이 아니에요. 불가능한 걸 가능하게 만드는 게 아니라, 가능한 최선을 찾는 게 리더의 역할이에요.",
       "technique": [
         "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "가능한 최선... 그걸 찾아야겠네요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "맞아요. 그리고 최악의 경우도 대비하세요. 만약 투자가 안 되면 어떻게 할지도 생각해두는 거죠.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "생각하기 싫지만... 필요하긴 하네요."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "오늘 상담에서 어떤 게 가장 도움이 됐나요?",
+      "technique": [
+        "open_question",
         "summarization"
       ]
     },
     {
-      "turn": 25,
+      "turn": 29,
       "speaker": "client",
-      "text": "제가 대화할 때 태도가 문제였을 수 있다는 것, 그리고 나-전달법이랑 상대 감정을 먼저 인정하는 방법이요."
+      "text": "무작정 일하는 게 답이 아니라는 것, 그리고 우선순위를 정해야 한다는 것. 팀과 저 자신도 돌봐야 한다는 거요."
     },
     {
-      "turn": 25,
+      "turn": 29,
       "speaker": "counselor",
-      "text": "잘 정리해주셨어요. 이번 주에 여자친구분과 대화를 시도해보시고, 다음 시간에 어떠셨는지 이야기 나눠봐요.",
+      "text": "완벽하게 정리하셨네요. 한 달이 힘들겠지만, 현명하게 접근하시면 충분히 해낼 수 있어요. 다음 주에 어떻게 됐는지 이야기 나눠봐요.",
       "technique": [
         "encouragement",
         "goal_setting"
       ]
     },
     {
-      "turn": 26,
+      "turn": 30,
       "speaker": "client",
-      "text": "네, 주말에 한번 시도해볼게요. 좀 떨리긴 하네요."
+      "text": "감사합니다. 조금 길이 보이는 것 같아요. 다음 주에 뵙겠습니다."
     },
     {
-      "turn": 26,
+      "turn": 30,
       "speaker": "counselor",
-      "text": "떨리는 게 당연해요. 중요한 일을 앞두고 있으니까요. 결과보다는 진심을 전하겠다는 마음으로 임해보세요.",
+      "text": "힘든 상황이지만 본인과 팀을 믿으세요. 잘하실 거예요. 다음 주에 뵙겠습니다.",
       "technique": [
-        "validation",
-        "encouragement"
+        "encouragement",
+        "validation"
       ]
     }
   ],
   "generated_at": "2024-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3841",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:51.000000+00:00",
+    "generated_at": "2025-12-18T05:17:39.068947+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"

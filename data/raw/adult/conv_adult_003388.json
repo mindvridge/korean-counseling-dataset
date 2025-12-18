@@ -1,176 +1,175 @@
 {
   "category": "adult",
   "client_profile": {
-    "age": "38",
-    "gender": "남성",
-    "occupation": "중소기업 대리",
-    "background": "결혼 10년차, 아내와 성격 차이로 갈등, 이혼 고민"
+    "age": "26",
+    "gender": "여성",
+    "occupation": "호텔 프론트 매니저",
+    "background": "입사 1년차, 성차별적 발언을 자주 하는 남성 상사로 인한 스트레스"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "아내랑 맨날 싸워요. 성격이 너무 안 맞아요. 이혼을 고민 중입니다."
+      "text": "부장님이 자꾸 여자라서 안 된다는 식으로 말씀하세요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "잦은 갈등으로 이혼까지 고민하고 계시는군요. 10년을 함께하셨는데 쉽지 않은 결정이실 거예요. 어떤 점에서 성격이 안 맞으신가요?",
-      "technique": [
-        "reflection",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 2,
-      "speaker": "client",
-      "text": "저는 조용히 집에서 쉬고 싶은데, 아내는 계속 밖에 나가자고 해요. 그리고 저는 계획적인데 아내는 즉흥적이고요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "라이프스타일과 성향이 다르시군요. 내향적-외향적, 계획적-즉흥적 차이가 있네요. 결혼 초기부터 이런 차이가 있었나요?",
-      "technique": [
-        "restatement",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "있었죠. 근데 연애할 땐 그게 매력적이었어요. 아내가 활발하고 재밌어서 좋았거든요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "처음엔 매력으로 느껴졌던 차이가 이제는 갈등의 원인이 되었군요. 언제부터 이게 문제가 되기 시작했나요?",
+      "text": "성별을 이유로 부당한 말을 들으시는군요. 구체적으로 어떤 말씀을 하시나요?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 4,
+      "turn": 2,
       "speaker": "client",
-      "text": "아이 낳고 나서요. 육아하면서 제가 더 예민해졌나 봐요. 쉬고 싶은데 아내는 가족 나들이 가자고 하고..."
+      "text": "'여자가 야근을 할 수 있겠어?', '여자는 섬세해서 좋긴 한데 리더십은 글쎄...' 이런 말들이요. 매번 '여자'를 강조하세요."
     },
     {
-      "turn": 4,
+      "turn": 2,
       "speaker": "counselor",
-      "text": "육아로 지친 상태에서 휴식 방식에 대한 욕구가 달라서 충돌하시는군요. 아내분은 왜 나들이를 원하실까요?",
+      "text": "성별 기반의 고정관념으로 본인을 판단하시는군요. 그런 말을 들을 때 어떤 감정이 드세요?",
+      "technique": [
+        "reflection",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "화나고 모욕감 들어요. 저는 능력으로 평가받고 싶은데 자꾸 성별만 보시니까..."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "능력이 아닌 성별로 평가받는 게 모욕적이시군요. 이런 일이 자주 있나요?",
       "technique": [
         "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "글쎄요... 가족끼리 시간을 보내고 싶다고 하는데, 저는 그게 휴식이 아니거든요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "본인에게는 휴식이 아니지만, 아내분에게는 가족과의 시간이 중요한 거군요. 두 분의 욕구가 다른 거예요.",
-      "technique": [
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "그럼 어떻게 해야 하나요? 맨날 양보해야 하나요?"
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "양보가 아니라 조율이 필요해요. 혹시 아내분과 이런 차이에 대해 진지하게 대화해보신 적 있으세요?",
-      "technique": [
-        "information_giving",
         "closed_question"
       ]
     },
     {
+      "turn": 4,
+      "speaker": "client",
+      "text": "주에 한두 번은요. 승진 이야기할 때도 '결혼하면 어차피 그만둘 텐데'라고 하시더라고요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "결혼과 퇴사를 연결 지으며 승진 기회를 제한하시는군요. 이건 명백한 성차별이에요. 이런 상황을 어디 신고하거나 도움을 요청해 보셨나요?",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "인사팀에 말할까 생각했는데... 부장님이랑 인사팀장이 친하거든요. 소용없을 것 같아서..."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "신고해도 제대로 처리되지 않을 거라는 우려가 있으시군요. 그럼 지금까지 어떻게 대응하셨나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "그냥 참았어요. 웃으면서 넘기고... 속으로는 울면서."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "겉으로는 넘기지만 속으로는 많이 상처받으시는군요. 이런 상황이 계속되면 어떻게 될 것 같으세요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 7,
       "speaker": "client",
-      "text": "대화요? 그냥 '난 피곤하다', '나가기 싫다'고만 했지..."
+      "text": "견딜 수 없을 것 같아요. 이미 한계예요."
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "거절만 하셨지 본인의 욕구나 아내의 욕구에 대해 깊이 얘기는 안 해보셨군요. 아내분은 뭐라고 하시나요?",
+      "text": "한계에 다다르셨군요. 지금 가장 원하시는 건 뭔가요? 부장님이 바뀌는 것? 아니면 다른 부서로 이동하는 것?",
       "technique": [
-        "restatement",
+        "reflection",
         "open_question"
       ]
     },
     {
       "turn": 8,
       "speaker": "client",
-      "text": "'당신은 가족보다 쉬는 게 더 중요하냐'고 해요. 그럼 저도 화가 나서 '당신은 내 상황을 이해 안 하냐'고 하고... 싸움이 돼요."
+      "text": "부장님이 바뀌면 좋겠지만... 불가능하잖아요. 차라리 제가 이동하는 게 빠를 것 같아요."
     },
     {
       "turn": 8,
       "speaker": "counselor",
-      "text": "서로 이해받지 못한다고 느끼시는군요. 두 분 다 자신의 입장만 주장하고 상대의 입장은 들으려 하지 않는 것 같아요.",
+      "text": "부서 이동을 고려하고 계시는군요. 그 전에 할 수 있는 것들도 있어요. 먼저, 이런 발언들을 기록하고 계시나요?",
       "technique": [
         "reflection",
-        "confrontation"
+        "closed_question"
       ]
     },
     {
       "turn": 9,
       "speaker": "client",
-      "text": "... 그런 것 같기도 하네요. 근데 10년 동안 계속 이랬는데 바뀔까요?"
+      "text": "아니요. 그냥 넘어갔어요."
     },
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "10년간 같은 패턴이었으니 회의적이실 수 있어요. 하지만 변화는 언제든 가능해요. 본인이 먼저 바뀌면요.",
+      "text": "앞으로는 날짜, 시간, 구체적 발언 내용을 기록하세요. 이게 나중에 증거가 될 수 있어요.",
       "technique": [
-        "validation",
-        "encouragement"
+        "information_giving",
+        "structuring"
       ]
     },
     {
       "turn": 10,
       "speaker": "client",
-      "text": "제가요? 왜 제가 바뀌어야 하죠?"
+      "text": "증거요? 신고할 생각은 없는데..."
     },
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "상대를 바꿀 순 없지만 본인은 바꿀 수 있으니까요. 그리고 한 사람이 바뀌면 관계 역학도 바뀌어요.",
+      "text": "지금은 아니더라도, 나중에 필요할 수 있어요. 그리고 인사팀이 안 된다면 외부 기관도 있어요. 국가인권위원회, 고용노동부 같은 곳이요.",
       "technique": [
         "information_giving",
-        "clarification"
+        "validation"
       ]
     },
     {
       "turn": 11,
       "speaker": "client",
-      "text": "구체적으로 뭘 바꾸라는 건가요?"
+      "text": "그런 곳까지 가야 하나요? 너무 큰일로 만드는 것 같아서..."
     },
     {
       "turn": 11,
       "speaker": "counselor",
-      "text": "대화 방식이요. 아내의 제안을 거절하기 전에, 아내의 욕구를 먼저 이해하려고 해보세요. '왜 나가고 싶은지' 물어보는 거죠.",
+      "text": "'큰일로 만든다'고 느껴지시는군요. 하지만 성차별은 작은 일이 아니에요. 본인의 권리를 지키는 게 과하지 않아요.",
       "technique": [
-        "information_giving",
-        "goal_setting"
+        "reflection",
+        "validation"
       ]
     },
     {
       "turn": 12,
       "speaker": "client",
-      "text": "그런 다음엔요?"
+      "text": "... 그렇긴 하네요."
     },
     {
       "turn": 12,
       "speaker": "counselor",
-      "text": "그 다음 본인의 욕구도 표현하는 거예요. '나는 이런 이유로 쉬고 싶다'고요. 그리고 함께 해결책을 찾는 거죠.",
+      "text": "신고 외에도 직접 대응하는 방법도 있어요. 부장님께 직접 말씀하는 거죠.",
       "technique": [
         "information_giving",
         "structuring"
@@ -179,120 +178,259 @@
     {
       "turn": 13,
       "speaker": "client",
-      "text": "해결책이요? 둘 다 만족할 수 있는 게 있을까요?"
+      "text": "뭐라고 말하죠? '성차별하지 마세요'라고요?"
     },
     {
       "turn": 13,
       "speaker": "counselor",
-      "text": "예를 들어, 주말 하루는 가족 나들이, 하루는 각자 시간 갖기. 또는 나들이를 짧게 하고 집에서 함께 시간 보내기 같은 거요.",
+      "text": "좀 더 구체적으로요. '부장님, 성별이 아니라 업무 능력으로 평가해주시면 좋겠습니다'라든지, '여자라서 안 된다는 말씀은 기분이 상합니다' 이런 식으로요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "그렇게 말하면... 받아들이실까요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "확실하진 않지만, 본인이 불편하다는 걸 알려주는 건 중요해요. 어떤 사람들은 자신이 차별하는지도 모르고 있거든요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그럴 수도 있겠네요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그리고 다른 방법은 이메일이나 문서로 소통하는 거예요. 구두가 아닌 기록이 남는 방식으로요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "왜요?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "사람들은 글로 쓸 때 더 신중해지거든요. 그리고 문제 발언이 있으면 그것도 증거가 되고요.",
       "technique": [
         "information_giving",
         "clarification"
       ]
     },
     {
-      "turn": 14,
+      "turn": 17,
       "speaker": "client",
-      "text": "아... 그렇게 할 수도 있겠네요. 생각 못 했어요."
+      "text": "아, 그렇군요."
     },
     {
-      "turn": 14,
+      "turn": 17,
       "speaker": "counselor",
-      "text": "대화 없이는 이런 아이디어가 나올 수 없어요. 서로의 욕구를 이해하고 나면 창의적인 해결책이 나와요.",
+      "text": "그리고 동료들 중에 같은 어려움을 겪는 분들이 있나요?",
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "있어요. 다른 여직원들도 비슷한 얘기 해요."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "그럼 함께 목소리를 내는 것도 방법이에요. 한 사람보다 여러 사람이 문제 제기하면 무시하기 어렵거든요.",
       "technique": [
         "information_giving",
         "encouragement"
       ]
     },
     {
-      "turn": 15,
+      "turn": 19,
       "speaker": "client",
-      "text": "근데 성격 차이는 어떡하죠? 그건 못 바꾸잖아요."
+      "text": "같이요? 그런데 누가 먼저 말을 꺼내죠?"
     },
     {
-      "turn": 15,
+      "turn": 19,
       "speaker": "counselor",
-      "text": "성격을 바꿀 필요는 없어요. 차이를 인정하고 존중하면 돼요. 차이가 문제가 아니라, 차이를 다루는 방식이 문제거든요.",
+      "text": "신뢰할 수 있는 동료 한 명과 먼저 이야기해보세요. '우리 이런 거 겪고 있는데, 어떻게 하면 좋을까?' 이런 식으로요.",
       "technique": [
-        "information_giving",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "차이를 다루는 방식이요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "네. 지금은 '당신이 이상하다'고 서로 비난하고 있잖아요. 대신 '우리가 다르구나. 어떻게 조율할까?'라고 접근하는 거예요.",
-      "technique": [
-        "clarification",
+        "structuring",
         "information_giving"
       ]
     },
     {
-      "turn": 17,
+      "turn": 20,
       "speaker": "client",
-      "text": "그렇게 하면 싸움이 줄어들까요?"
+      "text": "알겠어요. 해볼게요."
     },
     {
-      "turn": 17,
+      "turn": 20,
       "speaker": "counselor",
-      "text": "완전히 없어지진 않겠지만 줄어들 거예요. 그리고 싸워도 건설적인 싸움이 될 수 있어요.",
+      "text": "본인의 감정 관리도 중요해요. 매번 성차별 발언을 들으면서 참기만 하면 자존감이 낮아질 수 있어요.",
       "technique": [
         "information_giving",
         "validation"
       ]
     },
     {
-      "turn": 18,
+      "turn": 21,
       "speaker": "client",
-      "text": "건설적인 싸움이요?"
+      "text": "이미 낮아진 것 같아요. 요즘 '나는 여자라서 안 되나' 이런 생각도 들어요."
     },
     {
-      "turn": 18,
+      "turn": 21,
       "speaker": "counselor",
-      "text": "네. 서로를 비난하는 대신 문제를 해결하는 방향으로 싸우는 거죠. 이혼을 결정하기 전에 이런 시도를 해보시는 게 어떨까요?",
+      "text": "그건 부장님의 편견이 본인에게 내재화된 거예요. 본인의 가치는 성별이 아니라 능력으로 결정돼요.",
       "technique": [
-        "clarification",
-        "goal_setting"
+        "interpretation",
+        "validation"
       ]
     },
     {
-      "turn": 19,
+      "turn": 22,
       "speaker": "client",
-      "text": "... 한번 해볼게요. 10년을 함께했는데 그냥 포기하긴 아깝긴 하네요."
+      "text": "머리로는 알겠는데 마음이 힘들어요."
     },
     {
-      "turn": 19,
+      "turn": 22,
       "speaker": "counselor",
-      "text": "좋은 결정이에요. 이번 주에 아내분과 대화 시간을 가져보시고, 다음 주에 어떠셨는지 얘기 나눠봐요.",
+      "text": "당연해요. 그래서 본인을 긍정하는 연습이 필요해요. 매일 '나는 능력 있는 직원이다'라고 스스로에게 말해보세요.",
       "technique": [
-        "encouragement",
-        "goal_setting"
+        "validation",
+        "structuring"
       ]
     },
     {
-      "turn": 20,
+      "turn": 23,
       "speaker": "client",
-      "text": "네, 그렇게 하겠습니다. 감사합니다."
+      "text": "그런 게 도움이 될까요?"
     },
     {
-      "turn": 20,
+      "turn": 23,
       "speaker": "counselor",
-      "text": "잘하실 거예요. 관계를 위해 노력하시는 모습이 훌륭해요.",
+      "text": "처음엔 어색하지만, 반복하면 효과가 있어요. 그리고 본인의 성과를 기록하세요. 부장님 말이 아니라 실제 본인이 해낸 것들로 자신을 평가하는 거죠.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "성과 기록이요. 해볼게요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "이번 주에 할 수 있는 것들을 정리해볼까요? 차별 발언 기록하기, 신뢰할 수 있는 동료와 이야기해보기, 성과 기록하기. 이 중에서 가장 먼저 시도해볼 건 뭔가요?",
+      "technique": [
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "동료랑 이야기하는 거요. 혼자가 아니라는 걸 확인하고 싶어요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "좋은 선택이에요. 함께하면 더 힘이 나실 거예요.",
       "technique": [
         "encouragement",
         "validation"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "그리고 차별 발언도 기록할게요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "훌륭해요. 나중에 필요할 때 사용할 수 있을 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "부장님한테 직접 말하는 건... 좀 더 용기가 필요할 것 같아요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "그럴 수 있어요. 동료들과 이야기 나눈 후에 생각해봐도 늦지 않아요. 천천히 가세요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "감사합니다. 조금 힘이 나네요."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "오늘 상담에서 깨달은 게 있다면 뭔가요?",
+      "technique": [
+        "open_question",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "제가 참기만 할 필요는 없다는 것. 그리고 혼자가 아니라는 것. 제 권리를 지킬 방법이 있다는 거요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "완벽하게 정리하셨네요. 성차별은 참아야 할 게 아니라 바꿔야 할 거예요. 다음 주에 어떻게 진행됐는지 이야기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "client",
+      "text": "네, 다음 주에 뵙겠습니다. 감사합니다."
+    },
+    {
+      "turn": 30,
+      "speaker": "counselor",
+      "text": "본인의 가치를 잊지 마세요. 성별이 아니라 능력으로 평가받을 권리가 있어요. 다음 주에 뵙겠습니다.",
+      "technique": [
+        "validation",
+        "encouragement"
       ]
     }
   ],
   "generated_at": "2024-12-17T00:00:00.000Z",
   "conversation_id": "ADU_20251218_3388",
   "metadata": {
-    "generated_at": "2025-12-18T03:04:27.000000+00:00",
+    "generated_at": "2025-12-18T05:17:22.929167+00:00",
     "model": "claude-sonnet-4-5",
     "seed_category": "adult",
     "generator": "claude_code_direct"
