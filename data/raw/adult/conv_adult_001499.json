@@ -1,215 +1,398 @@
 {
-  "conversation_id": "CONV_20250618_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "25",
     "gender": "여성",
-    "occupation": "중학교 교사"
+    "occupation": "신입 사원",
+    "background": "회사 회식과 모임에서 극심한 불안, 화장실에 숨음, 퇴사 고민, 대학 시절부터 지속된 사회불안"
   },
-  "situation": "10년차 교사로 일하며 번아웃을 경험하고 있으며, 최근 학생들과의 관계에서 무력감을 느끼고 있음. 교직에 대한 회의감과 함께 진로 전환을 고민 중",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 사실 상담을 받으러 온다는 게 쉽지 않았어요. 제가 교사인데, 학생들을 상담하는 입장이잖아요. 근데 제가 도움이 필요하다니 좀 부끄럽네요.",
-      "turn": 1
+      "text": "내일 회식인데 벌써부터 속이 뒤집혀요. 가기 싫어요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 이렇게 찾아와 주셔서 감사합니다. 도움을 요청하는 것은 부끄러운 일이 아니라 용기 있는 선택이에요. 다른 사람을 돕는 역할을 하시는 분들이 오히려 자신의 어려움을 표현하기 더 힘들 수 있죠. 편안하게 이야기 나눠보아요.",
+      "text": "회식이 벌써부터 큰 부담이시군요. 회식 상황에서 어떤 점이 가장 힘드세요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "감사합니다. 요즘... 정말 힘들어요. 아침에 일어나면 학교 가는 게 너무 싫고, 교실에 들어서는 것 자체가 무섭기까지 해요.",
-      "turn": 3
+      "text": "다들 즐겁게 얘기하는데 저만 어색해요. 뭐라고 말해야 할지 모르겠고, 다들 저를 이상하게 볼 것 같아요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "아침마다 학교에 가는 것이 두렵고 힘들다고 느끼시는군요. 교직 생활이 얼마나 되셨나요?",
+      "text": "대화에 끼지 못하고 소외감을 느끼시고, 타인의 시선이 부담되시는군요. 지난 회식 때도 그러셨나요?",
+      "technique": [
+        "summarization",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "네... 지난번엔 중간에 화장실 가서 한참 숨어있었어요. 나가기 싫어서..."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "회피하셨군요. 그때 화장실에 계시면서 어떤 생각이 드셨어요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "올해로 10년차예요. 처음엔 정말 열정적이었거든요. 학생들을 가르치는 게 즐거웠고, 아이들이 성장하는 모습을 보면 보람을 느꼈어요. 그런데 언제부턴가... 그냥 버티는 것 같아요.",
-      "turn": 5
+      "text": "'나만 이상한가', '다들 내가 없는 거 눈치챘겠지', '이렇게 사는 게 맞나'... 이런 생각들이요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "처음의 열정과 보람이 점차 사라지고, 지금은 버티는 느낌이라는 거죠. 언제부터 이런 변화를 느끼기 시작하셨나요?",
+      "text": "자기 비난과 걱정, 그리고 삶에 대한 회의까지 느끼셨군요. 이런 경험이 처음은 아니죠?",
+      "technique": [
+        "emotion_labeling",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "네... 대학 때부터 그랬어요. MT 가기 싫어서 빠지기도 하고, 조별 과제 발표 때도 떨리고..."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "대학 시절부터 사회적 상황에 대한 불안이 있었군요. 그럼 5년 이상 이런 어려움을 겪어오신 거네요.",
+      "technique": [
+        "restatement",
+        "reflection"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "정확히는 모르겠지만... 한 2년 전부터인 것 같아요. 학교 분위기도 바뀌고, 학생들도 예전 같지 않고요. 학부모님들도 까다로워지고... 뭘 해도 불만이고, 저는 그냥 샌드백 같은 기분이에요.",
-      "turn": 7
+      "text": "네... 졸업하면 나아질 줄 알았는데, 직장 다니니까 더 심해진 것 같아요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "여러 방면에서 압박감을 느끼시는 것 같네요. 학생들, 학부모님들, 학교 환경 모두에서요. 샌드백 같다는 표현에서 얼마나 지치셨는지 느껴집니다.",
+      "text": "직장 생활이 사회적 상황을 더 많이 만들면서 불안이 증가했군요. 업무 자체는 어떠세요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "혼자 하는 일은 괜찮아요. 근데 회의나 보고할 때는... 목소리 떨리고, 얼굴 빨개지고..."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "혼자 하는 업무는 문제없지만, 사람들 앞에 서는 상황에서 신체 증상이 나타나는군요. 그 증상들이 더 불안을 키우나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 맞아요. 특히 요즘은 수업 시간에 학생들이 아예 핸드폰만 보고 있어요. 주의를 주면 대들거나 무시하고요. 제가 무슨 말을 해도 소용이 없는 것 같아요.",
-      "turn": 9
+      "text": "네... '떨고 있는 걸 들켰으면 어떡하지', '얼굴 빨개진 거 보면 어떡하지' 생각하면 더 떨려요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "학생들과의 소통이 잘 되지 않고, 선생님의 말씀이 전달되지 않는다고 느끼시는군요. 그럴 때 어떤 감정이 드시나요?",
+      "text": "증상에 대한 걱정이 증상을 더 악화시키는 악순환이네요. 사회불안의 전형적인 패턴이에요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "사회불안이요? 그게 병인가요?"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "네, 사회불안장애라는 불안장애의 일종이에요. 타인의 평가에 과도하게 민감하고, 사회적 상황을 회피하게 되는 거죠.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "무력감이요. 제가 여기서 뭘 하고 있는 건가 싶어요. 내가 교사로서 무능한 건가, 아니면 내가 뭔가 잘못하고 있는 건가... 그런 생각들이 계속 들어요.",
-      "turn": 11
+      "text": "치료할 수 있나요? 이대로는 못 살 것 같아요. 퇴사까지 생각하고 있어요."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "무력감을 느끼시고, 자신의 능력과 방식에 대해 의문을 갖게 되셨네요. 그런 생각들이 들 때 스스로를 많이 책망하시는 편인가요?",
+      "text": "퇴사까지 고민하실 정도로 힘드시군요. 다행히 사회불안은 치료 가능해요. 인지행동치료와 노출치료가 효과적이에요.",
+      "technique": [
+        "empathy",
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "노출치료요? 그게 뭔가요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "두려워하는 상황에 점진적으로 노출하면서 불안을 줄여가는 거예요. 갑자기 큰 상황이 아니라, 작은 상황부터 연습하는 거죠.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네, 그런 것 같아요. 밤에 잠들기 전에 오늘 했던 수업들을 되돌아보면서 '아, 저 상황에서 이렇게 했어야 했는데', '왜 저렇게 대응했을까' 하면서 계속 자책하게 돼요.",
-      "turn": 13
+      "text": "예를 들면 어떤 건가요?"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "하루 일과를 반추하면서 자신을 계속 비판하시는군요. 그런 생각들이 잠을 방해하기도 하나요?",
+      "text": "예를 들어 낯선 사람에게 시간 물어보기, 카페에서 주문할 때 한마디 더 하기... 이런 작은 것부터 시작하는 거예요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그것도 무섭긴 한데... 회식보다는 덜할 것 같아요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "맞아요. 점진적으로 단계를 높여가는 거예요. 그리고 중요한 건 인지 재구성이에요. 부정적 생각을 바꾸는 거죠.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "네, 요즘 잠을 잘 못 자요. 자려고 누우면 머릿속이 복잡해지고... 새벽 2-3시까지 뒤척이다가 겨우 잠들어요. 그러다 보니 아침에 일어나는 것도 너무 힘들고요.",
-      "turn": 15
+      "text": "부정적 생각이요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "수면에도 어려움을 겪고 계시네요. 이런 상태가 지속되면 신체적으로도 정신적으로도 많이 지치실 것 같아요. 혹시 주변에 이런 어려움을 나눌 수 있는 분이 계신가요?",
+      "text": "'다들 날 이상하게 볼 거야' 같은 생각이요. 이게 사실인지 검증해보는 거예요. 실제로 다들 그렇게 생각할까요?",
+      "technique": [
+        "clarification",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "음... 모르겠어요. 그런 것 같은데..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "생각해보세요. 다른 사람이 조금 어색하게 행동하면 그 사람을 이상하다고 생각하시나요?",
+      "technique": [
+        "open_question",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "같은 학교 동료들한테는 약한 모습 보이기 싫고요... 가족들한테는 말해도 '원래 직장 생활이 다 그렇지' 이런 식으로 대수롭지 않게 여기더라고요. 그래서 더 외로운 것 같아요.",
-      "turn": 17
+      "text": "아니요... 별로 신경 안 써요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "주변에서 진심으로 이해받지 못한다고 느끼시는군요. 힘든 감정을 혼자 감당하고 계셨네요. 그 외로움이 상황을 더 힘들게 만들었을 것 같습니다.",
+      "text": "맞아요. 다른 사람들도 마찬가지예요. 본인이 생각하는 만큼 본인을 주시하지 않아요. 이걸 주목 편향이라고 해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "주목 편향... 그럼 제가 너무 과하게 걱정한 건가요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "불안이 생각을 과장하게 만든 거예요. 실제와 생각을 구분하는 연습이 필요해요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그래서 요즘은 교직을 그만두고 다른 일을 해볼까 하는 생각도 해요. 근데 10년을 했는데 지금 그만두면 그동안의 시간이 아까운 것 같기도 하고, 또 다른 걸 할 수 있을지도 모르겠고...",
-      "turn": 19
+      "text": "연습을 어떻게 하나요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "진로 전환에 대해 고민하고 계시지만, 동시에 여러 가지 걱정과 두려움도 함께 있으시네요. 한편으로는 변화를 원하지만, 다른 한편으로는 불확실성이 두려우신 거죠.",
+      "text": "사회적 상황 전후에 생각을 기록해보세요. '예상: 다들 날 이상하게 볼 거야', '실제: 아무도 특별히 반응하지 않았다' 이런 식으로요.",
+      "technique": [
+        "structuring",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "그럼 내일 회식도 그렇게 해볼까요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "좋아요. 회식 전에 어떤 생각이 드는지 적고, 회식 후에 실제로 어땠는지 적어보세요. 생각과 현실의 차이를 발견할 거예요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "정확해요. 그래서 계속 이도 저도 아닌 상태로 있는 것 같아요. 결정을 못 내리고 있으니까 더 답답하고 힘든 것 같기도 하고요.",
-      "turn": 21
+      "text": "해볼게요. 근데 너무 불안하면 어떡하죠?"
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "결정을 내리지 못하는 상태 자체가 또 다른 스트레스가 되고 있군요. 만약 지금 당장 모든 제약이 없다면, 선생님은 어떤 모습으로 살고 싶으신가요?",
+      "text": "호흡법을 사용하세요. 천천히 깊게 숨 쉬면서 '나는 안전해, 곧 지나갈 거야'라고 속으로 말하는 거예요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "지금 연습해도 될까요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "물론이죠. (함께 호흡 연습) 어때요?",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "음... 생각해본 적이 없네요. 그냥 아침에 일어났을 때 '오늘도 힘내야지' 가 아니라 '오늘은 뭘 할까?' 하고 기대되는 그런 삶이요. 너무 평범한가요?",
-      "turn": 23
+      "text": "조금 진정되는 것 같아요."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "전혀 평범하지 않아요. 매일을 기대하며 시작할 수 있다는 것은 정말 중요한 거예요. 그런 감정을 마지막으로 느끼신 게 언제인가요?",
+      "text": "좋아요. 실제 상황에서도 써보세요. 그리고 회식에서 작은 목표를 세워보세요. 완벽하게 하려고 하지 말고요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "작은 목표요? 예를 들면요?"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "'옆 사람에게 한마디 건네보기', '누군가 말할 때 고개 끄덕이며 듣기'... 이런 아주 작은 것이요.",
+      "technique": [
+        "structuring",
+        "clarification"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "글쎄요... 정말 오래된 것 같아요. 아마 초임 때? 그때는 매일이 새롭고 배울 게 많았거든요. 지금은... 그냥 반복이에요.",
-      "turn": 25
+      "text": "그 정도는 할 수 있을 것 같아요."
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "초임 때의 새로움과 배움이 지금은 단조로운 반복으로 느껴지시는군요. 선생님, 혹시 최근에 작은 것이라도 즐거움이나 만족감을 느낀 순간이 있었나요?",
+      "text": "그걸로 충분해요. 하고 나서 본인을 칭찬해주세요. '나 해냈어'라고요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "칭찬이요? 그런 작은 걸로요?"
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "네, 작은 성공을 인정하는 게 중요해요. 그게 자신감을 만들어요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "음... 지난주에 한 학생이 제 수업 끝나고 와서 '선생님 수업 재밌었어요' 라고 했을 때요. 그 순간은... 좀 뭉클했어요. 그래도 내가 완전히 쓸모없는 건 아니구나 싶었죠.",
-      "turn": 27
+      "text": "알겠어요. 해볼게요."
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "그 순간이 선생님께 의미 있었군요. 힘든 상황 속에서도 여전히 학생들에게 긍정적인 영향을 주고 계시다는 걸 보여주는 것 같아요. 그런 순간들이 선생님께 어떤 의미인가요?",
-      "turn": 28,
-      "technique": "empathy"
+      "text": "그리고 장기적으로는 정신건강의학과 진료도 받아보세요. 약물 치료가 불안 감소에 도움이 될 수 있어요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
     },
     {
+      "turn": 27,
       "speaker": "client",
-      "text": "그런 순간들이... 제가 계속 버티는 이유인 것 같기도 해요. 근데 그런 순간이 너무 드물어서 문제예요. 대부분의 시간은 힘들고 지치거든요.",
-      "turn": 29
+      "text": "약을 먹어야 하나요? 중독되진 않나요?"
     },
     {
+      "turn": 27,
       "speaker": "counselor",
-      "text": "긍정적인 순간들이 있지만 그 빈도가 너무 적어서 전체적으로는 여전히 힘드신 거네요. 선생님, 오늘 이야기 나눠주신 것들을 보면 번아웃 증상들이 보여요. 이건 선생님의 무능력이 아니라, 오랜 시간 감정적 소진을 경험한 결과예요.",
-      "turn": 30,
-      "technique": "psychoeducation"
-    },
-    {
-      "speaker": "client",
-      "text": "번아웃이요? 저도 그런 생각을 했었는데... 인정하기가 싫었어요. 그게 인정되면 제가 정말 한계에 온 것 같아서요.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "한계를 인정하는 것이 두려우셨군요. 하지만 자신의 상태를 정확히 아는 것이 회복의 첫걸음이에요. 선생님은 지금 도움을 요청하셨고, 그것만으로도 이미 변화를 시작하신 거예요.",
-      "turn": 32,
-      "technique": "reframing"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇게 생각하니까 조금... 마음이 가벼워지는 것 같기도 해요. 그럼 저는 어떻게 해야 할까요? 계속 교사로 있어야 할까요, 아니면 그만둬야 할까요?",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "그 결정은 지금 당장 내리지 않으셔도 돼요. 먼저 선생님의 심리적, 신체적 회복이 우선이에요. 회복되고 나면 더 명확하게 판단하실 수 있을 거예요. 지금은 선생님 자신을 돌보는 것에 집중해보면 어떨까요?",
-      "turn": 34,
-      "technique": "guidance"
-    },
-    {
-      "speaker": "client",
-      "text": "제 자신을 돌본다는 게... 구체적으로 어떤 걸 말하는 건가요? 사실 저는 저한테 그렇게 신경 쓴 적이 별로 없어요.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "좋은 질문이에요. 우선 수면 패턴을 개선하고, 일과 후에 온전히 쉴 수 있는 시간을 갖는 것부터 시작할 수 있어요. 그리고 이렇게 자신의 감정을 표현하고 나누는 것도 중요한 자기 돌봄이에요. 앞으로 함께 구체적인 방법들을 찾아가보면 좋겠어요.",
-      "turn": 36,
-      "technique": "guidance"
+      "text": "사회불안에 쓰는 항우울제는 중독성이 없어요. 불안을 줄여주고 상담 효과를 높여줘요. 의사 선생님과 상의해보세요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2025-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1499",
   "metadata": {
-    "generated_at": "2025-12-17T14:58:57.698692+00:00",
+    "generated_at": "2025-12-18T03:01:37.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

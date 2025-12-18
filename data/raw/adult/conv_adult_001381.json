@@ -1,215 +1,438 @@
 {
-  "conversation_id": "CONV_20250619_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "26",
     "gender": "여성",
-    "occupation": "중견기업 마케팅팀장"
+    "occupation": "호텔 프론트 매니저",
+    "background": "입사 1년차, 성차별적 발언을 자주 하는 남성 상사로 인한 스트레스"
   },
-  "situation": "최근 승진 후 업무 부담과 팀원 관리의 어려움으로 번아웃을 경험하고 있으며, 일과 개인 삶의 균형을 잃어가고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 사실 상담을 받아야 할 정도인가 싶어서 망설였는데... 요즘 너무 힘들어서 용기내서 왔습니다.",
-      "turn": 1
+      "text": "부장님이 자꾸 여자라서 안 된다는 식으로 말씀하세요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 어서 오세요. 상담을 받기로 결정하시기까지 많은 고민이 있으셨을 텐데, 이렇게 용기 내어 오신 것 자체가 큰 의미가 있습니다. 편하게 말씀해 주세요.",
+      "text": "성별을 이유로 부당한 말을 들으시는군요. 구체적으로 어떤 말씀을 하시나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "6개월 전에 팀장으로 승진했어요. 그동안 바라던 자리였는데, 막상 해보니까 제 상상과는 너무 달라서요.",
-      "turn": 3
+      "text": "'여자가 야근을 할 수 있겠어?', '여자는 섬세해서 좋긴 한데 리더십은 글쎄...' 이런 말들이요. 매번 '여자'를 강조하세요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "오랫동안 바라던 승진이었는데, 실제로 해보니 기대했던 것과 많이 다르셨군요. 어떤 부분이 특히 힘드신가요?",
+      "text": "성별 기반의 고정관념으로 본인을 판단하시는군요. 그런 말을 들을 때 어떤 감정이 드세요?",
+      "technique": [
+        "reflection",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "화나고 모욕감 들어요. 저는 능력으로 평가받고 싶은데 자꾸 성별만 보시니까..."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "능력이 아닌 성별로 평가받는 게 모욕적이시군요. 이런 일이 자주 있나요?",
+      "technique": [
+        "empathy",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "일단 업무량이 엄청나게 늘었어요. 제 업무도 있고, 팀원들 관리도 해야 하고... 그리고 팀원들과의 관계도 생각보다 어렵더라고요. 예전엔 동료였는데 이제는 상사잖아요.",
-      "turn": 5
+      "text": "주에 한두 번은요. 승진 이야기할 때도 '결혼하면 어차피 그만둘 텐데'라고 하시더라고요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "업무량의 증가와 함께 팀원들과의 관계에서도 역할 변화로 인한 어려움을 겪고 계시는군요. 동료에서 상사로의 전환이 쉽지 않으셨을 것 같습니다.",
+      "text": "결혼과 퇴사를 연결 지으며 승진 기회를 제한하시는군요. 이건 명백한 성차별이에요. 이런 상황을 어디 신고하거나 도움을 요청해 보셨나요?",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "인사팀에 말할까 생각했는데... 부장님이랑 인사팀장이 친하거든요. 소용없을 것 같아서..."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "신고해도 제대로 처리되지 않을 거라는 우려가 있으시군요. 그럼 지금까지 어떻게 대응하셨나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 특히 저보다 연차가 높은 팀원이 한 명 있는데, 그 분이 제 지시를 잘 안 따르려고 하세요. 회의 때도 제 의견에 계속 반대하시고...",
-      "turn": 7
+      "text": "그냥 참았어요. 웃으면서 넘기고... 속으로는 울면서."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "그런 상황이라면 리더로서의 권위를 세우는 것도 어렵고, 팀을 이끌어가는 데 많은 스트레스를 받으셨겠어요.",
+      "text": "겉으로는 넘기지만 속으로는 많이 상처받으시는군요. 이런 상황이 계속되면 어떻게 될 것 같으세요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "견딜 수 없을 것 같아요. 이미 한계예요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "한계에 다다르셨군요. 지금 가장 원하시는 건 뭔가요? 부장님이 바뀌는 것? 아니면 다른 부서로 이동하는 것?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 그래서 밤에 잠도 잘 못 자요. 자려고 누우면 오늘 있었던 일들이 자꾸 생각나고, 내일 회의는 어떻게 진행해야 하나 고민하다 보면 새벽이 되더라고요.",
-      "turn": 9
+      "text": "부장님이 바뀌면 좋겠지만... 불가능하잖아요. 차라리 제가 이동하는 게 빠를 것 같아요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "수면까지 영향을 받고 계시네요. 하루 평균 몇 시간 정도 주무시나요?",
+      "text": "부서 이동을 고려하고 계시는군요. 그 전에 할 수 있는 것들도 있어요. 먼저, 이런 발언들을 기록하고 계시나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "아니요. 그냥 넘어갔어요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "앞으로는 날짜, 시간, 구체적 발언 내용을 기록하세요. 이게 나중에 증거가 될 수 있어요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "assessment"
-    },
-    {
       "speaker": "client",
-      "text": "요즘엔 4-5시간? 새벽 2-3시에 자서 7시에 일어나요. 아침에 일어나면 이미 피곤해요.",
-      "turn": 11
+      "text": "증거요? 신고할 생각은 없는데..."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "만성적인 수면 부족 상태시군요. 그 상태로 하루를 시작하시면 업무 집중도나 감정 조절도 더 어려우실 것 같은데, 실제로 어떠신가요?",
+      "text": "지금은 아니더라도, 나중에 필요할 수 있어요. 그리고 인사팀이 안 된다면 외부 기관도 있어요. 국가인권위원회, 고용노동부 같은 곳이요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그런 곳까지 가야 하나요? 너무 큰일로 만드는 것 같아서..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "'큰일로 만든다'고 느껴지시는군요. 하지만 성차별은 작은 일이 아니에요. 본인의 권리를 지키는 게 과하지 않아요.",
+      "technique": [
+        "reflection",
+        "validation"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "정확히 그래요. 요즘 사소한 일에도 짜증이 나고, 팀원들한테 필요 이상으로 날카롭게 말할 때가 있어요. 그러고 나면 또 자책하게 되고...",
-      "turn": 13
+      "text": "... 그렇긴 하네요."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "악순환이 반복되고 있는 상황이네요. 수면 부족으로 감정 조절이 어려워지고, 그로 인한 행동에 대해 자책하시면서 스트레스가 더 쌓이는... 이런 패턴이 얼마나 지속되셨나요?",
+      "text": "신고 외에도 직접 대응하는 방법도 있어요. 부장님께 직접 말씀하는 거죠.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "뭐라고 말하죠? '성차별하지 마세요'라고요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "좀 더 구체적으로요. '부장님, 성별이 아니라 업무 능력으로 평가해주시면 좋겠습니다'라든지, '여자라서 안 된다는 말씀은 기분이 상합니다' 이런 식으로요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "pattern_identification"
-    },
-    {
       "speaker": "client",
-      "text": "한 3-4개월 된 것 같아요. 처음엔 적응 기간이라고 생각했는데, 점점 더 심해지는 것 같아서 걱정이에요.",
-      "turn": 15
+      "text": "그렇게 말하면... 받아들이실까요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "3-4개월이면 꽤 오랜 시간 동안 힘드셨네요. 이런 상황에서 본인을 돌보거나 스트레스를 해소할 시간은 가지고 계신가요?",
+      "text": "확실하진 않지만, 본인이 불편하다는 걸 알려주는 건 중요해요. 어떤 사람들은 자신이 차별하는지도 모르고 있거든요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그럴 수도 있겠네요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그리고 다른 방법은 이메일이나 문서로 소통하는 거예요. 구두가 아닌 기록이 남는 방식으로요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "assessment"
-    },
-    {
       "speaker": "client",
-      "text": "전혀요. 주말에도 일 생각하고, 메일 확인하고... 예전엔 친구들도 만나고 운동도 했는데, 요즘은 그럴 여유가 없어요. 아니, 여유가 없다기보다는 너무 지쳐서 아무것도 하기 싫어요.",
-      "turn": 17
+      "text": "왜요?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "일에 완전히 압도되어 있고, 개인적인 삶과 회복의 시간이 사라진 상태시군요. 이런 상태가 지속되면 번아웃으로 이어질 수 있어서 걱정됩니다.",
+      "text": "사람들은 글로 쓸 때 더 신중해지거든요. 그리고 문제 발언이 있으면 그것도 증거가 되고요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "아, 그렇군요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그리고 동료들 중에 같은 어려움을 겪는 분들이 있나요?",
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "psychoeducation"
-    },
-    {
       "speaker": "client",
-      "text": "번아웃이요? 그게 정확히 뭔가요? 저한테 해당되는 건가요?",
-      "turn": 19
+      "text": "있어요. 다른 여직원들도 비슷한 얘기 해요."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "번아웃은 장기간의 스트레스로 인해 신체적, 정서적으로 극도로 소진된 상태를 말합니다. 만성 피로, 냉소적 태도, 업무 효율성 저하 등이 특징인데, 말씀하신 증상들이 이와 상당히 일치합니다.",
+      "text": "그럼 함께 목소리를 내는 것도 방법이에요. 한 사람보다 여러 사람이 문제 제기하면 무시하기 어렵거든요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "같이요? 그런데 누가 먼저 말을 꺼내죠?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "신뢰할 수 있는 동료 한 명과 먼저 이야기해보세요. '우리 이런 거 겪고 있는데, 어떻게 하면 좋을까?' 이런 식으로요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "psychoeducation"
-    },
-    {
       "speaker": "client",
-      "text": "그렇군요... 그럼 저 어떻게 해야 하나요? 팀장 역할을 포기할 수는 없잖아요. 그렇다고 이대로 계속 갈 수도 없고...",
-      "turn": 21
+      "text": "알겠어요. 해볼게요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "역할을 포기하지 않으면서도 건강한 방식으로 업무를 수행할 수 있는 방법을 함께 찾아가는 것이 중요합니다. 우선, 가장 시급한 것은 수면과 기본적인 자기 돌봄을 회복하는 것입니다. 작은 변화부터 시작해볼까요?",
+      "text": "본인의 감정 관리도 중요해요. 매번 성차별 발언을 들으면서 참기만 하면 자존감이 낮아질 수 있어요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "이미 낮아진 것 같아요. 요즘 '나는 여자라서 안 되나' 이런 생각도 들어요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "그건 부장님의 편견이 본인에게 내재화된 거예요. 본인의 가치는 성별이 아니라 능력으로 결정돼요.",
+      "technique": [
+        "interpretation",
+        "validation"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "solution_focused"
-    },
-    {
       "speaker": "client",
-      "text": "작은 변화요? 구체적으로 어떤 걸 말씀하시는 건가요?",
-      "turn": 23
+      "text": "머리로는 알겠는데 마음이 힘들어요."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "예를 들어, 잠들기 전 1시간은 업무 관련 생각을 내려놓는 시간으로 정하는 거예요. 핸드폰도 멀리 두고, 가벼운 스트레칭이나 독서 같은 걸로 마음을 진정시키는 루틴을 만드는 거죠. 이런 것부터 시도해보실 수 있을까요?",
+      "text": "당연해요. 그래서 본인을 긍정하는 연습이 필요해요. 매일 '나는 능력 있는 직원이다'라고 스스로에게 말해보세요.",
+      "technique": [
+        "validation",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "그런 게 도움이 될까요?"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "처음엔 어색하지만, 반복하면 효과가 있어요. 그리고 본인의 성과를 기록하세요. 부장님 말이 아니라 실제 본인이 해낸 것들로 자신을 평가하는 거죠.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "behavioral_intervention"
-    },
-    {
       "speaker": "client",
-      "text": "해보고 싶긴 한데... 그 시간에도 메일이 오면 확인해야 할 것 같은 불안감이 들어요.",
-      "turn": 25
+      "text": "성과 기록이요. 해볼게요."
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "그 불안감, 충분히 이해합니다. 하지만 생각해보세요. 밤 10시 이후의 메일이 정말 그 순간 처리되어야 할 긴급한 일인 경우가 얼마나 되나요?",
+      "text": "이번 주에 할 수 있는 것들을 정리해볼까요? 차별 발언 기록하기, 신뢰할 수 있는 동료와 이야기해보기, 성과 기록하기. 이 중에서 가장 먼저 시도해볼 건 뭔가요?",
+      "technique": [
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "동료랑 이야기하는 거요. 혼자가 아니라는 걸 확인하고 싶어요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "좋은 선택이에요. 함께하면 더 힘이 나실 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "cognitive_restructuring"
-    },
-    {
       "speaker": "client",
-      "text": "음... 솔직히 말하면 거의 없어요. 대부분 다음날 아침에 봐도 되는 거죠. 그런데 왜 이렇게 확인하지 않으면 불안한 걸까요?",
-      "turn": 27
+      "text": "그리고 차별 발언도 기록할게요."
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "좋은 질문입니다. 아마도 팀장으로서 '완벽하게 해내야 한다', '모든 것을 통제해야 한다'는 부담감이 있으신 것 같아요. 혹시 본인에게 그런 기대나 압박을 느끼시나요?",
+      "text": "훌륭해요. 나중에 필요할 때 사용할 수 있을 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "부장님한테 직접 말하는 건... 좀 더 용기가 필요할 것 같아요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "그럴 수 있어요. 동료들과 이야기 나눈 후에 생각해봐도 늦지 않아요. 천천히 가세요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 28,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 승진했으니까 완벽하게 해내야 한다는 압박이 있어요. 실수하면 '역시 안 될 거였어'라는 소리 들을까 봐 두렵기도 하고요.",
-      "turn": 29
+      "text": "감사합니다. 조금 힘이 나네요."
     },
     {
+      "turn": 28,
       "speaker": "counselor",
-      "text": "그 두려움이 님을 24시간 긴장 상태로 만들고 있는 거네요. 하지만 완벽한 리더는 없습니다. 오히려 자신을 잘 돌보고, 적절히 휴식하면서 지속 가능한 방식으로 일하는 리더가 더 효과적이에요.",
+      "text": "오늘 상담에서 깨달은 게 있다면 뭔가요?",
+      "technique": [
+        "open_question",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "제가 참기만 할 필요는 없다는 것. 그리고 혼자가 아니라는 것. 제 권리를 지킬 방법이 있다는 거요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "완벽하게 정리하셨네요. 성차별은 참아야 할 게 아니라 바꿔야 할 거예요. 다음 주에 어떻게 진행됐는지 이야기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 30,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 생각하니까 조금 마음이 편해지네요. 그런데 팀원들과의 관계는 어떻게 개선해야 할까요? 특히 그 연차 높은 분과의 관계요.",
-      "turn": 31
+      "text": "네, 다음 주에 뵙겠습니다. 감사합니다."
     },
     {
+      "turn": 30,
       "speaker": "counselor",
-      "text": "그 부분은 다음 상담에서 더 깊이 다뤄보면 좋을 것 같아요. 오늘은 우선 님의 소진 상태를 회복하는 것에 초점을 맞추고, 수면 루틴 만들기를 실천해보시는 건 어떨까요?",
-      "turn": 32,
-      "technique": "structuring"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 그게 좋을 것 같아요. 오늘 이야기하면서 제가 얼마나 지쳐있었는지 깨달았어요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "그 깨달음 자체가 변화의 첫걸음입니다. 다음 주까지 밤 10시 이후 업무 차단하기를 실천해보시고, 그 경험을 다음 상담 때 나눠주세요. 어떤 어려움이 있었는지, 어떤 변화가 있었는지요.",
-      "turn": 34,
-      "technique": "homework_assignment"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 해볼게요. 오늘 상담 받길 잘한 것 같아요. 혼자 끙끙 앓고 있었는데, 이렇게 말하고 나니 조금 길이 보이는 것 같아요. 감사합니다.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "함께 천천히 풀어가면 됩니다. 다음 주에 뵙겠습니다. 이번 주 잘 보내시고, 힘들면 언제든 연락주세요.",
-      "turn": 36,
-      "technique": "support"
+      "text": "본인의 가치를 잊지 마세요. 성별이 아니라 능력으로 평가받을 권리가 있어요. 다음 주에 뵙겠습니다.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1381",
   "metadata": {
-    "generated_at": "2025-12-17T14:43:10.913204+00:00",
+    "generated_at": "2025-12-18T03:01:31.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

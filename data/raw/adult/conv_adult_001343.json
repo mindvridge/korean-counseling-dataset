@@ -1,215 +1,439 @@
 {
-  "conversation_id": "CONV_ADT_20250623_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "38",
     "gender": "여성",
-    "occupation": "중학교 교사"
+    "occupation": "회계법인 팀장",
+    "background": "입사 10년차, 같은 팀 동료와의 업무 스타일 차이로 지속적 마찰, 팀 성과에도 영향"
   },
-  "situation": "10년차 교사로서 최근 학생들과의 관계에서 어려움을 겪고 있으며, 번아웃과 직업적 회의감을 느끼고 있음. 특히 학부모 민원과 학생 지도의 어려움으로 인해 심리적 소진 상태",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 사실 상담을 받아야 할지 고민을 많이 했는데, 요즘 너무 힘들어서 이렇게 오게 됐어요.",
-      "turn": 1
+      "text": "같은 팀 동료 때문에 너무 스트레스예요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 상담을 받기로 결정하기까지 많은 고민이 있으셨을 텐데, 용기 내어 방문해 주셔서 감사합니다. 편안하게 이야기 나눠보도록 해요. 요즘 어떤 점이 가장 힘드신가요?",
+      "text": "팀 동료와의 관계가 많이 힘드신가 봐요. 어떤 상황인지 말씀해 주시겠어요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치는 교사인데요, 올해로 10년차예요. 처음에는 정말 열정적으로 가르쳤는데... 요즘은 학교 가는 게 너무 두렵고 힘들어요.",
-      "turn": 3
+      "text": "저는 완벽주의 성향이 있어서 모든 걸 꼼꼼하게 확인하는데, 그 동료는 대충대충 해요. 같이 일하면 제가 다 다시 확인해야 해요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년 동안 교직에 계시면서 처음의 열정과 지금의 모습 사이에 큰 차이를 느끼고 계시는군요. 학교에 가는 것이 두렵다고 하셨는데, 구체적으로 어떤 상황들이 그런 감정을 느끼게 하나요?",
+      "text": "본인은 꼼꼼한 스타일인데 동료는 덜 꼼꼼해서, 결국 본인이 재확인 작업을 하게 되시는군요. 구체적으로 어떤 문제들이 있었나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "지난주에도 그 동료가 작성한 보고서에 숫자 오류가 세 군데나 있었어요. 제가 최종 검토하다가 발견해서 고쳤는데, 만약 못 찾았으면 큰일 날 뻔했어요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "중요한 오류를 발견하셨네요. 그 상황에서 어떤 감정이 드셨나요?",
+      "technique": [
+        "reflection",
+        "emotion_labeling"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "아이들이 예전 같지 않아요. 수업 시간에 집중하지 않고, 제 말을 무시하고... 주의를 주면 학부모가 바로 교장실로 전화해서 민원을 넣어요. 지난달에도 한 학생이 수업 중에 계속 떠들어서 복도에 나가 있으라고 했더니, 그 학부모가 아동학대라고 신고하겠다고 했어요.",
-      "turn": 5
+      "text": "화나고, 불안하고... '이 사람 믿을 수 없다'는 생각이 들었어요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "학생 지도를 위해 하신 행동이 오히려 민원으로 이어지는 상황이 반복되면서 많이 위축되고 힘드셨겠어요. 교사로서의 권위와 학생 지도 사이에서 어떻게 해야 할지 막막하셨을 것 같습니다.",
+      "text": "화와 불안, 그리고 신뢰가 깨진 느낌이시군요. 그 동료에게 이런 오류에 대해 피드백을 주시나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "말하죠. '여기 틀렸어요, 다음엔 더 꼼꼼히 확인해주세요'라고. 근데 그 사람은 '네' 하고는 또 똑같이 실수해요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "피드백을 주지만 행동 변화가 없어서 더 답답하시겠어요. 그럴 때 어떻게 하시나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 정말 막막해요. 그냥 아무것도 안 하고 수업만 대충 하고 나오는 게 나을 것 같다는 생각까지 들어요. 근데 그러면 또 제가 교사로서 무책임한 것 같고... 죄책감이 들고요.",
-      "turn": 7
+      "text": "처음부터 제가 하죠. 뭐. 그게 더 빨라요. 두 번 일하는 것보다는..."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "한편으로는 자신을 보호하기 위해 거리를 두고 싶지만, 다른 한편으로는 책임감 있는 교사로서의 역할을 저버리는 것 같아 죄책감이 드는 거네요. 두 가지 감정 사이에서 갈등하고 계신 것 같아요.",
+      "text": "동료의 일까지 본인이 떠안고 계시는군요. 그러면 업무량은 어떻게 되나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "당연히 많아지죠. 야근도 늘고... 근데 제가 안 하면 팀 전체가 문제가 생기니까 어쩔 수 없어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "'내가 해야 팀이 안전하다'고 느끼시는군요. 그런데 이렇게 계속 대신 해주시면 그 동료는 어떻게 될까요?",
+      "technique": [
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네... 맞아요. 그리고 요즘은 아침에 일어나는 것부터 힘들어요. 출근 준비를 하면서도 계속 '오늘은 또 무슨 일이 생길까' 걱정되고, 밤에는 잠도 잘 못 자요.",
-      "turn": 9
+      "text": "... 계속 그대로겠죠. 어차피 제가 확인해주니까."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "신체적으로도 영향을 받고 계시는군요. 수면 문제나 아침에 일어나기 힘든 증상은 얼마나 오래 지속되었나요?",
+      "text": "정확히 파악하셨어요. 본인이 대신 해주는 게 오히려 그 동료의 성장을 막고 있을 수 있어요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "그럼 어떡해요? 실수한 걸 그대로 놔두라는 건가요?"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "그게 아니라, 피드백 방식을 바꿔보는 거예요. 지금은 '여기 틀렸어요'라고 결과만 알려주시잖아요. 대신 '어디가 틀렸는지 직접 찾아보세요'라고 하면 어떨까요?",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "assessment"
-    },
-    {
       "speaker": "client",
-      "text": "한 6개월 정도 된 것 같아요. 특히 2학기 들어서 더 심해진 것 같고요. 주말에도 쉰 것 같지가 않아요. 월요일이 다가오면 일요일 저녁부터 벌써 불안하고...",
-      "turn": 11
+      "text": "그럼 시간이 더 걸리잖아요."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "6개월이라는 시간 동안 이런 상태가 지속되어 왔다니, 정말 많이 지치셨을 것 같아요. 주말조차 제대로 쉬지 못하고 계속 긴장 상태에 있다는 것은 상당한 스트레스를 받고 계신다는 신호예요.",
+      "text": "단기적으로는 그럴 수 있어요. 하지만 장기적으로는 그 동료가 스스로 확인하는 습관을 갖게 되면 본인 부담이 줄어들 거예요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "... 그렇긴 하네요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "그리고 중요한 건, 그 동료가 정말 '대충' 하는 건지, 아니면 '다른 기준'을 가지고 있는 건지 구분해볼 필요가 있어요. 그 동료와 업무 기준에 대해 이야기해보신 적 있으세요?",
+      "technique": [
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "제가 번아웃인 걸까요? 인터넷에서 찾아보니까 제 증상이랑 비슷한 것 같더라고요. 근데 저는 아직 30대 중반인데... 이렇게 빨리 지쳐버리면 앞으로 어떻게 하나 싶어요.",
-      "turn": 13
+      "text": "업무 기준이요? 틀린 건 틀린 거죠. 기준이 뭐가 있어요."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "번아웃 증상에 대해 스스로 알아보시면서 많이 걱정하셨겠어요. 번아웃은 나이와 관계없이 지속적인 스트레스 상황에서 누구에게나 올 수 있는 것이에요. 오히려 열정적으로 일했던 분들이 더 경험하기 쉽죠.",
+      "text": "예를 들어, 본인은 '100% 완벽'이 기준이라면, 그 동료는 '80% 정확도면 충분'이라고 생각할 수 있어요. 서로 기대치가 다를 수 있다는 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "회계 업무는 100%가 맞아야죠!"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "회계에서 정확성이 중요한 건 맞아요. 그렇다면 팀 차원에서 그 기준을 명확히 공유하고, 체크리스트나 검수 절차를 만드는 건 어떨까요?",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "psychoeducation"
-    },
-    {
       "speaker": "client",
-      "text": "그렇군요... 그럼 저는 이제 어떻게 해야 하나요? 교사를 그만둬야 할까요? 근데 이것밖에 할 줄 아는 게 없는데...",
-      "turn": 15
+      "text": "체크리스트요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "지금 당장 그만두거나 큰 결정을 내리실 필요는 없어요. 지금은 많이 지쳐있는 상태이기 때문에, 먼저 회복하고 에너지를 충전하는 것이 우선입니다. 그 다음에 앞으로의 방향을 천천히 생각해볼 수 있어요.",
+      "text": "네, '보고서 제출 전 반드시 확인할 항목' 같은 걸 만드는 거예요. 그럼 개인의 성향이 아니라 팀의 규칙이 되는 거죠.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그게... 도움이 될까요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "최소한 '왜 이렇게까지 해야 하냐'는 반발은 줄일 수 있어요. 개인 요구가 아니라 팀 규칙이니까요. 그리고 본인도 매번 전체를 다시 확인하는 대신 체크리스트만 확인하면 되고요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "guidance"
-    },
-    {
       "speaker": "client",
-      "text": "회복이요... 어떻게 회복할 수 있을까요? 방학 때도 쉬었는데 별로 나아진 것 같지 않았어요.",
-      "turn": 17
+      "text": "그렇긴 하네요. 근데 그 동료가 따라줄까요?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "단순히 시간을 보내는 것과 진정한 회복은 다를 수 있어요. 방학 때는 어떻게 시간을 보내셨나요?",
+      "text": "팀장으로서 팀 규칙을 만드는 건 권한 내의 일이에요. 그리고 따르지 않을 경우의 결과도 명확히 해야죠.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "결과요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "예를 들어, '체크리스트 확인 없이 제출한 보고서는 반려한다' 같은 거요. 그럼 그 동료도 책임감을 갖게 되겠죠.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "음... 그냥 집에서 쉬었어요. 근데 계속 학교 생각이 나고, 2학기 준비도 해야 하고... 사실 제대로 쉰 것 같지는 않네요. 머리로는 쉬어야 한다고 생각했는데 몸이 안 따라줬어요.",
-      "turn": 19
+      "text": "아, 그렇게 명확하게 정하는 거군요."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "물리적으로는 쉬셨지만, 정신적으로는 계속 학교와 연결되어 있었던 거네요. 진정한 회복을 위해서는 일과 완전히 분리되는 시간과 활동이 필요해요. 평소에 좋아하시거나 즐겁게 하셨던 활동이 있으신가요?",
+      "text": "네. 그리고 한 가지 더 생각해볼 게 있어요. 혹시 본인의 완벽주의가 때로는 과도한 건 아닌지요. 정말 모든 부분이 100%여야 하나요?",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "... 글쎄요. 작은 실수도 용납이 안 되거든요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "그 기준이 본인을 지치게 하고, 동료와의 갈등도 만들고 있을 수 있어요. 중요한 것과 덜 중요한 것을 구분해보는 건 어떨까요?",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "예전에는 요가도 하고, 친구들도 자주 만났는데... 요즘은 그럴 기력도 없고, 사람 만나는 것도 귀찮아요. 그냥 집에서 넷플릭스 보다가 자는 게 전부예요.",
-      "turn": 21
+      "text": "그게 쉽지 않아요. 다 중요해 보이거든요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "지쳐있을 때는 모든 활동이 부담스럽게 느껴지는 게 자연스러워요. 하지만 요가나 친구 만남 같은 활동들이 예전에는 즐거움을 주었다는 것이 중요해요. 아주 작은 것부터 다시 시작해볼 수 있을 것 같은데, 어떻게 생각하세요?",
+      "text": "그럴 수 있어요. 하지만 '치명적 오류'와 '사소한 오류'는 다르잖아요. 숫자 오류는 치명적이지만, 예를 들어 폰트 크기 같은 건 덜 중요할 수 있죠.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "맞는 말이에요. 제가 너무 모든 걸 완벽하게 하려고 했나봐요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "본인에게도, 동료에게도 너무 높은 기준을 적용하고 계셨던 것 같아요. 이번 주에 할 수 있는 걸 정해볼까요?",
+      "technique": [
+        "interpretation",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "encouragement"
-    },
-    {
       "speaker": "client",
-      "text": "작은 것이라면... 할 수 있을 것도 같아요. 근데 뭐부터 해야 할지 모르겠어요.",
-      "turn": 23
+      "text": "네, 뭐부터 시작하면 좋을까요?"
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "일주일에 한 번, 30분 정도 가벼운 산책이나 스트레칭부터 시작해보는 건 어떨까요? 요가만큼 부담스럽지 않으면서도 몸을 움직이는 활동이 될 수 있어요.",
+      "text": "먼저 팀 회의를 열어서 보고서 체크리스트를 함께 만들어보세요. 동료의 의견도 듣고요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "그 동료 의견도요?"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "네. 그래야 '내 규칙'이 아니라 '우리 규칙'이 되니까요. 그리고 그 과정에서 동료가 왜 특정 부분을 놓치는지 이해할 수도 있어요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "suggestion"
-    },
-    {
       "speaker": "client",
-      "text": "산책 정도는... 할 수 있을 것 같아요. 근데 학교 문제는 어떻게 해야 할까요? 그게 제일 큰 스트레스인데...",
-      "turn": 25
+      "text": "알겠어요. 해보겠습니다."
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "학교에서의 상황은 단기간에 바꾸기 어려울 수 있어요. 하지만 그 상황을 대하는 내담자님의 태도와 대응 방식은 조절할 수 있어요. 혹시 학교에 동료 교사 중에 비슷한 어려움을 겪는 분이나 이야기를 나눌 수 있는 분이 계신가요?",
+      "text": "그리고 동료가 실수했을 때, 바로 고쳐주는 대신 '다시 한번 확인해보세요'라고 돌려보내는 연습도 해보세요.",
+      "technique": [
+        "goal_setting",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "그게 참기 힘들 것 같은데... 해볼게요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "처음엔 어렵겠지만, 장기적으로는 본인도 편해지실 거예요. 그리고 본인의 완벽주의도 조금씩 내려놓는 연습을 하세요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "같은 학년 부장 선생님이 계신데, 그분도 비슷한 고민을 하시는 것 같아요. 근데 서로 바빠서 깊은 이야기는 나눠본 적이 없어요.",
-      "turn": 27
+      "text": "완벽주의를 내려놓는다는 게... 구체적으로 어떻게 하는 건가요?"
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "그 선생님과 조금 더 깊은 이야기를 나눠보는 것도 도움이 될 수 있을 것 같아요. 혼자 감당하는 것보다 비슷한 상황을 겪는 동료와 공감하고 지지받는 것이 큰 힘이 될 수 있거든요.",
+      "text": "'이 정도면 충분하다'는 선을 정하는 거예요. 예를 들어 '치명적 오류만 없으면 OK'라고요. 완벽을 추구하되, 완벽하지 않아도 괜찮다는 걸 받아들이는 거죠.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "쉽지 않겠지만... 시도는 해보겠습니다."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "오늘 정한 것들을 정리해볼까요? 팀 회의에서 체크리스트 함께 만들기, 동료에게 재확인 기회 주기, 본인의 완벽주의 기준 조정하기. 맞나요?",
+      "technique": [
+        "summarization",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 28,
-      "technique": "guidance"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 해볼게요. 근데 선생님, 저는 정말 교사를 계속해야 할까요? 이렇게 힘든데...",
-      "turn": 29
+      "text": "네, 맞아요. 생각보다 제가 바꿔야 할 것도 많네요."
     },
     {
+      "turn": 28,
       "speaker": "counselor",
-      "text": "지금은 많이 지쳐있어서 모든 것을 부정적으로 보게 되는 시기예요. 중요한 결정은 조금 더 회복된 후에 내리는 것이 좋아요. 10년 동안 교사로 일하셨다는 것은 분명 이 일에 의미와 가치를 느끼셨기 때문일 거예요. 처음 교사가 되셨을 때를 떠올려보시면 어떤 마음이셨나요?",
+      "text": "갈등은 한쪽만의 문제가 아니에요. 본인의 높은 기준과 동료의 다른 스타일이 부딪힌 거니, 서로 조율이 필요해요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "알겠습니다. 다음 주에 결과 말씀드릴게요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "좋아요. 완벽하게 하려고 하지 마세요. 조금씩 시도해보는 것만으로도 충분해요. 다음 주에 어떻게 되었는지 이야기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 30,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "처음에는... 아이들과 함께 성장하는 게 정말 좋았어요. 아이들이 제 수업을 통해 뭔가 배우고 변화하는 모습을 볼 때 정말 보람찼었죠.",
-      "turn": 31
+      "text": "감사합니다. 다음 주에 뵙겠습니다."
     },
     {
+      "turn": 30,
       "speaker": "counselor",
-      "text": "그 보람과 의미가 완전히 사라진 건 아닐 거예요. 지금은 힘든 상황들이 그것들을 가리고 있을 뿐이죠. 우리가 함께 지금의 어려움을 다루고 회복해 나가면서, 다시 그 의미를 느낄 수 있는지 천천히 확인해보면 어떨까요?",
-      "turn": 32,
-      "technique": "reframing"
-    },
-    {
-      "speaker": "client",
-      "text": "네... 그렇게 해보고 싶어요. 오늘 이야기하면서 조금은 마음이 가벼워진 것 같아요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "다행이에요. 오늘 내담자님께서 용기 내어 자신의 어려움을 나누어주셨어요. 이번 주에는 우리가 이야기한 산책이나 스트레칭을 한 번 정도 시도해보시고, 다음에 만날 때 어떠셨는지 나눠볼까요?",
-      "turn": 34,
-      "technique": "task_assignment"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 해볼게요. 다음 주에 또 뵐 수 있을까요?",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "물론이죠. 다음 주 같은 시간에 뵙겠습니다. 이번 주 동안 너무 힘드시면 언제든 연락주세요. 오늘 상담 와주셔서 감사하고, 수고 많으셨어요.",
-      "turn": 36,
-      "technique": "support"
+      "text": "본인에게도 동료에게도 조금 더 관대해지시길 바라요. 다음 주에 뵙겠습니다.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1343",
   "metadata": {
-    "generated_at": "2025-12-17T14:37:21.803692+00:00",
+    "generated_at": "2025-12-18T03:01:29.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

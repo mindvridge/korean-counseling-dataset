@@ -1,193 +1,369 @@
 {
-  "conversation_id": "CONV_20250612_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "여성",
-    "occupation": "중학교 교사"
+  "client_profile": {
+    "age": "29",
+    "gender": "남성",
+    "occupation": "회사원",
+    "background": "독립 후에도 간섭하는 어머니와의 갈등, 결혼 압박, 어머니의 우울증으로 인한 정서적 부담"
   },
-  "situation": "10년차 교사로서 최근 학생들과의 관계에서 소진을 경험하고 있으며, 교직에 대한 회의감과 함께 자신의 정체성에 대해 고민하고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 사실 상담을 받으러 온다는 게 좀 부끄럽기도 하고... 제가 너무 나약한 건가 싶기도 해요.",
-      "turn": 1
+      "text": "어머니랑 통화만 하면 스트레스를 받아요. 전화하기가 싫어지네요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 편안하게 앉으세요. 상담을 받으러 오신 것은 용기 있는 선택이에요. 지금 어떤 점이 힘드신가요?",
+      "text": "어머니와 통화할 때마다 스트레스를 받으시는군요. 어떤 일이 있으셨는지 말씀해 주시겠어요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치고 있어요. 벌써 10년째인데... 요즘 들어 학교 가는 게 너무 힘들어요. 아침에 일어나면 출근하기 싫다는 생각부터 들고요.",
-      "turn": 3
+      "text": "제가 서른인데 아직도 간섭이 심해요. 뭘 먹었니, 여자친구는 있니, 언제 결혼하니... 매번 같은 질문이에요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년이라는 시간 동안 교직에 계셨군요. 아침에 출근하기 싫다는 생각이 드신다고 하셨는데, 언제부터 이런 감정을 느끼기 시작하셨나요?",
+      "text": "일상적인 것부터 결혼까지 많은 질문을 받으시는군요. 그런 질문을 들을 때 어떤 기분이 드세요?",
+      "technique": [
+        "restatement",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "숨 막혀요. 저도 이제 어른인데 아직도 아이 취급당하는 것 같아서요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "성인으로서 존중받지 못한다고 느끼시는군요. 그 답답함이 느껴지네요.",
+      "technique": [
+        "empathy",
+        "validation"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "정확히는 모르겠지만... 작년부터였던 것 같아요. 처음엔 그냥 피곤해서 그런가 했는데, 시간이 지나도 나아지지 않더라고요. 오히려 점점 더 심해지는 것 같아요.",
-      "turn": 5
+      "text": "네, 그리고 제가 대답 안 하거나 귀찮아하면 '엄마 걱정해서 그런 거지' 하면서 죄책감 주시거든요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "작년부터 시작된 감정이 점점 더 심해지고 있다고 느끼시는군요. 혹시 작년에 특별한 일이 있었나요?",
+      "text": "걱정이라는 말로 죄책감을 느끼게 하시는군요. 그런 패턴이 반복되면 정말 지치실 것 같아요.",
+      "technique": [
+        "reflection",
+        "empathy"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "맞아요. 근데 또 어머니가 요즘 우울증이 있으셔서... 제가 화내면 안 될 것 같기도 하고요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "어머니의 우울증 때문에 본인 감정을 표현하기 어려우시군요. 어머니를 배려하느라 본인이 많이 참고 계신 것 같아요.",
+      "technique": [
+        "interpretation",
+        "validation"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "음... 작년에 담임을 맡았는데, 학급에 문제 학생들이 유독 많았어요. 학부모 민원도 많았고... 그때 정말 힘들었죠. 근데 올해는 담임도 아닌데 여전히 힘들어요.",
-      "turn": 7
+      "text": "네, 제가 뭐라 하면 더 안 좋아지실까 봐요. 그래서 그냥 들어요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "작년에 특히 힘든 학급을 맡으셨군요. 담임 업무에서 벗어났는데도 여전히 힘드시다는 게 더 혼란스러우실 것 같아요.",
+      "text": "어머니를 보호하고 싶은 마음이 크시네요. 하지만 본인의 감정과 경계도 중요해요. 지금처럼 계속 참으시면 어떻게 될 것 같으세요?",
+      "technique": [
+        "empathy",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "... 점점 더 어머니를 피하게 될 것 같아요. 이미 전화도 잘 안 받게 됐고요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "회피가 늘어나고 있군요. 그게 장기적으로 관계에 도움이 될까요?",
+      "technique": [
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 담임만 안 하면 괜찮아질 줄 알았는데... 그게 아니더라고요. 수업 들어가는 것조차 부담스럽고, 학생들 얼굴 보기가 싫어요. 이런 제가 교사 자격이 있나 싶어요.",
-      "turn": 9
+      "text": "아니죠. 더 멀어질 것 같아요. 근데 어떻게 해야 할지 모르겠어요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "학생들을 대하는 것 자체가 부담스러워지셨고, 그런 자신에 대해 자책하고 계시는군요. 그런 감정을 느끼는 자신을 어떻게 바라보고 계신가요?",
+      "text": "방법을 찾고 싶으신 거군요. 어머니께 본인 마음을 직접 말씀하신 적 있으세요?",
+      "technique": [
+        "validation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "한두 번 했는데 '엄마가 언제까지 살겠니' 이런 말씀하시면서 눈물 흘리셨어요. 그래서 더 말을 못 하겠더라고요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "어머니의 눈물에 마음이 많이 흔들리셨겠어요. 그런 반응이 오면 대화를 이어가기 어려우시죠.",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "제가 너무 이기적이고 나약한 것 같아요. 처음 교사가 됐을 때는 학생들을 정말 사랑했고, 좋은 선생님이 되고 싶었거든요. 근데 지금은... 그냥 월급 받으러 가는 느낌이에요.",
-      "turn": 11
+      "text": "네, 그래서 그냥 참는 게 나은 것 같았어요."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "처음의 열정과 지금의 모습 사이에서 큰 괴리감을 느끼고 계시네요. '좋은 선생님'이 되고 싶었던 처음 그 마음과 지금의 현실이 너무 달라서 힘드신 것 같아요.",
+      "text": "지금까지는 참는 방식을 택하셨군요. 하지만 그 방식이 본인에게 주는 영향은 어떤가요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "스트레스받고, 어머니한테 미운 감정도 생기고... 저도 제가 싫어요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "'미운 감정'이 드시는군요. 부모에 대한 부정적 감정을 느끼면 자책하게 되기 쉬워요. 하지만 그건 자연스러운 감정이에요.",
+      "technique": [
+        "emotion_labeling",
+        "validation"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 맞아요. 제가 원했던 교사의 모습이 아니에요. 동료 선생님들은 잘만 하시는 것 같은데 저만 이러는 것 같아서 더 자괴감이 들어요.",
-      "turn": 13
+      "text": "그래도 되는 건가요? 저 진짜 불효자 같아요."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "다른 선생님들과 비교하면서 자신만 힘들어한다고 느끼시는군요. 혹시 주변 선생님들과 이런 어려움에 대해 이야기 나눠보신 적 있으세요?",
+      "text": "부모를 사랑하면서도 힘들 수 있어요. 두 감정이 공존할 수 있는 거예요. 불효와는 다른 문제예요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "... 그렇게 생각해본 적은 없었어요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "경계를 세우는 것과 사랑하지 않는 것은 달라요. 오히려 건강한 경계가 관계를 더 오래 유지하게 해줄 수 있어요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "아니요... 말하기가 창피해서요. 다들 바쁘고 각자 할 일도 많은데, 제가 힘들다고 하면 나약해 보일 것 같아서요. 그냥 혼자 견디고 있어요.",
-      "turn": 15
+      "text": "경계요? 어떻게 세우는 건가요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "혼자서 이 모든 것을 감당하고 계셨군요. 그동안 정말 힘드셨겠어요. 혼자 견디는 것이 얼마나 외롭고 지치는 일인지 이해해요.",
+      "text": "예를 들어, 어머니의 질문에 다 대답하지 않아도 돼요. '그건 제가 알아서 할게요'라고 부드럽지만 명확하게 선을 그을 수 있어요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그렇게 말하면 또 서운해하시지 않을까요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "처음엔 서운해하실 수 있어요. 하지만 일관되게 경계를 유지하면 점차 적응되세요. 중요한 건 본인이 죄책감 없이 그 선을 유지하는 거예요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 사실 남편한테도 제대로 말 못했어요. 남편은 제가 교사라서 안정적이고 좋다고만 생각하거든요. 그만두고 싶다는 말은 꺼낼 엄두도 안 나요.",
-      "turn": 17
+      "text": "죄책감 없이요... 그게 제일 어려울 것 같아요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "가장 가까운 사람에게도 솔직한 마음을 말하기 어려운 상황이시네요. 그만두고 싶다는 생각까지 하실 정도로 힘드신데, 그 마음을 나눌 곳이 없다는 게 더 힘드실 것 같아요.",
+      "text": "죄책감이 드실 때 스스로에게 '나는 나를 보호할 권리가 있다'고 말해보세요. 본인을 돌보는 건 이기적인 게 아니에요.",
+      "technique": [
+        "goal_setting",
+        "validation"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그렇게 생각하려고 노력해볼게요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그리고 어머니의 우울증 상태도 중요해요. 어머니는 치료를 받고 계세요?",
+      "technique": [
+        "encouragement",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 그만두면 뭘 해야 할지도 모르겠고... 34살에 다시 시작하기도 두렵고요. 그냥 이렇게 버티는 게 맞는 건가 싶기도 하고요.",
-      "turn": 19
+      "text": "병원은 다니시는데 약만 타오시고 상담은 안 받으세요."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "현재 상황에서 벗어나고 싶은 마음과 동시에, 변화에 대한 두려움도 크신 것 같아요. 지금 느끼시는 이 복잡한 감정들에 대해 좀 더 이야기해볼까요?",
+      "text": "약물 치료는 하고 계시는군요. 어머니의 우울증은 어머니의 문제이고, 본인이 다 책임질 수 있는 게 아니에요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "저도 알아요. 근데 아버지가 일찍 돌아가셔서 제가 유일한 자식이거든요. 그래서 더 부담이에요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "아버지를 여의시고 유일한 자녀로서 책임감을 많이 느끼고 계시는군요. 그 무게가 많이 무거우셨겠어요.",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "사실... 제가 정말 원하는 게 뭔지 모르겠어요. 그냥 학교만 안 가면 될 것 같은데, 막상 그만두면 후회할 것 같기도 하고요. 제가 너무 혼란스러워요.",
-      "turn": 21
+      "text": "네, 제가 잘해야 할 것 같은데 잘 안 되니까 괴로워요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "지금 내가 정말 원하는 것이 무엇인지 알 수 없어서 더 혼란스러우신 거군요. 이런 혼란스러움을 느끼는 것은 자연스러운 과정이에요.",
+      "text": "'잘해야 한다'는 생각이 본인을 많이 압박하고 있네요. 어떤 게 '잘하는 것'이라고 생각하세요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "어머니가 원하는 대로 해드리는 거요. 자주 연락하고, 결혼도 하고..."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "어머니의 기대를 충족시키는 게 잘하는 거라고 생각하시는군요. 그런데 본인이 원하는 건 뭐예요?",
+      "technique": [
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "normalization"
-    },
-    {
       "speaker": "client",
-      "text": "정말요? 저만 이런 게 아닐까요? 10년이나 했는데 이제 와서 이런 고민을 한다는 게... 너무 늦은 건 아닌가 싶어요.",
-      "turn": 23
+      "text": "... 저요? 저는 그냥 제 속도대로 살고 싶어요. 간섭 없이요."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "많은 사람들이 커리어 중반에 비슷한 고민을 해요. 특히 교사처럼 감정 노동이 많은 직업에서는 소진을 경험하는 경우가 흔합니다. 늦은 게 아니라, 지금 자신을 돌아보는 중요한 시점이에요.",
+      "text": "본인만의 속도로 삶을 살고 싶으시군요. 그 바람도 충분히 존중받아야 해요.",
+      "technique": [
+        "validation",
+        "empathy"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "그게 효도가 아닌 것 같아서 말하기 어려웠어요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "자신의 삶을 사는 것과 부모를 사랑하는 것은 양립할 수 있어요. 둘 다 가능한 거예요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "normalization"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 말씀해주시니 조금 위안이 되네요. 그럼 저는 어떻게 해야 할까요? 계속 버텨야 할까요, 아니면 그만둬야 할까요?",
-      "turn": 25
+      "text": "그렇게 될 수 있으면 좋겠어요."
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "지금 당장 결정을 내리실 필요는 없어요. 먼저 현재 느끼시는 소진의 원인을 좀 더 구체적으로 파악하고, 회복할 수 있는 방법을 찾아보는 게 중요할 것 같아요. 어떠세요?",
-      "turn": 26,
-      "technique": "guidance"
+      "text": "가능해요. 이번 주에 어머니와 통화할 때 한 가지만 연습해보세요. 불편한 질문에 '그건 제가 알아서 할게요'라고 한 번만 말해보시는 거예요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
     },
     {
+      "turn": 25,
       "speaker": "client",
-      "text": "네... 그게 나을 것 같아요. 사실 너무 지쳐서 제대로 생각할 여유도 없었던 것 같아요.",
-      "turn": 27
+      "text": "한 번만요? 그건 해볼 수 있을 것 같아요."
     },
     {
+      "turn": 25,
       "speaker": "counselor",
-      "text": "지금까지 너무 힘든 시간을 보내셨어요. 이제부터는 함께 천천히 살펴보면서, 님이 진정으로 원하는 것이 무엇인지, 어떻게 하면 다시 에너지를 회복할 수 있을지 찾아가 보면 좋겠어요.",
-      "turn": 28,
-      "technique": "support"
-    },
-    {
-      "speaker": "client",
-      "text": "감사합니다. 오늘 이렇게 말하고 나니까 조금은 마음이 가벼워진 것 같아요. 혼자만 힘든 게 아니라는 걸 알게 돼서 다행이에요.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "오늘 용기 내어 이야기해주셔서 감사해요. 다음 상담에서는 구체적으로 어떤 상황에서 가장 힘드신지, 그리고 과거에 어떤 순간에 보람을 느끼셨는지 함께 탐색해보면 좋겠습니다.",
-      "turn": 30,
-      "technique": "structuring"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 그렇게 하고 싶어요. 다음 상담이 기대되네요. 오늘 정말 고맙습니다.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "천천히 함께 가보도록 해요. 다음 주 같은 시간에 뵙겠습니다. 이번 주도 수고 많으셨어요.",
-      "turn": 32,
-      "technique": "support"
+      "text": "작은 것부터 시작하시면 돼요. 다음 시간에 어떠셨는지 이야기 나눠봐요. 오늘 상담 수고하셨습니다.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1666",
   "metadata": {
-    "generated_at": "2025-12-17T15:21:31.006796+00:00",
+    "generated_at": "2025-12-18T03:01:44.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

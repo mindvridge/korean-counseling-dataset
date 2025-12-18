@@ -1,215 +1,369 @@
 {
-  "conversation_id": "CONV_20250624_ADT_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "남성",
-    "occupation": "중소기업 마케팅팀장"
+  "client_profile": {
+    "age": "34",
+    "gender": "여성",
+    "occupation": "전업주부",
+    "background": "2살 쌍둥이 육아로 인한 극심한 스트레스, 육아 우울감, 자아 상실감, 남편의 육아 불참"
   },
-  "situation": "최근 승진 후 업무 부담과 팀원 관리로 인한 스트레스가 심해지면서 불면증과 불안감을 경험하고 있으며, 가족과의 시간도 부족해져 죄책감을 느끼고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 사실 상담을 받아야 할지 고민하다가 왔습니다. 요즘 너무 힘들어서요.",
-      "turn": 1
+      "text": "쌍둥이 키우는 게 너무 힘들어요. 잠도 못 자고, 쉴 시간도 없고... 미칠 것 같아요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 이렇게 용기 내어 방문해 주셔서 감사합니다. 지금 많이 힘드신 상황이시군요. 편안하게 말씀해 주시면 됩니다.",
+      "text": "쌍둥이 육아로 지쳐계시군요. 하루 일과가 어떤가요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "6개월 전에 팀장으로 승진했는데요. 처음엔 좋았는데 지금은 매일이 전쟁 같아요. 밤에도 잠을 제대로 못 자고 있습니다.",
-      "turn": 3
+      "text": "아침부터 밤까지 애들 돌보느라 정신없어요. 밥 먹이고, 기저귀 갈고, 재우고... 끝도 없어요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "승진 후 6개월이 지났는데 업무 부담이 생각보다 크시고, 그로 인해 수면에도 문제가 생기셨다는 말씀이시네요.",
+      "text": "끊임없는 돌봄의 연속이시군요. 본인만의 시간은 있으세요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "없어요. 애들 자면 집안일 하고, 그러다 보면 또 깨고... 화장실 가는 것도 눈치 봐요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "자신을 위한 시간이 전혀 없는 상태시군요. 남편분은 육아에 참여하시나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 팀원들 관리하는 것도 쉽지 않고, 실적 압박도 있고... 예전엔 제 일만 잘하면 됐는데 이젠 팀 전체를 책임져야 하니까요.",
-      "turn": 5
+      "text": "주말에 조금요. 평일엔 늦게 들어와서... 그리고 '나도 피곤하다'고 하면서 안 도와줘요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "개인 업무에서 팀 전체를 이끄는 역할로 바뀌면서 책임감의 무게가 많이 달라지셨겠어요. 그런 변화가 부담스러우신 게 당연합니다.",
+      "text": "남편의 도움이 부족하다고 느끼시는군요. 그럴 때 어떤 감정이 드세요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "화나요. 그리고 외로워요. 혼자 다 하는 것 같아서..."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "분노와 외로움을 느끼시는군요. 이런 감정이 쌓이면 어떻게 되나요?",
+      "technique": [
+        "emotion_labeling",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "그렇죠? 그런데 주변에서는 승진했으면 좋아해야 하는 거 아니냐고 하니까... 저만 이상한 건가 싶기도 했어요.",
-      "turn": 7
+      "text": "애들한테 짜증 내게 돼요. 그리고 나서 죄책감 들고... '나 나쁜 엄마야' 싶고..."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "주변의 기대와 본인이 실제로 느끼는 감정 사이에 괴리가 있으셨군요. 승진은 좋은 일이지만, 그에 따른 어려움을 느끼는 것도 지극히 정상적인 반응입니다.",
+      "text": "짜증을 내고 자책하는 패턴이 있으시군요. 나쁜 엄마가 아니에요. 지쳐있는 엄마예요.",
+      "technique": [
+        "interpretation",
+        "validation"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "(울먹이며) 근데 애들한테 소리 지르면... 너무 미안해요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "죄책감이 크시군요. 하지만 본인도 돌봄이 필요한 사람이에요. 지금처럼 소진되면 아무도 잘 돌볼 수 없어요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "normalization"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 말씀해 주시니 조금 위안이 되네요. 사실 집에서도 문제가 있어요. 아내랑 다섯 살 아들이 있는데, 요즘 거의 얼굴을 못 보고 있어요.",
-      "turn": 9
+      "text": "그럼 어떻게 해야 해요? 애들을 돌봐야 하는데..."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "가족과 함께하는 시간이 많이 줄어들었군요. 그 부분도 마음에 많이 걸리시나 봐요.",
+      "text": "먼저 도움을 받아야 해요. 남편, 부모님, 돌봄 서비스... 혼자 다 할 수 없어요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "남편한테 여러 번 말했는데 안 들어요. '당신도 애들 아빠잖아' 했더니 '돈 벌어오는 것도 일이야' 하더라고요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "남편이 육아를 본인의 일이 아니라고 생각하는군요. 구체적으로 요청해보셨나요?",
+      "technique": [
+        "interpretation",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 아들이 '아빠는 왜 맨날 늦게 와?'라고 물어볼 때마다 가슴이 찢어지는 것 같아요. 아내도 이해한다고는 하지만 표정을 보면 서운해하는 게 느껴져요.",
-      "turn": 11
+      "text": "'도와줘'라고만 했는데..."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "아드님의 그런 질문과 아내분의 표정을 보면서 죄책감을 많이 느끼시는 것 같습니다. 일과 가정 사이에서 균형을 잡기가 정말 어려우시겠어요.",
+      "text": "구체적인 요청이 필요해요. '주말 아침에 애들 밥 먹여줘', '목욕은 네가 시켜줘' 이렇게요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그렇게 말하면 들어줄까요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "시도해볼 만해요. 그리고 부모님이나 친정엄마의 도움은 받을 수 있나요?",
+      "technique": [
+        "encouragement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 회사에서도 제대로 못하는 것 같고, 집에서도 좋은 남편, 좋은 아빠가 되지 못하는 것 같아서... 어디서도 제대로 못하고 있는 기분이에요.",
-      "turn": 13
+      "text": "친정엄마는 지방에 계시고... 시어머니는 간섭이 심해서..."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "양쪽 모두에서 충분히 역할을 해내지 못하고 있다는 느낌을 받고 계시네요. 그런 생각이 드실 때 기분이 어떠신가요?",
+      "text": "그럼 육아 도우미나 아이돌봄 서비스는 고려해보셨나요?",
+      "technique": [
+        "open_question",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "돈이 들잖아요. 남편이 허락할지..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "본인의 정신 건강에 투자하는 거예요. 남편과 진지하게 대화해보세요. 지금 상태가 얼마나 힘든지요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "불안하고... 초조하죠. 밤에 누워도 내일 할 일들이 머릿속에서 맴돌고, 팀원 중 한 명이 실수라도 하면 제 책임인 것 같아서 계속 신경 쓰이고요.",
-      "turn": 15
+      "text": "해볼게요... 그런데 저 요즘 우울해요. 아무것도 하고 싶지 않고..."
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "불안과 초조함이 계속되면서 잠들기도 어렵고, 팀원들의 일까지 모두 본인의 책임으로 느껴지시는군요. 이런 상태가 얼마나 지속되셨나요?",
+      "text": "우울감이 있으시군요. 산후우울증이 지속된 것일 수 있어요. 병원은 가보셨나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "아니요. 시간도 없고..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "시간을 만들어야 해요. 정신건강의학과 진료를 받아보시는 게 좋겠어요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "한 3개월 정도 된 것 같아요. 처음 3개월은 그래도 적응하려고 버텼는데, 최근 들어 더 심해진 것 같습니다. 요즘은 새벽 3-4시까지 잠을 못 자요.",
-      "turn": 17
+      "text": "약 먹으면 모유 수유는 어떻게 해요?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "3개월 동안 이런 상태가 지속되고 있고, 특히 수면 문제가 심각해지셨네요. 이로 인해 일상생활에는 어떤 영향이 있으신가요?",
+      "text": "의사 선생님께 수유 중이라고 말씀드리면 안전한 약을 처방해주세요. 본인의 건강이 우선이에요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "알겠어요... 병원 가볼게요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그리고 하루 10분이라도 본인만의 시간을 가져보세요. 애들 낮잠 잘 때요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "assessment"
-    },
-    {
       "speaker": "client",
-      "text": "집중력이 떨어지고, 짜증도 잘 나고... 회의 중에 멍하니 있을 때도 있어요. 그러면 또 '내가 팀장 자격이 있나' 싶고요.",
-      "turn": 19
+      "text": "그 시간에 집안일 하는데..."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "수면 부족으로 인해 업무 능력이 떨어지고, 그것이 다시 자신에 대한 부정적인 생각으로 이어지는 악순환이 반복되고 있는 것 같습니다.",
+      "text": "집안일은 잠깐 미뤄도 괜찮아요. 본인을 돌보는 게 더 중요해요. 좋아하는 차 마시기, 음악 듣기... 뭐든 좋아요.",
+      "technique": [
+        "validation",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "해볼게요. 그런데 엄마들 모임 같은 데도 못 가요. 애들 데리고 가기 힘들어서..."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "사회적 고립도 우울감을 키워요. 온라인 육아 커뮤니티는 어때요? 비슷한 처지의 엄마들과 소통할 수 있어요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "interpretation"
-    },
-    {
       "speaker": "client",
-      "text": "정확히 그래요. 악순환... 맞는 말씀이에요. 이걸 어떻게 끊어야 할지 모르겠어요.",
-      "turn": 21
+      "text": "그런 곳이 있나요?"
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "이 악순환을 인식하신 것 자체가 중요한 첫걸음입니다. 지금까지 이 상황에 대처하기 위해 시도해 보신 것들이 있으신가요?",
+      "text": "네, 많아요. 쌍둥이 육아 카페도 있고요. 거기서 정보도 얻고 공감도 받을 수 있어요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "찾아볼게요. 조금 위로가 될 것 같아요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "좋아요. 혼자가 아니라는 걸 느끼는 게 중요해요. 그리고 자기 자신에게 관대해지세요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "encouragement"
-    },
-    {
       "speaker": "client",
-      "text": "운동을 해보려고 했는데 시간이 없고... 술을 마시면 잠이 올 것 같아서 저녁에 맥주를 마시는 정도? 그런데 그것도 별로 도움이 안 되는 것 같아요.",
-      "turn": 23
+      "text": "관대해지다니요?"
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "여러 방법을 시도해 보셨지만 효과적이지 않으셨군요. 술은 일시적으로 잠들게 할 수는 있지만 수면의 질을 떨어뜨려서 오히려 역효과가 날 수 있습니다.",
+      "text": "완벽한 엄마가 되려고 하지 마세요. '충분히 좋은 엄마'면 돼요. 실수해도 괜찮아요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "충분히 좋은 엄마... 처음 듣는 말이네요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "완벽을 추구하면 지쳐요. 70-80%만 해도 충분해요. 나머지는 내려놓으세요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "psychoeducation"
-    },
-    {
       "speaker": "client",
-      "text": "그렇군요. 그럼 어떻게 해야 할까요? 정말 방법이 있을까요?",
-      "turn": 25
+      "text": "해볼게요. 오늘 상담 받으니까 조금 마음이 가벼워져요."
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "물론입니다. 우선 수면 위생을 개선하고, 업무 스트레스를 관리하는 구체적인 방법들을 함께 찾아볼 수 있습니다. 또한 완벽주의적 사고 패턴을 조정하는 것도 도움이 될 것 같아요.",
-      "turn": 26,
-      "technique": "guidance"
+      "text": "이번 주에 남편과 구체적으로 대화하기, 병원 예약, 하루 10분 본인 시간 갖기, 온라인 커뮤니티 가입... 해보세요.",
+      "technique": [
+        "summarization",
+        "goal_setting"
+      ]
     },
     {
+      "turn": 25,
       "speaker": "client",
-      "text": "완벽주의요? 제가 완벽주의자인가요?",
-      "turn": 27
+      "text": "네, 해볼게요. 감사합니다."
     },
     {
+      "turn": 25,
       "speaker": "counselor",
-      "text": "팀원들의 실수까지 모두 본인의 책임으로 느끼시고, '제대로 못하고 있다'는 표현을 여러 번 사용하셨는데요. 이런 부분들이 스스로에게 매우 높은 기준을 적용하고 계신 것처럼 보입니다.",
-      "turn": 28,
-      "technique": "reflection"
-    },
-    {
-      "speaker": "client",
-      "text": "음... 그렇게 생각해본 적은 없는데, 말씀을 들으니 그런 것 같기도 하네요. 확실히 제 자신한테 너무 엄격했던 것 같아요.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "그런 자기 인식이 정말 중요합니다. 스스로를 객관적으로 바라보기 시작하셨네요. 앞으로 상담을 통해 이런 패턴들을 하나씩 다루어 가면서, 좀 더 건강한 균형을 찾아가실 수 있을 거예요.",
-      "turn": 30,
-      "technique": "encouragement"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 그렇게 됐으면 좋겠어요. 오늘 이야기하면서 조금은 마음이 가벼워진 것 같습니다.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "다행입니다. 오늘 나누신 이야기들을 바탕으로 다음 시간에는 구체적인 대처 방법들을 함께 만들어가 보도록 하겠습니다. 그 전까지 수면 일지를 작성해 오시면 도움이 될 것 같은데, 가능하실까요?",
-      "turn": 32,
-      "technique": "homework_assignment"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 해볼게요. 언제 자고 언제 일어났는지 기록하면 되는 건가요?",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "네, 취침 시간, 실제 잠든 시간, 기상 시간, 그리고 그날의 스트레스 수준을 간단히 기록해 주시면 됩니다. 패턴을 파악하는 데 큰 도움이 될 거예요.",
-      "turn": 34,
-      "technique": "guidance"
-    },
-    {
-      "speaker": "client",
-      "text": "알겠습니다. 다음 주에 다시 뵙겠습니다. 감사합니다.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "네, 오늘 용기 내어 말씀해 주셔서 감사합니다. 다음 시간에 뵙겠습니다.",
-      "turn": 36,
-      "technique": "closing"
+      "text": "힘든 육아를 버티고 계신 거, 대단해요. 다음 주에 어땠는지 이야기 나눠요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
     }
   ],
+  "generated_at": "2025-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1498",
   "metadata": {
-    "generated_at": "2025-12-17T14:58:44.204828+00:00",
+    "generated_at": "2025-12-18T03:01:36.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

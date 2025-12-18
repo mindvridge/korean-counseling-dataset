@@ -1,215 +1,383 @@
 {
-  "conversation_id": "CONV_20250619_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "남성",
-    "occupation": "중견기업 과장"
+  "client_profile": {
+    "age": "32",
+    "gender": "여성",
+    "occupation": "회사원",
+    "background": "시어머니의 간섭과 비교, 명절 스트레스, 남편의 무관심, 참다 폭발하는 패턴"
   },
-  "situation": "최근 승진 후 팀장 역할을 맡게 되면서 과도한 책임감과 부하직원 관리 스트레스로 불면증과 불안감을 경험하고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 요즘 잠을 제대로 못 자서 너무 힘들어서 상담을 신청하게 됐습니다.",
-      "turn": 1
+      "text": "시어머니가 또 전화하셔서 '남편 밥은 잘 챙겨주니', '애는 언제 가질 거니' 물으셨어요. 미칠 것 같아요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 찾아오시느라 수고 많으셨습니다. 불면증으로 많이 힘드신 것 같네요. 편하게 말씀해 주세요.",
+      "text": "시어머니의 간섭이 부담스러우시군요. 자주 그러시나요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 사실 두 달 전에 팀장으로 승진했는데, 그때부터 잠을 잘 못 자기 시작했어요. 처음엔 기쁘고 설레기도 했는데 지금은 너무 부담스럽습니다.",
-      "turn": 3
+      "text": "거의 매일이요. 남편 통화할 때도 꼭 저 얘기 하시고... '며느리가 이래서 안 된다'고..."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "승진하신 지 두 달 정도 되셨군요. 기쁨과 동시에 새로운 역할에 대한 부담감을 느끼고 계시는 것 같습니다.",
+      "text": "매일 비판을 듣는 상황이시군요. 그럴 때 어떤 감정이 드세요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "화나요. 그리고 억울해요. 저도 일하는데, 완벽한 며느리가 될 수는 없잖아요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "분노와 억울함을 느끼시는군요. 남편분께는 이 얘기를 하시나요?",
+      "technique": [
+        "emotion_labeling",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 팀원이 7명인데 다들 저보다 나이도 많고 경력도 많은 분들이에요. 제가 이분들을 이끌어야 한다는 게 너무 부담스러워요.",
-      "turn": 5
+      "text": "해요. 근데 남편은 '엄마가 원래 그래', '신경 쓰지 마' 이러기만 해요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "나이와 경력이 많은 팀원들을 관리해야 하는 상황이시군요. 그런 상황에서 부담감을 느끼시는 건 충분히 이해가 됩니다.",
+      "text": "남편분이 본인의 감정을 무시하는 것처럼 느껴지시는군요. 그럴 때 어떻게 되나요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "더 화나죠. '너는 내 편이 아니구나' 싶고... 그래서 혼자 삭이게 돼요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "감정을 억누르다가 쌓이는 패턴이네요. 그렇게 참다가 어떻게 되나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "제가 뭔가 지시를 하거나 피드백을 주면 속으로 비웃는 건 아닐까 하는 생각이 자꾸 들어요. 밤에 잠자리에 들면 그런 생각들이 계속 떠올라서...",
-      "turn": 7
+      "text": "어느 순간 폭발해요. 남편한테 소리 지르고, 울고... 그러고 나면 또 미안해지고..."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "팀원들의 반응이나 평가에 대해 많이 신경 쓰이시는군요. 그런 생각들이 밤에 특히 더 심해지나요?",
+      "text": "참았다가 폭발하고, 죄책감을 느끼는 악순환이군요. 이 패턴을 바꾸고 싶으신가요?",
+      "technique": [
+        "interpretation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "네... 이렇게는 못 살 것 같아요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "먼저 시어머니와의 경계를 설정해야 해요. 지금은 경계가 거의 없는 상태예요.",
+      "technique": [
+        "information_giving",
+        "interpretation"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "네, 낮에는 그래도 일에 집중하느라 괜찮은데, 밤에 혼자 있으면 오늘 했던 말이나 행동들이 계속 떠올라요. '내가 너무 권위적이었나', '저 말은 왜 그렇게 했지' 하면서요.",
-      "turn": 9
+      "text": "경계요? 어떻게 설정하나요?"
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "하루 동안의 일들을 반복적으로 되새기면서 자책하시는 것 같네요. 그런 생각들이 얼마나 자주 일어나나요?",
+      "text": "예를 들어 전화 받는 시간이나 빈도를 조절하는 거예요. 매일 받지 않아도 돼요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "안 받으면... 서운해하실 텐데요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "서운해하실 수 있어요. 하지만 본인의 정신 건강도 중요해요. '바빠서 나중에 드릴게요'라고 문자하는 것도 방법이에요.",
+      "technique": [
+        "validation",
+        "structuring"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "거의 매일이요. 새벽 2-3시까지 뒤척이다가 겨우 잠들면 6시에 일어나야 하니까... 요즘은 하루에 3-4시간밖에 못 자는 것 같아요.",
-      "turn": 11
+      "text": "그렇게 해도 될까요?"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "매일 3-4시간의 수면으로는 정말 힘드시겠어요. 이런 상황이 업무나 일상생활에도 영향을 미치고 있나요?",
+      "text": "네, 당연해요. 그리고 비판적인 말씀에는 단호하게 대응하는 연습도 필요해요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "단호하게요? 어떻게요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "'어머님, 그런 말씀은 상처가 돼요. 제 방식을 존중해주세요'라고 명확하게 말하는 거예요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "당연히 영향을 받죠. 낮에 회의하다가 집중력이 떨어지고, 짜증도 잘 나고... 그러면 또 '내가 팀장 자격이 없는 건 아닐까' 하는 생각이 들어요.",
-      "turn": 13
+      "text": "그렇게 말하면... 관계가 나빠지지 않을까요?"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "수면 부족으로 인한 어려움이 다시 자신에 대한 부정적인 생각으로 이어지는 악순환이 반복되고 있는 것 같습니다.",
+      "text": "단기적으론 불편할 수 있어요. 하지만 장기적으로는 서로를 존중하는 관계가 될 수 있어요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "남편한테는 어떻게 얘기하면 좋을까요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "'나는 당신이 내 편이 되어줬으면 좋겠어. 어머님께 내 감정을 전달해줄 수 있어?'라고 구체적으로 요청하세요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "interpretation"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요, 정확히 그래요. 악순환이에요. 이걸 어떻게 끊어야 할지 모르겠어요.",
-      "turn": 15
+      "text": "그렇게 말하면 들어줄까요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "그 악순환을 인식하신 것 자체가 중요한 첫걸음입니다. 혹시 승진 전에는 이런 불안이나 불면증을 경험하신 적이 있으셨나요?",
+      "text": "시도해볼 만해요. 그리고 명절 스트레스는 어떠세요?",
+      "technique": [
+        "encouragement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "명절은 정말... 지옥이에요. 온종일 일만 하고, 시댁 식구들은 TV만 보고..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "혼자 일하는 느낌이시군요. 남편이나 시댁 식구들에게 도움을 요청하시나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "아니요, 전에는 이런 적이 없었어요. 일반 팀원일 때는 제 업무만 잘하면 됐으니까요. 그때는 오히려 일이 재미있었는데...",
-      "turn": 17
+      "text": "처음엔 했는데... '며느리가 해야지' 이런 말 들으니까 그냥 제가 하게 돼요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "역할의 변화가 큰 영향을 미치고 있는 것 같네요. 팀장으로서의 역할에 대해 어떤 기대나 생각을 가지고 계신가요?",
+      "text": "역할 기대에 갇혀계시는군요. 하지만 명절 준비는 함께 해야 할 일이에요. 역할 분담을 제안해보세요.",
+      "technique": [
+        "interpretation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "저만 불만이 있는 건가 싶어서... 다른 며느리들도 다 하잖아요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "다른 사람과 비교하시는군요. 하지만 중요한 건 본인의 감정이에요. 힘들면 힘든 거예요.",
+      "technique": [
+        "reflection",
+        "validation"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "음... 완벽해야 한다고 생각해요. 팀원들한테 존경받고, 회사에서도 인정받고, 실수하면 안 되고... 그래야 팀장이라고 생각했어요.",
-      "turn": 19
+      "text": "맞아요. 정말 힘들어요."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "'완벽해야 한다'는 기준을 스스로에게 적용하고 계시는군요. 그 기준은 어디서 온 것 같으세요?",
+      "text": "감정을 인정하는 게 첫 단계예요. 그 다음은 변화를 위한 행동이에요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "변화... 할 수 있을까요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "할 수 있어요. 작은 것부터 시작하세요. 이번 주에 시어머니 전화 한 번은 나중에 받아보는 거예요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "글쎄요... 제가 존경했던 이전 팀장님이 그러셨던 것 같아요. 항상 침착하시고 실수가 없으셨거든요. 저도 그래야 한다고 생각했어요.",
-      "turn": 21
+      "text": "해볼게요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "롤모델이 되는 분이 계셨군요. 그런데 그분도 처음부터 완벽하셨을까요? 혹시 보이지 않는 곳에서 시행착오를 겪으셨을 수도 있지 않을까요?",
+      "text": "그리고 남편과 대화 시간을 정해서 본인의 감정을 차분하게 전달해보세요. 폭발하기 전에요.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "차분하게... 연습이 필요하겠네요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "그럼 연습해볼까요? 제가 남편 역할을 할게요. 어떻게 말씀하실 건가요?",
+      "technique": [
+        "structuring",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "아... 그런 생각은 해본 적이 없네요. 그분도 처음엔 힘들었을 수도 있겠네요.",
-      "turn": 23
+      "text": "음... '여보, 나 요즘 시댁 때문에 너무 힘들어. 당신이 좀 도와줬으면 좋겠어'?"
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "맞습니다. 모든 리더는 학습 과정을 거치게 됩니다. 지금 겪고 계신 어려움도 성장의 과정일 수 있어요. 팀원들과의 관계에서 긍정적인 경험은 없으셨나요?",
+      "text": "좋아요. 'I-message'를 잘 사용하셨어요. 비난이 아니라 감정 전달이에요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "이렇게 말하면 남편이 이해해줄까요?"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "보장할 순 없지만, 폭발하는 것보다 효과적일 거예요. 그리고 부부 상담도 고려해보세요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "음... 생각해보니 지난주에 김 대리가 제가 도와준 프로젝트 건으로 고맙다고 했어요. 그때는 기분이 좋았는데, 금방 잊어버렸네요.",
-      "turn": 25
+      "text": "부부 상담요?"
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "긍정적인 경험도 분명히 있으셨네요. 부정적인 생각에만 집중하다 보니 이런 긍정적인 순간들을 놓치고 계셨던 것 같습니다.",
+      "text": "네, 중립적인 공간에서 대화하면 서로를 이해하는 데 도움이 돼요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "남편한테 제안해볼게요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "좋아요. 이번 주에 경계 설정, 남편과 대화, 감정 일기 쓰기 해보시고 다음 주에 이야기 나눠요.",
+      "technique": [
+        "encouragement",
+        "summarization"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 저는 항상 잘못한 것만 생각하는 것 같아요. 왜 이러는 걸까요?",
-      "turn": 27
+      "text": "네, 해볼게요. 감사합니다."
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "완벽주의 성향이 강한 분들은 종종 부정적인 면에 더 집중하는 경향이 있습니다. 이것을 '부정적 편향'이라고 하는데, 자신을 보호하려는 뇌의 자연스러운 반응이기도 해요.",
-      "turn": 28,
-      "technique": "psychoeducation"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇군요. 그럼 이걸 어떻게 바꿀 수 있을까요?",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "먼저 하루의 긍정적인 순간들을 의식적으로 기록해보는 것은 어떨까요? 작은 것이라도 좋습니다. 그리고 잠들기 전에 그것들을 떠올려 보는 거예요.",
-      "turn": 30,
-      "technique": "suggestion"
-    },
-    {
-      "speaker": "client",
-      "text": "그게 도움이 될까요? 해볼 만은 한 것 같은데...",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "작은 실천이지만 생각의 패턴을 바꾸는 데 효과적입니다. 또한 '완벽한 팀장'보다는 '성장하는 팀장'이라는 목표로 방향을 전환해보시면 어떨까요?",
-      "turn": 32,
-      "technique": "cognitive_restructuring"
-    },
-    {
-      "speaker": "client",
-      "text": "성장하는 팀장... 그 말이 마음에 와닿네요. 조금 부담이 덜한 느낌이에요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "좋습니다. 그리고 불면증 개선을 위해 수면 위생도 함께 관리해보면 좋을 것 같아요. 잠들기 전 스마트폰 사용을 줄이고, 가벼운 스트레칭이나 호흡 운동을 해보시는 건 어떨까요?",
-      "turn": 34,
-      "technique": "suggestion"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 해보겠습니다. 오늘 상담하면서 제가 너무 스스로를 몰아붙이고 있었다는 걸 깨달았어요. 조금은 여유를 가져야겠어요.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "중요한 통찰을 얻으셨네요. 변화는 한 번에 일어나지 않습니다. 천천히, 작은 것부터 시작해보세요. 다음 상담 때 어떤 변화가 있었는지 함께 나눠보면 좋겠습니다.",
-      "turn": 36,
-      "technique": "encouragement"
+      "text": "변화는 시간이 걸려요. 조급해하지 마시고, 작은 성공을 축하하세요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2025-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1452",
   "metadata": {
-    "generated_at": "2025-12-17T14:52:40.615487+00:00",
+    "generated_at": "2025-12-18T03:01:34.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

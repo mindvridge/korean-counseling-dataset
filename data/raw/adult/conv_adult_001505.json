@@ -1,204 +1,370 @@
 {
-  "conversation_id": "CONV_20250623_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "여성",
-    "occupation": "중학교 교사"
+  "client_profile": {
+    "age": "29",
+    "gender": "여",
+    "occupation": "회계사무소 대리",
+    "background": "더 나은 환경을 위해 이직 준비 중이나 5곳 연속 최종 면접 탈락"
   },
-  "situation": "10년차 교사로서 최근 학생들과의 관계에서 어려움을 겪고 있으며, 번아웃과 함께 직업적 정체성에 대한 회의감을 느끼고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 사실 상담을 받는 게 처음이라 좀 떨리네요.",
-      "turn": 1
+      "text": "상담사님, 저 또 떨어졌어요. 이게 벌써 다섯 번째예요..."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음 오시는 분들은 다들 긴장하시는 게 자연스러운 일이에요. 편안하게 말씀해주시면 됩니다. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "안녕하세요. 연속으로 탈락하니까 많이 힘드시겠어요. 이직 준비를 언제부터 하셨나요?",
+      "technique": [
+        "empathy",
+        "open_question",
+        "structuring"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치고 있는데요. 10년째 교사로 일하고 있어요. 그런데 요즘 들어 학교에 가는 게 너무 힘들어요.",
-      "turn": 3
+      "text": "6개월 전부터요. 처음엔 자신 있었는데... 이제는 제가 뭐가 문제인지 모르겠어요. 서류는 통과하는데 최종 면접에서 계속 떨어져요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년이면 꽤 오랜 시간이네요. 학교에 가는 게 힘들다고 하셨는데, 구체적으로 어떤 점이 가장 힘드신가요?",
+      "text": "서류는 통과하는데 최종 면접에서 탈락한다는 건, 스펙은 충분하지만 면접에서 어떤 부분이 부족하다는 뜻일 수 있어요. 면접 후 피드백을 받아보신 적은 있나요?",
+      "technique": [
+        "interpretation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "몇 군데에서 받았는데요. '너무 긴장한 것 같다', '자신감이 부족해 보인다'는 피드백이었어요. 근데 긴장 안 할 수가 없잖아요..."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "긴장과 자신감 부족이 문제로 지적됐군요. 긴장하는 건 자연스러운 거예요. 하지만 그게 면접 내내 드러나면 불리할 수 있죠. 면접 때 구체적으로 어떤 상황인가요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "open_ended_question"
-    },
-    {
       "speaker": "client",
-      "text": "예전에는 아이들을 가르치는 게 정말 즐거웠거든요. 그런데 요즘은... 아이들이 수업에 집중을 안 하고, 제 말을 듣지 않는 것 같아요. 제가 무슨 말을 해도 스마트폰만 보거나 딴짓을 하고.",
-      "turn": 5
+      "text": "질문 받으면 머릿속이 하얘지고, 말을 더듬고... 준비한 대답도 까먹어요. 그러다 보면 더 긴장하고 악순환이에요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "예전에는 즐거웠던 가르치는 일이 지금은 아이들의 반응 때문에 힘들어지셨군요. 그런 변화를 경험하시면서 많이 속상하셨겠어요.",
+      "text": "불안이 심해지면서 평소 실력을 발휘하지 못하는 거네요. 처음 면접 때도 이랬나요, 아니면 탈락을 거듭하면서 더 심해졌나요?",
+      "technique": [
+        "emotion_labeling",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "처음엔 좀 나았는데, 떨어질수록 점점 더 심해졌어요. '또 떨어지면 어쩌지' 하는 생각에 더 긴장하게 돼요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "실패 경험이 쌓이면서 불안이 더 커진 거군요. 그리고 '또 떨어질 것 같다'는 예상이 실제로 그런 결과를 만들어낸 거예요. 자기충족적 예언이라고 해요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 그리고 제가 뭔가 잘못하고 있는 건 아닌가 하는 생각도 들고요. 다른 선생님들은 잘 하시는 것 같은데 저만 이런 것 같아서...",
-      "turn": 7
+      "text": "제가 스스로 망치고 있다는 말씀이세요? 근데 어떻게 해요... 생각이 자꾸 그렇게 되는데..."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "자신을 탓하시는 마음이 드시는군요. 혹시 다른 선생님들도 비슷한 어려움을 겪고 계신지 이야기를 나눠보신 적이 있으신가요?",
+      "text": "스스로를 탓하려는 게 아니에요. 패턴을 이해하는 거죠. 이해하면 바꿀 수 있어요. 지금 가장 힘든 부분이 뭔가요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "자신감이 완전히 바닥났어요. '나는 안 되나봐', '능력이 없나봐' 하는 생각만 들어요. 지금 직장도 그만두고 싶은데, 이직도 안 되니까 갇힌 느낌이에요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "자존감이 많이 낮아진 상태시고, 진퇴양난에 빠진 느낌이시군요. 현재 직장은 왜 그만두고 싶으신가요?",
+      "technique": [
+        "emotion_labeling",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "아니요, 그런 얘기를 하면 제가 무능한 것처럼 보일까 봐... 다들 바쁘고 힘들어 보이는데 제 하소연을 할 수도 없고요.",
-      "turn": 9
+      "text": "업무 강도가 너무 세고, 연봉도 낮고, 발전 가능성도 없어요. 그래서 이직하려는 건데... 안 되니까 더 답답하고..."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "어려움을 혼자 감당하고 계셨네요. 힘든 상황을 드러내는 것이 무능함으로 비춰질까 봐 걱정되셨던 거군요.",
+      "text": "현재 상황에 대한 불만과 이직 실패가 겹치면서 스트레스가 배가 됐네요. 한 가지 물어볼게요. 면접 준비는 어떻게 하고 계세요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "예상 질문 찾아서 답변 준비하고, 거울 보면서 연습하고... 그런데 막상 면접장 가면 다 소용없어요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "혼자 준비하시는군요. 모의 면접은 해보셨나요? 다른 사람 앞에서 연습해보는 것?",
+      "technique": [
+        "clarification",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그리고 요즘은 아침에 일어나는 것부터가 힘들어요. 학교 가기가 싫어서 출근 시간이 다가올수록 불안하고 답답해요.",
-      "turn": 11
+      "text": "아니요... 창피해서 아무한테도 말 못 했어요. 이직한다는 것도 비밀로 하고 있어서..."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "신체적으로도 증상이 나타나고 계시네요. 이런 증상은 언제부터 시작되셨나요?",
+      "text": "혼자서 모든 걸 감당하고 계시는군요. 그게 더 부담을 키우고 있을 수 있어요. 모의 면접은 정말 중요해요. 실전 같은 긴장감을 미리 경험해볼 수 있거든요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그럼 누구한테 부탁해야 하나요? 친구들한테 말하기도 좀 그렇고..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "이직 준비 커뮤니티나 스터디 그룹을 찾아보세요. 같은 처지의 사람들과 서로 모의 면접을 해주는 곳들이 많아요. 혼자가 아니라는 것만으로도 힘이 될 거예요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "open_ended_question"
-    },
-    {
       "speaker": "client",
-      "text": "한 6개월 전부터인 것 같아요. 작년에 담임을 맡으면서부터요. 학부모님들한테도 몇 번 항의를 받았거든요. 제가 아이들을 제대로 지도하지 못한다고...",
-      "turn": 13
+      "text": "그런 곳이 있어요? 찾아봐야겠네요. 그런데... 제 문제는 긴장인데, 모의 면접 한다고 나아질까요?"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "학부모님들의 항의까지 받으셨다니, 그 상황이 정말 힘드셨을 것 같아요. 그때 어떤 기분이 드셨나요?",
+      "text": "긴장은 낯선 상황에 대한 두려움에서 와요. 면접 상황에 익숙해지면 긴장이 줄어들어요. 그리고 피드백을 받으면서 개선점을 찾을 수 있고요. 지금은 뭐가 문제인지도 정확히 모르는 상태잖아요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "맞아요... 면접 후에 '아, 이걸 잘못했구나' 싶은데, 면접 중엔 몰라요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "그게 바로 모의 면접이 필요한 이유예요. 실시간 피드백을 받으면 즉각 수정할 수 있어요. 그리고 긴장 관리 기법도 배울 수 있고요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "너무 억울하고 화가 났어요. 하지만 동시에 제가 정말 못하는 건가 싶어서 자신감도 많이 떨어졌죠. 밤에 잠도 잘 못 자고요.",
-      "turn": 15
+      "text": "긴장 관리 기법이요? 예를 들면 어떤 게 있나요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "억울함과 분노, 그리고 자신감 저하를 동시에 경험하셨군요. 그런 복잡한 감정들을 안고 계속 일하시는 게 얼마나 힘드셨을까요.",
+      "text": "호흡법이 대표적이에요. 면접 전에 깊게 숨 쉬기, 긴장되는 순간 천천히 호흡하기. 그리고 긍정적인 자기 암시도 도움이 돼요. '나는 할 수 있다', '준비를 충분히 했다'처럼요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그런데 긍정적인 암시를 해도... 솔직히 안 믿어져요. 계속 떨어졌는데 뭘 믿고..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그 마음 이해해요. 하지만 부정적인 생각이 부정적인 결과를 만들어요. 생각을 바꾸는 것도 연습이 필요해요. '나는 못해'를 '나는 배우고 있어'로 바꾸는 거죠.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "선생님, 저 이 일을 계속해야 할까요? 요즘은 교사라는 직업을 선택한 게 맞았나 싶기도 하고... 그만두고 싶다는 생각도 자주 들어요.",
-      "turn": 17
+      "text": "생각을 바꾸는 게... 쉽지 않을 것 같아요. 자동으로 부정적인 생각이 들거든요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "지금 직업적 정체성에 대해 깊은 고민을 하고 계시는군요. 그만두고 싶다는 생각이 드신다고 하셨는데, 혹시 교사가 되기로 결심하셨을 때를 떠올려보실 수 있을까요?",
+      "text": "처음엔 어려워요. 하지만 부정적 생각이 들 때마다 의식적으로 멈추고 바꿔보세요. '또 떨어질 것 같아' → '이번엔 다를 수 있어'. 계속 반복하면 습관이 돼요.",
+      "technique": [
+        "validation",
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "연습해볼게요. 그런데... 다음 면접도 떨어지면 어떡하죠? 정말 자신이 없어요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "'만약 떨어지면'에 이미 집중하고 계시네요. 대신 '합격하려면 뭘 해야 하나'에 집중해보세요. 결과가 아니라 과정에 초점을 맞추는 거예요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "음... 제가 중학교 때 은사님이 계셨어요. 그분이 저를 많이 격려해주셨거든요. 저도 그런 선생님이 되고 싶었어요. 아이들에게 희망을 주는 사람이요.",
-      "turn": 19
+      "text": "과정에 집중하는 거요? 구체적으로 어떻게 하나요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "아이들에게 희망을 주는 선생님이 되고 싶으셨군요. 그 마음이 지금도 남아 있으신가요?",
+      "text": "'합격해야 해'보다 '오늘 면접에서 내 장점을 잘 보여주자', '준비한 것을 자신 있게 말하자'처럼 구체적인 행동 목표를 세우는 거예요. 결과는 통제할 수 없지만, 행동은 통제할 수 있어요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "아, 그렇게 생각하니까 조금 부담이 덜 되네요. 결과는 제가 어쩔 수 없는 거니까..."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "맞아요. 최선을 다하는 건 당신의 몫이지만, 최종 결정은 회사의 몫이에요. 탈락했다고 당신이 무능한 게 아니에요. 그냥 매칭이 안 된 거죠.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "open_ended_question"
-    },
-    {
       "speaker": "client",
-      "text": "그럼요, 아직도 그 마음은 있어요. 그런데 현실은 너무 다르잖아요. 제가 아무리 노력해도 아이들은 변하지 않고...",
-      "turn": 21
+      "text": "매칭이요? 그렇게 생각하면 덜 상처받을 것 같아요. 지금까지는 '내가 부족해서 떨어졌다'고만 생각했거든요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "초심은 여전히 간직하고 계시지만, 이상과 현실 사이의 간극이 크게 느껴지시는군요. 혹시 최근에 보람을 느꼈던 순간이 있으셨나요? 아주 작은 것이라도요.",
+      "text": "물론 개선할 점은 있어요. 긴장 관리, 면접 스킬 같은 것. 하지만 그게 당신의 가치를 결정하는 건 아니에요. 이해되시나요?",
+      "technique": [
+        "validation",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "네... 제 가치와 면접 결과를 분리해서 생각해야겠어요. 그럼 지금부터 뭘 해야 할까요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "정리해볼까요? 첫째, 이직 준비 스터디 그룹 찾기. 둘째, 모의 면접으로 실전 연습하기. 셋째, 긴장 관리 기법 연습하기. 넷째, 부정적 생각을 긍정적으로 바꾸기. 다섯째, 결과가 아닌 과정에 집중하기. 어때요?",
+      "technique": [
+        "summarization",
+        "structuring"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "strength_exploration"
-    },
-    {
       "speaker": "client",
-      "text": "글쎄요... 아, 지난주에 한 학생이 제 수업 후에 와서 시에 대해 질문했어요. 그때는 좀 기뻤죠. 그 애가 관심을 가져줘서.",
-      "turn": 23
+      "text": "좋아요. 구체적이어서 실천할 수 있을 것 같아요. 언제부터 시작하면 좋을까요?"
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "그 순간을 기억하고 계시네요. 학생이 관심을 보였을 때 느꼈던 그 기쁨이 바로 선생님께서 교사가 되고자 했던 이유와 연결되어 있는 것 같아요.",
+      "text": "바로 오늘부터요. 오늘 저녁에 스터디 그룹 검색해보고, 긍정적 자기 암시도 시작하세요. 다음 면접이 언제예요?",
+      "technique": [
+        "structuring",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "다음 주 금요일이요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "그럼 이번 주에 모의 면접 최소 2번은 해보세요. 그리고 매일 호흡법 연습하고, 긍정적 암시도 하루에 10번씩 해보세요. '나는 잘할 수 있어'라고요.",
+      "technique": [
+        "structuring",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 그런 순간들이 있긴 해요. 근데 그게 너무 드물어서... 대부분은 힘든 일들이 더 많아요.",
-      "turn": 25
+      "text": "네, 해볼게요. 그런데... 만약 이번에도 떨어지면 다시 와도 될까요?"
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "힘든 일들이 더 많이 보이시는 거군요. 지금 선생님께서는 번아웃을 경험하고 계신 것 같아요. 이건 개인의 무능함이 아니라 오랜 시간 쌓인 스트레스와 감정적 소진에서 오는 자연스러운 반응이에요.",
-      "turn": 26,
-      "technique": "psychoeducation"
+      "text": "물론이죠. 하지만 이번엔 다를 거예요. 준비를 다르게 하니까요. 그리고 중요한 건, 합격 여부와 상관없이 당신은 가치 있는 사람이에요. 잊지 마세요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     },
     {
+      "turn": 25,
       "speaker": "client",
-      "text": "번아웃이요? 그럼 저만 이런 게 아닐 수도 있다는 건가요?",
-      "turn": 27
+      "text": "감사합니다. 용기가 생겼어요. 이번엔 정말 최선을 다해볼게요."
     },
     {
+      "turn": 25,
       "speaker": "counselor",
-      "text": "네, 많은 교사분들이 비슷한 어려움을 겪고 계세요. 특히 헌신적으로 일하시는 분들일수록 번아웃에 더 취약하죠. 선생님의 어려움은 충분히 이해할 수 있고, 또 회복 가능한 것이에요.",
-      "turn": 28,
-      "technique": "normalization"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇군요. 그럼 저는 어떻게 해야 할까요? 이 상태에서 벗어날 수 있을까요?",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "물론이에요. 우선 선생님께서 지금 자신의 어려움을 인정하고 도움을 구하신 것 자체가 큰 첫걸음이에요. 앞으로 우리가 함께 선생님의 감정을 다루는 방법과 스트레스 관리 방법을 찾아갈 수 있어요.",
-      "turn": 30,
-      "technique": "encouragement"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 그렇게 해보고 싶어요. 다시 예전처럼 아이들을 가르치는 게 즐거웠으면 좋겠어요.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "그 목표를 향해 함께 나아가 보도록 해요. 다음 시간에는 선생님의 일상에서 실천할 수 있는 자기돌봄 방법들을 구체적으로 이야기해보면 어떨까요?",
-      "turn": 32,
-      "technique": "goal_setting"
-    },
-    {
-      "speaker": "client",
-      "text": "좋아요. 오늘 이야기하니까 마음이 좀 가벼워진 것 같아요. 감사합니다.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "마음이 조금이나마 가벼워지셨다니 다행이에요. 오늘 용기 내어 오셔서 솔직하게 말씀해주셔서 감사합니다. 다음 시간에 뵙겠습니다.",
-      "turn": 34,
-      "technique": "support"
+      "text": "그 마음가짐이 중요해요. 결과는 하늘에 맡기고, 과정에 최선을 다하세요. 다음 주 금요일, 응원할게요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "conversation_id": "ADU_20251218_1505",
   "metadata": {
-    "generated_at": "2025-12-17T14:59:30.278892+00:00",
+    "generated_at": "2025-12-18T03:01:37.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

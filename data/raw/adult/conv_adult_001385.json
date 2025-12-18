@@ -1,215 +1,300 @@
 {
-  "conversation_id": "CONV_20250627_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "여성",
-    "occupation": "중학교 교사"
+  "client_profile": {
+    "age": "38",
+    "gender": "남성",
+    "occupation": "중소기업 대리",
+    "background": "결혼 10년차, 아내와 성격 차이로 갈등, 이혼 고민"
   },
-  "situation": "10년차 교사로 학생들을 가르치는 일에 보람을 느껴왔으나, 최근 학부모의 과도한 민원과 학생들의 무례한 태도로 인해 번아웃을 경험하고 있으며, 퇴직을 고민하고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 상담 예약하고 오긴 했는데... 사실 여기 오는 것도 많이 망설였어요.",
-      "turn": 1
+      "text": "아내랑 맨날 싸워요. 성격이 너무 안 맞아요. 이혼을 고민 중입니다."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 오시느라 수고 많으셨어요. 상담실을 찾는 것이 쉬운 결정은 아니었을 텐데, 용기 내어 오셨네요. 편하게 이야기 나눠보면 좋겠습니다.",
+      "text": "잦은 갈등으로 이혼까지 고민하고 계시는군요. 10년을 함께하셨는데 쉽지 않은 결정이실 거예요. 어떤 점에서 성격이 안 맞으신가요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 저는 중학교에서 국어를 가르치고 있어요. 벌써 10년차인데, 요즘 들어 학교 가는 게 너무 힘들어요.",
-      "turn": 3
+      "text": "저는 조용히 집에서 쉬고 싶은데, 아내는 계속 밖에 나가자고 해요. 그리고 저는 계획적인데 아내는 즉흥적이고요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년이라는 시간 동안 학생들을 가르쳐오셨는데, 최근에 학교 가는 것이 많이 힘들어지셨군요. 어떤 점이 특히 힘드신가요?",
+      "text": "라이프스타일과 성향이 다르시군요. 내향적-외향적, 계획적-즉흥적 차이가 있네요. 결혼 초기부터 이런 차이가 있었나요?",
+      "technique": [
+        "restatement",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "있었죠. 근데 연애할 땐 그게 매력적이었어요. 아내가 활발하고 재밌어서 좋았거든요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "처음엔 매력으로 느껴졌던 차이가 이제는 갈등의 원인이 되었군요. 언제부터 이게 문제가 되기 시작했나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "처음엔 정말 열정적이었어요. 아이들이 성장하는 모습 보는 게 좋았고, 제가 도움이 될 수 있다는 게 뿌듯했거든요. 그런데 지금은... 매일 아침 일어나는 게 고통이에요.",
-      "turn": 5
+      "text": "아이 낳고 나서요. 육아하면서 제가 더 예민해졌나 봐요. 쉬고 싶은데 아내는 가족 나들이 가자고 하고..."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "처음의 열정과 보람이 있었던 시간들이 있었는데, 지금은 아침에 일어나는 것조차 고통스러울 만큼 힘든 상황이 되셨네요. 언제부터 이런 변화를 느끼셨나요?",
+      "text": "육아로 지친 상태에서 휴식 방식에 대한 욕구가 달라서 충돌하시는군요. 아내분은 왜 나들이를 원하실까요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "글쎄요... 가족끼리 시간을 보내고 싶다고 하는데, 저는 그게 휴식이 아니거든요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "본인에게는 휴식이 아니지만, 아내분에게는 가족과의 시간이 중요한 거군요. 두 분의 욕구가 다른 거예요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "작년부터인 것 같아요. 한 학부모님이 제 수업 방식에 대해 교육청에 민원을 넣으셨어요. 제가 자기 아이를 차별한다고...",
-      "turn": 7
+      "text": "그럼 어떻게 해야 하나요? 맨날 양보해야 하나요?"
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "그런 일이 있으셨군요. 학부모의 민원은 교사에게 매우 부담스러운 일일 수 있어요. 그 상황에 대해 좀 더 말씀해주실 수 있을까요?",
+      "text": "양보가 아니라 조율이 필요해요. 혹시 아내분과 이런 차이에 대해 진지하게 대화해보신 적 있으세요?",
+      "technique": [
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "대화요? 그냥 '난 피곤하다', '나가기 싫다'고만 했지..."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "거절만 하셨지 본인의 욕구나 아내의 욕구에 대해 깊이 얘기는 안 해보셨군요. 아내분은 뭐라고 하시나요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "사실 그 학생이 수업 시간에 계속 떠들고 다른 친구들을 방해해서 몇 번 주의를 줬어요. 그런데 그게 차별이라는 거예요. 조사 받고, 해명하고... 결국 아무 문제 없다고 결론 났지만 그 과정이 너무 힘들었어요.",
-      "turn": 9
+      "text": "'당신은 가족보다 쉬는 게 더 중요하냐'고 해요. 그럼 저도 화가 나서 '당신은 내 상황을 이해 안 하냐'고 하고... 싸움이 돼요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "정당한 교육적 지도였음에도 불구하고 민원으로 이어지고, 조사와 해명의 과정을 겪으셨네요. 결백이 밝혀졌지만 그 과정 자체가 매우 힘들고 상처가 되셨을 것 같습니다.",
+      "text": "서로 이해받지 못한다고 느끼시는군요. 두 분 다 자신의 입장만 주장하고 상대의 입장은 들으려 하지 않는 것 같아요.",
+      "technique": [
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "... 그런 것 같기도 하네요. 근데 10년 동안 계속 이랬는데 바뀔까요?"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "10년간 같은 패턴이었으니 회의적이실 수 있어요. 하지만 변화는 언제든 가능해요. 본인이 먼저 바뀌면요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 그 이후로 학생들을 대하는 게 조심스러워졌어요. 혹시라도 또 민원이 들어올까 봐... 제대로 된 지도도 못 하겠어요.",
-      "turn": 11
+      "text": "제가요? 왜 제가 바뀌어야 하죠?"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "그 경험 이후로 학생 지도에 있어서 위축되고 조심스러워지셨군요. 교사로서의 본연의 역할을 하는 데 어려움을 느끼고 계시는 것 같네요.",
+      "text": "상대를 바꿀 순 없지만 본인은 바꿀 수 있으니까요. 그리고 한 사람이 바뀌면 관계 역학도 바뀌어요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "구체적으로 뭘 바꾸라는 건가요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "대화 방식이요. 아내의 제안을 거절하기 전에, 아내의 욕구를 먼저 이해하려고 해보세요. '왜 나가고 싶은지' 물어보는 거죠.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 그리고 요즘 아이들은 예전과 달라요. 수업 중에 대놓고 휴대폰 보고, 주의하면 '왜요?'라고 되묻고... 존중받는 느낌이 전혀 없어요.",
-      "turn": 13
+      "text": "그런 다음엔요?"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "학생들의 태도 변화도 선생님을 힘들게 하는 요인이군요. 교사로서 존중받지 못한다고 느끼실 때 어떤 감정이 드시나요?",
+      "text": "그 다음 본인의 욕구도 표현하는 거예요. '나는 이런 이유로 쉬고 싶다'고요. 그리고 함께 해결책을 찾는 거죠.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "해결책이요? 둘 다 만족할 수 있는 게 있을까요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "예를 들어, 주말 하루는 가족 나들이, 하루는 각자 시간 갖기. 또는 나들이를 짧게 하고 집에서 함께 시간 보내기 같은 거요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "무력감? 허탈함? 제가 뭘 하고 있는 건가 싶어요. 내가 이렇게까지 해가면서 이 일을 계속해야 하나... 그런 생각이 들어요.",
-      "turn": 15
+      "text": "아... 그렇게 할 수도 있겠네요. 생각 못 했어요."
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "무력감과 허탈함을 느끼시고, 이 일을 계속해야 하는지에 대한 근본적인 회의감이 드시는군요. 그런 감정들이 드는 것은 지금 상황에서 자연스러운 반응입니다.",
+      "text": "대화 없이는 이런 아이디어가 나올 수 없어요. 서로의 욕구를 이해하고 나면 창의적인 해결책이 나와요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "근데 성격 차이는 어떡하죠? 그건 못 바꾸잖아요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "성격을 바꿀 필요는 없어요. 차이를 인정하고 존중하면 돼요. 차이가 문제가 아니라, 차이를 다루는 방식이 문제거든요.",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "normalization"
-    },
-    {
       "speaker": "client",
-      "text": "주변 동료 교사들도 다들 비슷해요. 다들 지쳐있고, 그냥 월급 받으러 온다는 식으로 얘기해요. 저도 그렇게 되어가는 것 같아서 무섭기도 하고요.",
-      "turn": 17
+      "text": "차이를 다루는 방식이요?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "동료들도 비슷한 어려움을 겪고 있고, 선생님도 그런 모습으로 변해가는 것 같아 두려우시군요. 선생님이 원하시는 교사의 모습은 어떤 건가요?",
+      "text": "네. 지금은 '당신이 이상하다'고 서로 비난하고 있잖아요. 대신 '우리가 다르구나. 어떻게 조율할까?'라고 접근하는 거예요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그렇게 하면 싸움이 줄어들까요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "완전히 없어지진 않겠지만 줄어들 거예요. 그리고 싸워도 건설적인 싸움이 될 수 있어요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "음... 저는 그냥 학생들과 소통하고, 제가 가르치는 국어를 통해 아이들이 생각하는 힘을 키웠으면 좋겠어요. 그런데 지금은 그런 여유가 전혀 없어요.",
-      "turn": 19
+      "text": "건설적인 싸움이요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "학생들과의 진정한 소통과 교육적 가치를 실현하고 싶으신 마음이 있으시네요. 그런 본질적인 부분에 집중할 여유가 없는 현실이 답답하실 것 같습니다.",
+      "text": "네. 서로를 비난하는 대신 문제를 해결하는 방향으로 싸우는 거죠. 이혼을 결정하기 전에 이런 시도를 해보시는 게 어떨까요?",
+      "technique": [
+        "clarification",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "... 한번 해볼게요. 10년을 함께했는데 그냥 포기하긴 아깝긴 하네요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "좋은 결정이에요. 이번 주에 아내분과 대화 시간을 가져보시고, 다음 주에 어떠셨는지 얘기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 그래서 요즘 진지하게 퇴직을 고민하고 있어요. 남편한테도 얘기했는데, 남편은 좀 더 생각해보라고 하더라고요.",
-      "turn": 21
+      "text": "네, 그렇게 하겠습니다. 감사합니다."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "퇴직까지 고려하실 만큼 힘든 상황이시군요. 남편분께서는 좀 더 생각해보라고 하셨는데, 선생님은 그 말씀을 들으시고 어떠셨어요?",
-      "turn": 22,
-      "technique": "open_question"
-    },
-    {
-      "speaker": "client",
-      "text": "한편으로는 맞는 말이에요. 10년을 했는데 쉽게 그만둘 수는 없죠. 그런데 또 한편으로는 제 마음을 잘 모르는 것 같아서 속상하기도 했어요.",
-      "turn": 23
-    },
-    {
-      "speaker": "counselor",
-      "text": "이성적으로는 신중해야 한다는 걸 아시지만, 감정적으로는 지금의 고통을 이해받고 싶으신 마음도 있으시군요. 두 가지 마음 사이에서 갈등하고 계신 것 같네요.",
-      "turn": 24,
-      "technique": "reflection"
-    },
-    {
-      "speaker": "client",
-      "text": "맞아요. 그리고 사실 제가 그만두면 경제적으로도 부담이 되잖아요. 그것도 걱정이에요. 하지만 이대로 계속하다간 정말 병이 날 것 같아요.",
-      "turn": 25
-    },
-    {
-      "speaker": "counselor",
-      "text": "경제적 안정과 정신적 건강 사이에서 고민이 크시네요. 두 가지 모두 중요한 부분이기 때문에 선택이 쉽지 않으실 것 같습니다. 요즘 신체적으로는 어떠신가요?",
-      "turn": 26,
-      "technique": "empathy"
-    },
-    {
-      "speaker": "client",
-      "text": "잠을 잘 못 자요. 일요일 밤만 되면 불안해서 잠이 안 와요. 그리고 두통도 자주 생기고... 병원 가서 검사해봤는데 특별한 건 없다고 하더라고요.",
-      "turn": 27
-    },
-    {
-      "speaker": "counselor",
-      "text": "불면과 두통까지 경험하고 계시는군요. 신체적 증상으로까지 나타나고 있다는 것은 지금의 스트레스가 상당히 심각한 수준임을 보여주는 것 같습니다.",
-      "turn": 28,
-      "technique": "validation"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇죠? 제가 예민한 건가 싶기도 했는데... 정말 힘든 게 맞는 거죠?",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "네, 선생님이 예민하신 게 아니라 실제로 매우 힘든 상황을 겪고 계신 겁니다. 선생님의 고통은 충분히 타당하고, 도움을 구하신 것은 현명한 선택이었어요.",
-      "turn": 30,
-      "technique": "validation"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇게 말씀해주시니 조금 위로가 되네요. 그럼 저는 어떻게 해야 할까요? 계속 버텨야 하나요, 아니면 그만둬야 하나요?",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "당장 그만두거나 버티는 것 중에 선택하시기보다는, 먼저 선생님의 상태를 회복하는 것에 집중해보면 어떨까요? 그 후에 더 명확한 판단을 하실 수 있을 것 같습니다.",
-      "turn": 32,
-      "technique": "suggestion"
-    },
-    {
-      "speaker": "client",
-      "text": "상태를 회복한다는 게... 구체적으로 어떤 걸 말씀하시는 건가요?",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "지금 선생님은 번아웃 상태에 있으신 것 같아요. 우선 충분한 휴식과 자기 돌봄이 필요하고, 상담을 통해 감정을 정리하고, 가능하다면 단기적으로라도 업무 부담을 줄이는 방법을 찾아보는 것이 도움이 될 수 있습니다.",
-      "turn": 34,
-      "technique": "psychoeducation"
-    },
-    {
-      "speaker": "client",
-      "text": "번아웃... 그런 것 같기도 해요. 그런데 학교에서 휴직하기도 쉽지 않고, 그냥 버티는 수밖에 없는 것 같아요.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "시스템적인 제약이 있는 것도 사실이지만, 그 안에서도 선생님이 할 수 있는 작은 변화들이 있을 거예요. 앞으로 상담을 통해 함께 찾아가보면 좋겠습니다. 오늘 이렇게 시작하신 것만으로도 중요한 첫걸음이에요.",
-      "turn": 36,
-      "technique": "encouragement"
+      "text": "잘하실 거예요. 관계를 위해 노력하시는 모습이 훌륭해요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1385",
   "metadata": {
-    "generated_at": "2025-12-17T14:43:26.018111+00:00",
+    "generated_at": "2025-12-18T03:01:31.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

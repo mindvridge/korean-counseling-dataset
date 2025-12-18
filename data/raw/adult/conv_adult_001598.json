@@ -1,204 +1,439 @@
 {
-  "conversation_id": "CONV_20250101_ADT_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "여성",
-    "occupation": "중학교 교사"
+  "client_profile": {
+    "age": "40",
+    "gender": "남성",
+    "occupation": "중소기업 영업팀장",
+    "background": "입사 12년차, 신임 사장의 비현실적 목표 설정으로 압박, 팀원들에게도 스트레스 전이"
   },
-  "situation": "10년차 교사로서 최근 학생들과의 관계에서 어려움을 겪고 있으며, 번아웃과 직업에 대한 회의감을 느끼고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 상담 받는 게 처음이라 좀 떨리네요.",
-      "turn": 1
+      "text": "신임 사장님이 오시면서 회사 분위기가 완전히 바뀌었어요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음 상담을 받으러 오시는 게 쉽지 않으셨을 텐데, 이렇게 용기 내주셔서 감사합니다. 편안하게 말씀해 주시면 됩니다. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "새 사장님이 오시면서 변화가 생겼군요. 어떻게 바뀌었나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치는 교사인데요... 요즘 학교 가는 게 너무 힘들어요. 아침에 일어나면 출근하기가 싫고, 교실에 들어가는 것 자체가 두렵습니다.",
-      "turn": 3
+      "text": "매출 목표를 두 배로 올리셨어요. 현실적으로 불가능한 숫자인데... 무조건 달성하라고만 하세요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "학교에 가는 것 자체가 두렵고 힘드시다니, 많이 힘드신 상황이시네요. 교사 생활을 하신 지는 얼마나 되셨나요?",
+      "text": "현재의 두 배라는 목표를 설정하셨군요. 왜 불가능하다고 생각하시나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "시장 상황, 인력, 자원... 모든 게 부족해요. 작년에도 목표 달성하느라 죽어라 일했는데, 그걸 두 배로 하라니..."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "객관적으로 자원이 부족한 상황에서 목표만 높아진 거네요. 이걸 사장님께 말씀드려 보셨나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "올해로 10년차예요. 처음엔 정말 열정적으로 했었어요. 학생들 가르치는 게 좋았고, 아이들이 성장하는 모습을 보면 뿌듯했거든요. 그런데 언제부턴가... 모든 게 무의미하게 느껴져요.",
-      "turn": 5
+      "text": "말씀드렸죠. '방법을 찾으면 된다, 그게 팀장의 역할이다'라고 하시더라고요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "10년간 열정을 가지고 학생들을 가르쳐오셨는데, 최근에는 그 의미가 느껴지지 않으신다는 거군요. 언제부터 이런 변화를 느끼셨나요?",
+      "text": "구체적인 지원 없이 '방법을 찾으라'는 답변을 들으셨군요. 그때 어떤 감정이 드셨어요?",
+      "technique": [
+        "reflection",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "답답하고 화나고... '이분은 현장을 모르시는구나' 싶었어요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "현장과 괴리된 지시를 받는 것 같아서 답답하시군요. 지금 이 목표 달성률은 어떻게 되나요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "정확히는 모르겠지만... 작년 말쯤부터인 것 같아요. 한 학생이 수업 시간에 계속 휴대폰을 하길래 주의를 줬는데, 그 학부모가 학교에 찾아와서 저한테 고함을 지르고... 그 일이 있고 나서부터 뭔가 달라진 것 같아요.",
-      "turn": 7
+      "text": "50% 정도요? 그것도 팀원들이 과로하면서 겨우 만들어낸 건데, 사장님은 '왜 이것밖에 안 되냐'고 하세요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "학생을 지도하는 과정에서 학부모와 힘든 일을 겪으셨군요. 그 경험이 지금까지도 영향을 미치고 있는 것 같네요. 그때 어떤 감정을 느끼셨나요?",
+      "text": "팀원들이 과로하면서도 50%인데, 그조차 불만족스러워하시는군요. 팀원들은 어떤 상태인가요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "다들 지쳐있어요. 사기도 바닥이고... 저한테 '팀장님, 이거 정말 해야 해요?'라고 물어봐요. 저도 모르겠어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "팀원들도 힘들어하고, 팀장으로서 본인도 답을 못 찾고 계시는군요. 가장 힘든 부분은 뭔가요?",
+      "technique": [
+        "empathy",
+        "emotion_labeling"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "처음엔 황당했어요. 제가 잘못한 게 없는데... 그런데 학교에서도 별로 저를 지지해주지 않더라고요. 오히려 '좀 더 부드럽게 대처하지 그랬냐'는 식이었어요. 그때 정말 배신감을 느꼈어요.",
-      "turn": 9
+      "text": "위에서는 압박하고, 아래에서는 불만이 올라오고... 저는 중간에서 샌드위치 신세예요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "정당한 지도를 했는데도 오히려 비난을 받고, 지지받지 못했다고 느끼셨군요. 그런 상황에서 배신감과 억울함을 느끼신 게 당연해 보입니다.",
+      "text": "중간 관리자로서 양쪽의 압력을 다 받고 계시는군요. 이런 상황이 얼마나 지속됐나요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "새 사장님 오신 지 6개월째요. 매달 회의 때마다 스트레스받고..."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "6개월간 지속된 압박이군요. 지금 가장 필요한 게 뭐라고 생각하세요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그 이후로 학생들을 대하는 게 조심스러워졌어요. 뭘 해도 문제가 될 것 같고, 학부모들이 또 찾아올까 봐 불안하고요. 수업도 그냥 교과서대로만 하게 되고...",
-      "turn": 11
+      "text": "현실적인 목표요. 아니면 목표 달성을 위한 실질적 지원..."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "그 사건 이후로 학생들과의 관계에서 위축되고 불안함을 느끼고 계시는군요. 예전에 가지고 계셨던 교육에 대한 열정과 자유로움이 많이 제한된 것 같네요.",
+      "text": "목표 조정이나 자원 지원이 필요하시군요. 이걸 어떻게 요청하면 좋을까요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "이미 말씀드렸는데 안 들어주시는데요..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "이전 요청이 받아들여지지 않았던 건, 방식의 문제일 수 있어요. 데이터를 준비해서 제안해보셨나요?",
+      "technique": [
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 예전엔 창의적인 수업도 하고, 학생들과 개별적으로 이야기도 많이 나눴는데... 지금은 그냥 시간만 때우고 있는 것 같아요. 저 자신이 너무 한심하게 느껴져요.",
-      "turn": 13
+      "text": "데이터요?"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "스스로를 한심하게 느끼신다고 하셨는데, 그건 너무 가혹한 평가가 아닐까요? 힘든 경험 이후에 자신을 보호하려는 자연스러운 반응일 수 있어요.",
+      "text": "네. 현재 시장 점유율, 경쟁사 성장률, 필요 인력과 예산 같은 구체적 수치를 제시하면서 '현재 자원으로 가능한 현실적 목표'를 역제안하는 거예요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "아, 감정적으로 '힘들다'가 아니라 객관적 데이터로 말씀드리는 거군요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "정확해요. 사장님 같은 분들은 데이터에 더 반응하시거든요. 그리고 문제만 제시하지 말고 대안도 함께 제시하세요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 생각해본 적은 없었네요... 하지만 학생들한테 미안해요. 제가 제대로 가르치지 못하고 있는 것 같아서요.",
-      "turn": 15
+      "text": "대안이요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "학생들에 대한 책임감이 여전히 크시네요. 그런 마음이 있다는 것 자체가 선생님이 여전히 교육자로서의 소명을 가지고 계시다는 증거가 아닐까요?",
+      "text": "'목표를 낮춰주세요'가 아니라, '영업 인력 2명 충원 시 X% 증대 가능합니다' 또는 '마케팅 예산 증액 시 Y% 성장 가능합니다' 같은 식으로요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "제안서 형태로 준비해야겠네요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "맞아요. 그리고 팀원들과도 솔직한 대화가 필요해요. 지금 본인이 중간에서 압력을 혼자 받고 계시잖아요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "소명이라... 예전엔 그런 게 있었던 것 같은데, 지금은 잘 모르겠어요. 그냥 관성으로 다니는 것 같아요. 다른 일을 할 수도 없고...",
-      "turn": 17
+      "text": "팀원들한테 뭐라고 말하죠? 위에서 압박한다고?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "지금은 관성으로 다니고 계신다고 느끼시는군요. 혹시 최근에 교사로서 보람을 느꼈던 순간이 있으셨나요? 아주 작은 것이라도요.",
+      "text": "상황을 공유하되, 함께 해결책을 찾자고 제안하는 거예요. '회사 목표가 이렇습니다. 현실적으로 어려운 상황이지만, 우리가 할 수 있는 최선을 찾아봅시다' 이런 식으로요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "팀원들을 참여시키는 거군요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "네. 그럼 '팀장이 우리를 압박한다'가 아니라 '우리가 함께 어려운 상황을 해결한다'가 되거든요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "solution_focused"
-    },
-    {
       "speaker": "client",
-      "text": "음... 생각해보니 지난주에 한 학생이 제 수업이 재미있다고 쪽지를 남기고 갔었어요. 그때 잠깐 기분이 좋았던 것 같긴 해요.",
-      "turn": 19
+      "text": "그렇게 하면 팀 분위기가 좀 나아질까요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "그 순간을 기억하시는군요. 학생의 그 쪽지를 받았을 때 어떤 감정이 드셨나요?",
+      "text": "가능성이 있어요. 투명하게 소통하면 신뢰가 생기거든요. 그리고 팀원들의 아이디어 중에 좋은 게 나올 수도 있고요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "해볼게요. 이번 주 팀 회의 때 이야기해볼게요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 본인의 스트레스 관리도 중요해요. 중간 관리자의 스트레스가 가장 높거든요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "뭔가... 따뜻한 느낌? 아, 내가 완전히 쓸모없는 건 아니구나 하는 생각이 들었어요. 그런데 그것도 잠깐이었고, 금방 또 무기력해졌어요.",
-      "turn": 21
+      "text": "저도 지쳤어요. 집에 가면 아내한테 짜증만 내고..."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "그 따뜻한 감정이 오래 지속되지 않아서 아쉬우셨겠어요. 하지만 여전히 그런 순간들이 있다는 건 중요한 것 같아요. 선생님께서 지금 가장 필요하다고 느끼시는 게 무엇일까요?",
+      "text": "스트레스가 가정에까지 영향을 미치는군요. 본인만의 스트레스 해소 방법이 있으신가요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "예전엔 운동했는데 요즘은 시간이 없어서..."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "운동이 도움이 됐었군요. 일주일에 한두 번이라도 시간을 내보는 건 어떨까요?",
+      "technique": [
+        "reflection",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "잘 모르겠어요... 예전의 열정을 되찾고 싶긴 한데, 그게 가능할지 모르겠어요. 그리고 학생들이나 학부모가 무섭지 않았으면 좋겠어요.",
-      "turn": 23
+      "text": "그럴 시간이 어디 있어요..."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "열정을 되찾고 싶은 마음과 동시에 불안감에서 벗어나고 싶으신 거군요. 두 가지 모두 중요한 목표네요. 만약 그 불안감이 조금 줄어든다면, 어떤 변화가 있을 것 같으세요?",
+      "text": "시간을 '찾는' 게 아니라 '만드는' 거예요. 본인이 건강해야 팀도 이끌 수 있어요. 쓰러지면 누가 팀을 챙기나요?",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "... 그렇긴 하네요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "일주일에 2시간이라도 본인을 위한 시간을 확보하세요. 그게 투자예요.",
+      "technique": [
+        "goal_setting",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "scaling_question"
-    },
-    {
       "speaker": "client",
-      "text": "음... 아마 수업 준비를 좀 더 열심히 할 것 같아요. 학생들한테도 좀 더 다가갈 수 있을 것 같고요. 지금은 너무 거리를 두고 있거든요.",
-      "turn": 25
+      "text": "알겠습니다. 해보겠습니다."
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "불안감이 줄어들면 자연스럽게 학생들과의 관계도 회복될 수 있을 거라고 생각하시는군요. 그 불안감을 다루는 것부터 시작해볼까요?",
+      "text": "이번 주에 할 수 있는 것들을 정리해볼까요? 데이터 기반 제안서 준비하기, 팀원들과 솔직한 대화하기, 일주일에 2시간 운동 시간 확보하기. 이 중에서 가장 먼저 할 건 뭔가요?",
+      "technique": [
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "팀원들과 대화요. 이번 주 팀 회의가 있으니까."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 제안서는 2주 안에 준비해보세요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "goal_setting"
-    },
-    {
       "speaker": "client",
-      "text": "네, 그게 좋을 것 같아요. 근데 어떻게 해야 할지 모르겠어요. 그냥 시간이 지나면 나아질까요?",
-      "turn": 27
+      "text": "네, 데이터 수집부터 시작하겠습니다."
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "시간이 도움이 될 수도 있지만, 적극적으로 다뤄보는 것도 필요할 것 같아요. 선생님께서 겪으신 그 사건은 일종의 트라우마로 작용하고 있는 것 같거든요. 함께 천천히 그 경험을 처리해나가면 어떨까요?",
+      "text": "훌륭해요. 운동은 언제 하실 건가요?",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "토요일 아침에... 2시간 정도?"
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "구체적으로 계획을 세우셨네요. 지키실 수 있겠어요?",
+      "technique": [
+        "encouragement",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 28,
-      "technique": "psychoeducation"
-    },
-    {
       "speaker": "client",
-      "text": "트라우마라는 말을 들으니까 뭔가 심각하게 느껴지네요. 저는 그냥 제가 나약한 거라고 생각했거든요.",
-      "turn": 29
+      "text": "네, 해보겠습니다. 제가 건강해야 팀도 이끌 수 있다는 말씀이 와닿았어요."
     },
     {
+      "turn": 28,
       "speaker": "counselor",
-      "text": "나약함이 아니에요. 누구나 그런 상황에서는 상처를 받을 수 있어요. 오히려 10년간 헌신해온 일에서 받은 상처이기 때문에 더 깊게 느껴지는 것일 수 있습니다.",
+      "text": "오늘 상담에서 어떤 게 가장 도움이 되셨나요?",
+      "technique": [
+        "open_question",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "감정이 아니라 데이터로 접근하는 것, 팀원들과 함께 해결책을 찾는 것, 그리고 제 자신도 돌봐야 한다는 거요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "핵심을 잘 정리하셨네요. 중간 관리자로서 어려우시겠지만, 전략적으로 접근하시면 충분히 해결할 수 있어요. 다음 주에 어떻게 진행됐는지 이야기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 30,
-      "technique": "normalization"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 말씀해주시니 좀 위안이 되네요. 혼자서는 이런 생각을 못했을 것 같아요.",
-      "turn": 31
+      "text": "감사합니다. 방향이 보이는 것 같아요. 다음 주에 뵙겠습니다."
     },
     {
+      "turn": 30,
       "speaker": "counselor",
-      "text": "혼자 감당하시느라 많이 힘드셨을 거예요. 앞으로 함께 이 과정을 천천히 걸어가보면 좋겠습니다. 다음 상담에서는 선생님의 불안을 좀 더 구체적으로 살펴보고, 대처 방법을 찾아볼까요?",
-      "turn": 32,
-      "technique": "support"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 좋아요. 오늘 이야기하고 나니까 조금은 마음이 가벼워진 것 같아요. 감사합니다.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "다행이네요. 오늘 용기 내어 이야기해주셔서 감사합니다. 다음 상담 때 뵙겠습니다.",
-      "turn": 34,
-      "technique": "closing"
+      "text": "12년간 쌓으신 경험과 리더십을 믿으세요. 잘하실 거예요. 다음 주에 뵙겠습니다.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1598",
   "metadata": {
-    "generated_at": "2025-12-17T15:12:30.742782+00:00",
+    "generated_at": "2025-12-18T03:01:41.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

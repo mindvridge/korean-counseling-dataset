@@ -1,215 +1,300 @@
 {
-  "conversation_id": "CONV_20250101_ADT_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "37",
     "gender": "남성",
-    "occupation": "중견기업 마케팅팀 과장"
+    "occupation": "IT 스타트업 대표",
+    "background": "연애 경험 부족, 결혼 의지 없음, 주변 압박과 외로움 사이 갈등"
   },
-  "situation": "최근 승진 후 업무 부담과 팀 관리 스트레스로 인해 불면증과 불안감을 겪고 있으며, 가족과의 시간도 부족해져 죄책감을 느끼는 상황",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 상담 받아본 적이 처음이라 좀 긴장되네요.",
-      "turn": 1
+      "text": "주변에서 결혼 안 하냐고 계속 물어봐요. 솔직히 필요성을 못 느끼는데... 이상한 건가요?"
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음 상담실을 찾는 것은 누구에게나 긴장되는 일이에요. 편안하게 이야기 나눠보도록 해요. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "결혼의 필요성을 느끼지 못하신다는 게 이상한 건 아니에요. 각자 다른 가치관을 가질 수 있으니까요. 결혼에 대해 어떻게 생각하시나요?",
+      "technique": [
+        "validation",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "사실 요즘 잠을 제대로 못 자고 있어요. 3개월 전에 과장으로 승진했는데, 그 이후로 계속 힘들어요.",
-      "turn": 3
+      "text": "복잡하고 귀찮은 것 같아요. 혼자 사는 게 편한데 왜 굳이 누군가와 살아야 하나 싶고요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "승진 후 3개월 동안 불면증을 겪고 계시는군요. 승진은 좋은 일이지만 동시에 새로운 부담도 가져오는 것 같네요.",
+      "text": "현재 혼자의 삶에 만족하고 계시는군요. 연애 경험은 있으신가요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "거의 없어요. 한두 번 만나다가 끝났고... 깊은 관계까지 간 적은 없어요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "친밀한 관계 경험이 많지 않으시군요. 그게 결혼에 대한 생각에 영향을 미칠 수도 있어요. 연애가 안 됐던 이유가 뭐라고 생각하세요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 팀원들을 관리해야 하는데 제가 그런 역할을 잘할 수 있을지 모르겠어요. 전에는 제 일만 잘하면 됐는데, 이제는 다른 사람들까지 신경 써야 하니까요.",
-      "turn": 5
+      "text": "제가 연애에 관심이 없었어요. 일이 더 재밌고 중요했거든요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "개인 기여자에서 관리자로의 역할 전환이 쉽지 않으시군요. 이전과는 완전히 다른 역량이 요구되는 상황에서 부담을 느끼시는 것 같아요.",
+      "text": "일에 집중하면서 연애 우선순위가 낮았군요. 지금도 여전히 그런가요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "네. 회사 키우는 게 목표고... 연애나 결혼은 그다음 문제 같아요. 근데 주변에서 계속 물어보니까 제가 잘못된 건가 싶기도 하고요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "주변의 질문이 본인을 의심하게 만드는군요. 하지만 우선순위는 사람마다 달라요. 잘못된 게 아니에요.",
+      "technique": [
+        "empathy",
+        "validation"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네, 정확해요. 그리고 밤에 잠자리에 누우면 자꾸 내일 할 일들이 떠올라요. '이건 제대로 전달했나', '저 직원은 제 지시를 이해했을까' 이런 생각들이요.",
-      "turn": 7
+      "text": "근데 이렇게 계속 혼자 살아도 괜찮을까요? 나중에 늙으면 외롭지 않을까요?"
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "밤에도 업무에 대한 걱정이 계속되면서 마음을 쉴 수가 없는 상태네요. 이런 상황이 얼마나 지속되셨나요?",
+      "text": "미래에 대한 불안이 있으시군요. 지금 외롭다고 느끼시나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "가끔요. 퇴근하고 집에 혼자 있으면... 근데 그렇다고 누군가와 살고 싶은 건 아니에요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "외로움은 느끼지만 동거는 원하지 않으시는군요. 외로움을 해소하는 다른 방법들도 있어요. 친구나 가족은 어떠세요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "거의 매일이에요. 새벽 2-3시까지 뒤척이다가 겨우 잠들고, 아침 7시에 일어나야 하니까 항상 피곤해요. 낮에도 집중이 안 되고요.",
-      "turn": 9
+      "text": "친구들은 다 결혼해서 바쁘고... 가족은 지방에 있어요. 자주 못 봐요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "하루 4-5시간 정도만 주무시는 거네요. 그렇게 수면이 부족한 상태가 계속되면 업무 집중력은 물론 전반적인 컨디션에도 영향을 미칠 수밖에 없어요.",
+      "text": "가까운 사람들과의 접촉이 줄어들었군요. 새로운 사회적 관계를 만들 생각은 없으세요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "어떻게요? 일하느라 시간도 없는데..."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "시간이 없다고 느끼시지만, 외로움을 해소하려면 관계에 시간을 투자해야 해요. 결혼이 아니어도 취미 모임이나 동호회 같은 것도 있죠.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 그리고 집에 가면 아내와 아이들이 있는데, 너무 피곤해서 제대로 놀아주지 못하고 있어요. 그게 또 마음에 걸려요.",
-      "turn": 11
+      "text": "그런 건 생각 안 해봤네요. 결혼 아니면 혼자인 줄 알았어요."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "가족과 함께하는 시간도 제대로 갖지 못하고 계시는군요. 일과 가정 양쪽에서 모두 부담을 느끼고 계신 것 같아요.",
+      "text": "결혼과 고립 사이에 많은 선택지가 있어요. 친구, 동료, 커뮤니티 등으로 외로움을 해소할 수 있죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그럼 결혼은 안 해도 되는 건가요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "결혼은 의무가 아니에요. 선택이죠. 본인이 원하지 않으면 안 해도 돼요. 다만 외로움을 관리하는 방법은 필요해요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네... 아내가 며칠 전에 '요즘 당신 표정이 너무 어둡다'고 했어요. 그 말을 듣고 나니까 더 미안하고 죄책감이 들더라고요.",
-      "turn": 13
+      "text": "부모님은 어떻게 설득해요? '대를 이어야 한다'고 하시는데..."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "배우자분이 걱정하시는 모습을 보면서 더 힘드셨겠어요. 가족에게 좋은 모습을 보여주고 싶은데 현실은 그렇지 못해서 생기는 괴리감이 느껴지네요.",
+      "text": "부모님 세대의 가치관이 있으시겠죠. 하지만 본인의 삶이에요. 솔직하게 결혼 의사가 없다고 말씀드리는 게 어떨까요?",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "큰일 나겠네요. 엄청 실망하실 텐데..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "처음엔 그러실 수 있어요. 하지만 시간이 지나면 받아들이실 거예요. 그리고 본인이 행복하면 부모님도 결국 안심하시게 돼 있어요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "정확해요. 저는 좋은 남편이자 아빠가 되고 싶은데, 회사에서도 인정받고 싶고... 둘 다 잘하고 싶은데 둘 다 못하는 것 같아요.",
-      "turn": 15
+      "text": "만약에요, 만약에 나중에 마음이 바뀌면 어떡하죠?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "두 영역 모두에서 완벽하게 해내고 싶은 마음이 크신 것 같아요. 혹시 '완벽하게 해내지 못하면 안 된다'는 생각이 자주 드시나요?",
+      "text": "그럼 그때 생각하면 돼요. 지금 결정이 평생 결정이 아니에요. 사람은 변하고, 우선순위도 바뀌죠.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그렇긴 하네요. 지금은 확실히 필요성을 못 느끼거든요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그럼 지금은 그 감정을 존중하세요. 억지로 결혼하면 본인도 상대방도 불행해져요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "음... 그런 것 같아요. 승진했으니까 더 잘해야 한다는 압박감이 있어요. 주변에서도 기대하는 게 느껴지고요.",
-      "turn": 17
+      "text": "맞는 말이에요. 근데 혹시 제가 친밀감 회피형이거나 그런 건 아닐까요?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "승진 후 자신에게도, 주변 사람들에게도 더 높은 기준을 적용하고 계시는군요. 그 기대에 부응해야 한다는 압박이 상당히 크게 느껴지시는 것 같아요.",
+      "text": "그럴 수도 있어요. 하지만 그게 꼭 나쁜 건 아니에요. 어떤 사람은 독립성을 더 중시하거든요. 관계에서 불편함을 느끼시나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "가까워지면 부담스러워요. 제 공간이 침범당하는 느낌?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "경계가 중요하신 타입이시군요. 그런 사람들은 독립적인 관계를 선호해요. 결혼보다는 각자의 공간을 유지하는 관계가 더 맞을 수 있어요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네. 그런데 제가 이렇게 힘들어하는 게 좀 한심하게 느껴지기도 해요. 다른 사람들은 다 잘하는 것 같은데 저만 못하는 것 같아서요.",
-      "turn": 19
+      "text": "그런 관계도 가능한가요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "다른 사람들과 비교하면서 자신을 평가절하하고 계시네요. 하지만 새로운 역할에 적응하는 과정에서 어려움을 겪는 것은 매우 자연스러운 일이에요. 그것이 무능함의 증거가 아니라 성장 과정의 일부입니다.",
+      "text": "물론이죠. 각자 집을 유지하면서 만나는 커플들도 있고, 법적 결혼 없이 동반자 관계를 유지하는 사람들도 있어요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "그런 선택지가 있다는 걸 몰랐어요. 조금 안심이 되네요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "본인에게 맞는 형태를 찾으면 돼요. 전통적인 결혼만이 답은 아니에요. 중요한 건 본인이 행복한 거죠.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 생각해본 적은 없었어요. 그냥 제가 부족하다고만 생각했거든요.",
-      "turn": 21
+      "text": "감사합니다. 많이 편해졌어요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "지금까지 스스로에게 굉장히 엄격한 잣대를 들이대고 계셨던 것 같아요. 혹시 업무 중에 잘했던 순간이나 긍정적인 피드백을 받았던 경험도 있으셨나요?",
-      "turn": 22,
-      "technique": "exploration"
-    },
-    {
-      "speaker": "client",
-      "text": "음... 지난주에 제가 기획한 캠페인이 상사한테 좋은 평가를 받았어요. 팀원들도 제 아이디어가 좋다고 했고요.",
-      "turn": 23
-    },
-    {
-      "speaker": "counselor",
-      "text": "그런 긍정적인 성과도 있으셨군요. 하지만 그런 순간들보다는 부족했던 부분이나 걱정되는 일들에 더 많이 집중하게 되시는 것 같네요.",
-      "turn": 24,
-      "technique": "reflection"
-    },
-    {
-      "speaker": "client",
-      "text": "맞아요. 잘한 건 금방 잊어버리고 실수나 걱정만 계속 생각하게 돼요.",
-      "turn": 25
-    },
-    {
-      "speaker": "counselor",
-      "text": "그런 사고 패턴이 불안과 불면증을 더 심화시키는 요인이 될 수 있어요. 우리가 함께 이 부분을 조금씩 바꿔나가 보면 어떨까요?",
-      "turn": 26,
-      "technique": "suggestion"
-    },
-    {
-      "speaker": "client",
-      "text": "어떻게 바꿀 수 있을까요? 저도 이렇게 계속 살 수는 없을 것 같아요.",
-      "turn": 27
-    },
-    {
-      "speaker": "counselor",
-      "text": "먼저 수면 위생을 개선하는 것부터 시작해볼까요? 그리고 부정적인 생각이 들 때 그것을 알아차리고 균형잡힌 시각으로 바라보는 연습을 해보는 거예요. 작은 것부터 시작하면 됩니다.",
-      "turn": 28,
-      "technique": "psychoeducation"
-    },
-    {
-      "speaker": "client",
-      "text": "구체적으로 어떻게 하면 될까요?",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "잠들기 2시간 전부터는 업무 관련 생각을 멈추는 시간을 정해보세요. 그리고 매일 잘한 일 3가지를 적어보는 것도 좋아요. 작은 것도 괜찮습니다. 이런 활동들이 생각의 균형을 잡는 데 도움이 될 거예요.",
-      "turn": 30,
-      "technique": "behavioral_activation"
-    },
-    {
-      "speaker": "client",
-      "text": "해볼 수 있을 것 같아요. 그런데 팀 관리는 어떻게 해야 할까요? 그게 제일 스트레스예요.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "팀 관리에 대한 구체적인 어려움을 더 들어볼 수 있을까요? 어떤 상황에서 가장 스트레스를 받으시나요?",
-      "turn": 32,
-      "technique": "clarification"
-    },
-    {
-      "speaker": "client",
-      "text": "팀원들에게 피드백을 줄 때요. 너무 강하게 말하면 상처받을까 봐 걱정되고, 약하게 말하면 제대로 전달이 안 될 것 같고...",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "적절한 피드백의 강도를 찾는 것이 어려우시군요. 완벽한 균형을 찾으려고 노력하시는 모습이 보여요. 이것도 경험을 통해 배워가는 과정이에요. 실수해도 괜찮습니다.",
-      "turn": 34,
-      "technique": "validation"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇게 생각하니까 조금 마음이 편해지네요. 제가 너무 조급했던 것 같아요.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "오늘 대화를 통해 스스로를 좀 더 이해하게 되신 것 같아요. 다음 상담까지 우리가 이야기한 수면 습관 개선과 긍정적인 경험 기록하기를 실천해보시고, 어떤 변화가 있는지 함께 나눠보면 좋겠어요.",
-      "turn": 36,
-      "technique": "summary"
+      "text": "잘하실 거예요. 본인의 속도로, 본인의 방식으로 살아가세요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1718",
   "metadata": {
-    "generated_at": "2025-12-17T15:28:05.831502+00:00",
+    "generated_at": "2025-12-18T03:01:47.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

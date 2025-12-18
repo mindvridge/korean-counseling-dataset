@@ -1,209 +1,314 @@
 {
-  "conversation_id": "CONV_20250619_ADULT_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "33",
     "gender": "여성",
-    "occupation": "중학교 교사"
+    "occupation": "약사",
+    "background": "결혼 5년차, 시댁과의 갈등, 남편의 중재 부재로 스트레스"
   },
-  "situation": "10년차 교사로 학생들을 가르치는 일에 보람을 느꼈으나, 최근 학부모 민원과 행정 업무 과중으로 번아웃을 경험하고 있으며, 교직을 그만둘지 고민 중",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 상담 예약하고 왔는데... 사실 여기 오는 것도 많이 고민했어요.",
-      "turn": 1
+      "text": "시어머니 때문에 미칠 것 같아요. 남편은 중간에서 아무것도 안 하고요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 편하게 앉으세요. 상담실을 찾아오기까지 많은 고민이 있으셨군요. 오늘 이렇게 용기 내주셔서 감사합니다.",
+      "text": "시댁과의 갈등이 심하시고, 남편분의 도움도 받지 못하고 계시는군요. 어떤 일들이 있으셨나요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 요즘 너무 힘들어서요. 저는 중학교에서 국어를 가르치는 교사인데, 10년째 이 일을 하고 있어요.",
-      "turn": 3
+      "text": "시어머니가 집에 허락도 없이 오세요. 그리고 육아에 이것저것 간섭하고... 제가 하는 건 다 잘못됐대요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년차 교사시군요. 오랜 시간 학생들을 가르쳐 오셨는데, 요즘 특별히 힘든 일이 있으신가요?",
+      "text": "경계 침범과 육아 간섭으로 힘드시군요. 구체적인 예를 하나 들어주시겠어요?",
+      "technique": [
+        "restatement",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "어제도 갑자기 오셔서 '애가 왜 이렇게 말랐어?'라고 하시더라고요. 제가 밥을 안 먹인다고요. 얼마나 억울한지..."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "육아 방식을 비난받는다고 느끼시니 억울하고 화나셨겠어요. 그때 어떻게 반응하셨나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "처음에는 정말 이 일이 좋았어요. 아이들이 성장하는 모습을 보면서 보람도 많이 느꼈고요. 그런데 요즘은... 출근하는 게 너무 두렵고 힘들어요.",
-      "turn": 5
+      "text": "참았죠. 뭐라고 하면 남편이 '엄마한테 왜 그래?'라고 할 거 뻔하니까요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "처음에는 보람을 느끼셨던 일이 지금은 두렵고 힘들게 느껴지신다니, 그 변화가 많이 힘드시겠어요. 언제부터 이런 감정을 느끼기 시작하셨나요?",
+      "text": "남편의 반응이 두려워서 참으셨군요. 실제로 남편분께 이런 상황을 말씀드린 적은 있으세요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "여러 번 했죠. '어머니가 이렇게 말씀하셨다', '힘들다'고요. 근데 남편은 '그냥 그러려니 해', '엄마 성격이 원래 그래'라고만 해요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "남편분이 문제를 최소화하고 회피하시는군요. 그 말을 들으면 어떤 기분이 드세요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "정확히는... 작년부터인 것 같아요. 한 학부모님이 제 수업 방식에 문제를 제기하면서 민원을 넣으셨어요. 교육청까지 갔었고요.",
-      "turn": 7
+      "text": "배신감이요. 결혼할 때 '우리 편이 되어주겠다'고 했는데... 거짓말이었어요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "학부모 민원이 교육청까지 가는 상황을 경험하셨군요. 그건 정말 힘든 일이었을 것 같아요.",
+      "text": "약속이 지켜지지 않아서 배신감을 느끼시는군요. 남편분이 왜 이렇게 반응하실까요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "마마보이니까요. 어머니 말씀이면 무조건이에요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "남편분을 마마보이로 보고 계시네요. 혹시 남편 입장에서는 어떤 고민이 있을까요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 결국 제 잘못이 아니라는 결론이 났지만, 그 과정이 너무 힘들었어요. 매일 해명 자료를 쓰고, 회의하고... 그 이후로 수업할 때마다 불안해요.",
-      "turn": 9
+      "text": "고민이요? 뭘 고민해요. 그냥 편한 쪽으로만 가는 거죠."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "결과적으로 잘못이 없다는 결론이 나왔지만, 그 과정에서 받은 스트레스와 상처가 여전히 남아있는 것 같네요. 지금도 수업할 때 불안감을 느끼신다고 하셨는데, 구체적으로 어떤 불안인가요?",
+      "text": "화가 많이 나셔서 남편의 입장을 생각하기 어려우실 것 같아요. 하지만 남편은 어머니와 아내 사이에서 곤란할 수 있어요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "그래서 저만 계속 참으라는 건가요?"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "참으라는 게 아니에요. 다른 방식으로 대화해보자는 거죠. '어머니 편을 들지 말고 내 편을 들어달라'가 아니라요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "제가 하는 말 한마디 한마디가 혹시 또 문제가 되지 않을까, 학생들을 지도하는 것도 조심스럽고요. 예전에는 자신감 있게 했던 일들을 이제는 계속 확인하고 또 확인하게 돼요.",
-      "turn": 11
+      "text": "그럼 뭐라고 해야 하나요?"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "한 번의 민원 경험이 선생님의 교육 방식 전체에 영향을 미치고 있군요. 자신감 있게 하셨던 일들을 지금은 계속 확인하게 된다는 것, 그게 얼마나 힘드실지 이해가 됩니다.",
+      "text": "'어머니와 나 사이에서 중재해달라', '우리 부부의 경계를 지켜달라'고 구체적으로 요청하는 거예요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "경계요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "네. 예를 들어, '방문 전에 미리 연락하기', '육아 방식은 우리가 결정하기' 같은 규칙이요. 이런 경계를 남편과 함께 정하고 시어머니께 전달하는 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "그것뿐만 아니라 업무도 너무 많아요. 수업 준비, 생활지도는 기본이고, 각종 공문 처리, 행사 준비, 보고서 작성... 하루 종일 일해도 끝이 없어요.",
-      "turn": 13
+      "text": "남편이 그렇게까지 할까요? 어머니한테 그런 말을..."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "교육 업무 외에도 행정 업무까지 감당해야 하는 상황이시군요. 여러 가지가 동시에 쌓이면서 더 힘들어지신 것 같아요.",
+      "text": "확신은 못 하시겠지만, 시도는 해볼 만하지 않나요? 현재 방식으로는 계속 힘드실 텐데요.",
+      "technique": [
+        "validation",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "맞아요. 이대로는 못 살아요. 근데 남편한테 어떻게 얘기하죠?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "감정이 격해지지 않은 차분한 시간에, '당신과 나눌 중요한 얘기가 있다'고 먼저 말하세요. 그리고 본인의 감정을 솔직하게 표현하는 거예요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 집에 가면 녹초가 되어서 아무것도 못 해요. 주말에도 일 생각하면 쉬지를 못하고... 남편이 걱정할 정도예요.",
-      "turn": 15
+      "text": "감정을요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "일과 삶의 경계가 무너지면서 휴식조차 제대로 취하지 못하고 계시네요. 가족분들도 선생님의 상태를 걱정하실 만큼 힘든 상황이신 것 같습니다.",
+      "text": "네. '시어머니 때문에 화난다'가 아니라, '나는 존중받지 못하는 것 같아서 슬프고 외롭다'고 표현하는 거죠.",
+      "technique": [
+        "clarification",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "슬프고 외롭다... 맞아요. 화보다는 그런 감정이 더 큰 것 같아요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "정확히 파악하셨네요. 그 감정을 남편분께 전달하고, 무엇이 필요한지 구체적으로 말씀하세요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "그래서 요즘은... 그냥 그만둘까 하는 생각도 해요. 10년을 했는데 이렇게 포기하는 게 맞나 싶기도 하고, 그렇다고 계속 이렇게 살 수도 없고요.",
-      "turn": 17
+      "text": "필요한 게요?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "10년간 쌓아온 경력을 놓는 것에 대한 아쉬움과, 현재의 힘든 상황을 벗어나고 싶은 마음 사이에서 갈등하고 계시는군요.",
+      "text": "'당신이 나를 지지해주고, 우리 가족의 경계를 함께 지켜주길 바란다'고요. 그리고 구체적인 행동을 제안하는 거예요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "구체적인 행동이요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "'어머니께 방문 전에 연락해달라고 말씀드려주세요', '육아에 대한 조언은 우리가 요청할 때만 해달라고 전해주세요' 같은 거요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네, 정확히 그래요. 교사라는 직업이 싫어진 건 아닌 것 같은데... 아이들 가르치는 건 여전히 좋거든요. 근데 다른 것들이 너무 힘들어요.",
-      "turn": 19
+      "text": "그렇게 구체적으로 말하면 남편도 뭘 해야 할지 알겠네요."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "교육 자체에 대한 열정은 여전히 남아있으시네요. 그렇다면 교직 자체보다는 현재의 업무 환경이나 시스템이 문제일 수 있겠어요.",
+      "text": "맞아요. 막연하게 '도와달라'고만 하면 어떻게 도와야 할지 몰라요. 구체적일수록 좋아요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "만약 남편이 거부하면요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "그때는 부부 상담을 제안해보세요. 제3자의 도움이 필요할 수도 있어요. 하지만 일단 대화를 시도해보는 게 먼저예요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "그런가요? 저는 제가 약해진 건가 생각했어요. 다른 선생님들은 다 잘하시는 것 같은데 저만 힘들어하는 것 같아서요.",
-      "turn": 21
+      "text": "네, 이번 주말에 한번 제대로 얘기해볼게요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "다른 선생님들과 비교하면서 자책하고 계셨군요. 하지만 선생님이 느끼는 어려움은 개인의 약함이 아니라, 실제로 힘든 상황에 대한 자연스러운 반응이에요.",
-      "turn": 22,
-      "technique": "validation"
+      "text": "좋은 결정이에요. 침착하게, 본인의 감정과 욕구를 전달하세요. 다음 주에 어떠셨는지 들려주세요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
     },
     {
+      "turn": 21,
       "speaker": "client",
-      "text": "정말 그런가요? 저도 예전에는 잘했는데... 지금은 모든 게 버겁게 느껴져요.",
-      "turn": 23
+      "text": "감사합니다. 용기가 생겼어요."
     },
     {
+      "turn": 21,
       "speaker": "counselor",
-      "text": "번아웃은 누구에게나 올 수 있어요. 특히 민원 경험 같은 트라우마와 과중한 업무가 겹치면 더욱 그렇죠. 선생님이 약해서가 아니라, 너무 오랫동안 높은 스트레스 상황에 노출되었기 때문이에요.",
-      "turn": 24,
-      "technique": "psychoeducation"
-    },
-    {
-      "speaker": "client",
-      "text": "번아웃... 그런 거였나요? 저는 그냥 제가 적응을 못하는 줄 알았어요.",
-      "turn": 25
-    },
-    {
-      "speaker": "counselor",
-      "text": "네, 선생님이 경험하시는 증상들 - 불안, 피로, 의욕 저하, 직업에 대한 회의감 - 이 모두 번아웃의 전형적인 증상들이에요. 이걸 인식하는 것이 회복의 첫걸음입니다.",
-      "turn": 26,
-      "technique": "psychoeducation"
-    },
-    {
-      "speaker": "client",
-      "text": "그럼 저는 어떻게 해야 할까요? 정말 그만둬야 할까요?",
-      "turn": 27
-    },
-    {
-      "speaker": "counselor",
-      "text": "지금 당장 결정을 내리기보다는, 먼저 선생님의 상태를 회복하는 데 집중하면 어떨까요? 회복된 상태에서 내린 결정이 더 현명할 거예요.",
-      "turn": 28,
-      "technique": "suggestion"
-    },
-    {
-      "speaker": "client",
-      "text": "회복이 가능할까요? 요즘은 아무것도 하고 싶지 않고, 모든 게 무의미하게 느껴져요.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "지금은 그렇게 느껴지시겠지만, 번아웃은 충분히 회복 가능한 상태예요. 선생님이 여전히 아이들 가르치는 것에 보람을 느끼신다고 하셨잖아요. 그 마음이 회복의 중요한 자원이 될 수 있어요.",
-      "turn": 30,
-      "technique": "hope_instillation"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇다면... 구체적으로 어떻게 시작하면 좋을까요?",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "먼저 선생님의 현재 상태를 좀 더 자세히 파악하고, 업무 중 조절 가능한 부분들을 찾아보는 것부터 시작하면 좋겠어요. 그리고 학교 내 지원 시스템이나 동료 교사들과의 관계도 살펴볼 필요가 있을 것 같습니다. 함께 천천히 해결 방법을 찾아가 보시겠어요?",
-      "turn": 32,
-      "technique": "collaboration"
-    },
-    {
-      "speaker": "client",
-      "text": "네... 혼자서는 어떻게 해야 할지 막막했는데, 같이 방법을 찾을 수 있다니 조금 희망이 생기는 것 같아요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "네, 함께 하겠습니다. 선생님이 오늘 이렇게 상담실을 찾아오신 것 자체가 변화를 위한 중요한 첫걸음이에요. 다음 상담 때는 선생님의 일상과 업무 패턴을 좀 더 구체적으로 살펴보면서, 실질적인 대처 방법들을 찾아보도록 하겠습니다.",
-      "turn": 34,
-      "technique": "support"
-    },
-    {
-      "speaker": "client",
-      "text": "감사합니다. 오늘 이야기를 나누면서 제 상태를 좀 더 객관적으로 볼 수 있게 된 것 같아요.",
-      "turn": 35
+      "text": "잘하실 거예요. 본인과 가족을 위해 용기 내시는 모습이 멋져요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1357",
   "metadata": {
-    "generated_at": "2025-12-17T14:39:25.386476+00:00",
+    "generated_at": "2025-12-18T03:01:30.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

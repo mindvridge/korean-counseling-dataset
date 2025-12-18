@@ -1,209 +1,397 @@
 {
-  "conversation_id": "CONV_20250623_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "남성",
-    "occupation": "중견기업 마케팅팀장"
+  "client_profile": {
+    "age": "16세 자녀를 둔 45세",
+    "gender": "여성",
+    "occupation": "전문직",
+    "background": "사춘기 자녀와의 갈등, 대화 거부, 방문 닫고 생활"
   },
-  "situation": "승진 후 팀장 역할에 대한 부담감과 리더십 부족으로 인한 스트레스와 자신감 저하를 호소하며 상담을 찾음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 사실 상담을 받는 게 처음이라 좀 어색하네요.",
-      "turn": 1
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 1턴]"
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음 상담실을 찾으시는 게 쉽지 않으셨을 텐데, 이렇게 용기 내주셔서 감사합니다. 편안하게 말씀해 주시면 됩니다.",
+      "text": "[상담사 응답 1턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네, 감사합니다. 6개월 전에 팀장으로 승진했는데요, 솔직히 말하면 요즘 너무 힘들어서 왔습니다.",
-      "turn": 3
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 2턴]"
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "승진하신 지 6개월 정도 되셨군요. 어떤 부분이 특히 힘드신지 여쭤봐도 될까요?",
+      "text": "[상담사 응답 2턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 3턴]"
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "[상담사 응답 3턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "처음엔 승진이 기뻤는데, 막상 팀장이 되고 나니까 모든 게 제 책임이더라고요. 팀원들을 이끌어야 하는데 제가 제대로 하고 있는 건지 모르겠어요.",
-      "turn": 5
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 4턴]"
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "승진의 기쁨도 잠시, 새로운 역할에 대한 책임감이 크게 느껴지시는군요. 팀을 이끄는 것에 대한 확신이 서지 않아 힘드신 것 같습니다.",
+      "text": "[상담사 응답 4턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 5턴]"
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "[상담사 응답 5턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 팀원 중에 저보다 나이도 많고 경력도 많은 사람들이 있거든요. 그 사람들 앞에서 지시를 내리거나 피드백을 주는 게 너무 부담스러워요.",
-      "turn": 7
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 6턴]"
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "나이와 경력이 많은 팀원들을 관리해야 하는 상황이 부담스럽게 느껴지시는군요. 그런 상황에서 리더 역할을 하는 것이 쉽지 않으셨을 것 같습니다.",
+      "text": "[상담사 응답 6턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 7턴]"
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "[상담사 응답 7턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네, 그래서 자꾸 눈치를 보게 되고, 결정을 내려야 할 때도 주저하게 돼요. 그러다 보니 일 진행도 늦어지고 상사한테도 지적받고...",
-      "turn": 9
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 8턴]"
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "팀원들의 반응이 신경 쓰여서 결정을 미루게 되고, 그것이 다시 업무 지연으로 이어지는 악순환이 생긴 것 같네요.",
+      "text": "[상담사 응답 8턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 9턴]"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "[상담사 응답 9턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "정확해요. 그리고 요즘엔 밤에 잠도 잘 못 자요. 자꾸 '내가 팀장 자격이 있나' 하는 생각이 들어서요. 회사 가는 것도 두렵고요.",
-      "turn": 11
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 10턴]"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "수면에도 영향을 받고 계시고, 출근 자체가 두려움으로 다가오고 있군요. 자신에 대한 의심이 일상생활 전반에 영향을 미치고 있는 것 같습니다.",
+      "text": "[상담사 응답 10턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 11턴]"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "[상담사 응답 11턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 아내도 제가 요즘 예민해졌다고 걱정하더라고요. 집에서도 짜증을 자주 내게 되고.",
-      "turn": 13
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 12턴]"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "직장에서의 스트레스가 가정생활에까지 영향을 주고 있는 상황이시네요. 이런 상태가 얼마나 지속되셨나요?",
+      "text": "[상담사 응답 12턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 13턴]"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "[상담사 응답 13턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "assessment"
-    },
-    {
       "speaker": "client",
-      "text": "한 3개월 정도 된 것 같아요. 처음 3개월은 그래도 버텼는데, 최근에는 정말 한계라는 생각이 들어서 상담을 신청했어요.",
-      "turn": 15
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 14턴]"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "3개월 동안 혼자 힘들게 버텨오셨군요. 그럼에도 스스로 도움을 구하신 것은 문제를 해결하고자 하는 의지가 있다는 것이고, 그것은 매우 긍정적인 첫걸음입니다.",
+      "text": "[상담사 응답 14턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 15턴]"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "[상담사 응답 15턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "affirmation"
-    },
-    {
       "speaker": "client",
-      "text": "감사합니다. 그런데 정말 제가 나아질 수 있을까요? 리더십은 타고나는 거 아닌가요?",
-      "turn": 17
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 16턴]"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "리더십이 타고난다고 생각하시는군요. 하지만 많은 연구들이 리더십은 학습되고 개발될 수 있는 능력이라는 것을 보여줍니다. 지금 느끼시는 어려움은 성장의 과정일 수 있어요.",
+      "text": "[상담사 응답 16턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 17턴]"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "[상담사 응답 17턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "psychoeducation"
-    },
-    {
       "speaker": "client",
-      "text": "그렇군요. 그럼 저는 구체적으로 뭘 해야 할까요?",
-      "turn": 19
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 18턴]"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "구체적인 방법을 찾고 싶으신 마음이 크시군요. 그 전에 먼저 여쭤보고 싶은 게 있는데, 팀장이 되기 전에는 어떤 일을 하셨나요? 그때는 어떠셨는지 궁금합니다.",
+      "text": "[상담사 응답 18턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 19턴]"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "[상담사 응답 19턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "전에는 팀원으로 마케팅 기획을 했었어요. 그때는 제 일만 잘하면 됐고, 실적도 좋았어요. 그래서 승진한 거고요.",
-      "turn": 21
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 20턴]"
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "팀원으로서는 역량이 뛰어나셨고, 그것이 인정받아 승진하신 거네요. 그렇다면 지금 힘든 것은 능력이 부족해서가 아니라, 개인 기여자에서 리더로의 역할 전환이 아직 익숙하지 않기 때문일 수 있겠네요.",
+      "text": "[상담사 응답 20턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 21턴]"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "[상담사 응답 21턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "아, 그렇게 생각할 수도 있겠네요. 저는 그냥 제가 부족한 줄만 알았어요.",
-      "turn": 23
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 22턴]"
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "역할이 바뀌면 새로운 기술과 관점이 필요합니다. 팀원들과의 관계에서 가장 어려운 점은 구체적으로 무엇인가요?",
+      "text": "[상담사 응답 22턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 23턴]"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "[상담사 응답 23턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "음... 피드백을 줄 때요. 특히 부정적인 피드백을 줘야 할 때 너무 조심스러워서 제대로 말을 못 하겠어요. 그러면 문제가 해결이 안 되고.",
-      "turn": 25
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 24턴]"
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "건설적인 피드백을 주는 것이 특히 어려우시군요. 피드백을 줄 때 무엇이 가장 걱정되시나요?",
+      "text": "[상담사 응답 24턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 25턴]"
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "[상담사 응답 25턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "팀원들이 저를 싫어하거나, 관계가 나빠질까 봐 걱정돼요. 그리고 제가 잘못 판단한 거면 어떡하나 하는 생각도 들고요.",
-      "turn": 27
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 26턴]"
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "관계 손상에 대한 두려움과 자신의 판단에 대한 확신 부족, 이 두 가지가 함께 작용하고 there는군요. 이런 걱정들이 피드백을 주저하게 만드는 것 같습니다.",
-      "turn": 28,
-      "technique": "reflection"
+      "text": "[상담사 응답 26턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
     },
     {
+      "turn": 27,
       "speaker": "client",
-      "text": "맞아요. 그래서 계속 미루다가 문제가 더 커지는 경우도 있었어요.",
-      "turn": 29
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 27턴]"
     },
     {
+      "turn": 27,
       "speaker": "counselor",
-      "text": "이해합니다. 앞으로 우리가 함께 작업할 부분이 보이네요. 피드백 기술, 의사결정에 대한 자신감, 그리고 리더로서의 정체성 확립 등이 될 것 같습니다. 오늘 이렇게 솔직하게 말씀해 주셔서 감사합니다.",
-      "turn": 30,
-      "technique": "summarization"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 말하고 나니까 조금 후련하네요. 다음에는 구체적으로 어떻게 하면 좋을지 배우고 싶어요.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "좋습니다. 다음 시간에는 구체적인 상황들을 다루면서 실질적인 전략들을 함께 만들어가 보도록 하겠습니다. 그 전까지 한 가지만 해보시면 좋겠는데, 일주일 동안 팀장으로서 잘했다고 생각되는 순간들을 메모해 오실 수 있을까요?",
-      "turn": 32,
-      "technique": "homework assignment"
-    },
-    {
-      "speaker": "client",
-      "text": "잘한 것을요? 음... 쉽지 않을 것 같은데, 해볼게요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "작은 것이라도 괜찮습니다. 자신의 강점을 인식하는 것이 자신감 회복의 첫걸음이 될 수 있어요. 다음 주에 뵙겠습니다.",
-      "turn": 34,
-      "technique": "encouragement"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 감사합니다. 다음 주에 봬요.",
-      "turn": 35
+      "text": "[상담사 응답 27턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2025-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1645",
   "metadata": {
-    "generated_at": "2025-12-17T15:18:09.808986+00:00",
+    "generated_at": "2025-12-18T03:01:43.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

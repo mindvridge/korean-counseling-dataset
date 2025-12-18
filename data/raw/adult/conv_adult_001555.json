@@ -1,215 +1,439 @@
 {
-  "conversation_id": "CONV_20250612_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "34",
     "gender": "여성",
-    "occupation": "프리랜서 디자이너"
+    "occupation": "보험설계사",
+    "background": "경력 6년차, 월 판매 목표 미달 지속으로 수당 감소, 경제적 압박과 자존감 저하"
   },
-  "situation": "프리랜서로 전환한 지 1년이 지났지만, 불규칙한 수입과 불안정한 미래에 대한 걱정으로 불면증과 불안감이 심해져 상담을 요청함",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 요즘 너무 힘들어서 상담을 신청하게 됐어요.",
-      "turn": 1
+      "text": "이번 달도 목표를 못 채웠어요. 3개월째예요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 편하게 앉으세요. 이렇게 용기내서 찾아와 주셔서 감사합니다. 어떤 부분이 가장 힘드신가요?",
+      "text": "3개월 연속 목표 미달이시군요. 많이 힘드시겠어요. 어떤 점이 가장 어려우신가요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "작년에 회사를 그만두고 프리랜서 디자이너로 일하기 시작했는데... 처음엔 자유로워서 좋았는데 요즘은 너무 불안해요.",
-      "turn": 3
+      "text": "수당이 계속 줄어들어요. 고정급이 적어서 수당으로 생활비를 충당하는데... 이번 달은 아이 학원비도 못 낼 것 같아요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "프리랜서로 전환하신 지 1년 정도 되셨군요. 처음의 자유로움이 이제는 불안감으로 바뀌었다고 느끼시는 거네요.",
+      "text": "경제적 압박이 크시군요. 목표를 달성하지 못하는 이유가 뭐라고 생각하세요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "경기도 안 좋고, 고객들이 보험 가입을 꺼리고... 근데 다른 설계사들은 잘만 하더라고요. 저만 못하는 것 같아요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "'나만 못한다'는 생각이 드시는군요. 실제로 팀 내에서 본인 실적은 어느 정도인가요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 이달엔 프로젝트가 두 개나 있었는데 다음 달엔 아직 확정된 게 하나도 없어요. 통장 잔고를 보면 심장이 두근거려요.",
-      "turn": 5
+      "text": "하위 30% 정도요. 예전엔 중상위권이었는데..."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "수입이 불규칙하다 보니 경제적인 불안감이 크시겠어요. 그런 상황에서 두근거림을 느끼시는 건 자연스러운 반응입니다.",
+      "text": "예전에는 잘하셨는데 최근에 떨어지신 거네요. 3개월 전 즈음에 무슨 변화가 있었나요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "특별한 건 없는데... 아, 그때 큰 고객 한 분이 해약하셨어요. 그 분이 제 주 수입원이었거든요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "주요 고객을 잃으면서 수입이 급감했군요. 그 이후로 어떻게 대응하셨나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "밤에 잠도 잘 못 자요. 자려고 누우면 '내가 잘못 선택한 건 아닐까', '다시 회사로 돌아가야 하나' 이런 생각들이 계속 들어요.",
-      "turn": 7
+      "text": "미친 듯이 일했어요. 신규 고객 발굴하려고 하루에 10시간씩 돌아다니고, 전화하고... 근데 안 돼요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "불면증까지 겪고 계시는군요. 밤에 부정적인 생각들이 반복되면서 잠을 이루기 어려우신 상황이네요. 이런 증상은 얼마나 지속되셨나요?",
+      "text": "더 열심히 일했는데 결과가 안 나오니 더 좌절스러우시겠어요. 혹시 조급한 마음이 고객에게 전달되진 않았을까요?",
+      "technique": [
+        "empathy",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "... 그럴 수도 있겠네요. 요즘 만나는 고객들이 '부담스럽다'는 말을 하긴 했어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "급한 마음에 고객을 압박하게 되고, 그게 오히려 역효과를 낸 거네요. 이 일을 6년 하셨으면 본인만의 노하우가 있으실 텐데, 요즘은 그걸 활용하고 계신가요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "한 두 달 정도 된 것 같아요. 처음엔 가끔 그랬는데 요즘은 거의 매일이에요. 아침에 일어나면 피곤하고 집중도 안 돼요.",
-      "turn": 9
+      "text": "노하우요? 요즘은 그냥... 닥치는 대로 해요. 예전 방식은 너무 느린 것 같아서."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "2개월 정도 지속되고 있고 점점 빈도가 늘어나고 있다는 거군요. 수면 부족이 일상생활과 업무에도 영향을 미치고 있는 상황이네요.",
+      "text": "조급함 때문에 검증된 본인 방식을 버리고 무작위로 하고 계시는군요. 예전에 잘했을 때는 어떻게 하셨나요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "기존 고객들 관리에 집중했어요. 꾸준히 연락하고, 신뢰 쌓고... 그럼 자연스럽게 소개도 들어오고."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "관계 중심 영업을 하셨군요. 지금은 그렇게 안 하시나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "summarizing"
-    },
-    {
       "speaker": "client",
-      "text": "네... 작업 속도도 느려지고, 클라이언트 미팅할 때도 제가 불안해 보일까 봐 걱정돼요. 악순환인 것 같아요.",
-      "turn": 11
+      "text": "시간이 없어요. 당장 이번 달 목표를 채워야 하는데..."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "불안감이 업무 퍼포먼스에 영향을 주고, 그것이 다시 불안을 키우는 악순환을 경험하고 계시는군요. 그 고리 속에서 많이 힘드셨겠어요.",
+      "text": "'당장' 목표를 채우려다가 장기적으로 효과적인 방법을 놓치고 계신 것 같아요. 단기 목표와 장기 전략, 둘 다 필요하지 않을까요?",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그렇긴 한데... 장기 전략을 짤 여유가 없어요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "여유가 없다고 느끼시는 건 이해돼요. 하지만 지금 방식으로 3개월 했는데 안 됐잖아요. 방법을 바꿔야 할 때 아닐까요?",
+      "technique": [
+        "validation",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "정말 그래요. 그리고 주변에서 '프리랜서 좋겠다', '자유롭게 일하니까 부럽다' 이런 말 들으면 더 힘들어요. 아무도 이해 못 할 것 같아서 말도 못 하고...",
-      "turn": 13
+      "text": "... 맞는 말이에요. 어떻게 해야 할까요?"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "겉으로 보이는 것과 실제로 느끼시는 것 사이에 큰 간극이 있고, 그 어려움을 나눌 곳이 없어서 더 외롭고 힘드셨겠네요.",
+      "text": "먼저 목표를 재설정해볼까요? 회사 목표는 그대로 두고, 본인만의 현실적 목표를 정하는 거예요.",
+      "technique": [
+        "structuring",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "회사 목표를 못 채우면 수당이 적은데..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "지금도 못 채우고 계시잖아요. 현실적 목표를 세우고 그걸 달성하는 게, 달성 불가능한 목표에 스트레스받는 것보다 나아요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요... 남편한테도 제대로 말 못 했어요. 제가 하고 싶다고 시작한 일인데 힘들다고 하면 뭐라고 할까 봐요.",
-      "turn": 15
+      "text": "그렇긴 하네요."
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "배우자분께도 솔직한 마음을 표현하기 어려우셨군요. 스스로 선택한 일이니까 힘들어도 참아야 한다고 느끼시는 건가요?",
+      "text": "그리고 신규 고객보다 기존 고객 관리에 집중해보는 건 어떨까요? 본인이 잘했던 방식으로 돌아가는 거죠.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "기존 고객들... 요즘 연락도 제대로 못 했어요. 미안해서 연락하기도 그렇고..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "미안한 마음이 드시는군요. 하지만 그분들 입장에서는 본인이 연락해주는 게 고마울 수도 있어요. 이번 주에 5명만이라도 연락해보는 건 어떨까요?",
+      "technique": [
+        "empathy",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "네... 저도 그렇게 생각했던 것 같아요. '내가 선택한 길인데 책임져야지' 하면서요. 근데 이렇게 말하니까 너무 제 자신한테 가혹했던 것 같네요.",
-      "turn": 17
+      "text": "5명이요? 할 수 있을 것 같아요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "지금 중요한 깨달음을 하신 것 같아요. 스스로에게 너무 엄격한 기준을 적용하고 계셨다는 걸 알아차리셨네요. 그런 자기 인식이 변화의 첫걸음입니다.",
+      "text": "판매 목적이 아니라 안부 목적으로요. '요즘 어떻게 지내세요?' 이런 식으로. 관계를 다시 쌓는 거예요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "알겠어요. 해볼게요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그리고 본인의 자존감 문제도 다뤄야 해요. '나만 못한다'는 생각이 계속되면 고객 앞에서도 자신감이 없어져요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "affirmation"
-    },
-    {
       "speaker": "client",
-      "text": "그런가요? 근데 실제로 수입이 불안정한 건 사실이잖아요. 이 불안을 어떻게 해결해야 할지 모르겠어요.",
-      "turn": 19
+      "text": "맞아요. 요즘 고객 만날 때도 주눅 들어요."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "경제적 불안정이라는 현실적인 문제와, 그로 인한 과도한 불안감을 분리해서 볼 필요가 있을 것 같아요. 현재 실제로 재정적으로 어려운 상황인가요, 아니면 미래에 대한 불확실성 때문에 불안하신 건가요?",
+      "text": "지금 3개월 부진하지만, 6년 커리어를 보세요. 그동안 쌓은 경험과 실력이 사라진 게 아니에요. 일시적 슬럼프일 뿐이죠.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "일시적... 맞을까요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "맞아요. 하지만 슬럼프에서 벗어나려면 방법을 바꿔야 해요. 지금처럼 계속하면 악순환이 계속될 거예요.",
+      "technique": [
+        "validation",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "음... 지금 당장은 괜찮아요. 저축도 좀 있고, 이번 달 수입도 괜찮았어요. 근데 다음 달, 그다음 달이 계속 걱정돼요.",
-      "turn": 21
+      "text": "알겠습니다. 변화가 필요하네요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "현재는 안정적이지만 미래의 불확실성에 대한 걱정이 크신 거네요. 그 걱정이 '지금 이 순간'을 불안하게 만들고 있는 것 같습니다.",
+      "text": "경제적 압박도 크시니, 단기 대책도 필요해요. 혹시 다른 수입원을 고려해보신 적 있으세요?",
+      "technique": [
+        "structuring",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "부업이요? 시간이 없는데..."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "부업이 아니라, 가족 지원이나 긴급 대출 같은 임시 방안이요. 경제적 압박을 조금이라도 줄이면 영업할 때 조급함이 줄어들 거예요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 항상 몇 달 후를 걱정하고 있어요. 그럼 어떻게 해야 하나요?",
-      "turn": 23
+      "text": "가족한테 손 벌리긴 싫은데..."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "먼저, 프리랜서로 일하시면서 나름의 안전망을 만들어 보는 건 어떨까요? 예를 들어, 최소 생활비가 얼마인지 파악하고, 몇 개월치 비상금을 목표로 하는 등의 구체적인 계획을 세우면 막연한 불안이 줄어들 수 있습니다.",
+      "text": "자존심이 상하시는 건 이해해요. 하지만 일시적으로 도움받고, 안정되면 갚으면 되잖아요. 지금처럼 압박 속에서 일하면 더 오래 걸릴 수 있어요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "생각해볼게요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "이번 주에 할 것들 정리해볼까요? 기존 고객 5명에게 안부 연락하기, 본인만의 현실적 목표 세우기, 경제적 임시 방안 고려하기. 맞나요?",
+      "technique": [
+        "summarization",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "problem-solving"
-    },
-    {
       "speaker": "client",
-      "text": "그런 건 생각 못 해봤어요. 구체적인 계획이 있으면 좀 덜 불안할 것 같긴 해요.",
-      "turn": 25
+      "text": "네, 맞아요."
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "좋습니다. 그리고 불안한 생각이 들 때 '지금 이 순간 나는 안전하다'는 것을 확인하는 연습도 도움이 될 거예요. 미래의 가능성에 대한 걱정과 현재의 현실을 구분하는 거죠.",
+      "text": "가장 먼저 할 건 뭔가요?",
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "기존 고객 연락이요. 오늘 당장 해볼게요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "훌륭해요. 판매 생각 말고, 진심으로 안부만 물어보세요.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "cognitive restructuring"
-    },
-    {
       "speaker": "client",
-      "text": "그게 쉬울까요? 생각이 자동으로 튀어나오는데...",
-      "turn": 27
+      "text": "네, 그렇게 할게요."
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "처음엔 어려울 수 있어요. 하지만 연습하다 보면 점차 나아집니다. 불안한 생각이 들 때 '이건 현실인가, 아니면 내 걱정인가?'라고 스스로에게 물어보는 것부터 시작해 보세요.",
+      "text": "그리고 자책하지 마세요. 슬럼프는 누구에게나 와요. 중요한 건 어떻게 극복하느냐예요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "감사합니다. 조금 희망이 보여요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "6년 경력의 전문가로서 본인을 믿으세요. 이 어려움도 지나갈 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
       "turn": 28,
-      "technique": "psychoeducation"
-    },
-    {
       "speaker": "client",
-      "text": "해볼게요. 그리고 남편한테도 솔직하게 얘기해봐야 할 것 같아요. 계속 혼자 안고 있으니까 더 힘든 것 같아요.",
-      "turn": 29
+      "text": "오늘 상담이 큰 도움이 됐어요."
     },
     {
+      "turn": 28,
       "speaker": "counselor",
-      "text": "아주 좋은 결정이세요. 지지체계를 활용하는 것은 매우 중요합니다. 배우자분께 어떻게 말씀하실 계획이신가요?",
+      "text": "다음 주에 만나서 어떻게 진행됐는지 이야기 나눠봐요. 작은 성공이라도 있으면 꼭 공유해주세요.",
+      "technique": [
+        "goal_setting",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네, 다음 주에 좋은 소식 가지고 올게요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "기대할게요. 본인의 강점을 기억하세요. 관계 중심 영업, 그게 본인의 무기예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
       "turn": 30,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "음... '요즘 프리랜서 생활이 생각보다 불안하고 힘들다. 네 생각은 어떤지 듣고 싶다' 이렇게 말해볼게요.",
-      "turn": 31
+      "text": "감사합니다. 다음 주에 뵙겠습니다."
     },
     {
+      "turn": 30,
       "speaker": "counselor",
-      "text": "솔직하면서도 대화를 여는 좋은 방법이네요. 혼자 모든 걸 해결하려고 하지 않아도 괜찮다는 것, 기억해 주세요.",
-      "turn": 32,
-      "technique": "affirmation"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 감사합니다. 오늘 상담하면서 제가 너무 스스로를 몰아붙이고 있었다는 걸 알게 됐어요. 조금 마음이 가벼워진 것 같아요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "오늘 많은 것을 알아차리셨네요. 변화는 이렇게 자신을 이해하는 것에서부터 시작됩니다. 다음 상담 때는 오늘 이야기한 것들을 실천해 보신 경험을 나눠보면 좋겠어요.",
-      "turn": 34,
-      "technique": "encouragement"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 그렇게 할게요. 다음 주에 또 뵐 수 있을까요?",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "물론이죠. 다음 주 같은 시간으로 예약해 드릴게요. 오늘 용기 내주셔서 감사하고, 이번 주 잘 보내시길 바랍니다.",
-      "turn": 36,
-      "technique": "closing"
+      "text": "힘내세요. 슬럼프는 일시적이에요. 다음 주에 뵙겠습니다.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1555",
   "metadata": {
-    "generated_at": "2025-12-17T15:06:19.338428+00:00",
+    "generated_at": "2025-12-18T03:01:39.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

@@ -1,209 +1,397 @@
 {
-  "conversation_id": "CONV_20250619_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "16세 자녀를 둔 45세",
     "gender": "여성",
-    "occupation": "중학교 교사"
+    "occupation": "전문직",
+    "background": "사춘기 자녀와의 갈등, 대화 거부, 방문 닫고 생활"
   },
-  "situation": "10년차 교사로서 최근 학생들과의 관계에서 어려움을 겪고 있으며, 번아웃과 직업적 회의감을 느끼고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 선생님... 사실 상담을 받아야 할지 고민을 많이 했는데, 더 이상 혼자서는 힘들 것 같아서 왔어요.",
-      "turn": 1
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 1턴]"
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 오늘 이렇게 찾아와 주셔서 감사합니다. 혼자 고민하시다가 용기 내어 오시기까지 쉽지 않으셨을 텐데, 그 용기를 내주신 것만으로도 의미 있는 첫걸음이에요. 편하게 말씀해 주세요.",
+      "text": "[상담사 응답 1턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치고 있어요. 올해로 10년차인데... 요즘 들어 아침에 일어나서 학교에 가는 게 너무 힘들어요. 예전에는 아이들 가르치는 게 정말 좋았거든요.",
-      "turn": 3
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 2턴]"
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년간 교직에 계셨군요. 예전에는 학생들을 가르치는 일이 즐거우셨는데, 지금은 아침에 출근하는 것 자체가 힘들어지셨다는 말씀이시네요.",
+      "text": "[상담사 응답 2턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 3턴]"
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "[상담사 응답 3턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 처음에는 정말 열정적이었어요. 아이들이 수업 시간에 눈을 반짝이면서 집중하는 모습을 보면 정말 뿌듯했거든요. 그런데 언제부턴가... 아이들이 수업에 전혀 관심이 없어 보이고, 저도 점점 지쳐가는 게 느껴져요.",
-      "turn": 5
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 4턴]"
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "초기의 열정과 보람이 있었던 시절과 지금의 모습이 많이 달라지신 것 같네요. 그런 변화를 느끼시면서 많이 힘드셨을 것 같아요. 구체적으로 언제쯤부터 이런 변화를 느끼기 시작하셨나요?",
+      "text": "[상담사 응답 4턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 5턴]"
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "[상담사 응답 5턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "정확히 언제부터인지는 모르겠지만... 아마 2년 전쯤부터였던 것 같아요. 코로나 때문에 온라인 수업하면서 더 힘들어졌고, 그 이후로 아이들이 변한 것 같기도 하고... 아니면 제가 변한 건가 싶기도 하고요.",
-      "turn": 7
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 6턴]"
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "코로나 시기의 온라인 수업이 하나의 전환점이 되었을 수도 있겠네요. 학생들이 변했는지, 본인이 변했는지 혼란스러우신 것 같은데, 최근에 교실에서 어떤 일들이 있었는지 조금 더 말씀해 주실 수 있을까요?",
+      "text": "[상담사 응답 6턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 7턴]"
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "[상담사 응답 7턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "요즘 아이들은... 수업 시간에 계속 엎드려 자거나 휴대폰을 봐요. 주의를 주면 대들거나 무시하고요. 저번 주에는 한 학생이 제 수업을 '노잼'이라고 친구들한테 말하는 걸 들었어요. 그 순간 정말... 무너지는 기분이었어요.",
-      "turn": 9
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 8턴]"
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "학생의 그런 말을 직접 들으셨을 때 정말 큰 상처를 받으셨겠어요. 열심히 준비한 수업이 그렇게 평가받는 것을 듣는 건 교사로서 정말 힘든 경험이었을 거예요.",
+      "text": "[상담사 응답 8턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 9턴]"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "[상담사 응답 9턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그날 집에 와서 혼자 울었어요. 남편한테도 말 못했어요. 남편은 제가 교사라는 걸 자랑스러워하거든요. 안정적이고 좋은 직업이라고... 근데 저는 이제 이 일이 정말 제게 맞는 건지 모르겠어요.",
-      "turn": 11
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 10턴]"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "혼자서 그 고통을 감당하셨군요. 남편분께도 말씀하지 못하시고... 주변의 기대와 본인의 실제 감정 사이에서 갈등하고 계신 것 같네요.",
+      "text": "[상담사 응답 10턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 11턴]"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "[상담사 응답 11턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 주변에서는 다들 교사가 좋은 직업이라고만 하니까... 제가 힘들다고 하면 '그래도 방학도 있고, 안정적이잖아'라는 말만 들어요. 그럼 저는 더 말을 못하게 되고요.",
-      "turn": 13
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 12턴]"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "주변의 그런 반응들이 오히려 더 고립감을 느끼게 만들었을 것 같아요. 진짜 힘든 감정을 이해받지 못하고, 오히려 '감사해야 한다'는 식의 말을 듣는 건 정말 답답하고 외로운 일이에요.",
+      "text": "[상담사 응답 12턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 13턴]"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "[상담사 응답 13턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "정말 그래요... 선생님은 이해해 주시니까 말하는 것만으로도 조금 후련해지네요. 그런데 저는 어떻게 해야 할까요? 교사를 그만둬야 할까요?",
-      "turn": 15
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 14턴]"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "지금 당장 그만두고 싶을 만큼 힘드신 상황이시군요. 그런데 중요한 결정을 내리기 전에, 먼저 지금 느끼시는 감정들을 좀 더 깊이 살펴보는 게 도움이 될 것 같아요. 교직을 시작하셨을 때 어떤 마음이었는지 기억하시나요?",
+      "text": "[상담사 응답 14턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 15턴]"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "[상담사 응답 15턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "처음엔... 정말 학생들에게 좋은 영향을 주고 싶었어요. 제가 중학생 때 국어 선생님이 저한테 큰 힘이 되어주셨거든요. 저도 그런 선생님이 되고 싶었어요.",
-      "turn": 17
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 16턴]"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "아, 본인도 좋은 선생님을 만나셨던 경험이 있으셨군요. 그분처럼 학생들에게 의미 있는 존재가 되고 싶으셨던 거네요. 그 초심이 정말 아름답네요.",
+      "text": "[상담사 응답 16턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 17턴]"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "[상담사 응답 17턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그런데 지금은 그 초심이 너무 멀게만 느껴져요. 제가 학생들한테 아무런 영향도 못 주는 것 같고, 오히려 '노잼' 선생님일 뿐인 것 같아요.",
-      "turn": 19
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 18턴]"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "한 학생의 말이 선생님의 모든 가치를 정의하는 건 아니에요. 10년 동안 선생님을 거쳐간 수많은 학생들이 있을 텐데, 혹시 긍정적인 피드백을 받으셨던 경험도 있으셨나요?",
+      "text": "[상담사 응답 18턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 19턴]"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "[상담사 응답 19턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "cognitive_restructuring"
-    },
-    {
       "speaker": "client",
-      "text": "음... 생각해보니 작년에 졸업한 학생 중에 한 명이 편지를 보내왔었어요. 자기가 힘들 때 제 수업이 위로가 됐다고... 그때는 기뻤는데, 요즘은 그런 것도 잊고 지냈네요.",
-      "turn": 21
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 20턴]"
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "그런 의미 있는 순간들이 있으셨군요. 지금은 힘든 상황들이 너무 크게 느껴져서 그런 긍정적인 경험들이 가려진 것 같아요. 이건 번아웃의 전형적인 증상이기도 해요.",
+      "text": "[상담사 응답 20턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 21턴]"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "[상담사 응답 21턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "psychoeducation"
-    },
-    {
       "speaker": "client",
-      "text": "번아웃이요? 그게 정말 병인가요? 저는 그냥 제가 나약한 건 줄 알았어요.",
-      "turn": 23
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 22턴]"
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "전혀 나약한 게 아니에요. 번아웃은 오랜 기간 감정적으로 힘든 일을 하면서 생기는 자연스러운 반응이에요. 특히 교사처럼 사람을 대하는 직업에서 더 흔하게 나타나죠. 선생님의 감정은 충분히 타당하고 이해할 수 있는 반응이에요.",
+      "text": "[상담사 응답 22턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 23턴]"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "[상담사 응답 23턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "normalization"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 말씀해 주시니까 조금 안심이 되네요. 그럼 이 번아웃에서 벗어날 수 있을까요?",
-      "turn": 25
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 24턴]"
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "물론이에요. 번아웃에서 회복하는 것은 가능해요. 다만 시간과 노력이 필요하죠. 우선 선생님께서 지금 무엇이 가장 필요하다고 느끼시나요? 휴식인가요, 아니면 다른 무언가인가요?",
+      "text": "[상담사 응답 24턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 25턴]"
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "[상담사 응답 25턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "휴식도 필요하지만... 사실 제가 다시 의미를 찾고 싶어요. 이 일을 왜 하는지, 어떻게 해야 더 잘할 수 있는지 알고 싶어요.",
-      "turn": 27
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 26턴]"
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "정말 중요한 통찰이세요. 단순히 쉬는 것이 아니라 의미를 회복하고 싶으신 거군요. 그렇다면 우리가 함께 선생님의 강점과 가치를 재발견하고, 현실적으로 실천 가능한 변화들을 찾아가는 작업을 해볼 수 있을 것 같아요.",
-      "turn": 28,
-      "technique": "collaboration"
+      "text": "[상담사 응답 26턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
     },
     {
+      "turn": 27,
       "speaker": "client",
-      "text": "네, 그렇게 하고 싶어요. 근데 학생들이 수업에 집중하지 않는 건 어떻게 해야 할까요? 그게 제일 힘들어요.",
-      "turn": 29
+      "text": "[청소년 자녀와의 소통 관련 내담자 발화 27턴]"
     },
     {
+      "turn": 27,
       "speaker": "counselor",
-      "text": "학생들의 반응이 선생님께 큰 영향을 주고 있군요. 그런데 생각해보면, 학생들의 태도는 여러 요인의 결과예요. 선생님 개인의 문제라기보다는 시대적 변화, 교육 환경, 학생들의 개인적 상황 등이 복합적으로 작용하는 거죠. 모든 책임을 혼자 지실 필요는 없어요.",
-      "turn": 30,
-      "technique": "reframing"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇게 생각하니까 조금 짐이 덜어지는 것 같아요. 그래도 제가 할 수 있는 일이 있다면 하고 싶어요.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "그런 마음이 있으시다는 것 자체가 선생님이 여전히 교육에 대한 열정을 가지고 계시다는 증거예요. 다음 상담에서는 구체적으로 어떤 작은 변화들을 시도해볼 수 있을지, 그리고 선생님의 자기돌봄 방법에 대해서도 함께 이야기 나눠보면 좋겠어요.",
-      "turn": 32,
-      "technique": "encouragement"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 좋아요. 오늘 이야기하면서 제 감정을 정리할 수 있었던 것 같아요. 감사합니다.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "오늘 용기 내어 힘든 이야기를 나눠주셔서 감사해요. 선생님의 고민이 결코 작은 것이 아니며, 이를 해결하려는 선생님의 노력이 정말 대단하다는 걸 기억해 주세요. 다음 주에 뵙겠습니다.",
-      "turn": 34,
-      "technique": "affirmation"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 다음 주에 뵐게요. 조금 희망이 생긴 것 같아요.",
-      "turn": 35
+      "text": "[상담사 응답 27턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2025-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1577",
   "metadata": {
-    "generated_at": "2025-12-17T15:09:25.217808+00:00",
+    "generated_at": "2025-12-18T03:01:40.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

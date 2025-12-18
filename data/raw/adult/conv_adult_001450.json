@@ -1,215 +1,328 @@
 {
-  "conversation_id": "CONV_ADULT_20250615_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "29",
     "gender": "여성",
-    "occupation": "중학교 교사"
+    "occupation": "프리랜서 작가",
+    "background": "친구들과 경제적 격차로 인한 소외감, 모임 참석 어려움"
   },
-  "situation": "10년차 교사로서 최근 학생들과의 관계에서 어려움을 겪고 있으며, 번아웃과 직업적 회의감을 느끼고 있음. 동료 교사의 권유로 상담을 받게 됨",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 사실 상담받으러 오는 게 처음이라 좀 떨리네요.",
-      "turn": 1
+      "text": "친구들이랑 만나기가 부담스러워요. 다들 돈을 잘 버는데 저만 프리랜서라 불안정하거든요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음 오시는데 긴장되시는 건 당연합니다. 편안하게 이야기 나눠보아요. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "친구들과의 경제적 격차 때문에 부담감을 느끼시는군요. 구체적으로 어떤 상황에서 그런 감정을 느끼시나요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치는 교사인데요... 요즘 학교 가는 게 너무 힘들어요. 아침에 일어나면 출근하기가 싫고, 학생들 얼굴 보는 것도 부담스럽고...",
-      "turn": 3
+      "text": "만나면 비싼 레스토랑 가자고 하고, 해외여행 가자고 하고... 저는 그럴 여유가 없거든요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "학교 가는 것 자체가 힘들어지셨군요. 교직 생활을 얼마나 하셨나요?",
+      "text": "친구들이 제안하는 활동들이 경제적으로 부담되시는군요. 그럴 때 어떻게 하시나요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "핑계 대고 안 나가죠. '바쁘다', '몸이 안 좋다' 이렇게요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "솔직한 이유를 말하지 못하고 핑계를 대시는군요. 진짜 이유를 말하기 어려운 이유가 있나요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "올해로 10년차예요. 처음엔 정말 열정적으로 했거든요. 학생들 하나하나 신경 쓰고, 수업 준비도 정성껏 하고... 그런데 지금은 그냥 하루하루가 버거워요.",
-      "turn": 5
+      "text": "창피해요. '돈 없어서 못 간다'고 하면 초라해 보일 것 같아서요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "10년 동안 열정을 가지고 일하셨는데, 지금은 그때와는 많이 다른 느낌이시군요. 언제부터 이런 변화를 느끼셨나요?",
+      "text": "경제적 상황을 드러내는 게 자존심 상하게 느껴지시는군요. 친구들이 본인의 상황을 알고 있나요?",
+      "technique": [
+        "validation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "대충은 알죠. 제가 프리랜서라는 건 아니까. 근데 얼마나 힘든지는 모를 거예요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "프리랜서라는 건 알지만 구체적인 어려움은 모르시는군요. 친구들이 알면 어떨 것 같으세요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "작년부터인 것 같아요. 작년에 담임을 맡았는데, 학급에서 왕따 문제가 있었어요. 제가 정말 열심히 개입하고 학부모들도 만나고 했는데... 결국 피해 학생이 전학을 갔어요.",
-      "turn": 7
+      "text": "동정받을 것 같아요. 아니면 저 빼고 만날 것 같고..."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "그 상황이 정말 힘드셨겠어요. 최선을 다했는데도 원하는 결과가 나오지 않았을 때의 무력감이 크셨을 것 같습니다.",
+      "text": "동정받거나 배제될까봐 두려우시군요. 그런데 지금도 스스로 배제되고 있는 건 아닌가요?",
+      "technique": [
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "... 맞네요. 계속 안 나가니까 연락도 뜸해졌어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "회피가 오히려 관계를 멀어지게 하고 있군요. 친구들 중에 가까운 사람은 없나요?",
+      "technique": [
+        "interpretation",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그때 정말 자책을 많이 했어요. 제가 뭘 잘못한 건지, 더 일찍 알아챘어야 했는데... 그 이후로 학생들 문제에 개입하는 게 두려워졌어요.",
-      "turn": 9
+      "text": "한 명 있긴 해요. 대학 때부터 친했던 친구요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "최선을 다하셨음에도 자책하셨고, 그 경험이 지금까지 영향을 미치고 있는 것 같네요. 현재는 어떤 점이 가장 힘드신가요?",
+      "text": "그 친구에게는 솔직하게 얘기해보신 적 있으세요? 본인의 경제적 상황에 대해서요.",
+      "technique": [
+        "open_question",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "아니요... 그 친구도 대기업 다니거든요. 말하기 민망해요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "가장 친한 친구에게도 말하기 어려우시군요. 하지만 진짜 친구라면 본인의 상황을 이해해줄 거예요.",
+      "technique": [
+        "empathy",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "요즘은... 수업 시간에 학생들이 떠들거나 휴대폰을 보면 그냥 넘어가게 돼요. 예전엔 바로 지도했는데, 지금은 그럴 에너지가 없어요. 그냥 조용히 수업만 끝내고 싶어요.",
-      "turn": 11
+      "text": "그럴까요? '프리랜서 하지 말고 취직하지 그래?' 이럴 것 같은데..."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "에너지가 많이 소진되신 상태시군요. 학생들과의 상호작용 자체가 부담스러워지셨나요?",
+      "text": "조언이나 비판을 받을까봐 걱정되시는군요. 혹시 실제로 그런 말을 들어보신 적 있나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "아니요. 제 상상이에요. 근데 충분히 그럴 수 있잖아요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "아직 일어나지 않은 일을 미리 걱정하고 계시네요. 친구를 신뢰하기보다 최악의 시나리오를 상상하고 계세요.",
+      "technique": [
+        "interpretation",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 학생들이 다가와서 질문하거나 이야기하려고 해도 빨리 끝내고 싶어요. 제가 이러면 안 되는 거 아는데... 교사로서 자격이 없는 것 같아요.",
-      "turn": 13
+      "text": "... 그런 것 같네요. 근데 만약 정말 그렇게 말하면요?"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "지금 느끼시는 감정들을 '자격 없음'으로 해석하고 계시네요. 하지만 10년간 헌신하신 분이 일시적으로 힘든 시기를 겪는 것과 자격이 없는 것은 전혀 다른 문제입니다.",
+      "text": "그럼 그 친구는 본인의 상황을 이해하지 못하는 사람이에요. 하지만 시도해보기 전에는 모르죠. 친구를 믿어볼 기회를 주는 건 어떨까요?",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "뭐라고 말해야 할까요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "'요즘 프리랜서 일이 불안정해서 경제적으로 여유가 없어. 비싼 곳은 부담스러워서 솔직히 말하고 싶었어'라고 정직하게 표현하는 거예요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "그런가요? 주변 동료들은 다들 잘하는 것 같은데 저만 이런 것 같아서... 동료들한테도 이런 얘기 못 하겠더라고요.",
-      "turn": 15
+      "text": "그렇게 말하면 친구가 이해해줄까요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "동료들에게도 힘든 모습을 보이기 어려우셨군요. 혹시 주변에 이런 이야기를 나눌 수 있는 사람이 있으신가요?",
+      "text": "진짜 친구라면 이해해줄 거예요. 그리고 본인에게 맞는 활동을 제안할 수도 있어요. 집에서 만나거나 저렴한 카페 가는 것처럼요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "만약 이해 못 해주면요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그럼 그 관계를 재평가해볼 필요가 있어요. 진정한 우정은 경제적 상황에 좌우되지 않거든요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "남편이 있긴 한데... 남편도 직장 생활 힘들어하는데 제 얘기까지 하면 부담될 것 같아서요. 그냥 괜찮은 척하고 있어요.",
-      "turn": 17
+      "text": "맞는 말이긴 한데... 친구 잃을까봐 무서워요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "가족에게도 힘든 모습을 보이지 않으려고 애쓰시는군요. 그럼 지금 혼자서 이 모든 걸 감당하고 계신 건가요?",
+      "text": "두려움이 크시군요. 하지만 지금처럼 계속 거짓말하고 피하다 보면 어차피 관계는 멀어질 거예요. 솔직함이 오히려 관계를 지킬 수 있어요.",
+      "technique": [
+        "empathy",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "... 그렇게 생각하니까 시도해볼 만한 것 같네요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "용기 있는 결정이에요. 그리고 한 가지 더, 본인의 가치는 돈으로 결정되는 게 아니에요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그렇네요. 말로 하니까 더 힘들게 느껴지네요. 집에서도 학교에서도 괜찮은 척하느라... 주말에도 쉰 것 같지 않아요.",
-      "turn": 19
+      "text": "알아요. 근데 자꾸 비교하게 돼요."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "계속 괜찮은 척 하시느라 정말 지치셨겠어요. 쉬는 시간에도 제대로 쉬지 못하고 계신 거네요. 요즘 수면이나 식사는 어떠신가요?",
+      "text": "비교는 자연스러운 거예요. 하지만 각자 다른 길을 가고 있다는 걸 인정해야 해요. 프리랜서로서의 장점도 있잖아요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "장점이요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "자유로운 시간, 하고 싶은 일 하기, 자기 결정권 같은 거요. 친구들은 돈은 많지만 시간이 없을 수 있어요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "잠은... 자다가 자주 깨요. 새벽 3시쯤 깨면 학교 생각 때문에 다시 못 자고요. 식사는 대충 때우는 편이에요. 입맛도 없고...",
-      "turn": 21
+      "text": "그건... 맞아요. 친구들 얘기 들어보면 야근도 많고 스트레스도 심하더라고요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "수면과 식사 패턴에도 영향이 있으시네요. 이런 상태가 얼마나 지속되었나요?",
+      "text": "맞아요. 각자 다른 장단점이 있는 거죠. 본인의 길을 존중하면서 친구들과도 건강한 관계를 유지하는 게 중요해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "이번 주에 친구한테 연락해서 솔직하게 얘기해볼게요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "훌륭한 결정이에요. 용기 내주셔서 고마워요. 다음 주에 어떻게 되었는지 얘기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "assessment"
-    },
-    {
       "speaker": "client",
-      "text": "한 6개월 정도 된 것 같아요. 올해 학기 시작하면서 더 심해진 것 같고요. 이번 학기도 담임을 맡았거든요.",
-      "turn": 23
+      "text": "감사합니다. 힘이 났어요."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "6개월이면 꽤 긴 시간이네요. 그 기간 동안 혼자 버티셨다는 게 대단하면서도 안타깝습니다. 지금 이 자리에 오신 것은 정말 용기 있는 선택이셨어요.",
-      "turn": 24,
-      "technique": "validation"
-    },
-    {
-      "speaker": "client",
-      "text": "감사해요... 사실 동료 선생님이 권유해서 왔어요. 제가 많이 힘들어 보인다고...",
-      "turn": 25
-    },
-    {
-      "speaker": "counselor",
-      "text": "그 동료 선생님이 내담자님을 걱정해주셨군요. 그분은 내담자님의 힘든 모습을 알아차려주셨나 봐요.",
-      "turn": 26,
-      "technique": "reflection"
-    },
-    {
-      "speaker": "client",
-      "text": "네... 점심시간에 제가 혼자 있는 걸 보고 물어보셨어요. 그때 눈물이 나서 당황했어요. 제가 이렇게까지 힘들었나 싶었죠.",
-      "turn": 27
-    },
-    {
-      "speaker": "counselor",
-      "text": "그 순간 자신의 감정을 마주하게 되셨군요. 지금까지 억눌러왔던 감정들이 표출된 거예요. 그건 자연스러운 반응입니다.",
-      "turn": 28,
-      "technique": "normalization"
-    },
-    {
-      "speaker": "client",
-      "text": "그런데 선생님, 저 계속 교사로 일할 수 있을까요? 요즘은 사표를 내야 하나 싶은 생각도 들어요.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "그런 생각이 드실 만큼 힘드신 상황이시네요. 지금 당장 결정을 내리기보다는, 먼저 내담자님의 상태를 회복하는 것이 우선일 것 같습니다. 함께 천천히 살펴보면 어떨까요?",
-      "turn": 30,
-      "technique": "guidance"
-    },
-    {
-      "speaker": "client",
-      "text": "네... 그렇게 해보고 싶어요. 예전의 제가 왜 교사가 되고 싶었는지도 기억이 잘 안 나요.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "지금은 그 초심이 흐릿해진 상태시군요. 앞으로 상담을 통해 내담자님이 겪고 있는 번아웃을 다루고, 내담자님만의 속도로 회복해 나갈 수 있도록 함께하겠습니다.",
-      "turn": 32,
-      "technique": "support"
-    },
-    {
-      "speaker": "client",
-      "text": "감사합니다. 오늘 이야기하니까 조금 후련한 것 같아요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "이야기를 나누는 것만으로도 도움이 되셨다니 다행입니다. 다음 시간에는 내담자님의 감정과 스트레스를 좀 더 구체적으로 다뤄보면 좋겠습니다. 그 전까지 하루에 한 번, 자신의 감정을 간단히 기록해보시는 건 어떨까요?",
-      "turn": 34,
-      "technique": "homework"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 해볼게요. 다음 주에 또 뵐 수 있을까요?",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "물론입니다. 다음 주 같은 시간에 뵙겠습니다. 이번 주도 자신에게 너무 엄격하지 마시고, 할 수 있는 만큼만 하셔도 괜찮다는 것 기억해주세요.",
-      "turn": 36,
-      "technique": "encouragement"
+      "text": "잘하실 거예요. 본인을 믿으세요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1450",
   "metadata": {
-    "generated_at": "2025-12-17T14:52:45.337993+00:00",
+    "generated_at": "2025-12-18T03:01:34.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

@@ -1,215 +1,443 @@
 {
-  "conversation_id": "CONV_20250612_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "여성",
-    "occupation": "중학교 교사"
+  "client_profile": {
+    "age": "29",
+    "gender": "남성",
+    "occupation": "게임 개발자",
+    "background": "번아웃으로 인한 극심한 무기력, 동시에 미래에 대한 불안, 회사 그만두고 싶지만 경제적 부담"
   },
-  "situation": "10년차 교사로 일하면서 최근 학생들과의 관계에서 소진을 경험하고 있으며, 교직에 대한 회의감과 번아웃을 느끼고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 선생님... 사실 상담받으러 온 게 처음이라 좀 떨리네요.",
-      "turn": 1
+      "text": "아무것도 하고 싶지 않은데, 동시에 미래가 불안해요. 이게 말이 되나요?"
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음 오시는 거라 긴장되실 수 있어요. 편안하게 이야기 나눠보도록 해요. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "무기력과 불안이 동시에 있으시군요. 모순되게 느껴지지만, 실제로 자주 함께 나타나요. 각각 좀 더 구체적으로 말씀해주시겠어요?",
+      "technique": [
+        "reflection",
+        "validation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치는 교사인데요. 10년 정도 했는데... 요즘 너무 힘들어서 이렇게 찾아왔어요.",
-      "turn": 3
+      "text": "회사 가기 싫어요. 컴퓨터 앞에 앉아도 코드가 안 써져요. 근데 이렇게 계속하다간 잘릴 것 같고, 그럼 어떡하나 싶고..."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년간 교직 생활을 하시면서 요즘 특히 힘드신 상황이시군요. 어떤 부분이 가장 힘드신가요?",
+      "text": "일하기 싫은 무기력과 해고될지 모른다는 불안이 함께 있네요. 이런 상태가 얼마나 됐나요?",
+      "technique": [
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "2-3개월요? 큰 프로젝트 끝나고 나서부터인 것 같아요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "큰 프로젝트 후에 시작됐군요. 그 프로젝트는 어땠나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "아침에 일어나는 게 너무 힘들어요. 학교 가는 게 두렵고... 예전에는 아이들 가르치는 게 좋았는데 지금은 교실 문을 열기가 무섭습니다.",
-      "turn": 5
+      "text": "지옥이었어요. 몇 달간 밤샘 야근하고, 주말도 없었어요. 겨우 끝냈는데... 이제 아무것도 하기 싫어요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "출근하는 것 자체가 두렵고 힘든 상황이시네요. 예전과 지금이 많이 달라지신 것 같은데, 언제부터 이런 변화를 느끼셨나요?",
+      "text": "극심한 과로 후에 번아웃이 온 거예요. 몸과 마음이 '이제 쉬어야 해'라고 신호를 보내는 거죠.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "번아웃이요? 그럼 쉬면 나아지나요?"
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "휴식이 필요하긴 하지만, 번아웃은 단순한 피로가 아니에요. 일에 대한 의미 상실, 냉소, 효능감 저하가 특징이에요. 지금 그런 느낌이 있으세요?",
+      "technique": [
+        "clarification",
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "정확히는... 작년 2학기부터인 것 같아요. 한 학생이 제 수업을 거부하고 학부모가 민원을 넣으면서부터요. 그 일 이후로 자신감이 완전히 무너진 느낌이에요.",
-      "turn": 7
+      "text": "완전히요. '내가 이 일을 왜 하나' 싶고, 게임 개발이 재미없어요. 예전엔 그렇게 좋아했는데..."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "그런 일이 있으셨군요. 학생의 수업 거부와 학부모 민원이라는 힘든 상황을 겪으시면서 자신감이 많이 흔들리셨네요.",
+      "text": "좋아하던 일이 의미 없게 느껴지시는군요. 이게 얼마나 상실감이 클까요. 일 외에 다른 영역은 어떠세요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "다 똑같아요. 친구 만나는 것도 귀찮고, 취미 생활도 안 하고... 그냥 집에서 누워있어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "모든 활동에서 의욕이 없어진 상태군요. 우울 증상도 함께 있는 것 같아요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그 학생은 제 수업 시간만 되면 엎드려 자거나 나가버렸어요. 제가 뭘 잘못한 건지, 수업이 재미없는 건지... 계속 제 탓을 하게 되더라고요.",
-      "turn": 9
+      "text": "우울증인가요? 그냥 게을러진 줄 알았는데..."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "그 상황을 모두 본인의 책임으로 받아들이시면서 많이 힘드셨겠어요. 그때 그 일을 어떻게 해결하셨나요?",
+      "text": "게으름이 아니에요. 번아웃과 우울이 겹친 상태예요. 그런데 동시에 불안도 있으시잖아요. 뭐가 가장 불안하세요?",
+      "technique": [
+        "validation",
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "돈이요. 회사 그만두고 싶은데, 생활비가 있으니... 근데 계속 다니자니 미칠 것 같고."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "그만두고 싶지만 경제적 부담 때문에 못 그만두는 딜레마에 있으시군요. 갇혀있는 느낌이 드시겠어요.",
+      "technique": [
+        "restatement",
+        "empathy"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "학교에서는 별다른 도움을 못 받았어요. 그냥 '요즘 애들이 다 그렇다', '선생님이 좀 더 노력해보세요' 이런 말만 들었죠. 결국 그 학생은 학기 말까지 제 수업을 거의 듣지 않았어요.",
-      "turn": 11
+      "text": "정확히 그래요. 갇혀있어요. 출구가 없는 것 같아요."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "힘든 상황에서 주변의 지지나 도움을 받지 못하셨다니, 정말 외롭고 고립된 느낌이셨을 것 같아요.",
+      "text": "지금은 그렇게 느껴지지만, 출구는 있어요. 함께 찾아봐요. 먼저, 정말 회사를 그만두고 싶으신 건가요, 아니면 쉬고 싶으신 건가요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "음... 게임 개발은 좋아하는데, 이 회사, 이 방식은 싫어요. 크런치 모드가 너무 심해요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "일 자체보다는 근무 환경과 방식이 문제군요. 그럼 선택지를 정리해볼까요? 계속 다니기, 그만두기, 아니면 변화를 요청하기.",
+      "technique": [
+        "clarification",
+        "structuring"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 정말 외로웠어요. 그리고 그 일 이후로 다른 학생들을 대할 때도 자꾸 움츠러들게 돼요. '이 아이도 날 싫어하는 건 아닐까', '내가 뭔가 잘못하고 있는 건 아닐까' 이런 생각이 계속 들어요.",
-      "turn": 13
+      "text": "변화 요청이요? 회사가 들어줄까요?"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "한 번의 힘든 경험이 다른 학생들과의 관계에도 영향을 미치고 있군요. 학생들을 대할 때마다 불안하고 위축되는 느낌이신 거네요.",
+      "text": "시도해보지 않으면 모르죠. 상사에게 현재 상태를 솔직하게 얘기하고, 업무량 조정이나 휴가를 요청해볼 수 있어요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그런데 '나 번아웃이에요'라고 말하면... 약해 보이지 않을까요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "도움을 요청하는 게 약함이 아니에요. 오히려 문제를 인식하고 해결하려는 강함이에요. 그리고 번아웃은 개인의 문제가 아니라 조직 문제예요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네, 그래서 수업도 예전처럼 못하겠어요. 새로운 수업 방식을 시도하는 것도 두렵고, 그냥 교과서대로만 하게 되더라고요. 저도 이런 제가 싫은데...",
-      "turn": 15
+      "text": "조직 문제라고요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "예전의 열정적이었던 모습과 지금의 위축된 모습 사이에서 괴로워하고 계시는군요. 스스로에게도 실망감을 느끼시는 것 같아요.",
+      "text": "네, 과도한 업무량, 휴식 부족, 비현실적인 마감... 이런 환경이 번아웃을 만들어요. 본인 탓이 아니에요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그렇게 생각하니 조금 덜 죄책감이 드네요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "죄책감을 느끼고 계셨군요. 하지만 본인을 탓할 필요 없어요. 지금 필요한 건 회복이에요.",
+      "technique": [
+        "emotion_labeling",
+        "validation"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 제가 교사가 된 이유가... 아이들에게 국어의 재미를 알려주고 싶어서였거든요. 근데 지금은 그냥 시간만 때우는 느낌이에요. 이게 맞나 싶어요.",
-      "turn": 17
+      "text": "어떻게 회복하나요?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "처음 교사가 되셨을 때의 열정과 목표가 있으셨는데, 지금은 그것과 너무 멀어진 것 같아서 더 힘드신 거네요. 초심과 현재 사이의 괴리감이 크신 것 같아요.",
+      "text": "먼저 충분한 휴식이요. 가능하면 휴가를 쓰세요. 그리고 일과 삶의 경계를 명확히 하는 거예요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "경계요? 지금은 퇴근해도 일 생각만 나요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그게 문제예요. 퇴근하면 완전히 일에서 분리되어야 해요. 회사 메일 안 보기, 업무 메신저 끄기... 작은 것부터 실천해보세요.",
+      "technique": [
+        "interpretation",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그리고 주변 동료들은 다들 잘하는 것처럼 보여요. 저만 이렇게 힘들어하는 것 같아서 더 자괴감이 들어요.",
-      "turn": 19
+      "text": "그래도 되나요? 급한 일 생기면 어떡해요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "다른 선생님들과 비교하면서 혼자만 힘들다고 느끼시는군요. 혹시 동료 선생님들과 이런 어려움에 대해 이야기 나눠보신 적은 있으신가요?",
+      "text": "'급한 일'이 정말 급한가요, 아니면 습관적으로 급하다고 느끼는 건가요?",
+      "technique": [
+        "open_question",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "음... 대부분은 그렇게 급하진 않은 것 같긴 해요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "그럼 명확한 규칙을 만드세요. '퇴근 후 업무 연락 받지 않기', '주말엔 회사 메일 안 보기'처럼요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "아니요... 창피해서 말 못했어요. 다들 바쁘기도 하고, 제가 무능해 보일까봐 두려웠어요. 그냥 혼자 견디려고 했죠.",
-      "turn": 21
+      "text": "해볼게요. 근데 무기력은 어떻게 해요? 아침에 일어나기도 힘든데..."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "혼자서 이 모든 걸 감당하려고 하셨네요. 도움을 요청하는 것조차 부담스러우셨을 텐데, 정말 힘드셨겠어요.",
+      "text": "작은 활동부터 시작하세요. 침대에서 일어나 커튼 열기, 물 한 잔 마시기... 아주 작은 것부터요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "그런 것도 해야 하나요? 자동으로 하는 거 아닌가요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "번아웃과 우울 상태에서는 자동적인 일도 힘들어요. 의식적으로 해야 하죠. 하지만 이런 작은 행동들이 모여서 변화를 만들어요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "요즘은 진짜 교사를 그만둬야 하나 고민도 해요. 근데 10년을 했는데 이걸 그만두면 뭘 할 수 있을까... 그것도 막막하고요.",
-      "turn": 23
+      "text": "알겠어요. 시도해볼게요."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "지금 상황이 너무 힘들어서 그만두는 것도 생각하시지만, 동시에 그 이후에 대한 불안감도 크시군요. 양쪽 모두 어려운 선택지처럼 느껴지시는 것 같아요.",
+      "text": "그리고 예전에 좋아하던 취미가 있나요?",
+      "technique": [
+        "encouragement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "게임이요. 근데 요즘은 게임도 재미없어요. 개발하는 게 싫어서 게임 자체도 싫어진 것 같아요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "일과 취미가 겹치면 그럴 수 있어요. 완전히 다른 활동을 찾아보는 건 어때요? 운동, 음악, 요리...?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 그래서 더 답답해요. 계속하자니 너무 힘들고, 그만두자니 두렵고... 어떻게 해야 할지 모르겠어요.",
-      "turn": 25
+      "text": "운동은... 예전에 헬스장 다녔는데. 다시 가볼까요?"
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "지금 당장 큰 결정을 내리시기보다는, 먼저 지금 느끼시는 소진과 번아웃을 다루는 것이 중요할 것 같아요. 선생님께서 겪고 계신 이런 감정들은 많은 교사들이 경험하는 것이고, 충분히 회복 가능한 상태예요.",
+      "text": "좋아요. 운동이 우울과 무기력에 도움이 돼요. 일주일에 두세 번, 30분씩만 해보세요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네, 해볼게요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "그리고 전문적인 도움도 받으세요. 정신건강의학과에서 항우울제 처방받으면 증상 완화에 도움이 돼요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "normalization"
-    },
-    {
       "speaker": "client",
-      "text": "정말요? 저만 이런 게 아닐까요? 다른 선생님들은 잘 버티는 것 같은데...",
-      "turn": 27
+      "text": "약을 먹어야 할까요?"
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "교사 번아웃은 매우 흔한 현상이에요. 다만 많은 분들이 선생님처럼 혼자 감추고 견디시는 경우가 많죠. 선생님께서 이렇게 도움을 요청하신 것 자체가 용기 있는 행동이에요.",
+      "text": "의사 선생님이 판단하실 거예요. 하지만 번아웃과 우울이 겹쳐있으면 약물 치료가 효과적일 수 있어요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "알겠어요. 병원 예약해볼게요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "좋은 결정이에요. 그리고 회사 상사와도 대화해보세요. 현재 상태를 솔직하게 말하고, 도움을 요청하는 거예요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 28,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 말씀해주시니까 조금 위안이 되네요. 그럼... 어떻게 하면 좋을까요?",
-      "turn": 29
+      "text": "용기를 내야겠네요."
     },
     {
+      "turn": 28,
       "speaker": "counselor",
-      "text": "먼저 선생님 자신을 돌보는 시간이 필요해 보여요. 요즘 본인을 위해 시간을 내신 적이 있으신가요?",
+      "text": "네, 용기가 필요해요. 하지만 이대로 버티는 것보다 훨씬 나아요. 변화는 불편하지만, 성장의 기회예요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "맞는 말씀이에요. 이제 더 이상 버틸 수 없으니까... 변화를 시도해봐야겠어요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "좋은 마음가짐이에요. 이번 주에 해볼 것들 정리해봐요. 상사와 대화, 퇴근 후 업무 차단, 운동 시작, 병원 예약. 어떠세요?",
+      "technique": [
+        "encouragement",
+        "summarization"
+      ]
+    },
+    {
       "turn": 30,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "아니요... 학교 일 끝나면 집에 와서 그냥 쓰러지듯 자요. 주말에도 밀린 업무 처리하느라 바빠요.",
-      "turn": 31
+      "text": "할 게 많지만... 해볼게요. 감사합니다."
     },
     {
+      "turn": 30,
       "speaker": "counselor",
-      "text": "쉬는 시간조차 없이 계속 일만 하고 계시네요. 그럼 선생님께서 예전에 좋아하셨던 활동이나 취미가 있으셨나요?",
-      "turn": 32,
-      "technique": "open-ended question"
-    },
-    {
-      "speaker": "client",
-      "text": "예전에는... 책 읽는 걸 좋아했어요. 그리고 친구들이랑 등산도 가고 했는데, 언제부터인가 그런 것들이 다 사라졌네요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "책 읽기와 등산 같은 활동들을 즐기셨군요. 그런 활동들이 사라지면서 선생님만의 재충전 시간도 없어진 거네요. 앞으로 우리가 함께 선생님의 에너지를 회복하고, 교직에 대한 관점을 다시 찾아가는 작업을 해보면 어떨까요?",
-      "turn": 34,
-      "technique": "suggestion"
-    },
-    {
-      "speaker": "client",
-      "text": "네... 해보고 싶어요. 이대로는 정말 안 될 것 같아서요. 다시 예전처럼 돌아갈 수 있을까요?",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "완전히 예전과 똑같이 돌아가는 것보다는, 이 경험을 통해 더 건강한 방식으로 교직 생활을 이어가실 수 있도록 함께 노력해보면 좋겠어요. 선생님께서 이미 도움을 요청하신 것이 첫 걸음이에요. 함께 천천히 나아가 보시죠.",
-      "turn": 36,
-      "technique": "encouragement"
+      "text": "한 번에 다 하려고 하지 마세요. 하나씩, 천천히요. 다음 주에 어떠셨는지 이야기 나눠요. 응원할게요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
     }
   ],
+  "generated_at": "2025-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1642",
   "metadata": {
-    "generated_at": "2025-12-17T15:18:18.890842+00:00",
+    "generated_at": "2025-12-18T03:01:43.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

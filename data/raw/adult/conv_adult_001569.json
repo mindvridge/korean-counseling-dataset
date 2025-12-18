@@ -1,215 +1,369 @@
 {
-  "conversation_id": "CONV_20250623_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "35",
     "gender": "여성",
-    "occupation": "중학교 교사"
+    "occupation": "전업주부",
+    "background": "결혼 5년차, 3살 아이 육아 중, 지난 2년간 지속되는 우울감, 무기력, 일상의 의미 상실"
   },
-  "situation": "10년차 교사로서 최근 학생들과의 관계에서 어려움을 겪고 있으며, 번아웃과 직업에 대한 회의감을 느끼고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 상담 받는 게 처음이라 좀 떨리네요.",
-      "turn": 1
+      "text": "요즘 아무것도 하기 싫고, 매일이 똑같이 힘들어요. 이렇게 사는 게 뭔가 싶어요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음 오시는 분들은 다들 긴장하시는 게 자연스러운 일이에요. 편안하게 이야기 나눠보아요. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "매일이 힘들고 의미를 찾기 어려우신 상태시군요. 얼마나 힘드셨을지 느껴져요. 이런 상태가 언제부터 시작됐나요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치는 교사인데요... 요즘 학교 가는 게 너무 힘들어요. 아침에 일어나면 출근하기가 싫고, 학생들 얼굴 보는 것도 부담스럽고...",
-      "turn": 3
+      "text": "한 2년 전부터요. 아이 낳고 나서 점점 심해진 것 같아요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "학교 가는 것 자체가 힘들어지셨군요. 교사로 일하신 지는 얼마나 되셨나요?",
+      "text": "출산 후에 시작되어 2년이나 지속되고 계시군요. 그 기간 동안 정말 힘드셨겠어요.",
+      "technique": [
+        "reflection",
+        "validation"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "네, 처음엔 육아가 힘들어서 그런가 했는데, 아이가 좀 크니까 괜찮아질 줄 알았거든요. 근데 아니더라고요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "육아 때문이라고 생각하셨는데, 상황이 나아져도 기분은 나아지지 않으셨군요. 지금은 어떤 증상들이 있으세요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "이제 10년차예요. 처음에는 정말 열정적으로 했었는데... 언제부턴가 이렇게 됐어요.",
-      "turn": 5
+      "text": "아침에 일어나기가 너무 힘들어요. 그리고 뭘 해도 재미가 없고, 밥도 잘 안 먹게 되고..."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "10년이라는 시간 동안 열정을 가지고 일하셨는데, 지금은 그때와 많이 달라진 느낌이시군요. 언제부터 이런 변화를 느끼셨나요?",
+      "text": "아침에 일어나기 힘들고, 즐거움을 못 느끼시고, 식욕도 떨어지셨군요. 수면은 어떠세요?",
+      "technique": [
+        "summarization",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "밤에 잠이 잘 안 와요. 누워있어도 이런저런 생각만 나고. 새벽에 깨서 다시 잠들기도 어렵고요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "수면 문제도 있으시네요. 말씀하신 증상들이 우울증의 전형적인 모습이에요. 혹시 병원 진료를 받아보신 적 있으세요?",
+      "technique": [
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "정확히는 모르겠지만... 작년부터인 것 같아요. 작년에 담임을 맡았던 반에서 학부모 민원이 여러 건 들어왔거든요. 제 수업 방식이 구식이라는 둥, 아이들을 차별한다는 둥...",
-      "turn": 7
+      "text": "아니요, 그냥 제가 나약한 거라고 생각했어요. 다른 엄마들은 다 잘하는데 저만 이러니까..."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "학부모 민원이 여러 건 들어오면서 힘든 시기를 겪으셨네요. 그런 상황은 정말 마음이 많이 상하셨을 것 같아요.",
+      "text": "'나약해서 그렇다'고 자신을 탓해오셨군요. 그런데 우울증은 의지의 문제가 아니에요. 뇌의 화학적 불균형과 관련이 있는 질환이에요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "그래요? 저는 제가 노력을 안 해서 이런 줄 알았어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "그렇게 자책하셨던 시간이 얼마나 고통스러우셨을까요. 우울증은 감기처럼 누구에게나 올 수 있는 거예요. 나약함과 관계없어요.",
+      "technique": [
+        "empathy",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 정말 억울했어요. 저는 나름대로 모든 학생들을 공평하게 대하려고 노력했는데, 그렇게 오해받으니까... 그 이후로 학생들 대하는 게 조심스러워졌어요.",
-      "turn": 9
+      "text": "... 그 말 듣으니까 좀 위로가 되네요. 저만 이런 건 아니었구나."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "최선을 다했는데 오해를 받으셨다니, 정말 억울하고 속상하셨겠어요. 그 일 이후로 학생들을 대하는 태도가 조심스러워지셨다고 하셨는데, 구체적으로 어떤 점이 달라지셨나요?",
+      "text": "많은 분들이 비슷한 경험을 해요. 특히 출산 후 호르몬 변화와 육아 스트레스가 결합되면 우울증에 취약해지거든요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "남편한테 말해도 잘 모르겠다고 하더라고요. '뭐가 힘든지 모르겠다'고..."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "가장 가까운 사람에게 이해받지 못하니 더 외로우셨겠어요. 남편분께 어떻게 설명하셨어요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "예전에는 학생들과 농담도 하고 편하게 지냈는데, 이제는 모든 말과 행동을 계산하게 돼요. 혹시 이게 문제가 될까, 저게 오해받을까 하면서요. 그러다 보니 수업도 재미없어지고...",
-      "turn": 11
+      "text": "그냥 힘들다고만 했어요. 저도 뭐가 힘든지 설명하기가 어려워서..."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "자연스럽고 편안했던 관계가 조심스럽고 계산적으로 변하면서, 수업의 즐거움도 함께 사라진 것 같네요. 그런 변화가 선생님께 어떤 영향을 미치고 있나요?",
+      "text": "우울감은 말로 설명하기 어려운 경우가 많아요. '그냥 힘들다'는 게 바로 그 증상이에요. 명확한 이유 없이도 힘들 수 있거든요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그렇구나... 저도 왜 힘든지 모르겠어서 더 답답했어요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "답답하셨겠어요. 우울증은 뚜렷한 원인 없이도 생길 수 있어요. 중요한 건 지금 힘들다는 것을 인정하고 도움을 받는 거예요.",
+      "technique": [
+        "empathy",
+        "interpretation"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "제가 왜 교사가 됐나 싶어요. 원래는 아이들을 가르치는 게 좋아서, 아이들이 성장하는 모습을 보는 게 보람찼는데... 지금은 그냥 월급 받으러 가는 느낌이에요.",
-      "turn": 13
+      "text": "도움이요? 어떤 도움을 받을 수 있어요?"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "처음 교직을 선택하셨을 때의 보람과 의미가 지금은 많이 퇴색된 느낌이시군요. 그런 자신의 모습을 보면서 어떤 생각이 드세요?",
+      "text": "상담과 함께 정신건강의학과 진료를 권해드려요. 필요하면 약물 치료도 고려해볼 수 있어요. 약에 대한 거부감이 있으세요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "약은 좀 무서워요. 중독되거나 그러지 않을까요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "걱정되시는 게 당연해요. 하지만 우울증 약은 중독성이 없어요. 뇌의 화학물질 균형을 맞춰주는 역할을 해요. 의사 선생님과 상의하면서 결정하시면 돼요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "솔직히... 제 자신이 실망스러워요. 이렇게 쉽게 무너질 사람이 아니었는데. 그리고 한편으로는 이 일을 계속해야 하나 싶기도 하고요.",
-      "turn": 15
+      "text": "그렇군요. 생각해볼게요. 근데 아이 때문에 병원 가기도 어려워요."
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "자신에 대한 실망감과 함께 진로에 대한 고민도 하고 계시네요. 10년간 쌓아온 경력과 정체성이 흔들리는 것은 정말 큰 혼란일 거예요.",
+      "text": "아이를 돌봐야 하니 시간 내기 어려우시죠. 남편분이나 다른 가족에게 잠깐 맡기실 수 있는 상황인가요?",
+      "technique": [
+        "empathy",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "남편이 주말에 좀 봐줄 수 있을 것 같긴 한데... 제가 병원 간다고 하면 뭐라 할까 봐요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "남편분 반응이 걱정되시는군요. 우울증 치료는 엄마인 본인뿐 아니라 아이를 위해서도 중요한 일이에요. 어떻게 말씀드리면 좋을지 같이 생각해볼까요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 그게 더 무서워요. 저는 10년 동안 교사였는데, 이걸 그만두면 뭘 할 수 있을까... 그런 생각도 들고. 그렇다고 지금처럼 계속 버티는 것도 힘들고.",
-      "turn": 17
+      "text": "네, 도와주시면 좋겠어요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "그만두기도 어렵고, 계속하기도 힘든 딜레마 상황이시네요. 혹시 주변에 이런 고민을 나눌 수 있는 분이 계신가요?",
+      "text": "남편분께 '요즘 내가 힘든 게 단순한 피곤함이 아닌 것 같아서 전문가 상담을 받아보려고 해. 나도 아이에게 좋은 엄마가 되고 싶으니까'라고 말씀해보시는 건 어떨까요?",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그렇게 말하면 좀 이해해줄 것 같기도 해요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 남편분도 함께 상담에 오시면 좋은데, 우울증에 대해 이해하는 데 도움이 되거든요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "같은 학교 선생님들이야 있지만... 다들 바쁘고, 제가 이렇게 힘들어한다는 걸 알리고 싶지 않아요. 약해 보일까 봐요. 가족들한테도 말 안 했어요.",
-      "turn": 19
+      "text": "남편이 같이 와도 되는 거예요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "혼자서 이 어려움을 감당하고 계셨군요. 힘든 모습을 보이는 것이 약함으로 비춰질까 봐 걱정되신다고 하셨는데, 그런 생각 때문에 더 외로우셨을 것 같아요.",
+      "text": "네, 물론이죠. 가족의 이해와 지지가 회복에 큰 도움이 되거든요. 처음엔 혼자 오셔도 되고, 나중에 함께 오셔도 돼요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "알겠어요. 일단 저부터 치료를 시작해볼게요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "좋은 결정이에요. 그리고 일상에서 할 수 있는 것도 있어요. 하루에 짧은 시간이라도 자신만을 위한 시간을 가져보시는 거예요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 사실 오늘 여기 오는 것도 많이 고민했어요. 근데 더 이상 혼자서는 안 되겠더라고요.",
-      "turn": 21
+      "text": "자신만을 위한 시간이요? 아이가 있어서 그런 게 가능할까요?"
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "혼자 견디기 힘든 상황에서 도움을 요청하기로 결정하신 건 정말 용기 있는 선택이에요. 선생님의 그 용기를 존중합니다.",
+      "text": "아이가 낮잠 잘 때 10분이라도요. 좋아하던 음악 듣기, 따뜻한 차 마시기... 작은 것부터 시작해보세요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "예전엔 커피 마시면서 드라마 보는 거 좋아했는데... 요즘은 그것도 귀찮아요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "'귀찮다'는 것도 우울증 증상이에요. 하고 싶지 않아도 억지로 조금씩 해보시면 기분이 조금씩 나아질 수 있어요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "affirmation"
-    },
-    {
       "speaker": "client",
-      "text": "감사해요... 그런데 저, 어떻게 해야 할까요? 다시 예전처럼 돌아갈 수 있을까요?",
-      "turn": 23
+      "text": "억지로 해도 되는 거예요?"
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "예전으로 돌아가고 싶은 마음이 크시군요. 완전히 똑같은 예전으로 돌아가기보다는, 지금의 경험을 통해 더 성숙한 모습으로 나아갈 수 있을 거예요. 선생님께서 교직을 처음 시작하셨을 때, 가장 보람을 느꼈던 순간은 언제였나요?",
+      "text": "네, 행동이 기분에 영향을 줄 수 있어요. '기분이 좋아지면 하겠다'가 아니라 '일단 하면 기분이 나아진다'는 거죠. 행동활성화라고 해요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "그렇군요. 한번 해볼게요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "좋아요. 오늘 상담에서 어떤 것들이 도움이 되셨어요?",
+      "technique": [
+        "encouragement",
+        "summarization"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "음... 학생들이 제 수업 듣고 '선생님, 오늘 수업 재밌었어요'라고 말할 때요. 그리고 졸업하고 나서 찾아와서 '선생님 덕분에 국어가 좋아졌어요'라고 할 때... 그때가 정말 좋았어요.",
-      "turn": 25
+      "text": "우울증이 제 잘못이 아니라는 것, 병원 가봐야 한다는 것, 그리고 작은 것부터 시작해보는 게 좋다는 거요."
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "학생들의 긍정적인 반응과 성장을 보는 것이 선생님께 큰 의미였군요. 최근에도 그런 순간들이 있으셨나요?",
-      "turn": 26,
-      "technique": "exploration"
+      "text": "잘 정리해주셨어요. 이번 주에 정신건강의학과 예약하시고, 하루 10분이라도 자신을 위한 시간을 가져보세요. 그리고 다음 주에 어떠셨는지 이야기 나눠봐요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
     },
     {
+      "turn": 25,
       "speaker": "client",
-      "text": "생각해보니... 있긴 했어요. 지난주에도 한 학생이 수업 끝나고 와서 질문하더니 고맙다고 했었는데... 그때는 그냥 넘어갔네요.",
-      "turn": 27
+      "text": "네, 알겠어요. 오랜만에 누군가한테 이렇게 얘기하니까 속이 좀 후련해요."
     },
     {
+      "turn": 25,
       "speaker": "counselor",
-      "text": "그런 긍정적인 순간들이 여전히 있지만, 지금은 그것들을 온전히 느끼고 받아들이기 어려운 상태이신 것 같아요. 힘든 경험이 긍정적인 것들을 가려버린 거죠.",
-      "turn": 28,
-      "technique": "interpretation"
-    },
-    {
-      "speaker": "client",
-      "text": "맞는 것 같아요. 나쁜 것만 계속 생각하게 되더라고요. 한 번의 민원이 열 번의 칭찬보다 크게 느껴져요.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "부정적인 경험이 훨씬 강렬하게 남아있는 거네요. 그건 자연스러운 심리 현상이에요. 앞으로 우리가 함께 작업할 부분 중 하나는, 긍정적인 경험들도 균형 있게 인식하실 수 있도록 돕는 것이 될 것 같아요.",
-      "turn": 30,
-      "technique": "psychoeducation"
-    },
-    {
-      "speaker": "client",
-      "text": "그게 가능할까요? 저도 그러고 싶긴 한데...",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "물론이에요. 시간이 걸리겠지만 충분히 가능합니다. 오늘 선생님께서 용기 내어 이 자리에 오신 것처럼, 작은 단계들을 밟아가면서 변화를 만들어갈 수 있어요. 다음 상담에서는 선생님의 강점과 자원을 더 탐색해보면 어떨까요?",
-      "turn": 32,
-      "technique": "encouragement"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 그렇게 하고 싶어요. 오늘 이야기하면서 조금은 마음이 가벼워진 것 같아요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "다행이네요. 오늘 나눈 이야기들을 바탕으로 다음 시간을 준비하겠습니다. 혹시 다음 상담 전까지 해보고 싶으신 것이 있으신가요?",
-      "turn": 34,
-      "technique": "collaboration"
-    },
-    {
-      "speaker": "client",
-      "text": "음... 긍정적인 순간들을 좀 의식적으로 찾아보려고 노력해볼게요. 일기 같은 걸 써볼까요?",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "아주 좋은 생각이세요. 하루에 하나씩이라도 긍정적이었던 순간을 기록해보시면 도움이 될 거예요. 부담 갖지 마시고, 작은 것이라도 괜찮습니다. 다음 시간에 함께 나눠보도록 해요.",
-      "turn": 36,
-      "technique": "task_assignment"
+      "text": "이야기하니 후련해지셨다니 다행이에요. 혼자 끙끙 앓지 마시고 앞으로도 편하게 이야기해주세요. 함께 나아가봐요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1569",
   "metadata": {
-    "generated_at": "2025-12-17T15:08:39.432968+00:00",
+    "generated_at": "2025-12-18T03:01:40.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

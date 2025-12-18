@@ -1,209 +1,438 @@
 {
-  "conversation_id": "CONV_20250618_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "26",
     "gender": "여성",
-    "occupation": "중학교 교사"
+    "occupation": "호텔 프론트 매니저",
+    "background": "입사 1년차, 성차별적 발언을 자주 하는 남성 상사로 인한 스트레스"
   },
-  "situation": "10년차 중학교 교사로 일하며 학생들을 가르치는 일에 열정이 있었으나, 최근 학부모 민원과 학교 내 갈등으로 인해 번아웃을 경험하고 있음. 교직을 그만둘지 고민 중이며, 자신의 정체성과 진로에 대해 혼란스러워함.",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 상담 예약하고 오긴 했는데, 사실 뭐부터 말해야 할지 모르겠네요.",
-      "turn": 1
+      "text": "부장님이 자꾸 여자라서 안 된다는 식으로 말씀하세요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 천천히 편하게 말씀하시면 됩니다. 오늘 이 자리에 오시기까지 쉽지 않은 결정이었을 것 같은데, 용기 내주셔서 감사합니다.",
+      "text": "성별을 이유로 부당한 말을 들으시는군요. 구체적으로 어떤 말씀을 하시나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 저는 중학교에서 국어를 가르치고 있어요. 10년째 교사로 일하고 있는데, 요즘 들어 출근하는 게 너무 힘들어요.",
-      "turn": 3
+      "text": "'여자가 야근을 할 수 있겠어?', '여자는 섬세해서 좋긴 한데 리더십은 글쎄...' 이런 말들이요. 매번 '여자'를 강조하세요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년간 교직 생활을 하셨군요. 최근 출근이 힘들어지셨다고 하셨는데, 언제부터 그런 느낌이 드셨나요?",
+      "text": "성별 기반의 고정관념으로 본인을 판단하시는군요. 그런 말을 들을 때 어떤 감정이 드세요?",
+      "technique": [
+        "reflection",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "화나고 모욕감 들어요. 저는 능력으로 평가받고 싶은데 자꾸 성별만 보시니까..."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "능력이 아닌 성별로 평가받는 게 모욕적이시군요. 이런 일이 자주 있나요?",
+      "technique": [
+        "empathy",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "정확히는 작년 2학기부터였던 것 같아요. 한 학부모님이 제 수업 방식에 대해 교육청에 민원을 넣으셨거든요. 그 일을 처리하면서 정말 많이 지쳤어요.",
-      "turn": 5
+      "text": "주에 한두 번은요. 승진 이야기할 때도 '결혼하면 어차피 그만둘 텐데'라고 하시더라고요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "학부모 민원을 경험하시면서 많이 힘드셨겠어요. 그 상황이 어떻게 전개되었는지 좀 더 말씀해주실 수 있으실까요?",
+      "text": "결혼과 퇴사를 연결 지으며 승진 기회를 제한하시는군요. 이건 명백한 성차별이에요. 이런 상황을 어디 신고하거나 도움을 요청해 보셨나요?",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "인사팀에 말할까 생각했는데... 부장님이랑 인사팀장이 친하거든요. 소용없을 것 같아서..."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "신고해도 제대로 처리되지 않을 거라는 우려가 있으시군요. 그럼 지금까지 어떻게 대응하셨나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "제가 토론 수업을 진행했는데, 그 과정에서 한 학생이 다른 의견을 가진 친구들과 언쟁을 했어요. 저는 교육적 차원에서 중재했는데, 그 학생 부모님이 제가 자기 아이를 편파적으로 대했다고 민원을 넣으신 거예요.",
-      "turn": 7
+      "text": "그냥 참았어요. 웃으면서 넘기고... 속으로는 울면서."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "교육적 의도로 중재하신 상황이 오해를 받게 되셨군요. 그런 상황에서 선생님은 어떤 감정을 느끼셨나요?",
+      "text": "겉으로는 넘기지만 속으로는 많이 상처받으시는군요. 이런 상황이 계속되면 어떻게 될 것 같으세요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "견딜 수 없을 것 같아요. 이미 한계예요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "한계에 다다르셨군요. 지금 가장 원하시는 건 뭔가요? 부장님이 바뀌는 것? 아니면 다른 부서로 이동하는 것?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "처음엔 억울했어요. 나름 학생들을 위해 최선을 다했다고 생각했는데... 그리고 나중엔 제 자신이 의심되더라고요. '내가 정말 잘못한 걸까?' 하는 생각이 계속 들었어요.",
-      "turn": 9
+      "text": "부장님이 바뀌면 좋겠지만... 불가능하잖아요. 차라리 제가 이동하는 게 빠를 것 같아요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "억울함과 동시에 자기 의심까지 드셨다니, 정말 힘든 시간이었겠습니다. 그 일 이후로 어떤 변화들이 있으셨나요?",
+      "text": "부서 이동을 고려하고 계시는군요. 그 전에 할 수 있는 것들도 있어요. 먼저, 이런 발언들을 기록하고 계시나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "아니요. 그냥 넘어갔어요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "앞으로는 날짜, 시간, 구체적 발언 내용을 기록하세요. 이게 나중에 증거가 될 수 있어요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "수업 준비할 때 너무 조심스러워졌어요. 혹시 또 민원이 들어올까 봐... 예전엔 창의적인 수업을 많이 시도했는데, 이젠 교과서만 따라가게 되더라고요.",
-      "turn": 11
+      "text": "증거요? 신고할 생각은 없는데..."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "창의적이고 열정적으로 하셨던 수업 방식을 스스로 제한하게 되신 거네요. 그런 변화가 선생님께 어떤 영향을 미쳤나요?",
+      "text": "지금은 아니더라도, 나중에 필요할 수 있어요. 그리고 인사팀이 안 된다면 외부 기관도 있어요. 국가인권위원회, 고용노동부 같은 곳이요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그런 곳까지 가야 하나요? 너무 큰일로 만드는 것 같아서..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "'큰일로 만든다'고 느껴지시는군요. 하지만 성차별은 작은 일이 아니에요. 본인의 권리를 지키는 게 과하지 않아요.",
+      "technique": [
+        "reflection",
+        "validation"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "제가 왜 교사가 되었는지 모르겠어요. 처음엔 아이들과 소통하고, 성장하는 모습을 보는 게 좋아서 이 일을 시작했는데... 지금은 그냥 하루하루 버티는 것 같아요.",
-      "turn": 13
+      "text": "... 그렇긴 하네요."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "초심과 현재의 모습 사이에서 큰 괴리감을 느끼고 계시는군요. 교사로서의 정체성에 대해 혼란스러운 상태인 것 같습니다.",
+      "text": "신고 외에도 직접 대응하는 방법도 있어요. 부장님께 직접 말씀하는 거죠.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "뭐라고 말하죠? '성차별하지 마세요'라고요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "좀 더 구체적으로요. '부장님, 성별이 아니라 업무 능력으로 평가해주시면 좋겠습니다'라든지, '여자라서 안 된다는 말씀은 기분이 상합니다' 이런 식으로요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 그래서 요즘 교직을 그만둘까 진지하게 고민하고 있어요. 근데 10년을 했는데 이걸 그만두는 게 맞나 싶기도 하고... 복잡해요.",
-      "turn": 15
+      "text": "그렇게 말하면... 받아들이실까요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "한편으로는 그만두고 싶고, 다른 한편으로는 10년이라는 시간이 아깝게 느껴지시는 거군요. 양쪽 마음이 다 있어서 더 힘드실 것 같아요.",
+      "text": "확실하진 않지만, 본인이 불편하다는 걸 알려주는 건 중요해요. 어떤 사람들은 자신이 차별하는지도 모르고 있거든요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그럴 수도 있겠네요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그리고 다른 방법은 이메일이나 문서로 소통하는 거예요. 구두가 아닌 기록이 남는 방식으로요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네, 정말 그래요. 게다가 주변에서는 '안정적인 직업인데 왜 그만두려고 하느냐'고 말리기만 하니까 더 답답해요.",
-      "turn": 17
+      "text": "왜요?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "주변의 시선과 조언들이 오히려 부담으로 느껴지시는군요. 선생님 스스로는 어떤 마음이 가장 크신가요?",
+      "text": "사람들은 글로 쓸 때 더 신중해지거든요. 그리고 문제 발언이 있으면 그것도 증거가 되고요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "아, 그렇군요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그리고 동료들 중에 같은 어려움을 겪는 분들이 있나요?",
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "솔직히... 쉬고 싶어요. 아침에 일어날 때마다 '오늘도 학교 가야 하나' 하는 생각이 제일 먼저 들거든요. 이게 정상적인 건 아니잖아요.",
-      "turn": 19
+      "text": "있어요. 다른 여직원들도 비슷한 얘기 해요."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "매일 아침 출근이 두렵고 부담스러운 상태시군요. 그 정도로 지쳐 계신다는 신호인 것 같습니다. 혹시 신체적인 증상도 나타나시나요?",
+      "text": "그럼 함께 목소리를 내는 것도 방법이에요. 한 사람보다 여러 사람이 문제 제기하면 무시하기 어렵거든요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "같이요? 그런데 누가 먼저 말을 꺼내죠?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "신뢰할 수 있는 동료 한 명과 먼저 이야기해보세요. '우리 이런 거 겪고 있는데, 어떻게 하면 좋을까?' 이런 식으로요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "잠을 잘 못 자요. 밤에 계속 다음 날 수업 생각하고, 혹시 문제 생길까 걱정하다 보면 새벽 2-3시가 되더라고요. 그리고 두통도 자주 생기고요.",
-      "turn": 21
+      "text": "알겠어요. 해볼게요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "수면 문제와 두통까지... 신체적으로도 많이 힘드신 상태네요. 이런 상황이 얼마나 지속되셨나요?",
+      "text": "본인의 감정 관리도 중요해요. 매번 성차별 발언을 들으면서 참기만 하면 자존감이 낮아질 수 있어요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "이미 낮아진 것 같아요. 요즘 '나는 여자라서 안 되나' 이런 생각도 들어요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "그건 부장님의 편견이 본인에게 내재화된 거예요. 본인의 가치는 성별이 아니라 능력으로 결정돼요.",
+      "technique": [
+        "interpretation",
+        "validation"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "한 6개월 정도 된 것 같아요. 처음엔 일시적인 거라고 생각했는데, 점점 심해지는 것 같아요.",
-      "turn": 23
+      "text": "머리로는 알겠는데 마음이 힘들어요."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "6개월이면 꽤 오랜 시간 동안 혼자 이 무게를 감당해오셨네요. 이 기간 동안 선생님을 지탱해준 것들이 있었나요?",
+      "text": "당연해요. 그래서 본인을 긍정하는 연습이 필요해요. 매일 '나는 능력 있는 직원이다'라고 스스로에게 말해보세요.",
+      "technique": [
+        "validation",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "그런 게 도움이 될까요?"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "처음엔 어색하지만, 반복하면 효과가 있어요. 그리고 본인의 성과를 기록하세요. 부장님 말이 아니라 실제 본인이 해낸 것들로 자신을 평가하는 거죠.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "음... 그래도 가끔 학생들이 '선생님 수업 재밌어요'라고 말해줄 때는 조금 위로가 되긴 해요. 그리고 같은 학교 동료 교사 한 분이 제 얘기를 들어주시거든요.",
-      "turn": 25
+      "text": "성과 기록이요. 해볼게요."
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "학생들의 긍정적인 피드백과 동료의 지지가 있으시군요. 그런 순간들에는 어떤 기분이 드시나요?",
+      "text": "이번 주에 할 수 있는 것들을 정리해볼까요? 차별 발언 기록하기, 신뢰할 수 있는 동료와 이야기해보기, 성과 기록하기. 이 중에서 가장 먼저 시도해볼 건 뭔가요?",
+      "technique": [
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "동료랑 이야기하는 거요. 혼자가 아니라는 걸 확인하고 싶어요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "좋은 선택이에요. 함께하면 더 힘이 나실 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "그때는 '아, 내가 완전히 쓸모없는 건 아니구나' 하는 생각이 들어요. 근데 그것도 잠깐이고, 다시 현실로 돌아오면 무기력해져요.",
-      "turn": 27
+      "text": "그리고 차별 발언도 기록할게요."
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "일시적인 위안은 있지만, 전반적으로는 무기력감이 지배적이신 거네요. 선생님, 만약 지금 당장 모든 외부 조건을 고려하지 않아도 된다면, 선생님은 무엇을 가장 하고 싶으신가요?",
+      "text": "훌륭해요. 나중에 필요할 때 사용할 수 있을 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "부장님한테 직접 말하는 건... 좀 더 용기가 필요할 것 같아요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "그럴 수 있어요. 동료들과 이야기 나눈 후에 생각해봐도 늦지 않아요. 천천히 가세요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 28,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "글쎄요... 생각해본 적이 없는데... 아마도 한 달 정도 아무 생각 없이 쉬고 싶어요. 그리고 제가 정말 원하는 게 뭔지 찾아보고 싶어요.",
-      "turn": 29
+      "text": "감사합니다. 조금 힘이 나네요."
     },
     {
+      "turn": 28,
       "speaker": "counselor",
-      "text": "휴식과 자기 탐색의 시간이 필요하시군요. 그건 매우 건강한 욕구입니다. 그런 시간을 가지는 것에 대해 실제로 고려해보신 적이 있으신가요?",
+      "text": "오늘 상담에서 깨달은 게 있다면 뭔가요?",
+      "technique": [
+        "open_question",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "제가 참기만 할 필요는 없다는 것. 그리고 혼자가 아니라는 것. 제 권리를 지킬 방법이 있다는 거요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "완벽하게 정리하셨네요. 성차별은 참아야 할 게 아니라 바꿔야 할 거예요. 다음 주에 어떻게 진행됐는지 이야기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 30,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "휴직을 생각은 해봤는데... 그것도 용기가 안 나더라고요. 그리고 휴직하면 복직했을 때 더 힘들 것 같기도 하고요.",
-      "turn": 31
+      "text": "네, 다음 주에 뵙겠습니다. 감사합니다."
     },
     {
+      "turn": 30,
       "speaker": "counselor",
-      "text": "변화에 대한 두려움이 있으시군요. 그건 자연스러운 감정입니다. 선생님, 오늘 상담을 통해서 어떤 도움을 받고 싶으신가요?",
-      "turn": 32,
-      "technique": "normalization"
-    },
-    {
-      "speaker": "client",
-      "text": "제가 지금 느끼는 감정들이 정상적인 건지, 그리고 앞으로 어떻게 해야 할지 방향을 찾고 싶어요. 계속 이렇게 살 순 없잖아요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "선생님이 느끼시는 번아웃과 혼란은 매우 정상적인 반응입니다. 오랜 시간 스트레스 상황에 노출되면 누구나 경험할 수 있는 것이에요. 함께 천천히 방향을 찾아가보면 좋겠습니다. 다음 상담부터는 선생님의 강점과 자원을 탐색하고, 구체적인 대처 방법을 함께 모색해보는 게 어떨까요?",
-      "turn": 34,
-      "technique": "normalization"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 좋아요. 오늘 이렇게 얘기하니까 조금은 마음이 가벼워진 것 같아요. 다음 상담도 기대됩니다.",
-      "turn": 35
+      "text": "본인의 가치를 잊지 마세요. 성별이 아니라 능력으로 평가받을 권리가 있어요. 다음 주에 뵙겠습니다.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1617",
   "metadata": {
-    "generated_at": "2025-12-17T15:14:50.558078+00:00",
+    "generated_at": "2025-12-18T03:01:42.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

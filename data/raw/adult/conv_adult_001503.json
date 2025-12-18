@@ -1,215 +1,439 @@
 {
-  "conversation_id": "CONV_20250622_ADT_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "여성",
-    "occupation": "중학교 교사"
+  "client_profile": {
+    "age": "29",
+    "gender": "남성",
+    "occupation": "증권사 펀드매니저",
+    "background": "입사 3년차, 분기 실적 압박으로 수면장애 및 불안장애 발생, 완벽주의 성향"
   },
-  "situation": "10년차 교사로 학생들을 가르치는 일에 보람을 느꼈으나, 최근 학부모의 과도한 민원과 학생들의 무례한 태도로 인해 번아웃을 경험하고 있으며, 퇴직을 고민 중임",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 상담을 받아본 적이 없어서 좀 떨리네요.",
-      "turn": 1
+      "text": "이번 분기 실적이 안 나오면 짤릴 것 같아요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음 상담실을 찾는 건 용기가 필요한 일이에요. 편안하게 이야기 나눠보도록 해요. 오늘은 어떤 이야기를 나누고 싶으신가요?",
+      "text": "실적 압박 때문에 고용 불안을 느끼시는군요. 실제로 그런 얘기를 들으셨나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치는 교사예요. 10년 동안 이 일을 해왔는데... 요즘 너무 힘들어서 그만둘까 생각 중이에요.",
-      "turn": 3
+      "text": "직접 들은 건 아니지만... 분위기가 그래요. 실적 안 나오는 매니저들은 계약 연장 안 되거든요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년 동안 교직에 계셨는데 지금 그만두는 것을 고민하실 정도로 힘든 상황이시군요. 어떤 일들이 있으셨나요?",
+      "text": "직접적 언급은 없지만 회사 분위기로 느끼시는군요. 지금 본인 실적은 어떤가요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "중간 정도요? 상위 50% 안에는 들어요. 근데 그게 안전하다는 보장은 없잖아요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "상위 50%인데도 불안하시군요. 과거에 실적이 그 정도인데 계약 연장 안 된 사례가 있었나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "처음엔 정말 보람 있었어요. 학생들이 성장하는 모습을 보면서 행복했고요. 그런데 최근 몇 년 사이에 분위기가 많이 달라졌어요. 학부모들의 민원이 너무 심해졌고, 학생들도 예전 같지 않아요.",
-      "turn": 5
+      "text": "... 없어요. 보통 하위 20% 정도만 문제가 되는데... 근데 제가 떨어질 수도 있잖아요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "처음에는 보람을 느끼셨던 일이 점점 힘들어지셨네요. 구체적으로 어떤 변화가 있었는지 좀 더 말씀해주실 수 있을까요?",
+      "text": "실제 위험은 크지 않은데도 '떨어질 수도 있다'는 불안이 큰 거네요. 이런 불안이 얼마나 심한가요?",
+      "technique": [
+        "interpretation",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "밤에 잠을 못 자요. 눈 감으면 숫자만 보이고, '이번 달 목표 못 채우면 어떡하지' 생각만 들어요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "불안이 수면을 방해할 정도로 심각하군요. 다른 신체 증상은 없나요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "지난달에도 한 학부모가 자기 아이가 시험 점수가 낮다고 찾아와서는 제 채점이 잘못됐다고 따졌어요. 교무실까지 찾아와서 큰 소리로... 다른 선생님들도 다 듣는 상황에서요.",
-      "turn": 7
+      "text": "심장이 자주 두근거려요. 그리고 시장 개장 전에는 속이 메스꺼워요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "그런 상황을 겪으셨다니 정말 당황스럽고 수치스러우셨겠어요. 그 일이 있고 나서 어떠셨나요?",
+      "text": "심계항진과 메스꺼움까지 있으시군요. 이런 증상이 언제부터 시작됐나요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "작년 말부터요. 그때 실적이 좀 안 좋았거든요. 그 이후로 계속..."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "한 번의 부진 이후 계속 불안이 지속되고 있군요. 혹시 '완벽해야 한다' '실수하면 안 된다'는 생각이 자주 드시나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "그날 밤에 잠을 한숨도 못 잤어요. 계속 그 상황이 머릿속에서 재생되더라고요. 제가 뭘 잘못한 건가, 제 채점이 정말 잘못된 건가 계속 확인했어요. 하지만 아무 문제가 없었어요.",
-      "turn": 9
+      "text": "네... 저는 항상 top이어야 해요. 그래야 살아남으니까."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "부당한 상황이었는데도 스스로를 계속 의심하게 되셨군요. 그런 일이 자주 있으신가요?",
+      "text": "항상 최고여야 한다는 압박감이 크시군요. 그런데 '상위 50%'도 살아남는 거잖아요. 왜 'top'이어야 한다고 생각하세요?",
+      "technique": [
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "... 글쎄요. 제 기준이 높아서? 평범한 건 못 참아요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "높은 기준을 가지신 거네요. 그 기준이 본인을 성장시키기도 하지만, 동시에 과도한 불안을 만들고 있는 것 같아요.",
+      "technique": [
+        "validation",
+        "interpretation"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 한 달에 한두 번은 이런 일이 있어요. 어떤 부모는 카톡으로 밤 11시에 연락해서 숙제에 대해 물어보고, 제가 바로 답장 안 하면 불친절하다고 민원을 넣으세요.",
-      "turn": 11
+      "text": "그럼 기준을 낮춰야 하나요? 그럼 경쟁력이 떨어지는데..."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "업무 시간 외에도 계속 연락이 오고, 경계가 지켜지지 않는 상황이네요. 그런 상황들이 쌓이면서 어떤 영향을 받고 계신가요?",
+      "text": "기준을 낮추는 게 아니라 '현실적'으로 만드는 거예요. 항상 top이 목표가 아니라, '꾸준히 상위권 유지'가 목표가 될 수도 있잖아요.",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "... 그게 다른가요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "많이 다르죠. '항상 top'은 단 한 번의 실수도 용납 안 하지만, '꾸준히 상위권'은 때로는 중간일 수도 있다는 여유를 주거든요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "요즘은 학교 가는 게 너무 두려워요. 아침에 일어나면 배가 아프고, 출근길에 차 안에서 울기도 해요. 예전엔 이런 적 없었는데...",
-      "turn": 13
+      "text": "여유라... 저한테는 없는 단어네요."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "신체적인 증상까지 나타나고 계시네요. 그 정도로 힘든 상황이라는 것을 몸이 신호를 보내고 있는 것 같아요. 학생들과의 관계는 어떠신가요?",
+      "text": "바로 그게 문제예요. 여유 없이 계속 달리면 결국 쓰러져요. 지금 신체 증상이 그 신호이고요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "쓰러지면 더 큰일이잖아요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "맞아요. 그래서 지금 조절해야 하는 거예요. 이번 주에 업무 외 시간은 어떻게 보내시나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "학생들도 예전 같지 않아요. 수업 중에 휴대폰을 보거나, 제가 주의를 주면 '선생님이 뭔데 간섭해요?'라고 대답하는 학생들도 있어요. 어떤 학생은 제 수업을 몰래 녹음해서 문제 삼으려고 했어요.",
-      "turn": 15
+      "text": "퇴근해서도 차트 보고, 뉴스 보고... 주말에도 공부해요."
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "교사로서의 권위와 신뢰가 무너지는 경험을 하고 계시네요. 그런 상황에서 어떤 감정을 느끼시나요?",
+      "text": "일과 공부만 하시는군요. 완전히 쉬는 시간이 없으시네요.",
+      "technique": [
+        "reflection",
+        "empathy"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "쉬면 뒤처질 것 같아서..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "'쉬면 뒤처진다'는 믿음이 있으시군요. 하지만 적절한 휴식이 오히려 판단력과 집중력을 높인다는 연구 결과가 많아요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "무력감이요. 제가 아무것도 할 수 없다는 느낌... 그리고 분노도 있어요. 10년 동안 최선을 다했는데 이런 대우를 받아야 하나 싶어서요. 동시에 제 자신이 한심하게 느껴져요.",
-      "turn": 17
+      "text": "그래도... 불안해요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "무력감, 분노, 자기비하... 여러 감정이 복잡하게 얽혀있으시네요. 이런 감정들을 느끼는 것은 지금 상황에서 자연스러운 반응이에요. 주변에 이런 이야기를 나눌 수 있는 분이 계신가요?",
+      "text": "불안을 느끼시는 건 당연해요. 작게라도 시작해보는 건 어떨까요? 일주일에 하루, 3시간만이라도 완전히 일을 내려놓는 거예요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "3시간이요? 그 시간에 뭘 하죠?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "아무것도 안 해도 돼요. 아니면 예전에 좋아했던 취미, 운동, 친구 만나기... 일과 무관한 활동이면 뭐든 좋아요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "같은 학교 선생님들도 다들 비슷한 상황이라 서로 위로는 하지만... 해결책은 없어요. 남편한테 이야기하면 '그냥 참고 다녀, 월급은 나오잖아'라고 해요. 이해받지 못하는 기분이에요.",
-      "turn": 19
+      "text": "그런 시간이... 필요할까요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "힘든 상황을 공유해도 진정으로 이해받지 못한다고 느끼시는군요. 그런 고립감이 더 힘들게 만들 수 있어요. 그럼에도 불구하고 10년 동안 교직을 유지해오신 이유가 있으셨을 텐데, 어떤 것들이 있었나요?",
+      "text": "필수예요. 뇌도 쉬어야 해요. 계속 긴장 상태면 오히려 실수가 늘어나요. 지금 수면 부족과 불안으로 이미 판단력이 떨어지고 있지 않나요?",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "... 맞아요. 요즘 실수가 늘었어요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "바로 그거예요. 쉬지 않아서 오히려 성과가 떨어지는 악순환이에요. 그리고 완벽주의에 대해서도 이야기해볼 필요가 있어요.",
+      "technique": [
+        "interpretation",
+        "structuring"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "글쎄요... 예전에는 학생들이 성장하는 모습이 보람이었어요. 졸업한 학생이 찾아와서 '선생님 덕분에 국어가 좋아졌어요'라고 할 때 정말 행복했거든요. 그런데 요즘은 그런 순간이 거의 없어요.",
-      "turn": 21
+      "text": "완벽주의가 나쁜 건가요?"
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "보람을 느끼셨던 순간들이 있으셨네요. 지금은 그런 긍정적인 경험이 줄어들면서 힘든 일들만 더 크게 느껴지시는 것 같아요. 퇴직을 고민하신다고 하셨는데, 구체적으로 어떤 생각을 하고 계신가요?",
+      "text": "적절한 완벽주의는 좋지만, 과도하면 해로워요. '실수 한 번에 모든 게 끝난다'는 생각이 현실적인가요?",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "... 아니에요. 실적 한 분기 나빠도 바로 짤리진 않죠."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "맞아요. 그런데도 본인은 그렇게 느끼고 계세요. 이런 생각을 '인지 왜곡'이라고 해요. 현실을 더 위협적으로 해석하는 거죠.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "그만두면 편할 것 같아요. 더 이상 이런 스트레스를 받지 않아도 되니까요. 하지만 동시에 두렵기도 해요. 10년을 투자한 커리어를 포기하는 거잖아요. 그리고 경제적인 문제도 있고요.",
-      "turn": 23
+      "text": "제가 과장하고 있다는 건가요?"
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "한편으로는 벗어나고 싶지만, 다른 한편으로는 포기하기 어려운 것들이 있으시네요. 이런 양가감정을 느끼는 것이 당연해 보여요. 만약 지금 당장 그만두지 않는다면, 어떤 변화가 있으면 좀 더 견딜 수 있을 것 같으세요?",
+      "text": "과장이라기보다는, 불안이 현실을 왜곡하고 있다는 거예요. 이번 주에 해볼 수 있는 게 있어요. 불안한 생각이 들 때, '이게 사실인가? 증거가 있나?' 스스로에게 물어보는 거예요.",
+      "technique": [
+        "clarification",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "생각에 질문하는 거요?"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "네. 예를 들어 '나는 짤릴 거야'라는 생각이 들면, '실제로 짤릴 증거가 있나? 내 실적은 상위 50%인데?'라고 반문하는 거죠.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "ambivalence_exploration"
-    },
-    {
       "speaker": "client",
-      "text": "음... 경계선이 필요할 것 같아요. 학부모들의 무리한 요구를 거절할 수 있는 방법이라든지... 그리고 제 감정을 좀 더 잘 다룰 수 있으면 좋겠어요. 매번 이렇게 상처받지 않도록요.",
-      "turn": 25
+      "text": "해볼게요. 근데 그래도 불안하면요?"
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "경계 설정과 감정 조절, 두 가지 중요한 필요를 말씀하셨네요. 이런 부분들을 함께 작업해나가면 지금보다 상황이 나아질 수 있을 것 같아요. 당장 퇴직을 결정하기보다, 먼저 이런 대처 방법들을 익혀보는 것은 어떨까요?",
+      "text": "한 번에 해결되진 않아요. 꾸준히 연습해야 해요. 그리고 심한 불안은 정신건강의학과 도움도 고려해야 해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "약을 먹어야 하나요?"
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "필요하다면요. 불안장애가 심하면 약물치료가 도움이 돼요. 하지만 그건 정신과 의사가 판단할 일이에요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "suggestion"
-    },
-    {
       "speaker": "client",
-      "text": "그게 가능할까요? 저는 이미 너무 지쳐버린 것 같은데...",
-      "turn": 27
+      "text": "알겠습니다. 일단 오늘 배운 것부터 해볼게요."
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "지금 많이 지쳐계신 것은 사실이에요. 하지만 오늘 이렇게 상담실을 찾아오신 것 자체가 변화를 위한 첫걸음이에요. 한 번에 모든 것을 바꾸려고 하지 않고, 작은 것부터 시도해보면 어떨까요?",
+      "text": "오늘 정한 것들 정리해볼까요? 일주일에 3시간 일 내려놓기, 불안한 생각에 질문하기, 필요시 정신과 상담. 맞나요?",
+      "technique": [
+        "summarization",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "네, 맞아요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "그리고 가장 중요한 건, '상위 50%도 훌륭하다'는 걸 인정하는 거예요. 항상 top일 필요 없어요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 28,
-      "technique": "encouragement"
-    },
-    {
       "speaker": "client",
-      "text": "작은 것이라면... 예를 들어 어떤 것들이 있을까요?",
-      "turn": 29
+      "text": "그게... 쉽지 않을 것 같지만 노력해볼게요."
     },
     {
+      "turn": 28,
       "speaker": "counselor",
-      "text": "예를 들어, 학부모와의 소통 시간을 정해두는 것부터 시작할 수 있어요. '평일 오후 5시까지만 연락 가능합니다'라고 명확히 안내하는 거죠. 그리고 매일 퇴근 후 자신을 위한 시간을 30분이라도 갖는 것도 도움이 될 수 있어요.",
+      "text": "처음엔 어렵겠지만, 본인의 건강을 위해 필요한 일이에요. 다음 주에 어떻게 됐는지 이야기 나눠봐요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네, 감사합니다."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "오늘 상담에서 어떤 게 가장 도움이 됐나요?",
+      "technique": [
+        "open_question",
+        "summarization"
+      ]
+    },
+    {
       "turn": 30,
-      "technique": "psychoeducation"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 해도 될까요? 학부모들이 더 민원을 넣으면 어떡하죠?",
-      "turn": 31
+      "text": "제 불안이 과도하다는 것, 그리고 완벽하지 않아도 괜찮다는 것. 쉬는 것도 필요하다는 거요."
     },
     {
+      "turn": 30,
       "speaker": "counselor",
-      "text": "그런 걱정이 드시는 것도 이해해요. 하지만 합리적인 경계를 설정하는 것은 선생님의 권리예요. 혹시 학교에 교권 보호 담당자나 관련 규정이 있나요?",
-      "turn": 32,
-      "technique": "validation"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 있긴 한데... 별로 도움이 안 될 거라고 생각했어요. 그런데 한번 알아봐야겠네요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "좋은 생각이세요. 혼자 모든 것을 감당하려고 하지 마시고, 사용할 수 있는 시스템을 활용하는 것도 중요해요. 오늘 상담을 통해서 어떤 생각이나 느낌이 드시나요?",
-      "turn": 34,
-      "technique": "encouragement"
-    },
-    {
-      "speaker": "client",
-      "text": "조금... 희망이 보이는 것 같기도 해요. 당장 그만둬야 한다는 생각에서 벗어나니까 숨통이 트이는 느낌이에요. 제가 할 수 있는 것들이 있다는 게 위안이 되네요.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "그렇게 느껴주셔서 다행이에요. 선생님께서는 10년 동안 많은 학생들에게 영향을 주신 분이에요. 지금은 힘든 시기지만, 함께 이 과정을 헤쳐나가보도록 해요. 다음 상담 때는 구체적인 경계 설정 방법과 감정 조절 기술에 대해 더 깊이 이야기 나눠볼까요?",
-      "turn": 36,
-      "technique": "affirmation"
+      "text": "완벽하게 정리하셨네요. 본인에게 조금 더 관대해지세요. 다음 주에 뵙겠습니다.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1503",
   "metadata": {
-    "generated_at": "2025-12-17T14:59:25.745887+00:00",
+    "generated_at": "2025-12-18T03:01:37.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

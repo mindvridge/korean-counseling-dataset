@@ -1,209 +1,397 @@
 {
-  "conversation_id": "CONV_20250628_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "29",
     "gender": "여성",
-    "occupation": "중학교 교사"
+    "occupation": "재택근무자",
+    "background": "일과 육아 병행의 어려움, 아이 떼쓰기, 퇴근 후 '엄마의 일과' 시작"
   },
-  "situation": "10년차 교사로 학생들을 가르치는 일에 보람을 느껴왔으나, 최근 학부모와의 갈등과 업무 과중으로 번아웃을 경험하며 교직을 그만둘지 고민 중",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 상담 예약하고 왔는데... 사실 여기 오는 것도 많이 망설였어요.",
-      "turn": 1
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 1턴]"
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 편안하게 앉으세요. 상담실을 찾아오시기까지 많은 고민이 있으셨을 것 같아요. 용기 내어 오셨네요.",
+      "text": "[상담사 응답 1턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 요즘 너무 힘들어서요. 교사로 일한 지 10년이 됐는데, 이렇게 힘든 적은 처음인 것 같아요.",
-      "turn": 3
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 2턴]"
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년 동안 교직에 계셨는데 최근 들어 특히 힘드신 상황이군요. 어떤 점이 가장 힘드신가요?",
+      "text": "[상담사 응답 2턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 3턴]"
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "[상담사 응답 3턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "모든 게 다 힘들어요. 학생들은 말을 안 듣고, 학부모들은 사사건건 간섭하고... 행정 업무는 산더미고. 아침에 일어나는 게 너무 싫어요.",
-      "turn": 5
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 4턴]"
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "여러 방면에서 동시에 어려움을 겪고 계시는군요. 아침에 일어나는 것조차 힘들 정도라니, 정말 많이 지쳐계신 것 같습니다.",
+      "text": "[상담사 응답 4턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 5턴]"
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "[상담사 응답 5턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 예전엔 학생들 가르치는 게 정말 좋았거든요. 아이들이 성장하는 모습 보면서 보람도 느끼고... 그런데 지금은 그냥 다 의미 없게 느껴져요.",
-      "turn": 7
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 6턴]"
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "예전에는 학생들의 성장을 보며 보람을 느끼셨는데, 지금은 그런 의미마저 느껴지지 않으신다는 말씀이시네요. 언제부터 이런 변화가 시작되셨나요?",
+      "text": "[상담사 응답 6턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 7턴]"
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "[상담사 응답 7턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "정확히는 모르겠지만... 작년 말쯤부터인 것 같아요. 한 학부모님이 제 수업 방식에 문제를 제기하면서 교육청에 민원을 넣으셨거든요.",
-      "turn": 9
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 8턴]"
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "학부모의 민원이 있으셨군요. 그 일이 선생님께 큰 충격으로 다가왔을 것 같습니다.",
+      "text": "[상담사 응답 8턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 9턴]"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "[상담사 응답 9턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 정말 충격이었어요. 저는 항상 최선을 다해서 가르쳤다고 생각했는데, 그런 일을 겪으니까 제가 하는 모든 게 의심스러워지더라고요. 혹시 내가 잘못하고 있는 건 아닐까, 계속 그런 생각이 들어요.",
-      "turn": 11
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 10턴]"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "최선을 다해왔다고 믿었던 일에 대해 문제 제기를 받으시니 자신감이 흔들리고 모든 것을 의심하게 되셨네요. 그 일 이후로 선생님의 일상이나 감정에 어떤 변화가 있으셨나요?",
+      "text": "[상담사 응답 10턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 11턴]"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "[상담사 응답 11턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "수업할 때마다 불안해요. 혹시 또 뭔가 문제가 될까 봐... 그래서 학생들한테도 예전처럼 편하게 대하지 못하고 너무 조심스럽게 되더라고요. 그러니까 수업도 재미없어지고.",
-      "turn": 13
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 12턴]"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "불안감 때문에 학생들과의 관계도 달라지고 수업의 질도 영향을 받게 되신 거네요. 이런 상황이 선생님께 이중으로 힘들게 작용하고 있는 것 같습니다.",
+      "text": "[상담사 응답 12턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 13턴]"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "[상담사 응답 13턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 악순환이에요. 그리고 집에 가서도 계속 학교 일 생각만 나고... 남편한테도 짜증만 내게 되고. 주말에도 쉬는 것 같지가 않아요.",
-      "turn": 15
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 14턴]"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "학교에서의 스트레스가 가정생활에까지 영향을 미치고 있고, 충분히 회복할 시간도 갖지 못하고 계시는군요. 남편분은 선생님의 상황에 대해 알고 계신가요?",
+      "text": "[상담사 응답 14턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 15턴]"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "[상담사 응답 15턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "대충은 알죠. 근데 남편도 자기 일로 바쁘니까... 제 얘기를 하면 '그냥 적당히 해', '너무 완벽하게 하려고 하지 마' 이런 말만 해요. 그게 위로가 안 돼요.",
-      "turn": 17
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 16턴]"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "남편분의 조언이 선생님께는 현실적인 위로나 지지로 느껴지지 않으시는군요. 선생님의 마음을 충분히 이해받지 못한다고 느끼시는 것 같아요.",
+      "text": "[상담사 응답 16턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 17턴]"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "[상담사 응답 17턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네, 그래요. 저는 적당히 할 수가 없어요. 교사로서 책임감이 있으니까... 그런데 요즘은 그 책임감이 너무 무겁게 느껴져요. 그래서 아예 그만둘까 생각도 해요.",
-      "turn": 19
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 18턴]"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "책임감이 오히려 부담으로 다가오시는군요. 교직을 그만두는 것까지 고려하고 계신다니, 정말 많이 힘드신 상황이네요. 그만두는 것에 대해 구체적으로 생각해보신 적이 있으신가요?",
+      "text": "[상담사 응답 18턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 19턴]"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "[상담사 응답 19턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "자주 생각해요. 근데 막상 그만둔다고 하면... 10년을 투자한 건데 그냥 버리는 것 같고, 경제적으로도 부담이고. 또 제가 교사 말고 뭘 할 수 있을지도 모르겠어요.",
-      "turn": 21
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 20턴]"
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "그만두고 싶은 마음과 동시에 그동안의 시간, 경제적 안정, 미래에 대한 불확실성 때문에 갈등하고 계시는 거네요. 이런 양가감정이 선생님을 더 힘들게 하는 것 같습니다.",
+      "text": "[상담사 응답 20턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 21턴]"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "[상담사 응답 21턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "정확히 그래요. 매일 이 생각 저 생각하다가 아무 결정도 못 내리고... 그냥 버티고 있는 거죠. 이게 맞는 건지도 모르겠고.",
-      "turn": 23
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 22턴]"
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "결정을 내리지 못한 채 버티고 계신 지금 상황이 가장 힘드실 수 있어요. 선생님, 혹시 교직을 처음 시작하셨을 때를 떠올려보실 수 있으실까요? 그때는 어떤 마음이셨나요?",
+      "text": "[상담사 응답 22턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 23턴]"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "[상담사 응답 23턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "그때는... 정말 열정적이었어요. 아이들한테 좋은 선생님이 되고 싶었고, 제가 가르치는 학생들이 꿈을 찾을 수 있도록 돕고 싶었죠. 지금 생각하면 참 순수했던 것 같아요.",
-      "turn": 25
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 24턴]"
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "열정과 순수한 마음으로 시작하셨군요. 그 마음이 완전히 사라진 건 아닐 거예요. 지금은 여러 어려움으로 가려져 있을 뿐이죠. 선생님께서 교직을 계속하시든 다른 선택을 하시든, 먼저 지금의 번아웃 상태에서 회복하는 것이 중요할 것 같습니다.",
+      "text": "[상담사 응답 24턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 25턴]"
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "[상담사 응답 25턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "번아웃이라는 말을 들으니까... 제가 정말 그런 상태인 것 같네요. 어떻게 회복할 수 있을까요?",
-      "turn": 27
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 26턴]"
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "회복을 위해서는 여러 방법이 있어요. 우선 선생님의 현재 감정과 상황을 인정하고 받아들이는 것부터 시작하면 좋겠습니다. 그리고 일상에서 작은 변화들을 시도해볼 수 있어요. 선생님께서는 평소에 스트레스를 해소하는 나름의 방법이 있으신가요?",
-      "turn": 28,
-      "technique": "psychoeducation"
+      "text": "[상담사 응답 26턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
     },
     {
+      "turn": 27,
       "speaker": "client",
-      "text": "예전에는 운동도 하고 친구들도 만났는데... 요즘은 그럴 여유도 없고 의욕도 안 나요. 그냥 집에서 멍하니 있다가 자는 게 전부예요.",
-      "turn": 29
+      "text": "[work-life balance, 육아와 커리어 고민 관련 내담자 발화 27턴]"
     },
     {
+      "turn": 27,
       "speaker": "counselor",
-      "text": "에너지가 많이 소진되어 있어서 활동할 의욕이 나지 않으시는 거예요. 이해합니다. 그렇다면 아주 작은 것부터 시작해보는 건 어떨까요? 예를 들어 하루 10분만 산책을 한다거나, 좋아하는 음악을 듣는다거나 하는 것들이요.",
-      "turn": 30,
-      "technique": "suggestion"
-    },
-    {
-      "speaker": "client",
-      "text": "10분 정도는... 할 수 있을 것 같기도 해요. 그런데 그런 게 정말 도움이 될까요?",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "작은 변화들이 모여서 큰 변화를 만들어냅니다. 지금 선생님께 필요한 건 자신을 돌보는 시간이에요. 그리고 학교에서의 어려움에 대해서도 함께 이야기 나누면서 대처 방법을 찾아볼 수 있을 거예요. 오늘 이렇게 상담을 시작하신 것도 자신을 돌보기 위한 중요한 첫걸음이세요.",
-      "turn": 32,
-      "technique": "encouragement"
-    },
-    {
-      "speaker": "client",
-      "text": "네... 조금은 마음이 가벼워진 것 같아요. 제 얘기를 들어주시니까 좋네요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "마음을 나누어주셔서 감사합니다. 앞으로 상담을 통해 선생님이 지금의 어려움을 극복하고, 선생님에게 맞는 방향을 찾아갈 수 있도록 함께하겠습니다. 다음 주에 다시 뵐 수 있을까요?",
-      "turn": 34,
-      "technique": "support"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 그러고 싶어요. 다음 주에 또 올게요. 감사합니다.",
-      "turn": 35
+      "text": "[상담사 응답 27턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2025-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1308",
   "metadata": {
-    "generated_at": "2025-12-17T14:32:59.782405+00:00",
+    "generated_at": "2025-12-18T03:01:28.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

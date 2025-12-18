@@ -1,209 +1,300 @@
 {
-  "conversation_id": "CONV_ADT_20250619_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "34",
     "gender": "여성",
-    "occupation": "중학교 교사"
+    "occupation": "박사과정 연구원",
+    "background": "학업에 몰두하며 친구들과 멀어짐, 연구실에만 있어 외로움"
   },
-  "situation": "10년차 중학교 교사로 일하면서 학생들과의 관계는 좋지만, 최근 학부모들의 과도한 요구와 민원으로 인해 심한 스트레스를 받고 있으며, 교직에 대한 회의감과 번아웃을 경험하고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 사실 상담을 받아야 할지 고민을 많이 했는데, 요즘 너무 힘들어서 이렇게 찾아왔어요.",
-      "turn": 1
+      "text": "박사 과정하면서 친구들이 다 떠났어요. 이제 연구실 사람들밖에 없는데 그마저도 경쟁 관계라..."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 용기 내어 찾아주셔서 감사합니다. 고민 끝에 이 자리에 오시기까지 쉽지 않으셨을 것 같아요. 편안하게 말씀해 주세요.",
+      "text": "학업에 집중하면서 사회적 관계가 축소되었군요. 연구실 동료들과도 편하지 않으시고요. 지금 가장 힘든 점이 뭔가요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치는 교사인데요. 벌써 10년째 일하고 있어요. 처음엔 정말 열정적으로 했는데... 요즘은 출근하는 게 너무 두렵습니다.",
-      "turn": 3
+      "text": "외로워요. 하루 종일 논문만 읽고 실험만 하다 보면... 사람이랑 얘기하고 싶은데 할 사람이 없어요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년간 교직에 계셨군요. 처음의 열정과 지금의 두려움 사이에서 많이 힘드시겠어요. 어떤 일들이 출근을 두렵게 만드는지 말씀해 주실 수 있을까요?",
+      "text": "대화할 사람이 없어서 외로우시군요. 예전 친구들과는 어떻게 되었나요?",
+      "technique": [
+        "emotion_labeling",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "다들 결혼하고 애 낳고... 저랑은 다른 세계 사는 것 같아요. 만나도 공감대가 없어요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "생활 패턴과 관심사가 달라져서 소원해지셨군요. 친구들이 본인을 이해하지 못한다고 느끼시나요?",
+      "technique": [
+        "restatement",
+        "clarification"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "학생들은 사실 좋아요. 아이들 가르치는 건 여전히 보람 있고요. 문제는... 학부모들이에요. 요즘 학부모들의 민원이 정말 심각해요.",
-      "turn": 5
+      "text": "네. 제가 연구 얘기하면 지루해하고... 친구들 육아 얘기는 저한테 와닿지 않고요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "학생들과의 관계는 여전히 좋으시지만, 학부모들과의 관계에서 어려움을 겪고 계시는군요. 구체적으로 어떤 민원들이 있으셨나요?",
+      "text": "서로의 세계가 너무 달라서 대화가 어려우시군요. 박사 과정 동기들은 어떠세요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "있긴 한데... 다들 경쟁자예요. 논문 실적, 장학금, 나중에 교수 자리까지... 진짜 친구가 될 순 없어요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "공통점은 있지만 경쟁 구도 때문에 깊은 관계를 맺기 어려우시군요. 이런 상황이 얼마나 지속되었나요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "지난달에는 한 학생이 수행평가 점수가 낮게 나왔다고 학부모님이 교육청까지 민원을 넣으셨어요. 제가 공정하게 채점 기준대로 했는데도요. 그 일로 교장실에 불려가서 해명하고... 정말 모욕감을 느꼈어요.",
-      "turn": 7
+      "text": "2년? 박사 시작하고 나서 점점 심해졌어요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "공정하게 일을 처리했음에도 불구하고 민원으로 인해 해명해야 했던 상황이 굉장히 억울하고 모욕적으로 느껴지셨겠어요. 그런 경험이 마음에 깊은 상처를 남긴 것 같습니다.",
+      "text": "2년간 고립되어 오셨군요. 이 기간 동안 외로움을 어떻게 대처하셨나요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "그냥 참았어요. 연구에 집중하면 잊혀질 줄 알았는데... 안 되더라고요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "연구로 외로움을 잊으려 했지만 효과가 없었군요. 지금 정서 상태는 어떠세요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그게 한두 번이 아니에요. 어떤 학부모는 자기 아이를 반장으로 안 시켰다고 항의하고, 또 어떤 분은 자리 배치가 마음에 안 든다고 매일 전화하시고... 저는 그냥 수업이나 제대로 하고 싶은데.",
-      "turn": 9
+      "text": "우울해요. 아침에 일어나기 싫고, 연구실 가기도 싫고... 그냥 다 의미 없는 것 같아요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "반복되는 과도한 요구들로 인해 정작 중요한 교육 활동에 집중하기 어려운 상황이시네요. 이런 일들이 계속되면서 선생님께 어떤 영향을 미치고 있나요?",
+      "text": "우울감과 무기력감까지 느끼고 계시네요. 이런 감정이 연구에도 영향을 미치나요?",
+      "technique": [
+        "emotion_labeling",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "당연하죠. 집중도 안 되고 실수도 많아졌어요. 이러다 박사도 못 따는 거 아닌가 싶어요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "외로움이 학업 성취에도 부정적 영향을 미치고 있군요. 악순환이 되고 있어요. 이 패턴을 끊고 싶으신가요?",
+      "technique": [
+        "interpretation",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "open_ended_question"
-    },
-    {
       "speaker": "client",
-      "text": "밤에 잠을 잘 못 자요. 자꾸 핸드폰이 울릴까 봐 불안하고... 아침에 일어나면 출근하기 싫어서 배가 아프고 두통이 생겨요. 주말에도 쉬는 게 아니라 그냥 월요일이 오는 게 두려워서 우울해요.",
-      "turn": 11
+      "text": "물론이죠. 근데 어떻게요? 시간도 없고..."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "신체적으로도 심리적으로도 많이 지쳐있으신 상태네요. 불면, 신체화 증상, 예기불안까지... 이런 증상들이 얼마나 오래 지속되었나요?",
+      "text": "시간이 없다고 느끼시지만, 사회적 관계는 선택 사항이 아니라 필수예요. 건강한 관계가 있어야 연구도 잘 할 수 있어요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그건 알아요. 근데 누구랑 어떻게 관계를 맺어요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "연구와 무관한 영역에서 관계를 찾아보는 건 어떨까요? 취미 활동이나 운동 같은 거요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "assessment"
-    },
-    {
       "speaker": "client",
-      "text": "한 6개월 정도 된 것 같아요. 작년 말부터 특히 심해졌어요. 그때 한 학부모가 저를 아동학대로 신고했거든요. 물론 무혐의로 끝났지만... 그 과정이 너무 힘들었어요.",
-      "turn": 13
+      "text": "취미요? 연구하느라 취미를 잃어버린 지 오래됐는데..."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "아동학대 신고까지 당하셨군요. 무혐의로 끝났다 해도 그 과정에서 받으신 심리적 충격과 트라우마가 상당히 크셨을 것 같습니다. 그건 정말 힘든 경험이셨겠어요.",
+      "text": "예전에 좋아하던 게 있었나요? 박사 과정 시작 전에요.",
+      "technique": [
+        "open_question",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "요가 좋아했어요. 그리고 독서 모임도 나갔었고..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "요가와 독서를 좋아하셨군요. 그걸 다시 시작해보는 건 어떨까요?",
+      "technique": [
+        "reflection",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그때 정말 억울했어요. 그냥 학생이 수업 시간에 계속 떠들어서 복도에 잠깐 나가 있으라고 했을 뿐인데. 저는 아이를 위해서 한 건데 학대라니... 그 이후로 학생들 지도하는 것도 무섭고, 학부모 눈치만 보게 돼요.",
-      "turn": 15
+      "text": "시간 낼 수 있을까요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "교육적 목적으로 한 행동이 오해받으면서, 이제는 본인의 교육 철학대로 학생들을 지도하는 것조차 두려워지신 거네요. 교사로서의 정체성에도 혼란을 느끼고 계신 것 같아요.",
+      "text": "주 1회, 1시간이면 충분해요. 그것도 못 낼 정도로 바쁘진 않으시죠? 오히려 그 시간이 재충전 시간이 되어 연구 효율을 높일 수 있어요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그렇게 생각하니까 해볼 만할 것 같네요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "좋아요. 요가 수업이나 독서 모임 중 하나를 골라서 이번 주에 등록해보시겠어요?",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 제가 뭘 하고 있는 건지 모르겠어요. 교사가 되고 싶었던 이유는 아이들을 가르치고 성장을 돕고 싶어서였는데... 지금은 그냥 민원 처리하고, 눈치 보고, 방어적으로 일하게 돼요. 이게 교사의 삶인가 싶어요.",
-      "turn": 17
+      "text": "요가가 나을 것 같아요. 운동도 되고..."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "처음 품었던 교직에 대한 소명의식과 현재의 현실 사이의 괴리가 크시군요. 이상과 현실의 차이에서 오는 좌절감과 회의감이 느껴집니다.",
+      "text": "훌륭한 선택이에요. 요가 수업에서 사람들과 자연스럽게 대화할 기회가 생길 거예요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "근데 연구와 무관한 사람들이랑 뭘 얘기해요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그게 오히려 좋아요. 연구 얘기에서 벗어나서 본인의 다른 면을 발견할 수 있거든요. 본인이 연구자로서만이 아니라 한 사람으로서 존재할 수 있는 공간이에요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "요즘은 그만둘까 하는 생각도 자주 해요. 근데 10년을 했는데 지금 그만두면... 그것도 패배 같고. 그렇다고 이렇게 계속 버티는 것도 너무 힘들고요.",
-      "turn": 19
+      "text": "... 생각해보니 저 요즘 연구자 정체성밖에 없었어요."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "그만두고 싶은 마음과 10년간의 경력을 포기하기 아까운 마음 사이에서 갈등하고 계시는군요. 양쪽 다 쉽지 않은 선택이라 더 힘드실 것 같아요.",
+      "text": "스스로 깨달으셨네요. 박사 과정도 중요하지만, 본인의 정체성이 그것만으로 이루어진 건 아니에요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "맞아요. 균형을 찾아야겠어요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "좋은 결론이에요. 이번 주에 요가 수업 등록하시고, 다음 주에 어떠셨는지 얘기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 주변에 말해도 다들 '공무원인데 그냥 다녀', '안정적인데 뭐가 불만이야' 이런 식으로 말해요. 제 힘든 마음은 아무도 이해 못 해주는 것 같아요.",
-      "turn": 21
+      "text": "감사합니다. 희망이 보이는 것 같아요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "주변의 그런 반응들이 오히려 선생님을 더 고립되게 만들었겠어요. 내면의 고통은 직업의 안정성과는 별개의 문제인데, 그 부분을 인정받지 못하니 더 외로우셨을 것 같습니다.",
-      "turn": 22,
-      "technique": "empathy"
-    },
-    {
-      "speaker": "client",
-      "text": "맞아요. 그래서 더 혼자 끙끙 앓았던 것 같아요. 동료 교사들도 다들 비슷하게 힘들어하는데, 서로 위로는커녕 각자 살아남기 바쁘고... 학교 분위기 자체가 너무 삭막해요.",
-      "turn": 23
-    },
-    {
-      "speaker": "counselor",
-      "text": "지지받을 수 있는 환경이 없다는 것도 큰 어려움이네요. 선생님, 혹시 지금까지 이런 상황에서 나름대로 대처하려고 시도해 보신 방법이 있으신가요?",
-      "turn": 24,
-      "technique": "strength_based"
-    },
-    {
-      "speaker": "client",
-      "text": "음... 운동을 좀 해보려고 했는데 오래 못 갔고요. 술을 마시면 그나마 잠이 와서 요즘 자주 마시는데, 이것도 좋은 방법은 아닌 것 같아요.",
-      "turn": 25
-    },
-    {
-      "speaker": "counselor",
-      "text": "나름대로 해결책을 찾으려고 노력하셨군요. 술에 의존하는 것이 걱정되신다는 자각을 하고 계신 것 자체가 중요한 인식입니다. 선생님께서 정말로 원하시는 것은 무엇인가요?",
-      "turn": 26,
-      "technique": "open_ended_question"
-    },
-    {
-      "speaker": "client",
-      "text": "그냥... 예전처럼 아이들 가르치는 게 즐거웠으면 좋겠어요. 출근할 때 두렵지 않고, 밤에 편하게 잘 수 있고... 제가 하는 일에 의미를 느끼고 싶어요.",
-      "turn": 27
-    },
-    {
-      "speaker": "counselor",
-      "text": "교직의 본질적인 의미를 다시 찾고 싶으신 거군요. 그리고 심리적, 신체적 안정을 회복하고 싶으시고요. 이것들은 충분히 이룰 수 있는 목표들입니다.",
-      "turn": 28,
-      "technique": "goal_setting"
-    },
-    {
-      "speaker": "client",
-      "text": "정말요? 가능할까요? 지금은 너무 깊이 빠져 있어서 빠져나올 수 있을지 모르겠어요.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "지금 많이 지쳐계시지만, 선생님께서는 여전히 학생들을 좋아하시고, 교육의 가치를 믿고 계세요. 그리고 이렇게 도움을 구하러 오셨잖아요. 이 자체가 변화의 시작입니다.",
-      "turn": 30,
-      "technique": "strength_based"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇게 봐주시니 조금... 희망이 생기는 것 같기도 해요. 어떻게 해야 할까요?",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "우선은 선생님의 심리적 안정을 회복하는 것부터 시작하면 좋겠어요. 번아웃과 불안을 다루고, 건강한 대처 방법을 찾아가는 것이요. 그리고 학부모 민원에 대한 경계 설정과 대응 방법도 함께 연습해볼 수 있습니다.",
-      "turn": 32,
-      "technique": "psychoeducation"
-    },
-    {
-      "speaker": "client",
-      "text": "경계 설정이요? 그게 가능한가요? 학부모들은 언제든 연락하고 요구하는데...",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "가능합니다. 합리적인 경계를 설정하는 것은 선생님의 권리이자, 장기적으로 더 좋은 교육을 위해서도 필요한 일이에요. 구체적인 방법들을 함께 찾아가 보면 좋겠습니다. 다음 상담부터 차근차근 시작해볼까요?",
-      "turn": 34,
-      "technique": "solution_focused"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 그렇게 하고 싶어요. 오늘 이야기하면서 조금 후련한 느낌도 들고... 혼자가 아니라는 생각이 드네요. 감사합니다.",
-      "turn": 35
+      "text": "잘하실 거예요. 본인을 돌보는 게 연구를 돌보는 것만큼 중요해요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1512",
   "metadata": {
-    "generated_at": "2025-12-17T15:00:25.279175+00:00",
+    "generated_at": "2025-12-18T03:01:37.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

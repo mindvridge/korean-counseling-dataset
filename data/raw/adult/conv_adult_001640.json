@@ -1,226 +1,329 @@
 {
-  "conversation_id": "CONV_20250628_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "35",
     "gender": "여성",
-    "occupation": "마케팅 팀장"
+    "occupation": "초등교사",
+    "background": "결혼 7년차, 남편과의 의사소통 단절, 육아 부담 불균형"
   },
-  "situation": "최근 승진 후 팀 관리와 성과 압박으로 인한 스트레스와 불안감을 호소하며, 완벽주의 성향으로 인해 번아웃 증상을 경험하고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 요즘 정말 힘들어서 상담을 신청하게 됐어요.",
-      "turn": 1
+      "text": "남편이랑 대화가 안 돼요. 육아는 저만 하고, 남편은 일만 핑계 대고요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 편안하게 자리에 앉으세요. 오늘 이렇게 용기 내어 방문해주셔서 감사합니다. 어떤 부분이 힘드셨는지 천천히 말씀해주시겠어요?",
+      "text": "육아 부담이 불공평하게 느껴지시고, 남편과의 소통도 어려우신 상황이군요. 얼마나 오래되셨어요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "clarification"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "3개월 전에 팀장으로 승진했는데요. 처음엔 정말 기뻤는데, 지금은 매일이 전쟁 같아요. 팀원들 관리하고, 실적 챙기고, 상사 눈치 보고... 숨이 막힐 것 같아요.",
-      "turn": 3
+      "text": "아이가 태어난 후부터요. 이제 5살인데... 5년 동안 혼자 키운 것 같아요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "승진이라는 기쁜 일이 있었지만, 그에 따른 책임감과 부담이 생각보다 크게 느껴지시는군요. 매일 전쟁 같다는 표현에서 지금 얼마나 힘드신지 느껴집니다.",
+      "text": "5년간 혼자 육아를 감당하신 느낌이시군요. 남편분은 육아에 어느 정도 참여하시나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "주말에 잠깐 놀아주는 게 전부예요. 기저귀 갈거나 밥 먹이거나 하는 건 안 해요. '모르겠다'면서요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "일상적인 돌봄은 하지 않고 놀아주기만 하시는군요. '모르겠다'는 말을 들으면 어떤 기분이 드세요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 저는 원래 일을 완벽하게 하는 스타일이거든요. 그런데 팀장이 되니까 제가 직접 하는 일보다 다른 사람들이 하는 일을 관리해야 하잖아요. 그게 너무 답답해요.",
-      "turn": 5
+      "text": "화나죠. 저도 처음엔 몰랐어요. 근데 배웠잖아요. 왜 남편만 예외인가요?"
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "본인이 직접 통제할 수 있을 때는 완벽하게 해낼 수 있었는데, 이제는 다른 사람들을 통해 일을 해야 하니 그 부분이 특히 어려우시군요.",
+      "text": "본인도 배워가며 했는데 남편은 배우려 하지 않으니 억울하시군요. 이런 감정을 남편분께 표현해보셨나요?",
+      "technique": [
+        "empathy",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "수없이 말했죠. '좀 도와달라'고요. 그럼 '나도 힘들다', '회사 일이 바쁘다'고만 해요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "'도와달라'고 요청하셨군요. 혹시 '도와달라'는 표현이 어떤 의미를 담고 있는지 생각해보신 적 있으세요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "정확해요. 팀원들이 일을 제 기준에 못 미치게 하면 그냥 제가 다시 하게 돼요. 그러다 보니 밤 12시까지 일하는 날이 대부분이에요.",
-      "turn": 7
+      "text": "도와달라는 게... 문제가 있나요?"
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "팀원들의 업무를 다시 하시면서 본인의 업무까지 하시니 업무량이 엄청나게 늘어난 상황이네요. 매일 늦게까지 일하시면 신체적으로도 정신적으로도 지치실 것 같은데요.",
+      "text": "'도와달라'는 말은 육아가 본래 본인의 일이고 남편은 돕는 사람이라는 뉘앙스가 있어요. 하지만 육아는 두 사람의 책임이죠.",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "아... 그렇네요. 저도 모르게 그렇게 생각했던 것 같아요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "스스로 깨달으셨네요. 그렇다면 '도와달라' 대신 '함께 하자'고 말하면 어떨까요?",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "요즘은 잠도 잘 못 자요. 자려고 누우면 '내일 이것도 해야 하는데, 저것도 확인해야 하는데' 이런 생각들이 계속 떠올라서요. 새벽 3시까지 뒤척이다가 겨우 잠들어요.",
-      "turn": 9
+      "text": "그렇게 말한다고 달라질까요? 남편은 계속 바쁘다고 할 것 같은데요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "불면 증상까지 겪고 계시는군요. 머릿속이 끊임없이 일에 대한 걱정으로 가득 차 있어서 휴식조차 제대로 취하지 못하고 계신 것 같아요.",
+      "text": "회의적이시군요. 남편분이 정말 바쁘신가요? 실제 근무 시간이 어떻게 되나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "9시에 출근해서 7시쯤 퇴근해요. 그렇게 늦지는 않아요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "근무 시간은 일반적인 수준이군요. '바쁘다'는 게 실제 시간 부족이 아니라 다른 의미일 수도 있어요.",
+      "technique": [
+        "restatement",
+        "interpretation"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그리고 요즘은 아침에 일어나면 회사 가기가 너무 싫어요. 전에는 일이 즐거웠는데, 이제는 출근길에 눈물이 날 때도 있어요.",
-      "turn": 11
+      "text": "다른 의미요?"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "일에 대한 열정이 있으셨던 분이 이제는 출근 자체가 두렵고 힘든 상황까지 오셨네요. 이런 변화가 본인에게도 당황스럽고 힘드실 것 같습니다.",
+      "text": "육아에 자신이 없거나, 어떻게 해야 할지 몰라서 회피하는 것일 수도 있어요. 혹은 정말로 퇴근 후 휴식이 필요할 수도 있고요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그럼 저는요? 저는 24시간 일하는데 휴식은 언제 해요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "본인의 힘듦도 인정받고 싶으시죠. 당연해요. 남편분이 본인의 상황을 정확히 알고 계실까요?",
+      "technique": [
+        "validation",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 제가 이럴 사람이 아닌데... 저는 항상 강하고 능력 있는 사람이었거든요. 그런데 요즘 제 모습이 너무 낯설고 한심하게 느껴져요.",
-      "turn": 13
+      "text": "알 거예요. 눈만 있으면 보이는데..."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "지금까지 보여주셨던 강한 모습과 현재의 힘든 모습 사이에서 괴리감을 느끼고 계시는군요. 그런데 힘들다고 느끼는 것이 한심한 것은 아니에요. 오히려 지금까지 너무 많은 것을 감당해오신 거예요.",
+      "text": "보면 안다고 생각하시지만, 실제로 말하지 않으면 모를 수 있어요. 구체적으로 얼마나 힘든지 말씀해보신 적 있으세요?",
+      "technique": [
+        "confrontation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그냥 '힘들다'고만 했지, 구체적으로는... 안 한 것 같아요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "막연히 '힘들다'는 말만으로는 전달이 안 될 수 있어요. '하루에 몇 시간을 쉬지 못한다', '육아하면서 어떤 점이 버겁다' 이런 식으로 구체적으로 말하는 게 중요해요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "그런가요? 저는 제가 약해진 것 같아서... 다른 팀장들은 다 잘하는 것 같은데 저만 못하는 것 같아요.",
-      "turn": 15
+      "text": "그렇게 말하면 들어줄까요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "다른 사람들은 다 잘하는 것처럼 보이는데 본인만 힘들어하는 것 같아 더 자책하게 되시는군요. 혹시 다른 팀장들도 비슷한 어려움을 겪고 있을 가능성에 대해서는 생각해보신 적 있으신가요?",
+      "text": "보장할 순 없지만, 지금보다는 나을 거예요. 그리고 대화할 때 비난보다는 감정과 필요를 표현하는 게 좋아요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "감정과 필요요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "네. '당신은 일만 한다'는 비난 대신, '나는 혼자 육아하면서 외롭고 지친다. 당신의 도움이 필요하다'고 표현하는 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "questioning"
-    },
-    {
       "speaker": "client",
-      "text": "음... 생각해보니 다른 팀장님도 최근에 스트레스로 병원 다닌다는 얘기를 들었어요. 그런데 저는 그런 모습을 보이면 안 될 것 같아요.",
-      "turn": 17
+      "text": "저한테 그렇게 말할 여유가 있을까요... 화가 나서요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "힘든 모습을 보이면 안 된다고 생각하시는 이유가 있으실까요? 특별히 그렇게 생각하게 된 계기가 있으신가요?",
+      "text": "화가 나는 게 당연해요. 5년간 쌓였으니까요. 하지만 화를 쏟아내면 상대는 방어하게 되고 대화는 안 돼요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그럼 어떡하죠? 화를 참으라는 건가요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "참으라는 게 아니라, 화가 가라앉은 후에 대화하라는 거예요. 그리고 화의 이면에 있는 진짜 감정을 찾는 게 중요해요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "저희 아버지가 굉장히 엄격하셨어요. 어릴 때부터 '여자도 능력 있어야 한다', '약한 모습 보이면 안 된다'고 하셨거든요. 그래서 저는 항상 1등 해야 했고, 완벽해야 했어요.",
-      "turn": 19
+      "text": "진짜 감정이요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "어릴 때부터 완벽해야 한다는 기준을 내면화하셨군요. 그 기준이 지금까지 성장하는 데 도움이 되기도 했지만, 동시에 지금은 큰 부담으로 작용하고 있는 것 같네요.",
+      "text": "화는 표면 감정이에요. 그 밑에는 외로움, 서운함, 무력감 같은 게 있을 거예요. 그걸 찾아서 표현하는 거죠.",
+      "technique": [
+        "information_giving",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "... 외롭긴 해요. 결혼했는데 혼자인 것 같아요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "그 감정을 남편분께 전달해보세요. '화나다'가 아니라 '외롭다'고요. 훨씬 와닿을 거예요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "interpretation"
-    },
-    {
       "speaker": "client",
-      "text": "그런 것 같아요. 저는 실수하면 안 되고, 약한 모습 보이면 안 되고... 항상 긴장하고 있어요. 그게 너무 지쳐요.",
-      "turn": 21
+      "text": "시도해볼게요. 근데 언제 얘기하는 게 좋을까요?"
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "끊임없이 완벽해야 한다는 압박 속에서 지내시는 게 얼마나 고되실까요. 그런 기준들이 정말 지금의 당신에게 필요한 것인지, 함께 한번 살펴보면 어떨까요?",
+      "text": "아이가 자고 난 후, 두 분이 진정할 수 있는 시간에요. 그리고 '얘기 좀 하자'고 미리 말하는 게 좋아요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "알겠습니다. 이번 주말에 한번 해볼게요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "좋은 계획이에요. 대화가 잘 되길 바라요. 다음 주에 어떠셨는지 얘기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "invitation"
-    },
-    {
       "speaker": "client",
-      "text": "그게 가능할까요? 이게 제 성격인데... 바꿀 수 있을까요?",
-      "turn": 23
+      "text": "감사합니다."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "성격 자체를 바꾸는 것이 아니라, 본인을 괴롭히는 비현실적인 기준들을 조금 더 유연하게 만드는 거예요. 완벽주의가 나쁜 것은 아니지만, 그것이 본인을 너무 힘들게 한다면 조절이 필요하겠죠.",
-      "turn": 24,
-      "technique": "psychoeducation"
-    },
-    {
-      "speaker": "client",
-      "text": "구체적으로 어떻게 해야 할까요? 저는 지금 당장이라도 뭔가 바꾸고 싶어요.",
-      "turn": 25
-    },
-    {
-      "speaker": "counselor",
-      "text": "급하게 모든 것을 바꾸려고 하면 오히려 부담이 될 수 있어요. 먼저 작은 것부터 시작해볼까요? 예를 들어, 팀원들의 업무 중 꼭 본인이 다시 하지 않아도 될 것들을 구분해보는 연습은 어떨까요?",
-      "turn": 26,
-      "technique": "behavioral_intervention"
-    },
-    {
-      "speaker": "client",
-      "text": "그게... 쉽지 않을 것 같은데요. 다 중요해 보이거든요.",
-      "turn": 27
-    },
-    {
-      "speaker": "counselor",
-      "text": "모든 것이 중요하게 느껴지는 것, 충분히 이해합니다. 그렇다면 이렇게 생각해보시면 어떨까요? '완벽하게 100점'과 '충분히 좋은 80점'의 차이가 실제 결과에 얼마나 영향을 미칠까요?",
-      "turn": 28,
-      "technique": "cognitive_restructuring"
-    },
-    {
-      "speaker": "client",
-      "text": "음... 솔직히 말하면, 크게 차이 없을 때도 많아요. 제가 다시 손봐도 결과가 크게 달라지지 않는 경우도 있고요.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "중요한 통찰이네요. 실제로는 큰 차이가 없는데도 완벽을 추구하느라 많은 시간과 에너지를 쓰고 계신 거네요. 그 에너지를 정말 중요한 일이나 본인의 휴식에 사용한다면 어떨까요?",
-      "turn": 30,
-      "technique": "reframing"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇게 생각하니까 조금 다르게 보이네요. 그런데 실제로 그렇게 하려면 불안할 것 같아요.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "불안함을 느끼시는 것은 자연스러운 반응이에요. 오랫동안 해온 방식을 바꾸는 것이니까요. 그 불안감을 조금씩 견디는 연습도 함께 필요할 것 같아요. 천천히, 작은 것부터 시도해보시는 건 어떨까요?",
-      "turn": 32,
-      "technique": "validation"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 해보고 싶어요. 그리고 제가 너무 지쳐서 그런지 요즘 팀원들한테 짜증을 많이 내게 되더라고요. 그것도 너무 미안하고...",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "본인이 힘들 때 다른 사람들에게도 여유롭게 대하기 어려운 것은 당연해요. 먼저 본인을 돌보는 것이 팀원들에게도 더 좋은 리더가 되는 길일 수 있어요.",
-      "turn": 34,
-      "technique": "empathy"
-    },
-    {
-      "speaker": "client",
-      "text": "저를 먼저 돌봐야 한다는 게... 이기적인 것 같지 않나요?",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "전혀요. 비행기 안전 수칙을 생각해보세요. 산소마스크가 떨어지면 본인이 먼저 착용하고 다른 사람을 도와야 한다고 하죠. 본인이 건강해야 다른 사람들도 제대로 도울 수 있어요. 오늘 상담을 통해 어떤 생각이 드시나요?",
-      "turn": 36,
-      "technique": "metaphor"
-    },
-    {
-      "speaker": "client",
-      "text": "제가 너무 저한테 가혹했던 것 같아요. 그리고 조금은 변화가 가능할 것 같다는 희망도 생겼어요. 다음 상담도 받고 싶어요.",
-      "turn": 37
-    },
-    {
-      "speaker": "counselor",
-      "text": "오늘 정말 중요한 첫걸음을 내디디셨어요. 다음 상담 때는 이번 주 동안 작은 변화를 시도해보신 경험을 나누면서 시작해볼까요? 충분히 잘 하실 수 있을 거예요.",
-      "turn": 38,
-      "technique": "encouragement"
+      "text": "잘하실 거예요. 변화의 첫걸음을 내디디고 계세요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1640",
   "metadata": {
-    "generated_at": "2025-12-17T15:18:06.707968+00:00",
+    "generated_at": "2025-12-18T03:01:43.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

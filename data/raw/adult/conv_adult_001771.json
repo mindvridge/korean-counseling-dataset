@@ -1,215 +1,439 @@
 {
-  "conversation_id": "CONV_20250619_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "34",
     "gender": "여성",
-    "occupation": "중학교 교사"
+    "occupation": "보험설계사",
+    "background": "경력 6년차, 월 판매 목표 미달 지속으로 수당 감소, 경제적 압박과 자존감 저하"
   },
-  "situation": "10년차 교사로 학생들을 사랑하지만 최근 번아웃과 무기력감을 느끼고 있으며, 학부모 민원과 업무 과중으로 교직을 계속해야 할지 고민 중",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 사실 상담을 받아야 할 정도인가 싶어서 망설였는데, 요즘 너무 힘들어서 용기 내서 왔어요.",
-      "turn": 1
+      "text": "이번 달도 목표를 못 채웠어요. 3개월째예요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 망설이셨는데도 용기 내어 찾아오셨군요. 그 결정이 쉽지 않으셨을 텐데, 잘 오셨어요. 편안하게 이야기 나눠보아요.",
+      "text": "3개월 연속 목표 미달이시군요. 많이 힘드시겠어요. 어떤 점이 가장 어려우신가요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 저는 중학교에서 국어를 가르치고 있어요. 올해로 10년차인데, 요즘 들어 학교 가는 게 너무 힘들어요.",
-      "turn": 3
+      "text": "수당이 계속 줄어들어요. 고정급이 적어서 수당으로 생활비를 충당하는데... 이번 달은 아이 학원비도 못 낼 것 같아요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년차 교사시군요. 학교 가는 것이 힘드시다고 하셨는데, 구체적으로 어떤 점이 가장 힘드신가요?",
+      "text": "경제적 압박이 크시군요. 목표를 달성하지 못하는 이유가 뭐라고 생각하세요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "경기도 안 좋고, 고객들이 보험 가입을 꺼리고... 근데 다른 설계사들은 잘만 하더라고요. 저만 못하는 것 같아요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "'나만 못한다'는 생각이 드시는군요. 실제로 팀 내에서 본인 실적은 어느 정도인가요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "음... 아침에 일어나면 출근하기가 싫어요. 예전엔 학생들 만나는 게 즐거웠는데, 요즘은 교실 문을 열기가 두렵기까지 해요. 무슨 일이 또 생길까 싶어서요.",
-      "turn": 5
+      "text": "하위 30% 정도요. 예전엔 중상위권이었는데..."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "예전에는 학생들을 만나는 것이 즐거웠는데, 지금은 교실 문을 여는 것조차 두렵다고 느끼시는군요. 그 변화가 언제부터 시작되었나요?",
+      "text": "예전에는 잘하셨는데 최근에 떨어지신 거네요. 3개월 전 즈음에 무슨 변화가 있었나요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "특별한 건 없는데... 아, 그때 큰 고객 한 분이 해약하셨어요. 그 분이 제 주 수입원이었거든요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "주요 고객을 잃으면서 수입이 급감했군요. 그 이후로 어떻게 대응하셨나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "작년 말쯤부터였던 것 같아요. 한 학부모님이 제 수업 방식에 대해 강하게 민원을 제기하셨어요. 교육청까지 민원이 들어갔고... 결국 제 잘못은 아니라고 결론이 났지만, 그 과정이 너무 힘들었어요.",
-      "turn": 7
+      "text": "미친 듯이 일했어요. 신규 고객 발굴하려고 하루에 10시간씩 돌아다니고, 전화하고... 근데 안 돼요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "학부모 민원으로 힘든 과정을 겪으셨군요. 결과적으로 잘못이 없다고 판명되었어도, 그 과정 자체가 많이 상처가 되셨을 것 같아요.",
+      "text": "더 열심히 일했는데 결과가 안 나오니 더 좌절스러우시겠어요. 혹시 조급한 마음이 고객에게 전달되진 않았을까요?",
+      "technique": [
+        "empathy",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "... 그럴 수도 있겠네요. 요즘 만나는 고객들이 '부담스럽다'는 말을 하긴 했어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "급한 마음에 고객을 압박하게 되고, 그게 오히려 역효과를 낸 거네요. 이 일을 6년 하셨으면 본인만의 노하우가 있으실 텐데, 요즘은 그걸 활용하고 계신가요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 그때부터 뭘 해도 불안해요. 학생을 지도할 때도 '이게 또 민원이 되면 어떡하지' 하는 생각이 먼저 들어요. 교사로서 제 신념대로 하지 못하고 늘 눈치를 보게 돼요.",
-      "turn": 9
+      "text": "노하우요? 요즘은 그냥... 닥치는 대로 해요. 예전 방식은 너무 느린 것 같아서."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "그 경험 이후로 교육 신념대로 행동하기보다는 혹시 모를 민원을 먼저 걱정하게 되셨군요. 교사로서의 자율성이 제약받는다고 느끼시는 것 같아요.",
+      "text": "조급함 때문에 검증된 본인 방식을 버리고 무작위로 하고 계시는군요. 예전에 잘했을 때는 어떻게 하셨나요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "기존 고객들 관리에 집중했어요. 꾸준히 연락하고, 신뢰 쌓고... 그럼 자연스럽게 소개도 들어오고."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "관계 중심 영업을 하셨군요. 지금은 그렇게 안 하시나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "정확해요. 그리고 업무도 너무 많아요. 수업 준비하고, 생활지도하고, 각종 공문 처리하고... 행정업무가 수업 준비 시간보다 더 많은 것 같아요.",
-      "turn": 11
+      "text": "시간이 없어요. 당장 이번 달 목표를 채워야 하는데..."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "교육 활동 외에 행정업무가 과중하다고 느끼시는군요. 하루 일과가 어떻게 되시나요?",
+      "text": "'당장' 목표를 채우려다가 장기적으로 효과적인 방법을 놓치고 계신 것 같아요. 단기 목표와 장기 전략, 둘 다 필요하지 않을까요?",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그렇긴 한데... 장기 전략을 짤 여유가 없어요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "여유가 없다고 느끼시는 건 이해돼요. 하지만 지금 방식으로 3개월 했는데 안 됐잖아요. 방법을 바꿔야 할 때 아닐까요?",
+      "technique": [
+        "validation",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "아침 7시 반에 출근해서 저녁 6시는 되어야 퇴근해요. 집에 가서도 수업 준비나 학생 상담 기록 같은 걸 해야 해서 밤 10시까지 일하는 날도 많아요. 주말에도 머릿속에서 학교 일이 떠나질 않아요.",
-      "turn": 13
+      "text": "... 맞는 말이에요. 어떻게 해야 할까요?"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "하루 14시간 이상 일하시는 날이 많고, 주말에도 일에서 벗어나지 못하시는군요. 그렇다면 본인만의 시간이나 휴식은 거의 없으신 상태네요.",
+      "text": "먼저 목표를 재설정해볼까요? 회사 목표는 그대로 두고, 본인만의 현실적 목표를 정하는 거예요.",
+      "technique": [
+        "structuring",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "회사 목표를 못 채우면 수당이 적은데..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "지금도 못 채우고 계시잖아요. 현실적 목표를 세우고 그걸 달성하는 게, 달성 불가능한 목표에 스트레스받는 것보다 나아요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네... 친구들도 못 만나고, 취미생활도 다 포기했어요. 그냥 주말엔 집에서 쉬기만 해도 힘들어요. 아무것도 하고 싶지 않아요.",
-      "turn": 15
+      "text": "그렇긴 하네요."
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "극심한 피로감과 무기력감을 느끼고 계시네요. 예전에 즐기시던 활동들이 있으셨나요?",
+      "text": "그리고 신규 고객보다 기존 고객 관리에 집중해보는 건 어떨까요? 본인이 잘했던 방식으로 돌아가는 거죠.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "기존 고객들... 요즘 연락도 제대로 못 했어요. 미안해서 연락하기도 그렇고..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "미안한 마음이 드시는군요. 하지만 그분들 입장에서는 본인이 연락해주는 게 고마울 수도 있어요. 이번 주에 5명만이라도 연락해보는 건 어떨까요?",
+      "technique": [
+        "empathy",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "예전엔 책도 많이 읽고, 영화도 보고, 친구들이랑 여행도 다녔어요. 국어 교사로서 문학 작품 읽는 걸 정말 좋아했는데... 요즘은 그럴 에너지가 없어요.",
-      "turn": 17
+      "text": "5명이요? 할 수 있을 것 같아요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "문학을 사랑하고 활동적이셨던 분이 지금은 그럴 에너지조차 없다고 느끼시는군요. 이런 상태가 계속되면서 교직에 대한 생각도 달라지셨나요?",
+      "text": "판매 목적이 아니라 안부 목적으로요. '요즘 어떻게 지내세요?' 이런 식으로. 관계를 다시 쌓는 거예요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "알겠어요. 해볼게요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그리고 본인의 자존감 문제도 다뤄야 해요. '나만 못한다'는 생각이 계속되면 고객 앞에서도 자신감이 없어져요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "솔직히... 그만둘까 하는 생각도 해요. 하지만 10년을 했는데 지금 그만두는 게 맞나 싶고, 부모님도 실망하실 것 같고... 그렇다고 이렇게 계속 버티는 것도 한계가 있어요.",
-      "turn": 19
+      "text": "맞아요. 요즘 고객 만날 때도 주눅 들어요."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "그만두고 싶은 마음과 10년의 경력을 포기하기 아까운 마음, 주변의 기대 사이에서 갈등하고 계시는군요. 양쪽 모두 중요한 이유들이라 선택이 쉽지 않으시겠어요.",
+      "text": "지금 3개월 부진하지만, 6년 커리어를 보세요. 그동안 쌓은 경험과 실력이 사라진 게 아니에요. 일시적 슬럼프일 뿐이죠.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "일시적... 맞을까요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "맞아요. 하지만 슬럼프에서 벗어나려면 방법을 바꿔야 해요. 지금처럼 계속하면 악순환이 계속될 거예요.",
+      "technique": [
+        "validation",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 그리고 사실 학생들은 여전히 사랑해요. 가끔 제 수업을 재미있어하거나 고민을 상담하러 오는 아이들을 보면 보람을 느끼기도 해요. 그래서 더 혼란스러워요.",
-      "turn": 21
+      "text": "알겠습니다. 변화가 필요하네요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "학생들과의 관계에서는 여전히 보람과 의미를 느끼시는군요. 교직의 본질적인 부분은 여전히 소중하게 느끼시는 것 같아요.",
+      "text": "경제적 압박도 크시니, 단기 대책도 필요해요. 혹시 다른 수입원을 고려해보신 적 있으세요?",
+      "technique": [
+        "structuring",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "부업이요? 시간이 없는데..."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "부업이 아니라, 가족 지원이나 긴급 대출 같은 임시 방안이요. 경제적 압박을 조금이라도 줄이면 영업할 때 조급함이 줄어들 거예요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 그래서 제가 정말 교직이 싫은 건지, 아니면 지금 환경이나 시스템이 문제인 건지 모르겠어요.",
-      "turn": 23
+      "text": "가족한테 손 벌리긴 싫은데..."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "중요한 구분을 하고 계시네요. 교직 자체와 현재의 업무 환경을 분리해서 생각해보는 것이 도움이 될 것 같아요. 만약 업무 환경이 개선된다면 어떤 것들이 달라지면 좋을까요?",
+      "text": "자존심이 상하시는 건 이해해요. 하지만 일시적으로 도움받고, 안정되면 갚으면 되잖아요. 지금처럼 압박 속에서 일하면 더 오래 걸릴 수 있어요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "생각해볼게요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "이번 주에 할 것들 정리해볼까요? 기존 고객 5명에게 안부 연락하기, 본인만의 현실적 목표 세우기, 경제적 임시 방안 고려하기. 맞나요?",
+      "technique": [
+        "summarization",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "음... 행정업무가 줄어들면 좋겠어요. 그리고 학부모 민원에 대한 두려움 없이 제 교육 철학대로 가르칠 수 있으면... 그리고 동료 교사들과 서로 지지해주는 분위기가 있으면 좋겠어요.",
-      "turn": 25
+      "text": "네, 맞아요."
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "업무량 조절, 교육적 자율성, 동료 지지 시스템이 필요하시군요. 이 중에서 지금 당장 님이 시도해볼 수 있는 부분이 있을까요?",
+      "text": "가장 먼저 할 건 뭔가요?",
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "기존 고객 연락이요. 오늘 당장 해볼게요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "훌륭해요. 판매 생각 말고, 진심으로 안부만 물어보세요.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "problem_solving"
-    },
-    {
       "speaker": "client",
-      "text": "동료들과의 관계는 제가 노력해볼 수 있을 것 같아요. 사실 다들 바빠서 서로 힘든 걸 나누지 못했는데, 먼저 다가가보면 어떨까 싶네요.",
-      "turn": 27
+      "text": "네, 그렇게 할게요."
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "좋은 생각이세요. 동료들도 비슷한 어려움을 겪고 있을 가능성이 높으니까요. 그리고 지금 님께서 경험하고 계신 증상들은 전형적인 번아웃 증상이에요. 이건 님의 능력이나 의지의 문제가 아니라 과도한 스트레스에 대한 자연스러운 반응입니다.",
+      "text": "그리고 자책하지 마세요. 슬럼프는 누구에게나 와요. 중요한 건 어떻게 극복하느냐예요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "감사합니다. 조금 희망이 보여요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "6년 경력의 전문가로서 본인을 믿으세요. 이 어려움도 지나갈 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
       "turn": 28,
-      "technique": "psychoeducation"
-    },
-    {
       "speaker": "client",
-      "text": "번아웃... 그렇게 이름을 붙이니까 조금 안심이 되네요. 제가 나약해서 그런 건 줄 알았어요.",
-      "turn": 29
+      "text": "오늘 상담이 큰 도움이 됐어요."
     },
     {
+      "turn": 28,
       "speaker": "counselor",
-      "text": "전혀 나약한 게 아니에요. 오히려 10년 동안 헌신적으로 일하셨기 때문에 지금 이런 상태가 된 거예요. 번아웃 회복을 위해서는 무엇보다 자기 돌봄이 중요합니다. 작은 것부터 시작해보면 어떨까요?",
+      "text": "다음 주에 만나서 어떻게 진행됐는지 이야기 나눠봐요. 작은 성공이라도 있으면 꼭 공유해주세요.",
+      "technique": [
+        "goal_setting",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네, 다음 주에 좋은 소식 가지고 올게요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "기대할게요. 본인의 강점을 기억하세요. 관계 중심 영업, 그게 본인의 무기예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
       "turn": 30,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "자기 돌봄이요? 구체적으로 뭘 할 수 있을까요?",
-      "turn": 31
+      "text": "감사합니다. 다음 주에 뵙겠습니다."
     },
     {
+      "turn": 30,
       "speaker": "counselor",
-      "text": "예를 들어, 하루 30분이라도 온전히 본인만을 위한 시간을 갖는 거예요. 예전에 좋아하셨던 독서를 10분만 하신다거나, 퇴근 후 업무 관련 생각을 차단하는 시간을 정해두는 것도 좋아요. 작지만 규칙적으로 실천하는 게 중요합니다.",
-      "turn": 32,
-      "technique": "suggestion"
-    },
-    {
-      "speaker": "client",
-      "text": "그 정도라면 할 수 있을 것 같아요. 사실 '완벽하게 쉬어야 한다'고 생각하니까 부담스러웠는데, 작은 것부터 시작하면 되는 거네요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "맞아요. 완벽주의적 사고가 오히려 회복을 방해할 수 있어요. 작은 변화들이 쌓여서 큰 변화를 만들어냅니다. 오늘 상담을 통해 어떤 생각이나 느낌이 드시나요?",
-      "turn": 34,
-      "technique": "reframing"
-    },
-    {
-      "speaker": "client",
-      "text": "제 상태에 이름을 붙일 수 있게 되어서 좋아요. 그리고 교직 자체가 문제가 아니라 지금 상황과 환경이 문제일 수 있다는 걸 알게 됐어요. 당장 그만둘 게 아니라 회복을 위해 노력해볼 여지가 있다는 생각이 들어요.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "중요한 통찰을 얻으셨네요. 님은 여전히 교육에 대한 열정과 학생들에 대한 애정을 갖고 계세요. 지금 필요한 건 그 열정을 지속 가능하게 만들어줄 자기 돌봄과 환경 개선이에요. 다음 상담에서는 구체적인 실천 계획을 함께 세워보면 좋겠습니다.",
-      "turn": 36,
-      "technique": "summarization"
+      "text": "힘내세요. 슬럼프는 일시적이에요. 다음 주에 뵙겠습니다.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1771",
   "metadata": {
-    "generated_at": "2025-12-17T15:37:15.508521+00:00",
+    "generated_at": "2025-12-18T03:01:49.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

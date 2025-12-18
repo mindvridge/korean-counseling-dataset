@@ -1,209 +1,369 @@
 {
-  "conversation_id": "ADT_20250623_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "여성",
-    "occupation": "중학교 교사"
+  "client_profile": {
+    "age": "36",
+    "gender": "남성",
+    "occupation": "직장인",
+    "background": "부모님의 잦은 부부 싸움으로 인한 스트레스, 중재자 역할 부담, 죄책감과 무력감"
   },
-  "situation": "10년차 교사로 학생들을 가르치는 일에 열정이 있었으나, 최근 학부모와의 갈등, 행정 업무 과중, 학생들의 무관심으로 번아웃을 경험하며 교직을 그만둘지 고민 중",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 사실 상담을 받으러 온 게 처음이라 좀 떨리네요.",
-      "turn": 1
+      "text": "부모님이 또 싸우셨어요. 제가 중간에서 뭐라고 해야 할지 모르겠어요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음 오시는 거라 긴장되실 수 있어요. 편안하게 생각하시고 천천히 말씀해주시면 됩니다. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "부모님 갈등 사이에서 힘드시겠어요. 자주 싸우시나요?",
+      "technique": [
+        "empathy",
+        "clarification"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치는 교사인데요... 요즘 너무 힘들어서 이 일을 계속해야 할지 모르겠어요.",
-      "turn": 3
+      "text": "네, 거의 매주요. 사소한 일로도 크게 싸우시고... 제가 어렸을 때부터 그랬어요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "교직 생활이 많이 힘드신 상황이시군요. 지금 교사로서의 진로에 대해 깊은 고민을 하고 계시는 것 같아요.",
+      "text": "어릴 때부터 부모님의 갈등을 목격해오셨군요. 그게 본인에게 어떤 영향을 주었나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "항상 눈치 보게 돼요. '오늘은 분위기가 어떨까', '또 싸우진 않을까'... 집에 가는 게 무서워요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "집이 편안한 공간이 아니라 긴장의 공간이 되어버렸군요. 중재자 역할을 하신다고 했는데, 구체적으로 어떻게 하시나요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네... 10년 동안 정말 열심히 했어요. 처음엔 학생들 가르치는 게 너무 좋았고, 제 수업을 통해 아이들이 성장하는 모습을 보면 보람을 느꼈거든요.",
-      "turn": 5
+      "text": "양쪽 얘기를 다 들어주고, '이렇게 하시면 어때요' 조언도 하고... 근데 소용없어요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "10년이라는 시간 동안 교육에 대한 열정을 가지고 헌신해 오셨네요. 학생들의 성장을 지켜보며 보람을 느끼셨다는 게 정말 아름다운 일이에요.",
+      "text": "노력하지만 변화가 없으니 무력감을 느끼시는군요. 부모님은 본인의 중재를 어떻게 받아들이시나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "그때는 '그래, 네 말이 맞아'하시는데, 다음에 또 똑같이 싸워요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "반복되는 패턴이군요. 혹시 부모님 갈등을 본인이 해결해야 한다고 느끼시나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "그런데 요즘은... 학생들은 수업에 관심이 없고, 학부모들은 사소한 일에도 민원을 넣고, 행정 업무는 산더미처럼 쌓여있어요.",
-      "turn": 7
+      "text": "네... 제가 아들이고, 가족을 지켜야 한다고 생각했어요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "여러 방면에서 동시에 어려움을 겪고 계시는군요. 학생들의 무관심, 학부모와의 갈등, 과중한 업무까지... 하나하나가 다 부담스러운 상황이네요.",
+      "text": "'가족을 지켜야 한다'는 책임감이 크시군요. 하지만 부모님의 부부 문제는 부모님이 해결하실 몫이에요. 본인의 책임이 아니에요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "그래도 제가 나서지 않으면 더 심해질 것 같아요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "본인이 없으면 상황이 악화될 거라는 두려움이 있으시군요. 실제로 본인이 개입하면 싸움이 멈추나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "summarization"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 특히 지난달에 한 학부모님이 제 수업 방식에 문제가 있다고 교육청까지 민원을 넣으셨어요. 그냥... 무너지는 느낌이었어요.",
-      "turn": 9
+      "text": "그때는 잠깐 멈추지만... 나중에 다시 시작해요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "그 경험이 정말 힘드셨겠어요. 열심히 해온 일에 대해 그런 반응을 받으셨을 때 느끼셨을 상처와 좌절감이 얼마나 컸을까요.",
+      "text": "일시적인 효과밖에 없군요. 본인의 개입이 근본적인 해결책이 아니라는 걸 이미 경험하셨어요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "그럼 어떻게 해야 해요? 그냥 보고만 있어야 하나요?"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "경계를 설정하는 거예요. '부모님의 문제는 부모님이 해결하실 일'이라고 인식하고, 본인은 중재자가 아닌 자녀로서의 역할만 하는 거죠.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그 이후로 수업 들어가는 게 두려워요. 혹시 또 뭔가 문제가 될까봐 조심스럽고, 예전처럼 자신감 있게 가르칠 수가 없어요.",
-      "turn": 11
+      "text": "경계를 설정한다... 구체적으로 어떻게요?"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "그 사건이 지금까지도 영향을 미치고 있군요. 자신감이 떨어지고 두려움을 느끼시는 상태에서 교단에 서시는 게 얼마나 힘드실지 이해가 됩니다.",
+      "text": "부모님이 싸울 때 중재하려 하지 마세요. 대신 '두 분의 문제는 두 분이 풀으셔야 해요. 저는 개입하지 않을게요'라고 말하는 거예요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그렇게 말하면... 부모님이 섭섭해하시지 않을까요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "처음엔 그러실 수 있어요. 하지만 장기적으로는 부모님도 본인의 문제를 스스로 해결하는 법을 배우셔야 해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "아침에 일어나면 학교 가기가 싫어요. 주말에도 월요일 생각하면 불안하고... 이게 번아웃인가요?",
-      "turn": 13
+      "text": "쉽지 않을 것 같아요."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "말씀하신 증상들은 번아웃의 전형적인 신호들이에요. 출근에 대한 거부감, 예기 불안 같은 것들이요. 이런 상태를 인식하신 것 자체가 중요한 첫걸음입니다.",
+      "text": "쉽지 않죠. 오랫동안 해온 역할을 바꾸는 건 어려워요. 하지만 본인의 정신 건강을 위해 필요한 일이에요.",
+      "technique": [
+        "validation",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "제 정신 건강이요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "네, 부모님 갈등에 계속 휘말리면 본인도 우울이나 불안을 겪을 수 있어요. 실제로 지금 어떠세요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "psychoeducation"
-    },
-    {
       "speaker": "client",
-      "text": "그럼 저는 이제 교사로서 끝난 건가요? 그만둬야 하는 걸까요?",
-      "turn": 15
+      "text": "스트레스가 심해요. 잠도 잘 못 자고, 집중도 안 되고..."
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "지금 많이 지쳐있는 상태에서 중요한 결정을 내리시는 건 조금 위험할 수 있어요. 먼저 왜 이렇게 힘들어졌는지, 정말 원하시는 게 무엇인지 함께 살펴보면 어떨까요?",
+      "text": "이미 영향을 받고 계시는군요. 본인을 돌보는 것도 중요해요. 혹시 배우자나 친구에게 이 얘기를 하시나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "아내한테는 대충 말하는데... 부담 주기 싫어서 자세히는 안 해요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "혼자 짊어지고 계시네요. 가까운 사람과 나누는 것도 도움이 돼요. 지지를 받는 거죠.",
+      "technique": [
+        "reflection",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "guidance"
-    },
-    {
       "speaker": "client",
-      "text": "원하는 것... 사실 잘 모르겠어요. 예전처럼 가르치는 게 즐거웠으면 좋겠는데, 그게 가능할지 모르겠어요.",
-      "turn": 17
+      "text": "아내한테 더 얘기해볼게요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "예전의 그 즐거움과 보람을 다시 느끼고 싶으신 마음이 있으시네요. 그 마음이 아직 남아있다는 게 중요해 보여요.",
+      "text": "좋아요. 그리고 부모님께 상담을 권해보는 건 어떨까요? 부부 상담이요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "부모님이 상담을 받으실까요? 그런 거 안 좋아하시는데..."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "거부하실 수도 있어요. 하지만 시도는 해볼 만해요. '두 분의 관계가 걱정돼서 전문가 도움을 받아보시면 어떨까요'라고요.",
+      "technique": [
+        "validation",
+        "structuring"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "그런 것 같기도 해요. 완전히 포기하고 싶은 건 아닌데... 지금 상태로는 도저히 못 하겠어요.",
-      "turn": 19
+      "text": "한번 말씀드려 볼게요."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "지금은 너무 지쳐서 계속할 수 없을 것 같지만, 동시에 교직에 대한 애착도 남아있으신 거네요. 이 양가감정을 느끼시는 게 자연스러운 거예요.",
+      "text": "그리고 본인도 부모와의 관계에서 건강한 거리를 유지하는 연습이 필요해요. 분리 개별화라고 해요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "분리 개별화요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "부모와 정서적으로 적절한 거리를 두고, 독립된 개인으로 서는 거예요. 사랑하지만 얽매이지 않는 거죠.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "양가감정이요... 맞아요. 그래서 더 혼란스러운가 봐요. 주변에서는 그냥 휴직하라고 하는데 그것도 쉽지 않아요.",
-      "turn": 21
+      "text": "얽매이지 않는다... 지금 생각해보니 저 너무 얽매여 있었네요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "휴직에 대해서도 고민해보셨군요. 휴직이 쉽지 않다고 느끼시는 이유가 있으신가요?",
+      "text": "알아차리셨군요. 이제부터 조금씩 거리를 두는 연습을 해보세요. 부모님 문제에 본인의 모든 에너지를 쏟지 마시고요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "어떻게 연습하나요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "부모님이 싸우실 때 그 자리를 떠나세요. 산책을 하거나, 다른 방에 가거나... 물리적 거리가 정서적 거리를 만들어줘요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "동료 교사들한테 미안하고... 제가 빠지면 누군가 제 수업을 대신 해야 하잖아요. 그리고 솔직히 휴직한다는 게 실패한 것 같아서요.",
-      "turn": 23
+      "text": "그 자리를 떠나다니... 죄책감이 들 것 같아요."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "다른 사람들에 대한 책임감과 자신에 대한 기대감 때문에 쉬는 것조차 어려우신 거네요. 그런데 지금 이렇게 힘든 상태를 돌보는 것이 실패일까요?",
+      "text": "죄책감을 느끼실 거예요. 하지만 그건 본인의 책임이 아니에요. 죄책감과 책임을 구분하는 연습도 필요해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "알겠어요. 노력해볼게요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "그리고 본인만의 삶에 집중하세요. 일, 취미, 아내와의 시간... 부모님 문제가 본인의 삶 전부가 되지 않도록요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "음... 그렇게 생각해본 적은 없네요. 그냥 버텨야 한다고만 생각했어요.",
-      "turn": 25
+      "text": "맞아요. 요즘 다른 거 생각할 여유가 없었어요."
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "10년 동안 버텨오신 거예요. 이제는 버티는 것보다 자신을 돌보는 게 필요한 시점일 수 있어요. 그게 더 용기있는 선택일 수도 있고요.",
-      "turn": 26,
-      "technique": "reframing"
+      "text": "이번 주에 해볼 것들이 있어요. 부모님께 경계 설정 말씀드리기, 싸우실 때 자리 떠나기, 아내와 대화하기. 어떠세요?",
+      "technique": [
+        "summarization",
+        "goal_setting"
+      ]
     },
     {
+      "turn": 25,
       "speaker": "client",
-      "text": "자신을 돌본다... 사실 저는 항상 학생들, 학부모들, 동료들만 생각했지 제 자신은 돌보지 않았던 것 같아요.",
-      "turn": 27
+      "text": "해볼게요. 쉽지 않겠지만..."
     },
     {
+      "turn": 25,
       "speaker": "counselor",
-      "text": "중요한 깨달음이네요. 다른 사람들을 돌보는 일을 하시면서 정작 자신은 뒤로 미뤄두셨던 거죠. 지금 이 순간, 자신에게 가장 필요한 게 무엇일까요?",
-      "turn": 28,
-      "technique": "insight"
-    },
-    {
-      "speaker": "client",
-      "text": "쉬고 싶어요. 그리고... 제가 왜 교사가 되고 싶었는지 다시 생각해보고 싶어요.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "쉼과 성찰, 두 가지 모두 지금의 당신에게 꼭 필요한 것들이네요. 이걸 실현하기 위해 어떤 작은 단계부터 시작해볼 수 있을까요?",
-      "turn": 30,
-      "technique": "solution-focused"
-    },
-    {
-      "speaker": "client",
-      "text": "일단... 휴직에 대해 진지하게 알아보고, 교장선생님과 상담해볼게요. 그리고 이렇게 상담도 계속 받으면서 제 마음을 정리하고 싶어요.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "구체적인 계획을 세우셨네요. 휴직을 알아보고, 상담을 통해 자신을 돌보겠다는 결정, 정말 잘하신 거예요. 이 과정을 함께 하겠습니다.",
-      "turn": 32,
-      "technique": "support"
-    },
-    {
-      "speaker": "client",
-      "text": "감사합니다. 오늘 이야기하면서 조금 마음이 가벼워진 것 같아요. 제가 잘못된 게 아니라 지쳐있는 거였네요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "맞아요. 당신은 잘못된 게 아니에요. 오랜 시간 최선을 다하다가 지친 거예요. 그리고 이제 회복을 위한 첫걸음을 내디뎠고요. 다음 상담 때는 휴직 상담 결과와 그동안의 마음 변화를 나눠볼까요?",
-      "turn": 34,
-      "technique": "validation"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 그렇게 할게요. 다음 주에 또 뵙겠습니다. 오늘 정말 도움이 많이 됐어요.",
-      "turn": 35
+      "text": "쉽지 않을 거예요. 하지만 본인의 건강을 위해 필요한 일이에요. 다음 주에 어떠셨는지 이야기 나눠요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
     }
   ],
+  "generated_at": "2025-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1549",
   "metadata": {
-    "generated_at": "2025-12-17T15:06:17.496059+00:00",
+    "generated_at": "2025-12-18T03:01:39.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

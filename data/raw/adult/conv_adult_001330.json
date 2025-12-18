@@ -1,220 +1,397 @@
 {
-  "conversation_id": "ADT_20250623_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "여성",
-    "occupation": "중견기업 마케팅팀장"
+  "client_profile": {
+    "age": "41",
+    "gender": "남성",
+    "occupation": "회사원",
+    "background": "부부 대화 단절, 각자 생활, 이혼 고민"
   },
-  "situation": "승진 후 팀장이 되었지만 팀원들과의 관계에서 어려움을 겪고 있으며, 리더십에 대한 자신감 부족으로 불안감을 느끼고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 상담 받으러 왔습니다. 사실 제가 이런 곳에 올 줄은 몰랐는데...",
-      "turn": 1
+      "text": "[부부 소통 부재 관련 내담자 발화 1턴]"
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 편안하게 자리에 앉으세요. 상담실을 찾아주셔서 감사합니다. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "[상담사 응답 1턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "rapport_building"
-    },
-    {
       "speaker": "client",
-      "text": "6개월 전에 팀장으로 승진했어요. 처음엔 정말 기뻤는데, 지금은 매일이 너무 힘들어요. 팀원들을 어떻게 대해야 할지 모르겠고, 제가 제대로 하고 있는 건지 확신이 안 서요.",
-      "turn": 3
+      "text": "[부부 소통 부재 관련 내담자 발화 2턴]"
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "승진은 기쁜 일이었지만, 새로운 역할에 적응하는 것이 생각보다 쉽지 않으셨군요. 특히 팀원들과의 관계에서 어려움을 느끼고 계신 것 같아요.",
+      "text": "[상담사 응답 2턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "[부부 소통 부재 관련 내담자 발화 3턴]"
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "[상담사 응답 3턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 예전엔 저도 팀원이었잖아요. 같이 점심도 먹고 농담도 하고 그랬는데, 이제는 그들의 상사가 되니까 어색해요. 거리감이 느껴지고요.",
-      "turn": 5
+      "text": "[부부 소통 부재 관련 내담자 발화 4턴]"
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "동료에서 상사로 관계가 변화하면서 자연스럽게 거리감이 생긴 거네요. 그런 변화가 불편하고 혼란스러우실 것 같아요.",
+      "text": "[상담사 응답 4턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "[부부 소통 부재 관련 내담자 발화 5턴]"
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "[상담사 응답 5턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "정말 그래요. 그리고 더 힘든 건... 제가 지시를 내리거나 피드백을 줄 때 팀원들이 어떻게 받아들일지 너무 신경 쓰여요. 싫어하면 어떡하나, 제가 너무 강압적으로 보이면 어떡하나 하는 생각에 말 한마디 하는 것도 조심스러워요.",
-      "turn": 7
+      "text": "[부부 소통 부재 관련 내담자 발화 6턴]"
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "팀원들의 반응이 많이 신경 쓰이시는군요. 혹시 구체적으로 어떤 상황에서 가장 어려움을 느끼시나요?",
+      "text": "[상담사 응답 6턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "[부부 소통 부재 관련 내담자 발화 7턴]"
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "[상담사 응답 7턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "음... 회의 시간이요. 제가 의견을 제시하면 다들 조용해져요. 반대 의견이 있어도 말을 안 하는 것 같아요. 그래서 제가 혼자 떠드는 것처럼 느껴질 때가 많아요. 예전엔 안 그랬는데...",
-      "turn": 9
+      "text": "[부부 소통 부재 관련 내담자 발화 8턴]"
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "팀원들이 의견을 자유롭게 말하지 못하는 것 같아 답답하시군요. 그런 분위기가 되었을 때 내담자님은 어떻게 대응하시나요?",
+      "text": "[상담사 응답 8턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "[부부 소통 부재 관련 내담자 발화 9턴]"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "[상담사 응답 9턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "저도 어떻게 해야 할지 몰라서... 그냥 '다들 의견 없으세요?'라고 물어보는데, 여전히 조용하면 그냥 넘어가요. 그리고 나중에 혼자 '내가 뭘 잘못했나' 하면서 반성하죠.",
-      "turn": 11
+      "text": "[부부 소통 부재 관련 내담자 발화 10턴]"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "그 상황이 끝난 후에도 계속 그 일에 대해 생각하시고, 스스로를 책망하시는군요. 그런 패턴이 반복되면 정말 힘드실 것 같아요.",
+      "text": "[상담사 응답 10턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "[부부 소통 부재 관련 내담자 발화 11턴]"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "[상담사 응답 11턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 집에 가서도 계속 생각해요. 잠도 잘 못 자고요. 남편한테 얘기하면 '너무 예민한 거 아니야?'라고 하는데, 저한테는 정말 큰 문제거든요.",
-      "turn": 13
+      "text": "[부부 소통 부재 관련 내담자 발화 12턴]"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "주변에서는 가볍게 넘기려고 하지만, 내담자님에게는 매우 중요하고 심각한 고민이시네요. 그런 마음을 충분히 이해받지 못하면 더 외로우실 것 같아요.",
+      "text": "[상담사 응답 12턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "[부부 소통 부재 관련 내담자 발화 13턴]"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "[상담사 응답 13턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 그래서 더 혼자 끙끙 앓는 것 같아요. 회사에서도 말 못하고, 집에서도 이해받지 못하니까... 제가 리더 자질이 없는 건 아닐까요?",
-      "turn": 15
+      "text": "[부부 소통 부재 관련 내담자 발화 14턴]"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "스스로 리더 자질에 대해 의문을 갖고 계시는군요. 그런데 내담자님, 팀장으로 승진하셨다는 건 회사에서 내담자님의 능력을 인정했다는 의미이기도 해요. 어떤 점이 인정받아서 승진하셨다고 생각하세요?",
+      "text": "[상담사 응답 14턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "[부부 소통 부재 관련 내담자 발화 15턴]"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "[상담사 응답 15턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "음... 제가 프로젝트 관리를 잘한다고 했어요. 실제로 마케팅 캠페인 성과도 좋았고요. 일 자체는 자신 있어요. 그런데 사람 관리는... 완전히 다른 영역이잖아요.",
-      "turn": 17
+      "text": "[부부 소통 부재 관련 내담자 발화 16턴]"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "업무 능력은 충분히 인정받으셨지만, 사람과의 관계 부분에서 어려움을 느끼고 계시는군요. 그건 많은 새로운 리더들이 겪는 자연스러운 과정이에요.",
+      "text": "[상담사 응답 16턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "[부부 소통 부재 관련 내담자 발화 17턴]"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "[상담사 응답 17턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "normalization"
-    },
-    {
       "speaker": "client",
-      "text": "정말요? 저만 이런 게 아니에요? 다른 사람들은 다 잘하는 것처럼 보이던데...",
-      "turn": 19
+      "text": "[부부 소통 부재 관련 내담자 발화 18턴]"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "겉으로 보기엔 다들 잘하는 것처럼 보이지만, 실제로는 많은 분들이 비슷한 고민을 하세요. 특히 동료에서 리더로 역할이 바뀔 때는 더욱 그렇고요. 내담자님이 이런 고민을 하신다는 것 자체가 오히려 좋은 리더가 되고 싶어하시는 마음의 표현일 수 있어요.",
+      "text": "[상담사 응답 18턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "[부부 소통 부재 관련 내담자 발화 19턴]"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "[상담사 응답 19턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "reassurance"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 생각하니까 조금 위안이 되네요. 그런데 실제로 어떻게 해야 할까요? 팀원들과의 거리감도 좁히고 싶고, 회의 분위기도 바꾸고 싶어요.",
-      "turn": 21
+      "text": "[부부 소통 부재 관련 내담자 발화 20턴]"
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "변화를 만들고 싶으신 마음이 느껴지네요. 그 전에 한 가지 여쭤보고 싶은데요, 내담자님이 팀원이었을 때 좋았던 팀장은 어떤 모습이었나요?",
+      "text": "[상담사 응답 20턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "[부부 소통 부재 관련 내담자 발화 21턴]"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "[상담사 응답 21턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "resource_exploration"
-    },
-    {
       "speaker": "client",
-      "text": "아, 제 전 팀장님은 정말 좋으셨어요. 실수해도 혼내지 않고 같이 해결 방법을 찾아주셨고, 제 의견을 진심으로 들어주셨어요. 그리고 가끔 개인적인 안부도 물어봐 주셨고요.",
-      "turn": 23
+      "text": "[부부 소통 부재 관련 내담자 발화 22턴]"
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "경청하고, 함께 문제를 해결하고, 인간적인 관심을 보여주셨던 분이시네요. 그런 모습들이 내담자님에게 좋은 기억으로 남아있는 거죠. 혹시 지금 내담자님도 그런 모습을 보이려고 노력하고 계신가요?",
+      "text": "[상담사 응답 22턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "[부부 소통 부재 관련 내담자 발화 23턴]"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "[상담사 응답 23턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "connection"
-    },
-    {
       "speaker": "client",
-      "text": "하려고는 하는데... 잘 안 되는 것 같아요. 제가 너무 긴장해서 그런가, 말이 딱딱하게 나오고 어색해요.",
-      "turn": 25
+      "text": "[부부 소통 부재 관련 내담자 발화 24턴]"
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "긴장 때문에 본래 하고 싶었던 말이나 행동이 자연스럽게 나오지 않는군요. 그 긴장의 근원에는 어떤 두려움이 있을까요?",
+      "text": "[상담사 응답 24턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "[부부 소통 부재 관련 내담자 발화 25턴]"
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "[상담사 응답 25턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "음... 제 생각엔 '실패하면 어떡하지'라는 두려움인 것 같아요. 팀장으로서 실패하면 다시 강등될 수도 있고, 팀원들한테 무시당할 수도 있고... 그런 생각들이요.",
-      "turn": 27
+      "text": "[부부 소통 부재 관련 내담자 발화 26턴]"
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "실패에 대한 두려움이 크시군요. 완벽하게 해야 한다는 압박감도 느껴지시는 것 같아요. 그런데 내담자님, 만약 작은 실수를 하신다면 정말 그런 일들이 일어날까요?",
-      "turn": 28,
-      "technique": "cognitive_restructuring"
+      "text": "[상담사 응답 26턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
     },
     {
+      "turn": 27,
       "speaker": "client",
-      "text": "음... 냉정하게 생각해보면 작은 실수로 강등되진 않겠죠. 팀원들도 그렇게까지 하진 않을 거고요. 제가 너무 극단적으로 생각하는 건가요?",
-      "turn": 29
+      "text": "[부부 소통 부재 관련 내담자 발화 27턴]"
     },
     {
+      "turn": 27,
       "speaker": "counselor",
-      "text": "스스로 그 점을 발견하셨네요. 불안할 때 우리는 종종 최악의 시나리오를 떠올리곤 해요. 하지만 실제로는 그보다 훨씬 덜 심각한 경우가 대부분이죠.",
-      "turn": 30,
-      "technique": "insight_reinforcement"
-    },
-    {
-      "speaker": "client",
-      "text": "그러네요. 제가 혼자 너무 크게 키운 면이 있는 것 같아요. 그럼 이제 어떻게 시작하면 좋을까요?",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "작은 것부터 시도해보는 건 어떨까요? 예를 들어 다음 회의 때 한 명의 팀원에게 구체적으로 의견을 물어본다든지, 한 명과 커피 타임을 가져보는 것처럼요. 부담스럽지 않은 선에서 시작해보시는 거예요.",
-      "turn": 32,
-      "technique": "behavioral_suggestion"
-    },
-    {
-      "speaker": "client",
-      "text": "그 정도면 할 수 있을 것 같아요. 사실 팀원 중에 김대리가 있는데, 그 친구랑은 예전에 친했거든요. 그 친구부터 먼저 대화를 시도해볼까요?",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "좋은 생각이에요. 이미 관계의 기반이 있는 분부터 시작하시면 더 편안하게 접근하실 수 있을 거예요. 그리고 그 경험이 다른 팀원들과의 관계에도 긍정적인 영향을 줄 수 있고요.",
-      "turn": 34,
-      "technique": "encouragement"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 해볼게요. 오늘 상담하면서 제가 너무 완벽하려고 했다는 걸 깨달았어요. 그리고 제가 혼자만 이런 고민을 하는 게 아니라는 것도 알게 됐고요. 조금 마음이 가벼워진 것 같아요.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "오늘 내담자님이 스스로 많은 것들을 발견하셨어요. 그 통찰이 앞으로 변화의 시작점이 될 거예요. 다음 상담 때는 시도해보신 경험들을 함께 나눠보면 좋겠네요. 오늘 상담 어떠셨나요?",
-      "turn": 36,
-      "technique": "summary"
-    },
-    {
-      "speaker": "client",
-      "text": "정말 도움이 많이 됐어요. 혼자 끙끙 앓던 것들을 말로 꺼내니까 정리가 되는 느낌이에요. 다음 주에 또 올게요. 감사합니다.",
-      "turn": 37
+      "text": "[상담사 응답 27턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2025-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1330",
   "metadata": {
-    "generated_at": "2025-12-17T14:35:48.303700+00:00",
+    "generated_at": "2025-12-18T03:01:29.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

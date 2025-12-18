@@ -1,215 +1,300 @@
 {
-  "conversation_id": "CONV_20250624_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "여성",
-    "occupation": "중학교 교사"
+  "client_profile": {
+    "age": "27",
+    "gender": "남성",
+    "occupation": "무직",
+    "background": "백수 생활 1년, 수치심으로 사람 만나기 회피, 집에만 있음"
   },
-  "situation": "10년차 교사로서 최근 학생들과의 관계에서 번아웃을 경험하고 있으며, 교직에 대한 회의감과 함께 자신의 커리어 방향성에 대해 고민하고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 상담 예약하고 처음 와보는데... 사실 제가 여기 와야 하나 싶기도 하고 좀 망설여지네요.",
-      "turn": 1
+      "text": "1년째 백수예요. 사람들 만나기가 창피해서 집에만 있어요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음 상담실을 찾는 것이 쉽지 않으셨을 텐데 용기 내어 오셨네요. 망설여지는 마음도 충분히 이해됩니다. 편안하게 이야기 나눠보시면 좋겠어요.",
+      "text": "실직 후 수치심 때문에 사회적 접촉을 피하고 계시는군요. 지금 가장 힘든 감정은 무엇인가요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 저는 중학교에서 국어를 가르치고 있어요. 올해로 10년차인데, 요즘 들어 학교 가는 게 너무 힘들어요.",
-      "turn": 3
+      "text": "창피함이요. '뭐 하냐'고 물어보면 뭐라고 대답해야 할지... 그래서 아예 안 만나요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년차 교사시군요. 학교 가는 것이 힘들다고 느끼신다니, 어떤 부분이 특히 힘드신가요?",
+      "text": "질문받는 상황 자체가 두려우시군요. 친구들이나 가족은 연락하나요?",
+      "technique": [
+        "interpretation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "처음엔 연락 왔는데 제가 계속 피하니까 이제 안 와요. 가족도 저랑 얘기 안 하려고 해요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "스스로 고립을 선택하셨고, 이제 주변에서도 거리를 두고 있군요. 하루 일과가 어떠신가요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "음... 예전에는 학생들 가르치는 게 정말 좋았거든요. 그런데 요즘은 아침에 일어나면 '오늘도 가야 하나' 이런 생각부터 들어요. 학생들이랑 대화하는 것도 피곤하고...",
-      "turn": 5
+      "text": "낮에 자고 밤에 깨서 인터넷 하고... 그냥 그래요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "예전에는 학생들을 가르치는 일이 좋았는데, 지금은 그 일이 피곤하게 느껴지시는군요. 그 변화가 언제부터 시작되었나요?",
+      "text": "생활 리듬이 많이 깨졌군요. 집 밖에는 얼마나 자주 나가시나요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "편의점 가는 것 빼고는 거의 안 나가요. 편의점도 사람 없는 새벽에 가고요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "사람을 마주치는 것 자체를 피하고 계시네요. 이런 생활이 1년이나 되었다고 하셨죠?",
+      "technique": [
+        "interpretation",
+        "clarification"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "정확히는 모르겠는데... 작년 말쯤부터인 것 같아요. 작년에 담임을 맡았는데 학부모 민원도 많았고, 학생들도 통제가 안 되고... 그때부터 뭔가 달라진 것 같아요.",
-      "turn": 7
+      "text": "네. 처음엔 '쉬는 기간'이라고 생각했는데... 이제는 어떻게 빠져나와야 할지 모르겠어요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "작년에 담임을 맡으시면서 여러 어려움을 겪으셨네요. 학부모 민원과 학생 지도의 어려움이 쌓이면서 지치셨던 거군요.",
+      "text": "쉬는 기간이 고립으로 변했고, 이제는 빠져나오기 어려운 상태가 되었군요. 빠져나오고 싶은 마음은 있으신가요?",
+      "technique": [
+        "restatement",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "있긴 한데... 막막해요. 취업도 안 되고, 사람 만나는 것도 무섭고."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "변화를 원하지만 두려움이 크시군요. 취업과 사회적 관계, 두 가지 모두 어려우신 상황이네요. 어느 것이 더 시급하다고 느끼세요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그런데 다른 선생님들은 다 잘하시는 것 같거든요. 저만 이렇게 힘들어하는 것 같아서 자책도 되고요. '내가 교사로서 자질이 없는 건가?' 이런 생각도 들어요.",
-      "turn": 9
+      "text": "취업이요. 취업하면 자연스럽게 사람도 만나게 되잖아요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "다른 선생님들과 비교하면서 자신을 자책하고 계시네요. 그런 생각들이 더 힘들게 만드는 것 같은데, 실제로 다른 선생님들도 어려움을 겪고 계실 수 있어요. 선생님만 유독 힘든 것이 아닐 수 있습니다.",
+      "text": "취업을 우선순위로 두고 계시네요. 그런데 1년 동안 고립된 상태에서 갑자기 직장 생활을 할 수 있을까요?",
+      "technique": [
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "... 솔직히 자신 없어요. 면접도 무섭고..."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "맞아요. 그래서 취업 전에 사회적 근육을 먼저 키워야 해요. 작은 상호작용부터 연습하는 거죠.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "normalization"
-    },
-    {
       "speaker": "client",
-      "text": "그럴까요? 저는 제가 약한 것 같아서... 최근에는 수업 준비도 대충하게 되고, 학생들한테 짜증도 자주 내게 돼요. 이러면 안 되는데 말이에요.",
-      "turn": 11
+      "text": "어떻게요?"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "지금 상황이 힘들다 보니 수업 준비나 학생들과의 관계에서도 예전 같지 않다는 걸 느끼시는군요. '이러면 안 되는데'라고 하신 부분에서 선생님의 책임감이 느껴지네요.",
+      "text": "먼저 생활 리듬을 정상화하는 게 중요해요. 낮에 일어나서 밖에 나가는 것부터요. 산책이나 카페 가기 같은 거요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "사람들이 '저 사람 백수인가봐'라고 생각하면 어떡해요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "지나가는 사람들은 본인에게 관심 없어요. 그리고 낮에 카페에 있다고 백수라고 생각하지 않아요. 프리랜서일 수도, 휴가일 수도 있죠.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "책임감이 있으니까 더 괴로운 것 같아요. 학생들한테 미안하고... 그런데 동시에 '내가 왜 이렇게까지 해야 하나' 이런 생각도 들어요. 모순적이죠?",
-      "turn": 13
+      "text": "... 그렇긴 하네요. 제가 너무 의식하는 건가..."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "전혀 모순적이지 않아요. 책임감과 함께 자신의 한계를 느끼는 것은 자연스러운 감정입니다. 두 가지 감정이 동시에 존재할 수 있어요.",
+      "text": "맞아요. 과도하게 타인의 시선을 의식하고 계세요. 실제로는 아무도 신경 쓰지 않아요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그래도 친구들 만나면 진짜 물어보잖아요. 뭐 하고 지내냐고."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "그럴 때 솔직하게 말하면 돼요. '요즘 백수다. 힘들다'라고요. 진짜 친구라면 이해해줄 거예요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 들으니 조금 위안이 되네요. 사실 요즘은 교직을 그만둘까 하는 생각도 자주 해요. 그런데 10년을 했는데 이제 와서 그만둔다는 게...",
-      "turn": 15
+      "text": "그렇게 말하면 무시당하거나 조언 들을 것 같은데..."
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "교직을 그만두는 것에 대해서도 고민하고 계시는군요. 10년이라는 시간이 있기에 결정이 더 어려우신 것 같은데, 그만두고 싶은 마음이 드는 이유는 무엇인가요?",
+      "text": "조언이 싫으시면 '조언보다는 그냥 들어줘'라고 말하면 돼요. 경계를 설정하는 거죠.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그런 것도 할 수 있나요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "당연하죠. 본인의 필요를 표현할 권리가 있어요. 그리고 조언이 아니라 공감이 필요하다고 말하는 게 건강한 거예요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "매일매일이 너무 힘들어요. 출근할 때마다 가슴이 답답하고, 주말에도 월요일 생각하면 불안하고... 이게 정상적인 건 아니잖아요.",
-      "turn": 17
+      "text": "한번 해볼게요. 근데 누구한테 먼저 연락하죠?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "출근 전 가슴 답답함과 주말의 불안감까지... 신체적, 정서적으로 많이 힘든 상태시네요. 이런 증상들은 얼마나 지속되었나요?",
+      "text": "가장 편한 친구 한 명만 선택하세요. 그리고 간단하게 '오랜만이다. 밥 한번 먹자'고 하는 거예요.",
+      "technique": [
+        "goal_setting",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "거절하면요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그럼 다른 친구에게 연락하면 돼요. 한 번의 거절이 끝이 아니에요. 포기하지 않는 게 중요해요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "한 6개월 정도 된 것 같아요. 처음에는 '좀 쉬면 괜찮아지겠지' 했는데, 방학 때도 별로 나아지지 않더라고요.",
-      "turn": 19
+      "text": "알겠어요. 이번 주에 한 명한테 연락해볼게요."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "6개월 동안 이런 상태가 지속되었고, 방학 동안 휴식을 취해도 회복되지 않으셨다니 정말 지치셨겠어요. 이 기간 동안 주변에 도움을 요청하거나 이야기를 나눠보신 적이 있나요?",
+      "text": "좋아요. 그리고 생활 리듬도 조금씩 바꿔보세요. 낮 12시 전에 일어나기, 해 있을 때 밖에 나가기요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "한꺼번에 하기엔 힘들 것 같아요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "한 번에 다 할 필요 없어요. 이번 주는 낮에 일어나기만 해도 성공이에요. 작은 것부터요.",
+      "technique": [
+        "validation",
+        "structuring"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "남편한테는 얘기했는데, '힘들면 그만두라'고만 하더라고요. 그런데 그게 그렇게 쉬운 결정은 아니잖아요. 동료 선생님들한테는 약한 모습 보이기 싫어서 말 못했어요.",
-      "turn": 21
+      "text": "네, 그렇게 하겠습니다."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "남편분은 실질적인 해결책을 제시하셨지만, 선생님이 원하시는 건 그런 조언보다는 이해와 공감이었을 수도 있겠네요. 동료들에게는 약한 모습을 보이고 싶지 않으셨고요.",
-      "turn": 22,
-      "technique": "reflection"
-    },
-    {
-      "speaker": "client",
-      "text": "맞아요. 그냥 제 마음을 알아줬으면 좋겠는데... 그리고 학교에서는 더더욱 약해 보이면 안 될 것 같아요. 학생들이나 학부모들한테도요.",
-      "turn": 23
-    },
-    {
-      "speaker": "counselor",
-      "text": "항상 강한 모습을 유지해야 한다는 부담감도 크시겠어요. 그런데 선생님, 지금 이렇게 상담실을 찾아오신 것 자체가 자신을 돌보려는 용기 있는 행동이라고 생각해요.",
-      "turn": 24,
-      "technique": "reframing"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇게 생각하니까 조금 다르게 느껴지네요. 그런데 저는 지금 어떻게 해야 할까요? 계속 버텨야 할까요, 아니면 정말 그만둬야 할까요?",
-      "turn": 25
-    },
-    {
-      "speaker": "counselor",
-      "text": "지금 당장 결정을 내리실 필요는 없어요. 우선은 선생님이 왜 이렇게 힘든지, 무엇이 선생님을 지치게 만드는지 함께 살펴보는 게 중요할 것 같아요. 그 과정에서 답이 보일 수 있습니다.",
-      "turn": 26,
-      "technique": "guidance"
-    },
-    {
-      "speaker": "client",
-      "text": "네... 그게 맞는 것 같아요. 사실 저도 제가 왜 이렇게 힘든지 정확히 모르겠어요. 그냥 모든 게 다 힘들어요.",
-      "turn": 27
-    },
-    {
-      "speaker": "counselor",
-      "text": "모든 게 힘들게 느껴지는 상태시군요. 그럼 이렇게 해볼까요? 선생님이 교사가 되기로 결심하셨을 때를 떠올려보시겠어요? 그때는 어떤 마음이셨나요?",
-      "turn": 28,
-      "technique": "exploration"
-    },
-    {
-      "speaker": "client",
-      "text": "음... 그때는 학생들을 가르치는 게 정말 의미 있는 일이라고 생각했어요. 제가 학생들의 인생에 좋은 영향을 줄 수 있을 거라는 기대감도 있었고요.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "학생들에게 좋은 영향을 주고 싶다는 의미와 가치를 느끼셨군요. 그 마음은 지금도 여전히 남아있나요?",
-      "turn": 30,
-      "technique": "open_question"
-    },
-    {
-      "speaker": "client",
-      "text": "있는 것 같기도 하고... 근데 지금은 그게 너무 묻혀버린 것 같아요. 현실의 벽이 너무 높아서요.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "초심은 여전히 있지만 현실적인 어려움들이 그것을 가려버렸다고 느끼시는군요. 선생님, 오늘 상담을 통해 조금이나마 정리가 되셨나요?",
-      "turn": 32,
-      "technique": "reflection"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 제 감정을 말로 표현하니까 조금 후련한 느낌이에요. 그리고 제가 이상한 게 아니라는 걸 알게 된 것도 위안이 되네요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "다행이네요. 선생님의 감정과 경험은 충분히 타당하고 이해할 수 있는 것들이에요. 앞으로 상담을 통해 선생님이 다시 의미를 찾고, 건강하게 일할 수 있는 방법을 함께 찾아가면 좋겠습니다.",
-      "turn": 34,
-      "technique": "validation"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 감사합니다. 다음에도 올 수 있을까요? 더 이야기하고 싶은 게 많은 것 같아요.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "물론이죠. 다음 상담 때는 선생님의 구체적인 상황들과 대처 방법에 대해 더 깊이 이야기 나눠보도록 하겠습니다. 오늘 용기 내주셔서 감사합니다.",
-      "turn": 36,
-      "technique": "encouragement"
+      "text": "잘하실 거예요. 다음 주에 어떻게 되었는지 얘기 나눠봐요. 용기 내주셔서 고마워요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1427",
   "metadata": {
-    "generated_at": "2025-12-17T14:48:43.658971+00:00",
+    "generated_at": "2025-12-18T03:01:33.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

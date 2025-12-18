@@ -1,215 +1,413 @@
 {
-  "conversation_id": "CONV_20250627_ADT_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "40",
     "gender": "여성",
-    "occupation": "중학교 교사"
+    "occupation": "간호사",
+    "background": "야간 근무 중 첫 공황 발작 경험, 이후 반복되는 공황과 예기불안, 특정 장소 회피, 직장 그만둘까 고민"
   },
-  "situation": "10년차 교사로서 최근 학생들과의 관계와 업무 스트레스로 인해 번아웃을 경험하고 있으며, 교직에 대한 회의감과 함께 진로 전환을 고민하고 있음",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 선생님을 찾아뵙기까지 꽤 오래 고민했어요. 사실 제가 상담을 받으러 온다는 게 좀 부끄럽기도 하고요.",
-      "turn": 1
+      "text": "야간 근무 중에 갑자기 심장이 터질 것 같고 숨이 안 쉬어졌어요. 정말 죽는 줄 알았어요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 오늘 이렇게 용기 내어 방문해 주셔서 감사합니다. 상담을 받는다는 것이 쉬운 결정은 아니었을 텐데, 스스로를 돌보기 위해 이 자리에 오신 거잖아요. 편안하게 이야기 나눠보면 좋겠습니다.",
+      "text": "야간 근무 중에 공황 발작을 경험하셨군요. 정말 무서우셨겠어요. 그때 어떻게 하셨나요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "감사합니다. 저는 중학교에서 국어를 가르치는 교사인데요, 올해로 10년차예요. 그런데 요즘 들어 학교에 가는 게 너무 힘들어졌어요.",
-      "turn": 3
+      "text": "응급실로 뛰어갔어요. 근데 검사 결과는 이상 없대요. 동료들이 다 봤잖아요. 너무 창피했어요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년이라는 시간 동안 교직에 헌신해 오셨는데, 최근 들어 학교에 가는 것이 힘들어지셨군요. 어떤 점들이 특히 힘드신가요?",
+      "text": "신체적으로는 이상이 없었지만 증상은 분명히 있었고, 동료들 앞에서 그런 모습을 보인 게 부끄러우셨군요.",
+      "technique": [
+        "summarization",
+        "validation"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "네... 그 후로 또 올까 봐 너무 불안해요. 근무하는 내내 가슴이 두근거려요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "'또 올까 봐'하는 예기불안이 생겼군요. 실제로 또 발작이 온 적은 있나요?",
+      "technique": [
+        "emotion_labeling",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "음... 처음엔 정말 열정적으로 가르쳤거든요. 아이들이 성장하는 모습을 보는 게 보람찼고요. 그런데 언제부턴가 학생들과의 관계가 예전 같지 않아요. 제가 뭘 해도 아이들은 관심이 없고, 수업 분위기도 안 좋고...",
-      "turn": 5
+      "text": "한 번 더 있었어요. 이번엔 혼자 사무실에서... 어떻게 견뎠는지 모르겠어요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "처음의 열정과 보람이 있었는데, 지금은 학생들과의 연결감이 약해지고 수업이 예전처럼 되지 않는 것 같아 힘드시군요. 그런 변화를 느끼시면서 어떤 감정이 드셨나요?",
+      "text": "두 번째 발작을 혼자 견뎌내셨군요. 힘드셨을 텐데 잘 버티셨어요. 그때는 얼마나 지속됐나요?",
+      "technique": [
+        "validation",
+        "encouragement",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "정확히는 모르겠지만... 10분? 15분? 영원처럼 느껴졌어요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "공황 발작은 보통 10-20분 정도 지속되다가 저절로 사라져요. 위험하지 않지만 정말 무섭게 느껴지죠.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "무력감이요. 제가 아무리 노력해도 소용없다는 느낌? 그리고 솔직히 말하면 화도 나요. 학생들한테도, 학부모들한테도, 그리고 저 자신한테도요.",
-      "turn": 7
+      "text": "위험하지 않다고요? 그런데 심장이 터질 것 같았는데..."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "무력감과 함께 여러 대상에게 화가 나는 감정을 느끼고 계시는군요. 그런 감정들을 느끼는 것은 자연스러운 반응입니다. 특히 어떤 상황에서 그런 감정이 강하게 드시나요?",
+      "text": "그렇게 느껴지지만, 실제로 심장에 문제가 생기거나 죽지 않아요. 뇌의 오작동이에요. 위험 신호를 잘못 보내는 거죠.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "오작동... 그럼 왜 자꾸 일어나는 거예요?"
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "스트레스, 과로, 수면 부족 등이 원인이 될 수 있어요. 간호사로 야간 근무하시면 이런 요인들이 많으시죠?",
+      "technique": [
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "수업 중에 학생들이 떠들거나 핸드폰을 볼 때요. 주의를 주면 학부모한테 민원이 들어오기도 하고... 그럴 때마다 '내가 왜 이렇게까지 해야 하나' 싶어요. 그리고 행정업무도 너무 많아요.",
-      "turn": 9
+      "text": "맞아요. 요즘 환자가 많아서 너무 힘들어요. 제대로 쉬지도 못하고..."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "수업 중 학생 지도의 어려움과 그에 따른 민원, 그리고 과도한 행정업무까지 겹치면서 정말 많은 스트레스를 받고 계시네요. 이런 상황이 얼마나 지속되었나요?",
+      "text": "과로와 수면 부족 상태에서 공황 발작이 시작됐군요. 몸이 '이제 그만'이라고 신호를 보낸 거예요.",
+      "technique": [
+        "reflection",
+        "interpretation"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "그럼 일을 그만둬야 하나요? 근데 생활이 있으니..."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "당장 그만두는 게 답은 아닐 수 있어요. 먼저 증상을 관리하고, 근무 환경을 조정할 방법을 찾아봐야 해요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "작년부터인 것 같아요. 코로나 이후로 학생들이 많이 달라졌다고 느꼈고, 그때부터 점점 힘들어진 것 같아요. 요즘은 아침에 일어나면 학교 가기가 싫어서 배가 아프기도 해요.",
-      "turn": 11
+      "text": "증상을 관리한다는 게... 어떻게요?"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "작년부터 약 1년 이상 이런 어려움을 겪어오셨고, 이제는 신체적인 증상까지 나타나고 있군요. 그 정도로 힘든 상황인데도 계속 출근하시는 게 쉽지 않으셨을 텐데요.",
+      "text": "공황 발작이 올 때 대처법을 배우는 거예요. 호흡법, 이완 기법, 인지 재구성 같은 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "호흡법은 들어봤어요. 근데 그때는 숨 쉬기가 너무 힘든데..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "그래서 미리 연습이 필요해요. 평소에 연습해두면 발작 때 쓸 수 있어요. 지금 함께 해볼까요?",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 사실 요즘은 교사를 그만둬야 하나 하는 생각도 자주 들어요. 하지만 10년을 했는데 지금 그만두면 그동안의 시간이 아깝기도 하고, 다른 걸 할 수 있을지도 모르겠고요.",
-      "turn": 13
+      "text": "네, 가르쳐주세요."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "진로 전환을 고민하고 계시지만, 한편으로는 그동안의 시간과 앞으로의 불확실성 때문에 결정하기가 어려우신 거네요. 양쪽 다 중요한 고민들이십니다.",
+      "text": "복식호흡이에요. 손을 배에 올리고, 코로 천천히 숨을 들이마시면서 배가 나오게 하세요. 그리고 천천히 내쉬는 거예요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "(호흡 연습 후) 조금 진정되는 것 같아요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "잘하셨어요. 매일 5분씩 연습하세요. 그리고 공황이 올 때 '위험하지 않아, 곧 지나간다'고 스스로에게 말해보세요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 그리고 주변에서는 '안정적인 직업인데 왜 그만두려고 하냐', '조금만 참으면 된다'고 하는데... 그 말을 들으면 더 답답해요. 제 마음을 아무도 이해 못 하는 것 같아요.",
-      "turn": 15
+      "text": "'위험하지 않아, 곧 지나간다'... 외워야겠어요."
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "주변의 조언이 오히려 고립감을 느끼게 하는군요. 지금 겪고 계신 어려움이 단순히 '참으면 되는' 문제가 아니라는 걸 느끼시는데, 주변에서는 그 깊이를 이해해주지 못해서 더 외로우신 것 같습니다.",
+      "text": "네, 반복하면 뇌가 학습해요. 그리고 야간 근무가 특히 힘드시면 주간 근무로 변경 가능한지 상사와 상의해보세요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "주간 근무는... 어려울 것 같아요. 인력이 부족해서..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그렇다면 야간 근무 횟수를 줄일 수는 없을까요? 본인의 건강도 중요해요.",
+      "technique": [
+        "open_question",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네, 정확히 그래요. 남편도 '너무 예민한 거 아니냐'고 하고... 혹시 제가 정말 너무 예민한 건가요? 다른 선생님들은 잘 버티는 것 같은데 저만 힘든 건가 싶기도 해요.",
-      "turn": 17
+      "text": "한번 얘기해볼게요. 근데 병원에서는 이해해줄까요?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "지금 느끼시는 어려움이 본인의 예민함 때문이 아닐까 자책하고 계시는군요. 하지만 번아웃은 개인의 예민함이 아니라 지속적인 스트레스 상황에 대한 자연스러운 반응입니다. 다른 선생님들도 각자의 방식으로 어려움을 겪고 있을 수 있어요.",
+      "text": "공황장애는 진단받을 수 있는 질환이에요. 진단서가 있으면 근무 조정을 요청할 수 있어요. 정신건강의학과 진료 받아보셨나요?",
+      "technique": [
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "아니요. 정신과 가는 게... 좀 꺼려져서요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "정신과에 대한 거부감이 있으시군요. 하지만 간호사시니까 아시잖아요. 정신 건강도 신체 건강만큼 중요하다는 거요.",
+      "technique": [
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "번아웃이요? 제가 번아웃인가요?",
-      "turn": 19
+      "text": "맞는 말씀이에요. 환자들한테는 그렇게 말하면서 정작 저는..."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "말씀하신 증상들 - 무력감, 일에 대한 회의감, 신체적 증상, 감정적 소진 등이 번아웃의 전형적인 신호들입니다. 이건 약함의 표시가 아니라 너무 오랫동안 힘든 상황에 노출되어 있었다는 신호예요.",
+      "text": "본인에게는 관대하지 못하셨군요. 이제 본인도 돌봐야 할 때예요. 약물 치료도 고려해보세요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "약을 먹으면 공황이 안 오나요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "약이 발작 빈도를 줄이고 불안을 감소시켜요. 완전히 없애진 못해도 훨씬 관리하기 쉬워져요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "psychoeducation"
-    },
-    {
       "speaker": "client",
-      "text": "그렇군요... 그럼 이걸 어떻게 해야 하나요? 계속 이렇게는 못 살 것 같아요.",
-      "turn": 21
+      "text": "알겠어요. 병원 가볼게요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "변화를 원하신다는 것 자체가 중요한 첫걸음입니다. 지금 당장 교직을 그만둘지 말지를 결정하기보다는, 먼저 지금의 상태에서 회복하는 것이 우선일 수 있어요. 최근에 본인을 위해 시간을 내거나 휴식을 취한 적이 있으신가요?",
+      "text": "좋은 결정이에요. 그리고 공황 발작이 온 장소를 피하고 계시진 않나요?",
+      "technique": [
+        "encouragement",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "네... 그 사무실에 가기 싫어요. 그리고 좁은 공간도 피하게 돼요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "회피가 시작됐군요. 회피는 단기적으론 편하지만, 장기적으론 공포를 키워요. 점진적으로 다시 노출해야 해요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "글쎄요... 생각해보니 거의 없었던 것 같아요. 주말에도 수업 준비하고, 밀린 업무 처리하고... 쉬는 시간에도 학교 생각을 하게 되더라고요.",
-      "turn": 23
+      "text": "그 공간에 다시 가라는 건가요? 무서운데..."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "일과 자신을 분리하는 시간이 거의 없으셨군요. 지속적으로 긴장 상태에 있으면 회복할 기회가 없어요. 작은 것부터라도 본인을 위한 시간을 만드는 것이 필요해 보입니다.",
+      "text": "무서우실 거예요. 하지만 안전하다는 걸 경험해야 해요. 처음엔 누군가와 함께, 짧은 시간부터 시작하는 거예요.",
+      "technique": [
+        "validation",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "동료랑 같이 가볼 수 있을 것 같아요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 거기서 호흡 연습을 해보세요. '여기서도 안전해'라는 걸 몸으로 배우는 거예요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "그런데 시간을 내려고 해도 죄책감이 들어요. '이 시간에 수업 준비를 해야 하는 거 아닌가', '학생들한테 미안한 거 아닌가' 하는 생각들이요.",
-      "turn": 25
+      "text": "해볼게요. 근데 또 공황이 오면 어떡하죠?"
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "자신을 돌보는 것에 대해 죄책감을 느끼시는군요. 하지만 생각해보세요. 지금처럼 소진된 상태에서는 학생들에게도 최선을 다하기 어렵지 않을까요? 자신을 돌보는 것이 이기적인 게 아니라 오히려 더 나은 교사가 되기 위한 필수 조건일 수 있습니다.",
+      "text": "올 수도 있어요. 하지만 이제는 대처 방법을 아시잖아요. 호흡하고, '곧 지나간다'고 상기시키는 거예요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네... 준비가 되어 있으면 조금 덜 무서울 것 같아요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "정확해요. 통제감을 갖는 게 중요해요. 그리고 수면과 휴식도 충분히 취하세요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 생각해본 적은 없었네요... 맞는 말씀인 것 같기도 해요. 요즘 제가 수업할 때도 짜증이 많이 나고, 학생들한테도 예전처럼 잘 대해주지 못하는 것 같거든요.",
-      "turn": 27
+      "text": "요즘 잠도 잘 못 자요. 공황이 또 올까 봐..."
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "스스로도 그런 변화를 인식하고 계시는군요. 그것도 번아웃의 신호입니다. 이제부터라도 회복을 위한 작은 실천들을 시작해보면 어떨까요? 예를 들어, 하루 중 30분이라도 온전히 본인만을 위한 시간을 갖는 것부터요.",
+      "text": "불안 때문에 수면도 방해받고 있군요. 자기 전에 이완 연습을 해보세요. 그리고 카페인은 피하시고요.",
+      "technique": [
+        "reflection",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "카페인... 밤샘 근무할 때 커피 많이 마셨는데..."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "카페인이 불안과 심계항진을 악화시켜요. 가능하면 줄여보세요. 특히 오후 이후엔 피하시고요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 28,
-      "technique": "suggestion"
-    },
-    {
       "speaker": "client",
-      "text": "30분이요... 그 정도는 할 수 있을 것 같아요. 그런데 그 시간에 뭘 해야 할지 모르겠어요. 너무 오랫동안 제가 뭘 좋아하는지도 잊어버린 것 같아요.",
-      "turn": 29
+      "text": "알겠어요. 할 게 많네요..."
     },
     {
+      "turn": 28,
       "speaker": "counselor",
-      "text": "자신이 무엇을 좋아하는지 잊어버렸다는 것도 소진의 증거입니다. 과거에 즐거웠던 활동이나 관심사가 있었나요? 교사가 되기 전이나 초임 시절에는 어떤 것들을 하셨나요?",
-      "turn": 30,
-      "technique": "open_question"
-    },
-    {
-      "speaker": "client",
-      "text": "예전엔 책 읽는 걸 좋아했어요. 소설이나 에세이 같은 거요. 그리고 산책도 자주 했고요. 그런데 언제부턴가 책도 교재밖에 안 읽게 되고, 산책할 여유도 없어졌네요.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "독서와 산책이라는 좋은 자원들이 있으시네요. 이번 주에 한 번이라도 그런 활동을 해보시는 건 어떨까요? 작은 시작이지만 중요한 의미가 있을 거예요.",
-      "turn": 32,
-      "technique": "suggestion"
-    },
-    {
-      "speaker": "client",
-      "text": "해볼게요. 그런데 선생님, 이런 작은 것들로 정말 나아질 수 있을까요? 제 근본적인 문제는 직업에 대한 회의감인데...",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "중요한 질문이세요. 진로에 대한 결정은 분명 중요하지만, 지금처럼 소진된 상태에서 내린 결정은 명확하지 않을 수 있어요. 먼저 어느 정도 회복된 후에 진로에 대해 더 명확하게 생각할 수 있을 겁니다. 지금은 회복과 고민을 병행하는 시기로 보면 어떨까요?",
-      "turn": 34,
-      "technique": "guidance"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇게 생각하니 조금 마음이 편해지네요. 당장 결정하지 않아도 된다는 게... 그리고 오늘 이야기하면서 제가 생각보다 많이 힘들었다는 걸 알게 됐어요.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "오늘 자신의 상태를 인식하고 인정하신 것이 큰 진전입니다. 앞으로 함께 회복의 과정을 걸어가면서, 궁극적으로는 본인에게 맞는 방향을 찾아갈 수 있을 거예요. 다음 상담까지 작은 실천들을 해보시고, 그 과정에서 느낀 점들을 나눠보면 좋겠습니다.",
-      "turn": 36,
-      "technique": "encouragement"
+      "text": "한 번에 다 하려고 하지 마세요. 우선순위는 병원 진료, 호흡 연습, 카페인 줄이기예요. 이것부터 해보세요.",
+      "technique": [
+        "validation",
+        "structuring"
+      ]
     }
   ],
+  "generated_at": "2025-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1423",
   "metadata": {
-    "generated_at": "2025-12-17T14:48:39.857927+00:00",
+    "generated_at": "2025-12-18T03:01:33.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

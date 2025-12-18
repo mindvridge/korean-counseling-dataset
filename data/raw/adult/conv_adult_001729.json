@@ -1,215 +1,329 @@
 {
-  "conversation_id": "CONV_20250620_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "35",
     "gender": "여성",
-    "occupation": "중학교 교사"
+    "occupation": "초등교사",
+    "background": "결혼 7년차, 남편과의 의사소통 단절, 육아 부담 불균형"
   },
-  "situation": "10년 차 중학교 교사로 일하면서 최근 학생들과의 관계, 학부모 민원, 과중한 업무로 인해 번아웃을 경험하고 있으며, 교직을 그만둘지 고민 중",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 사실 상담을 받아야 할지도 고민했는데, 요즘 너무 힘들어서 용기내서 왔습니다.",
-      "turn": 1
+      "text": "남편이랑 대화가 안 돼요. 육아는 저만 하고, 남편은 일만 핑계 대고요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 용기 내어 찾아주셔서 감사합니다. 지금 많이 힘드신 상황이신 것 같네요. 편안하게 말씀해 주세요.",
+      "text": "육아 부담이 불공평하게 느껴지시고, 남편과의 소통도 어려우신 상황이군요. 얼마나 오래되셨어요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "clarification"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치는 교사인데요. 벌써 10년 차예요. 처음엔 정말 열정적으로 했는데... 요즘은 아침에 학교 가는 게 너무 두렵습니다.",
-      "turn": 3
+      "text": "아이가 태어난 후부터요. 이제 5살인데... 5년 동안 혼자 키운 것 같아요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년 동안 교직에 계시면서 처음의 열정과 지금의 두려움 사이에서 많은 변화가 있으셨군요. 아침에 학교 가는 것이 두렵다는 것은 정말 힘든 일이에요.",
+      "text": "5년간 혼자 육아를 감당하신 느낌이시군요. 남편분은 육아에 어느 정도 참여하시나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "주말에 잠깐 놀아주는 게 전부예요. 기저귀 갈거나 밥 먹이거나 하는 건 안 해요. '모르겠다'면서요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "일상적인 돌봄은 하지 않고 놀아주기만 하시는군요. '모르겠다'는 말을 들으면 어떤 기분이 드세요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네... 사실 작년까지만 해도 괜찮았어요. 그런데 올해 담임을 맡으면서 모든 게 달라졌어요. 학생들은 통제가 안 되고, 학부모들은 계속 민원을 넣고...",
-      "turn": 5
+      "text": "화나죠. 저도 처음엔 몰랐어요. 근데 배웠잖아요. 왜 남편만 예외인가요?"
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "올해 담임을 맡으시면서 학생 지도와 학부모 응대 등 여러 어려움이 한꺼번에 찾아온 것 같네요. 구체적으로 어떤 상황들이 가장 힘드신가요?",
+      "text": "본인도 배워가며 했는데 남편은 배우려 하지 않으니 억울하시군요. 이런 감정을 남편분께 표현해보셨나요?",
+      "technique": [
+        "empathy",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "수없이 말했죠. '좀 도와달라'고요. 그럼 '나도 힘들다', '회사 일이 바쁘다'고만 해요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "'도와달라'고 요청하셨군요. 혹시 '도와달라'는 표현이 어떤 의미를 담고 있는지 생각해보신 적 있으세요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "학생들이... 제 말을 안 들어요. 수업 중에 떠들고, 휴대폰 하고, 주의를 주면 오히려 반항하고. 그러다 제가 좀 강하게 말하면 바로 학부모한테 전화가 와요.",
-      "turn": 7
+      "text": "도와달라는 게... 문제가 있나요?"
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "학생들을 지도하려고 하면 학부모의 반응이 걱정되고, 그렇다고 가만히 있자니 수업 진행도 어려운 딜레마 상황이시네요. 그 사이에서 정말 많이 힘드셨겠어요.",
+      "text": "'도와달라'는 말은 육아가 본래 본인의 일이고 남편은 돕는 사람이라는 뉘앙스가 있어요. 하지만 육아는 두 사람의 책임이죠.",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "아... 그렇네요. 저도 모르게 그렇게 생각했던 것 같아요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "스스로 깨달으셨네요. 그렇다면 '도와달라' 대신 '함께 하자'고 말하면 어떨까요?",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요, 정확히 그래요. 뭘 해도 안 되는 느낌이에요. 그리고 수업 준비, 생활기록부 작성, 각종 공문서 처리... 밤 11시까지 학교에 남아있는 날이 대부분이에요.",
-      "turn": 9
+      "text": "그렇게 말한다고 달라질까요? 남편은 계속 바쁘다고 할 것 같은데요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "수업과 학생 지도 외에도 행정 업무까지 과중하게 쌓여있는 상황이군요. 하루 일과가 어떻게 되시는지 좀 더 말씀해 주실 수 있을까요?",
+      "text": "회의적이시군요. 남편분이 정말 바쁘신가요? 실제 근무 시간이 어떻게 되나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "9시에 출근해서 7시쯤 퇴근해요. 그렇게 늦지는 않아요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "근무 시간은 일반적인 수준이군요. '바쁘다'는 게 실제 시간 부족이 아니라 다른 의미일 수도 있어요.",
+      "technique": [
+        "restatement",
+        "interpretation"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "아침 7시 반에 출근해서 조회하고, 수업 5~6시간에 담임 업무, 점심시간에도 학생 상담하고... 퇴근은 항상 밤늦게요. 집에 가면 기진맥진해서 씻고 바로 자요.",
-      "turn": 11
+      "text": "다른 의미요?"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "하루 종일 쉴 틈 없이 일하시고, 집에 가서도 회복할 시간이 거의 없으시네요. 이런 생활이 얼마나 지속되셨나요?",
+      "text": "육아에 자신이 없거나, 어떻게 해야 할지 몰라서 회피하는 것일 수도 있어요. 혹은 정말로 퇴근 후 휴식이 필요할 수도 있고요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그럼 저는요? 저는 24시간 일하는데 휴식은 언제 해요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "본인의 힘듦도 인정받고 싶으시죠. 당연해요. 남편분이 본인의 상황을 정확히 알고 계실까요?",
+      "technique": [
+        "validation",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "올해 3월부터니까... 벌써 4개월째예요. 처음엔 '조금만 지나면 괜찮아지겠지' 했는데, 점점 더 힘들어지는 것 같아요. 주말에도 일 생각에 불안하고요.",
-      "turn": 13
+      "text": "알 거예요. 눈만 있으면 보이는데..."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "4개월 동안 계속 이런 상태가 지속되면서 심신이 많이 지쳐있으시고, 주말에도 일에서 벗어나지 못하고 계시는군요. 신체적으로는 어떤 증상이 있으신가요?",
+      "text": "보면 안다고 생각하시지만, 실제로 말하지 않으면 모를 수 있어요. 구체적으로 얼마나 힘든지 말씀해보신 적 있으세요?",
+      "technique": [
+        "confrontation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그냥 '힘들다'고만 했지, 구체적으로는... 안 한 것 같아요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "막연히 '힘들다'는 말만으로는 전달이 안 될 수 있어요. '하루에 몇 시간을 쉬지 못한다', '육아하면서 어떤 점이 버겁다' 이런 식으로 구체적으로 말하는 게 중요해요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "assessment"
-    },
-    {
       "speaker": "client",
-      "text": "잠을 잘 못 자요. 자다가도 학생들이나 학부모 생각에 깨고... 식욕도 없어서 많이 말랐어요. 가슴이 답답하고 두통도 자주 있고요.",
-      "turn": 15
+      "text": "그렇게 말하면 들어줄까요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "불면, 식욕 저하, 신체 증상까지 나타나고 있으시네요. 이런 증상들은 심한 스트레스와 번아웃의 신호일 수 있어요. 이런 상황에서 주변에 도움을 요청하거나 이야기를 나눌 수 있는 분이 계신가요?",
+      "text": "보장할 순 없지만, 지금보다는 나을 거예요. 그리고 대화할 때 비난보다는 감정과 필요를 표현하는 게 좋아요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "감정과 필요요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "네. '당신은 일만 한다'는 비난 대신, '나는 혼자 육아하면서 외롭고 지친다. 당신의 도움이 필요하다'고 표현하는 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "information"
-    },
-    {
       "speaker": "client",
-      "text": "동료 교사들도 다 바빠서... 그리고 제가 힘들다고 하면 약해 보일까 봐 말을 못 했어요. 가족들한테도 걱정 끼치기 싫어서 괜찮은 척했고요.",
-      "turn": 17
+      "text": "저한테 그렇게 말할 여유가 있을까요... 화가 나서요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "혼자서 모든 것을 감당하려고 애쓰셨네요. 힘든 것을 표현하는 것이 약함이 아니라 용기라는 것을 기억해 주세요. 지금 이렇게 상담을 찾아오신 것처럼요.",
+      "text": "화가 나는 게 당연해요. 5년간 쌓였으니까요. 하지만 화를 쏟아내면 상대는 방어하게 되고 대화는 안 돼요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그럼 어떡하죠? 화를 참으라는 건가요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "참으라는 게 아니라, 화가 가라앉은 후에 대화하라는 거예요. 그리고 화의 이면에 있는 진짜 감정을 찾는 게 중요해요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "감사합니다... 사실 요즘은 교사를 그만둬야 하나 심각하게 고민하고 있어요. 하지만 10년을 했는데 그만두는 게 맞나 싶기도 하고...",
-      "turn": 19
+      "text": "진짜 감정이요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "10년간 쌓아온 경력과 현재의 고통 사이에서 큰 갈등을 겪고 계시는군요. 교직을 그만두는 것에 대해 어떤 생각들이 드시나요?",
+      "text": "화는 표면 감정이에요. 그 밑에는 외로움, 서운함, 무력감 같은 게 있을 거예요. 그걸 찾아서 표현하는 거죠.",
+      "technique": [
+        "information_giving",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "... 외롭긴 해요. 결혼했는데 혼자인 것 같아요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "그 감정을 남편분께 전달해보세요. '화나다'가 아니라 '외롭다'고요. 훨씬 와닿을 거예요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "한편으로는 해방될 것 같아요. 더 이상 이 스트레스를 받지 않아도 되니까. 하지만 다른 한편으로는 실패자가 된 것 같고, 앞으로 뭘 해야 할지도 막막하고...",
-      "turn": 21
+      "text": "시도해볼게요. 근데 언제 얘기하는 게 좋을까요?"
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "그만두면 편해질 것 같지만, 동시에 실패감과 불확실한 미래에 대한 두려움도 있으시네요. 이 두 가지 감정이 모두 자연스러운 것이에요. 혹시 교직 생활에서 보람을 느꼈던 순간들도 있으셨나요?",
+      "text": "아이가 자고 난 후, 두 분이 진정할 수 있는 시간에요. 그리고 '얘기 좀 하자'고 미리 말하는 게 좋아요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "알겠습니다. 이번 주말에 한번 해볼게요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "좋은 계획이에요. 대화가 잘 되길 바라요. 다음 주에 어떠셨는지 얘기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "normalization"
-    },
-    {
       "speaker": "client",
-      "text": "예전에는... 학생들이 제 수업을 재미있어 하고, 졸업하고 나서 찾아와서 고맙다고 할 때 정말 뿌듯했어요. 그때는 이 일이 천직이라고 생각했는데...",
-      "turn": 23
+      "text": "감사합니다."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "교사로서의 보람과 의미를 충분히 경험하셨던 시기가 있었군요. 지금은 그런 긍정적인 경험들이 힘든 상황에 가려져 있는 것 같네요. 지금 당장 그만둘지 결정하기보다는, 먼저 현재 상황을 개선할 방법을 함께 찾아보는 것은 어떨까요?",
-      "turn": 24,
-      "technique": "reframing"
-    },
-    {
-      "speaker": "client",
-      "text": "개선할 방법이 있을까요? 모든 게 다 바꿀 수 없는 것들 같은데...",
-      "turn": 25
-    },
-    {
-      "speaker": "counselor",
-      "text": "지금은 모든 것이 변하지 않을 것처럼 느껴지실 수 있어요. 하지만 작은 것부터 하나씩 바꿔나갈 수 있습니다. 예를 들어, 업무 우선순위를 조정하거나, 동료들과 협력 체계를 만들거나, 자기 돌봄 시간을 확보하는 것부터 시작할 수 있어요.",
-      "turn": 26,
-      "technique": "guidance"
-    },
-    {
-      "speaker": "client",
-      "text": "자기 돌봄이요? 그럴 시간이 있을까요... 하지만 뭔가 해야 한다는 건 알겠어요.",
-      "turn": 27
-    },
-    {
-      "speaker": "counselor",
-      "text": "시간이 없는 것이 아니라, 지금까지 자신을 위한 시간의 우선순위가 낮았던 것일 수 있어요. 하루 10분이라도 자신을 위한 시간을 갖는 것부터 시작해보면 어떨까요?",
-      "turn": 28,
-      "technique": "reframing"
-    },
-    {
-      "speaker": "client",
-      "text": "10분이라면... 할 수 있을 것 같기도 해요. 그런데 학부모나 학생 문제는 어떻게 해야 할까요?",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "학생 지도와 학부모 응대에 대해서는 명확한 경계와 원칙을 세우는 것이 중요합니다. 혹시 학교에 학생 상담이나 생활지도를 지원하는 시스템이 있나요?",
-      "turn": 30,
-      "technique": "problem-solving"
-    },
-    {
-      "speaker": "client",
-      "text": "상담실이나 학생부가 있긴 한데... 제가 담임이니까 제가 다 해결해야 한다고 생각했어요.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "모든 것을 혼자 해결해야 한다는 생각이 부담을 더 크게 만들었을 수 있어요. 시스템을 활용하고 동료들과 협력하는 것은 무능함이 아니라 현명한 선택입니다. 다음 주까지 한 가지만 실천해보시겠어요?",
-      "turn": 32,
-      "technique": "cognitive restructuring"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 해보고 싶어요. 뭘 하면 좋을까요?",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "먼저 하루 10분 자신을 위한 시간 갖기, 그리고 어려운 학생 문제 하나를 학생부나 동료 교사와 상의해보기, 이 두 가지는 어떠세요? 작지만 의미 있는 변화의 시작이 될 수 있습니다.",
-      "turn": 34,
-      "technique": "goal-setting"
-    },
-    {
-      "speaker": "client",
-      "text": "그 정도면 할 수 있을 것 같아요. 오늘 이야기하고 나니 조금 숨통이 트이는 느낌이에요. 혼자가 아니라는 생각도 들고요.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "네, 혼자가 아니에요. 지금 겪고 계신 어려움은 많은 교사들이 경험하는 것이고, 충분히 극복할 수 있습니다. 다음 상담 때 이번 주 경험을 나누면서 다음 단계를 함께 계획해보도록 해요. 오늘 용기 내어 오셨고, 변화를 시작하려는 의지를 보여주셔서 감사합니다.",
-      "turn": 36,
-      "technique": "encouragement"
+      "text": "잘하실 거예요. 변화의 첫걸음을 내디디고 계세요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1729",
   "metadata": {
-    "generated_at": "2025-12-17T15:29:52.063754+00:00",
+    "generated_at": "2025-12-18T03:01:47.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

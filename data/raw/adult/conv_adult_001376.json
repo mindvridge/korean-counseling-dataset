@@ -1,209 +1,440 @@
 {
-  "conversation_id": "CONV_20250623_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "남성",
-    "occupation": "중소기업 팀장"
+  "client_profile": {
+    "age": "29",
+    "gender": "여성",
+    "occupation": "광고 기획자",
+    "background": "입사 4년차, 3개 프로젝트 동시 진행 중, 최근 실수 증가 및 자신감 상실"
   },
-  "situation": "최근 승진 후 팀원 관리와 성과 압박으로 인한 스트레스와 불안감을 호소하며 상담을 요청함. 업무 성과는 좋으나 대인관계에서 어려움을 겪고 있으며, 수면 문제와 만성 피로를 경험하고 있음.",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 상담 받는 게 처음이라 좀 긴장되네요.",
-      "turn": 1
+      "text": "요즘 제가 일을 너무 못하는 것 같아서... 상담을 받아보려고요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음 상담 오시는 분들은 대부분 긴장하시는데, 편안하게 생각하셔도 됩니다. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "일을 못한다고 느끼시는군요. 구체적으로 어떤 부분에서 그렇게 느끼시나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "rapport_building"
-    },
-    {
       "speaker": "client",
-      "text": "사실 6개월 전에 팀장으로 승진했는데요. 처음엔 좋았는데 요즘 너무 힘들어서요. 밤에도 잠을 제대로 못 자고 있습니다.",
-      "turn": 3
+      "text": "실수가 너무 많아졌어요. 어제도 클라이언트 미팅에서 자료를 잘못 가져갔고, 그제는 메일에 첨부파일을 빼먹었어요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "승진 후 6개월이 지났는데 요즘 많이 힘드시고 수면에도 어려움이 있으시군요. 구체적으로 어떤 부분이 가장 힘드신가요?",
+      "text": "최근 업무상 실수들이 늘어나셨군요. 예전에도 이런 실수를 자주 하셨나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "아니요, 예전엔 꼼꼼하다는 소리 들었는데... 요즘엔 제가 뭘 하는지도 모르겠어요. 집중이 안 돼요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "예전에는 꼼꼼했는데 최근에 집중력이 떨어지고 실수가 늘었다는 거네요. 언제부터 이런 변화가 생겼나요?",
+      "technique": [
+        "summarization",
+        "clarification"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "팀원들이 8명인데, 다들 저보다 나이도 많고 경력도 많아요. 제가 지시하면 겉으로는 따르는 것 같은데 뒤에서 뭐라고 할 것 같고... 그게 너무 신경 쓰입니다.",
-      "turn": 5
+      "text": "한 달 전부터요. 그때 프로젝트가 2개에서 3개로 늘었거든요. 각각 다 중요한 클라이언트라서..."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "나이와 경력이 많은 팀원들을 이끌어야 하는 상황에서 그들의 시선이나 평가가 많이 신경 쓰이시는군요. 그런 상황이라면 부담감이 클 수밖에 없을 것 같습니다.",
+      "text": "한 달 전부터 프로젝트가 늘어나면서 변화가 시작됐군요. 지금 3개 프로젝트를 혼자 담당하고 계신가요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "네... 팀원이 퇴사하면서 그 사람 프로젝트까지 제가 맡게 됐어요. 회사에서 새 사람 뽑는다고 하는데 언제 올지 모르겠어요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "동료가 퇴사하면서 그 업무까지 떠안게 되셨군요. 새 직원이 오기 전까지 혼자 감당하고 계시는 거네요. 하루 일과가 어떻게 되시나요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 그래서 항상 완벽하게 하려고 하는데, 그게 또 스트레스예요. 실수하면 안 될 것 같고, 약한 모습 보이면 안 될 것 같고...",
-      "turn": 7
+      "text": "9시 출근해서 새벽 1-2시에 퇴근해요. 집 가서 씻고 자면 4-5시간? 그리고 또 출근하고..."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "완벽해야 한다는 압박감과 약한 모습을 보여서는 안 된다는 생각이 계속 마음속에 있으시네요. 그렇게 느끼시는 데에는 어떤 이유가 있을까요?",
+      "text": "하루 16-17시간 일하시고 수면은 4-5시간밖에 못 주무시는군요. 주말은요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "주말에도 나와서 일해요. 안 그러면 못 끝내요. 월요일 미팅 준비도 해야 하고..."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "주 7일 일하시는군요. 이런 생활이 한 달째 지속되고 있는 거네요. 몸과 마음은 어떠세요?",
+      "technique": [
+        "reflection",
+        "emotion_labeling"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "open_ended_question"
-    },
-    {
       "speaker": "client",
-      "text": "글쎄요... 어렸을 때부터 아버지가 엄하셨어요. 항상 1등 해야 하고, 약한 모습 보이면 혼났죠. 그게 습관이 된 것 같아요.",
-      "turn": 9
+      "text": "피곤해요. 너무 피곤한데 잠이 잘 안 와요. 자다가도 자꾸 깨고... 악몽도 꿔요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "어린 시절부터 형성된 패턴이 지금의 리더십 스타일에도 영향을 미치고 있는 것 같네요. 그런 기준을 계속 유지하는 것이 지금은 어떤 영향을 주고 있나요?",
+      "text": "극심한 피로에도 불구하고 수면의 질도 좋지 않으시군요. 어떤 악몽을 꾸시나요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "마감을 못 지키는 꿈, 클라이언트가 화내는 꿈... 그런 꿈 꾸고 일어나면 식은땀 범벅이에요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "낮에 겪는 업무 스트레스가 밤에도 이어지고 있네요. 지금 말씀하신 증상들 - 집중력 저하, 수면 장애, 반복되는 악몽 - 모두 극심한 스트레스와 과로의 신호예요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "솔직히 너무 지쳐요. 회사에서도 긴장하고, 집에 가서도 일 생각하고... 아내가 요즘 제가 예민하다고 하더라고요.",
-      "turn": 11
+      "text": "저도 뭔가 이상하다는 건 알겠는데... 그래도 일은 해야 하잖아요."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "일과 삶의 경계가 모호해지면서 항상 긴장 상태에 있고, 그것이 가정생활에까지 영향을 미치고 있군요. 많이 지치셨겠어요.",
+      "text": "일을 해야 한다는 책임감이 크시군요. 그런데 지금처럼 집중력이 떨어지고 실수가 늘어나는 상태에서 일하는 게 효율적일까요?",
+      "technique": [
+        "validation",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "... 아니에요. 사실 실수 때문에 더 시간이 오래 걸려요. 고치는 데 시간 더 쓰고..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "정확히 파악하셨어요. 과로로 인한 실수가 오히려 더 많은 시간을 소모하게 만들고 있네요. 이 상황을 상사나 팀장님께 말씀드려 보셨나요?",
+      "technique": [
+        "encouragement",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그런데 이게 제 문제인지도 잘 모르겠어요. 다른 팀장들도 다 이렇게 사는 거 아닌가요?",
-      "turn": 13
+      "text": "말씀드렸어요. 근데 '조금만 더 버텨, 곧 새 팀원 온다'고만 하세요."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "다른 사람들도 힘들 거라고 생각하시면서 본인의 어려움을 최소화하려고 하시는 것 같네요. 하지만 지금 수면 문제와 만성 피로, 예민함을 경험하고 계신다면 이것은 분명 다루어야 할 신호입니다.",
+      "text": "도움을 요청했지만 실질적인 지원은 받지 못하셨군요. '조금만 더'라는 말이 한 달째 계속되고 있는 거네요.",
+      "technique": [
+        "reflection",
+        "validation"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "네... 그래서 그냥 제가 버텨야 하나 봐요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "본인이 버티는 수밖에 없다고 느끼시는군요. 그런데 지금 상태로 얼마나 더 버틸 수 있을 것 같으세요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 생각하니 좀... 제가 너무 무리하고 있었던 것 같기도 하네요. 근데 어떻게 해야 할지 모르겠어요.",
-      "turn": 15
+      "text": "모르겠어요. 솔직히 한계예요. 어제는 회의 중에 갑자기 눈물이 나더라고요."
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "변화가 필요하다는 것을 인식하신 것 자체가 중요한 첫걸음입니다. 구체적으로 팀원들과의 관계에서 가장 어려운 순간은 언제인가요?",
+      "text": "회의 중에 감정 조절이 안 될 정도로 한계 상황이시군요. 이건 정말 심각한 신호예요. 몸이 'SOS'를 보내고 있는 거예요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "저도 놀랐어요. 저는 원래 회사에서 안 우는데... 정말 창피했어요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "창피하셨겠어요. 하지만 그건 본인이 약해서가 아니라 너무 오랫동안 과부하 상태였기 때문이에요. 지금 상태로는 일도 제대로 할 수 없고 건강도 해칠 수 있어요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "encouragement"
-    },
-    {
       "speaker": "client",
-      "text": "회의 시간이요. 제가 의견을 내면 다들 조용해져요. 동의하는 건지, 반대하는데 말 안 하는 건지 모르겠어요. 그래서 더 강하게 말하게 되고...",
-      "turn": 17
+      "text": "그럼 어떻게 해야 하나요? 그만둘 수도 없고..."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "회의 시간에 팀원들의 침묵이 불편하고, 그 불편함을 해소하기 위해 더 강하게 의견을 표현하게 되는 패턴이 있으시네요. 그럴 때 팀원들의 반응은 어떤가요?",
+      "text": "그만두는 것 외에도 방법이 있어요. 먼저, 3개 프로젝트 중 일부를 다른 팀원에게 이관하거나 일정을 조정하는 게 가능한가요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "팀원들도 다들 바빠요. 근데... 다시 생각해보니 프로젝트 B는 마감이 다음 달이니까 우선순위를 낮출 수는 있을 것 같아요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "좋은 생각이에요. 모든 걸 동시에 최우선으로 할 수는 없어요. 우선순위를 정하고 팀장님께 일정 조정을 제안해보시는 건 어떨까요?",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "pattern_identification"
-    },
-    {
       "speaker": "client",
-      "text": "더 조용해지죠. 악순환인 것 같아요. 저도 알면서 계속 그러게 돼요.",
-      "turn": 19
+      "text": "그렇게 말씀드려볼게요. 근데 거절당하면 어떡하죠?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "그 패턴을 인식하고 계시는군요. 만약 다르게 반응한다면 어떻게 해보고 싶으신가요?",
+      "text": "거절이 걱정되시는군요. 하지만 지금 본인 상태 - 수면 부족, 집중력 저하, 잦은 실수 - 를 구체적으로 말씀드리면서 제안하세요. 이대로 가다가 정말 쓰러지시면 3개 프로젝트 모두 문제가 생겨요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "맞는 말이에요. 그렇게 말씀드려 볼게요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "그리고 당장 오늘부터 할 수 있는 것도 정해봐요. 퇴근 시간을 정하는 거예요. 예를 들어 밤 11시 이후에는 퇴근한다든지.",
+      "technique": [
+        "goal_setting",
+        "structuring"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "solution_focused"
-    },
-    {
       "speaker": "client",
-      "text": "음... 팀원들 의견을 먼저 물어보고 싶어요. 근데 그러면 제가 약해 보일까 봐 걱정되고요.",
-      "turn": 21
+      "text": "밤 11시요? 그러면 일이 안 끝날 텐데..."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "팀원들의 의견을 구하는 것이 약함의 표시라고 생각하시는군요. 그런데 실제로 좋은 리더들은 어떤 모습일까요? 존경하는 리더가 있으신가요?",
+      "text": "지금도 새벽 1-2시까지 일해도 끝나지 않잖아요. 2-3시간 더 일한다고 해서 크게 달라지지 않아요. 오히려 충분히 자고 다음 날 집중력을 높이는 게 더 효율적이에요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "그렇게 생각하니... 맞는 것 같네요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "수면 시간을 최소 6-7시간은 확보하세요. 그리고 주말 중 하루는 완전히 쉬는 날로 정하세요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "cognitive_restructuring"
-    },
-    {
       "speaker": "client",
-      "text": "전 부서장님이 그러셨어요. 항상 우리 의견 물어보시고, 실수해도 괜찮다고 하시고... 그분은 오히려 더 존경받았죠.",
-      "turn": 23
+      "text": "주말도요? 그럼 일이 너무 밀릴 것 같은데..."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "그렇군요. 그 부서장님처럼 의견을 구하고 실수를 허용하는 것이 오히려 존경받는 리더십이었다는 경험이 있으시네요. 그것과 '약함'은 어떻게 다를까요?",
+      "text": "일은 항상 있어요. 하지만 본인이 쓰러지면 일주일, 한 달을 쉬어야 할 수도 있어요. 하루 쉬는 것과 한 달 쉬는 것 중 뭐가 나아요?",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "... 하루 쉬는 게 낫죠."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "맞아요. 그리고 일하는 중간중간 짧은 휴식도 필요해요. 2시간마다 5-10분씩 일어나서 스트레칭하거나 바람 쐬세요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "socratic_questioning"
-    },
-    {
       "speaker": "client",
-      "text": "아... 그건 약한 게 아니라 포용력이고 소통 능력이네요. 제가 잘못 생각하고 있었던 것 같아요.",
-      "turn": 25
+      "text": "그 시간도 아까운데... 근데 집중도 안 되니까 휴식이 필요할 것 같긴 해요."
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "중요한 통찰을 하셨습니다. 의견을 구하고 경청하는 것은 약함이 아니라 강한 리더십의 한 형태일 수 있다는 것을요. 이번 주에 작은 실험을 해보시는 건 어떨까요?",
+      "text": "짧은 휴식이 오히려 집중력을 높여줘요. 쉬지 않고 16시간 일하는 것보다 중간중간 쉬면서 12시간 집중해서 일하는 게 훨씬 효율적이에요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네, 해볼게요. 오늘 상담 받으면서 제가 얼마나 무리하고 있었는지 깨달았어요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "그 깨달음이 중요해요. 오늘 정한 것들을 다시 정리해볼까요? 팀장님께 일정 조정 제안하기, 밤 11시 퇴근 원칙, 주말 하루 휴식, 2시간마다 짧은 휴식. 이 중 가장 먼저 실천하실 건 뭔가요?",
+      "technique": [
+        "encouragement",
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "insight_reinforcement"
-    },
-    {
       "speaker": "client",
-      "text": "어떤 실험이요?",
-      "turn": 27
+      "text": "오늘부터 11시 퇴근이요. 그리고 내일 팀장님께 말씀드려볼게요."
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "다음 회의 때 먼저 팀원들에게 의견을 물어보고, 그들의 이야기를 충분히 들어보는 겁니다. 그리고 그 결과가 어땠는지 다음 상담 때 나눠보는 거죠. 어떠세요?",
+      "text": "아주 구체적으로 계획을 세우셨네요. 훌륭해요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "근데... 만약 팀장님이 안 된다고 하시면요?"
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "그럴 경우를 대비해서 인사팀이나 더 상위 관리자에게 도움을 요청할 수도 있어요. 그리고 필요하면 병가를 내는 것도 권리예요. 지금 증상들로 진단서를 받을 수도 있거든요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
       "turn": 28,
-      "technique": "behavioral_experiment"
-    },
-    {
       "speaker": "client",
-      "text": "좀 두렵긴 한데... 해볼 만할 것 같아요. 지금보다 나쁠 순 없으니까요.",
-      "turn": 29
+      "text": "그렇군요. 그래도 일단은 팀장님께 먼저 말씀드려볼게요."
     },
     {
+      "turn": 28,
       "speaker": "counselor",
-      "text": "변화를 시도해보시겠다는 용기가 대단하십니다. 그리고 수면 문제도 같이 다뤄야 할 것 같은데, 자기 전에 어떤 생각들이 주로 드시나요?",
+      "text": "좋아요. 다음 주에 만나서 어떻게 진행됐는지 이야기 나눠봐요. 그 전에 증상이 더 심해지면 - 특히 일상생활이 불가능할 정도면 - 즉시 병원에 가세요.",
+      "technique": [
+        "goal_setting",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네, 알겠습니다. 오늘 많은 도움이 됐어요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "4년간 열심히 일하신 만큼, 이제는 본인 건강도 챙기셔야 해요. 일을 잘하려면 먼저 건강해야 한다는 걸 기억하세요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 30,
-      "technique": "encouragement"
-    },
-    {
       "speaker": "client",
-      "text": "주로 오늘 실수한 것들, 내일 해야 할 일들... 끊임없이 생각나요.",
-      "turn": 31
+      "text": "감사합니다. 다음 주에 뵙겠습니다."
     },
     {
+      "turn": 30,
       "speaker": "counselor",
-      "text": "반추적 사고가 수면을 방해하고 있네요. 잠들기 전 30분 정도는 일과 관련된 생각을 내려놓는 시간을 가져보시면 어떨까요? 간단한 이완 기법도 함께 알려드릴게요.",
-      "turn": 32,
-      "technique": "psychoeducation"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 해보고 싶어요. 정말 잠을 좀 자고 싶어요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "오늘 많은 이야기를 나눴습니다. 완벽해야 한다는 신념이 어디서 왔는지, 그것이 지금 어떤 영향을 미치는지 살펴봤고, 다른 방식의 리더십도 가능하다는 것을 발견하셨어요. 오늘 상담은 어떠셨나요?",
-      "turn": 34,
-      "technique": "summarization"
-    },
-    {
-      "speaker": "client",
-      "text": "생각보다 훨씬 도움이 됐어요. 제 문제가 뭔지 좀 더 명확해진 것 같고, 해볼 수 있는 것들이 생긴 것 같아요. 다음 주에 또 올게요.",
-      "turn": 35
+      "text": "힘내세요. 본인을 너무 혹사하지 마시고요. 다음 주에 뵙겠습니다.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1376",
   "metadata": {
-    "generated_at": "2025-12-17T14:42:08.891703+00:00",
+    "generated_at": "2025-12-18T03:01:31.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

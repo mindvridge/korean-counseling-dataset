@@ -1,215 +1,329 @@
 {
-  "conversation_id": "CONV_20250623_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "28",
     "gender": "여성",
-    "occupation": "중학교 교사"
+    "occupation": "스타트업 직원",
+    "background": "절친했던 친구의 배신으로 우정 단절, 새로운 친구 사귀기 어려움"
   },
-  "situation": "10년차 교사로 학생들을 가르치는 일에 보람을 느껴왔으나, 최근 학부모의 과도한 민원과 학교 내 갈등으로 번아웃을 경험하고 있음. 교직을 그만둘지 고민 중",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 사실 상담을 받아야 할 정도인가 싶었는데, 요즘 너무 힘들어서 용기내서 왔어요.",
-      "turn": 1
+      "text": "가장 친했던 친구가 저를 배신했어요. 이제 누구도 믿기 힘들어요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 이렇게 찾아와 주셔서 감사합니다. 용기 내서 오신 것만으로도 큰 의미가 있어요. 편하게 말씀해 주세요. 요즘 어떤 점이 힘드신가요?",
+      "text": "친한 친구의 배신으로 상처받으셨군요. 신뢰가 깨지니 다른 사람들도 믿기 어려우시겠어요. 무슨 일이 있었나요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "저는 중학교에서 국어를 가르치는 교사예요. 10년째 일하고 있는데... 요즘 학교 가는 게 너무 두렵고 힘들어요.",
-      "turn": 3
+      "text": "제 비밀을 다른 사람들한테 다 말하고 다녔어요. 제가 믿고 털어놨던 이야기들을요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년간 교직 생활을 해오셨는데, 지금은 학교에 가는 것 자체가 두렵고 힘든 상황이시군요. 언제부터 이런 감정을 느끼셨나요?",
+      "text": "개인적인 이야기들이 퍼졌군요. 신뢰를 줬는데 배신당한 느낌이 크시겠어요. 어떤 내용이었나요?",
+      "technique": [
+        "validation",
+        "empathy",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "제가 회사에서 힘든 일이 있었다는 것, 상사랑 갈등이 있었다는 것... 그게 다 퍼져서 회사에서도 곤란해졌어요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "사적인 얘기가 직장까지 영향을 미쳤군요. 이중으로 힘드셨겠어요. 친구에게 어떻게 하셨나요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "정확히는... 3개월 전쯤부터인 것 같아요. 한 학부모님이 제 수업 방식에 대해 민원을 넣으셨거든요. 자기 아이만 차별한다고...",
-      "turn": 5
+      "text": "따졌죠. 왜 그랬냐고. 그랬더니 '별 거 아닌데 왜 그러냐'고 하더라고요. 사과도 안 하고요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "학부모의 민원이 시작점이었군요. 그 상황에 대해 좀 더 자세히 말씀해 주실 수 있을까요?",
+      "text": "문제를 인정하지도 않고 사과도 없었군요. 그때 어떤 기분이었어요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "어이없고... 화나고... 이 사람을 10년 넘게 친구로 믿었던 제가 바보 같았어요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "분노와 함께 자책까지 하고 계시네요. 그 친구와는 지금 어떤 사이신가요?",
+      "technique": [
+        "emotion_labeling",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "그 학생이 수업 시간에 계속 떠들고 다른 애들 방해를 해서 제가 몇 번 주의를 줬어요. 그런데 그 부모님은 자기 아이만 지적한다고 교육청에까지 민원을 넣으셨어요. 저는 공정하게 대했다고 생각하는데...",
-      "turn": 7
+      "text": "끊었어요. 연락도 차단했고요. 다시는 안 볼 거예요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "공정하게 학생들을 대했다고 생각하시는데, 그런 민원을 받으셨을 때 얼마나 억울하고 힘드셨을까요. 그 이후로 어떤 일들이 있었나요?",
+      "text": "관계를 정리하셨군요. 그 이후 다른 친구들과의 관계는 어떤가요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "예전처럼 편하게 못 하겠더라고요. 얘기를 하다가도 '이 사람도 나를 배신하면 어쩌지' 싶어서 입을 닫게 돼요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "한 사람의 배신이 다른 관계에도 영향을 미치고 있군요. 친구들에게 속마음을 나누기 어려워지셨네요.",
+      "technique": [
+        "reflection",
+        "empathy"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "학교에서도 일이 커지니까 저보고 조심하라고만 하더라고요. 제 편을 들어주는 사람이 없었어요. 그 뒤로 수업할 때마다 학생들한테 뭐라고 말하는 것도 조심스럽고... 혹시 또 민원이 들어올까봐 불안해요.",
-      "turn": 9
+      "text": "네. 그래서 요즘 친구 만나는 것도 피하게 돼요. 혼자 있는 게 편해요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "학교에서도 충분한 지지를 받지 못하셨고, 그 이후로 수업하는 것 자체가 불안하고 조심스러워지셨네요. 정말 외롭고 힘든 시간이셨겠어요.",
+      "text": "관계 자체를 회피하고 계시는군요. 혼자 있는 게 안전하다고 느끼시는 거죠?",
+      "technique": [
+        "interpretation",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "맞아요. 다시는 이런 일 당하고 싶지 않아요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "상처받지 않으려고 스스로를 보호하시는 거군요. 이해해요. 하지만 모든 사람이 그 친구와 같진 않아요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그리고 한 달 전에는 같은 학년 동료 교사와도 갈등이 생겼어요. 업무 분담 문제로요. 제가 너무 예민해진 건지, 다른 선생님들이 저를 피하는 것 같기도 하고...",
-      "turn": 11
+      "text": "어떻게 알아요? 그 친구도 10년 넘게 괜찮았는데 갑자기 그랬잖아요."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "힘든 상황이 계속 이어지면서 동료들과의 관계도 어려워지셨군요. '내가 너무 예민한 건가'라는 생각도 드신다고 하셨는데, 스스로를 의심하게 되는 것도 괴로우실 것 같아요.",
+      "text": "한 번 배신당하니 모든 사람을 의심하게 되시는군요. 하지만 한 사람의 행동으로 모든 사람을 판단하면 본인이 고립될 수 있어요.",
+      "technique": [
+        "empathy",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그래도... 어떻게 다시 믿어요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "한 번에 다시 믿을 필요는 없어요. 작은 것부터 천천히 신뢰를 쌓아가는 거죠. 모 아니면 도가 아니에요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 제가 문제인가 싶어서... 밤에 잠도 잘 못 자요. 내일 학교 가면 또 무슨 일이 생길까, 학부모한테 전화 올까, 그런 생각만 계속 들어요.",
-      "turn": 13
+      "text": "작은 것부터요?"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "수면에도 영향을 받고 계시군요. 불안한 생각들이 계속 반복되면서 잠을 이루기 어려우신 거네요. 이런 상태가 얼마나 지속되셨나요?",
+      "text": "네. 중요하지 않은 일상적인 이야기부터 나누고, 상대가 어떻게 반응하는지 보는 거예요. 신뢰는 시간이 걸려요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그런데 그 친구랑도 그렇게 시작했는데... 결국 배신당했잖아요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "맞아요, 위험은 있어요. 하지만 관계 없이는 살 수 없어요. 중요한 건 완벽한 사람을 찾는 게 아니라, 건강한 경계를 유지하는 거예요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "assessment"
-    },
-    {
       "speaker": "client",
-      "text": "한 두 달 정도 된 것 같아요. 아침에 일어나면 출근하기 싫고, 주말에도 월요일 생각하면 우울해져요. 예전에는 교사라는 직업에 자부심이 있었는데, 지금은... 그만두고 싶어요.",
-      "turn": 15
+      "text": "건강한 경계요?"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "10년간 자부심을 가지고 해오신 일인데, 지금은 그만두고 싶을 만큼 힘든 상황이시군요. 그만두는 것에 대해 구체적으로 생각해보신 적이 있으신가요?",
+      "text": "네. 모든 것을 다 털어놓지 않아도 돼요. 관계의 깊이를 조절하면서, 상대가 신뢰할 만한지 시간을 두고 보는 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그럼 진짜 친구는 못 사귀는 거 아닌가요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "시간이 필요하다는 거예요. 급하게 깊은 관계를 만들려고 하지 말고, 천천히 신뢰를 확인하면서 가까워지는 거죠.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "네... 사실 명예퇴직 제도도 알아봤어요. 근데 또 한편으로는 10년을 여기에 쏟았는데 이렇게 그만두는 게 맞나 싶기도 하고. 남편은 제 건강이 우선이라고 하는데, 저는 결정을 못하겠어요.",
-      "turn": 17
+      "text": "어떻게 신뢰를 확인해요?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "지금 정말 어려운 갈림길에 서 계시네요. 한쪽으로는 건강과 마음의 평화가 있고, 다른 쪽으로는 10년간의 경력과 헌신이 있는 거죠. 양쪽 모두 소중한 가치들이라 결정하기가 쉽지 않으실 거예요.",
+      "text": "작은 비밀을 공유해보고 지켜지는지 보는 거예요. 약속을 지키는지, 본인을 존중하는지, 어려울 때 곁에 있는지 관찰하는 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "시간이 오래 걸리겠네요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "네, 걸릴 거예요. 하지만 급하게 만든 관계보다 튼튼할 거예요. 그리고 그동안 본인을 치유하는 시간도 필요해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 그리고... 솔직히 말하면 제가 도망치는 것 같아서 자존심도 상해요. 이 정도 일로 포기하는 건가 싶고...",
-      "turn": 19
+      "text": "저를 치유한다는 게 뭔가요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "'이 정도 일'이라고 표현하셨는데, 지금 겪고 계신 일들이 작은 일처럼 느껴지시나요? 제가 듣기에는 충분히 힘들고 어려운 상황인 것 같은데요.",
+      "text": "그 친구 때문에 받은 상처를 돌보는 거예요. 모든 사람이 배신자가 아니라는 걸 스스로 이해하고, 다시 관계를 맺을 용기를 내는 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "쉽지 않을 것 같아요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "어려울 거예요. 하지만 혼자 고립되는 것보다는 나아요. 친구가 필요한 순간이 분명 올 거예요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "다른 선생님들도 다 비슷한 일 겪으면서 버티잖아요. 저만 유난스러운 건 아닐까요?",
-      "turn": 21
+      "text": "... 맞긴 해요. 외롭긴 하거든요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "다른 사람들과 비교하면서 자신을 판단하고 계시네요. 하지만 모든 사람이 같은 상황을 같은 방식으로 경험하는 건 아니에요. 님의 감정과 반응은 충분히 타당하고 존중받아야 할 것들입니다.",
+      "text": "외로움을 느끼신다는 건 관계가 필요하다는 신호예요. 천천히, 조심스럽게 다시 시작해보는 건 어떨까요?",
+      "technique": [
+        "interpretation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "해볼게요. 한 번에 한 걸음씩이요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "좋아요. 서두르지 말고 본인의 속도로 가세요. 다음 주에 어떠셨는지 얘기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 말씀해주시니까... 조금 위로가 되네요. 사실 주변에 이런 얘기 할 사람도 없었어요. 동료들한테는 약해 보일까봐 말 못하고.",
-      "turn": 23
+      "text": "감사합니다."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "혼자서 이 모든 것을 감당해오셨군요. 정말 힘드셨겠어요. 지금 이렇게 이야기를 나누는 것만으로도 큰 용기를 내신 거예요.",
-      "turn": 24,
-      "technique": "empathy"
-    },
-    {
-      "speaker": "client",
-      "text": "저... 저는 어떻게 해야 할까요? 계속 버텨야 할까요, 아니면 그만둬야 할까요?",
-      "turn": 25
-    },
-    {
-      "speaker": "counselor",
-      "text": "그 결정은 제가 대신 내려드릴 수 없지만, 함께 생각해볼 수는 있을 것 같아요. 우선 당장 결정을 내리기보다는, 지금의 번아웃 상태를 회복하는 것이 먼저일 수도 있어요. 혹시 휴직 같은 것은 고려해보셨나요?",
-      "turn": 26,
-      "technique": "suggestion"
-    },
-    {
-      "speaker": "client",
-      "text": "휴직... 생각은 해봤는데 그것도 동료들한테 피해 주는 것 같아서요. 그리고 휴직하고 돌아와도 상황은 똑같을 것 같고.",
-      "turn": 27
-    },
-    {
-      "speaker": "counselor",
-      "text": "동료들에게 피해를 주는 것에 대한 걱정, 그리고 돌아왔을 때의 상황에 대한 우려가 있으시군요. 그런데 지금처럼 소진된 상태로 계속 일하는 것과, 잠시 쉬면서 회복한 후 돌아오는 것 중 어느 것이 더 도움이 될까요?",
-      "turn": 28,
-      "technique": "socratic questioning"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇게 생각하니까... 지금은 제대로 수업도 못하고 있는 것 같아요. 학생들한테도 미안하고. 쉬는 게 나을 수도 있겠네요.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "스스로 그 부분을 인식하셨네요. 지금 상태로는 본인도 힘들고, 학생들에게도 최선을 다하기 어려운 상황이라는 것을요. 회복의 시간을 갖는 것이 도망이 아니라 더 나은 선택이 될 수 있어요.",
-      "turn": 30,
-      "technique": "reframing"
-    },
-    {
-      "speaker": "client",
-      "text": "그런데 쉬는 동안 뭘 해야 할지도 모르겠어요. 그냥 집에만 있으면 더 우울해질 것 같고...",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "좋은 지적이에요. 휴식도 계획이 필요하죠. 예전에 좋아하셨던 활동이나 관심사가 있으셨나요? 교사가 되기 전이나, 처음 교직을 시작했을 때 즐거웠던 것들이요.",
-      "turn": 32,
-      "technique": "exploration"
-    },
-    {
-      "speaker": "client",
-      "text": "음... 예전에는 책 읽는 걸 정말 좋아했어요. 독서 모임도 나갔었고. 그런데 언젠가부터 그럴 여유가 없어졌어요. 수업 준비하고 행정 업무하고... 정신없이 살았네요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "책 읽기를 좋아하셨군요. 그 즐거움을 잊고 지내셨던 거네요. 그런 것들을 다시 찾아가는 시간이 필요할 것 같아요. 그게 회복의 시작이 될 수 있어요.",
-      "turn": 34,
-      "technique": "guidance"
-    },
-    {
-      "speaker": "client",
-      "text": "네... 그리고 상담도 계속 받고 싶어요. 오늘 이야기하면서 제가 얼마나 힘들었는지 처음으로 인정하게 된 것 같아요.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "자신의 어려움을 인정하는 것이 회복의 첫걸음이에요. 앞으로 함께 이 과정을 걸어가면서, 님이 다시 균형을 찾고 자신에게 맞는 선택을 할 수 있도록 돕겠습니다. 다음 주에 다시 만나뵐까요?",
-      "turn": 36,
-      "technique": "support"
+      "text": "용기 내주셔서 고마워요. 잘하실 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1417",
   "metadata": {
-    "generated_at": "2025-12-17T14:47:27.068003+00:00",
+    "generated_at": "2025-12-18T03:01:33.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

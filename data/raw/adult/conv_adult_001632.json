@@ -1,215 +1,314 @@
 {
-  "conversation_id": "CONV_20250624_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "여성",
-    "occupation": "중학교 교사"
+  "client_profile": {
+    "age": "31",
+    "gender": "남성",
+    "occupation": "공무원",
+    "background": "2년 교제 후 6개월 전 이별, 전 애인의 새로운 연애 소식에 충격"
   },
-  "situation": "10년차 교사로서 최근 학생들과의 관계에서 어려움을 겪고 있으며, 번아웃과 함께 직업에 대한 회의감을 느끼고 있음. 동료 교사들과의 관계도 소원해지면서 학교 생활이 점점 힘들어지고 있음.",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 사실 상담을 받으러 오는 게 처음이라 좀 긴장되네요.",
-      "turn": 1
+      "text": "전 여자친구가 벌써 새 남자친구를 사귀고 있대요. SNS에서 봤어요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음 오시는 거라 긴장되실 수 있어요. 편안하게 생각하시고 천천히 이야기 나눠보면 좋겠습니다. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "전 여자친구의 새로운 연애 소식을 접하셨군요. 어떤 기분이셨어요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "요즘 제가 하는 일에 대해서 많이 회의감이 들어요. 저는 중학교에서 국어를 가르치는데, 10년째 하고 있거든요. 그런데 최근 들어 학교 가는 게 너무 힘들어요.",
-      "turn": 3
+      "text": "배신감? 저는 아직도 힘든데 그 사람은 벌써 다른 사람이랑... 화가 나요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "10년간 교직 생활을 하시면서 최근에 특히 힘드신 상황이군요. 학교 가는 것이 힘들다는 건 정말 많은 부담감을 느끼고 계신 것 같아요.",
+      "text": "배신감과 분노를 느끼시는군요. 본인은 아직 회복 중인데 상대는 이미 새로운 관계를 시작했으니 억울하셨겠어요.",
+      "technique": [
+        "emotion_labeling",
+        "empathy"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "6개월밖에 안 됐는데... 저는 뭐였나 싶어요. 쉽게 잊혀진 거잖아요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "본인이 쉽게 잊혀졌다고 느끼시니 자존감이 많이 상하셨을 것 같아요. 이별은 어떻게 하게 되셨나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 예전에는 학생들과 소통하는 게 즐거웠는데, 요즘은 아이들이 수업 시간에 전혀 집중을 안 하고, 제 말을 들으려고 하지 않아요. 그러다 보니 제가 무슨 의미로 이 일을 하고 있나 싶어요.",
-      "turn": 5
+      "text": "그 사람이 헤어지자고 했어요. '서로 맞지 않는 것 같다'면서요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "학생들과의 소통이 예전만큼 잘 되지 않으면서 선생님께서 느끼시는 보람도 줄어든 것 같네요. 그런 변화가 언제부터 느껴지셨나요?",
+      "text": "상대방이 먼저 이별을 제안했군요. 그때 어떻게 반응하셨어요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "처음엔 만류했죠. 다시 생각해보자고... 근데 결국 헤어졌어요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "만류했지만 받아들여지지 않았군요. 그 이후 어떻게 지내셨나요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "한 1년 전부터인 것 같아요. 코로나 이후로 아이들이 많이 달라진 것도 있고, 제 자신도 많이 지쳐있는 것 같아요. 매일 똑같은 일의 반복이고, 변화도 없고요.",
-      "turn": 7
+      "text": "처음 몇 달은 정말 힘들었어요. 근데 요즘 좀 나아지는 것 같았거든요. 그런데 이 소식을 듣고 다시..."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "1년이라는 시간 동안 이런 어려움을 겪어오셨다니, 정말 힘드셨겠어요. 학생들의 변화와 함께 선생님 스스로도 지쳐있다고 느끼신다는 게 중요한 부분인 것 같습니다.",
+      "text": "회복되고 있었는데 이 소식으로 다시 무너진 느낌이시군요. 현재 전 여자친구와 연락은 하고 계세요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "아니요. 차단했어요. 근데 공통 친구 SNS에 사진이 올라와서 본 거예요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "직접 연락은 끊으셨지만 간접적으로 소식을 접하게 되셨네요. 그 사진을 보고 어떤 생각이 드셨나요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그리고 동료 선생님들과의 관계도 예전 같지 않아요. 다들 각자 바쁘고, 저도 사람들 만나는 게 귀찮아져서 점심시간에도 혼자 있게 되더라고요.",
-      "turn": 9
+      "text": "'저 사람이 진짜 좋았던 거 맞나?' 싶었어요. 이렇게 빨리 다른 사람을 만날 수 있다는 게..."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "동료들과의 관계도 소원해지면서 학교에서 더 고립감을 느끼시는 것 같네요. 혹시 이런 상황에서 선생님께 힘이 되어주는 것들이 있으신가요?",
+      "text": "과거 관계 자체가 의심스러워지셨군요. 하지만 사람마다 이별을 처리하는 속도와 방식이 달라요. 상대가 빨리 다른 사람을 만난다고 해서 과거의 관계가 가짜였던 건 아니에요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "그래도... 너무 빠른 거 아닌가요?"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "본인 기준에서는 빠르게 느껴지시는군요. 하지만 상대가 언제 누구를 만나는지는 이제 본인과 관계없는 영역이에요. 어떻게 생각하세요?",
+      "technique": [
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "글쎄요... 집에 가면 남편이 있긴 한데, 남편도 자기 일로 바빠서 제 이야기를 깊이 들어주진 못하는 것 같아요. 그냥 '힘내'라는 말만 하고요.",
-      "turn": 11
+      "text": "... 맞는 말이긴 한데, 받아들이기가 힘들어요."
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "가족에게서도 충분한 지지를 받지 못하고 계신 것 같아 더 외로우실 것 같습니다. 선생님의 힘든 마음을 깊이 이해받고 싶으신 거죠?",
+      "text": "머리로는 알지만 마음으로 받아들이기 어려우신 거죠. 그건 자연스러운 과정이에요. 지금 가장 힘든 감정은 무엇인가요?",
+      "technique": [
+        "empathy",
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "질투요. 그리고... 저는 언제쯤 괜찮아질까 하는 불안감이요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "질투와 불안이 있으시군요. '나는 언제 회복될까'라는 불안이 더 힘들게 하는 것 같네요.",
+      "technique": [
+        "emotion_labeling",
+        "reflection"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 누군가 제 이야기를 진심으로 들어줬으면 좋겠어요. 요즘은 아침에 일어나는 것부터가 힘들어요. 출근 준비하면서도 '오늘 하루를 어떻게 버티지' 이런 생각만 들어요.",
-      "turn": 13
+      "text": "맞아요. 저만 뒤처진 것 같아요."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "아침에 일어나는 것부터 하루를 버틴다는 표현을 쓰실 정도면 정말 많이 지쳐계신 상태인 것 같습니다. 혹시 잠은 잘 주무시나요?",
+      "text": "회복은 경주가 아니에요. 누가 빨리 새 사람을 만나는지가 중요한 게 아니라, 제대로 회복하는 게 중요하죠.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "제대로 회복한다는 게 뭔가요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "과거 관계를 있는 그대로 받아들이고, 그로부터 배우고, 자신의 삶에 다시 집중하는 거예요. 지금 본인의 삶은 어떠세요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "assessment"
-    },
-    {
       "speaker": "client",
-      "text": "잠도 잘 못 자요. 자려고 누우면 내일 학교 갈 생각에 불안하고, 새벽에 자주 깨요. 그러다 보니 낮에도 피곤하고 집중도 안 되고요.",
-      "turn": 15
+      "text": "일은 잘하고 있어요. 운동도 시작했고... 근데 연애 생각은 안 나요."
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "수면에도 어려움이 있으시군요. 불안감과 피로가 악순환되고 있는 것 같습니다. 선생님, 이런 상태가 계속되면서 혹시 '교사를 그만둬야 하나' 하는 생각도 하신 적 있으신가요?",
+      "text": "일상을 잘 유지하고 계시고 새로운 활동도 시작하셨네요. 연애 생각이 안 나는 건 자연스러워요. 아직 준비가 안 된 거죠.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그럼 저는 계속 혼자인 건가요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "지금은 혼자의 시간이 필요한 거예요. 상처를 제대로 치유하지 않고 새로운 관계를 시작하면 같은 패턴이 반복될 수 있어요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "open_question"
-    },
-    {
       "speaker": "client",
-      "text": "네, 사실 요즘 매일 그 생각을 해요. 그런데 10년이나 했는데 지금 그만두면 뭘 하나 싶기도 하고, 주변에서 뭐라고 할까 봐 두렵기도 하고요. 그냥 막막해요.",
-      "turn": 17
+      "text": "같은 패턴이요?"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "그만두고 싶은 마음과 동시에 그만뒀을 때의 불안감 사이에서 갈등하고 계시는군요. 그 막막함이 선생님을 더 힘들게 하는 것 같습니다.",
+      "text": "네. 이전 관계에서 왜 그렇게 됐는지 이해하지 못하면, 다음 관계에서도 비슷한 문제가 생길 수 있어요. 이별의 이유에 대해 생각해보신 적 있으세요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "잘 모르겠어요. '맞지 않는다'는 게 구체적으로 뭘 의미하는지..."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "구체적인 이유를 모르시니 더 답답하셨겠어요. 하지만 상대의 이유를 아는 것보다, 본인이 그 관계에서 무엇을 배웠는지가 더 중요해요.",
+      "technique": [
+        "empathy",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 어떻게 해야 할지 모르겠어요. 계속 이렇게 살 수도 없고, 그렇다고 당장 뭘 바꿀 수도 없고... 제가 너무 나약한 건가요?",
-      "turn": 19
+      "text": "배운 것이요?"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "전혀 나약한 게 아닙니다. 10년간 교직 생활을 해오시면서 많은 어려움을 견뎌오셨잖아요. 지금 힘든 것은 선생님이 나약해서가 아니라, 지금까지 너무 열심히 달려오셔서 지치신 거예요.",
+      "text": "네. 그 관계에서 좋았던 점, 아쉬웠던 점, 다음엔 다르게 하고 싶은 점 같은 거요. 생각해보신 적 있으세요?",
+      "technique": [
+        "clarification",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "아니요... 그냥 상대방 탓만 했던 것 같아요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "정직하게 말씀해주셨네요. 이번 주에 그 관계를 돌아보는 시간을 가져보는 건 어떨까요? 탓하기 위해서가 아니라 배우기 위해서요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 말씀해주시니 조금 위로가 되네요. 그런데 정말 제가 지친 건가요? 다른 선생님들은 다 잘하시는 것 같은데 저만 이런 것 같아요.",
-      "turn": 21
+      "text": "해볼게요. 근데 공통 친구 SNS는 어떡하죠? 또 볼 수도 있잖아요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "다른 선생님들과 비교하시면서 스스로를 더 힘들게 하시는 것 같아요. 사실 겉으로 보이는 모습과 실제로 느끼는 감정은 다를 수 있거든요. 선생님만 유독 힘든 게 아닐 수 있어요.",
-      "turn": 22,
-      "technique": "reframing"
+      "text": "당분간 그 친구 SNS도 뮤트하거나 보지 않는 게 좋겠어요. 회복에 방해가 되니까요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
     },
     {
+      "turn": 21,
       "speaker": "client",
-      "text": "그럴 수도 있겠네요. 그런데 저는 지금 어떻게 해야 할까요? 이 상태로는 계속 갈 수 없을 것 같아요.",
-      "turn": 23
+      "text": "네, 그렇게 하겠습니다."
     },
     {
+      "turn": 21,
       "speaker": "counselor",
-      "text": "선생님께서 변화가 필요하다는 것을 인식하신 것 자체가 중요한 첫걸음입니다. 당장 큰 결정을 내리시기보다는, 우선 선생님의 심신을 회복하는 것부터 시작해보면 어떨까요?",
-      "turn": 24,
-      "technique": "suggestion"
-    },
-    {
-      "speaker": "client",
-      "text": "심신을 회복한다는 게 구체적으로 어떤 건가요? 제가 뭘 해야 할지 잘 모르겠어요.",
-      "turn": 25
-    },
-    {
-      "speaker": "counselor",
-      "text": "우선 수면 패턴을 개선하고, 작은 것부터 시작해서 선생님께 즐거움을 주는 활동들을 찾아보는 거예요. 예전에 좋아하셨던 취미나 활동이 있으셨나요?",
-      "turn": 26,
-      "technique": "open_question"
-    },
-    {
-      "speaker": "client",
-      "text": "예전에는 책 읽는 걸 좋아했는데, 요즘은 책을 펴도 집중이 안 돼서 포기했어요. 운동도 해볼까 했는데 너무 피곤해서 못하고 있고요.",
-      "turn": 27
-    },
-    {
-      "speaker": "counselor",
-      "text": "지금은 그런 활동들이 부담스럽게 느껴지실 수 있어요. 그렇다면 정말 작은 것부터 시작해보는 건 어떨까요? 예를 들어 하루 10분만 산책을 한다거나, 5분만 좋아하는 음악을 듣는다거나 하는 것들이요.",
-      "turn": 28,
-      "technique": "suggestion"
-    },
-    {
-      "speaker": "client",
-      "text": "그 정도는 할 수 있을 것 같아요. 그런데 그게 제 상황을 바꿀 수 있을까요?",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "작은 변화들이 모여서 큰 변화를 만들어낼 수 있습니다. 지금 선생님께 필요한 건 당장의 완벽한 해결책보다는, 스스로를 돌보는 시간을 갖는 거예요. 그 과정에서 조금씩 에너지가 회복되실 거예요.",
-      "turn": 30,
-      "technique": "encouragement"
-    },
-    {
-      "speaker": "client",
-      "text": "알겠어요. 일단 작은 것부터 시도해볼게요. 그리고 학교 문제는 어떻게 하면 좋을까요?",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "학교 문제는 선생님의 컨디션이 조금 나아지신 후에 차근차근 생각해보면 좋겠습니다. 지금은 당장 그만둘지 말지를 결정하시기보다는, 현재 할 수 있는 범위 내에서 최선을 다하시되 너무 완벽하려고 하지 않으셨으면 해요.",
-      "turn": 32,
-      "technique": "guidance"
-    },
-    {
-      "speaker": "client",
-      "text": "네... 그동안 제가 너무 완벽하게 하려고 했던 것 같기도 해요. 조금 내려놓아도 되는 거겠죠?",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "네, 맞습니다. 모든 것을 완벽하게 하려는 것이 오히려 선생님을 더 지치게 만들었을 수 있어요. 조금씩 내려놓으면서 스스로에게 관대해지는 연습이 필요합니다.",
-      "turn": 34,
-      "technique": "validation"
-    },
-    {
-      "speaker": "client",
-      "text": "오늘 이야기 나누면서 조금 마음이 가벼워진 것 같아요. 다음에도 올 수 있을까요?",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "물론이죠. 선생님께서 필요하신 만큼 함께 이야기 나누면서 변화를 만들어가면 좋겠습니다. 다음 주 같은 시간에 뵐까요? 그때까지 오늘 이야기한 작은 실천들을 해보시고, 어떤 느낌이셨는지 나눠보면 좋겠습니다.",
-      "turn": 36,
-      "technique": "encouragement"
+      "text": "좋아요. 다음 주에 관계를 돌아본 소감을 나눠봐요. 잘하실 거예요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
     }
   ],
+  "generated_at": "2024-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1632",
   "metadata": {
-    "generated_at": "2025-12-17T15:16:44.926782+00:00",
+    "generated_at": "2025-12-18T03:01:43.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

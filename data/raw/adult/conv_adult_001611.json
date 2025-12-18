@@ -1,209 +1,369 @@
 {
-  "conversation_id": "CONV_20250624_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
-    "gender": "여성",
-    "occupation": "중견기업 마케팅팀 과장"
+  "client_profile": {
+    "age": "36",
+    "gender": "남성",
+    "occupation": "직장인",
+    "background": "부모님의 잦은 부부 싸움으로 인한 스트레스, 중재자 역할 부담, 죄책감과 무력감"
   },
-  "situation": "최근 승진 후 팀 리더로서의 역할과 개인 생활 사이에서 균형을 잃고 있으며, 부하직원들과의 관계에서도 어려움을 겪고 있음. 특히 친했던 동료가 부하직원이 되면서 관계가 어색해져 스트레스를 받고 있음.",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 사실 상담을 받아야 할 정도인가 싶기도 한데... 요즘 너무 힘들어서 용기 내서 왔어요.",
-      "turn": 1
+      "text": "부모님이 또 싸우셨어요. 제가 중간에서 뭐라고 해야 할지 모르겠어요."
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 용기 내서 찾아와 주셔서 감사합니다. 상담을 받으러 오는 것 자체가 자신을 돌보는 중요한 첫걸음이에요. 편하게 이야기 나눠보아요. 요즘 어떤 점이 가장 힘드신가요?",
+      "text": "부모님 갈등 사이에서 힘드시겠어요. 자주 싸우시나요?",
+      "technique": [
+        "empathy",
+        "clarification"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "3개월 전에 과장으로 승진했어요. 원래 바라던 거였는데, 막상 승진하고 나니까 생각했던 것과 너무 달라요. 일은 산더미처럼 쌓이고, 팀원들 관리도 해야 하고...",
-      "turn": 3
+      "text": "네, 거의 매주요. 사소한 일로도 크게 싸우시고... 제가 어렸을 때부터 그랬어요."
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "승진이라는 큰 변화를 겪으셨군요. 원하던 바였지만 실제로 경험해보니 예상과 다른 부분들이 많아서 당황스러우신 것 같네요.",
+      "text": "어릴 때부터 부모님의 갈등을 목격해오셨군요. 그게 본인에게 어떤 영향을 주었나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "항상 눈치 보게 돼요. '오늘은 분위기가 어떨까', '또 싸우진 않을까'... 집에 가는 게 무서워요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "집이 편안한 공간이 아니라 긴장의 공간이 되어버렸군요. 중재자 역할을 하신다고 했는데, 구체적으로 어떻게 하시나요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네, 맞아요. 특히 가장 힘든 건... 제 친구였던 민지가 이제 제 팀원이 됐다는 거예요. 우리 5년 동안 같은 대리로 일하면서 정말 친하게 지냈거든요.",
-      "turn": 5
+      "text": "양쪽 얘기를 다 들어주고, '이렇게 하시면 어때요' 조언도 하고... 근데 소용없어요."
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "친구였던 분이 이제 부하직원이 되면서 관계가 복잡해진 상황이시네요. 그 변화가 특히 더 어렵게 느껴지시나봐요.",
+      "text": "노력하지만 변화가 없으니 무력감을 느끼시는군요. 부모님은 본인의 중재를 어떻게 받아들이시나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "그때는 '그래, 네 말이 맞아'하시는데, 다음에 또 똑같이 싸워요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "반복되는 패턴이군요. 혹시 부모님 갈등을 본인이 해결해야 한다고 느끼시나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "네... 민지는 저한테 승진 축하한다고 했지만, 눈빛이 예전 같지 않아요. 그리고 제가 업무 지시를 하면 뭔가 불편해하는 것 같고... 저도 민지한테 말할 때 어색해요.",
-      "turn": 7
+      "text": "네... 제가 아들이고, 가족을 지켜야 한다고 생각했어요."
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "양쪽 모두 불편함을 느끼고 계신 거네요. 민지 씨의 반응도 신경 쓰이고, 동시에 내담자님 자신도 어떻게 대해야 할지 몰라 어려우신 상황인 것 같습니다.",
+      "text": "'가족을 지켜야 한다'는 책임감이 크시군요. 하지만 부모님의 부부 문제는 부모님이 해결하실 몫이에요. 본인의 책임이 아니에요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "그래도 제가 나서지 않으면 더 심해질 것 같아요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "본인이 없으면 상황이 악화될 거라는 두려움이 있으시군요. 실제로 본인이 개입하면 싸움이 멈추나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요. 그래서 요즘 회사 가는 게 너무 싫어요. 아침에 일어나면 출근하기 싫어서... 지각한 적도 두 번이나 있어요. 저 원래 그런 사람 아닌데.",
-      "turn": 9
+      "text": "그때는 잠깐 멈추지만... 나중에 다시 시작해요."
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "이런 상황이 내담자님의 일상 패턴에까지 영향을 미치고 있네요. 평소 본인의 모습과 다른 모습을 보이는 것에 대해 스스로도 당황스러우실 것 같아요.",
+      "text": "일시적인 효과밖에 없군요. 본인의 개입이 근본적인 해결책이 아니라는 걸 이미 경험하셨어요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "그럼 어떻게 해야 해요? 그냥 보고만 있어야 하나요?"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "경계를 설정하는 거예요. '부모님의 문제는 부모님이 해결하실 일'이라고 인식하고, 본인은 중재자가 아닌 자녀로서의 역할만 하는 거죠.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그리고 집에 가면 너무 피곤해서 아무것도 못해요. 남편이 대화하자고 해도 귀찮고, 주말에도 그냥 누워만 있고 싶어요.",
-      "turn": 11
+      "text": "경계를 설정한다... 구체적으로 어떻게요?"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "직장에서의 스트레스가 개인 생활과 관계에까지 영향을 주고 있군요. 일과 삶의 균형이 많이 무너진 상태인 것 같은데, 이런 상태가 얼마나 지속되었나요?",
+      "text": "부모님이 싸울 때 중재하려 하지 마세요. 대신 '두 분의 문제는 두 분이 풀으셔야 해요. 저는 개입하지 않을게요'라고 말하는 거예요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그렇게 말하면... 부모님이 섭섭해하시지 않을까요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "처음엔 그러실 수 있어요. 하지만 장기적으로는 부모님도 본인의 문제를 스스로 해결하는 법을 배우셔야 해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "승진하고 한 달쯤 지났을 때부터요. 처음엔 적응 기간이려니 했는데, 점점 더 심해지는 것 같아요. 어제는 남편이랑 크게 싸웠어요.",
-      "turn": 13
+      "text": "쉽지 않을 것 같아요."
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "2개월 정도 이런 상태가 계속되었고, 점점 악화되고 있다고 느끼시는군요. 남편분과의 갈등까지 생기면서 더 힘드셨겠어요. 어떤 이야기로 다투셨나요?",
+      "text": "쉽지 않죠. 오랫동안 해온 역할을 바꾸는 건 어려워요. 하지만 본인의 정신 건강을 위해 필요한 일이에요.",
+      "technique": [
+        "validation",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "제 정신 건강이요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "네, 부모님 갈등에 계속 휘말리면 본인도 우울이나 불안을 겪을 수 있어요. 실제로 지금 어떠세요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "남편이 제가 요즘 너무 예민하고 자기한테 관심이 없다고... 맞는 말이에요. 근데 저도 어쩔 수 없잖아요. 제가 지금 너무 힘든데.",
-      "turn": 15
+      "text": "스트레스가 심해요. 잠도 잘 못 자고, 집중도 안 되고..."
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "남편분의 말에 일리가 있다는 걸 알면서도, 지금 본인의 힘든 상황을 이해받지 못한다고 느껴서 더 속상하신 것 같네요.",
+      "text": "이미 영향을 받고 계시는군요. 본인을 돌보는 것도 중요해요. 혹시 배우자나 친구에게 이 얘기를 하시나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "아내한테는 대충 말하는데... 부담 주기 싫어서 자세히는 안 해요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "혼자 짊어지고 계시네요. 가까운 사람과 나누는 것도 도움이 돼요. 지지를 받는 거죠.",
+      "technique": [
+        "reflection",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 그리고 솔직히 말하면, 제가 리더 역할을 제대로 못하고 있는 것 같아요. 민지뿐만 아니라 다른 팀원들도 제 지시를 잘 안 따르는 것 같고...",
-      "turn": 17
+      "text": "아내한테 더 얘기해볼게요."
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "리더로서 자신감도 많이 떨어져 있는 상태시군요. 팀원들의 반응이 실제로 그런 건지, 아니면 지금 힘든 상황에서 그렇게 느껴지는 건지 구분하기 어려우실 것 같은데, 구체적으로 어떤 상황들이 있었나요?",
+      "text": "좋아요. 그리고 부모님께 상담을 권해보는 건 어떨까요? 부부 상담이요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "부모님이 상담을 받으실까요? 그런 거 안 좋아하시는데..."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "거부하실 수도 있어요. 하지만 시도는 해볼 만해요. '두 분의 관계가 걱정돼서 전문가 도움을 받아보시면 어떨까요'라고요.",
+      "technique": [
+        "validation",
+        "structuring"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "지난주에 프로젝트 회의에서 제 의견을 냈는데, 민지가 바로 반대 의견을 내더라고요. 예전 같으면 제 편을 들어줬을 텐데... 그리고 다른 팀원들도 민지 의견에 동조했어요.",
-      "turn": 19
+      "text": "한번 말씀드려 볼게요."
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "그 상황에서 많이 당황스러우셨겠어요. 혹시 민지 씨의 반대 의견이 업무적으로 타당한 부분이 있었나요, 아니면 개인적인 감정이 섞인 것처럼 느껴지셨나요?",
+      "text": "그리고 본인도 부모와의 관계에서 건강한 거리를 유지하는 연습이 필요해요. 분리 개별화라고 해요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "분리 개별화요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "부모와 정서적으로 적절한 거리를 두고, 독립된 개인으로 서는 거예요. 사랑하지만 얽매이지 않는 거죠.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "음... 지금 생각해보니 민지 의견도 일리가 있긴 했어요. 근데 그 말투랑 태도가 예전과 달랐어요. 뭔가 저를 무시하는 느낌?",
-      "turn": 21
+      "text": "얽매이지 않는다... 지금 생각해보니 저 너무 얽매여 있었네요."
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "의견 자체보다는 전달 방식에서 변화를 느끼셨군요. 친구에서 상사-부하 관계로 바뀌면서 서로 어떻게 소통해야 할지 혼란스러운 상황인 것 같네요. 민지 씨와 이 부분에 대해 솔직하게 대화해 보신 적은 있나요?",
+      "text": "알아차리셨군요. 이제부터 조금씩 거리를 두는 연습을 해보세요. 부모님 문제에 본인의 모든 에너지를 쏟지 마시고요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "어떻게 연습하나요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "부모님이 싸우실 때 그 자리를 떠나세요. 산책을 하거나, 다른 방에 가거나... 물리적 거리가 정서적 거리를 만들어줘요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "open-ended question"
-    },
-    {
       "speaker": "client",
-      "text": "아니요... 어떻게 말을 꺼내야 할지 모르겠어요. '우리 관계가 어색해진 것 같아'라고 말하면 오히려 더 이상해질 것 같고. 그냥 시간이 지나면 나아지려나 했는데...",
-      "turn": 23
+      "text": "그 자리를 떠나다니... 죄책감이 들 것 같아요."
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "대화를 시도하는 것 자체가 부담스럽고, 자칫 관계가 더 나빠질까 봐 걱정되시는 거네요. 그런데 지금처럼 회피하는 것도 내담자님께 많은 스트레스를 주고 있는 것 같아요.",
+      "text": "죄책감을 느끼실 거예요. 하지만 그건 본인의 책임이 아니에요. 죄책감과 책임을 구분하는 연습도 필요해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "알겠어요. 노력해볼게요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "그리고 본인만의 삶에 집중하세요. 일, 취미, 아내와의 시간... 부모님 문제가 본인의 삶 전부가 되지 않도록요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "confrontation"
-    },
-    {
       "speaker": "client",
-      "text": "맞아요... 이대로는 안 되겠다는 생각은 들어요. 근데 뭘 어떻게 해야 할지 모르겠어요.",
-      "turn": 25
+      "text": "맞아요. 요즘 다른 거 생각할 여유가 없었어요."
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "변화가 필요하다는 걸 인식하신 것 자체가 중요한 출발점이에요. 지금 내담자님이 겪고 계신 어려움은 크게 세 가지로 보이는데요. 민지 씨와의 관계, 리더로서의 역할 적응, 그리고 일과 삶의 균형이에요. 이 중에서 어떤 부분을 먼저 다뤄보고 싶으신가요?",
-      "turn": 26,
-      "technique": "structuring"
+      "text": "이번 주에 해볼 것들이 있어요. 부모님께 경계 설정 말씀드리기, 싸우실 때 자리 떠나기, 아내와 대화하기. 어떠세요?",
+      "technique": [
+        "summarization",
+        "goal_setting"
+      ]
     },
     {
+      "turn": 25,
       "speaker": "client",
-      "text": "민지와의 관계가 해결되면 다른 것들도 좀 나아질 것 같아요. 그게 제일 마음에 걸려서 일도 집중이 안 되는 것 같거든요.",
-      "turn": 27
+      "text": "해볼게요. 쉽지 않겠지만..."
     },
     {
+      "turn": 25,
       "speaker": "counselor",
-      "text": "좋습니다. 그럼 민지 씨와의 관계를 우선적으로 다뤄보도록 하겠습니다. 내담자님이 생각하시기에, 민지 씨와의 관계에서 가장 회복하고 싶은 부분은 무엇인가요?",
-      "turn": 28,
-      "technique": "goal-setting"
-    },
-    {
-      "speaker": "client",
-      "text": "예전처럼 편한 사이는 아니더라도... 최소한 서로 존중하면서 일할 수 있는 관계요. 그리고 제가 상사로서 지시할 때 너무 눈치 보지 않았으면 좋겠어요.",
-      "turn": 29
-    },
-    {
-      "speaker": "counselor",
-      "text": "명확한 목표를 설정해 주셨네요. 개인적 친밀함과 업무적 관계 사이에서 적절한 균형을 찾고 싶으신 거군요. 그렇다면 민지 씨도 비슷한 고민을 하고 있을 가능성에 대해서는 생각해 보셨나요?",
-      "turn": 30,
-      "technique": "reframing"
-    },
-    {
-      "speaker": "client",
-      "text": "아... 그 생각은 못 해봤어요. 민지도 불편할 수 있겠네요. 저만 힘든 줄 알았는데...",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "네, 승진 탈락 자체도 민지 씨에게는 실망스러운 경험이었을 테고, 게다가 친했던 친구가 상사가 되면서 어떻게 행동해야 할지 민지 씨도 혼란스러울 수 있어요. 이런 관점에서 보면 어떤 접근이 가능할까요?",
-      "turn": 32,
-      "technique": "perspective-taking"
-    },
-    {
-      "speaker": "client",
-      "text": "음... 민지한테 먼저 솔직하게 이야기해보는 게 좋을 것 같아요. 제가 느끼는 어색함과, 앞으로 어떻게 관계를 만들어가고 싶은지...",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "좋은 방향이에요. 그런 대화를 할 때 어떤 점들을 염두에 두시면 좋을지 함께 생각해볼까요? 다음 상담 시간에는 구체적인 대화 전략과 함께, 리더로서의 역할 적응에 대해서도 다뤄보면 좋겠습니다.",
-      "turn": 34,
-      "technique": "planning"
-    },
-    {
-      "speaker": "client",
-      "text": "네, 그렇게 하면 좋을 것 같아요. 오늘 이야기하면서 좀 정리가 된 느낌이에요. 감사합니다.",
-      "turn": 35
+      "text": "쉽지 않을 거예요. 하지만 본인의 건강을 위해 필요한 일이에요. 다음 주에 어떠셨는지 이야기 나눠요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
     }
   ],
+  "generated_at": "2025-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1611",
   "metadata": {
-    "generated_at": "2025-12-17T15:14:07.966816+00:00",
+    "generated_at": "2025-12-18T03:01:42.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }

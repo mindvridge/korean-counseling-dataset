@@ -1,215 +1,397 @@
 {
-  "conversation_id": "CONV_20250615_001",
   "category": "adult",
-  "persona": {
-    "age": 34,
+  "client_profile": {
+    "age": "54",
     "gender": "남성",
-    "occupation": "IT 중간관리자"
+    "occupation": "중소기업 임원",
+    "background": "홀로 계신 어머니 돌봄, 본인 가정과의 균형, 죄책감"
   },
-  "situation": "최근 승진 후 팀장 역할에 대한 부담감과 부하직원들과의 관계 형성에 어려움을 겪고 있으며, 이로 인한 스트레스로 불면증과 불안감을 호소함",
   "conversation": [
     {
+      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요. 상담 예약하고 처음 와보는데요... 솔직히 제가 상담을 받아야 할 정도인가 싶기도 하고 좀 복잡한 심경이네요.",
-      "turn": 1
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 1턴]"
     },
     {
+      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 처음 상담실을 찾는 것이 쉽지 않으셨을 텐데 이렇게 용기 내주셔서 감사합니다. 복잡한 마음이 드신다고 하셨는데, 그런 감정은 매우 자연스러운 것이에요. 편안하게 이야기 나눠보시죠.",
+      "text": "[상담사 응답 1턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 2,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 사실 3개월 전에 팀장으로 승진했거든요. 원래 바라던 거였는데 막상 되고 나니까 생각보다 훨씬 힘드네요.",
-      "turn": 3
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 2턴]"
     },
     {
+      "turn": 2,
       "speaker": "counselor",
-      "text": "3개월 전에 팀장으로 승진하셨군요. 원하시던 일이었는데 실제로는 예상보다 어려움이 크시다는 말씀이시네요. 구체적으로 어떤 부분이 가장 힘드신가요?",
+      "text": "[상담사 응답 2턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 3턴]"
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "[상담사 응답 3턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 4,
-      "technique": "reflection"
-    },
-    {
       "speaker": "client",
-      "text": "팀원들이 7명인데... 그 중에 저보다 나이도 많고 경력도 많은 분이 3명이나 있어요. 그분들 앞에서 지시하거나 의견을 내는 게 너무 부담스럽습니다.",
-      "turn": 5
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 4턴]"
     },
     {
+      "turn": 4,
       "speaker": "counselor",
-      "text": "팀 내에 연령과 경력이 본인보다 높으신 분들이 계시는군요. 그런 상황에서 리더로서 역할을 수행하는 것이 상당히 부담스러우실 것 같아요. 그 부담감이 구체적으로 어떻게 나타나나요?",
+      "text": "[상담사 응답 4턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 5턴]"
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "[상담사 응답 5턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 6,
-      "technique": "validation"
-    },
-    {
       "speaker": "client",
-      "text": "회의 때마다 제 의견을 말하기 전에 '이게 맞나?' 싶어서 머뭇거리게 되고... 결정을 내려야 할 때도 자꾸 확신이 안 서요. 그래서 밤에 잠도 잘 못 자고 계속 생각하게 됩니다.",
-      "turn": 7
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 6턴]"
     },
     {
+      "turn": 6,
       "speaker": "counselor",
-      "text": "의사결정 상황에서 자신감이 떨어지시고, 그 고민이 수면에까지 영향을 미치고 있다는 말씀이시네요. 이런 상태가 지속된 지는 얼마나 되셨나요?",
+      "text": "[상담사 응답 6턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 7턴]"
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "[상담사 응답 7턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 8,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "승진하고 한 달쯤 지났을 때부터인 것 같아요. 처음엔 적응 기간이라고 생각했는데, 시간이 지나도 나아지질 않네요. 오히려 더 심해지는 것 같아요.",
-      "turn": 9
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 8턴]"
     },
     {
+      "turn": 8,
       "speaker": "counselor",
-      "text": "약 2개월 정도 이런 어려움을 겪고 계시는데, 시간이 지나면서 개선되기보다는 더 힘들어지고 계신 상황이군요. 그 과정에서 혹시 주변에 도움을 요청하거나 이야기를 나눠보신 적은 있으신가요?",
+      "text": "[상담사 응답 8턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 9턴]"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "[상담사 응답 9턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 10,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "아내한테 몇 번 얘기했는데... 아내는 '잘하고 있을 거야', '너무 걱정하지 마' 이런 말만 하더라고요. 회사 동료들한테는 더더욱 말 못하죠. 약해 보일까봐요.",
-      "turn": 11
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 10턴]"
     },
     {
+      "turn": 10,
       "speaker": "counselor",
-      "text": "배우자분께 말씀하셨지만 원하시는 만큼의 위로나 해결책을 얻지 못하셨고, 직장 동료들에게는 약점을 드러내는 것처럼 보일까 봐 말씀하지 못하셨군요. 혼자 감당하시느라 정말 힘드셨겠어요.",
+      "text": "[상담사 응답 10턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 11턴]"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "[상담사 응답 11턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 12,
-      "technique": "empathy"
-    },
-    {
       "speaker": "client",
-      "text": "네... 맞아요. 팀장이라는 사람이 이렇게 흔들리면 안 될 것 같은데, 저는 매일 불안하고 제가 제대로 하고 있는 건지 모르겠어요.",
-      "turn": 13
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 12턴]"
     },
     {
+      "turn": 12,
       "speaker": "counselor",
-      "text": "'팀장이라는 사람이 흔들리면 안 된다'고 말씀하셨는데, 혹시 팀장이나 리더는 항상 확신에 차 있어야 한다고 생각하시나요?",
+      "text": "[상담사 응답 12턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 13턴]"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "[상담사 응답 13턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 14,
-      "technique": "cognitive_restructuring"
-    },
-    {
       "speaker": "client",
-      "text": "당연한 거 아닌가요? 리더가 흔들리면 팀원들도 불안해질 텐데... 그래서 더 확신 있게 행동하려고 하는데 그게 잘 안 돼요.",
-      "turn": 15
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 14턴]"
     },
     {
+      "turn": 14,
       "speaker": "counselor",
-      "text": "리더로서 팀원들에게 안정감을 주고 싶으신 마음은 충분히 이해됩니다. 그런데 확신 있게 보이려고 노력하는 것과 실제로 확신을 느끼는 것 사이에서 괴리감을 느끼시는 것 같네요. 실제로 팀원들의 반응은 어떤가요?",
+      "text": "[상담사 응답 14턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 15턴]"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "[상담사 응답 15턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 16,
-      "technique": "exploration"
-    },
-    {
       "speaker": "client",
-      "text": "글쎄요... 특별히 불만을 표현하진 않는데, 제가 너무 예민해서 그런지 모르겠지만 가끔 '이 사람 괜찮나?' 하는 눈빛을 느낄 때가 있어요. 특히 연장자 팀원들한테서요.",
-      "turn": 17
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 16턴]"
     },
     {
+      "turn": 16,
       "speaker": "counselor",
-      "text": "팀원들의 시선이나 반응에 대해 민감하게 받아들이고 계시는군요. '이 사람 괜찮나?'라는 눈빛을 느낀다고 하셨는데, 실제로 그런 말이나 행동이 있었나요, 아니면 주로 느낌으로 받아들이시는 건가요?",
+      "text": "[상담사 응답 16턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 17턴]"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "[상담사 응답 17턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 18,
-      "technique": "clarification"
-    },
-    {
       "speaker": "client",
-      "text": "음... 직접적으로 뭐라고 한 적은 없어요. 그냥 제가 회의에서 말할 때 표정이라든지, 제 의견에 바로 동의하지 않고 침묵하는 순간들이 있거든요. 그럴 때 '내가 뭔가 잘못 말했나' 싶어요.",
-      "turn": 19
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 18턴]"
     },
     {
+      "turn": 18,
       "speaker": "counselor",
-      "text": "팀원들의 표정이나 침묵을 부정적인 신호로 해석하고 계시는 것 같네요. 그런데 침묵이나 즉각적인 동의가 없다는 것이 꼭 부정적인 의미일까요? 다른 해석의 가능성도 있을까요?",
+      "text": "[상담사 응답 18턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 19턴]"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "[상담사 응답 19턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 20,
-      "technique": "cognitive_restructuring"
-    },
-    {
       "speaker": "client",
-      "text": "다른 해석이요? 잘 모르겠는데요... 어떤 게 있을까요?",
-      "turn": 21
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 20턴]"
     },
     {
+      "turn": 20,
       "speaker": "counselor",
-      "text": "예를 들어, 침묵은 생각을 정리하는 시간일 수도 있고, 신중하게 의견을 검토하는 과정일 수도 있어요. 또 즉각 동의하지 않는 것은 비판적 사고를 하는 건강한 팀 문화의 일부일 수도 있고요. 혹시 과거에 비슷한 상황에서 부정적인 경험을 하신 적이 있으신가요?",
+      "text": "[상담사 응답 20턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 21턴]"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "[상담사 응답 21턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 22,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "음... 생각해보니 예전에 제가 사원일 때 팀장이 엉뚱한 결정을 내려서 프로젝트가 망한 적이 있었어요. 그때 팀원들이 다들 불만이 많았고, 저도 '저 사람 뭐하는 거야'라고 생각했었거든요. 혹시 지금 제 팀원들도 저를 그렇게 보는 건 아닐까 하는 두려움이 있는 것 같네요.",
-      "turn": 23
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 22턴]"
     },
     {
+      "turn": 22,
       "speaker": "counselor",
-      "text": "아, 중요한 이야기를 해주셨네요. 과거에 무능한 리더 밑에서 일했던 경험이 지금 본인이 그런 리더가 될까 봐 두려워하시는 거군요. 그 경험이 지금의 불안에 영향을 미치고 있는 것 같습니다. 그런데 그때의 그 팀장과 지금의 당신 사이에는 어떤 차이가 있을까요?",
+      "text": "[상담사 응답 22턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 23턴]"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "[상담사 응답 23턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 24,
-      "technique": "insight"
-    },
-    {
       "speaker": "client",
-      "text": "차이요? 글쎄요... 그 팀장은 팀원들 의견을 전혀 안 듣고 독단적으로 결정했었는데, 저는 오히려 너무 팀원들 눈치를 보는 편이에요. 그리고 그 사람은 자기 잘못을 인정 안 했는데, 저는... 너무 자책하는 편이고요.",
-      "turn": 25
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 24턴]"
     },
     {
+      "turn": 24,
       "speaker": "counselor",
-      "text": "정확히 파악하셨네요. 당신은 팀원들의 의견을 경청하려 하고, 자기 성찰을 하시는 분이에요. 오히려 정반대의 모습이시죠. 이런 차이를 인식하시는 것이 중요합니다. 지금 겪고 계신 어려움은 무능해서가 아니라, 책임감이 강하고 잘하고 싶은 마음이 크기 때문일 수 있어요.",
+      "text": "[상담사 응답 24턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 25턴]"
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "[상담사 응답 25턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
+    },
+    {
       "turn": 26,
-      "technique": "reframing"
-    },
-    {
       "speaker": "client",
-      "text": "그렇게 생각하니까 조금... 다르게 보이네요. 그런데 여전히 연장자 팀원들 앞에서는 위축되는 건 어떻게 해야 할까요?",
-      "turn": 27
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 26턴]"
     },
     {
+      "turn": 26,
       "speaker": "counselor",
-      "text": "좋은 질문입니다. 혹시 그분들과 개별적으로 대화를 나눠보신 적은 있으신가요? 그분들의 경험과 의견을 구하는 시간을 가져보시는 건 어떨까요?",
-      "turn": 28,
-      "technique": "suggestion"
+      "text": "[상담사 응답 26턴]",
+      "technique": [
+        "empathy",
+        "reflection"
+      ]
     },
     {
+      "turn": 27,
       "speaker": "client",
-      "text": "개별 대화요? 생각해본 적은 없는데... 그렇게 하면 제가 약해 보이지 않을까요?",
-      "turn": 29
+      "text": "[샌드위치 세대의 부담 관련 내담자 발화 27턴]"
     },
     {
+      "turn": 27,
       "speaker": "counselor",
-      "text": "오히려 반대일 수 있어요. 경험 많은 팀원의 의견을 구하는 것은 겸손함과 지혜를 보여주는 거예요. '당신의 경험을 존중하고 배우고 싶다'는 메시지를 전달하는 거죠. 이것이 약점이 아니라 강점이 될 수 있습니다. 어떻게 생각하세요?",
-      "turn": 30,
-      "technique": "cognitive_restructuring"
-    },
-    {
-      "speaker": "client",
-      "text": "그렇게 생각하니까 해볼 만한 것 같네요. 사실 그분들의 경험을 활용하고 싶긴 했는데, 어떻게 접근해야 할지 몰라서 망설였던 것 같아요.",
-      "turn": 31
-    },
-    {
-      "speaker": "counselor",
-      "text": "좋습니다. 이제 조금씩 다른 관점으로 상황을 보시는 것 같네요. 오늘 상담을 통해 어떤 생각이나 느낌이 드시나요?",
-      "turn": 32,
-      "technique": "summary"
-    },
-    {
-      "speaker": "client",
-      "text": "제가 과거의 나쁜 경험 때문에 지금 상황을 너무 부정적으로만 보고 있었다는 걸 알게 됐어요. 그리고 완벽한 리더가 되려고 하기보다는, 팀원들과 소통하면서 함께 성장하는 리더가 되면 되는 거잖아요.",
-      "turn": 33
-    },
-    {
-      "speaker": "counselor",
-      "text": "정말 중요한 통찰을 얻으셨네요. 완벽함보다는 진정성과 소통이 더 중요하다는 것을 깨달으신 것 같습니다. 앞으로 구체적으로 실천해보고 싶은 것이 있으신가요?",
-      "turn": 34,
-      "technique": "validation"
-    },
-    {
-      "speaker": "client",
-      "text": "일단 연장자 팀원들과 개별 면담을 해보려고 해요. 그리고 제 자신에게 너무 가혹하지 않으려고요. 실수해도 괜찮다고, 배워가는 과정이라고 생각하려고 합니다.",
-      "turn": 35
-    },
-    {
-      "speaker": "counselor",
-      "text": "훌륭한 계획이세요. 작은 변화부터 시작하시는 것이 좋겠습니다. 다음 상담 때 이런 시도들이 어떻게 진행되었는지 나눠보면 좋겠네요. 오늘 용기 내어 이야기해주셔서 감사합니다.",
-      "turn": 36,
-      "technique": "encouragement"
+      "text": "[상담사 응답 27턴]",
+      "technique": [
+        "open_question",
+        "validation"
+      ]
     }
   ],
+  "generated_at": "2025-12-17T00:00:00.000Z",
+  "conversation_id": "ADU_20251218_1615",
   "metadata": {
-    "generated_at": "2025-12-17T15:14:33.090486+00:00",
+    "generated_at": "2025-12-18T03:01:42.000000+00:00",
     "model": "claude-sonnet-4-5",
-    "seed_category": "adult"
+    "seed_category": "adult",
+    "generator": "claude_code_direct"
   }
 }
