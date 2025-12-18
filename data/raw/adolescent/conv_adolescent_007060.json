@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:25.453944+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "17세",
@@ -79,11 +86,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "자신의 성격 때문이라고 생각하고 계시는군요. 조용한 성격이라는 게 구체적으로 어떤 모습인지 더 말씀해주실 수 있을까요?",
+      "text": "자신의 성격 때문이라고 생각하고 계시는군요. 조용한 성격이라는 게 구체적으로 어떤 모습인지 더 말씀해주실 수 있을까요? 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "turn": 10,
       "technique": [
         "clarification",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -326,8 +334,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "speaker": "client",

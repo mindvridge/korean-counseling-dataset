@@ -15,11 +15,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "안녕하세요. 오늘 이렇게 찾아와 주셔서 감사해요. 처음 상담실에 오는 게 조금 어색하거나 긴장될 수 있는데, 편하게 이야기 나눠보면 좋겠어요. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "안녕하세요. 오늘 이렇게 찾아와 주셔서 감사해요. 처음 상담실에 오는 게 조금 어색하거나 긴장될 수 있는데, 편하게 이야기 나눠보면 좋겠어요. 오늘 어떤 이야기를 나누고 싶으신가요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "turn": 2,
       "technique": [
         "rapport_building",
-        "body_scan"
+        "body_scan",
+        "psychoeducation"
       ]
     },
     {
@@ -323,8 +324,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",
@@ -359,7 +365,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "14세",

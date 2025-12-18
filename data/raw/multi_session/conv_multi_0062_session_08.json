@@ -8,7 +8,20 @@
     "case_id": "case_0062",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "8회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": true,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "38세",
@@ -52,11 +65,12 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "여기까지 오신 건 전적으로 본인의 노력 덕분이에요. 앞으로도 잘 하실 거예요.",
+      "text": "여기까지 오신 건 전적으로 본인의 노력 덕분이에요. 앞으로도 잘 하실 거예요. 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "technique": [
         "validation",
         "encouragement",
-        "termination"
+        "termination",
+        "psychoeducation"
       ]
     },
     {

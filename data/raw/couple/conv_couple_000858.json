@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "couple_type": "결혼 3년차",
@@ -347,8 +354,13 @@
       "text": "작은 시도가 큰 변화를 만들 수 있어요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 24,

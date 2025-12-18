@@ -15,7 +15,14 @@
     ],
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 1,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "seed_info": {
     "source_file": "청소년_또래관계_0008_SNS갈등_9a3c5f",
@@ -36,7 +43,8 @@
       "technique": [
         "empathy",
         "reflection",
-        "open_question"
+        "open_question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -369,8 +377,13 @@
       "technique": [
         "encouragement",
         "structuring",
-        "thought_record"
-      ]
+        "thought_record",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "turn": 24,

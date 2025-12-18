@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:30.913916+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 4,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "42세",
@@ -157,7 +164,8 @@
       "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "reflection",
-        "information_giving"
+        "information_giving",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -342,8 +350,13 @@
       "text": "네, 많은 분들이 상담을 통해 변화를 경험하세요. 천천히 함께 해봐요.",
       "technique": [
         "encouragement",
-        "information_giving"
-      ]
+        "information_giving",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 24,

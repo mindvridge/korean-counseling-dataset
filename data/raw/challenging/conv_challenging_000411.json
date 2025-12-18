@@ -7,7 +7,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 1,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "42세",
@@ -52,11 +59,12 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "힘드시다는 걸 말씀해 주셔서 고마워요. 어떤 부분이 가장 힘드세요?",
+      "text": "힘드시다는 걸 말씀해 주셔서 고마워요. 어떤 부분이 가장 힘드세요? 불안할 때 나타나는 심장 두근거림, 땀, 호흡곤란 등은 '투쟁-도피 반응'이라고 해요. 몸이 위험에 대비하는 자연스러운 반응이지만, 실제 위험이 없을 때도 나타나면 힘들 수 있죠.",
       "technique": [
         "validation",
         "empathy",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -101,7 +109,8 @@
       "technique": [
         "validation",
         "empathy",
-        "encouragement"
+        "encouragement",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -340,8 +349,13 @@
       "text": "그렇게 느끼신다니 다행이에요. 앞으로도 함께 이야기 나눠요.",
       "technique": [
         "validation",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "turn": 24,

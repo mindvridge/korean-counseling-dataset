@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "in_progress",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "couple_type": "신혼부부",
@@ -240,11 +247,12 @@
     {
       "turn": 16,
       "speaker": "counselor",
-      "text": "새로운 시각이 생기셨군요. 이번 주에 서로의 방식으로 표현해보시겠어요?",
+      "text": "새로운 시각이 생기셨군요. 이번 주에 서로의 방식으로 표현해보시겠어요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "technique": [
         "validation",
         "behavioral_experiment",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -346,8 +354,13 @@
       "technique": [
         "validation",
         "behavioral_experiment",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 24,

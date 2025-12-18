@@ -8,7 +8,20 @@
     "case_id": "case_0004",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 1,
+      "achievement_status": "목표 달성",
+      "key_insights": "7회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": true,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "28세",
@@ -19,10 +32,11 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 지난주 이후로 어떻게 지내셨어요?",
+      "text": "안녕하세요. 지난주 이후로 어떻게 지내셨어요? 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "technique": [
         "structuring",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {

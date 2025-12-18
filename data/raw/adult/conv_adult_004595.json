@@ -15,7 +15,14 @@
     ],
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "seed_info": {
     "source_file": "성인_직장스트레스_0008_g3h4i5j6",
@@ -77,11 +84,12 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "수치심과 분노를 느끼셨지만 반응하지 못하셨군요. 이런 일이 자주 있나요?",
+      "text": "수치심과 분노를 느끼셨지만 반응하지 못하셨군요. 이런 일이 자주 있나요? 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "technique": [
         "reflection",
         "closed_question",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {

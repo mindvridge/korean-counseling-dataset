@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.579994+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 4,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "14세",
@@ -41,7 +48,8 @@
       "text": "처음엔 내키지 않았지만, 본인도 요즘 힘든 부분이 있다는 걸 느끼고 있군요. 용기 내어 와준 것 같아요. 어떤 부분이 힘든가요?",
       "turn": 4,
       "technique": [
-        "reflection"
+        "reflection",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -326,8 +334,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "호흡 연습",
+        "instruction": "하루에 3번, 4-7-8 호흡법을 연습해 보세요. 4초 들이쉬고, 7초 멈추고, 8초 내쉬는 거예요."
+      }
     },
     {
       "speaker": "client",

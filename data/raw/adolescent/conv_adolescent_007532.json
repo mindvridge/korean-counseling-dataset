@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:25.961637+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "17세",
@@ -136,7 +143,8 @@
       "text": "전혀 아니에요. 청소년기에는 친구 관계가 정말 중요하고, 그래서 이런 상황에서 상처받는 건 매우 자연스러운 반응이에요. 혹시 이런 일이 처음인가요, 아니면 전에도 비슷한 경험이 있었나요?",
       "turn": 18,
       "technique": [
-        "normalization"
+        "normalization",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -146,11 +154,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "중학교 때도 비슷한 경험이 있었고, 그게 반복되니까 자신에게 문제가 있다고 생각하게 되었네요. 그런 생각이 들 때 기분이 어떤가요?",
+      "text": "중학교 때도 비슷한 경험이 있었고, 그게 반복되니까 자신에게 문제가 있다고 생각하게 되었네요. 그런 생각이 들 때 기분이 어떤가요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "turn": 20,
       "technique": [
         "reflection",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {

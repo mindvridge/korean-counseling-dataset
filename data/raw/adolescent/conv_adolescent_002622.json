@@ -326,8 +326,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",
@@ -362,7 +367,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 5,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 4,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "17세",

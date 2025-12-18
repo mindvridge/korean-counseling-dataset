@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:31.080528+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 3,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "23세",
@@ -72,7 +79,8 @@
       "technique": [
         "reflection",
         "closed_question",
-        "emotion_labeling"
+        "emotion_labeling",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -139,11 +147,12 @@
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "낮에 겪는 업무 스트레스가 밤에도 이어지고 있네요. 지금 말씀하신 증상들 - 집중력 저하, 수면 장애, 반복되는 악몽 - 모두 극심한 스트레스와 과로의 신호예요.",
+      "text": "낮에 겪는 업무 스트레스가 밤에도 이어지고 있네요. 지금 말씀하신 증상들 - 집중력 저하, 수면 장애, 반복되는 악몽 - 모두 극심한 스트레스와 과로의 신호예요. 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "technique": [
         "reflection",
         "information_giving",
-        "mindfulness"
+        "mindfulness",
+        "psychoeducation"
       ]
     },
     {
@@ -420,8 +429,13 @@
       "text": "좋아요. 다음 주에 만나서 어떻게 진행됐는지 이야기 나눠봐요. 그 전에 증상이 더 심해지면 - 특히 일상생활이 불가능할 정도면 - 즉시 병원에 가세요.",
       "technique": [
         "goal_setting",
-        "information_giving"
-      ]
+        "information_giving",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 29,

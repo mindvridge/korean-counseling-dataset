@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 4,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "couple_type": "결혼 3년차",
@@ -22,11 +29,12 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "두 분이 함께 오셨네요. 용기 내어 오신 것 감사드려요. 각자 어떤 마음으로 오셨는지 들어볼게요.",
+      "text": "두 분이 함께 오셨네요. 용기 내어 오신 것 감사드려요. 각자 어떤 마음으로 오셨는지 들어볼게요. 우리 뇌는 위협적인 경험을 특별한 방식으로 저장합니다. 그래서 비슷한 상황에서 과거의 감정이 되살아나는 것이죠. 이것은 뇌의 보호 기제예요.",
       "technique": [
         "structuring",
         "empathy",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -258,7 +266,8 @@
       "technique": [
         "validation",
         "behavioral_experiment",
-        "role_play"
+        "role_play",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -345,8 +354,13 @@
       "text": "작은 시도가 큰 변화를 만들 수 있어요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 24,

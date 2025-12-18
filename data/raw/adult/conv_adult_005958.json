@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:29.172234+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 5,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "45세",
@@ -79,10 +86,11 @@
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "[상담사 응답 5턴]",
+      "text": "[상담사 응답 5턴] 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "technique": [
         "open_question",
-        "validation"
+        "validation",
+        "psychoeducation"
       ]
     },
     {

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:30.630761+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "42세",
@@ -26,7 +33,8 @@
       "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
       "technique": [
         "empathy",
-        "open_question"
+        "open_question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -339,8 +347,13 @@
       "text": "혼자 해결하려고 하지 않으셔도 돼요. 함께 방법을 찾아볼게요.",
       "technique": [
         "empathy",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 24,

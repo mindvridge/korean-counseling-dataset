@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.633951+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 4,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "15세",
@@ -22,12 +29,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요. 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "turn": 2,
       "technique": [
         "empathy",
         "open_question",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -348,8 +356,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",

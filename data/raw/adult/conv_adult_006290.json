@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:29.504494+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "35세",
@@ -351,8 +358,13 @@
       "text": "그렇게 말씀해 주셔서 감사해요. 앞으로도 함께 이야기 나눠요.",
       "technique": [
         "validation",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "turn": 24,

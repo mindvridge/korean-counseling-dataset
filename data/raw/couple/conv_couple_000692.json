@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 4,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "couple_type": "결혼 3년차",
@@ -51,10 +58,11 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "두 분 다 노력하고 계시지만, 그게 서로에게 전달되지 않고 있네요.",
+      "text": "두 분 다 노력하고 계시지만, 그게 서로에게 전달되지 않고 있네요. 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "technique": [
         "reflection",
-        "summarization"
+        "summarization",
+        "psychoeducation"
       ]
     },
     {
@@ -127,7 +135,8 @@
       "technique": [
         "validation",
         "behavioral_experiment",
-        "role_play"
+        "role_play",
+        "cultural_sensitivity"
       ]
     },
     {

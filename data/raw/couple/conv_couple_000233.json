@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "couple_type": "결혼 3년차",
@@ -22,11 +29,12 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "두 분이 함께 오셨네요. 용기 내어 오신 것 감사드려요. 각자 어떤 마음으로 오셨는지 들어볼게요.",
+      "text": "두 분이 함께 오셨네요. 용기 내어 오신 것 감사드려요. 각자 어떤 마음으로 오셨는지 들어볼게요. 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "technique": [
         "structuring",
         "empathy",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -344,8 +352,13 @@
       "text": "작은 시도가 큰 변화를 만들 수 있어요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "turn": 24,

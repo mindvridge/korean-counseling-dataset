@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:29.031104+00:00",
     "therapeutic_outcome": "terminated",
     "rapport_score": 4,
-    "session_effectiveness": 2
+    "session_effectiveness": 2,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "35세",
@@ -38,10 +45,11 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "신뢰했던 사람에게 배신당하셨군요. 금전적 피해와 함께 심리적 상처도 크셨을 것 같아요.",
+      "text": "신뢰했던 사람에게 배신당하셨군요. 금전적 피해와 함께 심리적 상처도 크셨을 것 같아요. 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "technique": [
         "empathy",
-        "validation"
+        "validation",
+        "psychoeducation"
       ]
     },
     {
@@ -97,7 +105,8 @@
       "text": "변화를 원하지만 방법을 모르시는군요. 먼저 물어볼게요. 모든 사람이 거짓말하나요?",
       "technique": [
         "validation",
-        "confrontation"
+        "confrontation",
+        "cultural_sensitivity"
       ]
     },
     {

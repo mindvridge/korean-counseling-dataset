@@ -29,10 +29,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "친구들이 나만 빼고 만났다는 걸 소셜미디어로 알게 되었군요. 그 순간 어떤 기분이 들었나요?",
+      "text": "친구들이 나만 빼고 만났다는 걸 소셜미디어로 알게 되었군요. 그 순간 어떤 기분이 들었나요? 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "turn": 4,
       "technique": [
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -77,7 +78,8 @@
       "technique": [
         "validation",
         "reflection",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -327,8 +329,13 @@
       "text": "이렇게 용기 내서 찾아와준 네가 정말 대견해요. 힘든 일이 있으면 언제든 다시 와도 좋아요. 응원할게요.",
       "turn": 46,
       "technique": [
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "speaker": "client",
@@ -363,7 +370,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 3,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "18세",

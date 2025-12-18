@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:32.163460+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "29세",
@@ -78,13 +85,14 @@
     },
     {
       "speaker": "counselor",
-      "text": "자신의 말과 행동이 팀원들에게 어떻게 받아들여질지 계속 걱정하시는군요. 그런 생각들이 반복되면서 점점 더 소통이 어려워지는 느낌이실 것 같아요.",
+      "text": "자신의 말과 행동이 팀원들에게 어떻게 받아들여질지 계속 걱정하시는군요. 그런 생각들이 반복되면서 점점 더 소통이 어려워지는 느낌이실 것 같아요. 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "turn": 10,
       "technique": [
         "empathy",
         "emotion_labeling",
         "reflection",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -334,8 +342,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "speaker": "client",

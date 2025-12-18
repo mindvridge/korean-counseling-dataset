@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:25.319505+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "18세",
@@ -77,10 +84,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "오랫동안 좋아해온 일이고 재능도 있는데, 부모님께서는 안정적인 직업을 원하시는 것 같네요. 부모님께 자신의 꿈에 대해 이야기해본 적이 있나요?",
+      "text": "오랫동안 좋아해온 일이고 재능도 있는데, 부모님께서는 안정적인 직업을 원하시는 것 같네요. 부모님께 자신의 꿈에 대해 이야기해본 적이 있나요? 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "turn": 10,
       "technique": [
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -326,8 +334,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "speaker": "client",

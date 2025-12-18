@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:27.101934+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "14세",
@@ -63,10 +70,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "시간이 지나면서 오히려 더 힘들어지고 있다는 거네요. 구체적으로 어떤 부분이 가장 힘드신가요?",
+      "text": "시간이 지나면서 오히려 더 힘들어지고 있다는 거네요. 구체적으로 어떤 부분이 가장 힘드신가요? 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "turn": 8,
       "technique": [
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -326,8 +334,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "speaker": "client",

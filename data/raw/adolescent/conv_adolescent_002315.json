@@ -195,14 +195,15 @@
     },
     {
       "speaker": "counselor",
-      "text": "거절당할까 봐 두렵고, 그게 더 상처가 될까 봐 걱정되는 거네요. 그 마음 충분히 이해해요. 그런데 작은 것부터 시작해보면 어떨까요? 예를 들어 공통 관심사를 찾아보는 거예요.",
+      "text": "거절당할까 봐 두렵고, 그게 더 상처가 될까 봐 걱정되는 거네요. 그 마음 충분히 이해해요. 그런데 작은 것부터 시작해보면 어떨까요? 예를 들어 공통 관심사를 찾아보는 거예요. 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "turn": 28,
       "technique": [
         "validation",
         "emotion_labeling",
         "reflection",
         "behavioral_experiment",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -360,7 +361,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "terminated",
     "rapport_score": 3,
-    "session_effectiveness": 2
+    "session_effectiveness": 2,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 5,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "18세",

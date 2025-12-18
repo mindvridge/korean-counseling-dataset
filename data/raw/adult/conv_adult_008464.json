@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:31.640468+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 5,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "30세",
@@ -84,10 +91,11 @@
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요. 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "technique": [
         "restatement",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -131,7 +139,8 @@
       "technique": [
         "interpretation",
         "information_giving",
-        "emotion_labeling"
+        "emotion_labeling",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -397,8 +406,13 @@
       "text": "네, 작은 성공을 인정하는 게 중요해요. 그게 자신감을 만들어요.",
       "technique": [
         "validation",
-        "information_giving"
-      ]
+        "information_giving",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "호흡 연습",
+        "instruction": "하루에 3번, 4-7-8 호흡법을 연습해 보세요. 4초 들이쉬고, 7초 멈추고, 8초 내쉬는 거예요."
+      }
     },
     {
       "turn": 26,

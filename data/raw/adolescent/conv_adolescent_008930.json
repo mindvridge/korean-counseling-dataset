@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:27.400852+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 5,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "16세",
@@ -94,11 +101,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "평소에는 함께 시간을 보냈지만, 주로 본인이 먼저 다가가는 편이었다는 거네요. 그런 걸 깨닫고 나니 어떤 생각이 들었어요?",
+      "text": "평소에는 함께 시간을 보냈지만, 주로 본인이 먼저 다가가는 편이었다는 거네요. 그런 걸 깨닫고 나니 어떤 생각이 들었어요? 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "turn": 12,
       "technique": [
         "reflection",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -333,8 +341,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",

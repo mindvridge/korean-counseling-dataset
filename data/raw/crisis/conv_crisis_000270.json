@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:32.497931+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 1,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "35세",
@@ -140,10 +147,11 @@
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "[자원 확인 대응]",
+      "text": "[자원 확인 대응] 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
         "open_question",
-        "structuring"
+        "structuring",
+        "psychoeducation"
       ]
     },
     {
@@ -242,7 +250,8 @@
       "text": "[보호자 연락 계획 대응]",
       "technique": [
         "structuring",
-        "goal_setting"
+        "goal_setting",
+        "cultural_sensitivity"
       ]
     },
     {

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:24.894692+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 5,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "18세",
@@ -78,10 +85,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "중간고사 성적이 기대만큼 나오지 않았고, 그 이후로 계속 힘든 상태가 지속되고 있는 거네요. 그 때 어떤 일이 있었는지 좀 더 이야기해 줄 수 있을까요?",
+      "text": "중간고사 성적이 기대만큼 나오지 않았고, 그 이후로 계속 힘든 상태가 지속되고 있는 거네요. 그 때 어떤 일이 있었는지 좀 더 이야기해 줄 수 있을까요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "turn": 10,
       "technique": [
-        "exploration"
+        "exploration",
+        "psychoeducation"
       ]
     },
     {
@@ -164,7 +172,8 @@
       "text": "너무 힘들어서 혼자 있고 싶은 마음이 드는군요. 혹시 요즘 잠은 잘 자고 있나요? 식사는 잘 하고 있고요?",
       "turn": 22,
       "technique": [
-        "assessment"
+        "assessment",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -340,8 +349,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",

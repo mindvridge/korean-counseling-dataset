@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:31.926415+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "23세",
@@ -110,11 +117,12 @@
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "주 7일 일하시는군요. 이런 생활이 한 달째 지속되고 있는 거네요. 몸과 마음은 어떠세요?",
+      "text": "주 7일 일하시는군요. 이런 생활이 한 달째 지속되고 있는 거네요. 몸과 마음은 어떠세요? 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "technique": [
         "reflection",
         "emotion_labeling",
-        "body_scan"
+        "body_scan",
+        "psychoeducation"
       ]
     },
     {
@@ -421,8 +429,13 @@
       "text": "좋아요. 다음 주에 만나서 어떻게 진행됐는지 이야기 나눠봐요. 그 전에 증상이 더 심해지면 - 특히 일상생활이 불가능할 정도면 - 즉시 병원에 가세요.",
       "technique": [
         "goal_setting",
-        "information_giving"
-      ]
+        "information_giving",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "호흡 연습",
+        "instruction": "하루에 3번, 4-7-8 호흡법을 연습해 보세요. 4초 들이쉬고, 7초 멈추고, 8초 내쉬는 거예요."
+      }
     },
     {
       "turn": 29,

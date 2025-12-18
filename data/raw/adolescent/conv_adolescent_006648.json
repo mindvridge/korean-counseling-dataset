@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:25.056469+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 4,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "15세",
@@ -132,12 +139,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "지금 상황에서 어떻게 행동해야 할지 막막하게 느껴지는군요. 친구들에게 다가가고 싶지만 이미 형성된 관계 때문에 더 어렵게 느껴지나요?",
+      "text": "지금 상황에서 어떻게 행동해야 할지 막막하게 느껴지는군요. 친구들에게 다가가고 싶지만 이미 형성된 관계 때문에 더 어렵게 느껴지나요? 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "turn": 18,
       "technique": [
         "clarification",
         "emotion_labeling",
-        "grounding"
+        "grounding",
+        "psychoeducation"
       ]
     },
     {
@@ -220,7 +228,8 @@
       "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "turn": 30,
       "technique": [
-        "concrete_planning"
+        "concrete_planning",
+        "cultural_sensitivity"
       ]
     },
     {

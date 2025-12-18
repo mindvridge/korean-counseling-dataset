@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "family_type": "핵가족",
@@ -112,13 +119,14 @@
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "새로운 관점이 도움이 되셨으면 해요. 이번 주에 아이와 5분만 대화해보시겠어요?",
+      "text": "새로운 관점이 도움이 되셨으면 해요. 이번 주에 아이와 5분만 대화해보시겠어요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "technique": [
         "validation",
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -169,7 +177,8 @@
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
+        "role_play",
+        "cultural_sensitivity"
       ]
     },
     {

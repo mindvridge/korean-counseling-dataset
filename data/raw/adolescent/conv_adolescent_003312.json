@@ -182,10 +182,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "전에 친했던 친구들하고는 지금 어떻게 지내고 있어요? 반은 다르지만 연락은 하나요?",
+      "text": "전에 친했던 친구들하고는 지금 어떻게 지내고 있어요? 반은 다르지만 연락은 하나요? 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "turn": 26,
       "technique": [
-        "open-ended question"
+        "open-ended question",
+        "psychoeducation"
       ]
     },
     {
@@ -322,8 +323,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "speaker": "client",
@@ -358,7 +364,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "16세",

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:24.746187+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 5,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "16세",
@@ -38,10 +45,11 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "전학을 와서 새로운 환경에 적응하는 게 쉽지 않으시군요. 특히 친구 관계에서 어려움을 느끼고 계시는 것 같아요.",
+      "text": "전학을 와서 새로운 환경에 적응하는 게 쉽지 않으시군요. 특히 친구 관계에서 어려움을 느끼고 계시는 것 같아요. 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "technique": [
         "reflection",
-        "empathy"
+        "empathy",
+        "psychoeducation"
       ]
     },
     {
@@ -353,7 +361,8 @@
         "empathy",
         "validation",
         "information_giving",
-        "reflection"
+        "reflection",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -400,8 +409,13 @@
         "encouragement",
         "structuring",
         "coping_question",
-        "grounding"
-      ]
+        "grounding",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 26,

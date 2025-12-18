@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.988197+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "42세",
@@ -36,10 +43,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "10년간 교직 생활을 해오셨는데, 최근에 출근 자체가 힘들어지셨군요. 아침마다 그런 마음이 드신다는 건 정말 힘든 상황이실 것 같아요. 언제부터 이런 느낌이 드셨나요?",
+      "text": "10년간 교직 생활을 해오셨는데, 최근에 출근 자체가 힘들어지셨군요. 아침마다 그런 마음이 드신다는 건 정말 힘든 상황이실 것 같아요. 언제부터 이런 느낌이 드셨나요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "turn": 4,
       "technique": [
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -280,7 +288,8 @@
       "turn": 38,
       "technique": [
         "encouragement",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "cultural_sensitivity"
       ]
     },
     {

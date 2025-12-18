@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "family_type": "재혼 가정",
@@ -22,11 +29,12 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "가족 안에서 힘든 일이 있으시군요. 각 가족 구성원이 어떻게 느끼고 있는지 함께 살펴볼까요?",
+      "text": "가족 안에서 힘든 일이 있으시군요. 각 가족 구성원이 어떻게 느끼고 있는지 함께 살펴볼까요? 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "technique": [
         "empathy",
         "structuring",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -40,7 +48,8 @@
       "text": "자녀분과 소통이 어려우시군요. 언제부터 그랬나요?",
       "technique": [
         "reflection",
-        "closed_question"
+        "closed_question",
+        "cultural_sensitivity"
       ]
     },
     {

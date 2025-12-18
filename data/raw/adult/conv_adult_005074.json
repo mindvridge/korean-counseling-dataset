@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.248196+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "23세",
@@ -22,11 +29,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "turn": 2,
       "technique": [
         "empathy",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -39,7 +47,8 @@
       "text": "승진 후 6개월 정도 되셨군요. 출근이 힘들고 잠도 제대로 주무시지 못하고 계시는 상황이시네요. 구체적으로 어떤 부분이 가장 힘드신가요?",
       "turn": 4,
       "technique": [
-        "reflection"
+        "reflection",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -324,8 +333,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "speaker": "client",

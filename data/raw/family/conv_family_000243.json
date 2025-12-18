@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 1,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "family_type": "핵가족",
@@ -180,13 +187,14 @@
     {
       "turn": 11,
       "speaker": "counselor",
-      "text": "새로운 관점이 도움이 되셨으면 해요. 이번 주에 아이와 5분만 대화해보시겠어요?",
+      "text": "새로운 관점이 도움이 되셨으면 해요. 이번 주에 아이와 5분만 대화해보시겠어요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
         "validation",
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -407,7 +415,8 @@
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
+        "role_play",
+        "cultural_sensitivity"
       ]
     },
     {

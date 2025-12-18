@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:32.205314+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "40세",
@@ -37,11 +44,12 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "현재 혼자의 삶에 만족하고 계시는군요. 연애 경험은 있으신가요?",
+      "text": "현재 혼자의 삶에 만족하고 계시는군요. 연애 경험은 있으신가요? 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "technique": [
         "reflection",
         "clarification",
-        "mindfulness"
+        "mindfulness",
+        "psychoeducation"
       ]
     },
     {
@@ -350,8 +358,13 @@
       "text": "혼자 해결하려고 하지 않으셔도 돼요. 함께 방법을 찾아볼게요.",
       "technique": [
         "empathy",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "호흡 연습",
+        "instruction": "하루에 3번, 4-7-8 호흡법을 연습해 보세요. 4초 들이쉬고, 7초 멈추고, 8초 내쉬는 거예요."
+      }
     },
     {
       "turn": 24,

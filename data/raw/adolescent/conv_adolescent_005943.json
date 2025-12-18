@@ -15,7 +15,14 @@
     ],
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "seed_info": {
     "source_file": "adolescent_career_0001",
@@ -80,11 +87,12 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "많은 사람들이 그렇게 말하죠. 그런데 실제로는 당신 또래의 많은 청소년들이 명확한 꿈이 없어요. 그게 이상하거나 나쁜 게 아니에요.",
+      "text": "많은 사람들이 그렇게 말하죠. 그런데 실제로는 당신 또래의 많은 청소년들이 명확한 꿈이 없어요. 그게 이상하거나 나쁜 게 아니에요. 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "technique": [
         "empathy",
         "information_giving",
-        "validation"
+        "validation",
+        "psychoeducation"
       ]
     },
     {

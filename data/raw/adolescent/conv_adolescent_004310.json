@@ -179,14 +179,15 @@
     },
     {
       "speaker": "counselor",
-      "text": "맞아요, 연락할 수 있었죠. 그 부분에서 서운한 마음이 드는 건 당연해요. 다만, '내가 부족해서'라는 결론으로 바로 가기보다는, 실제로 어떤 상황이었는지 확인해보는 것도 필요할 것 같아요. 어떻게 생각하세요?",
+      "text": "맞아요, 연락할 수 있었죠. 그 부분에서 서운한 마음이 드는 건 당연해요. 다만, '내가 부족해서'라는 결론으로 바로 가기보다는, 실제로 어떤 상황이었는지 확인해보는 것도 필요할 것 같아요. 어떻게 생각하세요? 불안할 때 나타나는 심장 두근거림, 땀, 호흡곤란 등은 '투쟁-도피 반응'이라고 해요. 몸이 위험에 대비하는 자연스러운 반응이지만, 실제 위험이 없을 때도 나타나면 힘들 수 있죠.",
       "turn": 26,
       "technique": [
         "validation",
         "reflection",
         "cognitive_restructuring",
         "behavioral_experiment",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -324,8 +325,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "speaker": "client",
@@ -360,7 +366,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 3,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 1,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "17세",

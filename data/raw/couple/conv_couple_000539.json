@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "couple_type": "결혼 3년차",
@@ -65,11 +72,12 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "중요한 통찰이에요. 사랑의 표현 방식이 다를 수 있어요. 각자 어떤 방식으로 사랑받고 싶으세요?",
+      "text": "중요한 통찰이에요. 사랑의 표현 방식이 다를 수 있어요. 각자 어떤 방식으로 사랑받고 싶으세요? 불안할 때 나타나는 심장 두근거림, 땀, 호흡곤란 등은 '투쟁-도피 반응'이라고 해요. 몸이 위험에 대비하는 자연스러운 반응이지만, 실제 위험이 없을 때도 나타나면 힘들 수 있죠.",
       "technique": [
         "validation",
         "reframing",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {

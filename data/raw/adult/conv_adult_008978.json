@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:32.115739+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "50세",
@@ -298,7 +305,8 @@
         "goal_setting",
         "emotion_labeling",
         "miracle_question",
-        "exposure_technique"
+        "exposure_technique",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -411,8 +419,13 @@
       "text": "그럼 잠들기 전 10분이라도 책을 읽어보세요. 작은 실천이 중요해요.",
       "technique": [
         "goal_setting",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 28,

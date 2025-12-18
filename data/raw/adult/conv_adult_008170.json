@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:31.335482+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 3,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "23세",
@@ -99,13 +106,14 @@
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "일만 잘하면 된다고 생각하시는군요. 하지만 회사에서 '리더십'과 '팀워크'를 평가한다는 건, 단순히 개인 실적만이 아니라 사람들과의 관계도 중요하게 본다는 뜻이에요. 이해되시나요?",
+      "text": "일만 잘하면 된다고 생각하시는군요. 하지만 회사에서 '리더십'과 '팀워크'를 평가한다는 건, 단순히 개인 실적만이 아니라 사람들과의 관계도 중요하게 본다는 뜻이에요. 이해되시나요? 우리 뇌는 위협적인 경험을 특별한 방식으로 저장합니다. 그래서 비슷한 상황에서 과거의 감정이 되살아나는 것이죠. 이것은 뇌의 보호 기제예요.",
       "technique": [
         "empathy",
         "confrontation",
         "information_giving",
         "reflection",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -387,8 +395,13 @@
       "text": "물론이죠. 변화의 과정은 쉽지 않아요. 어려움이 있을 때 언제든 오세요. 응원할게요.",
       "technique": [
         "encouragement",
-        "structuring"
-      ]
+        "structuring",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "turn": 27,

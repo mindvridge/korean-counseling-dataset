@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:25.265316+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "14세",
@@ -79,11 +86,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "쉬는 시간과 점심시간처럼 자유 시간이 오히려 더 힘들게 느껴지는 거네요. 그 시간들을 어떻게 보내고 있어요?",
+      "text": "쉬는 시간과 점심시간처럼 자유 시간이 오히려 더 힘들게 느껴지는 거네요. 그 시간들을 어떻게 보내고 있어요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "turn": 10,
       "technique": [
         "clarification",
-        "grounding"
+        "grounding",
+        "psychoeducation"
       ]
     },
     {
@@ -326,8 +334,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",

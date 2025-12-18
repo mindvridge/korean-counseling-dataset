@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 3,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "65세",
@@ -84,11 +91,12 @@
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "손주분들이 큰 기쁨이시군요. 그 관계가 정말 소중한 거예요.",
+      "text": "손주분들이 큰 기쁨이시군요. 그 관계가 정말 소중한 거예요. 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "technique": [
         "reflection",
         "validation",
-        "reframing"
+        "reframing",
+        "psychoeducation"
       ]
     },
     {
@@ -328,7 +336,8 @@
       "technique": [
         "encouragement",
         "validation",
-        "behavioral_activation"
+        "behavioral_activation",
+        "cultural_sensitivity"
       ]
     },
     {

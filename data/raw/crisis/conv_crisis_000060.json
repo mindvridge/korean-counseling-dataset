@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:32.303330+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 3,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "22세",
@@ -380,11 +387,17 @@
     {
       "turn": 26,
       "speaker": "counselor",
-      "text": "[격려와 지지 대응]",
+      "text": "[격려와 지지 대응] 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "psychoeducation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 27,

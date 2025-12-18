@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.617923+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "25세",
@@ -222,11 +229,12 @@
     {
       "turn": 14,
       "speaker": "counselor",
-      "text": "경제적 불안, 워라밸 악화, 회사 존속 위험... 여러 우려가 있으시군요. 이런 위험을 감수할 만한 이유가 있나요?",
+      "text": "경제적 불안, 워라밸 악화, 회사 존속 위험... 여러 우려가 있으시군요. 이런 위험을 감수할 만한 이유가 있나요? 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "technique": [
         "summarization",
         "open_question",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -429,8 +437,13 @@
       "text": "오늘 상담에서 어떤 게 도움이 됐나요?",
       "technique": [
         "open_question",
-        "summarization"
-      ]
+        "summarization",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "turn": 29,

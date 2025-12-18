@@ -8,7 +8,20 @@
     "case_id": "case_0054",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 3,
+      "achievement_status": "상당 진전",
+      "key_insights": "8회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": true,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "28세",
@@ -22,7 +35,8 @@
       "text": "안녕하세요. 오늘은 종결 준비에 대해 이야기해 볼까요?",
       "technique": [
         "structuring",
-        "open_question"
+        "open_question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -151,10 +165,11 @@
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "좋아요. 천천히 해보세요.",
+      "text": "좋아요. 천천히 해보세요. 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "technique": [
         "encouragement",
-        "validation"
+        "validation",
+        "psychoeducation"
       ]
     },
     {
@@ -336,8 +351,13 @@
       "text": "좋아요. 천천히 해보세요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "turn": 24,

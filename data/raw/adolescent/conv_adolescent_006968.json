@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:25.363007+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 4,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "16세",
@@ -98,7 +105,8 @@
       "text": "자신의 권리와 친구에 대한 배려 사이에서 갈등이 있었군요. 결국 사진을 지우지 않았는데, 그 후 지혜의 반응은 어땠나요?",
       "technique": [
         "emotion_labeling",
-        "clarification"
+        "clarification",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -159,11 +167,12 @@
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "억울한 마음이 드는 거군요. '내가 잘못한 게 아닌데 왜 내가?'라는 생각. 그런데 이건 잘잘못의 문제일까요, 아니면 서로 다른 입장과 감정의 문제일까요?",
+      "text": "억울한 마음이 드는 거군요. '내가 잘못한 게 아닌데 왜 내가?'라는 생각. 그런데 이건 잘잘못의 문제일까요, 아니면 서로 다른 입장과 감정의 문제일까요? 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "technique": [
         "emotion_labeling",
         "confrontation",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -381,8 +390,13 @@
       "technique": [
         "encouragement",
         "validation",
-        "reflection"
-      ]
+        "reflection",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 26,

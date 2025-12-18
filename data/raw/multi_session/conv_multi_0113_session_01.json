@@ -8,7 +8,14 @@
     "case_id": "case_0113",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "28세",
@@ -335,8 +342,13 @@
       "text": "좋아요. 천천히 해보세요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 24,

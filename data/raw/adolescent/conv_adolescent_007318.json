@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:25.744800+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "17세",
@@ -341,7 +348,7 @@
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "그럼 이번 주에는 복식호흡 연습하고, 예기 불안이 올라올 때마다 생각 바꾸기를 시도해보세요. 다음 주에 어떻게 됐는지 이야기 나눠요.",
+      "text": "그럼 이번 주에는 복식호흡 연습하고, 예기 불안이 올라올 때마다 생각 바꾸기를 시도해보세요. 다음 주에 어떻게 됐는지 이야기 나눠요. 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
         "structuring",
         "goal_setting",
@@ -349,7 +356,8 @@
         "cognitive_restructuring",
         "behavioral_experiment",
         "breathing_technique",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -395,8 +403,13 @@
       "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "turn": 26,

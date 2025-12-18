@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:25.918188+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "17세",
@@ -276,11 +283,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "그런 결과가 나올 수도 있다는 두려움이 크구나. 하지만 지금은 확실하지 않은 상황에서 혼자 추측하며 힘들어하고 있잖아요. 진실을 아는 것이, 비록 아플 수 있어도, 불확실함 속에서 계속 불안해하는 것보다 나을 수 있어요. 그리고 만약 정말 그런 결과가 나온다면, 그때는 또 그때의 방법을 함께 찾아갈 수 있어요.",
+      "text": "그런 결과가 나올 수도 있다는 두려움이 크구나. 하지만 지금은 확실하지 않은 상황에서 혼자 추측하며 힘들어하고 있잖아요. 진실을 아는 것이, 비록 아플 수 있어도, 불확실함 속에서 계속 불안해하는 것보다 나을 수 있어요. 그리고 만약 정말 그런 결과가 나온다면, 그때는 또 그때의 방법을 함께 찾아갈 수 있어요. 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "turn": 38,
       "technique": [
         "support",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -339,8 +347,13 @@
       "turn": 46,
       "technique": [
         "support",
-        "cognitive_restructuring"
-      ]
+        "cognitive_restructuring",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "자기돌봄 활동",
+        "instruction": "이번 주에 자신을 위한 시간을 30분이라도 만들어 보세요. 산책, 목욕, 좋아하는 음악 듣기 등 무엇이든 좋아요."
+      }
     },
     {
       "speaker": "client",

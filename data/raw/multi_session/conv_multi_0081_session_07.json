@@ -8,7 +8,20 @@
     "case_id": "case_0081",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "7회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": false,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "38세",
@@ -70,7 +83,8 @@
       "text": "좋아요. 천천히 해보세요.",
       "technique": [
         "encouragement",
-        "validation"
+        "validation",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -336,8 +350,13 @@
       "text": "혹시 그 전에 힘들면 언제든 연락 주세요.",
       "technique": [
         "encouragement",
-        "safety_planning"
-      ]
+        "safety_planning",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "호흡 연습",
+        "instruction": "하루에 3번, 4-7-8 호흡법을 연습해 보세요. 4초 들이쉬고, 7초 멈추고, 8초 내쉬는 거예요."
+      }
     },
     {
       "turn": 24,

@@ -56,10 +56,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "친하다고 믿었던 친구들에게서 소외된 느낌을 받았을 때 정말 가슴이 아팠겠어요. 그런 상황에서 충격받는 건 당연한 거예요.",
+      "text": "친하다고 믿었던 친구들에게서 소외된 느낌을 받았을 때 정말 가슴이 아팠겠어요. 그런 상황에서 충격받는 건 당연한 거예요. 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "turn": 8,
       "technique": [
-        "validation"
+        "validation",
+        "psychoeducation"
       ]
     },
     {
@@ -329,8 +330,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "speaker": "client",
@@ -365,7 +371,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "14세",

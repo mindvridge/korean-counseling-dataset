@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.577075+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "18세",
@@ -38,11 +45,12 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "충분한 준비 기간 없이 갑자기 새로운 가족을 받아들여야 하는 상황이었군요. 그때 어떤 기분이었나요?",
+      "text": "충분한 준비 기간 없이 갑자기 새로운 가족을 받아들여야 하는 상황이었군요. 그때 어떤 기분이었나요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "technique": [
         "reflection",
         "open_question",
-        "miracle_question"
+        "miracle_question",
+        "psychoeducation"
       ]
     },
     {
@@ -142,7 +150,8 @@
       "technique": [
         "empathy",
         "validation",
-        "reflection"
+        "reflection",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -395,8 +404,13 @@
       "text": "좋아요. 천천히, 당신의 속도로 가세요. 그리고 힘들 때는 친아버지나 친구들, 그리고 이곳에 도움을 요청하세요.",
       "technique": [
         "encouragement",
-        "structuring"
-      ]
+        "structuring",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 27,

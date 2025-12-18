@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:24.774905+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "18세",
@@ -247,10 +254,11 @@
     {
       "turn": 16,
       "speaker": "counselor",
-      "text": "네. 그리고 오빠와는 최대한 접촉을 줄이세요. 같은 공간에 있어야 한다면 부모님이 있을 때만 있고요.",
+      "text": "네. 그리고 오빠와는 최대한 접촉을 줄이세요. 같은 공간에 있어야 한다면 부모님이 있을 때만 있고요. 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "technique": [
         "encouragement",
-        "information_giving"
+        "information_giving",
+        "psychoeducation"
       ]
     },
     {
@@ -383,8 +391,13 @@
       "text": "잘 결심하셨어요. 이 상황이 빨리 해결되길 바라요. 그리고 다시 한번 말하지만, 당신은 안전할 자격이 있어요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "turn": 26,

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.163070+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 4,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "16세",
@@ -117,11 +124,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "친구들에게 잘해주려고 노력하는데도 이런 일이 반복되니 자신에게 문제가 있는 건 아닌가 걱정되시는군요. 구체적으로 친구들에게 어떻게 잘해주려고 노력하시나요?",
+      "text": "친구들에게 잘해주려고 노력하는데도 이런 일이 반복되니 자신에게 문제가 있는 건 아닌가 걱정되시는군요. 구체적으로 친구들에게 어떻게 잘해주려고 노력하시나요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "turn": 16,
       "technique": [
         "clarification",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -325,8 +333,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "speaker": "client",

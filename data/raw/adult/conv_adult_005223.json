@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.414719+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "25세",
@@ -70,7 +77,8 @@
       "text": "차별적인 대우를 받고 계시는군요. 그건 더 힘들었을 거예요. 왜 자신만 그런 대우를 받는지 이유를 아시나요?",
       "technique": [
         "empathy",
-        "open_question"
+        "open_question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -81,10 +89,11 @@
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "팀장이 당신의 능력을 위협으로 느끼고 있을 수도 있겠네요. 그래서 의도적으로 자신감을 꺾으려는 것일 수도 있어요. 구체적으로 어떤 말들을 하시나요?",
+      "text": "팀장이 당신의 능력을 위협으로 느끼고 있을 수도 있겠네요. 그래서 의도적으로 자신감을 꺾으려는 것일 수도 있어요. 구체적으로 어떤 말들을 하시나요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
         "interpretation",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -365,8 +374,13 @@
       "text": "구체적인 계획이 있으니 실천하기 좋겠어요. 그리고 기억하세요. 이건 당신 잘못이 아니에요. 당신은 피해자예요. 당당하게 권리를 찾으세요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "turn": 25,

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:30.562126+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 3,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "33세",
@@ -79,12 +86,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "여러 감정이 복잡하게 얽혀 있으시네요. 자신에 대한 실망감과 동시에 팀원들에 대한 분노도 느끼시지만, 리더로서 그것을 표현하기 어려워 더 힘드신 것 같아요.",
+      "text": "여러 감정이 복잡하게 얽혀 있으시네요. 자신에 대한 실망감과 동시에 팀원들에 대한 분노도 느끼시지만, 리더로서 그것을 표현하기 어려워 더 힘드신 것 같아요. 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "turn": 10,
       "technique": [
         "validation",
         "emotion_labeling",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -179,7 +187,8 @@
       "text": "그 상황에서 어떻게 대응하셨나요?",
       "turn": 24,
       "technique": [
-        "open-ended question"
+        "open-ended question",
+        "cultural_sensitivity"
       ]
     },
     {

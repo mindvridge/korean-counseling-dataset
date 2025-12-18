@@ -85,11 +85,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "함께 있어도 혼자 있는 것 같다는 표현이 정말 외로운 마음을 잘 표현해주는 것 같아요. 지금 많이 외롭고 힘드시죠?",
+      "text": "함께 있어도 혼자 있는 것 같다는 표현이 정말 외로운 마음을 잘 표현해주는 것 같아요. 지금 많이 외롭고 힘드시죠? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "turn": 12,
       "technique": [
         "reflection",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -328,8 +329,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "호흡 연습",
+        "instruction": "하루에 3번, 4-7-8 호흡법을 연습해 보세요. 4초 들이쉬고, 7초 멈추고, 8초 내쉬는 거예요."
+      }
     },
     {
       "speaker": "client",
@@ -364,7 +370,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 5,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "16세",

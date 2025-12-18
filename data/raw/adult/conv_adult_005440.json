@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.641246+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 4,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "40세",
@@ -37,11 +44,12 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "승진에서 탈락하셨고, 후배가 먼저 승진해서 더 억울하신 거군요. 승진 심사는 이번이 처음이 아니신가요?",
+      "text": "승진에서 탈락하셨고, 후배가 먼저 승진해서 더 억울하신 거군요. 승진 심사는 이번이 처음이 아니신가요? 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "technique": [
         "reflection",
         "closed_question",
-        "empathy"
+        "empathy",
+        "psychoeducation"
       ]
     },
     {
@@ -369,8 +377,13 @@
       "text": "완벽하게 정리하셨네요. 이걸 내년 승진 심사 때까지 꾸준히 실천하시면 결과가 달라질 거예요. 변화는 하루아침에 오지 않으니 인내심을 갖고 하세요.",
       "technique": [
         "encouragement",
-        "information_giving"
-      ]
+        "information_giving",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 26,

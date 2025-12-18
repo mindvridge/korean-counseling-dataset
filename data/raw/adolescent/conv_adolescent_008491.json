@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.964614+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "15세",
@@ -23,12 +30,13 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 편하게 말씀해 주세요. 요즘 잠을 못 자요. 자꾸 생각이 많...라고 하셨는데, 어떤 일이 있었나요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 요즘 잠을 못 자요. 자꾸 생각이 많...라고 하셨는데, 어떤 일이 있었나요? 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "technique": [
         "empathy",
         "open_question",
         "reflection",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -347,8 +355,13 @@
       "text": "떨리는 건 자연스러워요. 중요한 대화니까요. 하지만 이렇게 솔직하게 대화하는 용기가 관계를 더 깊게 만들 수도 있어요. 잘 하실 거예요.",
       "technique": [
         "validation",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "turn": 24,

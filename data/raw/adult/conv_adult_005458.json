@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.659422+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 1,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "40세",
@@ -109,11 +116,12 @@
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "대화가 통하지 않는다고 느끼시니 말문을 닫게 되셨네요. 그런데 침묵은 문제 해결에 도움이 되었나요?",
+      "text": "대화가 통하지 않는다고 느끼시니 말문을 닫게 되셨네요. 그런데 침묵은 문제 해결에 도움이 되었나요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
         "reflection",
         "confrontation",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -368,8 +376,13 @@
       "text": "정리가 되신다니 다행이에요. 오늘 상담에서 어떤 것들이 도움이 되셨나요?",
       "technique": [
         "validation",
-        "summarization"
-      ]
+        "summarization",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "turn": 25,

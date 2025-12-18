@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.051989+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "42세",
@@ -66,10 +73,11 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "아이들이 아빠를 가장 필요로 하는 나이인데, 함께하지 못해 안타까우시겠어요. 6개월간 이런 생활을 하셨으면 신체적으로, 정신적으로 많이 지치셨을 텐데 어떠세요?",
+      "text": "아이들이 아빠를 가장 필요로 하는 나이인데, 함께하지 못해 안타까우시겠어요. 6개월간 이런 생활을 하셨으면 신체적으로, 정신적으로 많이 지치셨을 텐데 어떠세요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "technique": [
         "empathy",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -100,7 +108,8 @@
       "technique": [
         "reflection",
         "emotion_labeling",
-        "grounding"
+        "grounding",
+        "cultural_sensitivity"
       ]
     },
     {

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:29.318897+00:00",
     "therapeutic_outcome": "terminated",
     "rapport_score": 5,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 4,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "27세",
@@ -133,11 +140,12 @@
     {
       "turn": 8,
       "speaker": "counselor",
-      "text": "본인의 커리어를 존중하고 지지해줄 파트너를 원하시는군요. 그런 사람이 없을 거라고 생각하시나요?",
+      "text": "본인의 커리어를 존중하고 지지해줄 파트너를 원하시는군요. 그런 사람이 없을 거라고 생각하시나요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "technique": [
         "reflection",
         "closed_question",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -237,7 +245,8 @@
       "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "information_giving",
-        "clarification"
+        "clarification",
+        "cultural_sensitivity"
       ]
     },
     {

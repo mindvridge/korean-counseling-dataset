@@ -8,7 +8,14 @@
     "case_id": "case_0114",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 5,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "3회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "25세",
@@ -38,11 +45,12 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "변화하고 싶은 마음이 있으시군요. 구체적으로 어떤 모습이 되고 싶으세요?",
+      "text": "변화하고 싶은 마음이 있으시군요. 구체적으로 어떤 모습이 되고 싶으세요? 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "technique": [
         "validation",
         "goal_setting",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -84,7 +92,8 @@
       "text": "그렇게 느끼신다니 다행이에요.",
       "technique": [
         "empathy",
-        "validation"
+        "validation",
+        "cultural_sensitivity"
       ]
     },
     {

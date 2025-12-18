@@ -6,7 +6,14 @@
     "total_turns": 26,
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "40세",
@@ -102,11 +109,12 @@
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "지금 자신이 아무것도 아닌 것 같다는 느낌이 드시는군요. 그 감정을 말씀해 주셔서 고마워요. 언제부터 이런 느낌이 드셨어요?",
+      "text": "지금 자신이 아무것도 아닌 것 같다는 느낌이 드시는군요. 그 감정을 말씀해 주셔서 고마워요. 언제부터 이런 느낌이 드셨어요? 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "technique": [
         "emotion_labeling",
         "empathy",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {

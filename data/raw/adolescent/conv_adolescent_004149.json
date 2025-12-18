@@ -15,10 +15,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "안녕하세요. 편하게 앉으세요. 오늘 어떤 이야기를 나누고 싶나요?",
+      "text": "안녕하세요. 편하게 앉으세요. 오늘 어떤 이야기를 나누고 싶나요? 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "turn": 2,
       "technique": [
-        "rapport_building"
+        "rapport_building",
+        "psychoeducation"
       ]
     },
     {
@@ -86,7 +87,8 @@
       "text": "그 일 때문에 잠도 제대로 못 자고, 자신의 행동을 계속 되돌아보고 있었네요. 정말 힘들었겠어요.",
       "turn": 12,
       "technique": [
-        "empathy"
+        "empathy",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -357,7 +359,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "terminated",
     "rapport_score": 4,
-    "session_effectiveness": 2
+    "session_effectiveness": 2,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "16세",

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:33.150777+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "30세",
@@ -38,11 +45,13 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "[경청과 반영 대응]",
+      "text": "[경청과 반영 대응] 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "technique": [
         "empathy",
         "reflection",
-        "open_question"
+        "open_question",
+        "psychoeducation",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -383,8 +392,13 @@
       "text": "[격려와 지지 대응]",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 27,

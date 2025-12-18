@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.329497+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "16세",
@@ -40,7 +47,8 @@
       "text": "잠을 잘 못 주무시는군요. 얼마나 오래 그런 상태였나요?",
       "turn": 4,
       "technique": [
-        "open_question"
+        "open_question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -334,8 +342,13 @@
       "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.055102+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "30세",
@@ -39,11 +46,12 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "끊임없는 돌봄의 연속이시군요. 본인만의 시간은 있으세요?",
+      "text": "끊임없는 돌봄의 연속이시군요. 본인만의 시간은 있으세요? 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "technique": [
         "reflection",
         "closed_question",
-        "empathy"
+        "empathy",
+        "psychoeducation"
       ]
     },
     {
@@ -350,8 +358,13 @@
       "text": "완벽을 추구하면 지쳐요. 70-80%만 해도 충분해요. 나머지는 내려놓으세요.",
       "technique": [
         "information_giving",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "turn": 24,

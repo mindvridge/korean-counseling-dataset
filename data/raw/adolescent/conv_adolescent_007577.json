@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.006074+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 1,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "17세",
@@ -52,10 +59,11 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "주 6일 학원에 일요일은 휴식... 친구들을 만날 시간이 거의 없겠다. 이런 스케줄은 언제부터였어?",
+      "text": "주 6일 학원에 일요일은 휴식... 친구들을 만날 시간이 거의 없겠다. 이런 스케줄은 언제부터였어? 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "technique": [
         "validation",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -431,8 +439,13 @@
       "text": "천만에. 힘들 때 언제든 와. 넌 소중한 사람이야. 성적보다 네가 더 중요해.",
       "technique": [
         "validation",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "turn": 29,

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:27.818863+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "14세",
@@ -107,7 +114,8 @@
       "text": "친구들끼리 공유하는 경험에서 자신만 빠져있다는 느낌을 받으셨네요. 그럴 때 친구들에게 어떤 말씀을 하셨나요?",
       "turn": 14,
       "technique": [
-        "open-ended question"
+        "open-ended question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -338,8 +346,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "speaker": "client",

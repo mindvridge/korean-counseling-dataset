@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:30.425023+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "36세",
@@ -81,7 +88,8 @@
       "text": "업무는 잘 해내고 계시지만, 관계적인 어려움은 겉으로 드러나지 않아서 혼자 감당하고 계신 상황이네요. 그게 더 힘드셨을 것 같아요.",
       "turn": 10,
       "technique": [
-        "reflection"
+        "reflection",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -327,8 +335,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "speaker": "client",

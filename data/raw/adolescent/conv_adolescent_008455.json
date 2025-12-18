@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.928909+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "14세",
@@ -23,10 +30,11 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 편하게 말씀해 주세요. 제가 왜 이런지 모르겠어요....라고 하셨는데, 어떤 일이 있었나요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 제가 왜 이런지 모르겠어요....라고 하셨는데, 어떤 일이 있었나요? 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "technique": [
         "empathy",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -355,8 +363,13 @@
       "text": "구체적인 계획이 있으니 실천하기 좋겠어요. 메시지 내용 정리할 때 우리가 이야기한 것들을 참고하시면 돼요. 상대방 감정 인정, 사실 설명, 자신의 의도와 감정 표현, 우정의 소중함. 기억하시죠?",
       "technique": [
         "encouragement",
-        "summarization"
-      ]
+        "summarization",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "turn": 24,

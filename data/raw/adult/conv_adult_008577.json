@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:31.753269+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 4,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "42세",
@@ -67,10 +74,11 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "차별적인 대우를 받고 계시는군요. 그건 더 힘들었을 거예요. 왜 자신만 그런 대우를 받는지 이유를 아시나요?",
+      "text": "차별적인 대우를 받고 계시는군요. 그건 더 힘들었을 거예요. 왜 자신만 그런 대우를 받는지 이유를 아시나요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
         "empathy",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -363,8 +371,13 @@
       "text": "구체적인 계획이 있으니 실천하기 좋겠어요. 그리고 기억하세요. 이건 당신 잘못이 아니에요. 당신은 피해자예요. 당당하게 권리를 찾으세요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 25,

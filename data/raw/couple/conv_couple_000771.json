@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "couple_type": "재혼부부",
@@ -109,11 +116,12 @@
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "새로운 시각이 생기셨군요. 이번 주에 서로의 방식으로 표현해보시겠어요?",
+      "text": "새로운 시각이 생기셨군요. 이번 주에 서로의 방식으로 표현해보시겠어요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "technique": [
         "validation",
         "behavioral_experiment",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -341,8 +349,13 @@
       "text": "작은 시도가 큰 변화를 만들 수 있어요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "turn": 24,

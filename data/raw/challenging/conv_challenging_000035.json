@@ -7,7 +7,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 1,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "28세",
@@ -32,11 +39,12 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "변화가 어렵게 느껴지시는군요. 그 마음 충분히 이해해요.",
+      "text": "변화가 어렵게 느껴지시는군요. 그 마음 충분히 이해해요. 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "technique": [
         "reflection",
         "empathy",
-        "resistance_handling"
+        "resistance_handling",
+        "psychoeducation"
       ]
     },
     {

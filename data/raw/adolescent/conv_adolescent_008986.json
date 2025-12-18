@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:27.456423+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "17세",
@@ -235,10 +242,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "하고 싶은 마음은 있는데 현실적으로 어렵다는 거네요. 부모님께 지금 당신이 겪고 있는 어려움에 대해 좀 더 구체적으로 말씀드려본 적은 있나요?",
+      "text": "하고 싶은 마음은 있는데 현실적으로 어렵다는 거네요. 부모님께 지금 당신이 겪고 있는 어려움에 대해 좀 더 구체적으로 말씀드려본 적은 있나요? 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "turn": 32,
       "technique": [
-        "open_question"
+        "open_question",
+        "psychoeducation",
+        "cultural_sensitivity"
       ]
     },
     {

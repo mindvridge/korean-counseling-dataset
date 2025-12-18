@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.590720+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "16세",
@@ -38,11 +45,12 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "사회가 정해놓은 성공의 기준에 의문을 가지고 계시는군요. 그럼 당신 생각에 진짜 중요한 건 뭘까요?",
+      "text": "사회가 정해놓은 성공의 기준에 의문을 가지고 계시는군요. 그럼 당신 생각에 진짜 중요한 건 뭘까요? 불안할 때 나타나는 심장 두근거림, 땀, 호흡곤란 등은 '투쟁-도피 반응'이라고 해요. 몸이 위험에 대비하는 자연스러운 반응이지만, 실제 위험이 없을 때도 나타나면 힘들 수 있죠.",
       "technique": [
         "reflection",
         "open_question",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -424,8 +432,13 @@
       "text": "다행이에요. 완벽한 답은 없지만, 자신에게 맞는 답은 있어요. 그걸 찾아가는 과정을 즐기세요.",
       "technique": [
         "validation",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 29,

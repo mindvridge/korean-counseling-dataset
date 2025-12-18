@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:27.550453+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "16세",
@@ -118,12 +125,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "용기 내서 말을 걸었는데 반응이 기대만큼 나오지 않으니까, 자신이 재미없는 사람이라고 생각하게 되었군요. 시도했다는 것 자체가 쉽지 않은 일인데, 그런 용기를 낸 건 정말 대단한 일이에요.",
+      "text": "용기 내서 말을 걸었는데 반응이 기대만큼 나오지 않으니까, 자신이 재미없는 사람이라고 생각하게 되었군요. 시도했다는 것 자체가 쉽지 않은 일인데, 그런 용기를 낸 건 정말 대단한 일이에요. 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "turn": 16,
       "technique": [
         "affirmation",
         "cognitive_restructuring",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "psychoeducation"
       ]
     },
     {
@@ -329,8 +337,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "speaker": "client",

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:31.318963+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "50세",
@@ -23,10 +30,11 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "technique": [
         "empathy",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -414,8 +422,14 @@
       "text": "구체적으로 계획을 세우셨네요. 훌륭해요. 이 과정이 힘들면 언제든 다시 상담 오세요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework",
+        "cultural_sensitivity"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 29,

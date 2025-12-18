@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.873923+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "28세",
@@ -187,11 +194,12 @@
     {
       "turn": 12,
       "speaker": "counselor",
-      "text": "그럼 걱정을 생산적인 문제 해결로 바꿔봐요. '사업이 망하면 어떡하지' 대신 '지금 사업을 위해 할 수 있는 일은 뭐지?'라고요.",
+      "text": "그럼 걱정을 생산적인 문제 해결로 바꿔봐요. '사업이 망하면 어떡하지' 대신 '지금 사업을 위해 할 수 있는 일은 뭐지?'라고요. 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "technique": [
         "information_giving",
         "goal_setting",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -456,8 +464,13 @@
         "empathy",
         "validation",
         "information_giving",
-        "reflection"
-      ]
+        "reflection",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 30,

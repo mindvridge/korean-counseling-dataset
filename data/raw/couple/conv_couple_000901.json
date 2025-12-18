@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "couple_type": "예비부부",
@@ -22,11 +29,12 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "두 분이 함께 오셨네요. 용기 내어 오신 것 감사드려요. 각자 어떤 마음으로 오셨는지 들어볼게요.",
+      "text": "두 분이 함께 오셨네요. 용기 내어 오신 것 감사드려요. 각자 어떤 마음으로 오셨는지 들어볼게요. 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "technique": [
         "structuring",
         "empathy",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -54,7 +62,8 @@
       "text": "두 분 다 노력하고 계시지만, 그게 서로에게 전달되지 않고 있네요.",
       "technique": [
         "reflection",
-        "summarization"
+        "summarization",
+        "cultural_sensitivity"
       ]
     },
     {

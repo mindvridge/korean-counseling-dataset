@@ -6,7 +6,14 @@
     "total_turns": 27,
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "17세",
@@ -38,11 +45,12 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "집에 계시군요. 지금 혼자 계신가요? 주변에 누가 있나요?",
+      "text": "집에 계시군요. 지금 혼자 계신가요? 주변에 누가 있나요? 불안할 때 나타나는 심장 두근거림, 땀, 호흡곤란 등은 '투쟁-도피 반응'이라고 해요. 몸이 위험에 대비하는 자연스러운 반응이지만, 실제 위험이 없을 때도 나타나면 힘들 수 있죠.",
       "technique": [
         "risk_assessment",
         "safety_planning",
-        "grounding"
+        "grounding",
+        "psychoeducation"
       ]
     },
     {
@@ -398,8 +406,13 @@
       "technique": [
         "empathy",
         "validation",
-        "open_question"
-      ]
+        "open_question",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 26,

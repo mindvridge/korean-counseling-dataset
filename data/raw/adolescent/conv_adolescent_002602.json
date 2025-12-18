@@ -15,10 +15,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "안녕하세요. 만나서 반가워요. 엄마가 권유하셔서 오게 됐군요. 지금 기분이 어떤가요?",
+      "text": "안녕하세요. 만나서 반가워요. 엄마가 권유하셔서 오게 됐군요. 지금 기분이 어떤가요? 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "turn": 2,
       "technique": [
-        "open_ended_question"
+        "open_ended_question",
+        "psychoeducation"
       ]
     },
     {
@@ -353,7 +354,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "16세",

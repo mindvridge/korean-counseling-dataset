@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:29.568133+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 1,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "32세",
@@ -23,10 +30,11 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요? 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "technique": [
         "empathy",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -417,8 +425,13 @@
       "text": "갈등은 한쪽만의 문제가 아니에요. 본인의 높은 기준과 동료의 다른 스타일이 부딪힌 거니, 서로 조율이 필요해요.",
       "technique": [
         "information_giving",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 29,

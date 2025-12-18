@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:24.934503+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "14세",
@@ -52,12 +59,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "갑자기 그런 장면을 보게 되면 정말 충격적이었을 것 같아요. 자신만 제외된 것 같은 느낌은 누구에게나 힘든 경험이에요.",
+      "text": "갑자기 그런 장면을 보게 되면 정말 충격적이었을 것 같아요. 자신만 제외된 것 같은 느낌은 누구에게나 힘든 경험이에요. 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "turn": 6,
       "technique": [
         "validation",
         "miracle_question",
-        "imagery_work"
+        "imagery_work",
+        "psychoeducation"
       ]
     },
     {
@@ -343,8 +351,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "speaker": "client",

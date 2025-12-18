@@ -69,11 +69,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "학교에서 친하게 지내는 친구가 없어서 외로울 수도 있겠네요. 예전에는 친구들과 어울렸나요?",
+      "text": "학교에서 친하게 지내는 친구가 없어서 외로울 수도 있겠네요. 예전에는 친구들과 어울렸나요? 불안할 때 나타나는 심장 두근거림, 땀, 호흡곤란 등은 '투쟁-도피 반응'이라고 해요. 몸이 위험에 대비하는 자연스러운 반응이지만, 실제 위험이 없을 때도 나타나면 힘들 수 있죠.",
       "turn": 10,
       "technique": [
         "empathy",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -330,8 +331,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "자기돌봄 활동",
+        "instruction": "이번 주에 자신을 위한 시간을 30분이라도 만들어 보세요. 산책, 목욕, 좋아하는 음악 듣기 등 무엇이든 좋아요."
+      }
     },
     {
       "speaker": "client",
@@ -366,7 +372,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "18세",

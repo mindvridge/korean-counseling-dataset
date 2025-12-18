@@ -15,11 +15,12 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "팀 분위기 때문에 출근이 괴로우시군요. 구체적으로 어떤 상황인가요?",
+      "text": "팀 분위기 때문에 출근이 괴로우시군요. 구체적으로 어떤 상황인가요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "technique": [
         "reflection",
         "open_question",
-        "empathy"
+        "empathy",
+        "psychoeducation"
       ]
     },
     {
@@ -414,8 +415,13 @@
       "technique": [
         "summarization",
         "closed_question",
-        "cognitive_restructuring"
-      ]
+        "cognitive_restructuring",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "turn": 29,
@@ -458,6 +464,13 @@
     "generator": "claude_code_direct",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 5,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   }
 }

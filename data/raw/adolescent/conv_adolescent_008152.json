@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.629210+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "15세",
@@ -65,11 +72,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "가장 친했던 친구들이 차갑게 대하니까 더 마음이 아프겠어요. 언제부터 그런 변화를 느끼기 시작했나요?",
+      "text": "가장 친했던 친구들이 차갑게 대하니까 더 마음이 아프겠어요. 언제부터 그런 변화를 느끼기 시작했나요? 우리 뇌는 위협적인 경험을 특별한 방식으로 저장합니다. 그래서 비슷한 상황에서 과거의 감정이 되살아나는 것이죠. 이것은 뇌의 보호 기제예요.",
       "turn": 8,
       "technique": [
         "empathy",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -332,8 +340,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "speaker": "client",

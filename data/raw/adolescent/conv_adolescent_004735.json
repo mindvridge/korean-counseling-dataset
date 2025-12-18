@@ -113,10 +113,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "괜찮은 척하면서 혼자 견디느라 정말 많이 힘들었겠어요. 오늘 이렇게 용기 내어 상담실을 찾아온 것만으로도 정말 잘한 일이에요.",
+      "text": "괜찮은 척하면서 혼자 견디느라 정말 많이 힘들었겠어요. 오늘 이렇게 용기 내어 상담실을 찾아온 것만으로도 정말 잘한 일이에요. 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "turn": 16,
       "technique": [
-        "affirmation"
+        "affirmation",
+        "psychoeducation"
       ]
     },
     {
@@ -322,8 +323,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "speaker": "client",
@@ -358,7 +364,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "17세",

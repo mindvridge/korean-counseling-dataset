@@ -89,10 +89,11 @@
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "축구부 친구들과 어울리기 불편한 이유가 있었군요. 구체적으로 어떤 시선을 느끼셨나요?",
+      "text": "축구부 친구들과 어울리기 불편한 이유가 있었군요. 구체적으로 어떤 시선을 느끼셨나요? 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "technique": [
         "clarification",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -354,8 +355,13 @@
       "technique": [
         "encouragement",
         "summarization",
-        "goal_setting"
-      ]
+        "goal_setting",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 24,
@@ -397,6 +403,13 @@
     "generator": "claude_code_direct",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   }
 }

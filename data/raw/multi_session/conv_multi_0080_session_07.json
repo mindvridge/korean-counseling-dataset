@@ -8,7 +8,20 @@
     "case_id": "case_0080",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "상당 진전",
+      "key_insights": "7회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": true,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "38세",
@@ -67,10 +80,11 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "이번 주에는 오늘 이야기한 것을 생각해보시고, 다음 시간에 나눠요.",
+      "text": "이번 주에는 오늘 이야기한 것을 생각해보시고, 다음 시간에 나눠요. 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "technique": [
         "structuring",
-        "goal_setting"
+        "goal_setting",
+        "psychoeducation"
       ]
     },
     {
@@ -336,8 +350,13 @@
       "text": "이번 주에는 오늘 이야기한 것을 생각해보시고, 다음 시간에 나눠요.",
       "technique": [
         "structuring",
-        "goal_setting"
-      ]
+        "goal_setting",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 24,

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.934026+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 4,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "35세",
@@ -418,8 +425,13 @@
       "text": "갈등은 한쪽만의 문제가 아니에요. 본인의 높은 기준과 동료의 다른 스타일이 부딪힌 거니, 서로 조율이 필요해요.",
       "technique": [
         "information_giving",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 29,

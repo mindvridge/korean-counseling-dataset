@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:27.549430+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "16세",
@@ -26,7 +33,8 @@
       "text": "안녕하세요. 편하게 말씀해 주세요. 진로를 못 정하겠어요. 뭘 해야 할지...라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
         "empathy",
-        "open_question"
+        "open_question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -388,8 +396,13 @@
       "technique": [
         "validation",
         "encouragement",
-        "reflection"
-      ]
+        "reflection",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "turn": 26,

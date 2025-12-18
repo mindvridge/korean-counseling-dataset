@@ -139,11 +139,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "여러 가지 어려움이 겹치면서 학교가 안전하지 않은 공간처럼 느껴지는 거군요. 그런데도 오늘 이렇게 상담실까지 온 것은 쉽지 않은 결정이었을 텐데, 잘 왔어요.",
+      "text": "여러 가지 어려움이 겹치면서 학교가 안전하지 않은 공간처럼 느껴지는 거군요. 그런데도 오늘 이렇게 상담실까지 온 것은 쉽지 않은 결정이었을 텐데, 잘 왔어요. 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "turn": 20,
       "technique": [
         "validation",
-        "grounding"
+        "grounding",
+        "psychoeducation"
       ]
     },
     {
@@ -354,7 +355,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "14세",

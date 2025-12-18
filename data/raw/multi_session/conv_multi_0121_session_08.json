@@ -8,7 +8,20 @@
     "case_id": "case_0121",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 4,
+      "achievement_status": "부분 달성",
+      "key_insights": "8회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": false,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "38세",
@@ -336,8 +349,13 @@
       "text": "그렇게 느끼신다니 다행이에요.",
       "technique": [
         "empathy",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 24,

@@ -31,7 +31,8 @@
       "text": "요즘 많이 지쳐있고 의욕이 없으신 것 같네요. 그런 상태가 얼마나 지속되었나요?",
       "turn": 4,
       "technique": [
-        "reflection"
+        "reflection",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -41,10 +42,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "중간고사 결과가 기대와 달라서 많이 힘들었겠어요. 성적이 떨어진 것이 지금 가장 큰 고민인가요?",
+      "text": "중간고사 결과가 기대와 달라서 많이 힘들었겠어요. 성적이 떨어진 것이 지금 가장 큰 고민인가요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "turn": 6,
       "technique": [
-        "empathy"
+        "empathy",
+        "psychoeducation"
       ]
     },
     {
@@ -324,8 +326,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "speaker": "client",
@@ -360,7 +367,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "14세",

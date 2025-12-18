@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:31.038254+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "30세",
@@ -120,10 +127,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "수면에도 영향을 받고 계시고, 주말에도 편히 쉬지 못하시는군요. 신체적으로도 신호가 오고 있는 것 같아요. 혹시 다른 신체적 증상은 없으신가요?",
+      "text": "수면에도 영향을 받고 계시고, 주말에도 편히 쉬지 못하시는군요. 신체적으로도 신호가 오고 있는 것 같아요. 혹시 다른 신체적 증상은 없으신가요? 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "turn": 16,
       "technique": [
-        "assessment"
+        "assessment",
+        "psychoeducation"
       ]
     },
     {
@@ -327,8 +335,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "speaker": "client",

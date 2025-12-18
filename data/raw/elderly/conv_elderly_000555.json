@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "maintaining",
     "rapport_score": 5,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "65세",
@@ -42,7 +49,8 @@
       "technique": [
         "reflection",
         "empathy",
-        "closed_question"
+        "closed_question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -174,11 +182,12 @@
     {
       "turn": 11,
       "speaker": "counselor",
-      "text": "좋은 변화예요. 이번 주에 손주들과 시간을 보내보시는 건 어떨까요?",
+      "text": "좋은 변화예요. 이번 주에 손주들과 시간을 보내보시는 건 어떨까요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "technique": [
         "encouragement",
         "validation",
-        "behavioral_activation"
+        "behavioral_activation",
+        "psychoeducation"
       ]
     },
     {
@@ -358,8 +367,13 @@
       "technique": [
         "encouragement",
         "validation",
-        "behavioral_activation"
-      ]
+        "behavioral_activation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "turn": 24,

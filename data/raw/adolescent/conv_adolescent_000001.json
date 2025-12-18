@@ -14,7 +14,14 @@
     ],
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "seed_info": {
     "source_file": "data/seeds/청소년/또래관계/seed_0009.json",
@@ -188,7 +195,8 @@
       "text": "혼자서 이 모든 걸 감당하고 있었네요. 그런데 한 가지 궁금한 게 있어요. 반에서 혼자 있는 친구가 또 있나요?",
       "technique": [
         "empathy",
-        "open_question"
+        "open_question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -381,8 +389,13 @@
       "text": "다행이에요. 다음 주에 어떻게 됐는지 이야기 나눠봐요. 혼자가 아니라는 걸 기억하세요.",
       "technique": [
         "encouragement",
-        "structuring"
-      ]
+        "structuring",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 25,

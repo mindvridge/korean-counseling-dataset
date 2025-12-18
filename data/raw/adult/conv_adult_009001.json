@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:32.137708+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "40세",
@@ -99,11 +106,12 @@
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "오랫동안 해온 일마저 의미 없게 느껴지시는군요. 전에는 어떠셨어요? 일이 보람 있었던 적이 있나요?",
+      "text": "오랫동안 해온 일마저 의미 없게 느껴지시는군요. 전에는 어떠셨어요? 일이 보람 있었던 적이 있나요? 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "technique": [
         "reflection",
         "open_question",
-        "grounding"
+        "grounding",
+        "psychoeducation"
       ]
     },
     {
@@ -512,8 +520,13 @@
         "encouragement",
         "emotion_labeling",
         "behavioral_experiment",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 34,

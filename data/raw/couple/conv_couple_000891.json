@@ -6,7 +6,14 @@
     "total_turns": 26,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 2,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "couple_type": "신혼부부",
@@ -359,8 +366,13 @@
       "technique": [
         "validation",
         "behavioral_experiment",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 25,

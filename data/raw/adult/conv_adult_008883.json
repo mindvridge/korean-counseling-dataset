@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:32.029232+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "29세",
@@ -173,7 +180,8 @@
       "text": "정확히 파악하셨어요. 과로로 인한 실수가 오히려 더 많은 시간을 소모하게 만들고 있네요. 이 상황을 상사나 팀장님께 말씀드려 보셨나요?",
       "technique": [
         "encouragement",
-        "closed_question"
+        "closed_question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -422,8 +430,13 @@
       "text": "좋아요. 다음 주에 만나서 어떻게 진행됐는지 이야기 나눠봐요. 그 전에 증상이 더 심해지면 - 특히 일상생활이 불가능할 정도면 - 즉시 병원에 가세요.",
       "technique": [
         "goal_setting",
-        "information_giving"
-      ]
+        "information_giving",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 29,

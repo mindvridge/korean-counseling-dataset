@@ -15,7 +15,14 @@
     ],
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 1,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "conversation": [
     {
@@ -164,14 +171,15 @@
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "업무와 동료 관계는 만족스러우신데 팀장님과의 관계가 전체를 어렵게 만들고 있군요. 상황을 바꾸고 싶으신 마음이 느껴져요. 그렇다면 이 상황에서 내담자님이 시도해 볼 수 있는 것들에 대해 함께 생각해 보면 어떨까요? 혹시 팀장님과 직접 대화해 보신 적은 있으세요?",
+      "text": "업무와 동료 관계는 만족스러우신데 팀장님과의 관계가 전체를 어렵게 만들고 있군요. 상황을 바꾸고 싶으신 마음이 느껴져요. 그렇다면 이 상황에서 내담자님이 시도해 볼 수 있는 것들에 대해 함께 생각해 보면 어떨까요? 혹시 팀장님과 직접 대화해 보신 적은 있으세요? 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "technique": [
         "reflection",
         "open_question",
         "cognitive_restructuring",
         "behavioral_experiment",
         "grounding",
-        "empty_chair"
+        "empty_chair",
+        "psychoeducation"
       ]
     },
     {

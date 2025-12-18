@@ -195,10 +195,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "부모님과의 관계도 중요한 부분이네요. 부모님은 주로 뭐라고 말씀하시나요?",
+      "text": "부모님과의 관계도 중요한 부분이네요. 부모님은 주로 뭐라고 말씀하시나요? 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "turn": 28,
       "technique": [
-        "exploration"
+        "exploration",
+        "psychoeducation"
       ]
     },
     {
@@ -321,8 +322,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "speaker": "client",
@@ -357,7 +363,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "16세",

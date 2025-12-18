@@ -18,7 +18,8 @@
       "text": "안녕하세요. 편하게 앉으세요. 오늘 무슨 일로 상담을 신청하게 되었나요?",
       "turn": 2,
       "technique": [
-        "open-ended question"
+        "open-ended question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -69,10 +70,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "최근에 학원 때문에 바빠서 친구들과 함께하는 시간이 줄어들었군요. 그 전에는 친구들과 어떻게 지냈나요?",
+      "text": "최근에 학원 때문에 바빠서 친구들과 함께하는 시간이 줄어들었군요. 그 전에는 친구들과 어떻게 지냈나요? 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "turn": 10,
       "technique": [
-        "clarification"
+        "clarification",
+        "psychoeducation"
       ]
     },
     {
@@ -362,7 +364,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 3,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "16세",

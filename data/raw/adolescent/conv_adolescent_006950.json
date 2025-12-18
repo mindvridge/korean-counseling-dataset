@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:25.345383+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "15세",
@@ -107,10 +114,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "그런 불편한 상황을 피하기 위해 보건실이나 도서관에서 시간을 보내고 있군요. 그렇게 하면 조금은 마음이 편해지나요?",
+      "text": "그런 불편한 상황을 피하기 위해 보건실이나 도서관에서 시간을 보내고 있군요. 그렇게 하면 조금은 마음이 편해지나요? 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "turn": 14,
       "technique": [
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {

@@ -7,7 +7,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "in_progress",
     "rapport_score": 2,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "42세",
@@ -67,11 +74,12 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "의욕이 없다는 게 어떤 느낌인지 좀 더 말씀해 주시겠어요?",
+      "text": "의욕이 없다는 게 어떤 느낌인지 좀 더 말씀해 주시겠어요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "technique": [
         "reflection",
         "clarification",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -116,7 +124,8 @@
       "technique": [
         "validation",
         "encouragement",
-        "rapport_building"
+        "rapport_building",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -340,8 +349,13 @@
       "text": "그렇게 느끼신다니 다행이에요. 앞으로도 함께 이야기 나눠요.",
       "technique": [
         "validation",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "turn": 24,

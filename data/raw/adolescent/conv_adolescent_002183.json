@@ -28,11 +28,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "친구들과 함께 있는데도 외로움을 느끼고 계시는군요. 그 기분이 어떤지 좀 더 말씀해주실 수 있을까요?",
+      "text": "친구들과 함께 있는데도 외로움을 느끼고 계시는군요. 그 기분이 어떤지 좀 더 말씀해주실 수 있을까요? 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "turn": 4,
       "technique": [
         "reflection",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -307,7 +308,8 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
+        "empathy",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -320,8 +322,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "호흡 연습",
+        "instruction": "하루에 3번, 4-7-8 호흡법을 연습해 보세요. 4초 들이쉬고, 7초 멈추고, 8초 내쉬는 거예요."
+      }
     },
     {
       "speaker": "client",
@@ -356,7 +363,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "16세",

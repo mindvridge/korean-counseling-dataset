@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:24.941531+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 3,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 1,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "14세",
@@ -39,11 +46,12 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "서른 살 성인이신데도 부모님의 과도한 간섭을 받고 계시는군요. 독립하고 싶지만 현실적인 어려움이 있고, 그 사이에서 답답함을 많이 느끼고 계신 것 같아요. 어제 있었던 일처럼 구체적으로 어떤 상황들이 가장 힘드신가요?",
+      "text": "서른 살 성인이신데도 부모님의 과도한 간섭을 받고 계시는군요. 독립하고 싶지만 현실적인 어려움이 있고, 그 사이에서 답답함을 많이 느끼고 계신 것 같아요. 어제 있었던 일처럼 구체적으로 어떤 상황들이 가장 힘드신가요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "technique": [
         "empathy",
         "emotion_labeling",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -360,8 +368,13 @@
       "speaker": "counselor",
       "text": "안녕히 가세요.",
       "technique": [
-        "reflection"
-      ]
+        "reflection",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "자기돌봄 활동",
+        "instruction": "이번 주에 자신을 위한 시간을 30분이라도 만들어 보세요. 산책, 목욕, 좋아하는 음악 듣기 등 무엇이든 좋아요."
+      }
     },
     {
       "speaker": "client",

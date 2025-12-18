@@ -28,12 +28,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "그렇게 느껴지는군요. 원하지 않는데 억지로 오게 되면 그런 마음이 들 수 있어요. 그래도 이렇게 와주셔서 감사해요. 혹시 요즘 힘든 일이 있나요?",
+      "text": "그렇게 느껴지는군요. 원하지 않는데 억지로 오게 되면 그런 마음이 들 수 있어요. 그래도 이렇게 와주셔서 감사해요. 혹시 요즘 힘든 일이 있나요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "turn": 4,
       "technique": [
         "empathy",
         "reflection",
-        "grounding"
+        "grounding",
+        "psychoeducation"
       ]
     },
     {
@@ -313,8 +314,14 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework",
+        "cultural_sensitivity"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "speaker": "client",
@@ -349,7 +356,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 5,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "15세",

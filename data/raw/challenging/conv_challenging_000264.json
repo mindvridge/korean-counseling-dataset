@@ -7,7 +7,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "in_progress",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 2,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "35세",
@@ -97,11 +104,12 @@
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "혼자 감당하셨군요. 여기서는 편하게 말씀하셔도 돼요.",
+      "text": "혼자 감당하셨군요. 여기서는 편하게 말씀하셔도 돼요. 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "technique": [
         "validation",
         "empathy",
-        "encouragement"
+        "encouragement",
+        "psychoeducation"
       ]
     },
     {
@@ -340,8 +348,13 @@
       "text": "그렇게 느끼신다니 다행이에요. 앞으로도 함께 이야기 나눠요.",
       "technique": [
         "validation",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "turn": 24,

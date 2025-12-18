@@ -43,10 +43,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "혼자 밥을 먹고 쉬는 시간도 혼자 보내는 게 많이 외롭고 힘드셨겠어요. 그런 시간들이 얼마나 되었나요?",
+      "text": "혼자 밥을 먹고 쉬는 시간도 혼자 보내는 게 많이 외롭고 힘드셨겠어요. 그런 시간들이 얼마나 되었나요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "turn": 6,
       "technique": [
-        "validation"
+        "validation",
+        "psychoeducation"
       ]
     },
     {
@@ -331,8 +332,13 @@
       "text": "오늘 이야기 나눠주셔서 감사합니다. 다음에 또 만나요.",
       "technique": [
         "empathy",
-        "supportive"
-      ]
+        "supportive",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "호흡 연습",
+        "instruction": "하루에 3번, 4-7-8 호흡법을 연습해 보세요. 4초 들이쉬고, 7초 멈추고, 8초 내쉬는 거예요."
+      }
     },
     {
       "speaker": "client",
@@ -367,7 +373,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "17세",

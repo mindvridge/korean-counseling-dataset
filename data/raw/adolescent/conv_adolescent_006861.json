@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:25.262482+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 3,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "15세",
@@ -49,11 +56,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "친구들이 함께 놀러 간 사진에 자신만 없는 걸 보고 많이 속상했겠어요. 그 순간 어떤 기분이 들었나요?",
+      "text": "친구들이 함께 놀러 간 사진에 자신만 없는 걸 보고 많이 속상했겠어요. 그 순간 어떤 기분이 들었나요? 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "turn": 6,
       "technique": [
         "empathy",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -331,8 +339,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",

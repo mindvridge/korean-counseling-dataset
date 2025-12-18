@@ -87,7 +87,8 @@
       "text": "친구들은 평소처럼 행동하는데, 서연씨만 불편함을 느끼고 있어서 더 혼란스러운 것 같네요. 그 친구들에게 이 상황에 대해 물어보거나 이야기해본 적은 있나요?",
       "turn": 12,
       "technique": [
-        "clarification"
+        "clarification",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -343,8 +344,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "speaker": "client",
@@ -381,7 +387,14 @@
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
     "session_effectiveness": 4,
-    "total_turns": 39
+    "total_turns": 39,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "15세",

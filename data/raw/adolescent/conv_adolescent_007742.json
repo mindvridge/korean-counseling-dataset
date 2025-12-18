@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.176757+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "15세",
@@ -38,12 +45,14 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "처음에는 좋아하던 일이었는데, 지금은 출근 자체가 신체적으로도 힘든 반응을 일으키는군요. 가슴 답답함과 숨 막히는 느낌... 몸이 먼저 신호를 보내고 있는 것 같습니다. 이런 변화가 언제부터 시작되었는지 기억나시나요?",
+      "text": "처음에는 좋아하던 일이었는데, 지금은 출근 자체가 신체적으로도 힘든 반응을 일으키는군요. 가슴 답답함과 숨 막히는 느낌... 몸이 먼저 신호를 보내고 있는 것 같습니다. 이런 변화가 언제부터 시작되었는지 기억나시나요? 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "technique": [
         "empathy",
         "emotion_labeling",
         "breathing_technique",
-        "body_scan"
+        "body_scan",
+        "psychoeducation",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -386,8 +395,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "자기돌봄 활동",
+        "instruction": "이번 주에 자신을 위한 시간을 30분이라도 만들어 보세요. 산책, 목욕, 좋아하는 음악 듣기 등 무엇이든 좋아요."
+      }
     },
     {
       "turn": 24,

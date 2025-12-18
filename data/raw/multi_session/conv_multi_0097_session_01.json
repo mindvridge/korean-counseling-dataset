@@ -8,7 +8,14 @@
     "case_id": "case_0097",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "19세",
@@ -108,10 +115,11 @@
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "이번 주에는 오늘 이야기한 것을 생각해보시고, 다음 시간에 나눠요.",
+      "text": "이번 주에는 오늘 이야기한 것을 생각해보시고, 다음 시간에 나눠요. 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "technique": [
         "structuring",
-        "goal_setting"
+        "goal_setting",
+        "psychoeducation"
       ]
     },
     {
@@ -139,7 +147,8 @@
       "text": "혹시 그 전에 힘들면 언제든 연락 주세요.",
       "technique": [
         "encouragement",
-        "safety_planning"
+        "safety_planning",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -335,8 +344,13 @@
       "text": "좋아요. 천천히 해보세요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "turn": 24,

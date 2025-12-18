@@ -29,10 +29,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "학교 가는 것이 힘들 정도로 친구 관계에서 어려움을 겪고 있군요. 천천히 이야기해줄 수 있을까요?",
+      "text": "학교 가는 것이 힘들 정도로 친구 관계에서 어려움을 겪고 있군요. 천천히 이야기해줄 수 있을까요? 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "turn": 4,
       "technique": [
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -363,7 +364,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "terminated",
     "rapport_score": 5,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "16세",

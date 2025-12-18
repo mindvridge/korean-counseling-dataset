@@ -8,7 +8,20 @@
     "case_id": "case_0068",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "8회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": true,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "38세",
@@ -207,10 +220,11 @@
     {
       "turn": 14,
       "speaker": "counselor",
-      "text": "이번 주에는 오늘 이야기한 것을 생각해보시고, 다음 시간에 나눠요.",
+      "text": "이번 주에는 오늘 이야기한 것을 생각해보시고, 다음 시간에 나눠요. 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "technique": [
         "structuring",
-        "goal_setting"
+        "goal_setting",
+        "psychoeducation"
       ]
     },
     {

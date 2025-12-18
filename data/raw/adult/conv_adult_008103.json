@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:31.269206+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "30세",
@@ -53,11 +60,12 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "자신을 위한 시간이 전혀 없는 상태시군요. 남편분은 육아에 참여하시나요?",
+      "text": "자신을 위한 시간이 전혀 없는 상태시군요. 남편분은 육아에 참여하시나요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "technique": [
         "reflection",
         "open_question",
-        "empathy"
+        "empathy",
+        "psychoeducation"
       ]
     },
     {
@@ -351,8 +359,13 @@
       "text": "완벽을 추구하면 지쳐요. 70-80%만 해도 충분해요. 나머지는 내려놓으세요.",
       "technique": [
         "information_giving",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 24,

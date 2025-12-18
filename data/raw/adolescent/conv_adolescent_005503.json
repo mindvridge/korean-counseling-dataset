@@ -20,7 +20,8 @@
         "empathy",
         "open_question",
         "reflection",
-        "breathing_technique"
+        "breathing_technique",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -263,10 +264,11 @@
     {
       "turn": 17,
       "speaker": "counselor",
-      "text": "자신이 성장하고 있고, 책임감 있게 행동할 수 있다는 걸 보여드리고, 조금씩 자율권을 달라고 요청하는 거예요. '엄마, 내가 이번 달 약속 다 지켰으니 다음엔 30분 더 있어도 될까요?' 이런 식으로요.",
+      "text": "자신이 성장하고 있고, 책임감 있게 행동할 수 있다는 걸 보여드리고, 조금씩 자율권을 달라고 요청하는 거예요. '엄마, 내가 이번 달 약속 다 지켰으니 다음엔 30분 더 있어도 될까요?' 이런 식으로요. 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "technique": [
         "information_giving",
-        "structuring"
+        "structuring",
+        "psychoeducation"
       ]
     },
     {
@@ -375,8 +377,13 @@
         "summarization",
         "goal_setting",
         "behavioral_experiment",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 25,
@@ -416,6 +423,13 @@
     "generator": "claude_code_direct",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 4,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   }
 }

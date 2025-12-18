@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:31.108781+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "36세",
@@ -200,7 +207,8 @@
       "text": "연락하고 싶은 마음이 들 때, 바로 하는 대신 10분만 참아보는 거예요. 그 10분 동안 다른 일을 하고요.",
       "technique": [
         "information_giving",
-        "goal_setting"
+        "goal_setting",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -342,8 +350,13 @@
       "text": "네, 많은 분들이 상담을 통해 변화를 경험하세요. 천천히 함께 해봐요.",
       "technique": [
         "encouragement",
-        "information_giving"
-      ]
+        "information_giving",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 24,

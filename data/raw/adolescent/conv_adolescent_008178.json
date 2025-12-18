@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.653702+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "16세",
@@ -37,11 +44,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "어머니의 권유로 오긴 했지만, 마음이 내키지 않았군요. 그런 마음으로 이렇게 와주신 것도 쉽지 않았을 텐데, 용기 내주셔서 고마워요.",
+      "text": "어머니의 권유로 오긴 했지만, 마음이 내키지 않았군요. 그런 마음으로 이렇게 와주신 것도 쉽지 않았을 텐데, 용기 내주셔서 고마워요. 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "turn": 4,
       "technique": [
         "validation",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -358,8 +366,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "speaker": "client",

@@ -15,11 +15,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "안녕하세요. 편하게 앉으세요. 상담실을 찾아주셔서 감사해요. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "안녕하세요. 편하게 앉으세요. 상담실을 찾아주셔서 감사해요. 오늘 어떤 이야기를 나누고 싶으신가요? 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "turn": 2,
       "technique": [
         "rapport_building",
-        "empathy"
+        "empathy",
+        "psychoeducation"
       ]
     },
     {
@@ -364,7 +365,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 1,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "15세",

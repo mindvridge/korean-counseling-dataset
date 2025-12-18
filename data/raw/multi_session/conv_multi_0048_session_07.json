@@ -8,7 +8,20 @@
     "case_id": "case_0048",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 4,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "7회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": true,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "28세",
@@ -52,11 +65,12 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "좋은 전략이에요. 그리고 필요하면 언제든 도움을 요청하셔도 돼요.",
+      "text": "좋은 전략이에요. 그리고 필요하면 언제든 도움을 요청하셔도 돼요. 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "technique": [
         "validation",
         "encouragement",
-        "resource_connection"
+        "resource_connection",
+        "psychoeducation"
       ]
     },
     {

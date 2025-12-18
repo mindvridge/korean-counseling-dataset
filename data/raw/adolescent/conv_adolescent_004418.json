@@ -114,7 +114,8 @@
       "turn": 16,
       "technique": [
         "empathy",
-        "emotion_labeling"
+        "emotion_labeling",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -179,11 +180,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "자신이 방해가 될 거라고 미리 생각하고 있군요. 혹시 수진이가 그런 말을 한 적이 있나요, 아니면 그냥 그럴 것 같다고 생각하는 건가요?",
+      "text": "자신이 방해가 될 거라고 미리 생각하고 있군요. 혹시 수진이가 그런 말을 한 적이 있나요, 아니면 그냥 그럴 것 같다고 생각하는 건가요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "turn": 26,
       "technique": [
         "challenging",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -326,8 +328,13 @@
       "text": "잘했어요. 혼자 고민하지 않고 이렇게 나눠주셔서 고마워요. 다음 주에 또 만나요. 힘내세요.",
       "turn": 46,
       "technique": [
-        "support"
-      ]
+        "support",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "speaker": "client",
@@ -362,7 +369,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "16세",

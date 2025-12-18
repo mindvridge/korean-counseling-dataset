@@ -28,10 +28,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "학교에 오는 것 자체가 지금 많이 힘든 상황이네요. 아침마다 신체적으로도 불편함을 느끼고 있고요. 언제부터 이런 느낌이 들었나요?",
+      "text": "학교에 오는 것 자체가 지금 많이 힘든 상황이네요. 아침마다 신체적으로도 불편함을 느끼고 있고요. 언제부터 이런 느낌이 들었나요? 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "turn": 4,
       "technique": [
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -324,8 +325,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "speaker": "client",
@@ -360,7 +366,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "18세",

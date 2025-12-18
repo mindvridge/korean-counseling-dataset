@@ -8,7 +8,20 @@
     "case_id": "case_0047",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 1,
+      "achievement_status": "상당 진전",
+      "key_insights": "7회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": true,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "32세",
@@ -38,10 +51,11 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "자신감이 생기셨군요. 앞으로 어려운 상황이 오면 어떻게 대처하실 건가요?",
+      "text": "자신감이 생기셨군요. 앞으로 어려운 상황이 오면 어떻게 대처하실 건가요? 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "technique": [
         "validation",
-        "coping_question"
+        "coping_question",
+        "psychoeducation"
       ]
     },
     {

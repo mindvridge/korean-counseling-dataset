@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:32.179945+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "27세",
@@ -80,11 +87,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "친구들과의 모임에서도 소외감을 느끼시는군요. 그런 상황들이 반복되면서 자신감도 많이 떨어지셨을 것 같아요.",
+      "text": "친구들과의 모임에서도 소외감을 느끼시는군요. 그런 상황들이 반복되면서 자신감도 많이 떨어지셨을 것 같아요. 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "turn": 10,
       "technique": [
         "empathy",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -248,7 +256,8 @@
       "turn": 34,
       "technique": [
         "cognitive restructuring",
-        "emotion_labeling"
+        "emotion_labeling",
+        "cultural_sensitivity"
       ]
     },
     {

@@ -7,7 +7,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "terminated",
     "rapport_score": 2,
-    "session_effectiveness": 2
+    "session_effectiveness": 2,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "35세",
@@ -340,8 +347,13 @@
       "text": "그렇게 느끼신다니 다행이에요. 앞으로도 함께 이야기 나눠요.",
       "technique": [
         "validation",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 24,
@@ -365,10 +377,11 @@
     {
       "turn": 25,
       "speaker": "counselor",
-      "text": "그렇게 느끼신다니 다행이에요. 앞으로도 함께 이야기 나눠요.",
+      "text": "그렇게 느끼신다니 다행이에요. 앞으로도 함께 이야기 나눠요. 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "technique": [
         "validation",
-        "encouragement"
+        "encouragement",
+        "psychoeducation"
       ]
     }
   ]

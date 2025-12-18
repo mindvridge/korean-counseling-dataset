@@ -35,7 +35,8 @@
       "turn": 4,
       "technique": [
         "open_question",
-        "emotion_labeling"
+        "emotion_labeling",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -147,11 +148,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "이해받지 못한다는 느낌이 반복되면서 아예 말문을 닫게 된 거네요. 그런 마음이 드는 게 충분히 이해가 돼요.",
+      "text": "이해받지 못한다는 느낌이 반복되면서 아예 말문을 닫게 된 거네요. 그런 마음이 드는 게 충분히 이해가 돼요. 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "turn": 20,
       "technique": [
         "validation",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -370,7 +372,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "16세",

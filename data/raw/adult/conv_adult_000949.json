@@ -29,10 +29,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "승진 후 6개월 동안 많이 힘드셨군요. 어떤 부분이 특히 힘드신가요?",
+      "text": "승진 후 6개월 동안 많이 힘드셨군요. 어떤 부분이 특히 힘드신가요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "turn": 4,
       "technique": [
-        "open_ended_question"
+        "open_ended_question",
+        "psychoeducation"
       ]
     },
     {
@@ -351,8 +352,13 @@
       "technique": [
         "action_planning",
         "behavioral_experiment",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",
@@ -387,7 +393,14 @@
     "seed_category": "adult",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "28세",

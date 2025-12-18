@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:30.439246+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 2,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "35세",
@@ -36,12 +43,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "10년 동안 교직 생활을 하시면서 학생들을 가르치는 일에 보람을 느껴오셨군요. 그런데 최근 몇 달 사이에 출근이 두려워지셨다니, 무언가 큰 변화가 있으셨나 봅니다.",
+      "text": "10년 동안 교직 생활을 하시면서 학생들을 가르치는 일에 보람을 느껴오셨군요. 그런데 최근 몇 달 사이에 출근이 두려워지셨다니, 무언가 큰 변화가 있으셨나 봅니다. 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "turn": 4,
       "technique": [
         "reflection",
         "emotion_labeling",
-        "grounding"
+        "grounding",
+        "psychoeducation"
       ]
     },
     {
@@ -331,8 +339,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "speaker": "client",

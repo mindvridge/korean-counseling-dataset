@@ -14,7 +14,14 @@
     ],
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 3,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "conversation": [
     {
@@ -25,12 +32,13 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 편안하게 오셨어요. 회사에서 힘든 일이 있으셨군요. 어디서부터 시작하셔도 괜찮으니, 지금 가장 마음에 와닿는 부분부터 천천히 말씀해주시겠어요?",
+      "text": "안녕하세요. 편안하게 오셨어요. 회사에서 힘든 일이 있으셨군요. 어디서부터 시작하셔도 괜찮으니, 지금 가장 마음에 와닿는 부분부터 천천히 말씀해주시겠어요? 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "technique": [
         "empathy",
         "reflection",
         "body_scan",
-        "relaxation_training"
+        "relaxation_training",
+        "psychoeducation"
       ]
     },
     {

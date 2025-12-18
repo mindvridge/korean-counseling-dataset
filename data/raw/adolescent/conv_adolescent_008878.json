@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:27.348972+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 4,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "17세",
@@ -119,11 +126,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "거절당하거나 관계가 더 나빠질까봐 두렵다는 거죠. 그 두려움 때문에 물어보는 것도 쉽지 않았겠어요.",
+      "text": "거절당하거나 관계가 더 나빠질까봐 두렵다는 거죠. 그 두려움 때문에 물어보는 것도 쉽지 않았겠어요. 우리 뇌는 위협적인 경험을 특별한 방식으로 저장합니다. 그래서 비슷한 상황에서 과거의 감정이 되살아나는 것이죠. 이것은 뇌의 보호 기제예요.",
       "turn": 16,
       "technique": [
         "empathy",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -323,8 +331,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",

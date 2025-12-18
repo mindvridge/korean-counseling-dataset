@@ -7,7 +7,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 2,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 4,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "22세",
@@ -21,7 +28,8 @@
       "text": "안녕하세요. 오늘 어떠세요?",
       "technique": [
         "open_question",
-        "rapport_building"
+        "rapport_building",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -112,11 +120,12 @@
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "오늘 용기 내어 말씀해 주셔서 감사해요. 천천히 함께 해봐요.",
+      "text": "오늘 용기 내어 말씀해 주셔서 감사해요. 천천히 함께 해봐요. 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "technique": [
         "validation",
         "encouragement",
-        "rapport_building"
+        "rapport_building",
+        "psychoeducation"
       ]
     },
     {

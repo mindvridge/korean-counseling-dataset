@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:31.987330+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "33세",
@@ -251,10 +258,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "그렇게 느끼셨군요. 하지만 실제로는 많은 교사분들이 비슷한 어려움을 겪고 계세요. 선생님만 유독 힘든 게 아니에요. 혹시 한 분이라도 가까운 동료가 계신가요?",
+      "text": "그렇게 느끼셨군요. 하지만 실제로는 많은 교사분들이 비슷한 어려움을 겪고 계세요. 선생님만 유독 힘든 게 아니에요. 혹시 한 분이라도 가까운 동료가 계신가요? 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "turn": 34,
       "technique": [
-        "normalization"
+        "normalization",
+        "psychoeducation"
       ]
     },
     {
@@ -332,8 +340,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "speaker": "client",

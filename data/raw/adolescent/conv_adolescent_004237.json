@@ -42,10 +42,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "2주 전부터 친구들의 태도가 달라졌다는 걸 느꼈고, 대화도 예전 같지 않고 점심시간에도 혼자 남겨지는 일이 있었군요. 그런 상황이 얼마나 힘들었을까요.",
+      "text": "2주 전부터 친구들의 태도가 달라졌다는 걸 느꼈고, 대화도 예전 같지 않고 점심시간에도 혼자 남겨지는 일이 있었군요. 그런 상황이 얼마나 힘들었을까요. 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "turn": 6,
       "technique": [
-        "empathy"
+        "empathy",
+        "psychoeducation"
       ]
     },
     {
@@ -327,8 +328,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "speaker": "client",
@@ -363,7 +369,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "15세",

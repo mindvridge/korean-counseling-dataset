@@ -8,7 +8,20 @@
     "case_id": "case_0101",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "상당 진전",
+      "key_insights": "7회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": true,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "45세",
@@ -151,10 +164,11 @@
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "이번 주에는 오늘 이야기한 것을 생각해보시고, 다음 시간에 나눠요.",
+      "text": "이번 주에는 오늘 이야기한 것을 생각해보시고, 다음 시간에 나눠요. 우리 뇌는 위협적인 경험을 특별한 방식으로 저장합니다. 그래서 비슷한 상황에서 과거의 감정이 되살아나는 것이죠. 이것은 뇌의 보호 기제예요.",
       "technique": [
         "structuring",
-        "goal_setting"
+        "goal_setting",
+        "psychoeducation"
       ]
     },
     {

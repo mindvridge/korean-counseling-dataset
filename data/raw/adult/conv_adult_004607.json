@@ -15,7 +15,14 @@
     ],
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 5,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "seed_info": {
     "source_file": "성인_직장스트레스_0006_y5z6a7b8",
@@ -429,8 +436,13 @@
       "text": "갈등은 한쪽만의 문제가 아니에요. 본인의 높은 기준과 동료의 다른 스타일이 부딪힌 거니, 서로 조율이 필요해요.",
       "technique": [
         "information_giving",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "turn": 29,

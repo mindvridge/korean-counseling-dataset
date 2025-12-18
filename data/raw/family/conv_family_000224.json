@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "family_type": "재혼 가정",
@@ -163,13 +170,14 @@
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "새로운 관점이 도움이 되셨으면 해요. 이번 주에 아이와 5분만 대화해보시겠어요?",
+      "text": "새로운 관점이 도움이 되셨으면 해요. 이번 주에 아이와 5분만 대화해보시겠어요? 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "technique": [
         "validation",
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -288,7 +296,8 @@
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
+        "role_play",
+        "cultural_sensitivity"
       ]
     },
     {

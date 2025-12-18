@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:32.209728+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "32세",
@@ -23,10 +30,11 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 편하게 말씀해 주세요. 이직을 해야 할지 고민이에요....라고 하셨는데, 어떤 일이 있었나요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 이직을 해야 할지 고민이에요....라고 하셨는데, 어떤 일이 있었나요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
         "empathy",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -116,7 +124,8 @@
       "text": "중요한 깨달음이네요. 자신의 일이 가족에게 어떤 의미로 받아들여졌는지 이해하기 시작하신 거예요. 이제 어떻게 하고 싶으세요?",
       "technique": [
         "validation",
-        "open_question"
+        "open_question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -389,8 +398,13 @@
       "speaker": "counselor",
       "text": "언제부터 시작하실 거예요?",
       "technique": [
-        "open_question"
-      ]
+        "open_question",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 27,

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:31.146160+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "42세",
@@ -322,8 +329,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "자기돌봄 활동",
+        "instruction": "이번 주에 자신을 위한 시간을 30분이라도 만들어 보세요. 산책, 목욕, 좋아하는 음악 듣기 등 무엇이든 좋아요."
+      }
     },
     {
       "speaker": "client",

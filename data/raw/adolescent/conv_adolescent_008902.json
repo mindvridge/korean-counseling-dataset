@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:27.373501+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 1,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "17세",
@@ -50,10 +57,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "성적 문제, 친구 관계, 그리고 어머니와의 갈등까지... 여러 가지가 한꺼번에 힘들게 하고 있네요. 뭘 해도 재미가 없다는 건 정말 힘든 일이에요.",
+      "text": "성적 문제, 친구 관계, 그리고 어머니와의 갈등까지... 여러 가지가 한꺼번에 힘들게 하고 있네요. 뭘 해도 재미가 없다는 건 정말 힘든 일이에요. 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "turn": 6,
       "technique": [
-        "empathy"
+        "empathy",
+        "psychoeducation"
       ]
     },
     {
@@ -285,7 +293,8 @@
       "technique": [
         "reframing",
         "emotion_labeling",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -326,8 +335,13 @@
       "text": "다행이에요. 오늘 용기 내서 많은 이야기를 나눠줘서 고마워요. 다음 주에 또 만나요. 힘든 일 있으면 언제든 연락하세요.",
       "turn": 46,
       "technique": [
-        "support"
-      ]
+        "support",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "자기돌봄 활동",
+        "instruction": "이번 주에 자신을 위한 시간을 30분이라도 만들어 보세요. 산책, 목욕, 좋아하는 음악 듣기 등 무엇이든 좋아요."
+      }
     },
     {
       "speaker": "client",

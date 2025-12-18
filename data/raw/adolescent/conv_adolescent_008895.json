@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:27.366521+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "18세",
@@ -269,7 +276,8 @@
       "text": "그럼 힘들겠죠. 하지만 그게 당신의 가치를 결정하는 건 아니에요. 다른 사람의 인정보다 자기 자신의 인정이 더 중요해요.",
       "technique": [
         "validation",
-        "information_giving"
+        "information_giving",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -386,8 +394,13 @@
       "technique": [
         "encouragement",
         "validation",
-        "reflection"
-      ]
+        "reflection",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 26,

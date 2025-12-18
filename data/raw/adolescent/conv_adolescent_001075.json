@@ -14,7 +14,14 @@
     ],
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "conversation": [
     {
@@ -40,9 +47,10 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "팀장님께서 다른 분들 앞에서 내담자님의 의견을 무시하시고 지적하셔서 많이 속상하셨겠어요. 그런 상황이 반복되면 출근하는 것 자체가 두렵고 힘들어지죠. 이런 일들이 얼마나 오래 지속되어 왔나요?",
+      "text": "팀장님께서 다른 분들 앞에서 내담자님의 의견을 무시하시고 지적하셔서 많이 속상하셨겠어요. 그런 상황이 반복되면 출근하는 것 자체가 두렵고 힘들어지죠. 이런 일들이 얼마나 오래 지속되어 왔나요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
-        "empathy"
+        "empathy",
+        "psychoeducation"
       ]
     },
     {
@@ -441,8 +449,13 @@
       "text": "네, 많은 분들이 상담을 통해 변화를 경험하세요. 천천히 함께 해봐요.",
       "technique": [
         "encouragement",
-        "information_giving"
-      ]
+        "information_giving",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 24,

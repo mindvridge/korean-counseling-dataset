@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.714864+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 2,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "17세",
@@ -273,12 +280,13 @@
     {
       "turn": 18,
       "speaker": "counselor",
-      "text": "우선 관련 분야를 탐색해보는 거예요. 디자인, 미술교육, 애니메이션 등 여러 분야를 알아보고, 실제 종사자들의 이야기도 들어보는 거죠.",
+      "text": "우선 관련 분야를 탐색해보는 거예요. 디자인, 미술교육, 애니메이션 등 여러 분야를 알아보고, 실제 종사자들의 이야기도 들어보는 거죠. 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
         "structuring",
         "information_giving",
         "behavioral_experiment",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -406,8 +414,13 @@
       "speaker": "counselor",
       "text": "기대할게요. 궁금한 거 있으면 언제든 연락하고요.",
       "technique": [
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "turn": 28,

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:27.311387+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "14세",
@@ -52,10 +59,11 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "본인의 의견이 제대로 고려되지 않고 바로 거절당한 느낌이셨겠네요. 게다가 비슷한 의견을 다른 동료가 말했을 때는 받아들여지는 걸 보시면서 더 억울하고 혼란스러우셨을 것 같아요. 그때 어떤 감정이 드셨나요?",
+      "text": "본인의 의견이 제대로 고려되지 않고 바로 거절당한 느낌이셨겠네요. 게다가 비슷한 의견을 다른 동료가 말했을 때는 받아들여지는 걸 보시면서 더 억울하고 혼란스러우셨을 것 같아요. 그때 어떤 감정이 드셨나요? 우리 뇌는 위협적인 경험을 특별한 방식으로 저장합니다. 그래서 비슷한 상황에서 과거의 감정이 되살아나는 것이죠. 이것은 뇌의 보호 기제예요.",
       "technique": [
         "empathy",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -419,8 +427,13 @@
       "technique": [
         "validation",
         "encouragement",
-        "reflection"
-      ]
+        "reflection",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 24,

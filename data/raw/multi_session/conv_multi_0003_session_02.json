@@ -8,7 +8,14 @@
     "case_id": "case_0003",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "2회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "45세",
@@ -81,10 +88,11 @@
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "그렇게 느끼신다니 다행이에요.",
+      "text": "그렇게 느끼신다니 다행이에요. 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "technique": [
         "empathy",
-        "validation"
+        "validation",
+        "psychoeducation"
       ]
     },
     {
@@ -126,7 +134,8 @@
       "text": "이번 주에는 오늘 이야기한 것을 생각해보시고, 다음 시간에 나눠요.",
       "technique": [
         "structuring",
-        "goal_setting"
+        "goal_setting",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -336,8 +345,13 @@
       "text": "이번 주에는 오늘 이야기한 것을 생각해보시고, 다음 시간에 나눠요.",
       "technique": [
         "structuring",
-        "goal_setting"
-      ]
+        "goal_setting",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 24,

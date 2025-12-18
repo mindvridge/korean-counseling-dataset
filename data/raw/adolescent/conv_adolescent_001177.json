@@ -218,13 +218,14 @@
     },
     {
       "speaker": "counselor",
-      "text": "거절에 대한 두려움이 크군요. 그 마음 충분히 이해해요. 하지만 시도하지 않으면 가능성도 알 수 없잖아요. 작은 것부터 천천히 시작해보는 건 어떨까요?",
+      "text": "거절에 대한 두려움이 크군요. 그 마음 충분히 이해해요. 하지만 시도하지 않으면 가능성도 알 수 없잖아요. 작은 것부터 천천히 시작해보는 건 어떨까요? 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "turn": 32,
       "technique": [
         "encouragement",
         "emotion_labeling",
         "behavioral_experiment",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -237,7 +238,8 @@
       "text": "예를 들어, 먼저 미소를 보내거나 가벼운 인사부터 시작할 수 있어요. 그 다음엔 '그 책 재미있어?'처럼 간단한 질문을 할 수도 있고요.",
       "turn": 34,
       "technique": [
-        "behavioral_guidance"
+        "behavioral_guidance",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -317,8 +319,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "자기돌봄 활동",
+        "instruction": "이번 주에 자신을 위한 시간을 30분이라도 만들어 보세요. 산책, 목욕, 좋아하는 음악 듣기 등 무엇이든 좋아요."
+      }
     },
     {
       "speaker": "client",
@@ -353,7 +360,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 1,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "17세",

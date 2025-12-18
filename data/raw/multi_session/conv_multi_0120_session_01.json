@@ -8,7 +8,14 @@
     "case_id": "case_0120",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "28세",
@@ -52,10 +59,11 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "수면과 일상생활에 어려움이 있으시군요. 언제부터 그러셨어요?",
+      "text": "수면과 일상생활에 어려움이 있으시군요. 언제부터 그러셨어요? 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "technique": [
         "reflection",
-        "closed_question"
+        "closed_question",
+        "psychoeducation"
       ]
     },
     {
@@ -335,8 +343,13 @@
       "text": "그렇게 느끼신다니 다행이에요.",
       "technique": [
         "empathy",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 24,

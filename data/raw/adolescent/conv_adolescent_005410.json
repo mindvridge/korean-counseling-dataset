@@ -213,11 +213,12 @@
     {
       "turn": 14,
       "speaker": "counselor",
-      "text": "먼저 부모님께 네 감정을 솔직하게 말씀드리는 게 중요해. '외롭다, 우울하다, 친구가 없다, 이렇게 사는 게 힘들다'고. 그리고 토요일 하루만이라도 시간을 갖고 싶다고 제안하는 거야.",
+      "text": "먼저 부모님께 네 감정을 솔직하게 말씀드리는 게 중요해. '외롭다, 우울하다, 친구가 없다, 이렇게 사는 게 힘들다'고. 그리고 토요일 하루만이라도 시간을 갖고 싶다고 제안하는 거야. 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "technique": [
         "structuring",
         "information_giving",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -428,8 +429,13 @@
       "text": "천만에. 힘들 때 언제든 와. 넌 소중한 사람이야. 성적보다 네가 더 중요해.",
       "technique": [
         "validation",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 29,
@@ -467,6 +473,13 @@
     "generator": "claude_code_direct",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   }
 }

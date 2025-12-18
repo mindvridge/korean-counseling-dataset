@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 2,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "70세",
@@ -38,11 +45,12 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "매일이 비슷하게 느껴지시는군요. 언제부터 그러셨어요?",
+      "text": "매일이 비슷하게 느껴지시는군요. 언제부터 그러셨어요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
         "reflection",
         "empathy",
-        "closed_question"
+        "closed_question",
+        "psychoeducation"
       ]
     },
     {
@@ -118,7 +126,8 @@
       "technique": [
         "encouragement",
         "validation",
-        "behavioral_activation"
+        "behavioral_activation",
+        "cultural_sensitivity"
       ]
     },
     {

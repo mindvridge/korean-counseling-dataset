@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 3,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "family_type": "재혼 가정",
@@ -40,7 +47,8 @@
       "text": "자녀분과 소통이 어려우시군요. 언제부터 그랬나요?",
       "technique": [
         "reflection",
-        "closed_question"
+        "closed_question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -390,8 +398,13 @@
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 24,

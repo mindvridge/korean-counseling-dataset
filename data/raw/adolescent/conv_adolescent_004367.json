@@ -41,12 +41,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "놀람, 분노, 슬픔 그리고 자책까지... 여러 감정들이 한꺼번에 밀려왔네요. 그런 상황에서 그렇게 느끼는 건 자연스러운 반응이에요.",
+      "text": "놀람, 분노, 슬픔 그리고 자책까지... 여러 감정들이 한꺼번에 밀려왔네요. 그런 상황에서 그렇게 느끼는 건 자연스러운 반응이에요. 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "turn": 6,
       "technique": [
         "validation",
         "emotion_labeling",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -313,8 +314,13 @@
       "text": "완벽해요. 세 가지 모두 실천 가능한 목표네요. 다음에 만날 때 어떻게 됐는지 이야기 나눠봐요. 오늘 용기 내서 와줘서 고마워요.",
       "turn": 46,
       "technique": [
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "호흡 연습",
+        "instruction": "하루에 3번, 4-7-8 호흡법을 연습해 보세요. 4초 들이쉬고, 7초 멈추고, 8초 내쉬는 거예요."
+      }
     },
     {
       "speaker": "client",
@@ -349,7 +355,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "17세",

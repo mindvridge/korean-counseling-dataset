@@ -83,10 +83,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "겉으로는 괜찮은 척하면서도 속으로는 계속 그 일이 마음에 걸리고 있는 거네요. 자신의 진짜 감정을 표현하지 못하고 있는 상황이 더 힘들게 만드는 것 같아요.",
+      "text": "겉으로는 괜찮은 척하면서도 속으로는 계속 그 일이 마음에 걸리고 있는 거네요. 자신의 진짜 감정을 표현하지 못하고 있는 상황이 더 힘들게 만드는 것 같아요. 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "turn": 12,
       "technique": [
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -333,8 +334,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "speaker": "client",
@@ -371,7 +377,14 @@
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
     "session_effectiveness": 3,
-    "total_turns": 39
+    "total_turns": 39,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 5,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "14세",

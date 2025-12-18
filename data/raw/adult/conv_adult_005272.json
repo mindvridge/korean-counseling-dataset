@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.466191+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "40세",
@@ -219,7 +226,8 @@
       "text": "조언이 싫으시면 '조언보다는 그냥 들어줘'라고 말하면 돼요. 경계를 설정하는 거죠.",
       "technique": [
         "information_giving",
-        "validation"
+        "validation",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -411,8 +419,13 @@
       "text": "그렇게 말씀해 주셔서 감사해요. 앞으로도 함께 이야기 나눠요.",
       "technique": [
         "validation",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 24,

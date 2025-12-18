@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.691543+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "17세",
@@ -51,12 +58,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "처음엔 담담했는데 시간이 지나면서 '왜 나만 빼고'라는 생각이 계속 맴돌았군요. 밤새 잠도 못 잘 정도로 마음이 많이 힘들었겠어요.",
+      "text": "처음엔 담담했는데 시간이 지나면서 '왜 나만 빼고'라는 생각이 계속 맴돌았군요. 밤새 잠도 못 잘 정도로 마음이 많이 힘들었겠어요. 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "turn": 6,
       "technique": [
         "validation",
         "reflection",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -341,8 +349,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "speaker": "client",

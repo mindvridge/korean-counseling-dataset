@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:30.956745+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 4,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "32세",
@@ -51,12 +58,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "예전에는 보람을 느끼셨던 일들이 지금은 의미 없게 느껴지신다는 거죠. 그 변화가 언제쯤부터 시작되었는지 기억나시나요?",
+      "text": "예전에는 보람을 느끼셨던 일들이 지금은 의미 없게 느껴지신다는 거죠. 그 변화가 언제쯤부터 시작되었는지 기억나시나요? 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "turn": 6,
       "technique": [
         "open_question",
         "emotion_labeling",
-        "grounding"
+        "grounding",
+        "psychoeducation"
       ]
     },
     {
@@ -330,8 +338,13 @@
       "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "호흡 연습",
+        "instruction": "하루에 3번, 4-7-8 호흡법을 연습해 보세요. 4초 들이쉬고, 7초 멈추고, 8초 내쉬는 거예요."
+      }
     },
     {
       "speaker": "client",

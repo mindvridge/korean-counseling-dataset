@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.677127+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 1,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "15세",
@@ -36,13 +43,14 @@
     },
     {
       "speaker": "counselor",
-      "text": "전학을 온 지 3개월이 지났는데도 적응이 쉽지 않아서 힘들구나. 새로운 환경에 적응하는 게 생각보다 어렵죠. 어머니께서 걱정하실 만큼 힘든 시간을 보내고 있는 것 같은데, 어떤 부분이 가장 힘든가요?",
+      "text": "전학을 온 지 3개월이 지났는데도 적응이 쉽지 않아서 힘들구나. 새로운 환경에 적응하는 게 생각보다 어렵죠. 어머니께서 걱정하실 만큼 힘든 시간을 보내고 있는 것 같은데, 어떤 부분이 가장 힘든가요? 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "turn": 4,
       "technique": [
         "empathy",
         "emotion_labeling",
         "reflection",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -171,7 +179,8 @@
       "turn": 22,
       "technique": [
         "reframing",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -337,8 +346,13 @@
       "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "speaker": "client",

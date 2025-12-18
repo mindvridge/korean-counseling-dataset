@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:24.805488+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 1,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "14세",
@@ -203,12 +210,13 @@
     {
       "turn": 13,
       "speaker": "counselor",
-      "text": "자신의 인생에 대한 자기결정권을 원하는 거네요. 당연한 욕구예요. 그런데 동시에 부모님을 사랑하고 실망시키고 싶지 않은 마음도 있고요. 두 마음 사이에서 갈등하고 계시는 거죠.",
+      "text": "자신의 인생에 대한 자기결정권을 원하는 거네요. 당연한 욕구예요. 그런데 동시에 부모님을 사랑하고 실망시키고 싶지 않은 마음도 있고요. 두 마음 사이에서 갈등하고 계시는 거죠. 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "technique": [
         "validation",
         "interpretation",
         "reflection",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -394,8 +402,13 @@
         "goal_setting",
         "structuring",
         "behavioral_experiment",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 26,

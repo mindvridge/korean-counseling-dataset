@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "65세",
@@ -23,11 +30,12 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "이렇게 오셔서 마음을 나눠주셔서 감사해요. 편하게 말씀해 주세요. 요즘 어떠세요?",
+      "text": "이렇게 오셔서 마음을 나눠주셔서 감사해요. 편하게 말씀해 주세요. 요즘 어떠세요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
         "empathy",
         "validation",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {

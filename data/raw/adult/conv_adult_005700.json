@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.907450+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "36세",
@@ -123,7 +130,8 @@
       "text": "그 경험 이전과 이후가 확연히 다르시군요. 예전에는 자신감 있게 의견을 내셨던 분이 지금은 매번 망설이고 계신 거네요. 이전에는 어떠셨나요?",
       "turn": 16,
       "technique": [
-        "exploring"
+        "exploring",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -333,8 +341,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "speaker": "client",

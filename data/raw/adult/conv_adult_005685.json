@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.892320+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "45세",
@@ -215,10 +222,11 @@
     {
       "turn": 14,
       "speaker": "counselor",
-      "text": "조언이 싫으시면 '조언보다는 그냥 들어줘'라고 말하면 돼요. 경계를 설정하는 거죠.",
+      "text": "조언이 싫으시면 '조언보다는 그냥 들어줘'라고 말하면 돼요. 경계를 설정하는 거죠. 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "technique": [
         "information_giving",
-        "validation"
+        "validation",
+        "psychoeducation"
       ]
     },
     {
@@ -411,8 +419,13 @@
       "text": "그렇게 말씀해 주셔서 감사해요. 앞으로도 함께 이야기 나눠요.",
       "technique": [
         "validation",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 24,

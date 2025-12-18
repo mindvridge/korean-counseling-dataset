@@ -15,7 +15,14 @@
     ],
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "seed_info": {
     "source_file": "청소년_가족갈등_0016_가정폭력목격",
@@ -63,11 +70,12 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "어머니가 다치셨군요. 많이 놀라고 무서우셨겠어요. 어머니는 지금 괜찮으신가요?",
+      "text": "어머니가 다치셨군요. 많이 놀라고 무서우셨겠어요. 어머니는 지금 괜찮으신가요? 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "technique": [
         "empathy",
         "closed_question",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {

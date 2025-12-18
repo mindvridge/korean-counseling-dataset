@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.876463+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 2,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "50세",
@@ -79,11 +86,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "10년간 쌓아온 경력에도 불구하고 그런 상황을 겪으시면서 무력감을 느끼셨군요. 그런 감정을 느끼시는 것은 자연스러운 반응이에요.",
+      "text": "10년간 쌓아온 경력에도 불구하고 그런 상황을 겪으시면서 무력감을 느끼셨군요. 그런 감정을 느끼시는 것은 자연스러운 반응이에요. 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "turn": 10,
       "technique": [
         "validation",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -332,8 +340,13 @@
       "technique": [
         "homework assignment",
         "behavioral_experiment",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "speaker": "client",

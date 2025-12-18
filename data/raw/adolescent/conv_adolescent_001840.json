@@ -15,11 +15,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "안녕하세요. 만나서 반가워요. 처음 상담실에 오는 게 좀 낯설고 어색할 수 있는데, 편하게 이야기 나눠보면 좋겠어요. 어떻게 지내고 있나요?",
+      "text": "안녕하세요. 만나서 반가워요. 처음 상담실에 오는 게 좀 낯설고 어색할 수 있는데, 편하게 이야기 나눠보면 좋겠어요. 어떻게 지내고 있나요? 불안할 때 나타나는 심장 두근거림, 땀, 호흡곤란 등은 '투쟁-도피 반응'이라고 해요. 몸이 위험에 대비하는 자연스러운 반응이지만, 실제 위험이 없을 때도 나타나면 힘들 수 있죠.",
       "turn": 2,
       "technique": [
         "rapport_building",
-        "empathy"
+        "empathy",
+        "psychoeducation"
       ]
     },
     {
@@ -327,8 +328,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "speaker": "client",
@@ -363,7 +369,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 1,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "16세",

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:27.424627+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 1,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "16세",
@@ -37,11 +44,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "처음엔 망설여졌지만 지금은 자신의 어려움을 나눠보고 싶다는 마음이 생긴 거네요. 용기 내어 와준 것 자체가 정말 대단한 일이에요. 요즘 어떤 점이 가장 힘드신가요?",
+      "text": "처음엔 망설여졌지만 지금은 자신의 어려움을 나눠보고 싶다는 마음이 생긴 거네요. 용기 내어 와준 것 자체가 정말 대단한 일이에요. 요즘 어떤 점이 가장 힘드신가요? 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "turn": 4,
       "technique": [
         "validation",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -334,8 +342,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "호흡 연습",
+        "instruction": "하루에 3번, 4-7-8 호흡법을 연습해 보세요. 4초 들이쉬고, 7초 멈추고, 8초 내쉬는 거예요."
+      }
     },
     {
       "speaker": "client",

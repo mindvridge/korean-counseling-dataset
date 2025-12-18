@@ -46,7 +46,8 @@
       "text": "친구들이 자신만 빼고 만난 걸 소셜미디어로 알게 되었군요. 그걸 봤을 때 어떤 기분이 들었나요?",
       "turn": 6,
       "technique": [
-        "open-ended question"
+        "open-ended question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -71,11 +72,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "그 일 이후로 친구들에게 다가가기가 힘들고, 혹시 자신을 싫어하는 게 아닐까 걱정되는 거네요.",
+      "text": "그 일 이후로 친구들에게 다가가기가 힘들고, 혹시 자신을 싫어하는 게 아닐까 걱정되는 거네요. 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "turn": 10,
       "technique": [
         "reflection",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -321,8 +323,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "speaker": "client",
@@ -357,7 +364,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "14세",

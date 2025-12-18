@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 5,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "family_type": "핵가족",
@@ -37,10 +44,11 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "자녀분과 소통이 어려우시군요. 언제부터 그랬나요?",
+      "text": "자녀분과 소통이 어려우시군요. 언제부터 그랬나요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "technique": [
         "reflection",
-        "closed_question"
+        "closed_question",
+        "psychoeducation"
       ]
     },
     {
@@ -390,8 +398,13 @@
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 24,

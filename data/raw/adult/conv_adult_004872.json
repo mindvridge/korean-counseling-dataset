@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.039721+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "28세",
@@ -37,10 +44,11 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "5년간 혼자 육아를 감당하신 느낌이시군요. 남편분은 육아에 어느 정도 참여하시나요?",
+      "text": "5년간 혼자 육아를 감당하신 느낌이시군요. 남편분은 육아에 어느 정도 참여하시나요? 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "technique": [
         "validation",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -303,7 +311,8 @@
       "text": "아이가 자고 난 후, 두 분이 진정할 수 있는 시간에요. 그리고 '얘기 좀 하자'고 미리 말하는 게 좋아요.",
       "technique": [
         "information_giving",
-        "structuring"
+        "structuring",
+        "cultural_sensitivity"
       ]
     },
     {

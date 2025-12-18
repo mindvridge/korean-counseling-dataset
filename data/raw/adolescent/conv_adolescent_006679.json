@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:25.084628+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 1,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "15세",
@@ -37,12 +44,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "처음엔 망설여졌지만 지금은 힘든 마음을 나누고 싶다는 생각이 드는군요. 용기 내어 솔직하게 말해줘서 고마워요. 어떤 부분이 가장 힘드신가요?",
+      "text": "처음엔 망설여졌지만 지금은 힘든 마음을 나누고 싶다는 생각이 드는군요. 용기 내어 솔직하게 말해줘서 고마워요. 어떤 부분이 가장 힘드신가요? 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "turn": 4,
       "technique": [
         "validation",
         "reflection",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -209,7 +217,8 @@
       "turn": 28,
       "technique": [
         "validation",
-        "reflection"
+        "reflection",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -332,8 +341,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "speaker": "client",

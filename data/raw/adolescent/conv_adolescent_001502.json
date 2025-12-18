@@ -70,12 +70,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "믿을 수 없다는 충격에서 시작해서 분노, 그리고 지금은 슬픔과 무기력함까지 느끼고 있군요. 이런 감정들을 느끼는 게 자연스러운 반응이에요.",
+      "text": "믿을 수 없다는 충격에서 시작해서 분노, 그리고 지금은 슬픔과 무기력함까지 느끼고 있군요. 이런 감정들을 느끼는 게 자연스러운 반응이에요. 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "turn": 10,
       "technique": [
         "validation",
         "emotion_labeling",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -333,8 +334,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "speaker": "client",
@@ -371,7 +377,14 @@
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
     "session_effectiveness": 5,
-    "total_turns": 39
+    "total_turns": 39,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "17세",

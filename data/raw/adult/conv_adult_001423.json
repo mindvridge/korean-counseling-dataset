@@ -122,11 +122,12 @@
     {
       "turn": 8,
       "speaker": "counselor",
-      "text": "과로와 수면 부족 상태에서 공황 발작이 시작됐군요. 몸이 '이제 그만'이라고 신호를 보낸 거예요.",
+      "text": "과로와 수면 부족 상태에서 공황 발작이 시작됐군요. 몸이 '이제 그만'이라고 신호를 보낸 거예요. 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
         "reflection",
         "interpretation",
-        "body_scan"
+        "body_scan",
+        "psychoeducation"
       ]
     },
     {
@@ -407,8 +408,13 @@
         "behavioral_experiment",
         "body_scan",
         "role_play",
-        "relaxation_training"
-      ]
+        "relaxation_training",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 27,
@@ -452,6 +458,13 @@
     "generator": "claude_code_direct",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 3,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   }
 }

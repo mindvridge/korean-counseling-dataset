@@ -15,7 +15,14 @@
     ],
     "therapeutic_outcome": "maintaining",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "seed_info": {
     "source_file": "성인_대인관계_0017_m5n6o7p8",
@@ -63,11 +70,12 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "일대일 대화는 가능하지만 집단 상황이 어려우시군요. 구체적으로 어떤 게 힘드신가요?",
+      "text": "일대일 대화는 가능하지만 집단 상황이 어려우시군요. 구체적으로 어떤 게 힘드신가요? 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "technique": [
         "empathy",
         "reflection",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {

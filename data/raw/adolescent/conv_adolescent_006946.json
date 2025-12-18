@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:25.341926+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "15세",
@@ -232,7 +239,8 @@
       "text": "'나-전달법'은 상대를 비난하지 않으면서 내 감정을 전달하는 방법이에요. '너희가 왜 그랬어?'보다는 '내가 이런 걸 보고 이렇게 느꼈어'라고 말하는 거죠. 예를 들어, '너희가 만난 사진을 보고 나는 섭섭한 마음이 들었어. 혹시 내가 모르는 이유가 있었던 건지 궁금해'라고 말하는 거예요.",
       "turn": 32,
       "technique": [
-        "psychoeducation"
+        "psychoeducation",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -328,8 +336,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "speaker": "client",

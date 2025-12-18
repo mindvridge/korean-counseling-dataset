@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.374000+00:00",
     "therapeutic_outcome": "terminated",
     "rapport_score": 5,
-    "session_effectiveness": 2
+    "session_effectiveness": 2,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "18세",
@@ -64,10 +71,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "중학교에서 고등학교로 올라오면서 많은 변화를 겪고 있는 것 같네요. 특히 공부가 어려워졌다고 느끼고 있고요. 그 외에 또 어떤 것들이 달라졌나요?",
+      "text": "중학교에서 고등학교로 올라오면서 많은 변화를 겪고 있는 것 같네요. 특히 공부가 어려워졌다고 느끼고 있고요. 그 외에 또 어떤 것들이 달라졌나요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "turn": 8,
       "technique": [
-        "open_ended_question"
+        "open_ended_question",
+        "psychoeducation"
       ]
     },
     {
@@ -329,8 +337,13 @@
       "technique": [
         "open_question",
         "empathy",
-        "reflection"
-      ]
+        "reflection",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",

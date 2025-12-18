@@ -6,7 +6,14 @@
     "total_turns": 26,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 1,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "35세",
@@ -254,11 +261,12 @@
     {
       "turn": 16,
       "speaker": "counselor",
-      "text": "오늘 용기 내어 연락해 주셔서 감사해요. 당신은 소중한 사람이에요. 다음에 또 만나요.",
+      "text": "오늘 용기 내어 연락해 주셔서 감사해요. 당신은 소중한 사람이에요. 다음에 또 만나요. 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "technique": [
         "validation",
         "empathy",
-        "encouragement"
+        "encouragement",
+        "psychoeducation"
       ]
     },
     {
@@ -382,8 +390,13 @@
       "technique": [
         "emotion_labeling",
         "empathy",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 25,

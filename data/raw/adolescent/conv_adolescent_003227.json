@@ -42,10 +42,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "아, 그런 일이 있었군요. 자신만 빠진 모임 사진을 소셜미디어에서 보게 된 거네요. 그 순간 어떤 기분이 들었나요?",
+      "text": "아, 그런 일이 있었군요. 자신만 빠진 모임 사진을 소셜미디어에서 보게 된 거네요. 그 순간 어떤 기분이 들었나요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "turn": 6,
       "technique": [
-        "open_ended_question"
+        "open_ended_question",
+        "psychoeducation"
       ]
     },
     {
@@ -322,8 +323,13 @@
       "turn": 46,
       "technique": [
         "empowerment",
-        "emotion_labeling"
-      ]
+        "emotion_labeling",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",
@@ -358,7 +364,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "18세",

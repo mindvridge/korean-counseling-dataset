@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:29.664048+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "35세",
@@ -36,12 +43,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "10년 동안 교직 생활을 하시면서 학생들을 가르치는 일에 보람을 느껴오셨군요. 그런데 최근 몇 달 사이에 출근이 두려워지셨다니, 무언가 큰 변화가 있으셨나 봅니다.",
+      "text": "10년 동안 교직 생활을 하시면서 학생들을 가르치는 일에 보람을 느껴오셨군요. 그런데 최근 몇 달 사이에 출근이 두려워지셨다니, 무언가 큰 변화가 있으셨나 봅니다. 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "turn": 4,
       "technique": [
         "reflection",
         "emotion_labeling",
-        "grounding"
+        "grounding",
+        "psychoeducation"
       ]
     },
     {
@@ -330,8 +338,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "speaker": "client",

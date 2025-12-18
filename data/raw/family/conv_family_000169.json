@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "family_type": "한부모 가정",
@@ -37,10 +44,11 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "자녀분과 소통이 어려우시군요. 언제부터 그랬나요?",
+      "text": "자녀분과 소통이 어려우시군요. 언제부터 그랬나요? 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "technique": [
         "reflection",
-        "closed_question"
+        "closed_question",
+        "psychoeducation"
       ]
     },
     {
@@ -390,8 +398,13 @@
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 24,

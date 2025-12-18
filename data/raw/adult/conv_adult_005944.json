@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:29.157811+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "33세",
@@ -263,7 +270,8 @@
       "text": "본인이 좋아하는 게 뭔가요? 게임, 독서, 운동, 뭐든 좋아요.",
       "technique": [
         "open_question",
-        "encouragement"
+        "encouragement",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -355,8 +363,13 @@
       "text": "네, 그때까지 자신을 잘 돌봐주세요. 응원하고 있을게요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 24,

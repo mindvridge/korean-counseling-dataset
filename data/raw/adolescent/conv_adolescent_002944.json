@@ -171,11 +171,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "지금까지 많이 힘들었을 텐데, 이렇게 상담을 받으러 온 것 자체가 문제를 해결하려는 적극적인 시도예요. 학교에서 동아리 활동이나 특별한 활동을 하고 있나요?",
+      "text": "지금까지 많이 힘들었을 텐데, 이렇게 상담을 받으러 온 것 자체가 문제를 해결하려는 적극적인 시도예요. 학교에서 동아리 활동이나 특별한 활동을 하고 있나요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "turn": 24,
       "technique": [
         "validation",
-        "behavioral_experiment"
+        "behavioral_experiment",
+        "psychoeducation"
       ]
     },
     {
@@ -332,8 +333,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "speaker": "client",
@@ -368,7 +374,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "17세",

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:30.006830+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 4,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "27세",
@@ -89,10 +96,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "업무 과중 상태에서 민원까지 겹치면서 한계에 다다른 거네요. 지금 신체적으로나 정서적으로 어떤 증상들을 경험하고 계신가요?",
+      "text": "업무 과중 상태에서 민원까지 겹치면서 한계에 다다른 거네요. 지금 신체적으로나 정서적으로 어떤 증상들을 경험하고 계신가요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "turn": 12,
       "technique": [
-        "open-ended question"
+        "open-ended question",
+        "psychoeducation"
       ]
     },
     {
@@ -202,7 +210,8 @@
       "text": "맞아요, 그게 쉽지 않죠. 그럴 때 도움이 되는 건 의도적으로 다른 활동을 하는 거예요. 예전에 좋아하셨던 취미나 활동이 있으셨나요?",
       "turn": 28,
       "technique": [
-        "behavioral activation"
+        "behavioral activation",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -326,8 +335,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "speaker": "client",

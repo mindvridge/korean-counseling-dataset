@@ -13,7 +13,14 @@
     ],
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "seed_info": {
     "source_file": "data/seeds/청소년/학업스트레스/seed_0002.json",
@@ -60,11 +67,12 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "전교 상위권인데도 만족하지 못하고 계속 더 잘해야 한다고 느끼는 거네요. 왜 그럴까요?",
+      "text": "전교 상위권인데도 만족하지 못하고 계속 더 잘해야 한다고 느끼는 거네요. 왜 그럴까요? 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "technique": [
         "reflection",
         "open_question",
-        "empathy"
+        "empathy",
+        "psychoeducation"
       ]
     },
     {
@@ -136,7 +144,8 @@
       "text": "기준을 낮추라는 게 아니라, 현실적인 기준을 세우라는 거예요. 그리고 실수를 용납하는 법을 배워야 해요. 완벽한 사람은 없거든요.",
       "technique": [
         "information_giving",
-        "validation"
+        "validation",
+        "cultural_sensitivity"
       ]
     },
     {

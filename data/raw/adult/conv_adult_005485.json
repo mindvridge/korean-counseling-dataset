@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.688603+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "35세",
@@ -66,11 +73,12 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "생계 부담이 큰 상황이시군요. 그 스트레스가 또 불안을 높이는 악순환이에요. 병원은 가보셨나요?",
+      "text": "생계 부담이 큰 상황이시군요. 그 스트레스가 또 불안을 높이는 악순환이에요. 병원은 가보셨나요? 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "technique": [
         "reflection",
         "closed_question",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -452,8 +460,13 @@
       "speaker": "counselor",
       "text": "힘내세요. 함께 이겨낼 수 있어요.",
       "technique": [
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "turn": 31,

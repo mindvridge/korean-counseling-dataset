@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:29.880360+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "29세",
@@ -191,12 +198,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "훌륭한 접근이에요. 반대 의견을 위협이 아닌 더 나은 결정을 위한 기회로 보는 관점이네요. 이런 태도로 접근한다면 어떤 변화가 있을 것 같으세요?",
+      "text": "훌륭한 접근이에요. 반대 의견을 위협이 아닌 더 나은 결정을 위한 기회로 보는 관점이네요. 이런 태도로 접근한다면 어떤 변화가 있을 것 같으세요? 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "turn": 26,
       "technique": [
         "positive reinforcement",
         "emotion_labeling",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -329,8 +337,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "speaker": "client",

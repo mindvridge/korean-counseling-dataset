@@ -8,7 +8,20 @@
     "case_id": "case_0039",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 3,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "7회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": true,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "25세",
@@ -81,10 +94,11 @@
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "이번 주에는 오늘 이야기한 것을 생각해보시고, 다음 시간에 나눠요.",
+      "text": "이번 주에는 오늘 이야기한 것을 생각해보시고, 다음 시간에 나눠요. 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "technique": [
         "structuring",
-        "goal_setting"
+        "goal_setting",
+        "psychoeducation"
       ]
     },
     {
@@ -336,8 +350,13 @@
       "text": "혹시 그 전에 힘들면 언제든 연락 주세요.",
       "technique": [
         "encouragement",
-        "safety_planning"
-      ]
+        "safety_planning",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "turn": 24,

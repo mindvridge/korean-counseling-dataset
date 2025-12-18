@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "family_type": "3세대 가족",
@@ -22,11 +29,12 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "가족 안에서 힘든 일이 있으시군요. 각 가족 구성원이 어떻게 느끼고 있는지 함께 살펴볼까요?",
+      "text": "가족 안에서 힘든 일이 있으시군요. 각 가족 구성원이 어떻게 느끼고 있는지 함께 살펴볼까요? 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "technique": [
         "empathy",
         "structuring",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -288,7 +296,8 @@
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
+        "role_play",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -390,8 +399,13 @@
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "turn": 24,

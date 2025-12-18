@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:31.723101+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 1,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "50세",
@@ -127,11 +134,12 @@
     {
       "turn": 8,
       "speaker": "counselor",
-      "text": "분노에서 자괴감으로 이어졌네요. 이별의 이유가 무엇이었나요?",
+      "text": "분노에서 자괴감으로 이어졌네요. 이별의 이유가 무엇이었나요? 우리 뇌는 위협적인 경험을 특별한 방식으로 저장합니다. 그래서 비슷한 상황에서 과거의 감정이 되살아나는 것이죠. 이것은 뇌의 보호 기제예요.",
       "technique": [
         "reflection",
         "open_question",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -244,7 +252,8 @@
       "text": "상대는 회복한 것처럼 보이니 본인만 힘든 것 같아서 더 괴로우신 거죠. 이별 회복을 위해 첫 번째로 필요한 건 '연결 끊기'예요.",
       "technique": [
         "empathy",
-        "information_giving"
+        "information_giving",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -343,8 +352,13 @@
       "text": "그 마음 잘 간직하세요. 회복은 직선이 아니라 곡선이에요. 나쁜 날도 있지만 결국 나아질 거예요.",
       "technique": [
         "encouragement",
-        "information_giving"
-      ]
+        "information_giving",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 24,

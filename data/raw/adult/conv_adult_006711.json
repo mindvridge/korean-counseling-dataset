@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:29.923299+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "23세",
@@ -83,10 +90,11 @@
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "감정을 억누르다가 쌓이는 패턴이네요. 그렇게 참다가 어떻게 되나요?",
+      "text": "감정을 억누르다가 쌓이는 패턴이네요. 그렇게 참다가 어떻게 되나요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "technique": [
         "reflection",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {

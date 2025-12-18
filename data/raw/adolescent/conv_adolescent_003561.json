@@ -114,10 +114,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "이 문제가 밤잠까지 방해할 정도로 많이 힘들었겠어요. 혼자서 이런 고민을 안고 있기가 정말 어려웠을 텐데, 오늘 용기 내서 이야기해줘서 고마워요.",
+      "text": "이 문제가 밤잠까지 방해할 정도로 많이 힘들었겠어요. 혼자서 이런 고민을 안고 있기가 정말 어려웠을 텐데, 오늘 용기 내서 이야기해줘서 고마워요. 우리 뇌는 위협적인 경험을 특별한 방식으로 저장합니다. 그래서 비슷한 상황에서 과거의 감정이 되살아나는 것이죠. 이것은 뇌의 보호 기제예요.",
       "turn": 16,
       "technique": [
-        "empathy"
+        "empathy",
+        "psychoeducation"
       ]
     },
     {
@@ -325,8 +326,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",
@@ -361,7 +367,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 4,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "15세",

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:29.962364+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "45세",
@@ -42,7 +49,8 @@
       "turn": 4,
       "technique": [
         "reflection",
-        "empathy"
+        "empathy",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -93,12 +101,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "학생들의 태도 변화도 선생님께 어려움을 더하고 있군요. 교사로서 해야 할 역할과 실제 상황 사이에서 갈등을 느끼고 계신 것 같습니다.",
+      "text": "학생들의 태도 변화도 선생님께 어려움을 더하고 있군요. 교사로서 해야 할 역할과 실제 상황 사이에서 갈등을 느끼고 계신 것 같습니다. 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "turn": 12,
       "technique": [
         "empathy",
         "reflection",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -332,8 +341,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "speaker": "client",

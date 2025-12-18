@@ -87,10 +87,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "동기분에게 상사로서 대해야 하는 상황이 감정적으로 부담이 되시는군요. 그럴 때 구체적으로 어떤 감정이 드시나요?",
+      "text": "동기분에게 상사로서 대해야 하는 상황이 감정적으로 부담이 되시는군요. 그럴 때 구체적으로 어떤 감정이 드시나요? 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "turn": 12,
       "technique": [
-        "exploration"
+        "exploration",
+        "psychoeducation"
       ]
     },
     {
@@ -331,8 +332,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "호흡 연습",
+        "instruction": "하루에 3번, 4-7-8 호흡법을 연습해 보세요. 4초 들이쉬고, 7초 멈추고, 8초 내쉬는 거예요."
+      }
     },
     {
       "speaker": "client",
@@ -367,7 +373,14 @@
     "seed_category": "adult",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "35세",

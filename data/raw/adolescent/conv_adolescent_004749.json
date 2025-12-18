@@ -85,12 +85,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "밥을 거르면서까지 도서관에 있는 게 더 편하다고 느껴질 만큼 힘든 상황이었군요. 그런 선택을 할 수밖에 없었던 마음이 이해가 돼요.",
+      "text": "밥을 거르면서까지 도서관에 있는 게 더 편하다고 느껴질 만큼 힘든 상황이었군요. 그런 선택을 할 수밖에 없었던 마음이 이해가 돼요. 우리 뇌는 위협적인 경험을 특별한 방식으로 저장합니다. 그래서 비슷한 상황에서 과거의 감정이 되살아나는 것이죠. 이것은 뇌의 보호 기제예요.",
       "turn": 12,
       "technique": [
         "validation",
         "reflection",
-        "grounding"
+        "grounding",
+        "psychoeducation"
       ]
     },
     {
@@ -132,7 +133,8 @@
       "text": "전혀 이상한 게 아니에요. 새로운 환경에 적응하는 속도는 사람마다 다르고, 이전 관계가 소중했을수록 더 어려울 수 있어요. 지금 느끼는 감정들은 아주 자연스러운 거예요.",
       "turn": 18,
       "technique": [
-        "normalization"
+        "normalization",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -341,8 +343,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "speaker": "client",
@@ -379,7 +386,14 @@
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
     "session_effectiveness": 5,
-    "total_turns": 42
+    "total_turns": 42,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 3,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "14세",

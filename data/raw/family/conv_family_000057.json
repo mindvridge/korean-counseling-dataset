@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "family_type": "핵가족",
@@ -66,11 +73,12 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "걱정이 많으시네요. 아이의 입장에서는 어떨 것 같으세요?",
+      "text": "걱정이 많으시네요. 아이의 입장에서는 어떨 것 같으세요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "technique": [
         "empathy",
         "validation",
-        "perspective_taking"
+        "perspective_taking",
+        "psychoeducation"
       ]
     },
     {
@@ -390,8 +398,13 @@
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 24,

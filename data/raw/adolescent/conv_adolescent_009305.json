@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:27.785202+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 5,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "14세",
@@ -250,11 +257,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "많은 학교에 e스포츠나 게임 관련 동아리가 있어요. 한번 알아보는 것도 좋을 것 같아요. 공통 관심사가 있으면 대화 시작이 훨씬 쉬워지거든요. 이런 방법에 대해 어떻게 생각하나요?",
+      "text": "많은 학교에 e스포츠나 게임 관련 동아리가 있어요. 한번 알아보는 것도 좋을 것 같아요. 공통 관심사가 있으면 대화 시작이 훨씬 쉬워지거든요. 이런 방법에 대해 어떻게 생각하나요? 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "turn": 34,
       "technique": [
         "suggestion",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -342,8 +350,13 @@
         "positive_feedback",
         "behavioral_experiment",
         "mindfulness",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",

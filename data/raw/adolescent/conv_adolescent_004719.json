@@ -29,11 +29,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "친구들과 함께 있어도 외로움을 느끼고 계시는군요. 그런 감정이 드는 게 많이 힘드셨겠어요.",
+      "text": "친구들과 함께 있어도 외로움을 느끼고 계시는군요. 그런 감정이 드는 게 많이 힘드셨겠어요. 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "turn": 4,
       "technique": [
         "reflection",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -375,7 +376,14 @@
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
     "session_effectiveness": 4,
-    "total_turns": 41
+    "total_turns": 41,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 4,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "16세",

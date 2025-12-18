@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "family_type": "한부모 가정",
@@ -214,13 +221,14 @@
     {
       "turn": 13,
       "speaker": "counselor",
-      "text": "새로운 관점이 도움이 되셨으면 해요. 이번 주에 아이와 5분만 대화해보시겠어요?",
+      "text": "새로운 관점이 도움이 되셨으면 해요. 이번 주에 아이와 5분만 대화해보시겠어요? 불안할 때 나타나는 심장 두근거림, 땀, 호흡곤란 등은 '투쟁-도피 반응'이라고 해요. 몸이 위험에 대비하는 자연스러운 반응이지만, 실제 위험이 없을 때도 나타나면 힘들 수 있죠.",
       "technique": [
         "validation",
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -390,8 +398,13 @@
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "turn": 24,

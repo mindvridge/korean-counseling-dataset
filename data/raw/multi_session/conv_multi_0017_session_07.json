@@ -8,7 +8,20 @@
     "case_id": "case_0017",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "7회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": true,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "38세",
@@ -221,10 +234,11 @@
     {
       "turn": 15,
       "speaker": "counselor",
-      "text": "좋아요. 천천히 해보세요.",
+      "text": "좋아요. 천천히 해보세요. 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
         "encouragement",
-        "validation"
+        "validation",
+        "psychoeducation"
       ]
     },
     {
@@ -336,8 +350,13 @@
       "text": "그렇게 느끼신다니 다행이에요.",
       "technique": [
         "empathy",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 24,

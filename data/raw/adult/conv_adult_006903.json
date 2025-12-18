@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:30.119119+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "45세",
@@ -84,13 +91,14 @@
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "정직하게 말씀해주셨네요. 불안할 때는 중립적인 표정도 부정적으로 해석하게 되거든요. 지금 온라인 쇼핑몰 운영하신다고 하셨는데, 대면 접촉이 전혀 없나요?",
+      "text": "정직하게 말씀해주셨네요. 불안할 때는 중립적인 표정도 부정적으로 해석하게 되거든요. 지금 온라인 쇼핑몰 운영하신다고 하셨는데, 대면 접촉이 전혀 없나요? 불안할 때 나타나는 심장 두근거림, 땀, 호흡곤란 등은 '투쟁-도피 반응'이라고 해요. 몸이 위험에 대비하는 자연스러운 반응이지만, 실제 위험이 없을 때도 나타나면 힘들 수 있죠.",
       "technique": [
         "validation",
         "information_giving",
         "clarification",
         "emotion_labeling",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -369,8 +377,13 @@
       "text": "혼자 해결하려고 하지 않으셔도 돼요. 함께 방법을 찾아볼게요.",
       "technique": [
         "empathy",
-        "encouragement"
-      ]
+        "encouragement",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "자기돌봄 활동",
+        "instruction": "이번 주에 자신을 위한 시간을 30분이라도 만들어 보세요. 산책, 목욕, 좋아하는 음악 듣기 등 무엇이든 좋아요."
+      }
     },
     {
       "turn": 24,

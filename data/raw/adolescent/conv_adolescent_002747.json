@@ -210,10 +210,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "거절이나 부정적인 대답이 두렵군요. 그런데 지금 이 불확실한 상황에서 계속 혼자 고민하는 것과, 용기 내어 물어보고 명확히 아는 것 중에서 어느 쪽이 당신에게 더 도움이 될까요?",
+      "text": "거절이나 부정적인 대답이 두렵군요. 그런데 지금 이 불확실한 상황에서 계속 혼자 고민하는 것과, 용기 내어 물어보고 명확히 아는 것 중에서 어느 쪽이 당신에게 더 도움이 될까요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "turn": 30,
       "technique": [
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -360,7 +361,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 4,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "14세",

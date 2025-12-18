@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:29.256107+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "45세",
@@ -77,12 +84,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "예전의 자신과 지금의 자신이 달라진 모습에 당황스러움과 죄책감을 느끼고 계시는 것 같네요. 그런 변화를 인식하는 것 자체가 쉽지 않은 일인데, 그걸 알아차리고 계신 거예요.",
+      "text": "예전의 자신과 지금의 자신이 달라진 모습에 당황스러움과 죄책감을 느끼고 계시는 것 같네요. 그런 변화를 인식하는 것 자체가 쉽지 않은 일인데, 그걸 알아차리고 계신 거예요. 우리 뇌는 위협적인 경험을 특별한 방식으로 저장합니다. 그래서 비슷한 상황에서 과거의 감정이 되살아나는 것이죠. 이것은 뇌의 보호 기제예요.",
       "turn": 10,
       "technique": [
         "empathy",
         "emotion_labeling",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -326,8 +334,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "speaker": "client",

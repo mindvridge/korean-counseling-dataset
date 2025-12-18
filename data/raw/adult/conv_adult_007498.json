@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:30.688578+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 2,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "25세",
@@ -128,10 +135,11 @@
     {
       "turn": 8,
       "speaker": "counselor",
-      "text": "15년이 지났지만 트라우마가 여전히 남아있군요. 그때의 본인과 지금의 본인은 같은 사람일까요?",
+      "text": "15년이 지났지만 트라우마가 여전히 남아있군요. 그때의 본인과 지금의 본인은 같은 사람일까요? 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "technique": [
         "validation",
-        "confrontation"
+        "confrontation",
+        "psychoeducation"
       ]
     },
     {
@@ -347,8 +355,13 @@
       "text": "네, 많은 분들이 상담을 통해 변화를 경험하세요. 천천히 함께 해봐요.",
       "technique": [
         "encouragement",
-        "information_giving"
-      ]
+        "information_giving",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "turn": 24,

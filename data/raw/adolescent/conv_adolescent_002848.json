@@ -29,11 +29,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "지민이라는 이름 참 예쁘네요. 처음이라 긴장되는 게 당연해요. 여기는 편하게 이야기할 수 있는 공간이니까 천천히 얘기해주면 돼요. 오늘 어떤 이야기를 나누고 싶나요?",
+      "text": "지민이라는 이름 참 예쁘네요. 처음이라 긴장되는 게 당연해요. 여기는 편하게 이야기할 수 있는 공간이니까 천천히 얘기해주면 돼요. 오늘 어떤 이야기를 나누고 싶나요? 우리 뇌는 위협적인 경험을 특별한 방식으로 저장합니다. 그래서 비슷한 상황에서 과거의 감정이 되살아나는 것이죠. 이것은 뇌의 보호 기제예요.",
       "turn": 4,
       "technique": [
         "empathy",
-        "body_scan"
+        "body_scan",
+        "psychoeducation"
       ]
     },
     {
@@ -322,8 +323,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",
@@ -358,7 +364,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "16세",

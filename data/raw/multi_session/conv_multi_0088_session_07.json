@@ -8,7 +8,20 @@
     "case_id": "case_0088",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 1,
+      "achievement_status": "부분 달성",
+      "key_insights": "7회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": true,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "45세",
@@ -19,10 +32,11 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "반가워요. 지난 상담 이후 한 주 동안 어떠셨나요?",
+      "text": "반가워요. 지난 상담 이후 한 주 동안 어떠셨나요? 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "technique": [
         "structuring",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -196,7 +210,8 @@
       "text": "좋아요. 천천히 해보세요.",
       "technique": [
         "encouragement",
-        "validation"
+        "validation",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -336,8 +351,13 @@
       "text": "혹시 그 전에 힘들면 언제든 연락 주세요.",
       "technique": [
         "encouragement",
-        "safety_planning"
-      ]
+        "safety_planning",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 24,

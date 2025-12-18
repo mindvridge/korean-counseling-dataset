@@ -8,7 +8,14 @@
     "case_id": "case_0101",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "2회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "45세",
@@ -19,10 +26,11 @@
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 지난주 이후로 어떻게 지내셨어요?",
+      "text": "안녕하세요. 지난주 이후로 어떻게 지내셨어요? 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "technique": [
         "structuring",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {

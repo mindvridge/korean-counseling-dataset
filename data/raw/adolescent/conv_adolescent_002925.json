@@ -15,12 +15,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "안녕하세요. 만나서 반가워요. 편하게 앉으세요. 어머니께서 상담을 권유하셨군요. 지금 기분이 어떤가요?",
+      "text": "안녕하세요. 만나서 반가워요. 편하게 앉으세요. 어머니께서 상담을 권유하셨군요. 지금 기분이 어떤가요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "turn": 2,
       "technique": [
         "rapport_building",
         "empathy",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -74,7 +75,8 @@
       "text": "부모님의 반응 때문에 집에서 더욱 힘들어진 거네요. 그래서 게임에 더 몰두하게 된 건가요?",
       "turn": 10,
       "technique": [
-        "empathy"
+        "empathy",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -356,7 +358,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "17세",

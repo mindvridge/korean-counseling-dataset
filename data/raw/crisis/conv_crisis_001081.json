@@ -6,7 +6,14 @@
     "total_turns": 27,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "28세",
@@ -53,12 +60,13 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "혼자 계시는 상황에서 이렇게 힘든 마음을 말씀해 주셔서 용기 있으시다고 생각해요. 지금 자해나 자살에 대한 구체적인 생각이 있으신가요?",
+      "text": "혼자 계시는 상황에서 이렇게 힘든 마음을 말씀해 주셔서 용기 있으시다고 생각해요. 지금 자해나 자살에 대한 구체적인 생각이 있으신가요? 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "technique": [
         "validation",
         "empathy",
         "risk_assessment",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -398,8 +406,13 @@
         "validation",
         "empathy",
         "crisis_intervention",
-        "cognitive_restructuring"
-      ]
+        "cognitive_restructuring",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "호흡 연습",
+        "instruction": "하루에 3번, 4-7-8 호흡법을 연습해 보세요. 4초 들이쉬고, 7초 멈추고, 8초 내쉬는 거예요."
+      }
     },
     {
       "turn": 26,

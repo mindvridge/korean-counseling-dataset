@@ -8,7 +8,20 @@
     "case_id": "case_0002",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "8회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": false,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "38세",
@@ -84,7 +97,8 @@
       "text": "좋아요. 천천히 해보세요.",
       "technique": [
         "encouragement",
-        "validation"
+        "validation",
+        "cultural_sensitivity"
       ]
     },
     {

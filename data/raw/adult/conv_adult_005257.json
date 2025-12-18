@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.450890+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "23세",
@@ -433,8 +440,13 @@
       "text": "4년간 열심히 일하신 만큼, 이제는 본인 건강도 챙기셔야 해요. 일을 잘하려면 먼저 건강해야 한다는 걸 기억하세요.",
       "technique": [
         "validation",
-        "information_giving"
-      ]
+        "information_giving",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 30,

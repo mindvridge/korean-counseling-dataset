@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:27.058220+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "18세",
@@ -67,11 +74,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "친한 친구들이 갑자기 태도가 달라지고 단체 채팅방에서도 제외되었다니, 정말 힘들고 당황스러웠겠어요. 언제부터 이런 일이 시작되었나요?",
+      "text": "친한 친구들이 갑자기 태도가 달라지고 단체 채팅방에서도 제외되었다니, 정말 힘들고 당황스러웠겠어요. 언제부터 이런 일이 시작되었나요? 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "turn": 8,
       "technique": [
         "empathy",
-        "miracle_question"
+        "miracle_question",
+        "psychoeducation"
       ]
     },
     {
@@ -332,8 +340,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "감사일기 쓰기",
+        "instruction": "매일 잠들기 전에 오늘 감사했던 일 3가지를 적어보세요. 아무리 작은 것이라도 괜찮아요."
+      }
     },
     {
       "speaker": "client",

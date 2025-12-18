@@ -8,7 +8,20 @@
     "case_id": "case_0104",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 1,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "7회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": false,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "32세",
@@ -38,10 +51,11 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "자신감이 생기셨군요. 앞으로 어려운 상황이 오면 어떻게 대처하실 건가요?",
+      "text": "자신감이 생기셨군요. 앞으로 어려운 상황이 오면 어떻게 대처하실 건가요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "technique": [
         "validation",
-        "coping_question"
+        "coping_question",
+        "psychoeducation"
       ]
     },
     {
@@ -336,8 +350,13 @@
       "text": "이번 주에는 오늘 이야기한 것을 생각해보시고, 다음 시간에 나눠요.",
       "technique": [
         "structuring",
-        "goal_setting"
-      ]
+        "goal_setting",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 24,

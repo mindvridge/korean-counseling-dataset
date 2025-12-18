@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.370657+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 1,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "23세",
@@ -68,10 +75,11 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "나이가 들면서 점점 소외되는 느낌을 받고 계시는군요. 그런 발언을 하는 사람들은 주로 누구인가요?",
+      "text": "나이가 들면서 점점 소외되는 느낌을 받고 계시는군요. 그런 발언을 하는 사람들은 주로 누구인가요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "technique": [
         "reflection",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -370,8 +378,13 @@
       "text": "훌륭한 결심이에요. 쉽지 않은 과정이 될 수 있어요. 하지만 당신은 혼자가 아니에요. 같은 처지의 동료들이 있고, 법과 제도도 당신 편이에요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 25,

@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 1,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "family_type": "3세대 가족",
@@ -214,13 +221,14 @@
     {
       "turn": 13,
       "speaker": "counselor",
-      "text": "새로운 관점이 도움이 되셨으면 해요. 이번 주에 아이와 5분만 대화해보시겠어요?",
+      "text": "새로운 관점이 도움이 되셨으면 해요. 이번 주에 아이와 5분만 대화해보시겠어요? 우리 뇌는 위협적인 경험을 특별한 방식으로 저장합니다. 그래서 비슷한 상황에서 과거의 감정이 되살아나는 것이죠. 이것은 뇌의 보호 기제예요.",
       "technique": [
         "validation",
         "behavioral_experiment",
         "goal_setting",
         "empty_chair",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {

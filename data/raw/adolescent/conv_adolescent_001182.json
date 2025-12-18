@@ -116,7 +116,8 @@
       "turn": 16,
       "technique": [
         "reflection",
-        "emotion_labeling"
+        "emotion_labeling",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -251,12 +252,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "예를 들어, 그 옆자리 친구가 다음에 또 말을 걸면, '고마워' 한마디에 미소를 더해보는 거예요. 아주 작은 반응부터 시작하는 거죠. 어떤가요?",
+      "text": "예를 들어, 그 옆자리 친구가 다음에 또 말을 걸면, '고마워' 한마디에 미소를 더해보는 거예요. 아주 작은 반응부터 시작하는 거죠. 어떤가요? 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "turn": 36,
       "technique": [
         "behavioral_suggestion",
         "behavioral_experiment",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -324,8 +326,13 @@
       "text": "진심 어린 마음을 나누는 게 부담이 되기보다는 관계를 더 깊게 만들 수 있어요. 그리고 만약 그 친구들이 정말 너를 아끼는 친구라면, 네 마음을 이해해주고 응원해줄 거예요.",
       "turn": 46,
       "technique": [
-        "reassurance"
-      ]
+        "reassurance",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "speaker": "client",
@@ -361,7 +368,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 4,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "16세",

@@ -7,7 +7,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "terminated",
     "rapport_score": 2,
-    "session_effectiveness": 2
+    "session_effectiveness": 2,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "42세",
@@ -112,11 +119,12 @@
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "오늘 용기 내어 말씀해 주셔서 감사해요. 천천히 함께 해봐요.",
+      "text": "오늘 용기 내어 말씀해 주셔서 감사해요. 천천히 함께 해봐요. 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "technique": [
         "validation",
         "encouragement",
-        "rapport_building"
+        "rapport_building",
+        "psychoeducation"
       ]
     },
     {

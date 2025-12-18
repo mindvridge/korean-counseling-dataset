@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:30.845964+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 5,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "38세",
@@ -68,11 +75,12 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "한 달 전부터 프로젝트가 늘어나면서 변화가 시작됐군요. 지금 3개 프로젝트를 혼자 담당하고 계신가요?",
+      "text": "한 달 전부터 프로젝트가 늘어나면서 변화가 시작됐군요. 지금 3개 프로젝트를 혼자 담당하고 계신가요? 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "technique": [
         "reflection",
         "closed_question",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -434,8 +442,13 @@
       "text": "4년간 열심히 일하신 만큼, 이제는 본인 건강도 챙기셔야 해요. 일을 잘하려면 먼저 건강해야 한다는 걸 기억하세요.",
       "technique": [
         "validation",
-        "information_giving"
-      ]
+        "information_giving",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 30,

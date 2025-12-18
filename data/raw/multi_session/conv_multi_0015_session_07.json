@@ -8,7 +8,20 @@
     "case_id": "case_0015",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 4,
+      "achievement_status": "부분 달성",
+      "key_insights": "7회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": false,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "45세",
@@ -336,8 +349,13 @@
       "text": "혹시 그 전에 힘들면 언제든 연락 주세요.",
       "technique": [
         "encouragement",
-        "safety_planning"
-      ]
+        "safety_planning",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "turn": 24,

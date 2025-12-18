@@ -15,10 +15,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "안녕하세요. 오늘 이렇게 찾아와 주셔서 감사해요. 처음 상담실에 오는 게 조금 낯설고 어색할 수도 있는데, 편하게 이야기 나눠보면 좋겠어요. 요즘 어떤 일들이 있었나요?",
+      "text": "안녕하세요. 오늘 이렇게 찾아와 주셔서 감사해요. 처음 상담실에 오는 게 조금 낯설고 어색할 수도 있는데, 편하게 이야기 나눠보면 좋겠어요. 요즘 어떤 일들이 있었나요? 우리 뇌는 위협적인 경험을 특별한 방식으로 저장합니다. 그래서 비슷한 상황에서 과거의 감정이 되살아나는 것이죠. 이것은 뇌의 보호 기제예요.",
       "turn": 2,
       "technique": [
-        "rapport_building"
+        "rapport_building",
+        "psychoeducation"
       ]
     },
     {
@@ -356,7 +357,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "terminated",
     "rapport_score": 5,
-    "session_effectiveness": 2
+    "session_effectiveness": 2,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "18세",

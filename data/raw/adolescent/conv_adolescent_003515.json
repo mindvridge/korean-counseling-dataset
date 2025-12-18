@@ -157,11 +157,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "거절당할까봐 두려운 마음, 충분히 이해해요. 그런데 지금처럼 확인하지 않은 채로 혼자 추측하는 것과, 용기내어 물어보는 것 중 어느 쪽이 더 힘들까요?",
+      "text": "거절당할까봐 두려운 마음, 충분히 이해해요. 그런데 지금처럼 확인하지 않은 채로 혼자 추측하는 것과, 용기내어 물어보는 것 중 어느 쪽이 더 힘들까요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "turn": 22,
       "technique": [
         "socratic_questioning",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -328,8 +329,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",
@@ -364,7 +370,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 5,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "15세",

@@ -56,11 +56,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "이전 학교 친구들과의 관계도 예전 같지 않아서 더 힘들겠어요. 새로운 곳에서도 어렵고, 기대했던 옛 친구들과도 멀어지는 느낌이라니 정말 외로웠겠네요.",
+      "text": "이전 학교 친구들과의 관계도 예전 같지 않아서 더 힘들겠어요. 새로운 곳에서도 어렵고, 기대했던 옛 친구들과도 멀어지는 느낌이라니 정말 외로웠겠네요. 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "turn": 8,
       "technique": [
         "validation",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -377,7 +378,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 2,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "14세",

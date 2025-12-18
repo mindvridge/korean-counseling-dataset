@@ -7,7 +7,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "terminated",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "42세",
@@ -52,11 +59,12 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "힘드시다는 걸 말씀해 주셔서 고마워요. 어떤 부분이 가장 힘드세요?",
+      "text": "힘드시다는 걸 말씀해 주셔서 고마워요. 어떤 부분이 가장 힘드세요? 불안은 생각, 감정, 신체반응, 행동이 서로 연결되어 있어요. 이 중 하나를 바꾸면 다른 것들도 함께 변화할 수 있습니다.",
       "technique": [
         "validation",
         "empathy",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {

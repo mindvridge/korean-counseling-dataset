@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:30.784619+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 5,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "38세",
@@ -53,7 +60,8 @@
       "text": "처음의 열정과 의미가 지금은 많이 달라지셨다는 느낌이시군요. 언제부터 이런 변화를 느끼셨나요?",
       "turn": 6,
       "technique": [
-        "reflection"
+        "reflection",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -190,11 +198,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "학생들과의 관계를 개선하고 싶으시군요. 그건 선생님께서 여전히 교사로서의 가치를 중요하게 여기신다는 의미이기도 해요. 혹시 짜증이 날 때 어떤 상황이 특히 더 힘드신가요?",
+      "text": "학생들과의 관계를 개선하고 싶으시군요. 그건 선생님께서 여전히 교사로서의 가치를 중요하게 여기신다는 의미이기도 해요. 혹시 짜증이 날 때 어떤 상황이 특히 더 힘드신가요? 우울증은 단순한 슬픔이 아니라 뇌의 신경전달물질 불균형과 관련된 의학적 상태입니다. 누구에게나 일어날 수 있고, 적절한 치료로 호전될 수 있어요.",
       "turn": 26,
       "technique": [
         "reframing",
-        "emotion_labeling"
+        "emotion_labeling",
+        "psychoeducation"
       ]
     },
     {
@@ -326,8 +335,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",

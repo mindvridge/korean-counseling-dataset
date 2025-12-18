@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "in_progress",
     "rapport_score": 5,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "68세",
@@ -219,11 +226,12 @@
     {
       "turn": 14,
       "speaker": "counselor",
-      "text": "좋은 변화예요. 이번 주에 손주들과 시간을 보내보시는 건 어떨까요?",
+      "text": "좋은 변화예요. 이번 주에 손주들과 시간을 보내보시는 건 어떨까요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "technique": [
         "encouragement",
         "validation",
-        "behavioral_activation"
+        "behavioral_activation",
+        "psychoeducation"
       ]
     },
     {

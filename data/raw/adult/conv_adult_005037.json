@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.206133+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 1,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "자기 이해 증진"
+    }
   },
   "client_profile": {
     "age": "27세",
@@ -96,10 +103,11 @@
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "본인에게만 유독 그렇다는 게 더 괴롭고 혼란스러우시겠어요. 혹시 왜 그런 것 같은지 짐작이 가시나요?",
+      "text": "본인에게만 유독 그렇다는 게 더 괴롭고 혼란스러우시겠어요. 혹시 왜 그런 것 같은지 짐작이 가시나요? 스트레스를 받으면 코르티솔이라는 호르몬이 분비됩니다. 이것이 지속되면 면역력 저하, 수면 문제, 소화 장애 등이 나타날 수 있어요.",
       "technique": [
         "validation",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -432,8 +440,13 @@
         "goal_setting",
         "reflection",
         "cognitive_restructuring",
-        "behavioral_experiment"
-      ]
+        "behavioral_experiment",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 30,

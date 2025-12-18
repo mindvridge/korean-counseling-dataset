@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:25.291957+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 3,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "16세",
@@ -119,12 +126,13 @@
     },
     {
       "speaker": "counselor",
-      "text": "자신이 예민한 건지 의문이 들면서도, 동시에 이런 생각과 감정들이 계속되니까 힘든 상황이네요. 친구들에게 직접 물어보거나 이야기해본 적은 있나요?",
+      "text": "자신이 예민한 건지 의문이 들면서도, 동시에 이런 생각과 감정들이 계속되니까 힘든 상황이네요. 친구들에게 직접 물어보거나 이야기해본 적은 있나요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "turn": 16,
       "technique": [
         "validation",
         "reflection",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -206,7 +214,8 @@
       "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "turn": 28,
       "technique": [
-        "socratic_questioning"
+        "socratic_questioning",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -332,8 +341,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "speaker": "client",

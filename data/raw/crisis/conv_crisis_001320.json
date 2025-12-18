@@ -6,7 +6,14 @@
     "total_turns": 26,
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "19세",
@@ -148,11 +155,12 @@
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "조금이라도 마음이 편해지셨다니 다행이에요. 앞으로 힘들 때 연락할 수 있는 곳을 알려드릴게요. 자살예방상담전화 1393은 24시간 운영돼요.",
+      "text": "조금이라도 마음이 편해지셨다니 다행이에요. 앞으로 힘들 때 연락할 수 있는 곳을 알려드릴게요. 자살예방상담전화 1393은 24시간 운영돼요. 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
         "validation",
         "resource_connection",
-        "safety_planning"
+        "safety_planning",
+        "psychoeducation"
       ]
     },
     {

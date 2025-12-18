@@ -28,11 +28,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "그 사진을 보았을 때 많이 속상했겠어요. 자신만 빠져 있다는 걸 알게 되면 정말 마음이 아프죠.",
+      "text": "그 사진을 보았을 때 많이 속상했겠어요. 자신만 빠져 있다는 걸 알게 되면 정말 마음이 아프죠. 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "turn": 4,
       "technique": [
         "empathy",
-        "reflection"
+        "reflection",
+        "psychoeducation"
       ]
     },
     {
@@ -362,7 +363,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "terminated",
     "rapport_score": 3,
-    "session_effectiveness": 2
+    "session_effectiveness": 2,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "17세",

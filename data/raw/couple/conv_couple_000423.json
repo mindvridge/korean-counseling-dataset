@@ -6,7 +6,14 @@
     "total_turns": 26,
     "therapeutic_outcome": "maintaining",
     "rapport_score": 3,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "couple_type": "재혼부부",
@@ -40,7 +47,8 @@
       "text": "말이 전달되지 않는다고 느끼시는군요. 남편분은 어떻게 생각하세요?",
       "technique": [
         "reflection",
-        "open_question"
+        "open_question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -65,11 +73,12 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "중요한 통찰이에요. 사랑의 표현 방식이 다를 수 있어요. 각자 어떤 방식으로 사랑받고 싶으세요?",
+      "text": "중요한 통찰이에요. 사랑의 표현 방식이 다를 수 있어요. 각자 어떤 방식으로 사랑받고 싶으세요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "technique": [
         "validation",
         "reframing",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {

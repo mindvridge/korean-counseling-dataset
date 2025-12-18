@@ -15,11 +15,12 @@
     },
     {
       "speaker": "counselor",
-      "text": "안녕하세요. 편하게 앉으세요. 오늘 이렇게 상담실을 찾아와 주셔서 고마워요. 어떤 이야기를 나누고 싶으신가요?",
+      "text": "안녕하세요. 편하게 앉으세요. 오늘 이렇게 상담실을 찾아와 주셔서 고마워요. 어떤 이야기를 나누고 싶으신가요? 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "turn": 2,
       "technique": [
         "rapport_building",
-        "empathy"
+        "empathy",
+        "psychoeducation"
       ]
     },
     {
@@ -319,8 +320,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "speaker": "client",
@@ -355,7 +361,14 @@
     "seed_category": "adolescent",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "16세",

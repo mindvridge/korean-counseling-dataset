@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:26.790853+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 5,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "18세",
@@ -106,13 +113,14 @@
     },
     {
       "speaker": "counselor",
-      "text": "점심시간에 혼자 식사하는 게 얼마나 외로운 일인지 충분히 이해해요. 다른 친구들에게 먼저 다가가보고 싶은 마음도 있지만, 어색함 때문에 쉽지 않은 거네요.",
+      "text": "점심시간에 혼자 식사하는 게 얼마나 외로운 일인지 충분히 이해해요. 다른 친구들에게 먼저 다가가보고 싶은 마음도 있지만, 어색함 때문에 쉽지 않은 거네요. 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "turn": 14,
       "technique": [
         "validation",
         "emotion_labeling",
         "reflection",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -340,8 +348,13 @@
       "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "speaker": "client",

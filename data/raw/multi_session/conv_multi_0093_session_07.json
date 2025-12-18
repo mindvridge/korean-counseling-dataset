@@ -8,7 +8,20 @@
     "case_id": "case_0093",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "감정 인식 향상",
+      "progress_level": 5,
+      "achievement_status": "목표 달성",
+      "key_insights": "7회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    },
+    "session_type": "termination",
+    "termination_plan": {
+      "relapse_prevention": true,
+      "follow_up_scheduled": false,
+      "resources_provided": true
+    }
   },
   "client_profile": {
     "age": "32세",
@@ -81,10 +94,11 @@
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "그렇게 느끼신다니 다행이에요.",
+      "text": "그렇게 느끼신다니 다행이에요. 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "technique": [
         "empathy",
-        "validation"
+        "validation",
+        "psychoeducation"
       ]
     },
     {
@@ -280,7 +294,8 @@
       "text": "혹시 그 전에 힘들면 언제든 연락 주세요.",
       "technique": [
         "encouragement",
-        "safety_planning"
+        "safety_planning",
+        "cultural_sensitivity"
       ]
     },
     {

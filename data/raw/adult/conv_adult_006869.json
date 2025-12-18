@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:30.085385+00:00",
     "therapeutic_outcome": "maintaining",
     "rapport_score": 5,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 3,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "28세",
@@ -168,12 +175,13 @@
     {
       "turn": 11,
       "speaker": "counselor",
-      "text": "명확하게 정리해주셨네요. 그 세 가지를 동료에게 직접 요청해보셨나요?",
+      "text": "명확하게 정리해주셨네요. 그 세 가지를 동료에게 직접 요청해보셨나요? 트라우마 후 나타나는 반응들 - 악몽, 회피, 과각성 등 - 은 비정상적 상황에 대한 정상적인 반응입니다. 자신을 탓하지 않으셔도 돼요.",
       "technique": [
         "encouragement",
         "closed_question",
         "behavioral_experiment",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -416,8 +424,13 @@
       "text": "완벽하게 정리하셨네요. 이번 일이 힘들지만, 전문가로 성장하는 계기가 될 수 있어요.",
       "technique": [
         "encouragement",
-        "validation"
-      ]
+        "validation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "호흡 연습",
+        "instruction": "하루에 3번, 4-7-8 호흡법을 연습해 보세요. 4초 들이쉬고, 7초 멈추고, 8초 내쉬는 거예요."
+      }
     },
     {
       "turn": 29,

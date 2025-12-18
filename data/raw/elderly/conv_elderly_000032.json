@@ -6,7 +6,14 @@
     "total_turns": 25,
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "스트레스 관리",
+      "progress_level": 2,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "70세",
@@ -58,7 +65,8 @@
         "validation",
         "empathy",
         "reflection",
-        "role_play"
+        "role_play",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -99,11 +107,12 @@
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "좋은 변화예요. 이번 주에 손주들과 시간을 보내보시는 건 어떨까요?",
+      "text": "좋은 변화예요. 이번 주에 손주들과 시간을 보내보시는 건 어떨까요? 스트레스 반응은 단기적으로는 우리를 보호하지만, 장기화되면 신체와 정신 건강에 영향을 줄 수 있어요. 적절한 스트레스 관리가 중요합니다.",
       "technique": [
         "encouragement",
         "validation",
-        "behavioral_activation"
+        "behavioral_activation",
+        "psychoeducation"
       ]
     },
     {
@@ -358,8 +367,13 @@
       "technique": [
         "encouragement",
         "validation",
-        "behavioral_activation"
-      ]
+        "behavioral_activation",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "turn": 24,

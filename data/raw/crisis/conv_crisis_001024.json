@@ -6,7 +6,14 @@
     "total_turns": 26,
     "therapeutic_outcome": "terminated",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "19세",
@@ -102,11 +109,12 @@
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "지금 자신이 아무것도 아닌 것 같다는 느낌이 드시는군요. 그 감정을 말씀해 주셔서 고마워요. 언제부터 이런 느낌이 드셨어요?",
+      "text": "지금 자신이 아무것도 아닌 것 같다는 느낌이 드시는군요. 그 감정을 말씀해 주셔서 고마워요. 언제부터 이런 느낌이 드셨어요? 건강한 관계에서는 서로의 경계를 존중하고, 감정을 표현하며, 갈등을 건설적으로 해결합니다. 이런 기술은 배울 수 있어요.",
       "technique": [
         "emotion_labeling",
         "empathy",
-        "open_question"
+        "open_question",
+        "psychoeducation"
       ]
     },
     {
@@ -382,8 +390,13 @@
         "empathy",
         "validation",
         "encouragement",
-        "mindfulness"
-      ]
+        "mindfulness",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "사고기록지 작성",
+        "instruction": "이번 주에 부정적인 감정이 들 때마다, 그때의 상황, 생각, 감정, 그리고 대안적 생각을 기록해 보세요."
+      }
     },
     {
       "turn": 25,

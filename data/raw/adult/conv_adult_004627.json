@@ -15,7 +15,14 @@
     ],
     "therapeutic_outcome": "improved",
     "rapport_score": 5,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "seed_info": {
     "source_file": "성인_대인관계_0007_y5z6a7b8",
@@ -93,13 +100,14 @@
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "'도와달라'고 요청하셨군요. 혹시 '도와달라'는 표현이 어떤 의미를 담고 있는지 생각해보신 적 있으세요?",
+      "text": "'도와달라'고 요청하셨군요. 혹시 '도와달라'는 표현이 어떤 의미를 담고 있는지 생각해보신 적 있으세요? 우리 뇌는 위협적인 경험을 특별한 방식으로 저장합니다. 그래서 비슷한 상황에서 과거의 감정이 되살아나는 것이죠. 이것은 뇌의 보호 기제예요.",
       "technique": [
         "reflection",
         "clarification",
         "cognitive_restructuring",
         "behavioral_experiment",
-        "role_play"
+        "role_play",
+        "psychoeducation"
       ]
     },
     {
@@ -361,8 +369,13 @@
       "technique": [
         "empathy",
         "validation",
-        "reflection"
-      ]
+        "reflection",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "turn": 24,

@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.980458+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 3,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 4,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "감정 인식 향상"
+    }
   },
   "client_profile": {
     "age": "35세",
@@ -37,10 +44,11 @@
     },
     {
       "speaker": "counselor",
-      "text": "승진 후 6개월 동안 많이 힘드셨군요. 어떤 부분이 특히 힘드신가요?",
+      "text": "승진 후 6개월 동안 많이 힘드셨군요. 어떤 부분이 특히 힘드신가요? 우울증의 주요 증상으로는 지속적인 슬픔, 흥미 상실, 수면 변화, 식욕 변화, 집중력 저하 등이 있습니다. 이런 증상이 2주 이상 지속되면 전문적 도움을 받는 것이 좋아요.",
       "turn": 4,
       "technique": [
-        "open_ended_question"
+        "open_ended_question",
+        "psychoeducation"
       ]
     },
     {
@@ -352,8 +360,13 @@
       "technique": [
         "action_planning",
         "behavioral_experiment",
-        "role_play"
-      ]
+        "role_play",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "긍정 경험 수집",
+        "instruction": "작더라도 기분 좋았던 순간을 사진이나 메모로 남겨보세요. 다음 상담에서 함께 나눠봐요."
+      }
     },
     {
       "speaker": "client",

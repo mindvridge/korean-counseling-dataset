@@ -6,7 +6,14 @@
     "total_turns": 26,
     "therapeutic_outcome": "maintaining",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 1,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "28세",
@@ -27,7 +34,8 @@
       "technique": [
         "empathy",
         "validation",
-        "risk_assessment"
+        "risk_assessment",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -384,8 +392,13 @@
         "reframing",
         "reflection",
         "open_question",
-        "mindfulness"
-      ]
+        "mindfulness",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "turn": 25,

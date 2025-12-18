@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:28.185086+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 4
+    "session_effectiveness": 4,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 5,
+      "achievement_status": "지속 노력 필요",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "25세",
@@ -42,7 +49,8 @@
       "text": "주 6일 근무에 매일 12시간 이상 일하시는 거네요. 그럼 하루에 몇 시간이나 집에 계시나요?",
       "technique": [
         "reflection",
-        "open_question"
+        "open_question",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -141,10 +149,11 @@
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "아이의 그 한마디가 얼마나 아프셨을지... 아이들에게 아빠의 부재가 영향을 미치고 있다는 걸 실감하셨네요. 이 상황을 바꾸고 싶으신가요?",
+      "text": "아이의 그 한마디가 얼마나 아프셨을지... 아이들에게 아빠의 부재가 영향을 미치고 있다는 걸 실감하셨네요. 이 상황을 바꾸고 싶으신가요? 의사소통에서 '나-전달법'을 사용하면 상대방이 덜 방어적이 됩니다. '당신은 항상~' 대신 '나는 ~할 때 ~하게 느껴요'라고 말하는 거죠.",
       "technique": [
         "empathy",
-        "closed_question"
+        "closed_question",
+        "psychoeducation"
       ]
     },
     {
@@ -390,8 +399,13 @@
       "technique": [
         "encouragement",
         "information_giving",
-        "emotion_labeling"
-      ]
+        "emotion_labeling",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "활동 기록표 작성",
+        "instruction": "매일 한 활동들과 그때의 기분(0-10점)을 기록해 보세요. 어떤 활동이 기분에 도움이 되는지 파악할 수 있어요."
+      }
     },
     {
       "turn": 27,

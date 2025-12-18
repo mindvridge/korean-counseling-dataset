@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:25.703735+00:00",
     "therapeutic_outcome": "in_progress",
     "rapport_score": 4,
-    "session_effectiveness": 3
+    "session_effectiveness": 3,
+    "progress_notes": {
+      "session_goal": "대처 기술 습득",
+      "progress_level": 2,
+      "achievement_status": "목표 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "대처 기술 습득"
+    }
   },
   "client_profile": {
     "age": "15세",
@@ -37,13 +44,14 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "3등급대 성적이 나왔고, 부모님께서 재수를 원하시는군요. 본인은 어떻게 생각하나요?",
+      "text": "3등급대 성적이 나왔고, 부모님께서 재수를 원하시는군요. 본인은 어떻게 생각하나요? 우울증은 '의지 부족'이 아닙니다. 마치 당뇨병 환자에게 '의지로 혈당을 조절하라'고 할 수 없듯이, 우울증도 전문적 치료가 필요한 질환이에요.",
       "technique": [
         "empathy",
         "restatement",
         "open_question",
         "reflection",
-        "cognitive_restructuring"
+        "cognitive_restructuring",
+        "psychoeducation"
       ]
     },
     {
@@ -194,7 +202,8 @@
         "emotion_labeling",
         "behavioral_experiment",
         "empty_chair",
-        "role_play"
+        "role_play",
+        "cultural_sensitivity"
       ]
     },
     {

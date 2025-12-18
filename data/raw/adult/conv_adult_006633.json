@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:29.836138+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "자기 이해 증진",
+      "progress_level": 2,
+      "achievement_status": "상당 진전",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "관계 패턴 인식"
+    }
   },
   "client_profile": {
     "age": "36세",
@@ -163,7 +170,8 @@
       "text": "이건 나약함의 문제가 아니에요. 지속적인 스트레스 상황에서 누구나 겪을 수 있는 반응입니다. 오히려 10년간 버티고 노력해 오신 게 대단한 거예요.",
       "turn": 22,
       "technique": [
-        "reframing"
+        "reframing",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -326,8 +334,13 @@
       "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "empathy"
-      ]
+        "empathy",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "마음챙김 식사",
+        "instruction": "이번 주에 한 끼는 TV나 핸드폰 없이, 음식의 맛과 질감에 집중하며 천천히 드셔보세요."
+      }
     },
     {
       "speaker": "client",

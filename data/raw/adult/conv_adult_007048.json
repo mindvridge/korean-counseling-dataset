@@ -6,7 +6,14 @@
     "generated_at": "2025-12-18T07:14:30.262223+00:00",
     "therapeutic_outcome": "improved",
     "rapport_score": 4,
-    "session_effectiveness": 5
+    "session_effectiveness": 5,
+    "progress_notes": {
+      "session_goal": "관계 패턴 인식",
+      "progress_level": 5,
+      "achievement_status": "부분 달성",
+      "key_insights": "1회기 주요 통찰 기록",
+      "next_session_focus": "스트레스 관리"
+    }
   },
   "client_profile": {
     "age": "45세",
@@ -39,11 +46,12 @@
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "경계 침범과 육아 간섭으로 힘드시군요. 구체적인 예를 하나 들어주시겠어요?",
+      "text": "경계 침범과 육아 간섭으로 힘드시군요. 구체적인 예를 하나 들어주시겠어요? 불안은 원래 우리를 위험으로부터 보호하는 정상적인 반응입니다. 하지만 이 반응이 과도하게 나타나면 불안장애가 될 수 있어요.",
       "technique": [
         "empathy",
         "restatement",
-        "clarification"
+        "clarification",
+        "psychoeducation"
       ]
     },
     {
@@ -163,7 +171,8 @@
       "text": "'어머니와 나 사이에서 중재해달라', '우리 부부의 경계를 지켜달라'고 구체적으로 요청하는 거예요.",
       "technique": [
         "information_giving",
-        "clarification"
+        "clarification",
+        "cultural_sensitivity"
       ]
     },
     {
@@ -349,8 +358,13 @@
       "technique": [
         "validation",
         "encouragement",
-        "reflection"
-      ]
+        "reflection",
+        "homework"
+      ],
+      "homework_assignment": {
+        "task": "작은 목표 실천",
+        "instruction": "우리가 이야기한 작은 목표를 이번 주에 한 번 시도해 보시고, 어떤 느낌이었는지 다음에 나눠주세요."
+      }
     },
     {
       "turn": 24,
