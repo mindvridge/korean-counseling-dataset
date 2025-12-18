@@ -1,422 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "부모 갈등",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "closed_question",
-      "restatement",
-      "validation",
-      "information_giving",
-      "clarification"
-    ]
+    "topic": "학업 스트레스와 성적 압박",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:25.438601+00:00"
   },
-  "seed_info": {
-    "source_file": "adolescent_career_0009",
-    "category": "adolescent",
-    "topic": "부모 갈등"
+  "client_profile": {
+    "age": "17세",
+    "gender": "남성",
+    "occupation": "고등학교 2학년",
+    "background": "학업 스트레스와 성적 압박 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.603608+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "선생님, 저 정말 고민이 많아요. 수시 원서를 써야 하는데 계속 망설여져요."
+      "text": "친구가 없어요. 혼자예요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "수시 원서 작성을 앞두고 고민이 많으시군요. 무엇 때문에 망설여지시나요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
       "turn": 2,
-      "speaker": "client",
-      "text": "저는 작가가 되고 싶어요. 소설을 쓰고 싶거든요. 근데 현실적으로 작가로 먹고살기는 힘들잖아요. 그래서 안정적인 직업을 가져야 할 것 같은데, 그러면 제 꿈을 포기하는 것 같아서..."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "작가라는 꿈과 안정적인 생활 사이에서 고민하고 계시는군요. 두 가지 모두 중요하게 느껴지시나요?",
       "technique": [
         "empathy",
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "네... 작가가 되고 싶은 마음은 확실한데, 부모님께 경제적으로 부담 드리고 싶지 않아요. 그리고 제가 성공할 거라는 보장도 없잖아요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "부모님께 부담 드리는 것과 실패에 대한 두려움이 있으시군요. 작가가 되고 싶다는 마음은 언제부터였나요?",
-      "technique": [
-        "empathy",
-        "restatement",
         "open_question"
       ]
     },
     {
+      "speaker": "client",
+      "text": "사실... 별거 아닐 수도 있는데요. 그냥 요즘 학교 오는 게 너무 싫어요.",
+      "turn": 3
+    },
+    {
+      "speaker": "counselor",
+      "text": "학교 오는 게 싫을 정도면 분명 힘든 일이 있었을 거예요. 별거 아니라고 생각할 필요 없어요. 무슨 일이 있었는지 이야기해줄 수 있나요?",
       "turn": 4,
-      "speaker": "client",
-      "text": "어릴 때부터요. 초등학교 때부터 일기 쓰는 걸 좋아했고, 중학교 때는 습작을 시작했어요. 지금은 단편소설도 몇 개 썼고요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "오랫동안 글을 써오셨고, 이미 작품도 만들고 계시네요. 글을 쓸 때 어떤 감정이 드세요?",
       "technique": [
-        "empathy",
-        "validation",
-        "open_question"
+        "validation"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "행복해요. 제 세계를 만드는 느낌이랄까... 캐릭터들이 살아 움직이는 것 같고, 시간 가는 줄 몰라요. 이게 제가 가장 하고 싶은 일이에요."
+      "text": "친구들이요... 저만 빼고 따로 노는 것 같아요. 어제도 인스타에서 애들이 같이 카페 간 사진을 올렸는데, 저는 아무도 연락 안 했거든요.",
+      "turn": 5
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "글쓰기가 단순한 취미가 아니라 진짜 열정인 것 같네요. 그런데 왜 안정적인 직업을 고려하게 되셨나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
+      "text": "자신만 빼고 친구들이 모인 걸 소셜미디어로 알게 됐군요. 그 사진을 봤을 때 기분이 어땠나요?",
       "turn": 6,
-      "speaker": "client",
-      "text": "부모님이 걱정하세요. 작가는 성공하기 전까지 수입이 없고, 성공해도 계속 글이 팔린다는 보장이 없다고... 차라리 교사나 공무원 같은 안정적인 직업을 가지래요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "부모님은 경제적 안정성을 걱정하시는군요. 부모님의 걱정을 이해하시나요?",
       "technique": [
-        "reflection",
-        "closed_question"
+        "reflection"
       ]
     },
     {
-      "turn": 7,
       "speaker": "client",
-      "text": "이해해요. 부모님 말씀이 맞아요. 작가로 성공하는 건 정말 어렵고... 근데 그래도 도전해보고 싶어요. 안 해보고 후회하는 것보다는 해보고 후회하는 게 나을 것 같아서요."
+      "text": "너무 속상했어요. 왜 나만 안 부른 건지... 내가 뭘 잘못했나 계속 생각하게 되고. 밤새 잠도 못 잤어요.",
+      "turn": 7
     },
     {
-      "turn": 7,
       "speaker": "counselor",
-      "text": "부모님의 걱정도 이해하지만, 도전하지 않고 포기하는 게 더 후회될 것 같다는 마음도 있으시군요. 혹시 두 가지를 병행하는 방법은 생각해보셨나요?",
+      "text": "그 순간의 상처가 정말 컸겠어요. 자신만 제외된 것 같은 느낌은 누구에게나 힘든 경험이에요. 밤새 잠도 못 잘 만큼 마음이 아팠네요.",
+      "turn": 8,
       "technique": [
-        "validation",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 이게 처음도 아니에요. 요즘 계속 이런 식이에요. 쉬는 시간에도 애들이 제 얘기는 잘 안 들어주고, 자기들끼리만 얘기해요.",
+      "turn": 9
+    },
+    {
+      "speaker": "counselor",
+      "text": "이런 일이 반복되고 있었군요. 언제부터 이렇게 친구들과의 관계가 달라졌다고 느꼈나요?",
+      "turn": 10,
+      "technique": [
         "open_question"
       ]
     },
     {
-      "turn": 8,
       "speaker": "client",
-      "text": "병행이요? 어떻게요?"
+      "text": "2학기 시작하고 나서부터인 것 같아요. 반 배치가 바뀌면서 제 친한 친구들이 다 다른 반으로 가고, 저는 새로운 친구들이랑 지내야 했거든요.",
+      "turn": 11
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "안정적인 직업을 가지면서 틈틈이 글을 쓰는 거예요. 많은 작가들이 처음에는 다른 직업을 가지면서 글을 썼어요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "그렇게 하면 글쓰기에 집중할 수 없을 것 같아요. 작가가 되려면 온전히 글쓰기에만 매달려야 하는 거 아닌가요?"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "그렇게 생각하실 수 있어요. 하지만 실제로 많은 유명 작가들이 처음에는 교사, 회사원, 기자 등의 직업을 가지면서 글을 썼어요. 오히려 다양한 경험이 글쓰기에 도움이 되기도 하고요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "정말요? 어떤 작가들이요?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "예를 들어, 공지영 작가는 교사를 하면서 글을 썼고, 많은 작가들이 기자나 출판사 편집자로 일하면서 작가 활동을 시작했어요. 안정적인 수입이 있으니 마음의 여유를 가지고 글을 쓸 수 있었다고 해요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "그렇구나... 그럼 저도 그렇게 할 수 있을까요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "충분히 가능해요. 중요한 건 어떤 직업을 선택하느냐예요. 글쓰기와 관련이 있거나, 글쓰기 시간을 확보할 수 있는 직업을 선택하는 게 좋겠죠.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "아, 반이 바뀌면서 기존 친구들과 떨어지게 됐고, 새로운 관계를 만들어야 하는 상황이었네요. 그게 쉽지 않았을 것 같아요.",
       "turn": 12,
-      "speaker": "client",
-      "text": "어떤 직업이 좋을까요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "국어 교사, 사서, 출판사 편집자, 기자, 방송작가 같은 직업이 글쓰기와 연관이 있어요. 공무원 중에서도 문화 관련 부서가 있고요. 어떤 게 끌리시나요?",
       "technique": [
-        "information_giving",
-        "open_question"
+        "reflection"
       ]
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "국어 교사나 편집자는 괜찮을 것 같아요. 근데 그러려면 국어교육과나 문예창작과를 가야 하나요?"
+      "text": "네. 처음에는 잘 지내려고 노력했어요. 먼저 말도 걸고, 같이 밥도 먹자고 하고... 근데 어느 순간부터 애들이 저를 피하는 것 같아요.",
+      "turn": 13
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "국어 교사가 되려면 국어교육과가 유리하고, 편집자는 문예창작과, 국어국문학과, 출판미디어학과 등 다양한 전공이 가능해요. 문예창작과는 직접 글쓰기를 배울 수 있어서 작가 지망생에게 좋은 선택이에요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
+      "text": "처음엔 적극적으로 다가가려고 노력했는데, 점점 친구들이 거리를 두는 것처럼 느껴졌군요. 혹시 어떤 계기가 있었는지 기억나나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "문예창작과요! 그런데 문예창작과 나와도 작가 되기는 어렵다고 들었어요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "맞아요, 쉽지는 않아요. 하지만 문예창작과에서는 체계적으로 글쓰기를 배우고, 교수님과 동료들에게 피드백을 받으며 실력을 키울 수 있어요. 그리고 졸업 후에는 편집자나 방송작가 같은 관련 직업을 가지면서 소설을 쓸 수 있죠.",
       "technique": [
-        "validation",
-        "information_giving"
+        "exploration"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "그렇게 하면 꿈도 포기 안 하고, 안정적인 생활도 할 수 있겠네요."
+      "text": "글쎄요... 딱히 싸운 것도 아닌데. 한 번은 제가 반 단톡방에서 주말에 같이 놀자고 물어봤는데, 아무도 답장을 안 했어요. 근데 나중에 보니까 애들이 따로 톡방을 만들어서 거기서 약속을 잡더라고요.",
+      "turn": 15
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "맞아요. 양자택일이 아니라 두 가지를 함께 추구할 수 있어요. 처음부터 전업 작가가 되기는 어렵지만, 꿈을 포기하지 않고 계속 글을 쓰면서 기회를 만들어가는 거죠.",
+      "text": "그 상황은 정말 상처가 됐을 것 같아요. 용기 내서 먼저 제안했는데 무시당한 느낌을 받았고, 나중에 자신만 빼고 따로 약속을 잡은 걸 알게 됐으니까요.",
+      "turn": 16,
       "technique": [
-        "validation",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 그때 진짜 충격이었어요. 내가 그렇게 싫은 애인가 싶고... 그 이후로는 먼저 말 거는 것도 무섭고, 혹시 또 무시당할까 봐 불안해요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 경험 이후로 다시 거절당할까 봐 두려워서 먼저 다가가기가 어려워졌네요. 그런 마음이 드는 건 너무 자연스러운 거예요.",
+      "turn": 18,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "근데 선생님, 제가 뭘 잘못한 건지 모르겠어요. 제가 이상한 건가요? 왜 친구들이 저를 싫어하는 걸까요?",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "스스로를 탓하고 있는 모습이 보여요. 하지만 관계의 어려움이 꼭 한 사람의 잘못 때문만은 아니에요. 혹시 친구들에게 직접 물어본 적은 있나요?",
+      "turn": 20,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아니요... 그럴 용기가 안 나요. 물어봤다가 더 이상해질까 봐요. 그냥 참고 지내는 게 나을 것 같아요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "turn": 22,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 근데 참는 것도 너무 힘들어요. 매일 학교 가는 게 고문 같아요. 아침마다 배가 아프고, 학교만 생각하면 눈물이 나요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "신체적으로도 증상이 나타날 만큼 심리적으로 많이 힘든 상태네요. 이런 상황을 혼자 견디느라 정말 많이 힘들었을 거예요.",
+      "turn": 24,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "부모님한테도 말 못 했어요. 말하면 '네가 더 노력해봐라', '친구 사귀는 게 뭐가 그리 어렵냐'고 하실 것 같아서요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "부모님께도 이해받지 못할까 봐 혼자 감당해왔네요. 그래서 더 외롭고 힘들었겠어요. 오늘 이렇게 용기 내서 말해줘서 정말 다행이에요.",
+      "turn": 26,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "선생님, 저 어떻게 해야 할까요? 친구들이랑 다시 잘 지낼 수 있을까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 당장 해답을 찾고 싶은 마음이 크겠지만, 우리 함께 천천히 방법을 찾아가 보면 어떨까요? 먼저, 지금 반 친구들 중에서 그나마 편하게 느껴지는 친구가 있나요?",
+      "turn": 28,
+      "technique": [
+        "solution_focused"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 수진이는 가끔 저한테 말을 걸어줘요. 근데 수진이도 다른 애들이랑 더 친해서 저랑은 그렇게 가까운 사이는 아니에요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "수진이라는 친구가 있네요. 비록 아주 가깝진 않지만, 말을 걸어주는 친구가 있다는 건 긍정적인 신호예요. 혹시 수진이와 조금 더 가까워지고 싶은 마음이 있나요?",
+      "turn": 30,
+      "technique": [
+        "strength_based"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 있어요. 근데 어떻게 다가가야 할지 모르겠어요. 또 거절당하면 어떡하죠?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "turn": 32,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "수진이는 웹툰을 되게 좋아해요. 저도 웹툰 보는 걸 좋아하는데, 그 얘기를 해볼까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "turn": 34,
+      "technique": [
         "encouragement"
       ]
     },
     {
-      "turn": 16,
       "speaker": "client",
-      "text": "그런데 일하면서 글 쓰기가 힘들지 않을까요? 시간도 부족하고..."
+      "text": "네... 한번 해볼게요. 근데 선생님, 만약에 이것도 안 되면 어떡하죠?",
+      "turn": 35
     },
     {
-      "turn": 16,
       "speaker": "counselor",
-      "text": "쉽지는 않을 거예요. 하지만 진짜 하고 싶은 일이라면 시간을 만들어서라도 하게 돼요. 출근 전 새벽 시간, 퇴근 후 저녁 시간, 주말을 활용하는 거죠.",
+      "text": "그런 걱정이 드는 건 당연해요. 하지만 한 번의 시도로 모든 게 결정되는 건 아니에요. 우리 다음 주에 다시 만나서 어땠는지 이야기 나눠보면 어떨까요? 그때 함께 다음 단계를 생각해봐요.",
+      "turn": 36,
       "technique": [
-        "validation",
-        "information_giving"
+        "support"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "생각보다 가능할 것 같아요. 근데 부모님이 동의하실까요?"
+      "text": "네, 좋아요. 오늘 얘기하고 나니까 조금 마음이 가벼워진 것 같아요. 감사합니다, 선생님.",
+      "turn": 37
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "문예창작과에 가서 졸업 후 관련 직업을 가지면서 작가의 꿈을 이어간다는 계획을 말씀드리면, 부모님도 현실적이고 좋은 방안이라고 생각하실 것 같아요. 어떻게 생각하세요?",
+      "text": "천천히 함께 해결해 나가면 돼요. 오늘 용기 내서 와줘서 고마워요. 다음 주에 또 만나요. 힘들면 언제든 연락해도 좋아요.",
+      "turn": 38,
       "technique": [
-        "goal_setting",
-        "open_question"
+        "closing"
       ]
     },
     {
-      "turn": 18,
       "speaker": "client",
-      "text": "그럴 것 같아요. 그냥 작가 하겠다는 것보다는 훨씬 안심하실 것 같아요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 18,
       "speaker": "counselor",
-      "text": "그렇죠. 그리고 중요한 건, 이건 꿈을 포기하는 게 아니라 현실적인 방법으로 꿈을 이루어가는 거예요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "네, 맞아요. 이제 방향이 보이는 것 같아요. 그런데 만약에 계속 작가로 성공 못 하면 어떡하죠?"
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "성공의 기준이 뭐라고 생각하세요? 베스트셀러 작가가 되는 것만이 성공인가요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "confrontation"
+        "empathy"
       ]
     },
     {
-      "turn": 20,
       "speaker": "client",
-      "text": "음... 생각해보니 꼭 그런 건 아닌 것 같아요. 제 글을 누군가 읽어주고, 제가 계속 쓰고 싶은 걸 쓸 수 있다면 그것도 성공 아닐까요?"
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 20,
       "speaker": "counselor",
-      "text": "좋은 생각이에요. 성공의 기준은 스스로 정하는 거예요. 전업 작가가 되지 못해도, 관련 직업을 가지면서 글을 쓰고 작품을 발표한다면 그것도 충분히 의미 있는 삶이에요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "validation",
-        "encouragement"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 21,
       "speaker": "client",
-      "text": "그렇게 생각하니까 마음이 편해지네요. 너무 거창하게만 생각했던 것 같아요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 21,
       "speaker": "counselor",
-      "text": "꿈을 이루는 방법은 하나가 아니에요. 자신만의 방법으로 꿈을 향해 가면 되는 거죠.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 22,
       "speaker": "client",
-      "text": "네, 이제 수시 원서를 어떻게 써야 할지 알겠어요. 문예창작과를 지원해야겠어요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 22,
       "speaker": "counselor",
-      "text": "좋은 결정이에요. 그리고 지원서를 쓸 때 자신의 글쓰기 경험과 작품, 그리고 앞으로의 계획을 잘 정리해서 보여주세요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement",
-        "goal_setting"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "네, 그렇게 할게요. 자기소개서에 어떤 내용을 넣으면 좋을까요?"
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "왜 작가가 되고 싶은지, 어떤 글쓰기 경험이 있는지, 대학에서 무엇을 배우고 싶은지, 졸업 후 어떤 작가가 되고 싶은지를 진솔하게 쓰세요. 당신의 진심이 전달되는 게 가장 중요해요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "information_giving",
-        "goal_setting"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 24,
       "speaker": "client",
-      "text": "알겠습니다. 진심을 담아서 쓸게요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 24,
       "speaker": "counselor",
-      "text": "잘하실 거예요. 오늘 우리가 이야기한 것을 정리해볼게요. 작가의 꿈과 안정적인 생활 사이에서 고민했는데, 두 가지를 함께 추구하는 방법을 찾았어요. 문예창작과에 진학해서 관련 직업을 가지면서 작가 활동을 이어가기로 했죠.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement",
-        "summarization"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 맞아요. 오늘 상담하고 나니까 확신이 생겼어요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "좋아요. 꿈과 현실, 두 마리 토끼를 모두 잡을 수 있는 방법을 찾으신 거예요. 쉽지 않겠지만 당신이라면 잘해낼 거라 믿어요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "감사합니다, 선생님. 많은 도움이 됐어요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "수시 준비하면서 궁금한 게 있거나 도움이 필요하면 언제든 찾아오세요. 응원할게요!",
-      "technique": [
-        "structuring",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "네, 감사합니다. 좋은 결과 있으면 꼭 말씀드리러 올게요!"
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "기대할게요. 당신의 꿈을 응원합니다. 화이팅!",
-      "technique": [
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 28,
-      "speaker": "client",
-      "text": "네, 열심히 할게요!"
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "좋아요. 멋진 작가가 되세요!",
-      "technique": [
-        "encouragement"
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "16세",
-    "gender": "여성",
-    "occupation": "고등학교 1학년",
-    "background": "부모님의 기대와 자신의 희망이 달라 갈등"
-  }
+  ]
 }

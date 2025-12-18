@@ -1,420 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "문이과 선택",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "emotion_labeling",
-      "restatement",
-      "validation",
-      "closed_question",
-      "information_giving"
-    ]
+    "topic": "친구 관계 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:26.581156+00:00"
   },
-  "seed_info": {
-    "source_file": "adolescent_career_0006",
-    "category": "adolescent",
-    "topic": "문이과 선택"
+  "client_profile": {
+    "age": "15세",
+    "gender": "여성",
+    "occupation": "중학교 3학년",
+    "background": "친구 관계 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.831057+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "선생님, 저 진짜 힘들어요. 운동하고 싶은데 다들 공부하래요."
+      "text": "친구들이랑 문제가 있어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "많이 답답하신가봐요. 운동과 공부 사이에서 갈등하고 계시는군요. 좀 더 자세히 이야기해주실 수 있나요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
       "turn": 2,
-      "speaker": "client",
-      "text": "저는 축구를 정말 좋아해요. 프로 축구선수가 되고 싶거든요. 근데 성적이 전교 10등 안에 들다 보니까 부모님도, 선생님들도 다 공부하래요. 운동은 취미로만 하래요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "축구선수가 되고 싶은데 성적이 좋아서 오히려 주변에서 학업을 계속하라고 하시는군요. 본인의 꿈과 주변의 기대 사이에서 힘드시겠어요.",
-      "technique": [
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "네... 부모님은 좋은 대학 가서 좋은 직장 다니길 원하시는데, 저는 그게 아니라 축구를 하고 싶거든요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "부모님은 안정적인 미래를 원하시고, 당신은 좋아하는 축구를 하고 싶은 거군요. 축구는 언제부터 시작하셨나요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "초등학교 때부터요. 동네 축구 클럽에서 시작했는데, 코치님이 실력이 좋다고 하셨어요. 중학교 때는 시합도 나가고 그랬어요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "오랫동안 축구를 해오셨고, 실력도 인정받으셨군요. 지금도 축구를 하고 계시나요?",
-      "technique": [
-        "validation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "네, 학교 축구부에 있어요. 근데 부모님이 공부에 방해된다고 그만두래요. 고3 올라가기 전에 그만두고 공부만 하래요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "부모님은 입시를 위해 축구를 그만두길 원하시는군요. 당신은 어떻게 하고 싶으세요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "계속하고 싶어요. 축구 할 때가 가장 행복하거든요. 그리고 프로 선수가 되려면 지금 그만두면 안 돼요. 시간이 없어요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "축구가 행복의 원천이고, 프로가 되기 위해서는 지금이 중요한 시기라고 생각하시는군요. 프로 선수가 되기 위한 구체적인 계획이 있으신가요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "체육 특기자로 대학 가거나, 아니면 바로 프로 팀 유소년에 들어가고 싶어요. 코치님이 제 실력이면 가능하다고 하셨거든요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "두 가지 경로를 생각하고 계시고, 코치님도 가능성을 보고 계시네요. 그런데 부모님은 이런 계획을 알고 계시나요?",
-      "technique": [
-        "validation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "말씀드렸는데 안 믿으세요. 운동으로 성공하는 건 극소수고, 부상이라도 당하면 끝이라고 하시면서... 차라리 공부해서 안정적인 직장 다니래요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "부모님은 운동선수의 길이 불안정하다고 걱정하시는군요. 부모님의 걱정을 이해하시나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "이해는 해요. 부모님 입장에서는 걱정되시겠죠. 근데 저는 후회하고 싶지 않아요. 도전도 안 해보고 포기하는 게 더 후회될 것 같아요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "부모님의 마음도 이해하지만, 도전하지 않고 포기하는 게 더 후회될 것 같다는 자신의 마음도 확실하시군요. 현실적으로 운동선수의 어려움에 대해서는 어떻게 생각하세요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "쉽지 않다는 건 알아요. 경쟁도 심하고, 부상 위험도 있고... 근데 그래도 하고 싶어요. 제가 좋아하는 일이니까요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "현실적인 어려움을 알면서도 좋아하는 일을 하고 싶다는 마음이 확고하시네요. 혹시 운동을 하면서도 학업을 병행하는 방법은 생각해보셨나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "병행이요? 둘 다 하기엔 시간이 부족한데..."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "쉽지는 않겠지만, 체육 특기자로 대학을 가려면 학업도 어느 정도는 필요해요. 그리고 만약 운동이 안 됐을 때를 대비해서 공부도 해두는 게 도움이 될 수 있어요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "그렇긴 한데... 공부할 시간에 운동을 더 하고 싶어요. 실력을 더 키워야 하거든요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "운동에 집중하고 싶은 마음이 크시군요. 그런데 체육 특기자 전형도 최소한의 학업 성적이 필요해요. 지금 성적은 어떤가요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "전교 10등 안이니까 충분하죠. 오히려 너무 좋아서 문제예요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "성적이 좋아서 오히려 운동에 대한 진심이 의심받는다고 느끼시는군요. 부모님 입장에서는 성적이 좋으니 공부를 계속하는 게 '안전한' 선택으로 보이시는 거예요.",
-      "technique": [
-        "reflection",
-        "interpretation"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "맞아요. 부모님은 제가 운동을 취미 정도로 생각하는 줄 아세요. 진짜 프로가 되고 싶다는 걸 믿지 않으시는 것 같아요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "진심이 전달되지 않는다고 느끼시는군요. 부모님을 설득하기 위해 어떤 노력을 해보셨나요?",
       "technique": [
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "말로는 계속 했는데... 그냥 철없다고 하세요. 나중에 생각이 바뀔 거라고..."
+      "text": "지은이라고 불러주세요. 근데 사실 별로 오고 싶지 않았어요. 상담받는다고 뭐가 달라질까 싶어서요.",
+      "turn": 3
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "말로만 하는 건 설득력이 부족했던 것 같네요. 좀 더 구체적인 계획이나 증거를 보여드리는 건 어떨까요?",
+      "text": "그런 마음이 드는 게 당연해요. 처음 오는 곳이기도 하고, 낯선 사람에게 이야기하는 게 쉽지 않죠. 지은이가 느끼는 그 회의감, 충분히 이해해요.",
+      "turn": 4,
       "technique": [
-        "validation",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "어떤 거요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "예를 들어, 코치님의 평가서나 추천서, 체육 특기자 입시 정보, 프로 유소년 진입 가능성, 그리고 만약 안 됐을 때의 대안까지 준비해서 보여드리는 거예요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "대안이요? 운동 안 하면 그냥 공부하는 거 아닌가요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "그것도 대안이 될 수 있죠. 하지만 체육교육과에 진학해서 교사가 되는 것, 스포츠 마케팅이나 스포츠 의학 쪽으로 가는 것 등 축구와 관련되면서도 선수가 아닌 다른 진로도 있어요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "아, 그런 것도 있구나... 생각해보니 선수가 안 되더라도 축구와 관련된 일을 할 수 있겠네요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "그렇죠. 이런 대안들을 함께 준비해서 부모님께 보여드리면, 단순히 무모한 도전이 아니라 신중하게 계획한 진로라는 걸 보여줄 수 있어요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "그렇게 하면 부모님도 생각이 바뀌실까요?"
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "한 번에 완전히 설득되기는 어려울 수 있어요. 하지만 당신의 진지함과 현실적인 계획을 보여드린다면 적어도 귀를 기울이실 거예요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "그런데 시간이 없어요. 곧 고3이 되는데, 부모님이 그때까지 운동 그만두래요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "시간이 촉박하시군요. 그렇다면 더 빨리 준비해서 부모님과 진지한 대화를 나눠야겠네요. 언제쯤 이야기할 수 있을 것 같으세요?",
-      "technique": [
-        "empathy",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "이번 주 안에 준비해서 말씀드려야 할 것 같아요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "좋아요. 그럼 이번 주 동안 코치님께 평가서를 부탁드리고, 체육 특기자 입시 정보를 찾아보고, 대안 계획도 생각해보세요. 필요하다면 부모님과 함께 상담하는 것도 가능해요.",
-      "technique": [
-        "goal_setting",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "부모님과 함께 상담할 수 있나요?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "네, 가능해요. 제3자가 함께 있으면 감정적이지 않고 좀 더 이성적으로 대화할 수 있거든요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "그럼 그렇게 해주세요. 혼자서는 자신이 없어요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "알겠어요. 부모님께 가족 상담을 제안해보세요. 그 전에 당신이 준비한 자료들을 먼저 보여드리면서 진지하게 이야기하고 싶다고 말씀드리고요.",
-      "technique": [
-        "goal_setting",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "네, 그렇게 할게요. 근데 만약 부모님이 끝까지 반대하시면 어떡하죠?"
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "그때는 또 다른 방법을 생각해봐야겠죠. 하지만 지금은 최선을 다해 소통하는 게 먼저예요. 부모님도 당신의 행복을 바라시는 분들이니까, 진심이 전달되면 변화가 있을 거예요.",
-      "technique": [
-        "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 25,
       "speaker": "client",
-      "text": "네, 최선을 다해볼게요. 오늘 상담하고 나니까 방법이 보이는 것 같아요."
+      "text": "네... 그냥 요즘 학교 가기가 너무 싫어요. 아침마다 배가 아프고 머리가 아파요.",
+      "turn": 5
     },
     {
-      "turn": 25,
       "speaker": "counselor",
-      "text": "좋아요. 오늘 우리가 이야기한 것을 정리하면, 운동선수가 되고 싶은 꿈이 있지만 부모님은 학업을 원하시는 상황에서, 구체적인 계획과 대안을 준비해서 부모님께 진심을 전달하기로 했어요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "turn": 6,
       "technique": [
-        "summarization",
-        "structuring"
+        "empathy"
       ]
     },
     {
-      "turn": 26,
       "speaker": "client",
-      "text": "네, 맞아요. 이번 주에 열심히 준비해서 말씀드릴게요."
+      "text": "네... 중학교 때까지는 괜찮았는데 고등학교 올라오면서 갑자기 모든 게 달라진 것 같아요. 공부도 너무 어렵고...",
+      "turn": 7
     },
     {
-      "turn": 26,
       "speaker": "counselor",
-      "text": "잘하실 거예요. 자신의 꿈을 위해 노력하는 모습이 멋지네요. 응원할게요!",
+      "text": "중학교에서 고등학교로 올라오면서 많은 변화를 겪고 있는 것 같네요. 특히 공부가 어려워졌다고 느끼고 있고요. 그 외에 또 어떤 것들이 달라졌나요?",
+      "turn": 8,
       "technique": [
-        "encouragement",
+        "open_ended_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "친구들도 다 새로운 애들이고... 중학교 때 친했던 친구들은 다른 학교 갔어요. 새 친구들은 저를 좀 이상하게 보는 것 같아요.",
+      "turn": 9
+    },
+    {
+      "speaker": "counselor",
+      "text": "친한 친구들과 떨어지고 새로운 환경에 적응해야 하는 상황이군요. 친구들이 지은이를 이상하게 본다고 느낀다고 했는데, 어떤 상황에서 그렇게 느꼈나요?",
+      "turn": 10,
+      "technique": [
+        "clarification"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "제가 좀 조용한 편이거든요. 애들이 떠들 때 저는 그냥 듣기만 하고... 그러니까 애들이 저를 무시하는 것 같아요. 점심시간에도 혼자 있을 때가 많아요.",
+      "turn": 11
+    },
+    {
+      "speaker": "counselor",
+      "text": "점심시간에 혼자 있다는 게 외롭고 힘들었겠어요. 조용한 성격이라는 게 나쁜 건 아닌데, 그것 때문에 친구들과 어울리기 어렵다고 느끼고 있네요.",
+      "turn": 12,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 성적도 많이 떨어졌어요. 중간고사 때 거의 반에서 꼴찌 했어요. 엄마가 엄청 화내셨어요.",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "성적이 떨어진 것도 지은이한테 큰 스트레스였겠네요. 어머니가 화내셨을 때 어떤 기분이 들었나요?",
+      "turn": 14,
+      "technique": [
+        "emotional_exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "속상했어요. 저도 열심히 했는데... 아니, 사실 열심히 안 했어요. 공부하려고 하면 머리가 하얘지고 아무것도 안 들어와요. 그냥 포기하고 싶어요.",
+      "turn": 15
+    },
+    {
+      "speaker": "counselor",
+      "text": "공부하려고 할 때 집중이 안 되고 막막한 느낌이 드는군요. 그래서 포기하고 싶다는 생각까지 들었던 거네요. 지금 지은이가 느끼는 무력감이 느껴져요.",
+      "turn": 16,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 맞아요. 뭘 해도 안 될 것 같아요. 친구들도 못 사귀고, 공부도 못하고... 저는 왜 이렇게 아무것도 못하는 걸까요?",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 지은이는 여러 가지가 한꺼번에 힘들어서 자신을 부정적으로 보고 있는 것 같아요. 하지만 여기 와서 이렇게 자신의 이야기를 나누는 것도 용기가 필요한 일이에요. 지은이는 지금 그 용기를 내고 있어요.",
+      "turn": 18,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그런가요...? 근데 진짜 아무것도 하기 싫어요. 그냥 방에만 있고 싶어요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "방에만 있고 싶을 만큼 지쳐있는 상태네요. 요즘 잠은 잘 자고 있나요? 식사는 잘하고 있고요?",
+      "turn": 20,
+      "technique": [
+        "assessment"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "잠은... 잘 못 자요. 밤에 계속 생각이 많아져서요. 아침에 일어나기도 너무 힘들어요. 밥은 그냥 먹긴 하는데 맛이 없어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "수면도 제대로 못 취하고 식욕도 떨어진 상태군요. 밤에 어떤 생각들이 주로 떠오르나요?",
+      "turn": 22,
+      "technique": [
+        "open_ended_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "내일 학교 가면 또 혼자겠지, 수업 시간에 또 모르겠지, 엄마한테 또 혼나겠지... 이런 생각들이요. 그러다 보면 새벽 2-3시 돼요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "부정적인 생각들이 반복되면서 잠을 이루지 못하는 거네요. 그런 생각의 악순환 속에서 얼마나 힘들었을까요. 지은이는 지금 많은 스트레스를 겪고 있어요.",
+      "turn": 24,
+      "technique": [
         "validation"
       ]
     },
     {
-      "turn": 27,
       "speaker": "client",
-      "text": "감사합니다, 선생님. 힘이 나요!"
+      "text": "네... 선생님, 저 우울증인가요? 인터넷에서 찾아봤는데 증상이 비슷한 것 같아서요.",
+      "turn": 25
     },
     {
-      "turn": 27,
       "speaker": "counselor",
-      "text": "준비 다 하고 부모님과 상담 날짜 잡으면 연락주세요. 함께 잘 해결해봐요.",
+      "text": "스스로 찾아보면서 걱정이 많았겠어요. 지금 지은이가 경험하는 증상들은 우울감과 관련이 있을 수 있어요. 하지만 진단보다 중요한 건 지금 지은이가 힘들다는 거예요. 우리가 함께 이 어려움을 하나씩 풀어나가 보면 어떨까요?",
+      "turn": 26,
       "technique": [
-        "structuring",
-        "encouragement"
+        "normalization"
       ]
     },
     {
-      "turn": 28,
       "speaker": "client",
-      "text": "네, 꼭 연락드릴게요!"
+      "text": "어떻게요? 뭐부터 해야 할지 모르겠어요.",
+      "turn": 27
     },
     {
-      "turn": 28,
       "speaker": "counselor",
-      "text": "좋아요. 화이팅!",
+      "text": "지금 당장 모든 걸 해결하려고 하지 않아도 돼요. 작은 것부터 시작해볼까요? 지은이가 가장 힘든 게 뭐라고 생각해요? 학교 가는 것, 친구 관계, 공부, 부모님과의 관계 중에서요.",
+      "turn": 28,
       "technique": [
-        "encouragement"
+        "prioritization"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 학교 가는 게 제일 힘들어요. 학교만 안 가면 다른 건 괜찮을 것 같은데...",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "학교 가는 게 가장 큰 부담이군요. 학교에 가면 친구들도 만나야 하고, 공부도 해야 하니까 모든 스트레스가 한 번에 몰려오는 느낌일 거예요.",
+      "turn": 30,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 그래서 요즘 지각도 많이 하고... 한 번은 그냥 결석했어요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "학교 가는 게 너무 힘들어서 결석까지 한 거네요. 그만큼 지은이가 힘든 상황이라는 걸 보여주는 거예요. 지은이, 우리 다음 시간에는 학교에서의 하루를 좀 더 구체적으로 이야기해볼까요? 어떤 순간이 특히 힘든지, 그리고 조금이라도 괜찮은 순간이 있는지요.",
+      "turn": 32,
+      "technique": [
+        "structuring"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 근데 진짜 나아질 수 있을까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금은 모든 게 어둡게 보일 수 있어요. 하지만 지은이는 이미 변화의 첫걸음을 내디뎠어요. 여기 와서 자신의 이야기를 나눈 것 자체가 큰 용기예요. 함께 천천히 가보면 분명 길이 보일 거예요.",
+      "turn": 34,
+      "technique": [
+        "hope_instillation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "알겠어요... 다음에 또 와야 하나요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "turn": 36,
+      "technique": [
+        "homework_assignment"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "해볼게요. 근데 괜찮은 일이 없으면 어떡하죠?",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "그럴 수도 있어요. 그럴 땐 그냥 '오늘은 괜찮은 일이 없었다'라고 적어도 돼요. 억지로 찾으려고 하지 않아도 괜찮아요. 지은이가 느끼는 그대로를 기록하는 게 중요해요.",
+      "turn": 38,
+      "technique": [
+        "reassurance"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "알겠어요. 그럼 다음 주에 봬요.",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 다음 주에 만나요. 오늘 와줘서 정말 고마워요, 지은이. 힘든데도 자신의 이야기를 나눠줘서 고마워요. 이번 주도 힘들겠지만, 지은이는 혼자가 아니라는 걸 기억해주세요.",
+      "turn": 40,
+      "technique": [
+        "support"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "16세",
-    "gender": "남성",
-    "occupation": "고등학교 1학년",
-    "background": "문과와 이과 중 선택에 대한 고민"
-  }
+  ]
 }

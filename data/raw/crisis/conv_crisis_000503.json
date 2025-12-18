@@ -1,24 +1,29 @@
 {
-  "category": "crisis",
+  "metadata": {
+    "category": "crisis",
+    "topic": "상실과 애도",
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:32.727484+00:00"
+  },
   "client_profile": {
-    "age": "19",
-    "gender": "여성",
-    "occupation": "대학교 1학년",
-    "background": "최근 자해 충동이 심해짐, 과거 자해 경험 있음, 현재 극심한 스트레스 상태"
+    "age": "22세",
+    "gender": "남성",
+    "occupation": "대학생",
+    "background": "상실과 애도 관련 상담"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 저 요즘 너무 힘들어요. 자꾸 이상한 생각이 나요."
+      "text": "죽고 싶은 생각이 자꾸 나요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "오셔서 이야기해주셔서 감사해요. 이상한 생각이라고 하셨는데, 조금 더 구체적으로 말씀해 주실 수 있을까요?",
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
       "technique": [
         "empathy",
-        "clarification"
+        "open_question"
       ]
     },
     {
@@ -99,7 +104,7 @@
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "강렬한 감정을 감당하기 어려울 때 자해 충동이 생기시는군요. 그 감정을 달래기 위한 방법처럼 자해가 떠오르는 건가요?",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "reflection",
         "interpretation"
@@ -141,7 +146,7 @@
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "있어요. 먼저, 자해 충동이 올 때 쓸 수 있는 대안적인 방법들이 있어요. 예를 들어, 얼음을 손에 쥐거나, 고무줄을 팔목에 튕기거나, 찬물에 얼굴을 담그는 방법들이요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "information_giving",
         "encouragement"
@@ -155,7 +160,7 @@
     {
       "turn": 11,
       "speaker": "counselor",
-      "text": "네, 강한 감각이 뇌를 자극해서 충동을 줄여주는 효과가 있어요. 자해의 감각적인 측면을 덜 해로운 방식으로 대체하는 거죠.",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
         "information_giving",
         "clarification"
@@ -370,13 +375,5 @@
         "encouragement"
       ]
     }
-  ],
-  "generated_at": "2024-12-17T00:00:00.000Z",
-  "conversation_id": "CRI_20251218_0503",
-  "metadata": {
-    "generated_at": "2025-12-18T05:18:06.604954+00:00",
-    "model": "claude-sonnet-4-5",
-    "seed_category": "crisis",
-    "generator": "claude_code_direct"
-  }
+  ]
 }

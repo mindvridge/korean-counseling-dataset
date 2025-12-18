@@ -1,437 +1,342 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "대인 불안",
-    "total_turns": 29,
-    "quality_indicators": [
-      "empathy",
-      "clarification",
-      "reflection",
-      "open_question",
-      "interpretation",
-      "restatement",
-      "information_giving",
-      "validation"
-    ]
+    "topic": "상사와의 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:28.377563+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_우울불안_0010_k7l8m9n0",
-    "category": "adult",
-    "topic": "대인 불안"
+  "client_profile": {
+    "age": "35세",
+    "gender": "남성",
+    "occupation": "자영업",
+    "background": "상사와의 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:38.897224+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "3시간밖에 못 잤어요. 이제 일주일째예요. 너무 힘들어요."
+      "text": "부모님과의 관계가 어려워요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "일주일간 3시간밖에 못 주무셨다니 정말 힘드시겠어요. 잠들기 어려운 건가요, 아니면 자주 깨시나요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 부모님과의 관계가 어려워요....라고 하셨는데, 어떤 일이 있었나요?",
+      "turn": 2,
       "technique": [
         "empathy",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 2,
-      "speaker": "client",
-      "text": "둘 다요. 잠들기도 어렵고, 새벽에 깨면 다시 못 자요. 그러다 보니 하루 종일 좀비처럼 지내요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "입면 장애와 수면 유지 장애 모두 있으시군요. 낮 동안의 피로가 심하시겠어요. 일상생활에 어떤 영향이 있나요?",
-      "technique": [
-        "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "집중이 안 돼요. 서류 보다가 같은 줄을 몇 번씩 읽고... 실수도 많아지고. 클라이언트 미팅에서 멍하니 있을 때도 있어요."
+      "text": "네... 저는 중학교에서 국어를 가르치는 교사인데요. 요즘 출근하는 게 너무 힘들어요. 아침에 일어나면 학교에 가기 싫다는 생각부터 들어요.",
+      "turn": 3
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "업무 수행에 심각한 영향을 주고 있군요. 변호사 일이면 정확성이 중요할 텐데 많이 불안하시겠어요.",
+      "text": "아침마다 출근이 힘들고 학교에 가기 싫다는 생각이 드신다고 하셨네요. 교직 생활이 얼마나 되셨나요?",
+      "turn": 4,
       "technique": [
-        "reflection",
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "올해로 10년차예요. 처음에는 정말 열정적으로 했거든요. 학생들 가르치는 게 좋았고, 제가 학생들에게 도움이 되는 것 같아서 뿌듯했어요. 그런데 지금은... 그냥 모든 게 무의미하게 느껴져요.",
+      "turn": 5
+    },
+    {
+      "speaker": "counselor",
+      "text": "10년간 열정을 가지고 학생들을 가르쳐오셨는데, 지금은 그 의미가 느껴지지 않아 힘드신 상황이군요. 언제부터 이런 감정을 느끼기 시작하셨나요?",
+      "turn": 6,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "정확히는 모르겠지만... 작년 말쯤부터인 것 같아요. 한 학부모님이 제 수업 방식에 대해 교육청에 민원을 넣으신 일이 있었어요. 그게 좀 큰 충격이었던 것 같아요.",
+      "turn": 7
+    },
+    {
+      "speaker": "counselor",
+      "text": "학부모의 민원이 큰 충격으로 다가왔군요. 그 일이 어떻게 진행되었고, 어떤 점이 특히 힘드셨나요?",
+      "turn": 8,
+      "technique": [
+        "open-ended question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "결국에는 제가 잘못한 게 없다고 결론이 났지만... 그 과정이 너무 힘들었어요. 제가 10년 동안 쌓아온 게 한순간에 무너지는 것 같았고, 학교에서도 저를 보호해주기보다는 일을 크게 만들지 말라는 식이었거든요.",
+      "turn": 9
+    },
+    {
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "turn": 10,
+      "technique": [
         "empathy"
       ]
     },
     {
-      "turn": 4,
       "speaker": "client",
-      "text": "네... 실수할까 봐 너무 무서워요. 그 걱정 때문에 또 잠을 못 자는 것 같아요."
+      "text": "네, 맞아요. 그 이후로 뭔가... 방어적이 된 것 같아요. 학생들한테도 예전처럼 다가가기가 어렵고, 항상 조심스럽고요. 혹시라도 또 민원이 들어올까 봐 불안해요.",
+      "turn": 11
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "걱정이 수면을 방해하고, 수면 부족이 실수를 만들고, 그게 또 걱정이 되는 악순환이네요. 이런 상태가 얼마나 됐나요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "한 달 정도요. 처음엔 중요한 재판 때문에 긴장해서 그런가 했는데, 재판 끝났는데도 계속돼요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "스트레스 사건으로 시작됐지만 이제는 만성화됐군요. 수면을 위해 시도해본 것들이 있나요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "수면제요. 처음엔 효과 있었는데, 지금은 그것도 잘 안 들어요. 그래서 양을 늘렸어요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "수면제를 복용 중이시군요. 의사 처방인가요, 아니면 임의로 복용하시나요?",
-      "technique": [
-        "reflection",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "처음엔 처방받았는데... 요즘은 그냥 약국에서 사 먹어요. 더 강한 걸로..."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "의사와 상의 없이 용량을 늘리고 계시는군요. 이건 위험할 수 있어요. 내성이 생기고 의존성이 생길 수 있거든요.",
-      "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "알아요. 근데 안 먹으면 하나도 못 자요. 어떡해요?"
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "약에 의존하게 된 상태시군요. 걱정되시죠. 하지만 제대로 된 치료를 받으면 약에서 벗어날 수 있어요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "제대로 된 치료요? 약 말고 다른 방법이 있나요?"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "네, 인지행동치료가 불면증에 매우 효과적이에요. 약보다 장기적으로 더 좋은 결과를 보여요. 수면에 대한 잘못된 생각과 습관을 바꾸는 거죠.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "잘못된 생각이요? 저는 그냥 잠이 안 오는 건데..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "예를 들어 '오늘도 못 자면 어떡하지', '8시간은 자야 해' 같은 생각들이 오히려 불안을 높여 수면을 방해해요.",
-      "technique": [
-        "clarification",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "맞아요. 침대에 누우면 '오늘도 못 잘 거야' 생각부터 들어요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "그 생각이 긴장을 만들고 수면을 더 어렵게 해요. 침대가 '불면의 공간'이 되어버린 거예요.",
-      "technique": [
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "그 일 이후로 학생들과의 관계에서도 방어적이 되고 불안감을 느끼고 계시는군요. 이런 변화가 선생님께 어떤 영향을 미치고 있나요?",
       "turn": 12,
-      "speaker": "client",
-      "text": "정말 그래요. 침대만 보면 불안해요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "그럼 침대를 다시 '수면의 공간'으로 만들어야 해요. 자극 통제 요법이라고 하는데, 침대는 오직 수면을 위해서만 사용하는 거예요.",
       "technique": [
-        "information_giving",
-        "structuring"
+        "exploration"
       ]
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "침대에서 핸드폰 보거나 일하는 것도 안 되나요?"
+      "text": "수업 준비도 예전처럼 안 하게 되고... 그냥 교과서대로만 하게 돼요. 예전에는 학생들이 재미있어할 만한 활동도 준비하고 그랬는데, 이제는 그럴 에너지가 없어요. 그리고 학생들이 수업 시간에 떠들거나 무례하게 굴면 너무 화가 나요.",
+      "turn": 13
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "네, 그런 활동들이 침대를 각성의 공간으로 만들어요. 침대는 잠잘 때만 사용하세요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "예전의 열정과 창의성이 사라지고, 학생들의 행동에 대한 감정 조절도 어려워지셨네요. 이런 변화를 스스로 느끼실 때 어떤 생각이 드시나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "그럼 잠이 안 올 때는 어떻게 해요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "20-30분 이상 잠이 안 오면 침대에서 일어나세요. 다른 방에서 차분한 활동을 하다가 졸리면 다시 가는 거예요.",
       "technique": [
-        "information_giving",
-        "structuring"
+        "reflection"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "일어나라고요? 그럼 더 잠이 안 올 것 같은데..."
+      "text": "제가 나쁜 교사가 된 것 같아요. 학생들한테 미안하기도 하고... 동시에 '왜 내가 이렇게까지 해야 하나' 싶기도 해요. 요즘 학생들은 존중이라는 게 없어요. 선생님을 친구처럼 대하고, 수업 중에 핸드폰 보고...",
+      "turn": 15
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "처음엔 그렇게 느껴질 수 있어요. 하지만 뇌에게 '침대=수면'이라는 연결을 다시 학습시키는 과정이에요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "한편으로는 자책감을 느끼시고, 다른 한편으로는 학생들에 대한 실망감도 크신 것 같네요. 이 두 가지 감정 사이에서 힘들어하고 계시는군요.",
       "turn": 16,
-      "speaker": "client",
-      "text": "알겠어요. 시도해볼게요. 다른 방법도 있나요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "취침 시간과 기상 시간을 일정하게 유지하세요. 주말에도요. 생체 리듬을 조절하는 게 중요해요.",
       "technique": [
-        "information_giving",
-        "structuring"
+        "validation"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "주말엔 좀 더 자고 싶은데... 평일에 못 잔 걸 보충하려고요."
+      "text": "맞아요. 그리고 행정 업무도 너무 많아요. 가르치는 것보다 서류 작업하는 시간이 더 많은 것 같아요. 공문 처리하고, 각종 보고서 쓰고... 이게 내가 교사가 된 이유가 아닌데 싶어요.",
+      "turn": 17
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "그 마음은 이해하지만, 불규칙한 패턴이 불면증을 악화시켜요. 매일 같은 시간에 일어나는 게 핵심이에요.",
-      "technique": [
-        "empathy",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "본래의 교직 목적과 현실 사이의 괴리감을 크게 느끼고 계시네요. 이런 상황들이 누적되면서 번아웃을 경험하고 계신 것 같습니다.",
       "turn": 18,
-      "speaker": "client",
-      "text": "힘들겠지만... 해볼게요. 그런데 기분도 우울해요. 수면 때문인가요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "수면 부족과 우울은 서로 영향을 줘요. 잠을 못 자면 우울해지고, 우울하면 잠을 못 자는 악순환이죠.",
       "technique": [
-        "information_giving",
         "interpretation"
       ]
     },
     {
-      "turn": 19,
       "speaker": "client",
-      "text": "요즘 아무 의욕이 없어요. 일도 하기 싫고, 사람 만나기도 싫고..."
+      "text": "번아웃... 맞는 것 같아요. 주말에도 쉬는 것 같지 않고, 항상 피곤해요. 취미 생활도 다 그만뒀어요. 그냥 집에서 누워있기만 해요.",
+      "turn": 19
     },
     {
-      "turn": 19,
       "speaker": "counselor",
-      "text": "무기력과 의욕 저하가 있으시군요. 이런 증상이 얼마나 심한가요? 평소 즐기던 활동도 흥미가 없나요?",
+      "text": "일상의 활력이 많이 떨어지신 상태네요. 주변에 이런 어려움을 나눌 수 있는 분이 계신가요?",
+      "turn": 20,
       "technique": [
-        "reflection",
-        "open_question"
+        "open-ended question"
       ]
     },
     {
-      "turn": 20,
       "speaker": "client",
-      "text": "네... 원래 운동 좋아했는데 요즘은 그것도 안 해요. 너무 피곤해서..."
+      "text": "같은 학교 동료 교사들도 다들 비슷해요. 다들 힘들어하니까 서로 위로는 되지만... 해결책은 없는 것 같아요. 가족들한테는 말 안 해요. 걱정할까 봐요.",
+      "turn": 21
     },
     {
-      "turn": 20,
       "speaker": "counselor",
-      "text": "수면 부족으로 인한 피로와 우울 증상이 함께 있네요. 정신건강의학과 진료를 받아보시는 게 좋겠어요.",
+      "text": "주변 분들도 비슷한 어려움을 겪고 계시고, 가족에게는 걱정을 끼치고 싶지 않아서 혼자 감당하고 계셨네요. 그래서 더 힘드셨을 것 같아요.",
+      "turn": 22,
       "technique": [
-        "summarization",
-        "information_giving"
+        "empathy"
       ]
     },
     {
-      "turn": 21,
       "speaker": "client",
-      "text": "항우울제를 먹어야 하나요?"
+      "text": "네... 사실 요즘 진지하게 사직을 고민하고 있어요. 그런데 10년을 했는데 이제 와서 그만두는 게 맞나 싶기도 하고, 다른 걸 할 수 있을지도 모르겠어요.",
+      "turn": 23
     },
     {
-      "turn": 21,
       "speaker": "counselor",
-      "text": "의사 선생님이 판단하실 거예요. 항우울제 중 일부는 수면에도 도움이 돼요. 그리고 수면제를 안전하게 줄이는 것도 도와주실 거고요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "turn": 24,
       "technique": [
-        "information_giving",
         "clarification"
       ]
     },
     {
-      "turn": 22,
       "speaker": "client",
-      "text": "수면제를 끊을 수 있을까요? 벌써 몇 달째 먹고 있는데..."
+      "text": "음... 그건 생각해본 적이 없네요. 가르치는 일 자체는 좋아했어요. 학생들이 제 수업을 통해 뭔가 배우고 성장하는 모습을 볼 때는 정말 보람찼거든요. 그런 순간들이 그리워요.",
+      "turn": 25
     },
     {
-      "turn": 22,
       "speaker": "counselor",
-      "text": "급하게 끊으면 안 돼요. 의사 지도하에 서서히 줄여야 해요. 동시에 비약물 치료를 병행하는 거죠.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "알겠어요. 병원 예약해볼게요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "좋은 결정이에요. 그리고 낮에 햇빛을 충분히 쬐세요. 오전에 30분 정도 산책하면 생체 리듬 조절에 도움이 돼요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "사무실에만 있어서 햇빛을 잘 못 봐요..."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "점심시간에 밖에 나가보세요. 짧은 시간이라도요. 그리고 카페인과 알코올은 피하시고요.",
-      "technique": [
-        "goal_setting",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "커피를 많이 마시는데... 안 마시면 더 졸릴 것 같아요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "카페인이 일시적으로 각성시키지만, 수면의 질을 떨어뜨려요. 특히 오후 2시 이후에는 피하세요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
+      "text": "가르치는 일 자체에 대한 애정과 보람은 여전히 남아있으시네요. 그렇다면 지금의 어려움은 교직 자체의 문제라기보다는, 현재의 환경과 상황에서 오는 것일 수 있겠어요.",
       "turn": 26,
-      "speaker": "client",
-      "text": "네... 줄여볼게요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "그리고 자기 전 루틴을 만들어보세요. 따뜻한 샤워, 스트레칭, 조명 어둡게 하기... 몸에게 '이제 잘 시간'이라는 신호를 주는 거예요.",
       "technique": [
-        "information_giving",
-        "structuring"
+        "reframing"
       ]
     },
     {
-      "turn": 27,
       "speaker": "client",
-      "text": "루틴... 해볼게요. 할 게 많네요."
+      "text": "그렇게 생각하니까 좀 다르게 보이네요. 그럼 저는 어떻게 해야 할까요? 이 상황을 바꿀 수 있을까요?",
+      "turn": 27
     },
     {
-      "turn": 27,
       "speaker": "counselor",
-      "text": "한 번에 다 하려고 하지 마세요. 이번 주에는 취침·기상 시간 일정하게 하기, 침대에서 핸드폰 안 보기, 이것만 해보세요.",
-      "technique": [
-        "validation",
-        "goal_setting"
-      ]
-    },
-    {
+      "text": "변화는 가능합니다. 우선 선생님께서 지금 경험하고 계신 번아웃을 회복하는 것이 중요해 보여요. 그 다음에 선생님의 교직 환경에서 개선할 수 있는 부분들을 함께 찾아볼 수 있을 것 같습니다.",
       "turn": 28,
-      "speaker": "client",
-      "text": "네, 그 정도는 할 수 있을 것 같아요."
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "좋아요. 그리고 수면 일기를 써보세요. 몇 시에 잤는지, 몇 번 깼는지, 낮에 어땠는지... 패턴을 파악하는 데 도움이 돼요.",
       "technique": [
-        "encouragement",
-        "goal_setting"
+        "guidance"
       ]
     },
     {
-      "turn": 29,
       "speaker": "client",
-      "text": "수면 일기요? 앱 같은 거 있나요?"
+      "text": "번아웃 회복이요... 구체적으로 어떻게 해야 하나요?",
+      "turn": 29
     },
     {
-      "turn": 29,
       "speaker": "counselor",
-      "text": "수면 추적 앱들이 많아요. 활용하시면 좋아요. 다음 주에 어떠셨는지 이야기 나눠봐요.",
+      "text": "먼저 선생님 자신을 돌보는 시간을 갖는 것이 필요합니다. 예전에 하셨던 취미 활동이나 좋아하셨던 일들이 있으셨나요?",
+      "turn": 30,
       "technique": [
-        "information_giving",
-        "structuring"
+        "open-ended question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "예전에는 주말마다 등산을 갔었어요. 그리고 독서도 좋아했고요. 요즘은 그럴 기력이 없어서...",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "등산과 독서를 즐기셨군요. 작은 것부터 시작해보는 건 어떨까요? 처음부터 큰 산을 오르시기보다는 가벼운 산책부터, 아니면 짧은 시간 책을 읽는 것부터 시작해보시는 거예요.",
+      "turn": 32,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그 정도는 할 수 있을 것 같아요. 그런데 그게 정말 도움이 될까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "작은 변화들이 쌓이면 큰 변화가 됩니다. 자신을 위한 시간을 갖는 것은 소진된 에너지를 회복하는 첫 걸음이에요. 그리고 학교에서의 경계 설정도 필요해 보입니다. 모든 것을 완벽하게 하려는 부담을 조금 내려놓으시면 어떨까요?",
+      "turn": 34,
+      "technique": [
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "경계 설정이요... 구체적으로 어떤 걸 말씀하시는 건가요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "예를 들어, 근무 시간 외에는 업무 관련 연락을 받지 않기, 모든 요구에 '예'라고 답하지 않기, 자신이 할 수 있는 범위를 명확히 하기 등이 있어요. 선생님의 상황에서는 어떤 경계가 필요하다고 생각하시나요?",
+      "turn": 36,
+      "technique": [
+        "collaborative approach"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 퇴근 후에 학부모 전화를 받는 게 스트레스였어요. 그리고 동료들이 부탁하는 일을 거절하지 못하는 것도요. 제가 너무 착한 척하며 산 건가요?",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "착한 척이 아니라 책임감이 강하고 다른 사람을 배려하는 성향이신 거예요. 하지만 자신을 돌보는 것도 중요한 책임입니다. 다른 사람을 돕기 위해서는 먼저 자신이 건강해야 해요.",
+      "turn": 38,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니까 마음이 좀 편해지네요. 제가 이기적인 건가 싶어서 죄책감이 들었거든요.",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "자기 돌봄은 이기심이 아니라 필수입니다. 오늘 상담을 통해 선생님께서 느끼신 점이나 앞으로 시도해보고 싶은 것이 있으신가요?",
+      "turn": 40,
+      "technique": [
+        "summarization"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "일단 이번 주말에 가벼운 산책을 해보려고요. 그리고 퇴근 후에는 업무 전화를 받지 않는 것부터 시작해볼게요. 작은 것부터 시작하면 된다는 말씀이 위로가 됐어요.",
+      "turn": 41
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 계획이세요. 선생님께서 스스로를 돌보기 시작하신다는 것이 정말 중요한 첫걸음입니다. 다음 상담 때는 이런 시도들이 어떠셨는지, 그리고 교직 생활에서 더 개선하고 싶은 부분들을 구체적으로 이야기 나눠보면 좋겠습니다.",
+      "turn": 42,
+      "technique": [
+        "encouragement"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 감사합니다. 오늘 상담 받기 잘한 것 같아요. 혼자가 아니라는 느낌이 들어서 좋았어요.",
+      "turn": 43
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "turn": 44,
+      "technique": [
+        "empowerment"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "33세",
-    "gender": "남성",
-    "occupation": "프리랜서",
-    "background": "새로운 사람을 만나는 것이 두려운 사회불안"
-  }
+  ]
 }

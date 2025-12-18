@@ -1,35 +1,26 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "형제 갈등",
-    "total_turns": 27,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "validation",
-      "restatement",
-      "closed_question",
-      "interpretation",
-      "information_giving"
-    ]
+    "topic": "학원 스트레스",
+    "total_turns": 29,
+    "generated_at": "2025-12-18T07:14:24.903785+00:00"
   },
-  "seed_info": {
-    "source_file": "adolescent_career_0008",
-    "category": "adolescent",
-    "topic": "형제 갈등"
+  "client_profile": {
+    "age": "14세",
+    "gender": "여성",
+    "occupation": "중학교 2학년",
+    "background": "학원 스트레스 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:35.972898+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님... 저 좀 이상한가요?"
+      "text": "제가 왜 이런지 모르겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "이상하다고 느끼신다니, 무슨 일이 있으셨나요?",
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
       "technique": [
         "empathy",
         "open_question"
@@ -38,12 +29,12 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "제 친구들은 다 서울대, 연대, 고대 이런 데 가려고 하는데... 저는 전문대나 직업학교 같은 데 가고 싶거든요. 근데 그런 말 하면 친구들이 이상하게 쳐다봐요."
+      "text": "매일 독서실에서 12시간씩 공부하는데... 솔직히 집중이 안 돼요. 작년 수능 생각만 나고, '이번에도 그러면 어떡하지' 이런 생각뿐이에요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "친구들과 다른 진로를 생각하고 계시는데, 그것 때문에 주변의 시선이 부담스러우신 거군요. 친구들이 어떻게 반응하던가요?",
+      "text": "오랜 시간 책상에 앉아 있지만 과거의 실패 경험과 미래에 대한 불안이 집중을 방해하고 있군요. 작년 수능에서 어떤 일이 있었나요?",
       "technique": [
         "reflection",
         "open_question"
@@ -52,221 +43,222 @@
     {
       "turn": 3,
       "speaker": "client",
-      "text": "처음에는 농담하는 줄 알았대요. 근데 진짜라고 하니까 '왜 그런 데 가냐', '성적 괜찮은데 아깝다'고 하더라고요. 심지어 어떤 친구는 '너 공부 포기했냐'고 물어봤어요."
+      "text": "평소보다 2등급이나 낮게 나왔어요. 국어에서 완전히 멘탈이 무너졌고, 그 뒤로 다른 과목도 제대로 못 봤어요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "친구들의 반응이 당신의 선택을 이해하지 못하는 것 같아서 상처받으셨군요. 전문대나 직업학교에 관심을 갖게 된 이유가 있나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "저는 요리를 배우고 싶어요. 나중에 제 식당을 하고 싶거든요. 그러려면 조리 관련 전문대학이나 직업학교가 오히려 더 좋다고 생각해요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "요리사가 꿈이고, 그 꿈을 위해 가장 적합한 교육 경로를 선택하려는 거군요. 언제부터 요리에 관심을 가지셨나요?",
+      "text": "국어 시험에서 시작된 멘탈 붕괴가 다른 과목까지 영향을 미친 거네요. 그 경험이 지금도 트라우마로 남아 있는 것 같아요.",
       "technique": [
         "restatement",
-        "open_question"
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "네... 요즘 모의고사만 봐도 그때 생각이 나요. 손이 떨리고 숨이 막혀요. 이러면 안 되는데..."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "시험 상황 자체가 트라우마 반응을 유발하고 있군요. 신체적 증상까지 나타나는 것은 꽤 심각한 수준의 시험 불안이에요.",
+      "technique": [
+        "interpretation",
+        "validation"
       ]
     },
     {
       "turn": 5,
       "speaker": "client",
-      "text": "중학교 때부터요. 집에서 요리하는 걸 좋아했고, 요리 과정도 엄청 봤어요. 직접 만들어서 가족들이 맛있다고 하면 정말 뿌듯하거든요."
+      "text": "심각한 건가요? 저는 그냥 제가 약해서 그런 줄 알았어요."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "오랫동안 관심을 가져왔고, 직접 경험도 해보셨군요. 요리를 할 때 어떤 감정이 드세요?",
+      "text": "약해서가 아니에요. 과거의 강렬한 부정적 경험이 현재의 유사한 상황에서 자동으로 반응하는 거예요. 이건 극복할 수 있어요.",
       "technique": [
         "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "정말요? 근데 시간이 없어요. 수능이 6주밖에 안 남았는데..."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "6주면 충분해요. 지금부터라도 체계적으로 대응하면 돼요. 먼저, 주변 분들은 재수에 대해 어떻게 생각하시나요?",
+      "technique": [
+        "encouragement",
         "open_question"
       ]
     },
     {
-      "turn": 6,
-      "speaker": "client",
-      "text": "행복해요. 시간 가는 줄 모르고, 새로운 레시피 시도하는 것도 재밌고... 이게 제 적성인 것 같아요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "확실한 적성을 찾으신 것 같네요. 그런데도 친구들의 반응 때문에 망설여지시나요?",
-      "technique": [
-        "validation",
-        "closed_question"
-      ]
-    },
-    {
       "turn": 7,
       "speaker": "client",
-      "text": "네... 친구들만 그런 게 아니라 부모님도, 선생님들도 비슷하게 반응하세요. 다들 일반 대학 가라고 하시고... 저만 다른 길 가는 것 같아서 불안해요."
+      "text": "부모님은 응원해 주시는데... 친구들은 다 대학 다니고 있고, 친척들 만나면 '재수는 잘 되냐'고 물어보고... 그게 너무 싫어요."
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "주변의 모든 사람들이 다른 길을 원하시니까 혼자 가는 것 같아 불안하고 외로우신 거군요. 부모님은 왜 일반 대학을 원하시나요?",
+      "text": "주변 사람들의 관심이 응원보다는 감시처럼 느껴지는군요. '또 실패하면 어떻게 보일까' 하는 두려움도 있으시겠어요.",
       "technique": [
         "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "성적이 3등급 정도 되니까, 괜찮은 4년제 대학 갈 수 있다고 하세요. 전문대나 직업학교는 공부 못하는 애들이 가는 데라고 생각하시는 것 같아요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "부모님은 전문대나 직업학교에 대한 편견을 가지고 계시는군요. 그런데 실제로는 어떤가요? 조리 전문대학에 대해 알아보신 적 있나요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "네, 많이 알아봤어요. 한국조리과학고등학교나 경기대학교 조리외식경영학과, 영진전문대 호텔조리과 같은 데요. 교육 과정도 체계적이고, 취업률도 높더라고요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "꽤 구체적으로 알아보셨네요. 이런 정보를 부모님이나 친구들과 공유해보셨나요?",
-      "technique": [
-        "validation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "말씀드렸는데... 그냥 '그래도 일반 대학이 낫다', '나중에 후회한다' 이런 반응만 나와요. 제 말을 제대로 들어주지 않는 느낌이에요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "자신의 생각을 진지하게 받아들여지지 않는다고 느끼시는군요. 그런데 한 가지 생각해볼 점이 있어요. 주변 사람들이 반대하는 이유는 당신을 무시해서가 아니라, 걱정해서일 수 있어요.",
-      "technique": [
-        "validation",
         "interpretation"
       ]
     },
     {
-      "turn": 11,
+      "turn": 8,
       "speaker": "client",
-      "text": "걱정이요? 어떤 걱정인데요?"
+      "text": "맞아요... 작년에 한 번 망했잖아요. 이번에도 망하면 완전 루저 같을 것 같아요. 삼수는 절대 못 해요."
     },
     {
-      "turn": 11,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "요리사라는 직업이 힘들고, 수입이 불안정할 수 있다는 걱정, 그리고 나중에 다른 걸 하고 싶을 때 4년제 학력이 없으면 제한받을 수 있다는 걱정 같은 거요. 이해가 되시나요?",
+      "text": "'삼수는 안 된다'는 생각이 '이번이 마지막'이라는 압박을 더 키우고 있네요. 혹시 삼수를 할 수 없는 구체적인 이유가 있나요?",
       "technique": [
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "음... 그렇게 생각할 수도 있겠네요. 근데 저는 진짜 요리를 하고 싶거든요. 다른 건 생각 안 해봤어요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "요리에 대한 확신은 있으시네요. 그런데 주변의 걱정이 완전히 틀린 건 아닐 수 있어요. 요리사의 현실적인 어려움에 대해서는 알아보셨나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "힘들다는 건 알아요. 서서 일하고, 주방이 뜨겁고, 근무시간도 길고... 근데 좋아하는 일이면 견딜 수 있을 것 같아요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "각오가 되어 있으시네요. 그런데 초기에는 수입이 적을 수 있다는 것도 고려하셨나요? 독립할 때까지 시간이 오래 걸릴 수 있어요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "그건... 생각 못 했어요. 얼마나 걸리나요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "사람마다 다르지만, 일반적으로 기술을 익히고 경력을 쌓아서 독립하기까지 10년 정도 걸릴 수 있어요. 그동안은 급여가 높지 않을 수 있고요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "10년이요... 생각보다 오래 걸리네요. 근데 그래도 하고 싶어요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "현실을 알고도 하고 싶다는 마음이 있으시니, 진짜 적성인 것 같네요. 그렇다면 주변을 설득하기 위해 좀 더 구체적인 계획을 세워보는 게 어떨까요?",
-      "technique": [
-        "validation",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "구체적인 계획이요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "예를 들어, 어느 학교에서 무엇을 배울 것인지, 졸업 후 어떤 경로로 경력을 쌓을 것인지, 언제쯤 독립할 계획인지, 수입은 어느 정도 예상되는지 같은 거요. 이런 게 준비되어 있으면 주변 사람들도 당신의 진지함을 인정할 거예요.",
-      "technique": [
-        "information_giving",
+        "interpretation",
         "clarification"
       ]
     },
     {
-      "turn": 17,
+      "turn": 9,
       "speaker": "client",
-      "text": "그렇게까지 해야 하나요? 그냥 하고 싶은 거 하면 안 되나요?"
+      "text": "부모님한테 더 이상 부담 드리기 싫고... 저도 이렇게 계속 살 순 없잖아요. 친구들은 대학 생활 즐기는데 저만..."
     },
     {
-      "turn": 17,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "물론 자신의 선택은 자신이 하는 거예요. 하지만 부모님의 지원이 필요하다면, 그리고 주변의 이해를 얻고 싶다면, 그들의 걱정을 해소할 수 있는 계획을 보여주는 게 도움이 될 거예요.",
+      "text": "경제적 부담, 시간 낭비에 대한 두려움, 또래와의 비교 등 여러 압박이 동시에 작용하고 있군요. 그 마음 충분히 이해해요.",
+      "technique": [
+        "summarization",
+        "empathy"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "그런데 이렇게 불안하면 또 망할 것 같아요. 작년처럼..."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "불안이 실패를 부를 거라는 예측 때문에 더 불안한 악순환이네요. 하지만 작년과 지금은 다른 점이 있어요. 무엇일까요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "다른 점이요? 잘 모르겠는데..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "그렇긴 하네요... 작년에는 혼자 끙끙 앓다가 터진 거였는데."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "맞아요. 그리고 재수하면서 실력도 늘었을 거예요. 모의고사 성적은 어떤가요?",
+      "technique": [
+        "validation",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "평균적으로는 작년보다 좋아요. 근데 들쭉날쭉해요. 잘 나올 때도 있고 엉망일 때도 있고..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "실력은 늘었는데 일관성이 없는 거네요. 그건 실력 문제가 아니라 컨디션과 멘탈 관리의 문제예요. 여기에 집중하면 충분히 안정적인 결과를 낼 수 있어요.",
+      "technique": [
+        "interpretation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "멘탈 관리... 구체적으로 어떻게 해야 하나요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "먼저, 작년 수능에 대한 트라우마를 다뤄야 해요. 그 기억을 떠올릴 때 어떤 감정이 드나요?",
+      "technique": [
+        "structuring",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "분노, 후회, 자책... 복잡해요. '왜 그랬을까', '조금만 더 잘했으면' 이런 생각들..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그 감정들을 인정하는 게 첫 번째 단계예요. 그리고 두 번째는, 그 경험에서 배운 것을 찾는 거예요. 작년 경험이 지금의 당신에게 준 교훈이 있다면 뭘까요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "음... 한 과목에서 무너져도 다음 과목은 잘해야 한다는 것? 그리고 멘탈 관리가 중요하다는 것?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그렇게 생각할 수 있을까요? 그 순간에는 패닉 상태가 될 것 같은데..."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그래서 미리 연습이 필요해요. 지금부터 모의고사를 볼 때마다 '한 과목 망쳐도 괜찮아. 다음 과목에 집중하자'를 의식적으로 연습하는 거예요.",
+      "technique": [
+        "structuring",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 18,
       "speaker": "client",
-      "text": "그렇긴 하네요... 어떻게 준비하면 될까요?"
+      "text": "의식적으로 연습... 해볼 만한 것 같아요."
     },
     {
       "turn": 18,
       "speaker": "counselor",
-      "text": "먼저 목표 학교의 교육 과정과 졸업생 진로를 조사하고, 요리사의 경력 경로와 평균 수입을 알아보세요. 그리고 성공한 요리사들의 사례도 찾아보고요. 이런 자료를 정리해서 부모님께 보여드리는 거예요.",
+      "text": "그리고 시험장에서 불안이 올라올 때 사용할 수 있는 루틴을 만들어 보면 어떨까요? 예를 들어, 눈을 감고 깊게 숨을 3번 쉬고 '나는 준비됐어'라고 말하는 식으로요.",
       "technique": [
         "goal_setting",
         "information_giving"
@@ -275,96 +267,96 @@
     {
       "turn": 19,
       "speaker": "client",
-      "text": "자료를 준비하면 부모님이 들어주실까요?"
+      "text": "루틴이요... 그게 도움이 될까요?"
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "한 번에 설득되지 않을 수도 있어요. 하지만 당신이 얼마나 진지하게 고민했는지 보여줄 수는 있어요. 그리고 부모님의 걱정에 대한 답도 준비하는 거죠.",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
         "information_giving",
-        "encouragement"
+        "validation"
       ]
     },
     {
       "turn": 20,
       "speaker": "client",
-      "text": "부모님 걱정에 대한 답이요?"
+      "text": "아, 그렇군요. 만들어볼게요."
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "예를 들어, '힘들지 않냐'는 걱정에는 '각오가 되어 있고, 체력 관리도 할 계획'이라고 답하고, '수입이 불안정하지 않냐'는 걱정에는 '초기에는 어렵지만 경력을 쌓으면 안정적이다'는 자료를 보여주는 거예요.",
+      "text": "좋아요. 그리고 '이번이 마지막'이라는 생각도 조금 바꿔볼 필요가 있어요. 물론 삼수를 원하지 않는 건 이해하지만, 그 생각이 너무 큰 압박이 되고 있어요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "어떻게 바꿔야 하나요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "'이번이 마지막 기회'가 아니라 '이번이 최선의 기회'로 생각해 보세요. 미묘한 차이지만 압박은 줄고 동기는 유지돼요.",
       "technique": [
         "information_giving",
         "clarification"
       ]
     },
     {
-      "turn": 21,
-      "speaker": "client",
-      "text": "그렇게 준비하면 되겠네요. 친구들한테는 어떻게 해야 할까요?"
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "친구들의 의견도 중요하지만, 가장 중요한 건 당신의 인생이에요. 친구들이 이해 못 해도 괜찮아요. 나중에 당신이 성공하면 이해하게 될 거예요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
       "turn": 22,
       "speaker": "client",
-      "text": "그래도 친구들이 이상하게 보는 게 신경 쓰여요."
+      "text": "최선의 기회... 좀 덜 무섭게 들리네요."
     },
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "그 마음 이해해요. 하지만 모두가 같은 길을 갈 필요는 없어요. 다양한 길이 있고, 각자에게 맞는 길이 있는 거죠. 당신은 자신에게 맞는 길을 찾은 거예요.",
-      "technique": [
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "네... 그렇게 생각하니까 조금 위안이 되네요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "그리고 실제로 명문대가 모든 사람에게 정답은 아니에요. 자신의 적성과 목표에 맞는 교육을 받는 게 더 중요하죠. 당신은 현명한 선택을 하고 있는 거예요.",
+      "text": "그렇죠? 그리고 만약 정말 원하는 결과가 안 나와도, 그게 인생의 끝은 아니에요. 다른 길도 있고, 나중에 편입이나 다른 방법도 있어요.",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
+      "turn": 23,
+      "speaker": "client",
+      "text": "맞는 말씀이에요... 제가 너무 좁게 생각했나봐요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "스트레스 받으면 시야가 좁아지는 건 자연스러운 거예요. 지금은 시야를 넓히는 연습을 하는 거죠. 그럼 남은 6주 동안의 계획을 세워볼까요?",
+      "technique": [
+        "validation",
+        "structuring"
+      ]
+    },
+    {
       "turn": 24,
       "speaker": "client",
-      "text": "감사합니다. 오늘 이야기하고 나니까 제 선택이 틀리지 않았다는 확신이 생겨요."
+      "text": "네, 부탁드려요."
     },
     {
       "turn": 24,
       "speaker": "counselor",
-      "text": "좋아요. 오늘 우리가 나눈 이야기를 정리해볼게요. 요리사라는 명확한 꿈이 있고, 그에 맞는 교육 경로를 선택하려는데 주변의 시선이 부담되었어요. 앞으로는 구체적인 계획을 세워서 주변을 설득하고, 자신의 선택에 확신을 가지기로 했어요.",
+      "text": "첫째, 매일 최소 7시간 수면. 둘째, 주 2회 실전 모의고사로 멘탈 훈련. 셋째, 시험 전 루틴 연습. 넷째, 매일 자기 격려 일기 쓰기. 어때요?",
       "technique": [
-        "summarization",
-        "structuring"
+        "structuring",
+        "goal_setting"
       ]
     },
     {
       "turn": 25,
       "speaker": "client",
-      "text": "네, 맞아요. 이제 뭘 해야 할지 알겠어요."
+      "text": "구체적이고 실천 가능할 것 같아요. 해볼게요."
     },
     {
       "turn": 25,
       "speaker": "counselor",
-      "text": "자신의 길을 가는 용기를 내신 거예요. 쉽지 않겠지만 잘 해낼 거라 믿어요. 응원할게요!",
+      "text": "훌륭해요. 그리고 기억하세요, 당신은 작년보다 더 성장했고, 더 현명해졌어요. 충분히 해낼 수 있어요.",
       "technique": [
         "encouragement",
         "validation"
@@ -373,35 +365,56 @@
     {
       "turn": 26,
       "speaker": "client",
-      "text": "감사합니다, 선생님. 힘이 많이 났어요."
+      "text": "감사합니다, 선생님. 오늘 상담 받고 좀 자신감이 생겼어요."
     },
     {
       "turn": 26,
       "speaker": "counselor",
-      "text": "계획 세우고 부모님과 이야기하면서 어려운 게 있으면 언제든 다시 오세요. 함께 고민해봐요.",
+      "text": "그 자신감을 계속 유지하세요. 2주 후에 다시 만나서 진행 상황 확인해 볼까요?",
       "technique": [
-        "structuring",
-        "encouragement"
+        "encouragement",
+        "structuring"
       ]
     },
     {
       "turn": 27,
       "speaker": "client",
-      "text": "네, 꼭 그럴게요. 다음에 또 올게요!"
+      "text": "네! 그때까지 열심히 해볼게요."
     },
     {
       "turn": 27,
       "speaker": "counselor",
-      "text": "좋은 소식 기다릴게요. 화이팅!",
+      "text": "응원할게요. 당신은 이미 재수를 선택한 용기 있는 사람이에요. 그 용기로 끝까지 해내실 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "감사합니다. 최선을 다하겠습니다!"
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "최선을 다하는 당신의 모습을 응원해요. 좋은 결과 있기를 바랄게요!",
+      "technique": [
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네, 꼭 좋은 소식 전하러 올게요!"
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "기대할게요. 힘들 때 언제든 연락하세요. 화이팅!",
       "technique": [
         "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "14세",
-    "gender": "여성",
-    "occupation": "중학교 2학년",
-    "background": "형제자매와의 비교로 인한 스트레스"
-  }
+  ]
 }

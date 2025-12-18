@@ -1,35 +1,26 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "시험 불안",
-    "total_turns": 30,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "validation",
-      "emotion_labeling",
-      "closed_question",
-      "restatement",
-      "information_giving"
-    ]
+    "topic": "학교 폭력과 따돌림",
+    "total_turns": 27,
+    "generated_at": "2025-12-18T07:14:26.480421+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_학업스트레스_0038_학원과부하_001",
-    "category": "adolescent",
-    "topic": "시험 불안"
+  "client_profile": {
+    "age": "14세",
+    "gender": "남성",
+    "occupation": "중학교 2학년",
+    "background": "학교 폭력과 따돌림 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.730188+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님... 저 너무 피곤해요. 아침에 일어날 수가 없어요."
+      "text": "어디서부터 말해야 할지 모르겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "많이 피곤하구나. 요즘 하루 일과가 어떻게 되는지 말해줄 수 있어?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
       "technique": [
         "empathy",
         "open_question"
@@ -38,12 +29,12 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "학교 끝나면 3시부터 영어 학원, 5시부터 수학 학원, 7시부터 국어 학원이요. 저녁은 학원에서 도시락 먹고요. 9시에 집 와서 과학 인터넷 강의 듣고, 11시에 화상 영어하고... 끝나면 새벽 1시예요."
+      "text": "친구 문제 때문에요. 얼마 전에 친한 친구랑 싸웠는데, 자꾸 그 생각만 나요. 공부하려고 해도 머릿속이 복잡해요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "하루에 학원 3개에 인터넷 강의, 화상 영어까지... 쉬는 시간이 거의 없겠다. 언제부터 이렇게 다녔어?",
+      "text": "친구와의 갈등이 계속 마음에 걸려서 다른 일에 집중하기 어려운 거네요. 어떤 일이 있었나요?",
       "technique": [
         "reflection",
         "open_question"
@@ -52,250 +43,260 @@
     {
       "turn": 3,
       "speaker": "client",
-      "text": "중2 겨울방학 때부터요. 고등학교 가기 전에 미리 준비해야 한다고 엄마가 등록하셨어요. 처음엔 괜찮았는데 이제 한계예요."
+      "text": "제 친한 친구가 다른 애들이랑 더 친해지더라고요. 저는 빼고요. 그래서 섭섭해서 말을 했는데, 친구가 '네가 너무 집착한다'고 하면서 화를 냈어요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "1년 넘게 이 스케줄을 소화하다 보니 체력적으로, 정신적으로 지쳐가고 있구나. 구체적으로 어떤 증상이 있어?",
+      "text": "소외감을 느껴서 이야기했는데 오히려 집착한다는 말을 들으니 상처받았겠어요. 그 후로 친구와는 어떤 사이인가요?",
       "technique": [
+        "empathy",
         "validation",
-        "open_question"
+        "closed_question"
       ]
     },
     {
       "turn": 4,
       "speaker": "client",
-      "text": "계속 졸려요. 학원 수업 시간에도 조는데, 선생님들이 뭐라고 하세요. 집중도 안 되고... 두통도 자주 오고요."
+      "text": "어색해요. 말도 잘 안 하고... 학교 가는 게 너무 싫어요. 쉬는 시간마다 친구가 다른 애들이랑 노는 거 보면 마음이 아파요."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "수면 부족으로 인한 신체 증상들이 나타나고 있네. 잠은 몇 시간이나 자?",
+      "text": "학교에서 매일 그 장면을 보면서 마음이 아프고, 그게 계속 머릿속을 맴도니까 공부에도 집중할 수 없는 거네요.",
+      "technique": [
+        "empathy",
+        "interpretation"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "네... 수업 시간에도 그 생각만 해요. 선생님 말씀이 귀에 안 들어와요. 그러다가 집에 와서 공부하려고 하면, 오늘 있었던 일들이 또 떠오르고..."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "학교에서도, 집에서도 계속 그 생각에 사로잡혀 있는 상태네요. 밤에 잠은 잘 오나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "잘 못 자요. 자려고 누워도 자꾸 생각나고... '내가 뭘 잘못했나', '친구가 왜 그랬을까' 이런 생각 계속 해요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "수면에까지 영향을 받고 있네요. 그 생각들이 계속 반복되면서 잠도 못 자고, 공부도 못 하고, 학교 생활도 힘든 악순환에 빠진 것 같아요.",
+      "technique": [
+        "empathy",
+        "interpretation"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "맞아요... 그리고 요즘 기분도 계속 우울해요. 아무것도 하기 싫고, 재미있는 것도 없고..."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "우울감까지 느끼고 있군요. 친구 관계 문제가 전반적인 기분과 생활에 큰 영향을 미치고 있네요. 다른 친구들은 있나요?",
       "technique": [
         "emotion_labeling",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "4-5시간? 1시에 자서 6시 반에 일어나거든요. 주말에는 좀 더 자지만 주말에도 학원 있어요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "청소년에게 4-5시간 수면은 정말 부족해. 주말에도 학원이 있다면 회복할 시간도 없는 거네. 이런 상황을 부모님께 말씀드려봤어?",
-      "technique": [
-        "validation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "말했는데... 고등학교 가면 더 힘들다고, 지금 버텨야 한다고 하세요. 다른 애들도 다 이렇게 한다고..."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "부모님은 이게 필요한 과정이라고 생각하시는구나. '다른 애들도 다 한다'는 말을 들으면 어떤 기분이 들어?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "제가 나약한 것 같아요. 다들 하는데 저만 힘들다고 하는 것 같아서... 근데 정말 힘들거든요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "힘든 건 사실인데, 그걸 말하면 나약하다고 느껴지니까 참고 있는 거구나. 성적은 어때? 이렇게 많이 하니까 올랐어?",
-      "technique": [
         "empathy",
-        "open_question"
+        "closed_question"
       ]
     },
     {
       "turn": 8,
       "speaker": "client",
-      "text": "아니요... 오히려 떨어졌어요. 너무 피곤해서 수업 내용이 머리에 안 들어와요. 그러면 엄마가 집중 안 한다고 혼내세요."
+      "text": "있긴 한데... 그 친구만큼 친하지는 않아요. 그리고 걔네도 그 친구랑 친하니까 제 편은 안 들어줄 것 같아요."
     },
     {
       "turn": 8,
       "speaker": "counselor",
-      "text": "이렇게 많은 시간을 투자하는데 성적은 오히려 떨어지니까 더 무기력하고 좌절스럽겠다. 이건 네가 노력하지 않아서가 아니라 과부하 때문이야.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "과부하요? 저만 그런 게 아니에요?"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "아니야. 뇌도 몸도 일정 시간 이상 집중하면 효율이 떨어져. 14시간씩 학습하는 건 오히려 역효과를 낼 수 있어. 양보다 질이 중요하거든.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "그럼 어떻게 해야 하죠? 학원을 줄여야 하나요? 엄마가 허락하실까요..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "그게 필요해 보여. 하지만 무작정 줄이자고 하면 부모님이 받아들이기 어려울 수 있어. 전략적으로 접근해야 해. 5개 학원 중에서 네가 가장 효과가 없다고 느끼는 건 뭐야?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "화상 영어요. 매일 30분인데 너무 형식적이에요. 그냥 잡담하고 끝나는 느낌이고... 실력 향상도 없는 것 같아요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "화상 영어의 효율성이 떨어진다고 느끼는구나. 그럼 그걸 먼저 중단하는 걸 부모님께 제안해보면 어떨까? 단, 그냥 힘들다가 아니라 효율적이지 않다는 이유로.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "reflection",
-        "structuring"
+        "empathy",
+        "validation"
       ]
     },
     {
-      "turn": 12,
+      "turn": 9,
       "speaker": "client",
-      "text": "효율적이지 않다고요? 그렇게 말하면 들어주실까요?"
+      "text": "네... 부모님한테도 말 못 해요. '공부나 열심히 해'라고 하실 것 같아서..."
     },
     {
-      "turn": 12,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "부모님이 학원을 보내시는 이유는 성적 향상을 위해서잖아. 그런데 지금은 과부하로 오히려 성적이 떨어지고 있다는 걸 데이터로 보여드리는 거야. 최근 성적표 있어?",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
-        "information_giving",
+        "empathy",
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "둘 다요... 친구 관계도 해결하고 싶고, 시험도 잘 봐야 하는데 둘 다 안 되니까 너무 답답해요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "두 가지 문제가 동시에 있으니 더욱 힘드시겠어요. 그런데 이 둘은 연결되어 있어요. 친구 관계가 정리되면 마음이 편해지고, 그러면 공부에도 집중할 수 있을 거예요.",
+      "technique": [
+        "empathy",
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "근데 어떻게 정리하죠? 친구가 저한테 화났는데..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "먼저 질문할게요. 그 친구와의 관계를 회복하고 싶나요, 아니면 거리를 두고 싶나요?",
+      "technique": [
+        "structuring",
         "closed_question"
       ]
     },
     {
+      "turn": 12,
+      "speaker": "client",
+      "text": "회복하고 싶어요. 정말 친한 친구였거든요. 근데 어떻게 다가가야 할지 모르겠어요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "technique": [
+        "validation",
+        "open_question",
+        "structuring"
+      ]
+    },
+    {
       "turn": 13,
       "speaker": "client",
-      "text": "네, 있어요. 중간고사 때보다 기말고사 때 떨어졌어요."
+      "text": "음... 제가 좀 친구한테만 의존했던 것 같기도 해요. 다른 친구들이랑 놀면 섭섭해하고... 친구 입장에서는 부담스러웠을 수도 있겠네요."
     },
     {
       "turn": 13,
       "speaker": "counselor",
-      "text": "그걸 근거로 대화하는 거야. '이렇게 많이 하는데 성적이 오히려 떨어졌다. 집중력이 떨어지고 피로가 누적되고 있다. 효율을 높이기 위해 스케줄을 조정하고 싶다'고 말하는 거지.",
+      "text": "자신의 행동을 객관적으로 볼 수 있네요. 그게 중요한 첫 단계예요. 친구도 다른 친구들과 어울리고 싶은 욕구가 있었을 거예요. 그걸 이해할 수 있나요?",
       "technique": [
+        "encouragement",
+        "interpretation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "이해는 돼요. 근데 그래도 섭섭한 건 어쩔 수 없잖아요."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "섭섭한 감정은 당연해요. 그 감정 자체가 문제가 아니에요. 중요한 건 그 감정을 어떻게 표현하느냐예요. 친구한테 '다른 애들이랑 놀지 마'라고 한 건지, '나도 같이 놀고 싶어'라고 한 건지에 따라 달라지죠.",
+      "technique": [
+        "validation",
+        "information_giving",
+        "interpretation"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "저는... '왜 나는 빼고 다른 애들이랑만 노냐'고 했어요. 좀 따졌던 것 같아요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "비난하는 톤으로 말했다면 친구가 방어적이 됐을 거예요. 만약 다시 이야기할 기회가 있다면, '나 전달법'을 써보는 건 어떨까요?",
+      "technique": [
+        "interpretation",
         "structuring",
         "information_giving"
       ]
     },
     {
-      "turn": 14,
+      "turn": 16,
       "speaker": "client",
-      "text": "그렇게 말하면... 설득력이 있을 것 같아요. 근데 무서워요."
+      "text": "나 전달법이요?"
     },
     {
-      "turn": 14,
+      "turn": 16,
       "speaker": "counselor",
-      "text": "부모님께 반대 의견을 내는 게 두렵구나. 하지만 지금처럼 계속 가다간 번아웃이 와서 아예 공부를 못 할 수도 있어. 그게 더 큰 문제잖아.",
-      "technique": [
-        "empathy",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "번아웃이요? 그게 뭐예요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "극심한 스트레스와 피로가 누적돼서 아예 의욕이 사라지는 거야. 지금 네가 느끼는 무기력, 집중력 저하, 신체 증상들이 번아웃 초기 신호일 수 있어.",
+      "text": "'너는 왜 그래'가 아니라 '나는 이렇게 느꼈어'로 말하는 거예요. 예를 들어 '네가 다른 애들이랑만 놀아서 나는 섭섭했어. 나도 같이 있고 싶었어'라고요.",
       "technique": [
         "information_giving",
-        "emotion_labeling"
+        "clarification"
       ]
     },
     {
-      "turn": 16,
+      "turn": 17,
       "speaker": "client",
-      "text": "그럼 정말 심각한 거네요... 부모님께 말씀드려야겠어요."
+      "text": "그렇게 말하면 친구가 덜 방어적으로 들을까요?"
     },
     {
-      "turn": 16,
+      "turn": 17,
       "speaker": "counselor",
-      "text": "그래, 용기 내봐. 부모님도 네가 망가지길 원하시진 않으실 거야. 그리고 한 가지 제안인데, 학원을 줄이는 대신 그 시간에 수면과 자기주도 학습을 하겠다는 대안을 제시하면 더 좋아.",
+      "text": "가능성이 높아요. 비난받는다고 느끼지 않으니까요. 그리고 자신의 감정을 솔직하게 표현하는 거니까 친구도 이해할 수 있을 거예요.",
       "technique": [
-        "encouragement",
-        "structuring"
+        "information_giving",
+        "encouragement"
       ]
     },
     {
-      "turn": 17,
+      "turn": 18,
       "speaker": "client",
-      "text": "자기주도 학습이요?"
+      "text": "한번 해볼게요. 근데 거절당하면 어떡하죠? 더 상처받을 것 같아요."
     },
     {
-      "turn": 17,
+      "turn": 18,
       "speaker": "counselor",
-      "text": "응. 학원에서 배운 걸 복습하고 정리하는 시간 말이야. 지금은 학원만 다니느라 복습할 시간이 없잖아. 복습 없이는 실력이 안 늘어.",
+      "text": "그 걱정도 이해돼요. 하지만 지금 상태로 있는 것도 힘들잖아요. 시도해보지 않으면 영원히 알 수 없어요. 그리고 만약 친구가 거절한다면, 그건 그 관계의 한계일 수 있어요.",
+      "technique": [
+        "validation",
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "관계의 한계요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "모든 관계가 영원할 수는 없어요. 때로는 멀어지기도 하죠. 그게 슬프긴 하지만, 받아들이는 것도 성장이에요. 그리고 새로운 관계를 만들 수도 있고요.",
       "technique": [
         "information_giving",
         "validation"
       ]
     },
     {
-      "turn": 18,
-      "speaker": "client",
-      "text": "맞아요. 학원 숙제하느라 복습은 거의 못 해요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "그럼 이렇게 제안해봐. '화상 영어를 중단하고 그 시간에 학원 내용을 복습하고 싶다. 그리고 30분 일찍 자서 수면을 확보하고 싶다'고. 어때?",
-      "technique": [
-        "structuring",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "좋은 것 같아요. 근데 화상 영어만으로는 부족할 것 같은데... 다른 것도 줄이고 싶어요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "일단 하나부터 시도해보고, 효과가 있으면 부모님도 더 설득하기 쉬워질 거야. 어느 것을 그 다음으로 줄이고 싶어?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
       "turn": 20,
       "speaker": "client",
-      "text": "과학 인터넷 강의요. 학교에서도 배우는 건데 또 듣는 게 중복되는 것 같아요."
+      "text": "새로운 관계요... 생각해본 적 없는데. 지금은 그 친구밖에 생각이 안 나요."
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "중복 학습이 비효율적이라고 느끼는구나. 그것도 나중에 근거로 삼을 수 있어. 일단은 화상 영어부터 해보고, 한 달 후 성적이나 컨디션이 좋아지면 그때 추가로 제안하는 거야.",
+      "text": "지금은 그 친구에게 집중되어 있지만, 시야를 넓혀보면 다른 가능성도 있어요. 그런데 그건 나중 이야기고, 우선 시험이 일주일 남았다고 했죠? 공부에 대해 이야기해볼까요?",
       "technique": [
         "validation",
         "structuring"
@@ -304,147 +305,104 @@
     {
       "turn": 21,
       "speaker": "client",
-      "text": "단계적으로 하는 게 낫겠네요. 알겠어요."
+      "text": "네... 근데 공부가 손에 안 잡혀요. 자꾸 딴생각만 나고..."
     },
     {
       "turn": 21,
       "speaker": "counselor",
-      "text": "그리고 수면은 정말 중요해. 최소 7시간은 자야 해. 11시 반에 자면 6시 반에 일어날 수 있잖아. 1시간 반을 더 자는 거야.",
+      "text": "친구 생각이 계속 나는 건 당연해요. 하지만 그 생각에 완전히 지배당하지 않는 연습이 필요해요. 생각이 나면 '아, 또 이 생각이 나는구나' 인정하고, 다시 현재로 돌아오는 거예요.",
       "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "그러려면 화상 영어를 안 해야 하는데... 엄마가 허락하실까요?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "그래서 설득이 필요한 거지. 성적표, 컨디션 문제, 효율성 이슈를 들어서 차분하게 설명하는 거야. 혹시 담임 선생님께 도움을 요청할 수 있을까?",
-      "technique": [
-        "structuring",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "담임 선생님이요? 어떻게요?"
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "선생님께 상황을 말씀드리고, 부모님과의 상담을 요청하는 거야. 선생님이 과중한 학원이 오히려 학습 효율을 떨어뜨린다고 말씀해주시면 부모님도 귀 기울이실 거야.",
-      "technique": [
+        "validation",
         "information_giving",
         "structuring"
       ]
     },
     {
-      "turn": 24,
+      "turn": 22,
       "speaker": "client",
-      "text": "그렇게 할 수 있겠네요. 선생님도 제가 수업 시간에 자는 거 아시니까..."
+      "text": "그게 쉽게 될까요?"
     },
     {
-      "turn": 24,
+      "turn": 22,
       "speaker": "counselor",
-      "text": "좋아. 그럼 계획을 정리해볼까? 첫째, 담임 선생님께 상황 설명하고 도움 요청. 둘째, 부모님께 성적 하락과 컨디션 문제 설명. 셋째, 화상 영어 중단과 수면 확보 제안. 어때?",
-      "technique": [
-        "structuring",
-        "summarization"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 해볼게요. 근데 혹시 안 되면 어떡하죠?"
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "그럼 다시 와서 다른 방법을 찾아보면 돼. 하지만 시도해보지 않으면 아무것도 바뀌지 않아. 네 건강이 가장 중요하다는 걸 기억해.",
+      "text": "처음에는 어려워요. 하지만 연습하면 점점 나아져요. 공부할 때 타이머를 25분으로 맞추고, 그 시간만큼은 공부에만 집중하는 연습을 해보세요. 딴생각이 나면 종이에 적어두고 나중에 생각하기로 하는 거예요.",
       "technique": [
         "validation",
-        "encouragement"
+        "information_giving",
+        "structuring"
       ]
     },
     {
-      "turn": 26,
+      "turn": 23,
       "speaker": "client",
-      "text": "네... 제 건강이 중요하죠. 이제 정말 한계예요."
+      "text": "종이에 적어두면 좀 나을까요?"
     },
     {
-      "turn": 26,
+      "turn": 23,
       "speaker": "counselor",
-      "text": "네 몸이 신호를 보내고 있는 거야. 그걸 무시하면 안 돼. 부모님도 네가 아프길 원하시진 않으실 거야. 용기 내서 말씀드려봐.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "네, 이번 주 안에 담임 선생님께 먼저 말씀드리고, 부모님께도 말씀드릴게요."
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "좋은 계획이야. 그리고 만약 바로 바뀌지 않더라도, 지금 당장 네가 할 수 있는 건 수면 시간을 조금이라도 확보하는 거야. 숙제를 다 못 해도 11시 반에는 자봐.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 28,
-      "speaker": "client",
-      "text": "숙제를 안 하고요? 그래도 되나요?"
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "완벽하게 다 하려다가 건강을 망가뜨리는 것보다, 80%만 하고 건강을 지키는 게 장기적으로 낫지. 우선순위를 정하는 거야.",
+      "text": "네. 머릿속에서만 맴돌면 계속 신경 쓰이는데, 적어두면 '나중에 생각해도 돼'라는 안심이 되거든요. 그리고 25분 뒤에 5분 쉬는 시간에 그 종이를 보면서 잠깐 생각해도 돼요.",
       "technique": [
         "information_giving",
-        "validation"
+        "clarification"
       ]
     },
     {
-      "turn": 29,
+      "turn": 24,
       "speaker": "client",
-      "text": "알겠어요. 선생님 말씀대로 해볼게요. 오늘 상담 정말 도움이 됐어요."
+      "text": "그 방법 한번 해볼게요. 그리고 친구한테도 용기 내서 말해볼게요."
     },
     {
-      "turn": 29,
+      "turn": 24,
       "speaker": "counselor",
-      "text": "다행이다. 다음 주에 어떻게 진행됐는지 이야기해줘. 힘들면 언제든 와. 넌 충분히 잘하고 있어. 너무 자신을 몰아붙이지 마.",
+      "text": "좋은 결심이에요. 그럼 정리해볼까요? 첫째, 친구에게 나 전달법으로 자신의 감정 전달해보기. 둘째, 공부할 때는 25분 집중하고 딴생각은 종이에 적어두기. 셋째, 충분한 수면 취하기. 이렇게 해보는 거예요.",
+      "technique": [
+        "encouragement",
+        "summarization",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네, 해볼게요. 특히 친구한테 말하는 게 제일 중요할 것 같아요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "맞아요. 그 문제가 해결되면 마음이 한결 가벼워질 거예요. 그리고 기억하세요. 어떤 결과가 나오든 자신은 최선을 다한 거예요. 그걸로 충분해요.",
       "technique": [
         "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 30,
+      "turn": 26,
       "speaker": "client",
-      "text": "감사합니다, 선생님. 다음 주에 올게요!"
+      "text": "감사해요. 오늘 이야기하니까 좀 정리가 된 것 같아요."
     },
     {
-      "turn": 30,
+      "turn": 26,
       "speaker": "counselor",
-      "text": "응, 건강 잘 챙기고. 파이팅!",
+      "text": "다행이에요. 힘들 때는 언제든 오세요. 친구 문제든 공부 문제든, 함께 이야기 나눠봐요. 힘내세요.",
       "technique": [
-        "encouragement"
+        "encouragement",
+        "validation",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "네, 감사합니다!"
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "잘할 수 있을 거예요. 응원할게요.",
+      "technique": [
+        "encouragement",
+        "validation"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "15세",
-    "gender": "여성",
-    "occupation": "중학교 3학년",
-    "background": "시험만 보면 머리가 하얘지고 아는 것도 틀리는 시험 불안"
-  }
+  ]
 }

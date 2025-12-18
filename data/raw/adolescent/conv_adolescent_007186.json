@@ -1,412 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "SNS 갈등",
-    "total_turns": 27,
-    "quality_indicators": [
-      "restatement",
-      "empathy",
-      "open_question",
-      "reflection",
-      "emotion_labeling",
-      "validation",
-      "information_giving",
-      "structuring"
-    ]
+    "topic": "수면 문제",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:25.580257+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_가족갈등_0012_형제자매갈등_02",
-    "category": "adolescent",
-    "topic": "SNS 갈등"
+  "client_profile": {
+    "age": "18세",
+    "gender": "여성",
+    "occupation": "고등학교 3학년",
+    "background": "수면 문제 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.771484+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "동생이 주의력결핍가 있어서 부모님이 동생한테만 신경 쓰세요. 저는 투명인간 같아요."
+      "text": "시험 때문에 미칠 것 같아요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "동생의 특별한 상황 때문에 부모님의 관심이 동생에게 쏠려있고, 자신은 소외감을 느끼고 있군요. 언제부터 이런 느낌이 들었나요?",
-      "technique": [
-        "restatement",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
       "turn": 2,
-      "speaker": "client",
-      "text": "동생이 초등학교 때 주의력결핍 진단받고 나서요. 그때부터 집안이 온통 동생 중심이 됐어요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "동생의 진단 이후 가족 역학이 완전히 바뀐 거네요. 구체적으로 어떤 점이 가장 힘든가요?",
       "technique": [
-        "reflection",
+        "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "동생이 말썽을 피우면 부모님이 '동생은 어쩔 수 없어'라고 하시면서 넘어가는데, 제가 조금만 실수해도 엄청 혼나요. 불공평해요."
+      "text": "어제 인스타를 보는데요... 제 친구들이 다 같이 놀러 간 사진을 올렸더라고요. 저만 빼고요.",
+      "turn": 3
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "같은 행동에 대해 다른 기준이 적용되니까 불공평하고 억울한 마음이 드는군요.",
-      "technique": [
-        "empathy",
-        "emotion_labeling"
-      ]
-    },
-    {
+      "text": "친구들이 자신만 빼고 만난 사진을 소셜미디어에서 보게 되었군요. 그 순간 어떤 기분이 들었나요?",
       "turn": 4,
-      "speaker": "client",
-      "text": "맞아요. 그리고 동생이 제 물건을 망가뜨려도 '동생이니까 이해해줘' 이러시고... 저는 항상 참아야 하고."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "일방적으로 양보와 이해를 요구받는 상황이네요. 자신의 권리나 감정은 보호받지 못하는 것처럼 느껴지겠어요.",
       "technique": [
-        "empathy",
-        "validation"
+        "reflection"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "네. 한번은 제가 동생한테 화를 냈는데, 부모님이 저보고 '오빠가 뭐하는 거야', '동생 상황을 이해 못 하니?' 이러시면서 오히려 저를 혼내셨어요."
+      "text": "처음엔 '어? 나한테는 왜 말 안 했지?' 싶었는데, 점점 화도 나고... 슬프기도 하고... 제가 뭘 잘못한 건가 싶기도 했어요.",
+      "turn": 5
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "정당한 감정 표현조차 받아들여지지 않고 오히려 비난받았군요. 그때 기분이 어땠나요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
+      "text": "혼란스러운 감정들이 한꺼번에 밀려왔네요. 놀람, 분노, 슬픔, 그리고 자책감까지. 정말 힘들었겠어요.",
       "turn": 6,
-      "speaker": "client",
-      "text": "배신감이요. 제 편은 아무도 없는 것 같았어요. 그리고... 동생이 밉고, 부모님도 원망스러워요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "가족 안에서 고립되고 혼자라는 느낌, 그리고 동생과 부모님에 대한 부정적 감정까지 생긴 거네요. 그런 감정을 가진 자신에 대해서는 어떻게 생각하세요?",
       "technique": [
-        "emotion_labeling",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "죄책감 들어요. 동생은 일부러 그러는 게 아니잖아요. 주의력결핍 때문인데... 제가 이해심 없는 건가요?"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "동생의 상황을 이해하려 하면서도, 자신의 감정도 있으니까 갈등하는 거네요. 하지만 당신의 감정도 정당해요. 이해심이 없는 게 아니에요.",
-      "technique": [
-        "reflection",
         "validation"
       ]
     },
     {
+      "speaker": "client",
+      "text": "네... 그리고 사실 이게 처음은 아니에요. 요즘 들어 친구들이 저를 점점 멀리하는 것 같아요.",
+      "turn": 7
+    },
+    {
+      "speaker": "counselor",
+      "text": "이런 일이 반복되고 있었군요. 언제부터 그런 느낌을 받기 시작했나요?",
       "turn": 8,
-      "speaker": "client",
-      "text": "정말요? 전 제가 이기적인 건 줄 알았어요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "이기적인 게 아니에요. 당신도 부모님의 관심과 공정한 대우를 받을 권리가 있어요. 동생의 어려움이 당신의 필요를 무시해도 된다는 의미는 아니거든요.",
       "technique": [
-        "validation",
-        "information_giving"
+        "open-ended question"
       ]
     },
     {
-      "turn": 9,
       "speaker": "client",
-      "text": "그렇게 생각하니까 좀 마음이 편해지네요. 근데... 이 상황을 어떻게 바꿀 수 있을까요?"
+      "text": "한 2-3개월 전부터요? 중학교 때 같이 다니던 애들이랑 같은 반이 됐는데, 고등학교 오면서 애들이 새로운 친구들을 많이 사귀더라고요.",
+      "turn": 9
     },
     {
-      "turn": 9,
       "speaker": "counselor",
-      "text": "먼저 부모님께 자신의 감정을 전달해야 해요. 부모님이 당신의 어려움을 모르실 수 있어요.",
-      "technique": [
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "고등학교에 진학하면서 친구 관계에 변화가 생겼네요. 친구들이 새로운 관계를 맺는 동안, 자신은 어떤 상황이었나요?",
       "turn": 10,
-      "speaker": "client",
-      "text": "말하면 또 '동생 이해해줘' 이러실 것 같은데요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "그럴 수도 있어요. 하지만 말하는 방식이 중요해요. 동생을 비난하는 게 아니라, 자신의 필요를 표현하는 거죠. '동생도 중요하지만 저도 관심이 필요해요'라고요.",
       "technique": [
-        "validation",
-        "structuring",
-        "information_giving"
+        "exploration"
       ]
     },
     {
-      "turn": 11,
       "speaker": "client",
-      "text": "제 필요를 표현한다... 구체적으로 뭐라고 하면 좋을까요?"
+      "text": "저는... 사실 새로운 친구 사귀는 게 좀 어려워요. 먼저 말 거는 것도 힘들고, 어색한 게 싫어서요. 그래서 그냥 원래 친구들이랑만 있으려고 했는데...",
+      "turn": 11
     },
     {
-      "turn": 11,
       "speaker": "counselor",
-      "text": "'엄마, 아빠, 동생 돌보시느라 힘드신 건 알아요. 근데 저도 부모님의 관심이 필요해요. 일주일에 한 번은 저랑만 시간을 가져주실 수 있을까요?' 이렇게 구체적으로 요청하는 거예요.",
-      "technique": [
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "새로운 사람들과 관계 맺는 것에 어려움을 느끼고 있고, 그래서 기존 친구들에게 더 의지하고 싶었는데, 그 친구들이 멀어지는 것 같아 더 힘든 거네요.",
       "turn": 12,
-      "speaker": "client",
-      "text": "구체적으로 요청하는 거네요. 그럼 거절하기 어려울 것 같긴 해요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "맞아요. 막연하게 '관심 가져주세요'보다 구체적인 요청이 더 효과적이에요. 그리고 동생과의 경계도 설정할 필요가 있어요.",
       "technique": [
-        "encouragement",
-        "structuring"
+        "reflection"
       ]
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "경계요? 무슨 의미예요?"
+      "text": "맞아요. 그리고 제가 좀 눈치를 보게 되더라고요. '내가 지금 말하면 애들이 귀찮아할까?' 이런 생각도 들고...",
+      "turn": 13
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "동생의 주의력결핍를 이해하되, 당신의 물건이나 공간은 보호받아야 한다는 거예요. 부모님께 '동생이 제 방이나 물건을 건드리지 않게 해주세요'라고 요청할 수 있어요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "turn": 14,
-      "speaker": "client",
-      "text": "그렇게 하면... 이기적으로 보이지 않을까요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "이기적인 게 아니라 자기보호예요. 동생도 경계를 배워야 하고, 부모님도 두 자녀 모두의 필요를 고려해야 해요.",
       "technique": [
-        "validation",
-        "information_giving"
+        "empathy"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "두 자녀 모두의 필요... 부모님이 이해해주실까요?"
+      "text": "네... 점심시간도 스트레스예요. 어제는 제가 밥 먹으러 가자고 했는데, 다들 '나 먼저 갈게' 이러면서 뿔뿔이 흩어지더라고요.",
+      "turn": 15
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "부모님도 동생 돌보느라 지쳐서 당신을 제대로 보지 못하고 계실 거예요. 당신이 말하지 않으면 모르실 수 있어요.",
+      "text": "그런 상황에서는 정말 마음이 아팠을 것 같아요. 그때 어떻게 했나요?",
+      "turn": 16,
       "technique": [
-        "interpretation",
-        "information_giving"
+        "empathy"
       ]
     },
     {
-      "turn": 16,
       "speaker": "client",
-      "text": "맞아요. 제가 항상 괜찮은 척했으니까..."
+      "text": "그냥... 혼자 먹었어요. 화장실 가서 울기도 했고요. 제가 문제가 있는 건가요? 제가 이상한 건가요?",
+      "turn": 17
     },
     {
-      "turn": 16,
       "speaker": "counselor",
-      "text": "강한 형, 이해심 많은 형을 연기하느라 힘들었겠어요. 이제는 진짜 모습을 보여줘도 돼요.",
+      "text": "지금 정말 힘든 상황을 겪고 있는 거예요. 이런 상황에서 자신을 탓하게 되는 건 자연스러운 반응이지만, 이건 당신이 이상해서가 아니에요. 관계에서의 어려움은 누구나 겪을 수 있는 일이에요.",
+      "turn": 18,
       "technique": [
-        "empathy",
         "validation"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "진짜 모습을 보여준다... 솔직히 무섭긴 해요."
+      "text": "그런가요? 근데 다른 애들은 다 잘 지내는 것 같은데 저만 이런 것 같아요.",
+      "turn": 19
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "취약함을 드러내는 건 용기가 필요한 일이에요. 하지만 그래야 진짜 관계가 시작될 수 있어요.",
+      "text": "겉으로 보이는 모습과 실제 속마음은 다를 수 있어요. 그리고 지금 우리가 중요하게 봐야 할 건 다른 사람들이 아니라 당신의 감정과 상황이에요. 친구들과 직접 대화를 나눠본 적은 있나요?",
+      "turn": 20,
       "technique": [
-        "validation",
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아니요... 말하기가 무서워요. 만약 제가 '요즘 나한테 왜 그래?' 이렇게 물어봤는데 '별로 그런 적 없는데?' 이러면 제가 더 이상해 보일 것 같아서요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "거절당하거나 오해받을까 봐 두려운 마음이 드는군요. 그 두려움은 충분히 이해가 돼요. 그런데 지금처럼 혼자 추측만 하면서 지내는 것과, 용기 내어 대화를 시도해보는 것 중에 어느 쪽이 더 나을 것 같나요?",
+      "turn": 22,
+      "technique": [
+        "guided discovery"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 말로는 대화하는 게 낫다는 걸 알겠는데, 실제로는 너무 무서워요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "turn": 24,
+      "technique": [
         "encouragement"
       ]
     },
     {
-      "turn": 18,
       "speaker": "client",
-      "text": "알겠어요. 해볼게요. 그런데 동생과의 관계는 어떡하죠? 자꾸 동생이 미워지는데..."
+      "text": "음... 지우라는 친구가 있어요. 얘는 그래도 제일 오래 알고 지낸 친구고, 가끔 제 얘기도 들어줘요.",
+      "turn": 25
     },
     {
-      "turn": 18,
       "speaker": "counselor",
-      "text": "동생을 미워하는 게 문제가 아니에요. 동생이 아니라 상황이 문제인 거죠. 동생도 자기 상황 때문에 힘들 거예요.",
+      "text": "좋아요. 지우라는 친구와는 조금 더 신뢰 관계가 있는 것 같네요. 만약 지우에게 지금의 솔직한 감정을 이야기한다면 어떻게 말하고 싶나요?",
+      "turn": 26,
       "technique": [
-        "interpretation",
+        "behavioral rehearsal"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "글쎄요... '요즘 내가 좀 외로워. 너희가 나를 피하는 것 같아서 속상해' 이런 식으로요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 28,
+      "technique": [
         "validation"
       ]
     },
     {
-      "turn": 19,
       "speaker": "client",
-      "text": "동생도 힘들다... 생각해보니 친구도 별로 없고, 학교에서도 힘들어하는 것 같긴 해요."
+      "text": "잘 모르겠어요. 어쩌면 '미안해, 우리가 그렇게 보였구나' 할 수도 있고... 아니면 '너무 예민한 거 아니야?' 할 수도 있고...",
+      "turn": 29
     },
     {
-      "turn": 19,
       "speaker": "counselor",
-      "text": "맞아요. 동생도 나름의 어려움이 있어요. 동생을 경쟁 상대가 아니라 같은 가족으로 보면, 조금 다르게 느껴질 수 있어요.",
+      "text": "여러 가지 가능성을 생각해보고 있네요. 만약 지우가 두 번째처럼 반응한다면 기분이 어떨 것 같아요?",
+      "turn": 30,
       "technique": [
-        "validation",
-        "interpretation"
+        "exploration"
       ]
     },
     {
-      "turn": 20,
       "speaker": "client",
-      "text": "같은 가족으로... 근데 어떻게 관계를 개선하죠?"
+      "text": "많이 속상하고 실망스러울 것 같아요. 그래도... 적어도 제 마음은 전달한 거니까 지금보다는 나을 것 같기도 해요.",
+      "turn": 31
     },
     {
-      "turn": 20,
       "speaker": "counselor",
-      "text": "동생과 단둘이 시간을 가져보는 건 어떨까요? 부모님 없이요. 동생의 다른 면을 발견할 수 있을 거예요.",
+      "text": "정말 중요한 통찰이에요. 결과가 어떻든 자신의 마음을 표현하는 것 자체에 의미가 있다는 걸 알아차리셨네요. 그리고 혹시 이 친구들 외에 다른 관계를 만들어갈 가능성에 대해서는 어떻게 생각하나요?",
+      "turn": 32,
       "technique": [
-        "structuring",
-        "information_giving"
+        "positive reframing"
       ]
     },
     {
-      "turn": 21,
       "speaker": "client",
-      "text": "동생이랑 둘이서요? 뭘 하면 좋을까요?"
+      "text": "새로운 친구요? 음... 사실 같은 반에 말 걸고 싶은 애들은 있어요. 근데 제가 먼저 다가가는 게 너무 어렵더라고요.",
+      "turn": 33
     },
     {
-      "turn": 21,
       "speaker": "counselor",
-      "text": "동생이 좋아하는 것을 같이 해보는 거예요. 게임이든, 운동이든. 그 시간에는 형으로서가 아니라 그냥 같이 노는 사람으로요.",
+      "text": "새로운 관계에 관심은 있지만 첫 발걸음이 어려운 거군요. 작은 것부터 시작해볼 수 있을 것 같은데, 예를 들어 인사나 가벼운 질문 같은 것은 어떨까요?",
+      "turn": 34,
       "technique": [
-        "information_giving",
-        "structuring"
+        "problem-solving"
       ]
     },
     {
-      "turn": 22,
       "speaker": "client",
-      "text": "책임감 내려놓고 그냥 같이 놀기... 그것도 괜찮을 것 같네요."
+      "text": "그 정도는... 할 수 있을 것 같기도 해요. 생각해보니까 제가 너무 큰 걸 기대했던 것 같아요. 친해지려면 시간이 필요한 건데.",
+      "turn": 35
     },
     {
-      "turn": 22,
       "speaker": "counselor",
-      "text": "네. 그러면서 동생을 다시 보게 될 거예요. 그리고 당신도 스트레스 해소가 필요해요. 자신만의 시간과 공간이 있나요?",
+      "text": "맞아요. 정말 좋은 깨달음이에요. 관계는 한 번에 만들어지는 게 아니라 작은 상호작용들이 쌓여서 만들어지는 거예요. 오늘 상담을 통해 어떤 생각이나 느낌이 드나요?",
+      "turn": 36,
       "technique": [
-        "encouragement",
-        "open_question"
+        "encouragement"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "별로 없어요. 집에 있으면 항상 동생 소리가 들리고, 부모님이 저 부르시고..."
+      "text": "조금은... 희망이 생긴 것 같아요. 제가 할 수 있는 게 아무것도 없다고 생각했는데, 시도해볼 수 있는 것들이 있다는 걸 알게 됐어요. 그래도 여전히 무섭긴 하지만요.",
+      "turn": 37
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "개인 시간이 필요해요. 도서관이나 친구 집, 어디든 혼자만의 공간을 확보하세요. 그게 정신 건강에 중요해요.",
+      "text": "두려움을 느끼면서도 시도해보고 싶다는 마음을 가진 것, 정말 대단해요. 다음 주까지 작은 목표 하나를 정해볼까요? 부담스럽지 않은 선에서요.",
+      "turn": 38,
       "technique": [
-        "information_giving",
-        "structuring"
+        "goal-setting"
       ]
     },
     {
-      "turn": 24,
       "speaker": "client",
-      "text": "제 공간을 만든다... 그것도 필요하겠네요."
+      "text": "네... 지우한테 먼저 연락해서 둘이 밥 먹자고 해볼게요. 그리고 같은 반 애들한테도 아침에 먼저 인사해보려고요.",
+      "turn": 39
     },
     {
-      "turn": 24,
       "speaker": "counselor",
-      "text": "정리해볼까요? 1. 부모님께 자신의 필요 구체적으로 표현하기, 2. 개인 공간 확보하기, 3. 동생과 새로운 관계 시도하기, 4. 자신의 감정 인정하기. 이렇게 해보는 거예요.",
+      "text": "아주 좋은 목표예요. 실천 가능하면서도 의미 있는 시도네요. 혹시 이걸 실천하기 어려운 상황이 생기면 어떻게 할까요?",
+      "turn": 40,
       "technique": [
-        "summarization",
-        "goal_setting"
+        "contingency planning"
       ]
     },
     {
-      "turn": 25,
       "speaker": "client",
-      "text": "명확하네요. 특히 제 감정을 인정하는 게 중요한 것 같아요."
+      "text": "음... 너무 어려우면 일단 한 명에게만 해보고, 그것도 안 되면 다음 상담 때 선생님이랑 다시 얘기해보면 될 것 같아요.",
+      "turn": 41
     },
     {
-      "turn": 25,
       "speaker": "counselor",
-      "text": "맞아요. 감정은 옳고 그른 게 없어요. 있는 그대로 인정하고, 건강하게 표현하는 게 중요해요.",
+      "text": "완벽해요. 유연하게 대처할 계획까지 세웠네요. 오늘 정말 많은 이야기를 나눴어요. 힘들었을 텐데 솔직하게 얘기해줘서 고마워요. 다음 주에 어떻게 됐는지 함께 나눠봐요.",
+      "turn": 42,
       "technique": [
-        "validation",
-        "information_giving"
+        "support"
       ]
     },
     {
-      "turn": 26,
       "speaker": "client",
-      "text": "알겠어요. 이제 뭘 해야 할지 보이네요."
+      "text": "네, 감사합니다. 오늘 와서 정말 다행이에요. 조금은 마음이 가벼워진 것 같아요.",
+      "turn": 43
     },
     {
-      "turn": 26,
       "speaker": "counselor",
-      "text": "잘 하실 거예요. 그리고 기억하세요. 당신도 사랑받을 자격이 있고, 관심받을 권리가 있어요.",
+      "text": "오늘 이야기 나눠주셔서 감사합니다. 다음에 또 만나요.",
       "technique": [
-        "encouragement",
-        "validation"
+        "empathy",
+        "supportive"
       ]
     },
     {
-      "turn": 27,
       "speaker": "client",
-      "text": "감사합니다. 힘이 났어요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 27,
       "speaker": "counselor",
-      "text": "언제든 힘들면 다시 오세요. 함께 해결해나갈 수 있어요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement",
-        "structuring"
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "17세",
-    "gender": "여성",
-    "occupation": "고등학교 2학년",
-    "background": "SNS에서의 갈등이 오프라인으로 이어진 상황"
-  }
+  ]
 }

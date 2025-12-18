@@ -1,395 +1,420 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "진로 정체성",
-    "total_turns": 25,
-    "quality_indicators": [
-      "empathy",
-      "structuring",
-      "open_question",
-      "restatement",
-      "clarification",
-      "validation",
-      "closed_question",
-      "emotion_labeling"
-    ]
+    "topic": "게임 중독 고민",
+    "total_turns": 29,
+    "generated_at": "2025-12-18T07:14:26.301288+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0012_학교폭력_6f2a8d",
-    "category": "adolescent",
-    "topic": "진로 정체성"
+  "client_profile": {
+    "age": "16세",
+    "gender": "남성",
+    "occupation": "고등학교 1학년",
+    "background": "게임 중독 고민 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.538060+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님... 사실 너무 무서워서 왔어요."
+      "text": "소셜미디어 때문에 스트레스받아요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "많이 두렵고 힘드셨나 봐요. 안전한 곳이니까 편하게 말씀해주세요. 무슨 일이 있었나요?",
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
       "technique": [
         "empathy",
-        "structuring",
         "open_question"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "학교 선배들이... 돈을 계속 달라고 해요. 안 주면 때린다고..."
+      "text": "매일 독서실에서 12시간씩 공부하는데... 솔직히 집중이 안 돼요. 작년 수능 생각만 나고, '이번에도 그러면 어떡하지' 이런 생각뿐이에요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "선배들에게 금품 갈취를 당하고 계시군요. 정말 무서웠겠어요. 언제부터 이런 일이 있었나요?",
+      "text": "오랜 시간 책상에 앉아 있지만 과거의 실패 경험과 미래에 대한 불안이 집중을 방해하고 있군요. 작년 수능에서 어떤 일이 있었나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "평소보다 2등급이나 낮게 나왔어요. 국어에서 완전히 멘탈이 무너졌고, 그 뒤로 다른 과목도 제대로 못 봤어요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "restatement",
-        "empathy",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "한 달 전부터요. 처음엔 천 원, 이천 원이었는데 점점 금액이 커지고 있어요. 이번 주에는 만 원을 달라고..."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "점점 심해지고 있군요. 정말 힘든 상황이에요. 혹시 몇 명의 선배들인가요? 그리고 어떤 상황에서 이런 일이 일어나나요?",
-      "technique": [
-        "validation",
-        "open_question"
+        "emotion_labeling"
       ]
     },
     {
       "turn": 4,
       "speaker": "client",
-      "text": "세 명이요. 3학년 선배들인데... 주로 방과 후에 화장실이나 구석진 곳에서 기다렸다가 불러요."
+      "text": "네... 요즘 모의고사만 봐도 그때 생각이 나요. 손이 떨리고 숨이 막혀요. 이러면 안 되는데..."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "계획적으로 당신을 표적으로 삼고 있군요. 혹시 폭력을 당한 적도 있나요?",
+      "text": "시험 상황 자체가 트라우마 반응을 유발하고 있군요. 신체적 증상까지 나타나는 것은 꽤 심각한 수준의 시험 불안이에요.",
       "technique": [
-        "clarification",
-        "closed_question"
+        "interpretation",
+        "validation"
       ]
     },
     {
       "turn": 5,
       "speaker": "client",
-      "text": "한 번... 돈이 없다고 했더니 배를 한 대 맞았어요. 그 후로는 무서워서 항상 돈을 준비해요."
+      "text": "심각한 건가요? 저는 그냥 제가 약해서 그런 줄 알았어요."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "폭력까지 경험하셨군요. 그 공포 때문에 계속 돈을 주고 있는 거네요. 정말 견디기 힘들었을 거예요. 이 사실을 부모님이나 선생님은 알고 계시나요?",
+      "text": "약해서가 아니에요. 과거의 강렬한 부정적 경험이 현재의 유사한 상황에서 자동으로 반응하는 거예요. 이건 극복할 수 있어요.",
       "technique": [
-        "emotion_labeling",
-        "empathy",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "아니요... 아무한테도 말 못 했어요. 선배들이 고자질하면 죽여버린다고 했거든요..."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "협박까지 받았군요. 그 두려움이 얼마나 컸을까요. 혼자 감당하느라 정말 힘들었겠어요. 하지만 이제는 혼자가 아니에요. 함께 해결 방법을 찾을 수 있어요.",
-      "technique": [
-        "empathy",
         "validation",
         "encouragement"
       ]
     },
     {
-      "turn": 7,
+      "turn": 6,
       "speaker": "client",
-      "text": "정말요? 근데... 신고하면 정말 위험한 거 아닐까요?"
+      "text": "정말요? 근데 시간이 없어요. 수능이 6주밖에 안 남았는데..."
     },
     {
-      "turn": 7,
+      "turn": 6,
       "speaker": "counselor",
-      "text": "그 두려움이 이해돼요. 하지만 지금 당신이 겪고 있는 건 명백한 학교폭력이에요. 금품갈취와 폭행, 협박 모두 범죄예요. 신고하면 학교와 경찰이 당신을 보호할 의무가 있어요. 이해되시나요?",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "학교폭력... 범죄... 그렇게까지 심각한 건가요?"
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "네, 매우 심각해요. 돈을 빼앗고, 폭력을 행사하고, 협박하는 건 절대 용납될 수 없는 일이에요. 그리고 지금 신고하지 않으면 피해가 더 커질 수 있어요. 다른 학생들도 피해를 입을 수 있고요.",
-      "technique": [
-        "information_giving",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "어떻게 신고해야 하나요? 무섭긴 한데... 이대로는 못 살 것 같아요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "용기 내주셔서 고마워요. 신고 방법은 여러 가지가 있어요. 담임선생님, 학교폭력담당 선생님, 학교 위클래스, 또는 117 학교폭력 신고센터에 전화할 수 있어요. 어느 방법이 편할 것 같으세요?",
+      "text": "6주면 충분해요. 지금부터라도 체계적으로 대응하면 돼요. 먼저, 주변 분들은 재수에 대해 어떻게 생각하시나요?",
       "technique": [
         "encouragement",
-        "information_giving",
         "open_question"
       ]
     },
     {
-      "turn": 10,
+      "turn": 7,
       "speaker": "client",
-      "text": "선생님이 같이 있으면... 담임선생님한테 말씀드릴 수 있을 것 같아요."
+      "text": "부모님은 응원해 주시는데... 친구들은 다 대학 다니고 있고, 친척들 만나면 '재수는 잘 되냐'고 물어보고... 그게 너무 싫어요."
     },
     {
-      "turn": 10,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "좋아요. 제가 함께 가서 지원해드릴게요. 담임선생님께 말씀드릴 때 필요한 정보들을 정리해볼까요? 누가, 언제, 어디서, 무엇을, 어떻게 했는지 구체적으로 말씀하는 게 중요해요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
-        "encouragement",
-        "structuring",
-        "information_giving"
+        "empathy",
+        "interpretation"
       ]
     },
     {
-      "turn": 11,
+      "turn": 8,
       "speaker": "client",
-      "text": "네... 3학년 선배 세 명이, 한 달 전부터, 화장실이나 구석진 곳에서, 돈을 요구하고, 폭력과 협박을 했어요."
+      "text": "맞아요... 작년에 한 번 망했잖아요. 이번에도 망하면 완전 루저 같을 것 같아요. 삼수는 절대 못 해요."
     },
     {
-      "turn": 11,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "잘 정리하셨어요. 혹시 그 선배들의 이름이나 반을 알고 있나요? 그리고 증거가 될 만한 게 있나요? 예를 들어 메시지나 목격자 같은 거요.",
+      "text": "'삼수는 안 된다'는 생각이 '이번이 마지막'이라는 압박을 더 키우고 있네요. 혹시 삼수를 할 수 없는 구체적인 이유가 있나요?",
       "technique": [
-        "encouragement",
+        "interpretation",
         "clarification"
       ]
     },
     {
-      "turn": 12,
+      "turn": 9,
       "speaker": "client",
-      "text": "이름은 알아요. 3학년 2반 애들이거든요. 근데 증거는... 메시지는 없고, 한 번은 제 친구가 봤어요."
+      "text": "부모님한테 더 이상 부담 드리기 싫고... 저도 이렇게 계속 살 순 없잖아요. 친구들은 대학 생활 즐기는데 저만..."
     },
     {
-      "turn": 12,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "친구가 목격했다면 증인이 될 수 있어요. 그 친구도 두려워하고 있을 수 있는데, 함께 증언해줄 수 있을지 물어볼 수 있을까요?",
+      "text": "경제적 부담, 시간 낭비에 대한 두려움, 또래와의 비교 등 여러 압박이 동시에 작용하고 있군요. 그 마음 충분히 이해해요.",
       "technique": [
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "물어볼 수는 있는데... 쟤도 무서워할 것 같아요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "그럴 수 있어요. 하지만 증인이 있으면 도움이 되고, 없어도 당신의 진술만으로도 조사는 시작될 수 있어요. 가장 중요한 건 용기 내서 말하는 거예요. 그리고 신고 후에는 어떤 일이 일어날지 알고 싶으세요?",
-      "technique": [
-        "validation",
-        "information_giving",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "네, 궁금해요. 선배들이 저한테 보복하지 않을까요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "신고 즉시 학교는 당신을 보호하기 위한 조치를 취해야 해요. 가해 학생들과 격리시키고, 접근하지 못하도록 하죠. 그리고 학교폭력대책위원회가 열려서 사실관계를 조사하고, 가해 학생들에게 적절한 조치가 내려져요. 출석정지나 전학 같은 거요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그렇게 되는 거군요... 그럼 저는 안전해지는 건가요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "네, 절차가 진행되는 동안 계속 보호받아요. 그리고 부모님도 알게 되실 거예요. 처음에는 걱정하시겠지만, 결국 당신을 지켜주실 가장 강력한 지원군이 되실 거예요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "부모님... 실망하실까봐 걱정돼요. 제가 잘못해서 이렇게 된 건 아닌가..."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "절대 당신 잘못이 아니에요. 피해자를 탓하는 건 잘못된 거예요. 가해자들이 나쁜 선택을 한 거고, 당신은 아무 잘못도 하지 않았어요. 부모님도 그걸 아실 거예요. 오히려 더 일찍 말하지 못해서 미안해하실 수 있어요.",
-      "technique": [
-        "validation",
-        "information_giving",
-        "restatement"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "정말... 제 잘못이 아닌 건가요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "절대 아니에요. 당신은 피해자예요. 협박과 폭력 때문에 어쩔 수 없이 돈을 준 거예요. 이건 100% 가해자들의 책임이에요. 스스로를 탓하지 마세요. 오히려 지금 용기 내서 도움을 요청한 것이 정말 대단한 거예요.",
-      "technique": [
-        "validation",
-        "encouragement",
-        "restatement"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "고마워요, 선생님. 조금... 마음이 편해지는 것 같아요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "다행이에요. 그럼 이제 구체적인 계획을 세워볼까요? 언제 담임선생님께 말씀드릴 수 있을 것 같으세요?",
-      "technique": [
-        "empathy",
-        "goal_setting",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "오늘... 지금 당장 하고 싶어요. 더 이상 미루고 싶지 않아요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "훌륭한 결정이에요. 지금 제가 담임선생님께 연락드려서 시간을 잡을게요. 선생님께 말씀드릴 때 제가 옆에서 지켜보고 필요하면 도와드릴게요. 괜찮으시겠어요?",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "네, 선생님이 같이 계셔주시면 할 수 있을 것 같아요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "좋아요. 그리고 담임선생님께 말씀드린 후에도 우리는 계속 연락하고 지낼 거예요. 과정이 진행되는 동안 힘든 점이 있으면 언제든 오세요. 심리적 지원도 계속 해드릴게요.",
-      "technique": [
-        "encouragement",
-        "structuring",
+        "summarization",
         "empathy"
       ]
     },
     {
-      "turn": 21,
+      "turn": 10,
       "speaker": "client",
-      "text": "감사합니다. 그런데... 학교 다니면서 선배들이랑 마주치면 어떡하죠?"
+      "text": "그런데 이렇게 불안하면 또 망할 것 같아요. 작년처럼..."
     },
     {
-      "turn": 21,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "신고 후에는 학교에서 분리 조치를 하기 때문에 마주칠 일이 거의 없을 거예요. 만약 우연히 마주치더라도 절대 혼자 대응하지 말고 바로 선생님께 알리세요. 그리고 항상 친구들과 함께 다니는 것도 도움이 돼요.",
+      "text": "불안이 실패를 부를 거라는 예측 때문에 더 불안한 악순환이네요. 하지만 작년과 지금은 다른 점이 있어요. 무엇일까요?",
       "technique": [
-        "information_giving",
-        "structuring"
+        "reflection",
+        "open_question"
       ]
     },
     {
-      "turn": 22,
+      "turn": 11,
       "speaker": "client",
-      "text": "알겠어요. 이제 조금 덜 무서워요."
+      "text": "다른 점이요? 잘 모르겠는데..."
     },
     {
-      "turn": 22,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "용기를 내셨네요. 그리고 기억하세요, 이번 일이 당신의 인생을 정의하지 않아요. 힘든 시기를 잘 견뎌내면 더 강해질 수 있어요. 혹시 지금 당장 궁금한 것이나 걱정되는 게 더 있나요?",
+      "text": "작년에는 그런 경험이 처음이었지만, 지금은 무엇이 문제였는지 알고 있어요. 그리고 지금 이렇게 도움을 구하고 있잖아요. 이것 자체가 큰 차이예요.",
       "technique": [
-        "encouragement",
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "그렇긴 하네요... 작년에는 혼자 끙끙 앓다가 터진 거였는데."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "맞아요. 그리고 재수하면서 실력도 늘었을 거예요. 모의고사 성적은 어떤가요?",
+      "technique": [
+        "validation",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "평균적으로는 작년보다 좋아요. 근데 들쭉날쭉해요. 잘 나올 때도 있고 엉망일 때도 있고..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "실력은 늘었는데 일관성이 없는 거네요. 그건 실력 문제가 아니라 컨디션과 멘탈 관리의 문제예요. 여기에 집중하면 충분히 안정적인 결과를 낼 수 있어요.",
+      "technique": [
+        "interpretation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "멘탈 관리... 구체적으로 어떻게 해야 하나요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "먼저, 작년 수능에 대한 트라우마를 다뤄야 해요. 그 기억을 떠올릴 때 어떤 감정이 드나요?",
+      "technique": [
+        "structuring",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "분노, 후회, 자책... 복잡해요. '왜 그랬을까', '조금만 더 잘했으면' 이런 생각들..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그 감정들을 인정하는 게 첫 번째 단계예요. 그리고 두 번째는, 그 경험에서 배운 것을 찾는 거예요. 작년 경험이 지금의 당신에게 준 교훈이 있다면 뭘까요?",
+      "technique": [
         "validation",
         "open_question"
       ]
     },
     {
-      "turn": 23,
+      "turn": 16,
       "speaker": "client",
-      "text": "아, 돈은... 돌려받을 수 있나요? 지금까지 꽤 많이 줬거든요."
+      "text": "음... 한 과목에서 무너져도 다음 과목은 잘해야 한다는 것? 그리고 멘탈 관리가 중요하다는 것?"
     },
     {
-      "turn": 23,
+      "turn": 16,
       "speaker": "counselor",
-      "text": "좋은 질문이에요. 학교폭력대책위원회에서 피해 회복 조치를 결정할 때 금전적 배상도 포함될 수 있어요. 얼마를 빼앗겼는지 기억나는 대로 적어두면 도움이 될 거예요. 영수증이나 기록이 있으면 더 좋고요.",
+      "text": "정확해요. 그게 바로 작년 경험이 준 값진 교훈이에요. 이번에는 그 교훈을 활용할 수 있어요. 한 과목에서 실수해도 '아직 기회가 있다'고 생각하는 거죠.",
       "technique": [
-        "encouragement",
+        "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 24,
+      "turn": 17,
       "speaker": "client",
-      "text": "알겠어요. 대충 계산해보면 한 15만 원 정도 된 것 같아요. 적어둘게요."
+      "text": "그렇게 생각할 수 있을까요? 그 순간에는 패닉 상태가 될 것 같은데..."
     },
     {
-      "turn": 24,
+      "turn": 17,
       "speaker": "counselor",
-      "text": "15만 원이면 적지 않은 금액이네요. 그것도 담임선생님께 말씀드리세요. 자, 그럼 준비되셨나요? 지금 담임선생님께 연락드려볼까요?",
+      "text": "그래서 미리 연습이 필요해요. 지금부터 모의고사를 볼 때마다 '한 과목 망쳐도 괜찮아. 다음 과목에 집중하자'를 의식적으로 연습하는 거예요.",
       "technique": [
-        "validation",
         "structuring",
-        "closed_question"
+        "goal_setting"
       ]
     },
     {
-      "turn": 25,
+      "turn": 18,
       "speaker": "client",
-      "text": "네, 준비됐어요. 해볼게요. 선생님, 정말 감사해요."
+      "text": "의식적으로 연습... 해볼 만한 것 같아요."
     },
     {
-      "turn": 25,
+      "turn": 18,
       "speaker": "counselor",
-      "text": "잘하실 거예요. 용기 있는 선택이었어요. 함께 가서 담임선생님께 말씀드립시다. 당신은 이제 혼자가 아니에요.",
+      "text": "그리고 시험장에서 불안이 올라올 때 사용할 수 있는 루틴을 만들어 보면 어떨까요? 예를 들어, 눈을 감고 깊게 숨을 3번 쉬고 '나는 준비됐어'라고 말하는 식으로요.",
       "technique": [
-        "encouragement",
+        "goal_setting",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "루틴이요... 그게 도움이 될까요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "네, 루틴은 불안한 상황에서 안정감을 주는 닻 같은 역할을 해요. 운동선수들도 경기 전에 자신만의 루틴을 하잖아요. 같은 원리예요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "아, 그렇군요. 만들어볼게요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 '이번이 마지막'이라는 생각도 조금 바꿔볼 필요가 있어요. 물론 삼수를 원하지 않는 건 이해하지만, 그 생각이 너무 큰 압박이 되고 있어요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "어떻게 바꿔야 하나요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "'이번이 마지막 기회'가 아니라 '이번이 최선의 기회'로 생각해 보세요. 미묘한 차이지만 압박은 줄고 동기는 유지돼요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "최선의 기회... 좀 덜 무섭게 들리네요."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "그렇죠? 그리고 만약 정말 원하는 결과가 안 나와도, 그게 인생의 끝은 아니에요. 다른 길도 있고, 나중에 편입이나 다른 방법도 있어요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "맞는 말씀이에요... 제가 너무 좁게 생각했나봐요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "스트레스 받으면 시야가 좁아지는 건 자연스러운 거예요. 지금은 시야를 넓히는 연습을 하는 거죠. 그럼 남은 6주 동안의 계획을 세워볼까요?",
+      "technique": [
         "validation",
         "structuring"
       ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "네, 부탁드려요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "첫째, 매일 최소 7시간 수면. 둘째, 주 2회 실전 모의고사로 멘탈 훈련. 셋째, 시험 전 루틴 연습. 넷째, 매일 자기 격려 일기 쓰기. 어때요?",
+      "technique": [
+        "structuring",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "구체적이고 실천 가능할 것 같아요. 해볼게요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "훌륭해요. 그리고 기억하세요, 당신은 작년보다 더 성장했고, 더 현명해졌어요. 충분히 해낼 수 있어요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "감사합니다, 선생님. 오늘 상담 받고 좀 자신감이 생겼어요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "네! 그때까지 열심히 해볼게요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "응원할게요. 당신은 이미 재수를 선택한 용기 있는 사람이에요. 그 용기로 끝까지 해내실 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "감사합니다. 최선을 다하겠습니다!"
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "최선을 다하는 당신의 모습을 응원해요. 좋은 결과 있기를 바랄게요!",
+      "technique": [
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네, 꼭 좋은 소식 전하러 올게요!"
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "기대할게요. 힘들 때 언제든 연락하세요. 화이팅!",
+      "technique": [
+        "encouragement"
+      ]
     }
-  ],
-  "client_profile": {
-    "age": "15세",
-    "gender": "여성",
-    "occupation": "중학교 3학년",
-    "background": "하고 싶은 것을 찾지 못해 방황하는 상황"
-  }
+  ]
 }

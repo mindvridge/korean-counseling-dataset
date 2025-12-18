@@ -1,38 +1,28 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "부모 갈등",
+    "topic": "형제자매 갈등",
     "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "open_question",
-      "emotion_labeling",
-      "clarification",
-      "restatement",
-      "closed_question",
-      "validation",
-      "information_giving"
-    ]
+    "generated_at": "2025-12-18T07:14:25.767622+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0008_SNS갈등_9a3c5f",
-    "category": "adolescent",
-    "topic": "부모 갈등"
+  "client_profile": {
+    "age": "14세",
+    "gender": "남성",
+    "occupation": "중학교 2학년",
+    "background": "형제자매 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.949784+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 요즘 소셜미디어 보는 게 너무 힘들어요."
+      "text": "요즘 학교 가기 싫어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "소셜미디어를 볼 때 힘든 감정이 드신다는 말씀이시군요. 구체적으로 어떤 부분이 힘드신가요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
       "technique": [
         "empathy",
-        "reflection",
         "open_question"
       ]
     },
@@ -46,9 +36,9 @@
       "speaker": "counselor",
       "text": "친구와 자신을 비교하면서 열등감을 느끼시는군요. 혜린이의 소셜미디어를 보면 어떤 기분이 구체적으로 드세요?",
       "technique": [
-        "empathy",
         "emotion_labeling",
-        "open_question"
+        "open_question",
+        "empathy"
       ]
     },
     {
@@ -61,7 +51,6 @@
       "speaker": "counselor",
       "text": "부러움, 질투, 자괴감... 복잡한 감정들이 섞여 있으시군요. 이런 감정이 얼마나 오래되었나요?",
       "technique": [
-        "empathy",
         "emotion_labeling",
         "clarification"
       ]
@@ -76,7 +65,6 @@
       "speaker": "counselor",
       "text": "혜린이의 변화와 그에 대한 주변의 반응을 보면서 자신과 비교하게 되신 거군요. 혜린이와의 관계는 어떤가요? 이런 감정이 관계에 영향을 미치고 있나요?",
       "technique": [
-        "empathy",
         "restatement",
         "open_question"
       ]
@@ -103,7 +91,7 @@
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "혜린이가 관계의 변화를 느끼고 있군요. 그 문자를 받았을 때 어떤 기분이 드셨어요?",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
         "clarification",
         "emotion_labeling"
@@ -117,7 +105,7 @@
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "미안함과 답답함을 느끼시는군요. 진짜 이유를 말하기 어려운 건 왜일까요?",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "emotion_labeling",
         "open_question"
@@ -274,7 +262,7 @@
     {
       "turn": 18,
       "speaker": "counselor",
-      "text": "FOMO라고 하죠. 두려움 , 소외될까봐 두려운 거예요. 하지만 실제로 놓치는 게 있나요? 진짜 중요한 일이라면 다른 방법으로도 알 수 있지 않을까요?",
+      "text": "FOMO라고 하죠. 두려움 의 누락된 밖, 소외될까봐 두려운 거예요. 하지만 실제로 놓치는 게 있나요? 진짜 중요한 일이라면 다른 방법으로도 알 수 있지 않을까요?",
       "technique": [
         "information_giving",
         "confrontation"
@@ -303,7 +291,7 @@
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "구체적인 계획이네요. 좋아요. 그리고 혜린이와의 관계는 어떻게 하실 건가요? 문자를 받으셨잖아요.",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "encouragement",
         "open_question"
@@ -380,11 +368,5 @@
         "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "18세",
-    "gender": "남성",
-    "occupation": "고등학교 3학년",
-    "background": "부모님의 기대와 자신의 희망이 달라 갈등"
-  }
+  ]
 }

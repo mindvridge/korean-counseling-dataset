@@ -1,412 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "자아 정체성",
-    "total_turns": 27,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "emotion_labeling",
-      "closed_question",
-      "reflection",
-      "restatement",
-      "clarification",
-      "summarization"
-    ]
+    "topic": "형제자매 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:25.778003+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_학업스트레스_0015_자퇴고민_002",
-    "category": "adolescent",
-    "topic": "자아 정체성"
+  "client_profile": {
+    "age": "15세",
+    "gender": "남성",
+    "occupation": "중학교 3학년",
+    "background": "형제자매 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.963568+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "선생님... 저 정말 학교 못 가겠어요. 학교만 생각하면 너무 무서워요."
+      "text": "학교 선생님이 여기 오면 좋겠다고 하셨어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "많이 힘들고 무섭게 느껴지시는군요. 무슨 일이 있었는지 편하게 이야기해 주시겠어요?",
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
+      "turn": 2,
       "technique": [
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 2,
       "speaker": "client",
-      "text": "지난 학기에... 반 아이들한테 왕따를 당했어요. 소셜미디어에 제 험담도 올라가고, 복도에서 마주치면 수군거리고..."
+      "text": "음... 잘 모르겠어요. 그냥 매일매일이 힘들어요. 학교 가는 것도 싫고, 공부도 하기 싫고...",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "학교 폭력을 경험하셨군요. 그런 일을 겪으셨다니 정말 고통스럽고 힘드셨겠어요. 지금도 그 상황이 계속되고 있나요?",
+      "text": "매일이 힘들게 느껴지는구나. 학교 가는 것과 공부가 특히 부담스럽게 느껴진다고 했는데, 언제부터 이런 마음이 들었나요?",
+      "turn": 4,
       "technique": [
-        "emotion_labeling",
-        "empathy",
-        "closed_question"
+        "reflection"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "선생님께 말씀드려서 학폭위 열렸고... 가해 학생들은 조치 받았는데, 저는 이제 학교 갈 수가 없어요. 다들 절 이상하게 볼 것 같아요."
+      "text": "확실히는 모르겠는데... 2학년 되고 나서부터인 것 같아요. 성적도 떨어지고, 친구들은 다 자기 할 일 하느라 바쁘고...",
+      "turn": 5
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "학교 폭력 신고 후 오히려 더 학교 가기 어려워진 상황이네요. 주변 시선에 대한 두려움이 크신 것 같아요.",
+      "text": "2학년이 되면서 여러 변화들이 있었네요. 성적에 대한 걱정도 있고, 친구들과의 관계에서도 뭔가 달라진 느낌을 받고 있는 것 같아요.",
+      "turn": 6,
       "technique": [
-        "reflection",
-        "emotion_labeling"
+        "empathy"
       ]
     },
     {
-      "turn": 4,
       "speaker": "client",
-      "text": "네... 한 달째 학교 못 가고 있어요. 엄마는 '용기 내서 다시 가보자'고 하시는데, 저는 정말 못 가겠어요."
+      "text": "네... 맞아요. 친구들은 다 자기 진로 정하고 열심히 하는데, 저는 뭘 해야 할지도 모르겠고... 그냥 뒤처지는 느낌이에요.",
+      "turn": 7
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "어머니는 격려하시지만 당신에게는 너무 큰 벽처럼 느껴지는군요. 한 달 동안 등교하지 못한 채 집에만 계셨나요?",
+      "text": "주변 친구들은 다 앞서가는 것처럼 보이는데, 나만 방향을 잡지 못하고 있다는 느낌이 드는군요. 그런 상황에서 많이 불안하고 초조했을 것 같아요.",
+      "turn": 8,
       "technique": [
-        "restatement",
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 엄마 아빠도 자꾸 진로 정하라고 하시고, 성적 올리라고 하시는데... 저도 하고 싶은데 잘 안 돼요.",
+      "turn": 9
+    },
+    {
+      "speaker": "counselor",
+      "text": "부모님의 기대도 있고, 본인도 잘하고 싶은 마음은 있는데 뜻대로 되지 않아서 더 힘든 거네요. 그 마음이 얼마나 답답할까요.",
+      "turn": 10,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 정말 답답해요. 공부하려고 책상에 앉으면 머리가 하얘지고, 아무것도 안 들어와요. 그냥 핸드폰만 보게 되고...",
+      "turn": 11
+    },
+    {
+      "speaker": "counselor",
+      "text": "집중이 잘 안 되는 상태가 계속되고 있군요. 그럴 때 기분이 어떤가요?",
+      "turn": 12,
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "자책감이 들어요. '나는 왜 이것밖에 안 되지?' 이런 생각이 계속 들어요. 그러면서 더 우울해지고...",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "스스로를 자꾸 비난하게 되는구나. 그런 생각들이 반복되면 기분이 더 가라앉고, 악순환이 될 수 있어요. 많이 힘들었겠어요.",
+      "turn": 14,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 친구들한테도 이런 얘기 못 하겠어요. 다들 바빠 보이고, 저만 힘들어하는 것 같아서...",
+      "turn": 15
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구들에게 마음을 털어놓기도 어려운 상황이네요. 혹시 친구들과의 관계에서 구체적으로 어떤 점이 가장 힘든가요?",
+      "turn": 16,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "예전에는 같이 밥도 먹고 얘기도 많이 했는데, 요즘은 다들 학원 가느라 바쁘고... 저만 혼자 있는 시간이 많아진 것 같아요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "함께 시간을 보내던 친구들이 각자의 일정으로 바빠지면서 혼자 있는 시간이 늘어났고, 그게 외롭고 소외된 느낌으로 다가오는 거네요.",
+      "turn": 18,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 그래서 더 학교 가기 싫어지는 것 같아요. 혼자 있으면 더 우울해지고...",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "학교에서 외로움을 느끼니까 학교 가는 것 자체가 부담스러워진 거군요. 그럼 지금 가장 힘든 부분이 무엇일까요? 공부, 진로, 친구 관계 중에서요.",
+      "turn": 20,
+      "technique": [
         "clarification"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "네... 집에서 유튜브 보거나 그냥... 아무것도 안 하고 있어요. 친구들도 다 연락 끊었어요."
+      "text": "음... 다 연결되어 있는 것 같은데... 굳이 고르자면 진로 문제가 제일 큰 것 같아요. 뭘 해야 할지 모르니까 공부도 의미 없게 느껴지고...",
+      "turn": 21
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "학교도 못 가고 친구들과도 단절된 채 힘든 시간을 보내고 계시는군요. 이런 상태가 계속되니 어떤 생각이 드나요?",
-      "technique": [
-        "summarization",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "그냥... 학교 그만두고 싶어요. 다른 방법으로 공부하면 안 될까요? 검정고시나 대안학교 같은 거..."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "현재 학교를 떠나서 다른 방식의 교육을 받고 싶다는 거네요. 검정고시나 대안학교에 대해 알아보신 적 있나요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "인터넷으로 좀 찾아봤어요. 검정고시는 혼자 공부해야 하니까 자신 없고... 대안학교는 괜찮을 것 같은데 부모님이 반대하세요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "두 가지 옵션을 이미 알아보셨군요. 부모님이 대안학교를 반대하시는 이유가 뭔가요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "'일반 학교 다녀야 나중에 대학 가기 좋다', '대안학교는 문제 있는 애들 가는 곳이다' 이런 편견이 있으신 것 같아요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "부모님이 대안학교에 대한 오해가 있으시고, 당신의 미래를 걱정하시는 마음에 반대하시는 것 같네요. 하지만 지금 이 학교를 계속 다니기는 어려운 상황이고요.",
-      "technique": [
-        "interpretation",
-        "validation"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "맞아요... 저도 미래가 걱정되긴 해요. 근데 지금은 정말 이 학교는 못 다니겠어요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "현재의 고통과 미래에 대한 불안, 두 가지 사이에서 갈등하고 계시는군요. 전학은 고려해 보셨나요?",
-      "technique": [
-        "summarization",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "전학이요? 생각 못 해봤는데... 그것도 가능한가요?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "네, 학교 폭력 피해 학생은 전학을 갈 수 있어요. 가해 학생이 있는 학교를 떠나 새로운 환경에서 다시 시작하는 거죠. 어떤 것 같으세요?",
-      "technique": [
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "새로운 학교... 거기서도 똑같을 것 같은데요. 또 왕따 당하면 어떡해요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "한 번 겪은 경험 때문에 또 그럴까봐 두려운 마음이 크시군요. 그 두려움은 충분히 이해해요. 하지만 모든 학교가 똑같지는 않아요.",
-      "technique": [
-        "emotion_labeling",
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "그래도 무서워요... 사람들이랑 있는 것 자체가 이제는 힘들어요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "트라우마가 생겨서 사회적 상황 자체가 불안하게 느껴지는 거네요. 전문적인 심리 치료를 받아보신 적 있나요?",
-      "technique": [
-        "interpretation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "아니요... 그냥 시간 지나면 괜찮아질 줄 알았어요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "트라우마는 시간이 지난다고 자연스럽게 해결되지 않아요. 오히려 방치하면 더 심해질 수 있어요. 전문가의 도움을 받는 게 정말 중요해요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "그럼 치료받으면서 학교는 어떻게 하나요? 계속 못 가는 건가요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "당장은 무리해서 등교하지 않아도 돼요. 학교와 협의해서 위(위)클래스나 상담 과정을 이용할 수도 있고, 잠시 휴식 기간을 가질 수도 있어요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "쉴 수 있다는 게 좀 안심이 되네요... 근데 너무 오래 쉬면 공부 못 따라가지 않을까요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "그 걱정도 이해해요. 하지만 지금은 학업보다 심리적 회복이 더 우선이에요. 마음이 건강해져야 공부도 할 수 있거든요.",
-      "technique": [
-        "empathy",
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "맞는 말씀이에요... 요즘 책도 한 줄 못 읽겠어요. 집중이 안 돼요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "트라우마로 인한 집중력 저하예요. 이것도 치료를 통해 나아질 수 있어요. 지금은 자신을 너무 몰아세우지 마세요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "선생님, 그럼 제가 지금 어떻게 해야 할까요? 자퇴는 하지 말아야 하나요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "급하게 자퇴를 결정하기보다는, 먼저 치료를 받으면서 회복에 집중하는 게 좋겠어요. 그 과정에서 전학, 대안학교, 자퇴 등의 옵션들을 차근차근 알아보는 거죠.",
-      "technique": [
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "그게 나을까요... 사실 저도 충동적으로 결정하는 건 아닌가 걱정됐어요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "자신의 결정에 대해 신중하게 고민하고 계시는 게 정말 성숙한 태도예요. 중요한 결정일수록 충분한 시간을 갖고 생각해야 해요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "네... 그럼 일단 상담 치료부터 받아볼게요. 어디로 가야 하나요?"
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "청소년상담복지센터나 트라우마 전문 심리상담센터를 추천해요. 제가 연락처 알려드릴 수 있어요. 부모님과 함께 상담받는 것도 좋고요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "부모님도 같이요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "네, 가족 상담이 도움이 될 수 있어요. 부모님도 당신의 상황을 이해하고 어떻게 도와야 할지 알게 되거든요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "좋아요. 부모님께 말씀드려 볼게요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "좋은 결정이에요. 그리고 학교에도 당신의 상황을 알리고 당분간 등교하지 않아도 되도록 협의하는 게 필요해요.",
-      "technique": [
-        "validation",
-        "structuring"
-      ]
-    },
-    {
+      "text": "진로에 대한 방향을 못 잡으니까 다른 것들도 동기부여가 안 되는 거네요. 혹시 관심 있는 분야나 좋아하는 활동이 있나요?",
       "turn": 22,
-      "speaker": "client",
-      "text": "학교에 말하는 게 좀 부담스러운데... 선생님이 도와주실 수 있나요?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "물론이에요. 제가 학교 측과 협의할 수 있도록 도와드릴게요. 담임 선생님이나 위클래스 선생님과 연결해 드릴게요.",
       "technique": [
-        "encouragement",
-        "structuring"
+        "strength_exploration"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "감사해요, 선생님. 오늘 상담받으니까 조금 길이 보이는 것 같아요."
+      "text": "음... 그림 그리는 건 좋아해요. 근데 그걸로 뭘 할 수 있을지 모르겠고, 부모님도 안정적인 직업을 원하시거든요.",
+      "turn": 23
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "다행이에요. 지금은 힘들지만 한 걸음씩 나아가다 보면 분명히 좋아질 거예요. 혼자가 아니라는 걸 기억하세요.",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "turn": 24,
       "technique": [
-        "encouragement",
-        "validation"
+        "reflection"
       ]
     },
     {
-      "turn": 24,
       "speaker": "client",
-      "text": "네, 이제는 혼자 고민하지 않을게요."
+      "text": "네... 그래서 그냥 포기하고 다른 걸 해야 하나 싶기도 하고... 근데 그것도 뭘 해야 할지 모르겠어요.",
+      "turn": 25
     },
     {
-      "turn": 24,
       "speaker": "counselor",
-      "text": "잘 생각하셨어요. 다음 주에 다시 만나서 진행 상황 이야기 나눠봐요. 그동안 힘들면 언제든 연락하고요.",
+      "text": "좋아하는 것을 포기해야 할 것 같은데, 대안도 명확하지 않으니 더욱 막막한 상황이네요. 그런데 지금 당장 모든 것을 결정할 필요는 없어요. 천천히 탐색해 나가도 괜찮아요.",
+      "turn": 26,
       "technique": [
-        "validation",
-        "structuring",
+        "reassurance"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "정말요? 근데 다들 벌써 정한 것 같은데...",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "주변 친구들이 이미 정한 것처럼 보여서 조급한 마음이 드는 거죠. 하지만 사람마다 시기가 다를 수 있고, 지금 탐색하는 과정 자체도 의미 있는 시간이에요. 나만의 속도로 가는 것도 괜찮답니다.",
+      "turn": 28,
+      "technique": [
+        "normalization"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니까 조금 마음이 편해지네요. 근데 어떻게 탐색해야 할지 모르겠어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋아요. 함께 방법을 찾아보면 어떨까요? 우선 그림과 관련된 다양한 분야들을 알아보고, 작은 것부터 시도해보는 건 어떨까요?",
+      "turn": 30,
+      "technique": [
+        "collaboration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그게 가능할까요? 어떤 것들이 있는지도 잘 모르겠어요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "디자인, 애니메이션, 일러스트, 미술 치료 등 생각보다 다양한 분야가 있어요. 다음 시간까지 관심 가는 분야를 찾아보고, 그 중 하나를 조금 더 깊이 알아보는 건 어떨까요?",
+      "turn": 32,
+      "technique": [
+        "guidance"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 한번 찾아볼게요. 그리고... 친구 관계는 어떻게 하면 좋을까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구들이 바쁜 건 사실이지만, 먼저 다가가서 짧게라도 연락하거나 함께할 수 있는 시간을 만들어보는 건 어떨까요? 작은 시도부터 해보는 거예요.",
+      "turn": 34,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그래도 될까요? 괜히 폐 끼치는 건 아닐까요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "turn": 36,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 한번 해볼게요. 오늘 얘기하면서 조금 마음이 가벼워진 것 같아요.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "다행이에요. 오늘 용기 내서 자신의 이야기를 나눠줘서 고마워요. 다음 시간에는 진로 탐색한 내용과 친구들과의 관계 변화에 대해 이야기 나눠보면 좋겠어요.",
+      "turn": 38,
+      "technique": [
         "encouragement"
       ]
     },
     {
-      "turn": 25,
       "speaker": "client",
-      "text": "네, 감사합니다, 선생님."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 25,
       "speaker": "counselor",
-      "text": "천천히 회복해 나가요. 응원할게요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 26,
       "speaker": "client",
-      "text": "네, 열심히 해볼게요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 26,
       "speaker": "counselor",
-      "text": "당신은 충분히 강한 사람이에요. 이 어려움도 잘 극복할 수 있을 거예요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 27,
       "speaker": "client",
-      "text": "그렇게 믿고 노력해볼게요. 감사합니다!"
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 27,
       "speaker": "counselor",
-      "text": "네, 다음 주에 봬요. 조금씩 나아지는 모습 기대할게요.",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
-        "encouragement",
-        "structuring"
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "16세",
-    "gender": "여성",
-    "occupation": "고등학교 1학년",
-    "background": "나는 누구인지, 뭘 좋아하는지 모르겠는 혼란"
-  }
+  ]
 }

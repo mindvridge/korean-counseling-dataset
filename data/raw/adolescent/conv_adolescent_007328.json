@@ -1,35 +1,26 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "자아 정체성",
-    "total_turns": 27,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "restatement",
-      "reflection",
-      "interpretation",
-      "emotion_labeling",
-      "validation",
-      "structuring"
-    ]
+    "topic": "교사와의 갈등",
+    "total_turns": 30,
+    "generated_at": "2025-12-18T07:14:25.753921+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_가족갈등_0005_간섭통제반발_02",
-    "category": "adolescent",
-    "topic": "자아 정체성"
+  "client_profile": {
+    "age": "15세",
+    "gender": "남성",
+    "occupation": "중학교 3학년",
+    "background": "교사와의 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.935481+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "부모님이 제 공부 시간까지 다 정해놓으세요. 진짜 미칠 것 같아요."
+      "text": "뭔가 이상해요. 저한테 문제가 있는 것 같아요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "부모님이 학습 시간을 통제하는 것에 대해 상당한 스트레스를 받고 계시네요. 어떤 식으로 정해놓으시나요?",
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
       "technique": [
         "empathy",
         "open_question"
@@ -38,70 +29,72 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "아침 6시에 일어나서 학교 가기 전 1시간 공부, 학교 끝나고 학원, 학원 끝나고 집에서 자정까지 공부... 주말에도 스케줄 꽉 차 있어요."
+      "text": "제 절친 소희가... 제가 비밀로 얘기했던 걸 다른 애들한테 다 말했어요. 제가 민준이를 좋아한다고..."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "아침부터 밤까지, 주말에도 빈틈없이 짜여진 일정으로 숨 쉴 틈이 없는 상태네요. 그 일정을 따라가는 게 어떤가요?",
+      "text": "비밀로 부탁했던 감정을 다른 사람들에게 퍼뜨렸군요. 어떻게 알게 되셨나요?",
       "technique": [
-        "restatement",
+        "reflection",
         "open_question"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "처음엔 따라갔죠. 근데 이제는 반항하고 싶어요. 일부러 안 하기도 하고... 그러면 부모님이랑 싸우게 되고요."
+      "text": "오늘 학교에서 다른 반 애들까지 저보고 웃으면서 '민준이 잘 돼가냐'고 놀리는 거예요. 그래서 따져봤더니 소희가 말했다고..."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "통제에 대한 반발로 의도적으로 거부하게 되고, 그게 갈등으로 이어지는 악순환이 생긴 거군요.",
+      "text": "다른 반 학생들까지 알 정도로 소문이 퍼졌군요. 당황스럽고 창피하셨겠어요. 소희에게 직접 물어보셨나요?",
       "technique": [
         "reflection",
-        "interpretation"
+        "empathy",
+        "closed_question"
       ]
     },
     {
       "turn": 4,
       "speaker": "client",
-      "text": "맞아요. 아빠는 '네가 나중에 후회할 거야', '지금 안 하면 인생 망친다' 이러시고... 저는 지금 당장이 너무 힘든데."
+      "text": "네... 따졌어요. 근데 소희는 '나만 살짝 얘기했는데 다른 애들이 퍼뜨린 거 같아. 미안해'라고만 했어요. 미안하다는 말로 끝낼 문제가 아닌데!"
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "아버지는 미래를 걱정하시는데, 정작 당신은 현재가 너무 힘들어서 버티기 어려운 상태네요. 지금 가장 힘든 점이 뭔가요?",
+      "text": "소희의 사과가 진심으로 느껴지지 않고, 책임을 다른 사람들에게 전가하는 것처럼 들렸군요. 지금 어떤 감정이 가장 크세요?",
       "technique": [
+        "reflection",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "배신감이요... 그리고 억울해요. 저는 소희를 정말 믿었거든요. 제 비밀도 다 얘기했고... 근데 소희는 그걸 그냥 가볍게 떠벌린 거잖아요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "자신이 소중하게 여긴 신뢰를 상대방은 가볍게 여긴 것 같아서 더 상처받으셨군요. 소희와는 얼마나 친하게 지냈나요?",
+      "technique": [
+        "reflection",
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 5,
-      "speaker": "client",
-      "text": "제 시간이 하나도 없다는 거요. 친구들이랑 놀 시간도 없고, 제가 좋아하는 것 할 시간도 없고... 그냥 공부 기계가 된 것 같아요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "자신의 시간과 선택권이 전혀 없이 공부만 하는 기계처럼 느껴진다는 거네요. 그 감정이 상당히 힘들겠어요.",
-      "technique": [
-        "emotion_labeling",
-        "empathy"
-      ]
-    },
-    {
       "turn": 6,
       "speaker": "client",
-      "text": "네. 가끔은 '내가 왜 사는 건지' 그런 생각도 들어요. 이게 정말 내 인생인가 싶고..."
+      "text": "초등학교 때부터 친했어요. 거의 7년 동안... 뭐든지 다 얘기하는 사이였는데... 이럴 줄 몰랐어요."
     },
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "삶의 의미에 대한 회의감까지 느끼고 계시군요. 그건 정말 심각한 신호예요. 부모님께 이렇게까지 힘들다고 말씀드린 적 있나요?",
+      "text": "7년이나 쌓아온 우정이었군요. 그래서 더 충격이 크시겠어요. 이전에도 소희가 이런 적이 있었나요?",
       "technique": [
-        "emotion_labeling",
+        "validation",
         "empathy",
         "open_question"
       ]
@@ -109,304 +102,346 @@
     {
       "turn": 7,
       "speaker": "client",
-      "text": "말했죠. 근데 '다 너 잘되라고 하는 거야', '요즘 애들은 힘든 걸 못 견뎌' 이러면서 안 들어주세요."
+      "text": "생각해보니까... 다른 친구들 얘기는 쉽게 하더라고요. 근데 저는 절친이니까 다를 거라고 생각했어요. 제가 어리석은 선택였죠."
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "자신의 고통을 호소했지만 진지하게 받아들여지지 않고, 오히려 나약하다는 평가를 받았군요. 그게 더 좌절스러웠을 것 같아요.",
+      "text": "소희의 패턴을 봤지만 자신은 예외라고 믿었던 거네요. 그건 어리석은 선택가 아니라 친구를 신뢰했던 거예요. 지금 민준이는 이 상황을 알고 있나요?",
       "technique": [
         "reflection",
+        "validation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "모를 수가 없죠... 같은 반인데 다들 그 얘기하는데. 오늘 복도에서 마주쳤는데 눈도 못 마주치겠어요. 너무 창피해요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "좋아하는 사람 앞에서 이렇게 알려지니까 부끄러움과 불편함이 크시군요. 민준이의 반응은 어땠나요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "잘 모르겠어요. 그냥... 어색해 보였어요. 이제 민준이도 저를 이상하게 생각할 것 같고... 다 소희 때문이에요!"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "technique": [
+        "validation",
+        "confrontation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "다시는 얘기하고 싶지 않아요. 7년 친구였지만 이제 끝이에요. 더 이상 못 믿겠어요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "신뢰가 완전히 무너졌군요. 그 결정을 존중해요. 그런데 소희에게 왜 그렇게 느끼는지, 당신이 얼마나 상처받았는지 말해볼 생각은 없나요?",
+      "technique": [
+        "reflection",
+        "validation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "말해봤자 뭐해요. 어차피 진심으로 미안해하지도 않을 텐데..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "소희의 반응에 기대하지 않는군요. 하지만 말하는 건 소희를 위해서가 아니라 당신을 위해서예요. 속에 있는 말을 하지 않으면 계속 화가 남아있을 수 있어요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "그럼... 뭐라고 말해야 하죠? '너 때문에 창피당했어, 배신감 느껴' 이렇게요?"
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "솔직한 감정을 표현하는 게 중요해요. '네가 내 비밀을 지켜주지 않아서 배신감을 느꼈고, 7년 우정이 무너진 것 같아서 슬프다'처럼 구체적으로 말하는 거죠.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그렇게 말하면... 소희가 변명하거나 회피할 것 같은데요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "그럴 수도 있어요. 하지만 중요한 건 소희의 반응이 아니라 당신이 마음속 말을 꺼냈다는 사실이에요. 그게 감정을 정리하는 데 도움이 돼요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "감정 정리... 그게 필요하긴 해요. 지금 너무 화나고 속상하고 정신없어서..."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "validation",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "네... 솔직히 슬퍼요. 7년이나 함께했는데... 우리 추억도 많고... 근데 이제 그 친구를 못 믿겠어요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "화나면서도 동시에 슬픈 거예요. 그게 자연스러운 감정이에요. 오래 함께한 관계가 끝나면 상실감이 있기 마련이죠. 그 감정을 부정할 필요 없어요.",
+      "technique": [
+        "validation",
+        "empathy",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "그럼... 저는 이제 어떻게 해야 하죠? 학교에서 계속 마주쳐야 하는데..."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "실제적인 문제네요. 먼저 소희와 거리를 두는 건 당신의 권리예요. 그리고 다른 친구들은 어떤가요? 이 상황을 아는 친구들이 있나요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "제 다른 친구 예지가 있어요. 예지는 제 편이에요. 소희가 잘못했다고 했어요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "예지라는 지지해주는 친구가 있군요. 그건 중요해요. 예지와 더 가까이 지내면서 소희 없이도 괜찮다는 걸 확인할 수 있을 거예요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "근데 선생님... 민준이 문제는 어떻게 하죠? 이제 민준이한테 어떻게 다가가야 할지 모르겠어요."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "원치 않게 감정이 드러난 상황이라 더 어렵게 느껴지시는군요. 민준이에 대한 감정은 여전한가요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "여전히 좋아해요... 근데 이런 식으로 알려지면 안 됐는데. 제가 직접 말할 기회도 없이..."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "technique": [
+        "validation",
+        "confrontation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "무슨 말을 해야 할지... 창피해서 얼굴도 못 보겠어요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "부끄럽고 불편한 마음이 드는 건 당연해요. 하지만 피하면 더 어색해질 수 있어요. 오히려 솔직하게 '이런 식으로 알려져서 민망하다'고 말하는 게 나을 수도 있어요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "그렇게 말하면... 민준이가 뭐라고 할까요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "확실하지는 않지만 적어도 당신의 솔직함을 알게 될 거예요. 그리고 어색함을 해소하는 시작점이 될 수 있어요. 결과보다 중요한 건 당신이 상황을 피하지 않고 마주했다는 거예요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "용기가 필요하겠네요... 그런데 만약 민준이가 저를 이상하게 생각하면 어떡하죠?"
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "그럴 수도 있어요. 하지만 당신은 잘못한 게 없어요. 누군가를 좋아하는 건 자연스러운 감정이에요. 민준이의 반응이 어떻든 그건 그의 선택이고, 당신이 통제할 수 없는 부분이에요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "맞아요... 제가 통제할 수 없는 거네요. 그냥 제 할 일만 하는 거죠."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "정확하게 이해하셨어요. 그리고 이번 일을 통해 중요한 걸 배우셨어요. 비밀을 공유하기 전에 상대방을 잘 관찰하는 것, 그리고 신뢰는 시간을 두고 쌓는 거라는 걸요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "네... 앞으로는 함부로 비밀 얘기 안 할 거예요. 소희처럼 오래 알았다고 다 믿을 수 있는 건 아니네요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "배운 교훈이네요. 하지만 모든 사람을 불신할 필요는 없어요. 예지처럼 신뢰할 수 있는 친구도 있잖아요. 선택적으로 신뢰하는 거죠.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "예지는 정말 믿을 수 있는 것 같아요. 이번에도 제 편을 들어줬고..."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "그렇다면 예지와의 관계를 더 돈독히 하세요. 한 명의 진짜 친구가 열 명의 겉친구보다 나아요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "선생님, 그런데 소희가 사과하면서 다시 친구하자고 하면 어떡하죠?"
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "그런 상황이 올 수도 있죠. 그럼 그때 당신의 감정을 확인해보세요. 진심으로 용서할 수 있는지, 다시 신뢰할 수 있는지요. 억지로 용서할 필요는 없어요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "지금은... 용서하고 싶지 않아요. 시간이 지나면 바뀔까요?"
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "바뀔 수도 있고 안 바뀔 수도 있어요. 지금은 그 답을 알 필요 없어요. 우선 상처를 치유하고, 감정을 정리하는 게 먼저예요. 서두를 필요 없어요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "네... 천천히 생각해볼게요. 일단은 소희랑 거리를 두고, 예지랑 더 친하게 지내고..."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "좋은 계획이에요. 그리고 민준이와도 자연스럽게 대화를 시도해보고요. 억지로 관계를 회복하려 하지 말고 자연스럽게 흐르도록 놔두는 거예요.",
+      "technique": [
+        "validation",
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네, 자연스럽게요. 오늘 상담하고 나니까 좀 마음이 정리되는 것 같아요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "다행이에요. 배신의 상처는 깊지만 시간이 치유해줄 거예요. 그리고 이 경험이 당신을 더 성숙하게 만들 거예요. 힘들 때 언제든 찾아오세요.",
+      "technique": [
+        "validation",
+        "encouragement",
         "empathy"
       ]
     },
     {
-      "turn": 8,
+      "turn": 30,
       "speaker": "client",
-      "text": "네. 그래서 이제는 말도 안 해요. 그냥 속으로 삭이고... 가끔 폭발하고 그래요."
+      "text": "감사합니다, 선생님. 혼자 끙끙 앓지 말고 얘기하길 잘한 것 같아요."
     },
     {
-      "turn": 8,
+      "turn": 30,
       "speaker": "counselor",
-      "text": "감정을 억누르다가 한계에 다다르면 폭발하는 패턴이 반복되는 거네요. 폭발할 때는 어떻게 되나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "소리 지르고, 물건 던지고... 한번은 방문을 주먹으로 쳐서 손을 다쳤어요. 그러면 부모님이랑 며칠 동안 서로 말도 안 하고..."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "감정이 폭발해서 자해까지 한 경험이 있고, 그 후 냉전 상태가 이어지는군요. 지금 당신의 상태가 정말 심각하다는 걸 알아주셨으면 해요.",
-      "technique": [
-        "emotion_labeling",
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "저도 알아요. 근데 어떻게 해야 할지 모르겠어요. 이대로는 안 되는 것 같은데..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "변화가 필요하다는 건 인식하고 계시지만 방법을 모르는 상태네요. 먼저, 부모님과 제대로 된 대화가 필요할 것 같아요.",
-      "technique": [
-        "reflection",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "대화요? 부모님은 제 말 안 들으실 텐데요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "지금까지의 경험 때문에 회의적이시군요. 하지만 이번에는 다른 방식으로 접근해볼 필요가 있어요. 감정적으로가 아니라 차분하게, 구체적으로요.",
+      "text": "잘 선택하셨어요. 감정을 나누는 게 중요해요. 다음 주에 상황이 어떻게 진행됐는지 얘기 나눠봐요.",
       "technique": [
         "validation",
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "차분하게요? 저는 화가 나는데 어떻게 차분하게 해요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "화가 나는 건 당연해요. 하지만 화를 내면 부모님도 방어적이 되어서 대화가 안 돼요. 그래서 전략이 필요한 거예요. 목표는 화를 푸는 게 아니라 상황을 바꾸는 거잖아요?",
-      "technique": [
-        "validation",
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그렇긴 하죠... 근데 어떻게요?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "먼저 부모님과 정식으로 대화 시간을 갖자고 요청하세요. 그리고 현재 일정의 문제점을 데이터로 제시하는 거예요. 성적이 오르지 않는다든지, 집중력이 떨어진다든지요.",
-      "technique": [
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "아, 부모님이 원하는 결과가 안 나온다는 걸 보여주는 거네요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "정확해요. 부모님의 목표는 당신이 공부를 잘하는 거잖아요. 지금 방식이 오히려 역효과라는 걸 보여주는 거죠.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "실제로 성적도 오르지 않았어요. 너무 피곤해서 수업 시간에 졸고... 집중도 안 되고."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "그걸 부모님께 객관적으로 설명하고, 적절한 휴식이 필요하다는 연구 결과나 전문가 의견을 같이 제시하면 더 효과적일 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "전문가 의견이요? 어디서 구하죠?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "학습과 휴식의 균형에 대한 교육 자료나 기사들을 찾아볼 수 있어요. 그리고 학교 선생님께 조언을 구할 수도 있고요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "아, 그런 것들을 가지고 대화하면 부모님도 좀 들어주시려나요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "가능성이 높아져요. 그리고 대안도 제시해야 해요. 무조건 공부 줄이자가 아니라, 더 효율적인 스케줄을 함께 만들자고요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "더 효율적인 스케줄이요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "예를 들어, 하루에 1시간 정도 자유 시간을 갖되, 나머지 시간은 집중해서 공부한다든지. 주말에 반나절은 쉰다든지. 구체적인 제안을 하는 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "그 정도면 저도 할 수 있을 것 같고, 부모님도 받아들이실 수 있을 것 같네요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "맞아요. 양쪽 모두 받아들일 수 있는 타협점을 찾는 거죠. 그리고 한 달 정도 시도해보고 결과를 점검하자고 제안하세요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "한 달 후에 다시 평가하는 거요? 그럼 부모님도 덜 불안해하시겠네요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "정확해요. 실험 기간을 두는 거죠. 그리고 그 기간 동안 당신도 약속을 잘 지켜야 해요. 자유 시간에는 정말 쉬되, 공부 시간에는 집중하는 거예요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "알겠어요. 그렇게 하면 부모님도 제가 책임감 있다는 걸 보실 수 있겠네요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "그렇죠. 신뢰를 쌓는 거예요. 그리고 이 과정에서 중요한 건 감정적으로 대응하지 않는 거예요. 냉정하고 논리적으로 접근해야 해요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "네, 노력해볼게요. 근데 만약 부모님이 안 된다고 하시면요?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "한 번에 설득되지 않을 수도 있어요. 그럴 땐 시간을 두고 다시 이야기하거나, 선생님이나 다른 어른을 중재자로 세울 수도 있어요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "중재자요? 누가 좋을까요?"
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "담임 선생님이나 학교 상담 선생님, 혹은 부모님이 신뢰하시는 친척분 같은 분들이 좋아요. 객관적인 시각을 제공해주실 수 있으니까요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "알겠어요. 일단 먼저 제가 부모님과 직접 대화해보고, 안 되면 담임쌤께 부탁드려볼게요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "좋은 계획이에요. 정리해볼까요? 1. 학습 효율성 저하 자료 준비, 2. 대화 시간 요청, 3. 대안 스케줄 제안, 4. 한 달 실험 기간 제안. 이렇게 진행하는 거예요.",
-      "technique": [
-        "encouragement",
-        "summarization",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "명확하네요. 이번 주말에 한번 시도해볼게요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "그리고 한 가지 더. 폭발적으로 화내는 건 당신에게도 부모님에게도 도움이 안 돼요. 화가 날 때 잠시 심호흡하고, 방에서 진정할 시간을 가지세요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "네, 감정 조절도 연습해볼게요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "잘 하실 거예요. 변화는 시간이 걸리지만, 전략적으로 접근하면 가능해요. 응원할게요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "감사합니다. 희망이 좀 생긴 것 같아요."
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "그 희망을 가지고 차근차근 진행해보세요. 다음에 결과 들려주세요.",
-      "technique": [
         "encouragement",
         "structuring"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "17세",
-    "gender": "여성",
-    "occupation": "고등학교 2학년",
-    "background": "나는 누구인지, 뭘 좋아하는지 모르겠는 혼란"
-  }
+  ]
 }

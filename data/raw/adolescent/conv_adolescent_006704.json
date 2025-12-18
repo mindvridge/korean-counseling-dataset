@@ -1,37 +1,27 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "외모 고민",
-    "total_turns": 30,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "closed_question",
-      "clarification",
-      "validation",
-      "information_giving",
-      "encouragement"
-    ]
+    "topic": "학교 폭력과 따돌림",
+    "total_turns": 28,
+    "generated_at": "2025-12-18T07:14:25.106528+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_가족갈등_0019_재혼가정적응",
-    "category": "adolescent",
-    "topic": "외모 고민"
+  "client_profile": {
+    "age": "15세",
+    "gender": "여성",
+    "occupation": "중학교 3학년",
+    "background": "학교 폭력과 따돌림 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.219863+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님... 집이 편하지가 않아요. 아빠가 재혼하신 지 6개월 됐는데 아직도 어색하고 불편해요."
+      "text": "선생님... 요즘 너무 힘들어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "새로운 가족 구성에 적응하기 어려우시군요. 6개월이면 짧지 않은 시간인데도 여전히 불편하다는 건 힘드셨겠어요. 구체적으로 어떤 부분이 가장 어려우세요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
@@ -39,423 +29,378 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "새엄마랑... 대화를 어떻게 해야 할지 모르겠어요. '엄마'라고 부르라고 하시는데 입에서 안 나와요. 친엄마가 아닌데..."
+      "text": "공부도 못하고, 운동도 못하고, 친구도 별로 없고... 제가 존재하는 의미가 뭔지 모르겠어요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "돌아가신 어머니에 대한 마음 때문에 새어머니를 '엄마'라고 부르기 어려운 거군요. 친어머니는 언제 돌아가셨나요?",
+      "text": "여러 면에서 자신이 부족하다고 느끼시고, 존재의 가치까지 의심하고 계시는군요. 많이 힘드시겠어요.",
       "technique": [
         "reflection",
-        "empathy",
+        "empathy"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "네... 아침에 일어나는 것도 힘들어요. 학교 가기도 싫고, 그냥 모든 게 귀찮아요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "무기력감과 의욕 상실을 느끼고 계시네요. 이런 기분은 언제부터였나요?",
+      "technique": [
+        "emotion_labeling",
         "open_question"
       ]
     },
     {
-      "turn": 3,
+      "turn": 4,
       "speaker": "client",
-      "text": "3년 전이요... 암으로... 저는 아직도 엄마가 그리워요. 근데 아빠는 새 사람을 만나시고... 배신당한 느낌도 들어요."
+      "text": "중학교 때부터요. 그때 시험을 너무 못 봤거든요. 부모님이 실망하시고, 친구들한테도 놀림받고... 그 뒤로 계속 이래요."
     },
     {
-      "turn": 3,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "어머니를 잃은 슬픔이 채 아물지 않았는데 아버지가 재혼하셔서 복잡한 감정이 드시는군요. 아버지의 재혼을 배신처럼 느끼신다고요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
-        "empathy",
-        "reflection",
-        "clarification"
+        "validation",
+        "open_question"
       ]
     },
     {
-      "turn": 4,
+      "turn": 5,
       "speaker": "client",
-      "text": "네... '어떻게 엄마를 그렇게 빨리 잊으시지?'라는 생각이 들어요. 3년이면 그렇게 짧은 시간인가요?"
+      "text": "부모님은 '이렇게 공부 못 하면 어떡하냐', '형은 공부 잘했는데 너는 왜 이러냐'고 하셨어요. 친구들은 '어리석은 선택', '실수이' 이런 말 하고..."
     },
     {
-      "turn": 4,
+      "turn": 5,
       "speaker": "counselor",
-      "text": "당신에게는 어머니가 여전히 생생하고 그리운데, 아버지는 새로운 삶을 사신다고 느껴져서 섭섭하신 거군요. 아버지와 이 감정에 대해 이야기해본 적 있나요?",
+      "text": "형과 비교당하고, 친구들한테도 상처받는 말을 들으셨네요. 그런 말들이 지금도 자주 떠오르나요?",
       "technique": [
-        "reflection",
-        "empathy",
+        "validation",
         "closed_question"
       ]
     },
     {
-      "turn": 5,
-      "speaker": "client",
-      "text": "못했어요... 아빠가 행복해 보이시는데 제가 그런 말 하면 분위기 깨질 것 같아서요. 그냥 혼자 참고 있어요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "아버지의 행복을 위해 자신의 감정을 억누르고 계시는군요. 정말 힘드셨겠어요. 새어머니는 어떤 분이세요?",
-      "technique": [
-        "reflection",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
       "turn": 6,
       "speaker": "client",
-      "text": "나쁜 사람은 아니에요... 착하고 잘해주려고 노력하시는 것 같아요. 근데 그게 더 부담스러워요. 미워할 수도 없고..."
+      "text": "네... 맨날 생각나요. 그리고 실제로 저는 형보다 못하고, 어리석은 선택 맞는 것 같아요."
     },
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "새어머니가 잘해주시는데도 받아들이기 어렵고, 그런 자신이 나쁜 사람 같아서 죄책감도 드시는군요. 그리고 새형제도 있다고 하셨죠?",
+      "text": "다른 사람들의 평가를 그대로 받아들이고 계시는군요. 혹시 형과는 어떤 관계인가요?",
       "technique": [
         "reflection",
-        "empathy",
         "open_question"
       ]
     },
     {
       "turn": 7,
       "speaker": "client",
-      "text": "네... 새엄마 아들이 한 명 있어요. 저보다 한 살 어린 15살이에요. 같은 방 쓰는데... 그것도 불편해요."
+      "text": "형은 공부도 잘하고, 운동도 잘하고, 인기도 많아요. 저랑은 정반대예요. 부모님도 형만 자랑하시고..."
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "자신만의 공간을 다른 사람과 나눠야 하니까 프라이버시가 침해받는 느낌이 드시는군요. 그 형제와는 어떻게 지내세요?",
+      "text": "형과 계속 비교당하면서 자신이 열등하다고 느껴지셨겠어요. 그런데 형과 당신은 서로 다른 사람이에요. 비교하는 게 공정할까요?",
       "technique": [
-        "reflection",
-        "open_question"
+        "empathy",
+        "confrontation"
       ]
     },
     {
       "turn": 8,
       "speaker": "client",
-      "text": "말은 거의 안 해요. 서로 어색해서... 걔도 저 때문에 불편할 것 같아요. 원래 자기 혼자 방 썼는데 갑자기 형이 생긴 거니까..."
+      "text": "공정하진 않겠죠... 근데 부모님이 계속 비교하시니까 저도 모르게 그렇게 되는 것 같아요."
     },
     {
       "turn": 8,
       "speaker": "counselor",
-      "text": "서로에게 어색하고 부담스러운 상황이군요. 그 친구도 당신만큼 적응하기 어려워할 수 있어요. 시도해보신 대화가 있나요?",
+      "text": "부모님의 비교가 당신의 자아상에 큰 영향을 정신없이군요. 그런데 형과 다른 점이 있다고 해서 당신이 못한 건 아니에요. 당신만의 강점이 있을 수 있어요.",
       "technique": [
         "validation",
-        "empathy",
-        "open_question"
+        "information_giving"
       ]
     },
     {
       "turn": 9,
       "speaker": "client",
-      "text": "별로요... '밥 먹었어?', '학교 어땠어?' 이 정도? 진짜 대화는 안 해봤어요."
+      "text": "제 강점이요? 저는 강점이 없는 것 같은데..."
     },
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "형식적인 대화만 하고 계시는군요. 6개월 동안 그랬다면 답답하실 것 같아요. 더 깊은 대화를 하고 싶은 마음은 있으신가요?",
+      "text": "정말 하나도 없을까요? 혹시 좋아하는 활동이나 관심 있는 것이 있나요?",
       "technique": [
-        "reflection",
+        "confrontation",
         "open_question"
       ]
     },
     {
       "turn": 10,
       "speaker": "client",
-      "text": "글쎄요... 솔직히 걔랑 친해지고 싶다는 생각은 안 들어요. 그냥... 편하게 지낼 수 있으면 좋겠어요."
+      "text": "음... 그림 그리는 건 좋아해요. 근데 그것도 잘 그리는 건 아니에요."
     },
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "친해지지는 않아도 되니 최소한 불편하지 않게 지내고 싶으신 거군요. 그건 합리적인 바람이에요. 그럼 어떻게 하면 덜 불편할 수 있을까요?",
+      "text": "그림을 좋아하시는군요. 잘 그리는지와 별개로, 그림 그릴 때 어떤 기분이 드시나요?",
       "technique": [
-        "reflection",
-        "validation",
+        "restatement",
         "open_question"
       ]
     },
     {
       "turn": 11,
       "speaker": "client",
-      "text": "잘 모르겠어요... 방 쓰는 것만 해도 짜증나요. 걔 물건이 제 공간에 있고, 제 물건도 어디 뒀는지 모르겠고..."
+      "text": "마음이 편해져요. 그릴 때는 다른 생각이 안 나고... 그냥 좋아요."
     },
     {
       "turn": 11,
       "speaker": "counselor",
-      "text": "공간 분리가 명확하지 않아서 스트레스받으시는군요. 혹시 방 안에서 공간을 나누는 규칙을 정해본 적 있나요? '이쪽은 네 공간, 저쪽은 내 공간' 이런 식으로요.",
+      "text": "그림이 당신에게 위안을 주는군요. 그것도 중요한 가치예요. 실력과 상관없이, 당신에게 의미 있는 활동이잖아요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "그렇게 생각해본 적은 없었어요. 항상 '잘해야 의미 있다'고 생각했거든요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "성과와 능력만이 가치를 결정한다고 생각해오셨군요. 그런데 과정이나 노력, 그 자체의 즐거움도 가치가 있어요.",
       "technique": [
         "reflection",
         "information_giving"
       ]
     },
     {
-      "turn": 12,
+      "turn": 13,
       "speaker": "client",
-      "text": "아니요... 그런 얘기 해도 될까요?"
+      "text": "과정도 가치가 있다... 그런 생각은 처음이에요. 항상 결과만 중요하다고 배워서..."
     },
     {
-      "turn": 12,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "당연히 해야죠. 같은 방을 쓰려면 규칙이 필요해요. 서로의 공간을 존중하는 규칙이요. 그 친구와 직접 이야기하거나, 부모님이 참여하는 가족 회의에서 정할 수도 있어요.",
+      "text": "우리 사회가 그렇게 가르치죠. 하지만 사람의 가치는 성적이나 성과로만 결정되지 않아요. 당신이 어떤 사람인지, 어떻게 살아가는지가 더 중요해요.",
       "technique": [
         "validation",
         "information_giving"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "가족 회의요... 우리 가족 그런 거 안 해요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "지금까지 안 했다면 제안해보는 건 어떨까요? 재혼 가정은 규칙과 대화가 더 중요해요. 서로 다른 문화에서 자란 사람들이 모인 거니까요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
       ]
     },
     {
       "turn": 14,
       "speaker": "client",
-      "text": "아빠한테 얘기하면... 들어주실까요?"
+      "text": "그런데 제가 어떤 사람인지도 잘 모르겠어요. 저는 그냥 실패자 같아요."
     },
     {
       "turn": 14,
       "speaker": "counselor",
-      "text": "시도해볼 만해요. '아빠, 우리 가족이 더 잘 지내려면 서로의 생각을 나누는 시간이 필요한 것 같아요'라고 말하는 거죠. 비난이 아니라 개선을 위한 제안으로요.",
+      "text": "자신을 실패자로 규정하고 계시네요. 혹시 성공한 경험은 전혀 없으신가요?",
       "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "근데 선생님... 저는 솔직히 이 가족이 '우리 가족'이라고 느껴지지 않아요. 그냥 같이 사는 사람들 같아요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "가족으로 느껴지지 않는 게 당연해요. 가족은 시간이 만드는 거예요. 6개월은 짧은 시간이에요. 조급해하지 않아도 돼요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "그럼... 언젠가는 가족처럼 느껴질까요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "가능성은 있어요. 하지만 노력이 필요해요. 서로를 알아가고, 신뢰를 쌓고, 추억을 만드는 시간이요. 그리고 무엇보다 소통이 중요해요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "엄마 얘기는... 새엄마한테 해도 되나요? 제가 친엄마를 그리워한다고..."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "해야 해요. 돌아가신 어머니에 대한 그리움은 자연스러운 감정이에요. 새어머니도 그걸 이해하실 거예요. 오히려 숨기면 더 어색할 수 있어요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "새엄마가... 기분 나빠하시지 않을까요? '내가 부족하구나' 이렇게 생각하실 것 같은데..."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "그럴 수도 있지만, 제대로 대화하면 이해하실 거예요. '새엄마를 인정하지 않는 게 아니라, 친엄마가 그립다'는 걸 설명하는 거죠. 두 가지 감정은 동시에 존재할 수 있어요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "친엄마를 그리워하면서도 새엄마를 인정할 수 있다는 거예요?"
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "그렇죠. 새어머니는 친어머니를 대체하는 게 아니라 당신 삶의 새로운 사람이에요. 친어머니에 대한 사랑을 유지하면서 새어머니와도 관계를 만들 수 있어요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "그렇게 생각하니까... 조금 마음이 편해지는 것 같아요. 엄마를 배신하는 게 아니구나..."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "맞아요. 전혀 배신이 아니에요. 어머니도 당신이 행복하게 지내길 바라실 거예요. 그리고 아버지도 마찬가지예요. 아버지의 재혼도 어머니를 잊은 게 아니에요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "아빠도... 엄마를 잊은 게 아니라는 거예요?"
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "그럴 거예요. 사랑했던 사람을 잊기는 어려워요. 하지만 동시에 새로운 행복을 찾을 수도 있는 거죠. 아버지와 이런 얘기 나눠보셨으면 좋겠어요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "아빠한테... '엄마 생각 나세요?'라고 물어봐도 될까요?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "물론이에요. 아버지도 그런 대화를 기다리고 계실 수 있어요. '아빠, 저는 아직도 엄마가 그리워요. 아빠는 어떠세요?'라고 솔직하게 물어보세요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "네... 용기 내볼게요. 그리고 새동생한테도... 먼저 말 걸어볼까 해요. '같은 방 쓰는데 불편한 거 없어?' 이렇게..."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "좋은 시작이에요. 그 친구도 당신처럼 어색하고 불편할 거예요. 먼저 다가가주면 고마워할 수 있어요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "걔도 힘들 수 있겠네요... 생각해보니 갑자기 형이 생긴 것도 적응하기 어려웠을 것 같아요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "공감하기 시작하셨네요. 그게 중요해요. 서로가 피해자가 아니라 같은 상황을 겪는 동반자예요. 함께 적응해가는 거죠.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "동반자라... 그렇게 생각하니까 덜 적대적인 느낌이에요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "맞아요. 적이 아니라 같은 배를 탄 사람들이에요. 그리고 새어머니도요. 모두가 이 새로운 가족 구성에 적응하고 있는 거예요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "선생님, 그런데 명절이나 기념일은 어떻게 해야 하나요? 엄마 기일도 있고..."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "중요한 질문이에요. 기일 같은 날은 가족과 함께 추모하는 시간을 가질 수 있어요. 새어머니도 참여하실 수 있고요. 어머니를 기억하는 것도 가족의 일부가 될 수 있어요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "새엄마도 함께요? 그래도 되나요?"
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "당연히 가능해요. 새어머니가 당신 삶의 역사를 존중하는 방법이기도 해요. 물론 당신이 불편하지 않다면요. 어떤 형태든 당신과 아버지가 결정하면 돼요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 28,
-      "speaker": "client",
-      "text": "생각해볼게요... 오늘 상담 받고 많이 정리된 것 같아요. 제가 너무 벽을 쌓고 있었던 것 같기도 하고..."
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "자신을 보호하기 위해 벽을 쌓은 거예요. 이해돼요. 하지만 이제 조금씩 벽을 낮춰볼 수 있을 것 같나요?",
-      "technique": [
-        "validation",
-        "empathy",
+        "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 29,
+      "turn": 15,
       "speaker": "client",
-      "text": "네... 천천히요. 일단 아빠랑 얘기하고, 새동생한테도 말 걸어보고..."
+      "text": "음... 작년에 미술 대회에서 상 받은 적은 있어요. 근데 그건 운이 좋았던 거 같아요."
     },
     {
-      "turn": 29,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "완벽해요. 천천히 한 걸음씩이면 충분해요. 서두를 필요 없어요. 다음 주에 어떻게 됐는지 얘기 나눠요.",
+      "text": "상을 받았는데도 그걸 운으로 돌리시는군요. 당신의 노력이나 실력을 인정하지 않으시나요?",
+      "technique": [
+        "restatement",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "그냥... 제가 잘한 거라고 생각하기 어려워요. 항상 실패만 생각나서..."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "성공은 작게 보고 실패는 크게 보는 습관이 있으시네요. 이게 자존감을 낮추는 주요 원인이에요. 성공도 제대로 인정해줘야 해요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "어떻게요? 저는 항상 이렇게 생각해왔는데..."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "연습이 필요해요. 작은 성취라도 인정하고 기록하는 거예요. 예를 들어, 오늘 학교에 갔다, 숙제를 했다, 친구와 대화했다 같은 것들요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "그런 것도 성취인가요? 너무 작은 것 같은데..."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "지금 당신에게는 작은 것도 큰 의미가 있어요. 아침에 일어나는 것도 힘들다고 하셨잖아요. 그런 상태에서 학교에 가는 건 대단한 거예요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "그렇게 생각해본 적은 없었어요... 조금 다르게 보이네요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "관점을 바꾸면 보이는 게 달라져요. 당신은 생각보다 많은 걸 해내고 있어요.",
       "technique": [
         "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "근데 부모님이 여전히 저를 형과 비교하시면 어떡해요?"
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "제 평가가 더 중요하다는 말씀이시죠?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "맞아요. 다른 사람의 인정도 좋지만, 자기 자신의 인정이 가장 중요해요. 당신이 당신의 가장 큰 지지자가 되어줘야 해요.",
+      "technique": [
         "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "저를 지지한다... 어떻게 해야 할까요?"
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "자신에게 친절한 말을 해주는 거예요. '나는 최선을 다하고 있어', '실패해도 괜찮아', '나는 가치 있는 사람이야' 같은 말들이요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "그런 말... 믿어지지 않을 것 같은데..."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "처음에는 그럴 수 있어요. 하지만 계속 반복하면 조금씩 변해요. 뇌는 반복되는 말을 진실로 받아들이거든요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "그럴까요... 해볼게요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 기억하세요. 자존감은 하루아침에 만들어지지 않아요. 천천히, 조금씩 쌓아가는 거예요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네... 오늘 이야기하고 나니까 조금 희망이 보이는 것 같아요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "다행이에요. 오늘 우리가 나눈 이야기를 정리해볼게요. 반복된 실패와 비교로 자존감이 낮아졌지만, 그림이라는 강점을 재발견했고, 작은 성취를 인정하며 자신에게 친절하게 대하기로 했어요.",
+      "technique": [
+        "encouragement",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "네, 맞아요. 이제 뭘 해야 할지 알겠어요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "technique": [
+        "encouragement",
         "structuring"
       ]
     },
     {
-      "turn": 30,
+      "turn": 27,
       "speaker": "client",
-      "text": "네, 감사합니다, 선생님. 희망이 보이는 것 같아요."
+      "text": "감사합니다, 선생님. 다음에 또 올게요."
     },
     {
-      "turn": 30,
+      "turn": 27,
       "speaker": "counselor",
-      "text": "잘할 거예요. 재혼 가정 적응은 시간이 걸리지만, 당신은 이미 첫걸음을 내디뎠어요. 응원할게요.",
+      "text": "언제든 환영해요. 자신에게 친절하게 대해주세요!",
       "technique": [
-        "encouragement",
-        "validation"
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "네, 노력할게요!"
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "잘하실 거예요. 응원합니다!",
+      "technique": [
+        "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "14세",
-    "gender": "여성",
-    "occupation": "중학교 2학년",
-    "background": "외모에 대한 콤플렉스로 인한 자존감 저하"
-  }
+  ]
 }

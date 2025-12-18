@@ -1,24 +1,29 @@
 {
-  "category": "crisis",
+  "metadata": {
+    "category": "crisis",
+    "topic": "극심한 우울",
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:32.425407+00:00"
+  },
   "client_profile": {
-    "age": "19",
+    "age": "40세",
     "gender": "여성",
-    "occupation": "대학교 1학년",
-    "background": "최근 자해 충동이 심해짐, 과거 자해 경험 있음, 현재 극심한 스트레스 상태"
+    "occupation": "주부",
+    "background": "극심한 우울 관련 상담"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 저 요즘 너무 힘들어요. 자꾸 이상한 생각이 나요."
+      "text": "죽고 싶은 생각이 자꾸 나요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "오셔서 이야기해주셔서 감사해요. 이상한 생각이라고 하셨는데, 조금 더 구체적으로 말씀해 주실 수 있을까요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 죽고 싶은 생각이 자꾸 나요....라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
         "empathy",
-        "clarification"
+        "open_question"
       ]
     },
     {
@@ -85,7 +90,7 @@
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "자해 충동이 반복적으로 생기니 힘들고 혼란스러우실 거예요. 혹시 어떤 상황에서 그런 생각이 특히 많이 드세요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "empathy",
         "open_question"
@@ -197,7 +202,7 @@
     {
       "turn": 14,
       "speaker": "counselor",
-      "text": "친구분을 배려하시는 마음이 느껴져요. 그런데 만약 반대로 그 친구가 이런 상황이었다면, 말해줬으면 좋겠다고 생각하지 않으실까요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "validation",
         "confrontation"
@@ -323,7 +328,7 @@
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "지금까지 이야기해 주신 것 정리해볼게요. 자해 충동이 있고, 밤에 특히 심해지며, 대학 적응 어려움과 외로움이 큰 스트레스군요.",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "summarization"
       ]
@@ -370,13 +375,5 @@
         "encouragement"
       ]
     }
-  ],
-  "generated_at": "2024-12-17T00:00:00.000Z",
-  "conversation_id": "CRI_20251218_0190",
-  "metadata": {
-    "generated_at": "2025-12-18T05:07:49.842669+00:00",
-    "model": "claude-sonnet-4-5",
-    "seed_category": "crisis",
-    "generator": "claude_code_direct"
-  }
+  ]
 }

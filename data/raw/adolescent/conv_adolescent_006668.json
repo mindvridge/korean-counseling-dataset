@@ -1,422 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "성적 압박",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "emotion_labeling",
-      "restatement",
-      "validation",
-      "closed_question",
-      "confrontation"
-    ]
+    "topic": "이성 관계 고민",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:25.074718+00:00"
   },
-  "seed_info": {
-    "source_file": "adolescent_career_0003",
-    "category": "adolescent",
-    "topic": "성적 압박"
+  "client_profile": {
+    "age": "15세",
+    "gender": "여성",
+    "occupation": "중학교 3학년",
+    "background": "이성 관계 고민 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.180340+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "선생님, 저 요즘 너무 혼란스러워요."
+      "text": "선생님... 요즘 너무 힘들어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "무엇이 혼란스러운지 이야기해주시겠어요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
       "turn": 2,
-      "speaker": "client",
-      "text": "제가 뭘 잘하는지, 뭘 좋아하는지 모르겠어요. 친구들은 다 자기가 뭘 좋아하는지 아는 것 같은데 저만 모르는 것 같아서..."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "자신의 적성이나 흥미를 찾지 못해서 불안하고 뒤처지는 느낌이 드시는군요.",
       "technique": [
         "empathy",
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "네... 맞아요. 적성검사도 해봤는데, 결과가 이것저것 골고루 나와서 더 헷갈려요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "적성검사를 해봤는데 명확한 결과가 나오지 않았군요. 혹시 지금까지 해본 활동 중에 조금이라도 재미있었던 게 있나요?",
-      "technique": [
-        "empathy",
-        "restatement",
         "open_question"
       ]
     },
     {
+      "speaker": "client",
+      "text": "음... 사실 처음에는 별로 오고 싶지 않았어요. 그런데 요즘 너무 힘들어서... 얘기라도 해볼까 해서요.",
+      "turn": 3
+    },
+    {
+      "speaker": "counselor",
+      "text": "처음엔 망설여졌지만, 지금은 힘든 마음을 나누고 싶은 마음이 생긴 거네요. 용기 내어 와줘서 정말 고마워요. 어떤 부분이 힘든지 천천히 이야기해 줄 수 있을까요?",
       "turn": 4,
-      "speaker": "client",
-      "text": "음... 다 그냥그래요. 딱히 싫은 것도 없고 딱히 좋은 것도 없어요. 그냥 평범해요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "특별히 강하게 끌리거나 싫은 게 없는 상태군요. 그럼 일상생활에서 시간을 주로 어떻게 보내시나요?",
       "technique": [
-        "empathy",
-        "reflection",
-        "open_question"
+        "validation"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "공부하고, 소셜미디어 보고, 친구들이랑 수다 떨고... 다른 애들이랑 비슷해요."
+      "text": "저희가 3개월 전에 이사를 했거든요. 아빠 직장 때문에... 그래서 학교도 전학을 왔는데, 새 학교에서 친구를 못 사귀겠어요.",
+      "turn": 5
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "평범한 일상을 보내고 계시네요. 친구들과 수다 떨 때는 주로 어떤 이야기를 하시나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
+      "text": "3개월 전에 전학을 왔군요. 새로운 환경에 적응하는 게 쉽지 않았을 것 같아요. 친구를 사귀는 게 어렵다고 느끼는 구체적인 상황이 있나요?",
       "turn": 6,
-      "speaker": "client",
-      "text": "학교 이야기, 연예인 이야기, 그냥 일상 이야기요. 그런데 이게 적성이랑 무슨 상관이 있나요?"
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "적성은 거창한 데서만 찾을 수 있는 게 아니에요. 일상의 작은 활동에서도 단서를 찾을 수 있어요. 소셜미디어는 주로 뭘 보시나요?",
       "technique": [
-        "information_giving",
-        "open_question"
+        "empathy"
       ]
     },
     {
-      "turn": 7,
       "speaker": "client",
-      "text": "인스타그램이요. 친구들 게시물 보고, 패션이나 맛집 같은 거 보고..."
+      "text": "애들이 이미 다 친한 애들끼리 그룹이 있잖아요. 저는 중간에 들어간 거라... 말을 걸어도 대답만 하고, 점심시간에도 혼자 먹을 때가 많아요.",
+      "turn": 7
     },
     {
-      "turn": 7,
       "speaker": "counselor",
-      "text": "패션이나 맛집 같은 것에 관심이 있으시군요. 그냥 보기만 하시나요, 아니면 직접 해보거나 기록하시기도 하나요?",
-      "technique": [
-        "restatement",
-        "closed_question"
-      ]
-    },
-    {
+      "text": "이미 형성된 친구 그룹 사이에서 혼자라고 느끼는 거네요. 점심시간에 혼자 있는 시간들이 특히 외롭게 느껴졌겠어요.",
       "turn": 8,
-      "speaker": "client",
-      "text": "가끔 제 옷 코디한 거 올리기도 하고, 맛있는 거 먹으면 사진 찍어서 올려요. 친구들이 센스 있다고는 해주는데... 이게 적성일 수는 없잖아요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "왜 그게 적성이 될 수 없다고 생각하시나요?",
       "technique": [
-        "confrontation",
-        "open_question"
+        "reflection"
       ]
     },
     {
-      "turn": 9,
       "speaker": "client",
-      "text": "그냥 노는 거잖아요. 직업이 될 수 있는 것도 아니고..."
+      "text": "네... 정말 외로워요. 그리고 전 학교 친구들한테 카톡도 해보는데, 다들 자기들끼리 노는 사진 올리고... 저 없이도 잘 지내는 것 같아서 더 속상해요.",
+      "turn": 9
     },
     {
-      "turn": 9,
       "speaker": "counselor",
-      "text": "그렇게 생각하시는군요. 그런데 실제로는 패션, 음식, 사진, 소셜미디어 마케팅 등 이런 분야들이 다 직업이 될 수 있어요. 들어보신 적 있나요?",
+      "text": "새 학교에서도, 예전 학교 친구들과도 거리감을 느끼면서 양쪽 모두에서 소외감을 느끼고 있는 거네요. 그 마음이 정말 힘들겠어요.",
+      "turn": 10,
       "technique": [
-        "validation",
-        "information_giving",
-        "closed_question"
+        "empathy"
       ]
     },
     {
-      "turn": 10,
       "speaker": "client",
-      "text": "들어는 봤는데... 그런 건 정말 잘하는 사람들이나 하는 거 아닌가요?"
+      "text": "맞아요... 어디에도 속하지 못한 느낌이에요. 전 학교 애들한테 연락하면 귀찮아할까봐 걱정되고, 새 학교에서는 어떻게 다가가야 할지 모르겠어요.",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "처음부터 잘하는 사람은 없어요. 다들 관심에서 시작해서 계속 배우고 경험하면서 전문가가 되는 거죠. 당신도 이미 시작은 하고 계신 거예요.",
+      "text": "어디에도 속하지 못한다는 표현이 지금의 마음을 잘 담고 있는 것 같아요. 양쪽 모두에서 조심스러워지고 있는 거네요.",
+      "turn": 12,
       "technique": [
-        "information_giving",
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 저는 원래 전 학교에서는 친구들도 많고 밝은 편이었거든요. 근데 지금은 제가 너무 소극적이 된 것 같아요.",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 14,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 저도 제가 왜 이러는지 모르겠어요. 말을 걸어야 하는 건 아는데, 막상 하려면 거절당할까봐 무서워요.",
+      "turn": 15
+    },
+    {
+      "speaker": "counselor",
+      "text": "거절당하는 게 두렵다는 거죠. 그 두려움 때문에 먼저 다가가기가 더 어려워지는 악순환이 생긴 것 같네요.",
+      "turn": 16,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 사실 한 번 같이 점심 먹자고 말 걸었다가 '우리 오늘 약속 있어'라는 말 들은 적이 있어요. 그 뒤로는 더 말 걸기가 무서워졌어요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 경험이 있었군요. 용기 내서 다가갔는데 거절당한 것처럼 느껴졌던 그 순간이 정말 상처가 됐겠어요. 그 이후로 더 조심스러워진 게 충분히 이해가 돼요.",
+      "turn": 18,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그때 정말 창피하고 슬펐어요. 혹시 저한테 문제가 있는 건 아닐까 생각도 들어요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 경험 이후에 자신에 대해 의심하게 된 거네요. 하지만 그 친구들이 정말 약속이 있었을 수도 있고, 그게 당신의 문제라고 단정 짓기는 어려워요. 전학이라는 큰 변화 속에서 적응하는 과정은 누구에게나 시간이 필요한 거예요.",
+      "turn": 20,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그럴 수도 있을까요? 저는 계속 제가 이상한 건가 생각했어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "물론이에요. 전학을 와서 3개월이면 아직 적응 기간이에요. 예전 학교에서 친구들이 많고 밝았다고 했잖아요. 그게 진짜 당신의 모습이에요. 지금은 낯선 환경에서 조심스러워진 것뿐이에요.",
+      "turn": 22,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니까 조금 나은 것 같기도 해요. 그런데 어떻게 해야 친구들과 가까워질 수 있을까요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 질문이에요. 먼저, 학교에서 혹시 관심 있는 동아리나 활동이 있나요? 공통 관심사를 가진 친구들과는 자연스럽게 가까워지기 쉬워요.",
+      "turn": 24,
+      "technique": [
+        "problem_solving"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 저 그림 그리는 거 좋아하는데, 미술부가 있긴 해요. 근데 중간에 들어가도 될지 모르겠어요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "그림을 좋아하는군요! 미술부는 정말 좋은 기회가 될 수 있어요. 중간에 들어가는 게 걱정된다고 했는데, 동아리 선생님께 먼저 문의해보는 건 어떨까요? 같은 관심사를 가진 친구들이니 더 받아들여지기 쉬울 거예요.",
+      "turn": 26,
+      "technique": [
         "encouragement"
       ]
     },
     {
-      "turn": 11,
       "speaker": "client",
-      "text": "시작이요? 저는 그냥 재미로 하는 건데..."
+      "text": "그렇게 해볼까요... 그런데 또 거절당하면 어떡하죠?",
+      "turn": 27
     },
     {
-      "turn": 11,
       "speaker": "counselor",
-      "text": "재미로 하는 게 시작이에요. 많은 전문가들이 재미와 흥미에서 출발했어요. 당신은 패션 코디와 사진 찍기를 재미있어 하고, 친구들도 당신의 센스를 인정하고 있네요.",
+      "text": "그 걱정이 드는 게 당연해요. 하지만 이렇게 생각해볼까요? 시도하지 않으면 결과는 항상 '아니오'예요. 시도하면 '예'가 될 가능성이 생기는 거죠. 그리고 설령 안 된다 해도, 그건 당신의 가치와는 무관한 거예요.",
+      "turn": 28,
       "technique": [
-        "information_giving",
-        "validation"
+        "reframing"
       ]
     },
     {
-      "turn": 12,
       "speaker": "client",
-      "text": "그렇게 생각하니까 신기하네요. 근데 이걸 어떻게 직업으로 만들어요?"
+      "text": "맞는 말씀이네요. 안 하면 계속 이대로일 테니까요.",
+      "turn": 29
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "여러 경로가 있어요. 패션 관련 학과, 시각디자인, 경영학에서 마케팅, 미디어 커뮤니케이션 등 다양한 전공이 있고, 이를 통해 스타일리스트, 마케터, 콘텐츠 크리에이터 등이 될 수 있어요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "생각보다 많네요. 근데 저는 성적이 그렇게 좋지 않아서..."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "성적이 걱정되시는군요. 현재 성적은 어느 정도인가요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "3등급에서 4등급 사이요. 중간 정도예요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "3~4등급이면 다양한 선택지가 있어요. 그리고 요즘은 성적만으로 평가하지 않고 포트폴리오나 실기도 중요하게 보는 학과들이 많아요. 특히 패션이나 디자인 쪽은 더 그렇죠.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "포트폴리오요? 전 그런 거 만들어본 적 없는데..."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "지금부터 시작하면 돼요. 당신이 인스타그램에 올리는 것들이 이미 포트폴리오의 시작이 될 수 있어요. 좀 더 체계적으로 정리하고 발전시키면 되는 거죠.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "제가 올리는 게 포트폴리오가 될 수 있다고요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "그렇죠. 자신의 작업물을 보여주는 게 포트폴리오예요. 물론 지금보다 더 의도적으로, 체계적으로 만들 필요는 있지만 기본은 이미 갖추고 계신 거예요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "와... 그렇게 생각하니까 조금 자신감이 생기네요. 그럼 제가 뭘 해야 할까요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "우선 관심 있는 분야에 대해 더 알아보는 게 좋겠어요. 패션, 디자인, 마케팅 등 어떤 분야가 가장 끌리시나요?",
-      "technique": [
-        "goal_setting",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "음... 패션도 좋고 마케팅도 재미있을 것 같아요. 둘 다 관련 있나요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "네, 밀접하게 관련되어 있어요. 패션 마케팅이라는 분야도 있고, 패션 브랜드의 소셜미디어 마케터가 될 수도 있어요. 두 가지를 함께 공부할 수도 있고요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "패션 마케팅! 그런 게 있다는 건 몰랐어요. 어떻게 알아볼 수 있나요?"
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "우선 관련 학과 정보를 찾아보고, 그 분야에서 일하는 사람들의 인터뷰나 영상을 보는 게 도움이 될 거예요. 그리고 동아리 활동이나 대회에 참여해보는 것도 좋고요.",
-      "technique": [
-        "information_giving",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "학교에 관련 동아리가 있을까요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "학교 동아리 목록을 확인해보세요. 마케팅 동아리나 미디어 동아리가 있을 수 있어요. 없다면 직접 만들거나, 교외 활동을 찾아봐도 좋아요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "직접 만드는 건 자신이 없는데... 교외 활동은 어떤 게 있나요?"
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "청소년 마케팅 공모전, 소셜미디어 콘텐츠 크리에이터 교육 과정, 패션 관련 봉사활동 등이 있어요. 관심 분야 키워드로 검색하면 많이 나올 거예요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "생각보다 할 수 있는 게 많네요. 그런데 부모님은 제가 공부를 더 열심히 하길 원하시는데..."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "부모님은 어떤 진로를 원하시나요?",
+      "text": "맞아요. 그리고 전 학교 친구들과의 관계도 걱정된다고 했는데, 그 친구들에게 솔직하게 외롭고 보고 싶다고 표현해본 적 있나요?",
+      "turn": 30,
       "technique": [
         "open_question"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "특별히 정해진 건 없는데, 그냥 좋은 대학 가길 원하시는 것 같아요. 안정적인 직업도 갖고요."
+      "text": "아니요... 괜히 무겁게 느껴질까봐 그냥 '잘 지내?'만 물어봤어요.",
+      "turn": 31
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "부모님은 당신의 안정적인 미래를 바라시는군요. 당신이 관심 있는 분야도 충분히 안정적인 직업이 될 수 있어요. 대기업 마케팅팀이나 패션 기업 등 다양한 선택지가 있으니까요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "turn": 32,
       "technique": [
-        "interpretation",
-        "information_giving"
+        "guidance"
       ]
     },
     {
-      "turn": 24,
       "speaker": "client",
-      "text": "그렇군요. 부모님께도 말씀드려봐야겠어요."
+      "text": "그렇게 말해도 될까요? 제가 너무 의존적으로 보이진 않을까요?",
+      "turn": 33
     },
     {
-      "turn": 24,
       "speaker": "counselor",
-      "text": "좋아요. 그리고 말씀드릴 때 막연하게 '이쪽에 관심 있다'보다는, 구체적으로 어떤 분야이고 어떤 진로가 있는지 조사해서 말씀드리면 더 좋을 거예요.",
+      "text": "자신의 감정을 솔직하게 표현하는 건 의존적인 게 아니라 건강한 관계를 만드는 방법이에요. 진짜 친구라면 당신의 힘든 마음을 이해하고 지지해줄 거예요.",
+      "turn": 34,
       "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 그렇게 할게요. 오늘 상담하고 나니까 제가 할 수 있는 게 보이는 것 같아요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "좋아요. 오늘 우리가 이야기한 것을 정리하면, 당신은 패션과 소셜미디어에 관심이 있고, 이를 패션 마케팅 같은 분야로 발전시킬 수 있다는 걸 알게 되셨어요. 앞으로는 관련 정보를 찾아보고 활동을 시작하기로 했죠.",
-      "technique": [
-        "summarization",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "네, 맞아요. 이제 뭘 해야 할지 알겠어요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "처음에는 적성을 모르겠다고 하셨는데, 이미 당신 안에 단서들이 있었어요. 그걸 발견하고 발전시키는 게 중요해요. 잘 하실 거라 믿어요.",
-      "technique": [
-        "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 27,
       "speaker": "client",
-      "text": "감사합니다, 선생님. 힘이 나네요."
+      "text": "알겠어요. 오늘 저녁에 한 명한테라도 솔직하게 얘기해볼게요. 그리고 미술부도 내일 선생님께 여쭤볼게요.",
+      "turn": 35
     },
     {
-      "turn": 27,
       "speaker": "counselor",
-      "text": "천천히 탐색해보시고, 궁금한 게 생기거나 도움이 필요하면 언제든 다시 오세요. 응원할게요!",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 28,
-      "speaker": "client",
-      "text": "네, 꼭 그럴게요. 다음에 또 올게요!"
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "기다릴게요. 화이팅!",
+      "text": "정말 좋아요! 구체적인 계획을 세운 거네요. 작은 시도들이 모여서 변화를 만들어갈 거예요. 오늘 이야기 나눈 것처럼, 다음에 만날 때 어떻게 됐는지 함께 나눠볼까요?",
+      "turn": 36,
       "technique": [
         "encouragement"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 좋아요. 오늘 얘기하고 나니까 조금 마음이 가벼워진 것 같아요. 감사합니다.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "천천히 해도 괜찮아요. 당신은 충분히 잘하고 있어요. 혼자가 아니라는 걸 기억하고, 언제든 힘들 때 이야기하러 오세요.",
+      "turn": 38,
+      "technique": [
+        "support"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "17세",
-    "gender": "남성",
-    "occupation": "고등학교 2학년",
-    "background": "부모님의 높은 기대로 인한 극심한 성적 스트레스"
-  }
+  ]
 }

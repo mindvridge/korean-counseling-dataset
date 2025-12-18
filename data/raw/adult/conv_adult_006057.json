@@ -1,382 +1,435 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "부모와의 갈등",
-    "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "open_question",
-      "emotion_labeling",
-      "empathy",
-      "validation",
-      "restatement",
-      "closed_question",
-      "information_giving"
-    ]
+    "topic": "삶의 의미 상실",
+    "total_turns": 30,
+    "generated_at": "2025-12-18T07:14:29.272676+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_대인관계_0005_q7r8s9t0",
-    "category": "adult",
-    "topic": "부모와의 갈등"
+  "client_profile": {
+    "age": "29세",
+    "gender": "여성",
+    "occupation": "마케터",
+    "background": "삶의 의미 상실 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.937862+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "전 여자친구가 벌써 새 남자친구를 사귀고 있대요. 소셜미디어에서 봤어요."
+      "text": "인간관계가 너무 어려워요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "전 여자친구의 새로운 연애 소식을 접하셨군요. 어떤 기분이셨어요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 2,
-      "speaker": "client",
-      "text": "배신감? 저는 아직도 힘든데 그 사람은 벌써 다른 사람이랑... 화가 나요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "배신감과 분노를 느끼시는군요. 본인은 아직 회복 중인데 상대는 이미 새로운 관계를 시작했으니 억울하셨겠어요.",
-      "technique": [
-        "emotion_labeling",
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "6개월밖에 안 됐는데... 저는 뭐였나 싶어요. 쉽게 잊혀진 거잖아요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "본인이 쉽게 잊혀졌다고 느끼시니 자존감이 많이 상하셨을 것 같아요. 이별은 어떻게 하게 되셨나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "그 사람이 헤어지자고 했어요. '서로 맞지 않는 것 같다'면서요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "상대방이 먼저 이별을 제안했군요. 그때 어떻게 반응하셨어요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "처음엔 만류했죠. 다시 생각해보자고... 근데 결국 헤어졌어요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "만류했지만 받아들여지지 않았군요. 그 이후 어떻게 지내셨나요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
       "technique": [
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 6,
+      "turn": 2,
       "speaker": "client",
-      "text": "처음 몇 달은 정말 힘들었어요. 근데 요즘 좀 나아지는 것 같았거든요. 그런데 이 소식을 듣고 다시..."
+      "text": "수당이 계속 줄어들어요. 고정급이 적어서 수당으로 생활비를 충당하는데... 이번 달은 아이 학원비도 못 낼 것 같아요."
     },
     {
-      "turn": 6,
+      "turn": 2,
       "speaker": "counselor",
-      "text": "회복되고 있었는데 이 소식으로 다시 무너진 느낌이시군요. 현재 전 여자친구와 연락은 하고 계세요?",
+      "text": "경제적 압박이 크시군요. 목표를 달성하지 못하는 이유가 뭐라고 생각하세요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "경기도 안 좋고, 고객들이 보험 가입을 꺼리고... 근데 다른 설계사들은 잘만 하더라고요. 저만 못하는 것 같아요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "'나만 못한다'는 생각이 드시는군요. 실제로 팀 내에서 본인 실적은 어느 정도인가요?",
       "technique": [
         "reflection",
         "closed_question"
       ]
     },
     {
-      "turn": 7,
+      "turn": 4,
       "speaker": "client",
-      "text": "아니요. 차단했어요. 근데 공통 친구 소셜미디어에 사진이 올라와서 본 거예요."
+      "text": "하위 30% 정도요. 예전엔 중상위권이었는데..."
     },
     {
-      "turn": 7,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "직접 연락은 끊으셨지만 간접적으로 소식을 접하게 되셨네요. 그 사진을 보고 어떤 생각이 드셨나요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "'저 사람이 진짜 좋았던 거 맞나?' 싶었어요. 이렇게 빨리 다른 사람을 만날 수 있다는 게..."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "과거 관계 자체가 의심스러워지셨군요. 하지만 사람마다 이별을 처리하는 속도와 방식이 달라요. 상대가 빨리 다른 사람을 만난다고 해서 과거의 관계가 가짜였던 건 아니에요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "그래도... 너무 빠른 거 아닌가요?"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "본인 기준에서는 빠르게 느껴지시는군요. 하지만 상대가 언제 누구를 만나는지는 이제 본인과 관계없는 영역이에요. 어떻게 생각하세요?",
+      "text": "예전에는 잘하셨는데 최근에 떨어지신 거네요. 3개월 전 즈음에 무슨 변화가 있었나요?",
       "technique": [
         "reflection",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "... 맞는 말이긴 한데, 받아들이기가 힘들어요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "머리로는 알지만 마음으로 받아들이기 어려우신 거죠. 그건 자연스러운 과정이에요. 지금 가장 힘든 감정은 무엇인가요?",
-      "technique": [
-        "empathy",
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "질투요. 그리고... 저는 언제쯤 괜찮아질까 하는 불안감이요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "질투와 불안이 있으시군요. '나는 언제 회복될까'라는 불안이 더 힘들게 하는 것 같네요.",
-      "technique": [
-        "emotion_labeling",
-        "reflection"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "맞아요. 저만 뒤처진 것 같아요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "회복은 경주가 아니에요. 누가 빨리 새 사람을 만나는지가 중요한 게 아니라, 제대로 회복하는 게 중요하죠.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "제대로 회복한다는 게 뭔가요?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "과거 관계를 있는 그대로 받아들이고, 그로부터 배우고, 자신의 삶에 다시 집중하는 거예요. 지금 본인의 삶은 어떠세요?",
-      "technique": [
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "일은 잘하고 있어요. 운동도 시작했고... 근데 연애 생각은 안 나요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "일상을 잘 유지하고 계시고 새로운 활동도 시작하셨네요. 연애 생각이 안 나는 건 자연스러워요. 아직 준비가 안 된 거죠.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그럼 저는 계속 혼자인 건가요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "지금은 혼자의 시간이 필요한 거예요. 상처를 제대로 치유하지 않고 새로운 관계를 시작하면 같은 패턴이 반복될 수 있어요.",
-      "technique": [
-        "information_giving",
         "clarification"
       ]
     },
     {
+      "turn": 5,
+      "speaker": "client",
+      "text": "특별한 건 없는데... 아, 그때 큰 고객 한 분이 해약하셨어요. 그 분이 제 주 수입원이었거든요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "주요 고객을 잃으면서 수입이 급감했군요. 그 이후로 어떻게 대응하셨나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "미친 듯이 일했어요. 신규 고객 발굴하려고 하루에 10시간씩 돌아다니고, 전화하고... 근데 안 돼요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "empathy",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "... 그럴 수도 있겠네요. 요즘 만나는 고객들이 '부담스럽다'는 말을 하긴 했어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "급한 마음에 고객을 압박하게 되고, 그게 오히려 역효과를 낸 거네요. 이 일을 6년 하셨으면 본인만의 노하우가 있으실 텐데, 요즘은 그걸 활용하고 계신가요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "노하우요? 요즘은 그냥... 닥치는 대로 해요. 예전 방식은 너무 느린 것 같아서."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "조급함 때문에 검증된 본인 방식을 버리고 무작위로 하고 계시는군요. 예전에 잘했을 때는 어떻게 하셨나요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "기존 고객들 관리에 집중했어요. 꾸준히 연락하고, 신뢰 쌓고... 그럼 자연스럽게 소개도 들어오고."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "관계 중심 영업을 하셨군요. 지금은 그렇게 안 하시나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "시간이 없어요. 당장 이번 달 목표를 채워야 하는데..."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "'당장' 목표를 채우려다가 장기적으로 효과적인 방법을 놓치고 계신 것 같아요. 단기 목표와 장기 전략, 둘 다 필요하지 않을까요?",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그렇긴 한데... 장기 전략을 짤 여유가 없어요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "여유가 없다고 느끼시는 건 이해돼요. 하지만 지금 방식으로 3개월 했는데 안 됐잖아요. 방법을 바꿔야 할 때 아닐까요?",
+      "technique": [
+        "validation",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "... 맞는 말이에요. 어떻게 해야 할까요?"
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "먼저 목표를 재설정해볼까요? 회사 목표는 그대로 두고, 본인만의 현실적 목표를 정하는 거예요.",
+      "technique": [
+        "structuring",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "회사 목표를 못 채우면 수당이 적은데..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "지금도 못 채우고 계시잖아요. 현실적 목표를 세우고 그걸 달성하는 게, 달성 불가능한 목표에 스트레스받는 것보다 나아요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "그렇긴 하네요."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "기존 고객들... 요즘 연락도 제대로 못 했어요. 미안해서 연락하기도 그렇고..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "미안한 마음이 드시는군요. 하지만 그분들 입장에서는 본인이 연락해주는 게 고마울 수도 있어요. 이번 주에 5명만이라도 연락해보는 건 어떨까요?",
+      "technique": [
+        "empathy",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 16,
       "speaker": "client",
-      "text": "같은 패턴이요?"
+      "text": "5명이요? 할 수 있을 것 같아요."
     },
     {
       "turn": 16,
       "speaker": "counselor",
-      "text": "네. 이전 관계에서 왜 그렇게 됐는지 이해하지 못하면, 다음 관계에서도 비슷한 문제가 생길 수 있어요. 이별의 이유에 대해 생각해보신 적 있으세요?",
+      "text": "판매 목적이 아니라 안부 목적으로요. '요즘 어떻게 지내세요?' 이런 식으로. 관계를 다시 쌓는 거예요.",
       "technique": [
-        "information_giving",
-        "open_question"
+        "structuring",
+        "information_giving"
       ]
     },
     {
       "turn": 17,
       "speaker": "client",
-      "text": "잘 모르겠어요. '맞지 않는다'는 게 구체적으로 뭘 의미하는지..."
+      "text": "알겠어요. 해볼게요."
     },
     {
       "turn": 17,
       "speaker": "counselor",
-      "text": "구체적인 이유를 모르시니 더 답답하셨겠어요. 하지만 상대의 이유를 아는 것보다, 본인이 그 관계에서 무엇을 배웠는지가 더 중요해요.",
+      "text": "그리고 본인의 자존감 문제도 다뤄야 해요. '나만 못한다'는 생각이 계속되면 고객 앞에서도 자신감이 없어져요.",
       "technique": [
-        "empathy",
+        "structuring",
         "information_giving"
       ]
     },
     {
       "turn": 18,
       "speaker": "client",
-      "text": "배운 것이요?"
+      "text": "맞아요. 요즘 고객 만날 때도 주눅 들어요."
     },
     {
       "turn": 18,
       "speaker": "counselor",
-      "text": "네. 그 관계에서 좋았던 점, 아쉬웠던 점, 다음엔 다르게 하고 싶은 점 같은 거요. 생각해보신 적 있으세요?",
+      "text": "지금 3개월 부진하지만, 6년 커리어를 보세요. 그동안 쌓은 경험과 실력이 사라진 게 아니에요. 일시적 슬럼프일 뿐이죠.",
       "technique": [
-        "clarification",
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "일시적... 맞을까요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "맞아요. 하지만 슬럼프에서 벗어나려면 방법을 바꿔야 해요. 지금처럼 계속하면 악순환이 계속될 거예요.",
+      "technique": [
+        "validation",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "알겠습니다. 변화가 필요하네요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "경제적 압박도 크시니, 단기 대책도 필요해요. 혹시 다른 수입원을 고려해보신 적 있으세요?",
+      "technique": [
+        "structuring",
         "open_question"
       ]
     },
     {
-      "turn": 19,
-      "speaker": "client",
-      "text": "아니요... 그냥 상대방 탓만 했던 것 같아요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "정직하게 말씀해주셨네요. 이번 주에 그 관계를 돌아보는 시간을 가져보는 건 어떨까요? 탓하기 위해서가 아니라 배우기 위해서요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "해볼게요. 근데 공통 친구 소셜미디어는 어떡하죠? 또 볼 수도 있잖아요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "당분간 그 친구 소셜미디어도 뮤트하거나 보지 않는 게 좋겠어요. 회복에 방해가 되니까요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
       "turn": 21,
       "speaker": "client",
-      "text": "네, 그렇게 하겠습니다."
+      "text": "부업이요? 시간이 없는데..."
     },
     {
       "turn": 21,
       "speaker": "counselor",
-      "text": "좋아요. 다음 주에 관계를 돌아본 소감을 나눠봐요. 잘하실 거예요.",
+      "text": "부업이 아니라, 가족 지원이나 긴급 대출 같은 임시 방안이요. 경제적 압박을 조금이라도 줄이면 영업할 때 조급함이 줄어들 거예요.",
       "technique": [
-        "encouragement",
-        "goal_setting"
+        "clarification",
+        "information_giving"
       ]
     },
     {
       "turn": 22,
       "speaker": "client",
-      "text": "오늘 이야기 나눠서 마음이 한결 가벼워진 것 같아요."
+      "text": "가족한테 손 벌리긴 싫은데..."
     },
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
-        "empathy",
-        "validation"
+        "validation",
+        "information_giving"
       ]
     },
     {
       "turn": 23,
       "speaker": "client",
-      "text": "앞으로 어떻게 하면 좋을지 조금 더 생각해볼게요."
+      "text": "생각해볼게요."
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "천천히 생각해보시고, 다음에 만나서 어떻게 지내셨는지 이야기 나눠봐요.",
+      "text": "이번 주에 할 것들 정리해볼까요? 기존 고객 5명에게 안부 연락하기, 본인만의 현실적 목표 세우기, 경제적 임시 방안 고려하기. 맞나요?",
+      "technique": [
+        "summarization",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "네, 맞아요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "가장 먼저 할 건 뭔가요?",
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "기존 고객 연락이요. 오늘 당장 해볼게요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "훌륭해요. 판매 생각 말고, 진심으로 안부만 물어보세요.",
       "technique": [
         "encouragement",
         "structuring"
       ]
     },
     {
-      "turn": 24,
+      "turn": 26,
       "speaker": "client",
-      "text": "네, 다음 상담 때 뵙겠습니다."
+      "text": "네, 그렇게 할게요."
     },
     {
-      "turn": 24,
+      "turn": 26,
       "speaker": "counselor",
-      "text": "네, 그때까지 자신을 잘 돌봐주세요. 응원하고 있을게요.",
+      "text": "그리고 자책하지 마세요. 슬럼프는 누구에게나 와요. 중요한 건 어떻게 극복하느냐예요.",
       "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "감사합니다. 선생님 덕분에 힘이 나요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "힘내세요. 잘 해내실 수 있을 거예요.",
-      "technique": [
-        "empathy",
+        "validation",
         "encouragement"
       ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "감사합니다. 조금 희망이 보여요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "6년 경력의 전문가로서 본인을 믿으세요. 이 어려움도 지나갈 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "오늘 상담이 큰 도움이 됐어요."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "다음 주에 만나서 어떻게 진행됐는지 이야기 나눠봐요. 작은 성공이라도 있으면 꼭 공유해주세요.",
+      "technique": [
+        "goal_setting",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네, 다음 주에 좋은 소식 가지고 올게요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "기대할게요. 본인의 강점을 기억하세요. 관계 중심 영업, 그게 본인의 무기예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "client",
+      "text": "감사합니다. 다음 주에 뵙겠습니다."
+    },
+    {
+      "turn": 30,
+      "speaker": "counselor",
+      "text": "힘내세요. 슬럼프는 일시적이에요. 다음 주에 뵙겠습니다.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
-  ],
-  "client_profile": {
-    "age": "27세",
-    "gender": "여성",
-    "occupation": "연구원",
-    "background": "성인이 되어서도 부모님과의 관계가 어려운 상황"
-  }
+  ]
 }

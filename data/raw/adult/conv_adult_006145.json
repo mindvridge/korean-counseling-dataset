@@ -1,37 +1,27 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "대인 불안",
-    "total_turns": 25,
-    "quality_indicators": [
-      "validation",
-      "empathy",
-      "open_question",
-      "reflection",
-      "closed_question",
-      "restatement",
-      "emotion_labeling",
-      "clarification"
-    ]
+    "topic": "불안장애",
+    "total_turns": 30,
+    "generated_at": "2025-12-18T07:14:29.365010+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_대인관계_0004_m3n4o5p6",
-    "category": "adult",
-    "topic": "대인 불안"
+  "client_profile": {
+    "age": "38세",
+    "gender": "여성",
+    "occupation": "주부",
+    "background": "불안장애 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:40.037915+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "헤어진 지 3개월이 됐는데도 아직도 힘들어요. 이게 정상인가요?"
+      "text": "인간관계가 너무 어려워요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "3개월이 지났는데도 여전히 힘드시군요. 5년이나 함께하셨으니 충분히 그럴 수 있어요. 지금 어떤 점이 가장 힘드신가요?",
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
       "technique": [
-        "validation",
         "empathy",
         "open_question"
       ]
@@ -39,12 +29,12 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "모든 게요. 일도 집중이 안 되고, 친구들 만나도 재미없고... 그냥 무기력해요."
+      "text": "같은 팀 선배가 저를 너무 괴롭혀요. 매일 제가 한 일에 트집 잡고, 회의 때마다 저만 공격하고..."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "일상의 모든 부분에서 의욕이 없으시군요. 하루 일과가 어떠신지 말씀해주시겠어요?",
+      "text": "선배가 지속적으로 본인을 비난하고 공격한다고 느끼시는군요. 구체적으로 어떤 일들이 있었나요?",
       "technique": [
         "reflection",
         "open_question"
@@ -53,124 +43,124 @@
     {
       "turn": 3,
       "speaker": "client",
-      "text": "아침에 일어나기 싫고, 출근해서도 멍하니 있고, 퇴근하면 그냥 누워있어요."
+      "text": "어제도 팀 회의에서 제가 계약 못 따온 거 가지고 '이래서 신입은 안 된다니까, 뭘 그렇게 배웠냐'고 다른 사람들 앞에서 말했어요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "기본적인 일상도 버겁게 느껴지시는군요. 식사는 제대로 하고 계세요?",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
         "empathy",
-        "closed_question"
+        "emotion_labeling"
       ]
     },
     {
       "turn": 4,
       "speaker": "client",
-      "text": "아니요. 입맛도 없고... 먹어도 맛도 모르겠고요."
+      "text": "창피하고, 화나고... 아무 말도 못하고 그냥 고개만 숙이고 있었어요."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "식욕까지 떨어지셨네요. 수면은 어떠세요?",
+      "text": "수치심과 분노를 느끼셨지만 반응하지 못하셨군요. 이런 일이 자주 있나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "거의 매일이요. 사소한 일에도 '그것도 못 하냐', '내가 너 나이 때는 벌써 이랬는데' 이런 말 들어요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "매일 비교당하고 비난받는 상황이시군요. 다른 팀원들은 어떤가요? 그 선배가 다른 사람들에게도 그러나요?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 5,
-      "speaker": "client",
-      "text": "잠을 못 자요. 자려고 누우면 생각이 많아져서요. 그 사람 생각이 계속 나요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "밤에 잠들기 어려우시고 생각이 많아지시는군요. 어떤 생각들이 주로 드시나요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
       "turn": 6,
       "speaker": "client",
-      "text": "왜 헤어졌을까, 내가 뭘 잘못했을까, 다시 연락하면 어떨까... 이런 생각들이요."
+      "text": "저한테만 그래요. 다른 사람들한테는 친절하고 잘 가르쳐줘요. 그래서 더 힘들어요."
     },
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "후회와 자책, 그리고 미련이 공존하고 있군요. 실제로 연락해보신 적은 있으세요?",
-      "technique": [
-        "emotion_labeling",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "몇 번요. 근데 답이 없어요. 소셜미디어는 차단당했고요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "연락을 시도했지만 응답이 없었군요. 그때 기분이 어땠어요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "처음엔 화가 났는데, 나중엔 그냥... 비참했어요. 제가 너무 초라해 보였어요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "분노에서 자괴감으로 이어졌네요. 이별의 이유가 무엇이었나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "그 사람이 '마음이 식었다'고 했어요. 갑자기요. 아무 예고도 없이."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "예상치 못한 이별이었군요. 그래서 더 받아들이기 어려우셨을 것 같아요.",
-      "technique": [
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "네. 정말 갑자기였어요. 전날까지도 평소처럼 연락했는데..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "갑작스러운 변화라 혼란스러우셨겠어요. 혹시 돌이켜보면 징조 같은 게 있었나요?",
+      "text": "본인에게만 유독 그렇다는 게 더 괴롭고 혼란스러우시겠어요. 혹시 왜 그런 것 같은지 짐작이 가시나요?",
       "technique": [
         "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "모르겠어요. 제가 뭘 잘못했나 계속 생각해봤는데... 처음부터 그랬어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "팀장님한테 한번 조심스럽게 말씀드렸는데... '선배가 너를 가르치려고 그러는 거니 이해해라'고 하시더라고요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "도움을 요청했지만 '가르침'으로 해석되어서 보호받지 못하셨군요. 그 답변을 들었을 때 어떠셨어요?",
+      "technique": [
+        "reflection",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "절망적이었어요. '아, 아무도 날 도와주지 않는구나' 싶었죠."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "고립되고 무력한 느낌이셨겠어요. 이런 상황이 얼마나 지속됐나요?",
+      "technique": [
+        "empathy",
         "clarification"
       ]
     },
     {
+      "turn": 10,
+      "speaker": "client",
+      "text": "입사한 지 2년인데, 거의 처음부터요. 견습 기간 끝나고 같은 팀 배치받으면서 시작됐어요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "2년 가까이 이런 상황이 지속됐군요. 이게 본인에게 어떤 영향을 힘들었나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 11,
       "speaker": "client",
-      "text": "지금 생각해보면... 몇 달 전부터 연락이 좀 뜸해지긴 했어요. 근데 그땐 몰랐어요."
+      "text": "자신감이 완전히 없어졌어요. 뭘 해도 '잘못하면 또 혼나겠지' 생각하니까 아무것도 못 하겠어요."
     },
     {
       "turn": 11,
       "speaker": "counselor",
-      "text": "당시에는 알아차리기 어려웠던 변화들이 있었군요. 그 징조들을 못 봤다고 본인을 자책하고 계신가요?",
+      "text": "자존감과 자신감이 많이 떨어지셨군요. 업무 성과에도 영향이 있나요?",
       "technique": [
         "reflection",
         "closed_question"
@@ -179,204 +169,268 @@
     {
       "turn": 12,
       "speaker": "client",
-      "text": "네... 제가 너무 둔했던 것 같아요. 좀 더 신경 썼으면..."
+      "text": "당연히 있죠. 위축돼서 고객 만날 때도 자신감이 없으니 계약도 잘 안 되고... 그럼 또 혼나고... 악순환이에요."
     },
     {
       "turn": 12,
       "speaker": "counselor",
-      "text": "본인을 많이 탓하고 계시네요. 하지만 관계는 혼자 만드는 게 아니에요. 상대방도 자신의 마음 변화를 솔직히 말할 책임이 있었죠.",
+      "text": "비난 → 자신감 저하 → 성과 하락 → 더 많은 비난의 악순환에 갇혀있으시군요. 이 상황에서 퇴사가 유일한 해결책처럼 느껴지시나요?",
+      "technique": [
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "네... 다른 방법이 있을까요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "퇴사도 하나의 선택이지만, 그 전에 시도해볼 수 있는 것들이 있어요. 먼저, 이게 '직장 내 괴롭힘'에 해당할 수 있다는 걸 아시나요?",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그래도... 제가 뭔가 했으면 달라졌을 수도 있잖아요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "그 가능성을 계속 생각하시는군요. 하지만 '만약에'는 현실이 아니에요. 그리고 상대의 마음을 본인이 통제할 수는 없어요.",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
       "turn": 14,
       "speaker": "client",
-      "text": "그럼 저는 뭘 해야 하나요? 계속 이렇게 힘들 순 없잖아요."
+      "text": "괴롭힘이요? 그냥 선배가 좀 까다로운 거 아닌가요?"
     },
     {
       "turn": 14,
       "speaker": "counselor",
-      "text": "회복하고 싶으신 마음이 있으시군요. 그게 중요한 첫걸음이에요. 지금 소셜미디어나 공통 친구를 통해 그 사람 소식을 접하고 계신가요?",
-      "technique": [
-        "encouragement",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "가끔요. 소셜미디어는 차단당했지만 공통 친구가 얘기해줘요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "간접적으로라도 소식을 듣고 계시군요. 그 소식을 들으면 기분이 어떠세요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "궁금하면서도... 듣고 나면 더 아파요. 그 사람은 잘 지내는 것 같더라고요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "상대는 회복한 것처럼 보이니 본인만 힘든 것 같아서 더 괴로우신 거죠. 이별 회복을 위해 첫 번째로 필요한 건 '연결 끊기'예요.",
-      "technique": [
-        "empathy",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "연결 끊기요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "네. 소셜미디어 차단, 공통 친구에게 그 사람 소식 안 듣기, 추억의 물건 정리 등이요. 상처가 아물려면 계속 건드리지 말아야 해요.",
+      "text": "특정인에게만 지속적으로 모욕적 언행을 하고, 다른 사람들 앞에서 수치심을 주는 건 '근로기준법상 직장 내 괴롭힘'일 수 있어요. 회사에 신고 제도가 있을 거예요.",
       "technique": [
         "information_giving",
         "clarification"
       ]
     },
     {
-      "turn": 18,
+      "turn": 15,
       "speaker": "client",
-      "text": "근데 그러면 완전히 끝나는 거잖아요..."
+      "text": "신고요? 그러면 더 괴롭히지 않을까요?"
     },
     {
-      "turn": 18,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "이미 끝난 관계예요. 인정하기 어렵지만요. 끝을 받아들여야 새로운 시작이 가능해요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
-        "confrontation",
+        "validation",
         "information_giving"
       ]
     },
     {
+      "turn": 16,
+      "speaker": "client",
+      "text": "잘 몰랐어요. 근데 신고하면 증거가 필요하지 않나요?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "좋은 질문이에요. 지금부터라도 증거를 모으세요. 언제, 어디서, 누가 있는 자리에서, 무슨 말을 들었는지 기록하는 거죠.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "일기처럼 쓰라는 건가요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "비슷해요. 날짜, 시간, 장소, 증인, 구체적 발언 내용을 기록하세요. 가능하면 문자나 이메일 같은 것도 캡처해두고요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "알겠습니다. 그런데 신고 전에 다른 방법은 없을까요?"
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "있어요. 먼저 그 선배에게 직접 말하는 거예요. '그런 말을 들으면 기분이 상한다'고요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 19,
       "speaker": "client",
-      "text": "... 너무 무서워요. 그 사람 없는 삶이."
+      "text": "그 사람한테요? 무서운데..."
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "5년을 함께했으니 두려운 게 당연해요. 하지만 그 사람 이전의 본인도 있었고, 이후의 본인도 있을 거예요.",
+      "text": "무서우실 거예요. 그럴 땐 제3자를 대동하거나, 인사팀 직원 입회 하에 말할 수도 있어요.",
       "technique": [
         "validation",
-        "encouragement"
+        "information_giving"
       ]
     },
     {
       "turn": 20,
       "speaker": "client",
-      "text": "어떻게 시작하죠?"
+      "text": "그런 방법도 있군요."
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "작은 것부터요. 오늘은 제시간에 잠자리에 들기, 내일은 아침 식사 챙기기. 이렇게 하나씩이요.",
+      "text": "그리고 팀장님께 다시 한번 말씀드리되, 이번엔 '가르침'이 아니라 '괴롭힘'이라는 프레임으로 말씀하세요. 구체적 사례들과 함께요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "팀장님이 안 믿으시면요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "그럴 경우 인사팀이나 노무사와 상담할 수 있어요. 회사 외부에도 고용노동부 직장 내 괴롭힘 신고센터가 있고요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "생각보다 방법이 많네요. 몰랐어요."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "퇴사가 유일한 선택은 아니에요. 다만, 이 모든 과정이 쉽지 않을 거예요. 그래서 지금 본인이 원하는 게 뭔지가 중요해요. 이 회사에 남고 싶으세요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "업무 자체는 좋아요. 그 선배만 아니면..."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "일은 좋아하는데 선배 때문에 그만두고 싶다는 거네요. 그럼 팀 이동은 요청해볼 수 없나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "아, 그것도 방법이네요. 생각 못 했어요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "이번 주에 할 수 있는 것들을 정해볼까요? 우선 증거 기록 시작하기, 그리고 신뢰할 수 있는 동료나 인사팀과 상담해보기는 어떨까요?",
       "technique": [
         "goal_setting",
-        "structuring"
+        "open_question"
       ]
     },
     {
-      "turn": 21,
+      "turn": 25,
       "speaker": "client",
-      "text": "그게 도움이 될까요?"
+      "text": "네, 그 정도는 할 수 있을 것 같아요."
     },
     {
-      "turn": 21,
+      "turn": 25,
       "speaker": "counselor",
-      "text": "일상의 리듬을 되찾는 게 회복의 기초예요. 작은 성취들이 쌓이면 힘이 돼요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "해볼게요. 근데 힘들면 어떡하죠?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "힘들면 다시 상담 오시면 돼요. 혼자 견딜 필요 없어요. 함께 해나가요.",
+      "text": "그리고 중요한 건, 이게 본인 잘못이 아니라는 거예요. 2년 동안 견뎌온 것만으로도 대단해요.",
       "technique": [
         "validation",
         "encouragement"
       ]
     },
     {
-      "turn": 23,
+      "turn": 26,
       "speaker": "client",
-      "text": "감사합니다. 조금은... 희망이 보이는 것 같아요."
+      "text": "제 잘못이 아니라는 말... 처음 들어봐요. 계속 제가 부족해서 그런 줄 알았거든요."
     },
     {
-      "turn": 23,
+      "turn": 26,
       "speaker": "counselor",
-      "text": "그 마음 잘 간직하세요. 회복은 직선이 아니라 곡선이에요. 나쁜 날도 있지만 결국 나아질 거예요.",
+      "text": "부족한 부분이 있을 수 있지만, 그게 모욕과 괴롭힘의 이유가 될 수는 없어요. 누구도 그런 대우를 받아야 할 이유는 없어요.",
       "technique": [
-        "encouragement",
+        "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 24,
+      "turn": 27,
       "speaker": "client",
-      "text": "오늘 이야기 나눠서 마음이 한결 가벼워진 것 같아요."
+      "text": "감사합니다. 조금 힘이 나는 것 같아요."
     },
     {
-      "turn": 24,
+      "turn": 27,
       "speaker": "counselor",
-      "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
+      "text": "오늘 정한 것들 정리해볼까요? 괴롭힘 기록 시작하기, 인사팀 상담하기, 팀 이동 가능성 알아보기. 이 중에서 가장 먼저 하실 건 뭔가요?",
       "technique": [
-        "empathy",
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "오늘부터 기록 시작하고, 내일 인사팀에 상담 신청해볼게요."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "구체적으로 계획을 세우셨네요. 훌륭해요. 이 과정이 힘들면 언제든 다시 상담 오세요.",
+      "technique": [
+        "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 25,
+      "turn": 29,
       "speaker": "client",
-      "text": "앞으로 어떻게 하면 좋을지 조금 더 생각해볼게요."
+      "text": "네, 그렇게 하겠습니다. 오늘 많은 도움이 됐어요."
     },
     {
-      "turn": 25,
+      "turn": 29,
       "speaker": "counselor",
-      "text": "천천히 생각해보시고, 다음에 만나서 어떻게 지내셨는지 이야기 나눠봐요.",
+      "text": "본인의 권리를 지키는 게 당연한 거예요. 퇴사는 모든 방법을 시도한 후에 생각해도 늦지 않아요. 다음 주에 어떻게 됐는지 이야기 나눠봐요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "client",
+      "text": "감사합니다. 다음 주에 뵙겠습니다."
+    },
+    {
+      "turn": 30,
+      "speaker": "counselor",
+      "text": "용기 내세요. 본인은 존중받을 자격이 있어요. 다음 주에 뵙겠습니다.",
       "technique": [
         "encouragement",
-        "structuring"
+        "validation"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "33세",
-    "gender": "남성",
-    "occupation": "프리랜서",
-    "background": "새로운 사람을 만나는 것이 두려운 사회불안"
-  }
+  ]
 }

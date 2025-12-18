@@ -1,454 +1,343 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "부모와의 갈등",
-    "total_turns": 30,
-    "quality_indicators": [
-      "reflection",
-      "open_question",
-      "emotion_labeling",
-      "empathy",
-      "closed_question",
-      "interpretation",
-      "information_giving",
-      "structuring"
-    ]
+    "topic": "업무 스트레스와 번아웃",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:28.876463+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0010_o1p2q3r4",
-    "category": "adult",
-    "topic": "부모와의 갈등"
+  "client_profile": {
+    "age": "50세",
+    "gender": "남성",
+    "occupation": "공무원",
+    "background": "업무 스트레스와 번아웃 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.502944+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "임원님이 저를 애 취급해요. 8년차인데도."
+      "text": "육아가 너무 힘들어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "8년 경력이 있는데도 애 취급당한다고 느끼시는군요. 어떤 상황인가요?",
-      "technique": [
-        "empathy",
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
       "turn": 2,
-      "speaker": "client",
-      "text": "현장 일은 제가 제일 잘 아는데, 사무실에서 일도 안 해보신 임원님이 일일이 간섭하세요. '이렇게 해라, 저렇게 해라' 제 판단을 전혀 믿어주지 않아요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "현장 전문가인 본인의 판단을 신뢰하지 않고 세세하게 간섭한다는 거네요. 구체적으로 어떤 일들이 있었나요?",
       "technique": [
         "empathy",
-        "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "어제도 자재 발주 건으로 전화하셨어요. 제가 A 업체로 하려고 했는데 '왜 B 업체는 안 알아봤냐, 다시 알아보고 보고해라'고요. 이미 견적 다 받아본 건데..."
+      "text": "네... 저는 중학교에서 국어를 가르치는 교사인데요. 올해로 10년차가 됐어요. 그런데 요즘 학교 가는 게 너무 힘들어요.",
+      "turn": 3
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "이미 충분히 검토한 사안인데도 다시 확인하라고 하시는군요. 그때 어떤 기분이 드셨어요?",
-      "technique": [
-        "empathy",
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
+      "text": "10년차 교사시군요. 학교 가는 것이 힘드시다고 하셨는데, 어떤 점이 특히 힘드신가요?",
       "turn": 4,
-      "speaker": "client",
-      "text": "무시당하는 기분이죠. '내가 뭐 하러 8년을 일했나' 싶고... 화나고 억울하고."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "전문성을 인정받지 못하는 느낌에 화와 억울함을 느끼시는군요. 이런 일이 자주 있나요?",
       "technique": [
-        "empathy",
-        "closed_question"
+        "open-ended question",
+        "empathy"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "매일요. 하루에 전화를 10통도 넘게 받아요. '이거 확인했어? 저거는 어떻게 됐어?' 제가 알아서 하고 있는데..."
+      "text": "예전에는 아이들 가르치는 게 정말 좋았거든요. 그런데 요즘은... 아이들이 수업에 집중을 안 하고, 제 말을 무시하는 것 같고... 제가 무능한 교사가 된 것 같아요.",
+      "turn": 5
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "하루 10통 넘는 확인 전화를 받으시는군요. 이게 업무에 어떤 영향을 미치나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
+      "text": "예전에는 학생들을 가르치는 일이 즐거우셨는데, 지금은 학생들과의 관계에서 어려움을 느끼시고, 그것이 자신의 능력에 대한 회의로 이어지고 있는 것 같네요.",
       "turn": 6,
-      "speaker": "client",
-      "text": "집중이 안 돼요. 현장에서 작업 지시하다가도 전화 오면 받아야 하고... 그럼 작업 흐름이 끊기고. 비효율적이에요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "잦은 전화로 업무 흐름이 끊겨서 효율성이 떨어지는군요. 임원님께 이런 어려움을 말씀드려 보신 적 있으세요?",
       "technique": [
-        "reflection",
-        "closed_question"
+        "reflection"
       ]
     },
     {
-      "turn": 7,
       "speaker": "client",
-      "text": "한번 조심스럽게 말했어요. '제가 알아서 잘 진행하고 있으니 믿어주셔도 됩니다'라고. 근데 '내가 확인하는 게 뭐가 문제야? 책임은 내가 지는데'라고 하시더라고요."
+      "text": "맞아요. 정확히 그래요. 특히 이번 학기에 맡은 반이 너무 힘들어요. 수업 시간에 떠들고, 주의를 주면 대들고... 어제는 한 학생이 제 면전에서 '수업 재미없다'고 말하더라고요.",
+      "turn": 7
     },
     {
-      "turn": 7,
       "speaker": "counselor",
-      "text": "본인의 요청을 '책임' 문제로 돌리셨군요. 그 답변을 들었을 때 어떠셨어요?",
-      "technique": [
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "turn": 8,
-      "speaker": "client",
-      "text": "말문이 막혔죠. '그럼 저는 책임 안 진다는 건가?' 싶기도 하고... 더 이상 말할 수가 없었어요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "방어적인 반응에 더 이상 소통하기 어려우셨군요. 임원님은 왜 그렇게 세세하게 확인하시는 것 같으세요?",
       "technique": [
-        "empathy",
-        "open_question"
+        "empathy"
       ]
     },
     {
-      "turn": 9,
       "speaker": "client",
-      "text": "통제욕이 강하신 것 같아요. 모든 걸 본인이 관리하고 싶어 하시는..."
+      "text": "네... 그 순간 너무 화가 나면서도 동시에 자존감이 바닥으로 떨어지는 느낌이었어요. 집에 와서 혼자 울었어요. 10년이나 했는데 왜 이렇게 무기력한지...",
+      "turn": 9
     },
     {
-      "turn": 9,
       "speaker": "counselor",
-      "text": "마이크로매니징 스타일이시군요. 임원님 입장에서는 그게 책임을 다하는 방법일 수 있지만, 현장 전문가인 본인에게는 불신으로 느껴지는 거네요.",
-      "technique": [
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "10년간 쌓아온 경력에도 불구하고 그런 상황을 겪으시면서 무력감을 느끼셨군요. 그런 감정을 느끼시는 것은 자연스러운 반응이에요.",
       "turn": 10,
-      "speaker": "client",
-      "text": "맞아요. 정확히 그래요. 그럼 어떻게 해야 하나요?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "마이크로매니저를 바꾸기는 어렵지만, 불필요한 확인을 줄이는 방법은 있어요. 선제적으로 보고하는 거예요.",
       "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "선제적 보고요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "임원님이 전화하시기 전에 먼저 보고하는 거예요. '오늘 자재 발주 완료했습니다, A 업체로 결정했고 이유는 ~~입니다' 이런 식으로요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "그럼 전화가 줄어들까요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "보장할 수는 없지만, 가능성은 있어요. 마이크로매니저들은 '모르는 것'에 대한 불안이 커서 확인하는 경우가 많거든요. 먼저 알려드리면 불안이 줄어들 수 있어요.",
-      "technique": [
-        "information_giving",
         "validation"
       ]
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "일리가 있네요. 해볼게요."
+      "text": "다른 선생님들은 잘 하시는 것 같은데 저만 이런 것 같아요. 요즘 교무실에서도 다른 선생님들과 이야기하는 게 불편해요.",
+      "turn": 11
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "그리고 정기 보고 체계를 제안해보는 것도 방법이에요. '매일 오후 5시에 일일 보고 드리겠습니다' 이런 식으로요.",
+      "text": "동료 선생님들과의 관계도 불편하게 느껴지신다고요. 그 부분에 대해 좀 더 이야기해 주실 수 있을까요?",
+      "turn": 12,
       "technique": [
-        "information_giving",
-        "structuring"
+        "open-ended question"
       ]
     },
     {
+      "speaker": "client",
+      "text": "다들 자기 일에 바쁘시고... 저도 제가 힘들다는 걸 티 내기가 싫어서 거리를 두게 되더라고요. 예전에는 점심시간에 같이 수다도 떨고 그랬는데, 요즘은 그냥 혼자 있어요.",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘든 모습을 보이고 싶지 않아서 스스로 거리를 두게 되셨고, 그러다 보니 점점 더 고립되는 느낌이 드시는 것 같네요.",
       "turn": 14,
-      "speaker": "client",
-      "text": "정해진 시간에 보고하면 수시 전화가 줄 수도 있겠네요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "정확해요. '그때 보고 들으면 되지' 하고 안심하실 수 있거든요. 그리고 보고할 때는 '결과'뿐 아니라 '과정'과 '이유'도 함께 설명하세요.",
       "technique": [
-        "encouragement",
-        "information_giving"
+        "reflection"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "과정과 이유요?"
+      "text": "네, 맞아요. 악순환인 것 같아요. 혼자 있으니까 더 생각이 많아지고, 부정적인 생각만 계속 들고... 아침에 일어나면 학교 가기가 너무 싫어요.",
+      "turn": 15
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "네. 'A 업체로 결정했습니다'만 말하면 '왜?'라는 질문이 오잖아요. 대신 'A, B, C 업체 견적을 받았고, 가격과 품질을 비교한 결과 A가 최적이어서 결정했습니다'라고 하면 추가 질문이 줄어요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
+      "text": "아침에 일어날 때부터 학교 가는 것이 두렵고 힘드신 상태가 얼마나 지속되었나요?",
       "turn": 16,
-      "speaker": "client",
-      "text": "아, 미리 궁금해하실 걸 설명하는 거군요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "맞아요. 그리고 중요한 결정은 사전에 의견을 구하는 것도 방법이에요. '이렇게 하려고 하는데 어떻게 생각하세요?'라고요.",
       "technique": [
-        "encouragement",
-        "information_giving"
+        "clarification"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "그건... 제가 결정권을 포기하는 거 아닌가요?"
+      "text": "한 3개월 정도 된 것 같아요. 2학기 시작하고 나서부터요. 처음에는 '좀 피곤한가 보다' 했는데, 점점 심해지는 것 같아요. 주말에도 월요일 생각하면 불안하고...",
+      "turn": 17
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "그렇게 느껴질 수 있지만, 조금 다르게 보면 '협의'하는 거예요. 최종 결정은 본인이 하되, 임원님을 과정에 참여시키는 거죠. 그럼 존중받는다고 느끼실 거예요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "3개월 동안 이런 상태가 지속되어 왔고, 주말에도 학교에 대한 불안감을 느끼신다니 정말 힘드셨겠어요. 이런 상황에서도 계속 학교에 나가고 계신 것 자체가 대단한 일이에요.",
       "turn": 18,
-      "speaker": "client",
-      "text": "전략적으로 접근하는 거네요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "정확해요. 이상적이진 않지만, 현실적인 방법이에요. 그리고 본인의 감정 관리도 중요해요. 매번 무시당한다고 느끼시면 소진될 수 있거든요.",
       "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "이미 많이 지쳤어요. 어떻게 관리하죠?"
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "임원님의 확인을 '불신'이 아니라 '업무 스타일'로 받아들이는 연습을 해보세요. '나를 못 믿는 게 아니라, 원래 저런 분이구나'라고요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "관점을 바꾸는 거군요. 쉽진 않겠지만..."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "쉽지 않죠. 하지만 매번 화내고 억울해하는 것보다는 본인 정신 건강에 나아요. 그리고 퇴근 후에는 일을 완전히 내려놓는 시간을 가지세요.",
-      "technique": [
-        "validation",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "퇴근 후에도 전화 오는데요..."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "그건 경계를 정해야 해요. '긴급 상황 외에는 퇴근 후 통화가 어렵습니다'라고 정중하게 말씀드리는 거죠.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "그렇게 말해도 될까요?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "일과 생활의 경계는 정당한 권리예요. 물론 조심스럽게 표현해야겠지만요. '가족 시간을 보장해야 해서' 같은 이유를 덧붙이면 좋아요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "알겠습니다. 시도는 해볼게요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "이번 주에 할 수 있는 것들을 정리해볼까요? 선제적 보고하기, 정기 보고 체계 제안하기, 과정과 이유 함께 설명하기. 이 중에서 가장 먼저 시도해볼 건 뭔가요?",
-      "technique": [
-        "summarization",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "선제적 보고요. 오늘부터 해볼게요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "좋아요. 그리고 정기 보고 체계는 이번 주 안에 제안해보세요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, '업무 효율을 위해'라는 명목으로 말씀드려볼게요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "완벽해요. 본인의 필요가 아니라 '업무 효율'을 강조하는 게 좋아요.",
-      "technique": [
-        "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 26,
       "speaker": "client",
-      "text": "그런데 만약 안 받아들여지면요?"
+      "text": "그냥... 가야 하니까 가는 거죠. 근데 요즘은 정말 그만두고 싶다는 생각도 들어요. 교사라는 직업이 제게 맞지 않는 건가 싶기도 하고요.",
+      "turn": 19
     },
     {
-      "turn": 26,
       "speaker": "counselor",
-      "text": "최소한 시도는 해본 거예요. 그리고 계속 안 된다면, 장기적으로 팀 이동이나 다른 선택을 고려할 수도 있고요.",
+      "text": "지금 너무 힘든 상황이라 그만두고 싶다는 생각까지 드시는군요. 그런데 처음에 말씀하실 때 예전에는 아이들 가르치는 게 정말 좋았다고 하셨잖아요. 그때는 어떠셨나요?",
+      "turn": 20,
       "technique": [
-        "validation",
-        "information_giving"
+        "reframing"
       ]
     },
     {
-      "turn": 27,
       "speaker": "client",
-      "text": "그렇죠. 일단 할 수 있는 건 다 해보겠습니다."
+      "text": "아... 예전에는 정말 좋았어요. 아이들이 제 수업 듣고 '재미있었어요', '이해됐어요' 할 때 정말 보람 있었거든요. 그때는 힘들어도 견딜 수 있었어요.",
+      "turn": 21
     },
     {
-      "turn": 27,
       "speaker": "counselor",
-      "text": "오늘 상담에서 어떤 게 가장 도움이 되셨나요?",
+      "text": "학생들과의 긍정적인 상호작용이 있을 때는 힘들어도 견딜 수 있는 에너지가 되었군요. 그렇다면 언제부터 그런 긍정적인 경험들이 줄어들기 시작했나요?",
+      "turn": 22,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "생각해보니... 작년부터인 것 같아요. 코로나 이후로 아이들이 많이 달라진 것 같기도 하고, 학부모들도 예전보다 더 예민해지신 것 같고... 작년에 한 학부모님이 민원을 넣으셔서 정말 힘들었거든요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 24,
+      "technique": [
+        "clarification"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그 일 이후로 학생들을 대하는 게 조심스러워졌어요. 혹시 또 민원이 들어올까 봐... 그러다 보니 수업도 재미없어진 것 같고, 아이들과의 관계도 딱딱해진 것 같아요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "학부모 민원 경험이 트라우마처럼 남아서, 학생들과 자연스럽게 상호작용하는 것을 어렵게 만들고 있었네요. 자신을 보호하려다 보니 방어적으로 변하신 거예요.",
+      "turn": 26,
+      "technique": [
+        "interpretation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그런 것 같아요. 그런데 제가 방어적이니까 아이들도 저를 멀리하는 것 같고... 정말 악순환이에요. 어떻게 해야 할까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 상황을 정확하게 이해하고 계시네요. 먼저 말씀드리고 싶은 것은, 선생님이 느끼시는 번아웃과 어려움은 많은 교사들이 경험하는 것이고, 특히 최근 교육 환경의 변화로 더 많은 선생님들이 힘들어하고 계세요.",
+      "turn": 28,
+      "technique": [
+        "normalization"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "정말요? 저만 이런 게 아니구나... 그래도 어떻게 벗어날 수 있을까요?",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "우선 선생님께서 지금 많이 지쳐 계신 상태예요. 먼저 자신을 돌보는 것이 필요해요. 최근에 선생님 자신을 위해 무언가 해주신 적이 있나요?",
+      "turn": 30,
+      "technique": [
+        "self-care exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아... 없는 것 같아요. 퇴근하면 그냥 집에서 쉬다가 자고, 주말에도 그냥 집에만 있었어요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "충분히 쉬지 못하고 계신 것 같네요. 예전에 선생님께서 즐겨하시던 활동이나 취미가 있으셨나요?",
+      "turn": 32,
+      "technique": [
+        "resource exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "예전에는 요가도 하고, 친구들도 자주 만났는데... 요즘은 그럴 에너지가 없어요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "에너지가 없다고 느끼시는 것은 당연해요. 하지만 역설적으로 그런 활동들이 에너지를 회복하는 데 도움이 될 수 있어요. 작은 것부터 시작해보는 건 어떨까요? 예를 들어 일주일에 한 번, 30분 정도 산책을 한다든지요.",
+      "turn": 34,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그 정도는 할 수 있을 것 같아요. 그런데 학교 문제는 어떻게 해야 할까요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "turn": 36,
+      "technique": [
+        "problem-solving"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "같은 학년 부장 선생님이 좋으신 분이긴 한데... 제가 먼저 다가가기가 어렵더라고요.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "다가가는 것이 어렵게 느껴지시는군요. 완벽하게 다가갈 필요는 없어요. 점심 한 끼 같이 하자고 제안하는 것부터 시작해볼 수 있지 않을까요?",
+      "turn": 38,
+      "technique": [
+        "behavioral activation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그 정도는... 해볼 수 있을 것 같아요. 그리고 수업은요? 아이들이 계속 이렇게 나오면 어떻게 해야 할까요?",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "수업에 대해서는, 지금 선생님이 너무 방어적인 상태라 아이들과의 자연스러운 소통이 막혀있는 상황이에요. 작은 시도로, 한 수업에서 5분 정도 아이들과 가볍게 대화하는 시간을 가져보는 건 어떨까요? 교과 내용이 아니라 그냥 일상적인 이야기요.",
+      "turn": 40,
+      "technique": [
+        "behavioral experiment"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그게... 가능할까요? 아이들이 반응할까요?",
+      "turn": 41
+    },
+    {
+      "speaker": "counselor",
+      "text": "결과를 미리 걱정하시는 것보다, 작은 시도를 실험처럼 해보시는 거예요. 잘 되면 좋은 거고, 반응이 없어도 괜찮아요. 중요한 건 선생님이 다시 시도해보신다는 것 자체예요.",
+      "turn": 42,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 한번 해볼게요. 그런데 제가 계속 이렇게 상담을 받아야 할까요?",
+      "turn": 43
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 선생님의 상태를 보면, 지속적인 상담이 도움이 될 것 같아요. 번아웃에서 회복하는 것은 시간이 필요한 과정이거든요. 정기적으로 만나면서 선생님의 변화를 함께 점검하고, 어려움이 생길 때 대처 방법을 함께 찾아가면 좋을 것 같아요.",
+      "turn": 44,
+      "technique": [
+        "treatment planning"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "알겠습니다. 오늘 이야기하면서 좀 후련한 것 같아요. 제가 혼자만 이런 게 아니라는 것도 알게 됐고요.",
+      "turn": 45
+    },
+    {
+      "speaker": "counselor",
+      "text": "오늘 용기 내어 솔직하게 이야기해 주셔서 감사해요. 다음 주까지 작은 과제가 있다면, 일주일에 한 번 산책하기, 그리고 동료 선생님께 점심 제안해보기예요. 부담 갖지 마시고, 할 수 있는 만큼만 해보세요.",
+      "turn": 46,
+      "technique": [
+        "homework assignment"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 해볼게요. 다음 주에 또 뵐게요. 감사합니다.",
+      "turn": 47
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 다음 주에 뵙겠습니다. 힘든 순간이 오면 오늘 우리가 나눈 이야기를 떠올려 보세요. 선생님은 혼자가 아니에요.",
+      "turn": 48,
+      "technique": [
+        "support"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "summarization"
-      ]
-    },
-    {
-      "turn": 28,
-      "speaker": "client",
-      "text": "임원님을 바꿀 순 없지만, 제 대응 방식은 바꿀 수 있다는 것. 그리고 선제적으로 보고하면 불필요한 확인을 줄일 수 있다는 거요."
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "핵심을 잘 정리하셨네요. 다음 주에 어떻게 진행되었는지 이야기 나눠봐요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 29,
-      "speaker": "client",
-      "text": "네, 감사합니다. 막막했는데 방법이 보이네요."
-    },
-    {
-      "turn": 29,
-      "speaker": "counselor",
-      "text": "8년 경력의 전문가로서 본인의 가치를 잊지 마세요. 임원님의 스타일이 본인의 역량을 결정하는 건 아니에요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 30,
-      "speaker": "client",
-      "text": "명심하겠습니다. 다음 주에 뵙겠습니다."
-    },
-    {
-      "turn": 30,
-      "speaker": "counselor",
-      "text": "전략적이고 현명하게 대처하시길 바라요. 다음 주에 뵙겠습니다.",
-      "technique": [
-        "encouragement",
-        "validation"
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "40세",
-    "gender": "남성",
-    "occupation": "관리직",
-    "background": "성인이 되어서도 부모님과의 관계가 어려운 상황"
-  }
+  ]
 }

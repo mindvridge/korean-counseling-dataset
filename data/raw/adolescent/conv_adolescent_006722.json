@@ -1,37 +1,27 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "형제 갈등",
+    "topic": "수면 문제",
     "total_turns": 30,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "closed_question",
-      "clarification",
-      "confrontation",
-      "information_giving",
-      "encouragement"
-    ]
+    "generated_at": "2025-12-18T07:14:25.123599+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_정체성_0006_자존감저하",
-    "category": "adolescent",
-    "topic": "형제 갈등"
+  "client_profile": {
+    "age": "17세",
+    "gender": "남성",
+    "occupation": "고등학교 2학년",
+    "background": "수면 문제 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.238862+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님... 저는 정말 잘하는 게 하나도 없는 것 같아요. 뭘 해도 다른 애들보다 못해요."
+      "text": "공부가 안 돼요. 집중이 안 되고..."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "자신이 무엇을 해도 부족하다고 느끼시는군요. 많이 힘드시겠어요. 구체적으로 어떤 일들이 있었나요?",
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
@@ -39,14 +29,13 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "공부도 중간 정도고, 운동도 못하고, 미술도 음악도 평범해요. 친구들은 다 하나씩은 잘하는 게 있는데 저는..."
+      "text": "요즘 대학 입시 준비하면서요... 다들 '좋은 대학 가야 한다', '안정적인 직업 가져야 한다' 하는데, 그게 정말 중요한 건지 의문이 들어요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "다른 친구들과 비교하면서 자신은 특별한 게 없다고 생각하시는군요. '중간 정도', '평범하다'는 표현을 쓰셨는데, 그게 왜 나쁜 건가요?",
+      "text": "사회가 정해놓은 성공의 기준에 의문을 가지고 계시는군요. 그럼 당신 생각에 진짜 중요한 건 뭘까요?",
       "technique": [
-        "empathy",
         "reflection",
         "open_question"
       ]
@@ -54,12 +43,12 @@
     {
       "turn": 3,
       "speaker": "client",
-      "text": "평범하면... 아무도 저를 안 봐요. 특별한 애들만 주목받고 칭찬받잖아요."
+      "text": "잘 모르겠어요... 그게 문제예요. 제가 뭘 원하는지, 뭐가 중요한지 모르겠어요. 그냥... 의미없이 흘러가는 것 같아요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "주목받지 못하는 게 자신의 가치를 떨어뜨린다고 느끼시는군요. 혹시 최근에 특별히 상처받은 일이 있었나요?",
+      "text": "자신이 원하는 게 무엇인지 모르는 상태가 불안하고 답답하시군요. 혹시 부모님이나 주변 사람들이 당신에게 기대하는 게 있나요?",
       "technique": [
         "empathy",
         "reflection",
@@ -69,222 +58,223 @@
     {
       "turn": 4,
       "speaker": "client",
-      "text": "지난주에 발표 대회 나갔는데... 상도 못 받고 완전 망쳤어요. 준비 엄청 했는데... 다른 애들은 다 잘하더라고요."
+      "text": "부모님은... '의대나 명문대 가라', '전문직 되라' 이러세요. 근데 저는 그게 제가 원하는 건지 모르겠어요. 부모님이 원하는 건지, 제가 원하는 건지..."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "열심히 준비했는데 원하는 결과를 얻지 못해서 실망하셨군요. 그런데 '완전 망쳤다'는 건 누가 한 말인가요? 당신이 스스로 판단한 건가요?",
+      "text": "부모님의 기대와 자신의 욕구를 구분하지 못하고 계시는군요. 그럼 만약 부모님의 기대가 없다면, 당신은 뭘 하고 싶으세요?",
       "technique": [
-        "empathy",
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "음... 저는 사람들을 돕는 일을 하고 싶은 것 같아요. 비영리단체나 사회복지 쪽? 근데 부모님은 '그런 걸로 먹고 살 수 있냐'고 하세요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "사람을 돕는 일에 관심이 있지만 현실적인 문제 때문에 망설이시는군요. 돈과 의미, 두 가지 사이에서 갈등하는 거죠?",
+      "technique": [
+        "reflection",
         "clarification"
       ]
     },
     {
-      "turn": 5,
-      "speaker": "client",
-      "text": "선생님이 '수고했어'라고만 하셨어요. 칭찬은 안 하셨고... 그리고 제 친구가 '괜찮아, 다음에 잘하면 돼'라고 했는데 그게 위로처럼 안 들렸어요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "긍정적인 말들도 '잘 못했다'는 증거로 받아들이셨군요. 혹시 항상 이렇게 자신을 부정적으로 평가하시나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
       "turn": 6,
       "speaker": "client",
-      "text": "네... 뭘 해도 '난 잘 못했어', '다른 사람이 더 잘했어' 이런 생각만 들어요."
+      "text": "네... 맞아요. 돈을 벌어야 하는데, 의미도 중요한 것 같고... 둘 다 가질 수는 없는 건가요?"
     },
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "자동적으로 부정적인 생각이 드는 패턴이 있군요. 그럼 반대로, 최근에 잘했다고 생각한 일이 있나요?",
+      "text": "꼭 둘 중 하나를 선택해야 하는 건 아니에요. 의미있는 일을 하면서 경제적으로도 안정될 수 있는 방법이 있을 수 있어요. 어떤 방법이 있을지 함께 생각해볼까요?",
       "technique": [
-        "reflection",
+        "information_giving",
+        "encouragement",
         "open_question"
       ]
     },
     {
       "turn": 7,
       "speaker": "client",
-      "text": "음... 잘 모르겠어요. 있을 것 같은데 떠오르지 않아요."
+      "text": "그런 게 있을까요? 사회복지사는 월급이 적다고 들었는데..."
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "부정적인 기억은 잘 떠오르는데 긍정적인 기억은 잊어버리는 거군요. 이번 주에 친구나 선생님께 칭찬받은 적 있나요?",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "친구가... '네가 설명해줘서 이해했어, 고마워'라고 했어요. 근데 그건 잘한 게 아니라 그냥..."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "친구를 도와준 건 잘한 일인데도 '그냥'이라고 평가절하하시는군요. 왜 당신의 강점을 인정하지 않으시나요?",
-      "technique": [
-        "confrontation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "그게... 대단한 일이 아니잖아요. 누구나 할 수 있는 거고..."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "'누구나 할 수 있다'는 기준이 너무 높으신 것 같아요. 친구가 당신에게 고마워한 건 당신만의 특별한 능력을 인정한 거예요. 설명을 잘하는 능력이요.",
-      "technique": [
-        "confrontation",
+        "empathy",
         "information_giving"
       ]
     },
     {
+      "turn": 8,
+      "speaker": "client",
+      "text": "의사요? 근데 의사는 돈 때문에 하는 거 아닌가요?"
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "의사가 되는 동기는 사람마다 달라요. 돈 때문인 사람도 있지만, 진심으로 사람을 치료하고 싶어서 하는 사람도 있어요. 중요한 건 당신의 동기예요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "제 동기요... 그럼 제가 왜 의대를 가려고 하는지 생각해봐야겠네요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "좋은 질문이에요. 의대에 가고 싶은 이유가 뭔가요? 부모님 때문인가요, 아니면 당신 자신의 이유가 있나요?",
+      "technique": [
+        "encouragement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 10,
       "speaker": "client",
-      "text": "설명을 잘하는 능력이요? 저한테 그런 게 있나요?"
+      "text": "솔직히... 부모님 때문이에요. 그리고 주변에서 '의대 가면 성공한 거다'라고 하니까... 근데 그게 제가 원하는 성공인지는 모르겠어요."
     },
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "친구가 증명해줬잖아요. 그리고 선생님께서 '수고했다'고 하신 것도 당신의 노력을 인정하신 거예요. 하지만 당신은 상을 못 받았다는 결과만 보고 모든 걸 부정하는 거죠.",
+      "text": "사회가 정의한 성공과 당신이 원하는 성공이 다를 수 있다는 걸 느끼시는군요. 당신에게 성공이란 뭘까요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "글쎄요... 행복하게 사는 거? 의미있는 일을 하면서 누군가에게 도움이 되는 사람이 되는 거? 잘 모르겠어요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "행복과 의미, 기여. 세 가지를 말씀하셨네요. 이미 당신만의 가치관이 있는 거예요. 이제 그걸 구체화하는 과정이 필요해요.",
+      "technique": [
+        "validation",
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "구체화요? 어떻게요?"
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "먼저 자신이 중요하게 여기는 가치를 5가지 정도 적어보세요. 돈, 명예, 가족, 자유, 성장, 기여 등등. 그리고 우선순위를 정하는 거예요.",
       "technique": [
         "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "우선순위요... 저는 가족, 기여, 성장, 자유, 돈 순서인 것 같아요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "돈이 가장 낮은 순위네요. 그럼 의대가 정말 당신한테 맞는 선택일까요?",
+      "technique": [
         "confrontation"
       ]
     },
     {
-      "turn": 11,
-      "speaker": "client",
-      "text": "그럼... 저는 어떻게 생각해야 하나요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "결과뿐만 아니라 과정도 보는 거예요. 열심히 준비한 것, 무대에 선 용기, 끝까지 해낸 것. 이 모든 게 가치있는 일이에요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "과정도 중요하다는 거예요? 근데 결과가 없으면 의미 없지 않나요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "결과도 중요하지만 과정 없이 결과는 없어요. 그리고 실패는 성장의 기회예요. 이번 경험에서 배운 게 있나요?",
-      "technique": [
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "음... 다음엔 시간 배분을 더 잘해야겠다는 생각은 했어요. 너무 긴장해서 빨리 끝냈거든요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "훌륭한 깨달음이에요. 실패에서 교훈을 얻은 거예요. 그게 성장이에요. 다음번엔 더 잘할 수 있겠죠?",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
       "turn": 14,
       "speaker": "client",
-      "text": "그렇게 생각하니까... 조금 덜 우울하네요. 그래도 여전히 저는 특별한 게 없는 것 같아요."
+      "text": "음... 그렇게 보니 아닌 것 같기도 하네요. 근데 부모님은 어떻게 설득하죠?"
     },
     {
       "turn": 14,
       "speaker": "counselor",
-      "text": "특별해지려고 애쓰는 것보다, 지금의 자신을 인정하는 게 먼저예요. 당신만의 강점을 찾아볼까요? 친구들이 당신을 좋아하는 이유는 뭘까요?",
-      "technique": [
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "제가... 말을 잘 들어준다고 했어요. 그리고 착하다고..."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "경청하는 능력과 친절함, 두 가지 훌륭한 강점이 있네요. 그런 성격적 강점은 성적이나 재능보다 더 중요할 수 있어요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "정말요? 근데 그건 능력이 아니라 성격 아닌가요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "성격도 당신을 구성하는 중요한 능력이에요. 사람들은 재능보다 성품을 더 오래 기억해요. 당신의 친절함이 누군가에게 위로가 됐을 수 있어요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "위로요... 그렇게 생각해본 적 없어요. 저는 항상 부족하다고만 생각했는데..."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "자신을 부족하게 보는 렌즈로 세상을 보셨던 거예요. 이제 그 렌즈를 바꿔볼 필요가 있어요. 있는 그대로의 자신을 보는 연습이요.",
-      "technique": [
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "어떻게 연습해요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "매일 자기 전에 오늘 잘한 일 세 가지를 적어보세요. 아무리 작은 것이라도요. '친구에게 웃어줬다', '숙제를 했다', '버스에서 자리를 양보했다' 이런 것들이요.",
+      "text": "부모님께 당신의 가치관을 솔직하게 말씀드려야 해요. 단, 감정적으로가 아니라 논리적으로, 당신이 생각한 대안과 함께요.",
       "technique": [
         "information_giving",
         "structuring"
       ]
     },
     {
+      "turn": 15,
+      "speaker": "client",
+      "text": "대안이요... 아직 명확하게 정하지 못했는데..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "지금 당장 정할 필요는 없어요. 하지만 탐색은 해봐야 해요. 사회복지, 비영리단체, 교육, 상담 등 관심 분야를 조사해보고, 가능하면 체험해보는 거예요.",
+      "technique": [
+        "validation",
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "체험이요? 어떻게요?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "봉사활동, 인턴십, 멘토 찾기 등 여러 방법이 있어요. 직접 경험해보면 그게 정말 자신에게 맞는지 알 수 있어요.",
+      "technique": [
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그렇네요... 해봐야 알겠죠. 근데 선생님, 만약 제가 선택한 길이 잘못됐으면 어떡하죠?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "방향을 바꿀 수 있다... 그런 생각은 안 해봤어요. 한 번 정하면 끝인 줄 알았는데..."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "많은 사람들이 직업을 여러 번 바꿔요. 평생 한 가지 일만 하는 시대는 지났어요. 중요한 건 지금 자신에게 의미있는 선택을 하는 거예요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 19,
       "speaker": "client",
-      "text": "그런 작은 것도 써도 되나요?"
+      "text": "지금 의미있는 선택... 그럼 저는 일단 제가 원하는 게 뭔지 더 탐색해봐야겠네요."
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "작은 것들이 모여서 당신을 만드는 거예요. 그리고 그 작은 것들도 가치있어요. 누군가에게는 큰 의미일 수 있거든요.",
+      "text": "맞아요. 자기 탐색이 먼저예요. 자신이 누구인지, 뭘 원하는지 알아야 올바른 선택을 할 수 있어요.",
       "technique": [
         "validation",
         "information_giving"
@@ -293,40 +283,40 @@
     {
       "turn": 20,
       "speaker": "client",
-      "text": "해볼게요... 근데 또 실패하면 어떡하죠? 그럼 또 자신감 없어질 것 같아요."
+      "text": "근데 선생님... 제 친구들은 다 확신에 차 있는 것 같아요. 저만 헤매는 것 같아서 불안해요."
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "실패는 누구에게나 일어나요. 중요한 건 실패했을 때 어떻게 반응하느냐예요. '나는 실패했다'가 아니라 '이번 시도는 실패했다'로 생각하는 거죠.",
+      "text": "겉으로는 확신에 차 보여도 속으로는 비슷한 고민을 하는 친구들이 많을 거예요. 그리고 지금 고민하는 게 나중에 후회 없는 선택을 하는 데 도움이 돼요.",
       "technique": [
-        "information_giving",
-        "structuring"
+        "validation",
+        "information_giving"
       ]
     },
     {
       "turn": 21,
       "speaker": "client",
-      "text": "차이가... 있나요?"
+      "text": "그렇겠죠... 지금 고민하는 게 나쁜 건 아니라는 거죠?"
     },
     {
       "turn": 21,
       "speaker": "counselor",
-      "text": "큰 차이가 있어요. 전자는 당신 자체를 실패로 규정하는 거고, 후자는 한 번의 시도를 실패로 보는 거예요. 당신은 실패가 아니에요. 단지 시행착오를 겪고 있는 거죠.",
+      "text": "전혀요. 오히려 건강한 거예요. 무비판적으로 남들 따라가는 것보다 자신만의 길을 찾으려는 게 더 성숙한 태도예요.",
       "technique": [
-        "information_giving",
-        "validation"
+        "validation",
+        "encouragement"
       ]
     },
     {
       "turn": 22,
       "speaker": "client",
-      "text": "그렇게 생각하니까... 덜 무섭네요. 실패해도 괜찮다는 거죠?"
+      "text": "감사합니다... 그렇게 말씀해주시니까 조금 위안이 돼요."
     },
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "괜찮아요. 실패는 성장의 일부예요. 실패 없이는 배울 수 없어요. 중요한 건 포기하지 않는 거예요.",
+      "text": "당신의 고민은 철학적이고 깊이있어요. 18살에 이런 질문을 한다는 게 대단해요. 많은 사람들이 평생 이런 질문을 안 하거든요.",
       "technique": [
         "validation",
         "encouragement"
@@ -335,122 +325,115 @@
     {
       "turn": 23,
       "speaker": "client",
-      "text": "포기하지 않기... 어려운 것 같아요. 저는 금방 포기하는 성격이거든요."
+      "text": "정말요? 그럼 저는 잘하고 있는 건가요?"
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "그건 바꿀 수 있어요. 작은 목표부터 시작하세요. 달성 가능한 목표를 세우고, 이뤘을 때 자신을 칭찬하는 거예요.",
+      "text": "잘하고 있어요. 방황하는 것도 성장의 과정이에요. 소크라테스도 '너 자신을 알라'고 했잖아요. 지금 당신이 하고 있는 게 바로 그거예요.",
       "technique": [
         "encouragement",
-        "information_giving",
-        "structuring"
+        "validation",
+        "information_giving"
       ]
     },
     {
       "turn": 24,
       "speaker": "client",
-      "text": "작은 목표요... 예를 들면요?"
+      "text": "너 자신을 알라... 좋은 말이네요. 그럼 일단 제가 할 일은 자기 탐색이네요."
     },
     {
       "turn": 24,
       "speaker": "counselor",
-      "text": "'이번 주에 매일 잘한 일 3가지 쓰기', '친구에게 먼저 인사하기', '하루에 한 번 자신에게 긍정적인 말하기' 이런 거예요.",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
+        "validation",
         "information_giving",
-        "structuring"
+        "encouragement"
       ]
     },
     {
       "turn": 25,
       "speaker": "client",
-      "text": "할 수 있을 것 같아요. 오늘부터 시작해볼게요."
+      "text": "책 추천해주실 수 있으세요? 이런 고민에 도움 되는..."
     },
     {
       "turn": 25,
       "speaker": "counselor",
-      "text": "좋아요. 그리고 자신에게 너무 가혹하지 마세요. 당신의 가장 친한 친구에게 하듯이 자신에게도 친절하게 대하세요.",
+      "text": "물론이에요. 빅터 프랭클의 '죽음의 수용소에서', 알랭 드 보통의 '불안', '하버드 행복 수업' 같은 책들이 도움이 될 거예요. 다음에 목록 드릴게요.",
       "technique": [
-        "encouragement",
         "information_giving"
       ]
     },
     {
       "turn": 26,
       "speaker": "client",
-      "text": "제 자신을... 친구처럼요?"
+      "text": "감사합니다. 읽어볼게요. 그리고... 부모님과는 언제 얘기하는 게 좋을까요?"
     },
     {
       "turn": 26,
       "speaker": "counselor",
-      "text": "네. 친구가 실패했을 때 당신은 뭐라고 하나요? '넌 못났어'라고 하나요, 아니면 '괜찮아, 다음번엔 잘할 거야'라고 하나요?",
+      "text": "조금 더 자신의 생각이 정리된 후가 좋을 것 같아요. 대안을 어느 정도 생각한 후에 대화하면 부모님도 더 진지하게 들어주실 거예요.",
       "technique": [
         "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "당연히 위로해주죠... 아, 저는 왜 제 자신한테는 그렇게 못하는 거죠?"
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "자기 자신에게 가장 가혹한 경우가 많아요. 하지만 이제부터는 자신에게도 친구처럼 대해주세요. 자기 연민이 아니라 자기 연민이에요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 28,
-      "speaker": "client",
-      "text": "자기 연민... 연습해볼게요. 오늘 상담 받고 많이 배운 것 같아요."
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "잘하셨어요. 자존감을 키우는 건 시간이 걸려요. 하지만 꾸준히 노력하면 분명히 달라질 거예요. 다음 주에 일기 가져오면 함께 봐요.",
-      "technique": [
-        "encouragement",
-        "validation",
         "structuring"
       ]
     },
     {
+      "turn": 27,
+      "speaker": "client",
+      "text": "알겠습니다. 한 달 정도 탐색하고 생각 정리한 다음에 말씀드려볼게요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "좋은 계획이에요. 그리고 탐색하면서 새로운 고민이 생기면 언제든 오세요. 함께 이야기 나눠요.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "네, 감사합니다. 오늘 상담 받고 조금 방향이 보이는 것 같아요."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "다행이에요. 완벽한 답은 없지만, 자신에게 맞는 답은 있어요. 그걸 찾아가는 과정을 즐기세요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 29,
       "speaker": "client",
-      "text": "네, 일기 쓸게요. 감사합니다, 선생님."
+      "text": "네, 즐기면서 찾아볼게요. 다음 주에 또 올게요."
     },
     {
       "turn": 29,
       "speaker": "counselor",
-      "text": "천천히 가요. 당신은 이미 충분히 가치있는 사람이에요. 그걸 깨닫는 건 시간문제예요.",
+      "text": "기대할게요. 어떤 발견을 하셨는지 나눠봐요. 응원할게요.",
       "technique": [
         "encouragement",
-        "validation"
+        "structuring"
       ]
     },
     {
       "turn": 30,
       "speaker": "client",
-      "text": "네, 믿어볼게요. 다음 주에 뵙겠습니다."
+      "text": "감사합니다, 선생님!"
     },
     {
       "turn": 30,
       "speaker": "counselor",
-      "text": "응원할게요. 당신은 잘하고 있어요.",
+      "text": "당신의 여정을 응원해요. 잘할 거예요.",
       "technique": [
         "encouragement",
         "validation"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "14세",
-    "gender": "여성",
-    "occupation": "중학교 2학년",
-    "background": "형제자매와의 비교로 인한 스트레스"
-  }
+  ]
 }

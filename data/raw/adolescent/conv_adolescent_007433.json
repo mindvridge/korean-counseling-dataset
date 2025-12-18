@@ -1,463 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "대학 진학",
-    "total_turns": 30,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "closed_question",
-      "summarization",
-      "clarification",
-      "validation",
-      "emotion_labeling"
-    ]
+    "topic": "친구 관계 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:25.855746+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0027_학교폭력피해",
-    "category": "adolescent",
-    "topic": "대학 진학"
+  "client_profile": {
+    "age": "15세",
+    "gender": "여성",
+    "occupation": "중학교 3학년",
+    "background": "친구 관계 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.053444+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "선생님... 학교 가기가 너무 무서워요. 매일 아침 배가 아프고 토할 것 같아요."
+      "text": "친구가 없어요. 혼자예요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "학교에 가는 것 자체가 공포스러운 상황이시군요. 신체적인 증상까지 나타나고 있네요. 무슨 일이 있었는지 천천히 말씀해주시겠어요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 친구가 없어요. 혼자예요....라고 하셨는데, 어떤 일이 있었나요?",
+      "turn": 2,
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 2,
       "speaker": "client",
-      "text": "저희 반 애들이... 특히 준호랑 그 친구들이 저를 계속 괴롭혀요. 처음엔 별명으로 놀리기 시작했는데 이제는..."
+      "text": "음... 사실 친구 관계 때문에 고민이 있어서요. 요즘 학교 가기가 너무 싫어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "처음엔 별명으로 시작했는데 점점 심해졌다는 거죠? 지금은 어떤 일들이 일어나고 있나요?",
+      "text": "학교 가는 게 힘들 정도로 친구 관계에서 어려움을 겪고 있군요. 어떤 일이 있었는지 천천히 이야기해줄 수 있을까요?",
+      "turn": 4,
       "technique": [
-        "reflection",
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "제가 친하게 지내던 친구들이 있거든요. 근데 얼마 전에 인스타그램을 보니까 애들이 저 빼고 다 같이 놀러 간 사진이 올라와 있더라고요.",
+      "turn": 5
+    },
+    {
+      "speaker": "counselor",
+      "text": "친한 친구들이 자신만 빼고 함께 있는 모습을 소셜미디어에서 보게 됐군요. 그 순간 어떤 기분이 들었나요?",
+      "turn": 6,
+      "technique": [
+        "emotion_exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "처음엔 그냥 '어? 애들이 만났네' 했는데요. 자꾸 생각하니까 왜 나한테는 말 안 했을까, 나만 싫은 건가 이런 생각이 들어서... 진짜 속상하고 화도 나고 그랬어요.",
+      "turn": 7
+    },
+    {
+      "speaker": "counselor",
+      "text": "처음엔 담담하게 받아들이려 했지만, 시간이 지날수록 '왜 나만 빼고?'라는 생각에 속상하고 화가 났던 거네요. 그런 감정을 느끼는 게 당연해요.",
+      "turn": 8,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 근데 제가 너무 예민한 건가 싶기도 하고. 친구들이 매번 다 같이 놀 필요는 없잖아요.",
+      "turn": 9
+    },
+    {
+      "speaker": "counselor",
+      "text": "한편으로는 상처받은 마음이 있지만, 다른 한편으로는 '내가 과민반응하는 건 아닐까' 하는 생각도 드는군요. 자신의 감정을 의심하게 되는 것 같아요.",
+      "turn": 10,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 그래서 더 혼란스러워요. 친구들한테 말해야 할지, 그냥 넘어가야 할지도 모르겠고...",
+      "turn": 11
+    },
+    {
+      "speaker": "counselor",
+      "text": "이 상황을 어떻게 대처해야 할지 갈피를 잡기 어려운 상태네요. 혹시 그 이후로 친구들과는 어떻게 지내고 있나요?",
+      "turn": 12,
+      "technique": [
         "open_question"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "제 물건을 숨기거나 던지고, '돼지', '찐따' 이런 말로 부르고... 복도에서 일부러 어깨로 치고 지나가요. 단톡방에서도 저를 욕하는 걸 캡처해서 친구가 보여줬어요."
+      "text": "학교에서는 그냥 평소처럼 대화하고 그래요. 근데 제가 자꾸 신경 쓰이니까... 좀 어색하게 대하게 되는 것 같아요. 친구들은 아무렇지 않은데 저만 이상한 것 같고.",
+      "turn": 13
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "신체적 접촉과 물건 손상, 언어폭력, 사이버 폭력까지 여러 형태의 괴롭힘을 당하고 계시는군요. 이런 일이 얼마나 오래 지속됐나요?",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 14,
       "technique": [
-        "summarization",
         "clarification"
       ]
     },
     {
-      "turn": 4,
       "speaker": "client",
-      "text": "한... 4개월 정도 됐어요. 처음엔 그냥 장난인 줄 알고 넘겼는데 점점 심해져서..."
+      "text": "네, 애들은 평소랑 똑같아요. 그래서 더 '내가 이상한 건가?' 싶어요. 근데 또 가끔 제가 없을 때 뭔가 얘기하다가 제가 오면 화제를 바꾸는 것 같기도 하고...",
+      "turn": 15
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "4개월이나 이런 상황을 혼자 견뎌오셨군요. 정말 힘드셨겠어요. 누군가에게 도움을 요청해본 적은 있나요?",
+      "text": "친구들의 평범한 태도가 오히려 더 혼란스럽게 만들고, 동시에 미묘한 변화들이 느껴져서 불안한 마음이 드는 것 같네요.",
+      "turn": 16,
       "technique": [
-        "validation",
-        "empathy",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "담임선생님한테 한 번 말씀드렸는데... '남학생들끼리 그럴 수 있다', '네가 너무 예민한 거 아니냐'고 하셨어요. 그래서 그냥 참았어요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "도움을 요청했는데 오히려 당신의 문제로 치부됐군요. 그럴 때 기분이 어떠셨나요?",
-      "technique": [
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "정말 억울하고... 절망적이었어요. 어른들도 안 믿어주는구나, 아무도 날 도와주지 않는구나 싶었어요. 그 후로는 아무한테도 말 안 했어요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "신뢰했던 어른에게 거절당한 경험이 더 큰 상처가 됐네요. 그럼 부모님께는 말씀드렸나요?",
-      "technique": [
-        "empathy",
-        "interpretation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "아니요... 부모님이 아시면 학교에 찾아오실 것 같아서요. 그럼 애들이 더 심하게 괴롭힐 것 같아요. '엄마한테 일러바쳤다'고..."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "보복이 두려워서 부모님께도 말씀 못 드리는 상황이군요. 정말 고립되고 무력한 느낌이 드셨겠어요.",
-      "technique": [
-        "reflection",
         "empathy"
       ]
     },
     {
-      "turn": 8,
       "speaker": "client",
-      "text": "네... 매일 혼자서 어떡하나 고민만 하고... 요즘은 잠도 잘 못 자요. 꿈에서도 애들이 저를 괴롭혀요."
+      "text": "맞아요... 제가 너무 예민하게 반응하는 건지, 아니면 정말 친구들이 저를 피하는 건지 모르겠어요. 밤에 자려고 누우면 계속 이 생각만 나요.",
+      "turn": 17
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "불면증과 악몽까지 시달리고 계시는군요. 이건 매우 심각한 상황이에요. 혹시 학교에 가지 않고 싶다는 생각을 한 적이 있나요?",
+      "text": "이 상황이 밤에도 계속 떠올라서 잠들기 힘들 정도로 마음을 많이 괴롭히고 있네요. 혹시 이런 일이 처음 있는 건가요, 아니면 전에도 비슷한 경험이 있었나요?",
+      "turn": 18,
       "technique": [
-        "emotion_labeling",
-        "information_giving",
-        "closed_question"
+        "assessment"
       ]
     },
     {
-      "turn": 9,
       "speaker": "client",
-      "text": "매일요... 아예 학교를 그만두고 싶어요. 그런데 그것도 도망치는 것 같고... 부모님도 실망하실 것 같고..."
+      "text": "중학교 때도 비슷한 적이 있었어요. 그때도 친구들이 저 빼고 놀았던 적이 있는데... 그때는 나중에 알고 보니 제 생일 서프라이즈를 준비하는 거였거든요. 근데 이번엔 그런 것도 아니고...",
+      "turn": 19
     },
     {
-      "turn": 9,
       "speaker": "counselor",
-      "text": "학교를 그만두고 싶지만 그것도 쉽지 않은 선택이라 느끼시는군요. 민수씨, 지금 이 상황은 당신이 참거나 견뎌야 할 일이 아니에요. 학교폭력은 명백한 범죄행위입니다.",
+      "text": "중학교 때의 경험이 있어서, 혹시 이번에도 특별한 이유가 있을까 기대했지만 그런 것 같지 않아 더 실망스러운 거네요.",
+      "turn": 20,
       "technique": [
-        "reflection",
-        "information_giving",
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 사실 제가 요즘 좀 바빴거든요. 학원도 많이 다니고 주말에도 공부하느라 애들이 놀자고 할 때 몇 번 거절했어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "아, 그렇군요. 최근에 바쁜 일정 때문에 친구들의 제안을 여러 번 거절했었네요. 그 부분과 지금 상황이 연결될 수도 있을 것 같은데, 어떻게 생각하나요?",
+      "turn": 22,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "어... 그러고 보니 그럴 수도 있겠네요. 근데 그렇다고 해도 아예 말도 안 하고 만나는 건 좀 섭섭하지 않나요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 24,
+      "technique": [
         "validation"
       ]
     },
     {
-      "turn": 10,
       "speaker": "client",
-      "text": "범죄라고요? 근데 담임선생님은 그냥 남학생들끼리 장난이라고..."
+      "text": "아니요... 말하면 제가 너무 집착하는 것처럼 보일까봐 무섭고, 또 친구들이 '뭐 그런 걸 가지고 그래?' 이럴까봐요.",
+      "turn": 25
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "담임선생님의 반응은 잘못된 거예요. 당신이 말씀하신 행위들 - 물건 손괴, 신체적 접촉, 언어폭력, 사이버폭력 - 이 모든 것이 학교폭력예방법에 명시된 폭력 행위입니다. 더 이상 혼자 감당하지 마세요.",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "turn": 26,
       "technique": [
-        "information_giving",
-        "validation",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그런데 계속 이렇게 있는 것도 힘들어요. 어떻게 해야 할까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화를 원하는 마음이 있군요. 좋아요. 만약 친구들에게 마음을 표현한다면, 어떤 방식이 가장 편할 것 같나요? 직접 말하기, 메시지로 전하기, 아니면 다른 방법이 있을까요?",
+      "turn": 28,
+      "technique": [
+        "solution_focused"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 직접 말하는 건 너무 떨리고, 메시지가 나을 것 같아요. 근데 뭐라고 말해야 할지 모르겠어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "메시지로 전하는 게 좀 더 편할 것 같다는 거네요. 그럼 우리 함께 어떤 내용을 담으면 좋을지 생각해볼까요? 친구들에게 가장 전하고 싶은 핵심 메시지는 뭔가요?",
+      "turn": 30,
+      "technique": [
+        "collaborative_approach"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "제가 섭섭했다는 것? 그리고 앞으로는 같이 못 놀더라도 얘기는 해줬으면 좋겠다는 거요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "아주 명확하네요. 자신의 감정을 솔직하게 표현하면서도, 친구들을 비난하지 않고 앞으로를 위한 바람을 전하는 거예요. 이런 방식의 대화를 '나-전달법'이라고 하는데, 상대방이 받아들이기 훨씬 쉬운 방법이에요.",
+      "turn": 32,
+      "technique": [
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "나-전달법이요? 그게 뭐예요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "'너는 왜 그랬어?'처럼 상대를 비난하는 대신, '나는 이런 상황에서 이렇게 느꼈어'라고 자신의 감정을 중심으로 표현하는 방법이에요. 예를 들어 '너희가 나만 빼고 만났잖아' 대신 '내가 빠진 걸 나중에 알게 돼서 섭섭했어'라고 말하는 거죠.",
+      "turn": 34,
+      "technique": [
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아, 그렇게 말하면 덜 공격적으로 들리겠네요. 그런데 친구들이 이해해줄까요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구들의 반응을 완전히 예측할 수는 없지만, 솔직하고 진심 어린 마음은 전달될 거예요. 그리고 중요한 건, 이 과정을 통해 스스로 자신의 감정을 존중하고 표현할 수 있다는 것을 배우는 거예요. 결과와 상관없이 그 자체로 의미가 있어요.",
+      "turn": 36,
+      "technique": [
         "encouragement"
       ]
     },
     {
-      "turn": 11,
       "speaker": "client",
-      "text": "그럼... 어떻게 해야 하나요? 저는 뭘 할 수 있을까요?"
+      "text": "네... 한번 용기 내서 말해볼게요. 그래도 좀 떨리긴 하지만, 계속 이렇게 혼자 끙끙 앓는 것보단 나을 것 같아요.",
+      "turn": 37
     },
     {
-      "turn": 11,
       "speaker": "counselor",
-      "text": "몇 가지 방법이 있어요. 첫째, 학교의 학교폭력 전담기구나 학생부에 공식적으로 신고할 수 있어요. 둘째, 교육청의 학교폭력 신고센터(117)에 직접 신고할 수 있고요. 셋째, 증거를 모아서 경찰에 신고할 수도 있어요. 어떤 방법이 좋을지 같이 생각해볼까요?",
+      "text": "대단해요. 두려움이 있지만 그럼에도 시도해보겠다는 결심을 한 거잖아요. 이번 주에 실천해보고 다음에 만났을 때 어땠는지 이야기 나눠볼까요?",
+      "turn": 38,
       "technique": [
-        "information_giving",
-        "structuring",
-        "goal_setting"
+        "reinforcement"
       ]
     },
     {
-      "turn": 12,
       "speaker": "client",
-      "text": "증거요? 제가 무슨 증거를 모으죠?"
+      "text": "네, 그럴게요. 선생님, 그런데 만약에 친구들이 별로 신경 안 쓰거나 그러면 어떡하죠?",
+      "turn": 39
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "단톡방 캡처는 이미 가지고 계시죠? 그 외에도 상처가 생겼다면 사진, 목격자 진술, 일기나 기록 등이 모두 증거가 될 수 있어요. 지금부터라도 날짜와 시간, 구체적인 행위를 메모해두세요.",
+      "text": "그런 걱정이 드는 것도 당연해요. 만약 그런 반응이 나온다면, 그때는 이 우정이 나에게 어떤 의미인지, 그리고 내가 관계에서 원하는 게 무엇인지 다시 생각해볼 기회가 될 수 있어요. 어떤 결과가 나오든, 우리가 함께 살펴볼 수 있어요.",
+      "turn": 40,
       "technique": [
-        "information_giving",
-        "structuring"
+        "support"
       ]
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "단톡방 캡처는 친구가 보내준 걸 저장해뒀어요. 그리고... 제 팔에 멍든 거 사진도 찍어뒀어요."
+      "text": "네, 알겠어요. 오늘 상담하고 나니까 좀 마음이 정리되는 것 같아요. 감사합니다.",
+      "turn": 41
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "잘하셨어요. 그런 증거들이 매우 중요해요. 혹시 이 상황을 목격한 친구들이나 도와줄 수 있는 친구가 있나요?",
+      "text": "스스로 많은 것을 정리했어요. 힘든 마음을 나누러 와줘서 고마워요. 다음 주에 어떻게 됐는지 함께 이야기 나눠요. 응원할게요.",
+      "turn": 42,
       "technique": [
-        "encouragement",
-        "validation",
-        "open_question"
+        "encouragement"
       ]
     },
     {
-      "turn": 14,
       "speaker": "client",
-      "text": "제 친구 지훈이가... 가끔 걱정해줘요. 그런데 지훈이도 준호가 무서워서 직접적으로는 못 도와줘요. 그냥 나중에 위로해주는 정도..."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 14,
       "speaker": "counselor",
-      "text": "지훈이가 당신을 걱정하고 있군요. 비록 적극적으로 개입하진 못하지만 당신 편인 친구가 있다는 건 중요해요. 지훈이에게 상황을 자세히 말하고 도움을 요청해본 적 있나요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "validation",
-        "closed_question"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "아니요... 지훈이까지 피해 볼까봐 걱정돼서요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "친구를 걱정하는 마음은 이해해요. 하지만 지금은 당신의 안전이 가장 중요해요. 지훈이에게 목격한 사실을 진술해줄 수 있는지 물어보는 건 어떨까요? 공식적인 신고 절차에서 목격자 진술은 큰 힘이 돼요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "empathy",
-        "information_giving",
-        "structuring"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 16,
       "speaker": "client",
-      "text": "신고하면... 정말 도움이 될까요? 오히려 더 괴롭힘당하는 거 아닐까요?"
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 16,
       "speaker": "counselor",
-      "text": "그 두려움이 충분히 이해돼요. 하지만 신고 후에는 학교에서 가해 학생과 피해 학생을 분리 조치해야 할 의무가 있어요. 그리고 보복 행위는 더 무거운 처벌을 받아요. 당신을 보호하는 시스템이 작동하게 되는 거예요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "validation",
-        "information_giving"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "분리 조치요? 그게 뭐예요?"
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "학급을 바꾸거나, 등하교 시간을 다르게 하거나, 같은 공간에 있지 않도록 하는 조치들이에요. 심각한 경우 가해 학생이 출석정지나 전학 조치를 받을 수도 있고요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "제가 반을 바꾸는 건가요? 왜 피해자인 제가 옮겨야 하죠?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "좋은 지적이에요. 원칙적으로는 가해자가 조치를 받아야 맞아요. 피해 학생이 원하지 않으면 학급을 바꿀 필요 없고, 오히려 가해 학생에게 조치가 내려져야 해요. 당신의 의견을 명확히 밝히는 게 중요해요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "저는... 준호랑 그 친구들이 처벌받았으면 좋겠어요. 제가 왜 숨어야 하는지 모르겠어요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "당신은 잘못한 게 없어요. 숨거나 도망칠 이유가 전혀 없어요. 지금 당신이 느끼는 분노는 정당하고 건강한 반응이에요. 이 분노를 행동으로 옮길 준비가 되셨나요?",
-      "technique": [
-        "validation",
-        "emotion_labeling",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "무섭지만... 이대로는 못 살 것 같아요. 신고하고 싶어요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "용기있는 결정이에요. 그럼 구체적인 계획을 세워볼까요? 먼저 부모님께 상황을 말씀드리는 게 필요해요. 혼자가 아니라 보호자와 함께 신고하는 게 더 효과적이거든요.",
-      "technique": [
-        "encouragement",
-        "goal_setting",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "부모님한테 뭐라고 말씀드려야 할지 모르겠어요. 실망하실 것 같고..."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "부모님은 실망하시지 않을 거예요. 오히려 더 빨리 말하지 못한 걸 안타까워하실 거예요. '학교에서 친구들에게 지속적으로 괴롭힘을 당하고 있고, 더 이상 혼자 감당할 수 없어서 도움이 필요하다'고 솔직하게 말씀드리세요.",
-      "technique": [
-        "validation",
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "오늘 집에 가서... 말씀드려볼게요. 근데 부모님이 바로 학교에 찾아가시면 어떡하죠?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "부모님께 신중하게 대응하는 게 중요하다고 말씀드리세요. 증거를 먼저 정리하고, 공식적인 절차를 밟는 게 효과적이라고요. 감정적으로 대응하는 것보다 체계적으로 준비하는 게 나아요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "네... 그리고 117에 신고하면 어떻게 되는 거예요?"
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "117에 신고하면 전문 상담사가 상황을 듣고, 학교에 공식 통보가 가요. 그럼 학교는 의무적으로 학교폭력대책심의위원회를 열어야 해요. 거기서 조사하고 가해 학생에 대한 조치와 피해 학생 보호 조치를 결정하게 돼요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "조사할 때... 준호랑 대면해야 하나요? 그건 정말 무서운데..."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "피해 학생이 원하지 않으면 대면하지 않아도 돼요. 서면이나 영상으로 진술할 수 있고, 조사도 따로 받을 수 있어요. 당신의 안전과 심리적 안정이 우선이에요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "그럼... 저는 대면 안 하고 싶다고 할게요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "당신의 권리예요. 명확하게 요구하세요. 그리고 필요하다면 학교 상담선생님이나 위센터의 도움도 받을 수 있어요. 심리적 치유도 중요하거든요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "심리 상담도 받을 수 있다는 거죠?"
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "네, 학교폭력 피해 학생은 무료로 심리 상담과 치료를 받을 권리가 있어요. 이런 경험은 트라우마를 남길 수 있으니까 전문가의 도움을 받는 게 중요해요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "네... 선생님, 그런데 신고 후에 학교생활은 어떻게 하죠? 다른 애들이 저를 이상하게 볼 것 같아요."
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "그 걱정도 이해해요. 하지만 지금처럼 매일 공포에 떨며 사는 것과, 정당하게 문제를 해결하고 다시 시작하는 것 중 무엇이 나을까요? 그리고 당신이 용기를 내면, 비슷한 상황의 다른 친구들에게도 희망이 될 수 있어요.",
-      "technique": [
-        "confrontation",
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 28,
-      "speaker": "client",
-      "text": "맞아요... 이대로는 못 살겠어요. 용기 내볼게요."
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "잘 결심하셨어요. 정리하면, 오늘 부모님께 말씀드리고, 증거를 정리해서, 117이나 학교에 공식 신고하는 거예요. 각 단계에서 필요한 게 있으면 언제든 연락하세요. 혼자가 아니에요.",
-      "technique": [
-        "encouragement",
-        "summarization",
-        "validation"
-      ]
-    },
-    {
-      "turn": 29,
-      "speaker": "client",
-      "text": "감사합니다, 선생님. 처음으로 희망이 생기는 것 같아요."
-    },
-    {
-      "turn": 29,
-      "speaker": "counselor",
-      "text": "당신은 충분히 강한 사람이에요. 4개월을 혼자 버텨온 게 그 증거예요. 이제 그 강함을 올바른 방향으로 쓸 때예요. 응원할게요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 30,
-      "speaker": "client",
-      "text": "네, 꼭 해결하고 다시 찾아뵙겠습니다."
-    },
-    {
-      "turn": 30,
-      "speaker": "counselor",
-      "text": "그래요. 과정 중에 힘들면 언제든 오세요. 당신은 혼자가 아니라는 걸 기억하세요.",
-      "technique": [
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "17세",
-    "gender": "남성",
-    "occupation": "고등학교 2학년",
-    "background": "원하는 대학과 현실적 가능성 사이의 갈등"
-  }
+  ]
 }

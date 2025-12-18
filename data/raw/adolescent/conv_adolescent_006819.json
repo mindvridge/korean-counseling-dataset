@@ -1,37 +1,27 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "친구 갈등",
-    "total_turns": 27,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "emotion_labeling",
-      "validation",
-      "information_giving",
-      "closed_question",
-      "interpretation"
-    ]
+    "topic": "친구 관계 갈등",
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:25.220644+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0004_친구성적질투",
-    "category": "adolescent",
-    "topic": "친구 갈등"
+  "client_profile": {
+    "age": "17세",
+    "gender": "여성",
+    "occupation": "고등학교 2학년",
+    "background": "친구 관계 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.352816+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 제가 너무 나쁜 사람인 것 같아요. 제일 친한 친구가 잘 되는 게 싫어요."
+      "text": "학교 선생님이 여기 오면 좋겠다고 하셨어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "스스로를 나쁜 사람이라고 느끼고 계시는군요. 친한 친구의 성공에 대해 복잡한 감정을 느끼는 것 같아요. 어떤 상황인지 말씀해 주시겠어요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 학교 선생님이 여기 오면 좋겠다고 하...라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
@@ -39,387 +29,352 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "제 친구 수진이는 중학교 때부터 절친이었어요. 근데 최근에 수진이 성적이 갑자기 엄청 올라서... 반에서 1등도 하고 전교 10등 안에도 들었어요."
+      "text": "이제 고3이 되는데... 제가 뭘 하고 싶은지 모르겠어요. 친구들은 다 목표가 있는 것 같은데 저만 없는 것 같아서요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "오랜 친구인 수진이의 성적이 급격하게 향상되었군요. 그 상황에서 어떤 감정들을 느끼셨나요?",
+      "text": "친구들은 다 진로가 정해진 것처럼 보이는데, 나만 방향을 못 잡은 것 같아서 불안하고 초조한 마음이 드시는군요.",
       "technique": [
+        "empathy",
         "reflection",
-        "open_question",
         "emotion_labeling"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "처음에는 축하해줬어요. 그런데 시간이 지날수록... 선생님들도 수진이만 칭찬하고, 부모님도 수진이 얘기하면서 나도 그렇게 하라고 하시고... 너무 화가 나요."
+      "text": "네... 맞아요. 부모님도 빨리 정하라고 하시는데, 저는 정말 모르겠어요. 뭘 해도 재밌는지 모르겠고, 잘하는 것도 없는 것 같고..."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "처음에는 진심으로 축하했지만, 주변의 반응들이 쌓이면서 점점 다른 감정이 생겼군요. 비교당하는 느낌이 들어서 화가 나시는 것 같아요.",
+      "text": "부모님의 기대도 있고, 시간은 흐르는데 명확한 답이 안 보여서 더 답답하시겠어요. 혹시 지금까지 관심 있었던 분야나 활동이 있었나요?",
       "technique": [
-        "reflection",
-        "emotion_labeling",
-        "empathy"
+        "validation",
+        "open_question"
       ]
     },
     {
       "turn": 4,
       "speaker": "client",
-      "text": "맞아요. 엄마가 '수진이는 어떻게 공부하냐'고 물어보는데, 제가 노력 안 하는 것처럼 말씀하셔서 너무 억울했어요. 저도 열심히 하는데..."
+      "text": "음... 책 읽는 건 좋아해요. 그리고 친구들이 고민 상담할 때 들어주는 것도 좋고요. 근데 이게 직업이 될 수 있을까요?"
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "당신도 열심히 노력하고 있는데 그게 인정받지 못한다고 느끼시는군요. 억울함과 함께 자신의 노력이 평가절하되는 것 같은 기분이 드시네요.",
+      "text": "책을 좋아하고, 친구들의 이야기를 들어주는 것을 좋아하신다고 하셨네요. 그럴 때 어떤 감정이 드세요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "음... 친구들이 고민을 털어놓고 나서 좀 나아졌다고 하면 뿌듯하고 좋아요. 근데 그냥 취미 아닌가요?"
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "다른 사람을 돕고 그들이 나아지는 모습을 볼 때 보람을 느끼시는군요. 그런 경험이 단순한 취미를 넘어 진로의 방향이 될 수도 있어요.",
       "technique": [
         "reflection",
-        "emotion_labeling",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "그럴 수도 있나요? 근데 제가 심리학과 같은 데 가기엔 성적이 애매해요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "성적 때문에 고민이시군요. 현재 성적이 어느 정도인가요?",
+      "technique": [
+        "empathy",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "전교에서 한 30~40등 정도 해요. 내신은 2등급 중후반이고요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "2등급대면 충분히 좋은 성적인데요. 혹시 심리학과만 생각하고 계신가요, 아니면 다른 관련 분야도 열려있으신가요?",
+      "technique": [
+        "encouragement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "사실 심리학과 말고는 잘 모르겠어요. 어떤 게 있나요?"
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "technique": [
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "아, 그런 게 있구나... 근데 제가 그걸 잘할 수 있을까요? 자신이 없어요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "자신감이 부족하신 것 같은데, 친구들이 계속 당신에게 상담을 청한다는 건 당신에게 그런 능력이 있다는 신호일 수 있어요. 스스로를 너무 과소평가하고 계신 건 아닐까요?",
+      "technique": [
+        "confrontation",
         "validation"
       ]
     },
     {
-      "turn": 5,
+      "turn": 10,
       "speaker": "client",
-      "text": "네... 그리고 솔직히 말하면, 수진이가 저보다 잘하는 게 기분 나빠요. 이런 생각 하는 제가 너무 나쁜 친구 같아서 죄책감도 들고..."
+      "text": "음... 친구들이 저한테 얘기하는 걸 편하게 느낀다고는 했어요. 근데 그게 전문적인 능력은 아니잖아요."
     },
     {
-      "turn": 5,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "질투심을 느끼는 동시에 그런 감정을 가진 자신에게 죄책감을 느끼고 계시는군요. 두 가지 감정 사이에서 갈등하고 계시네요.",
+      "text": "맞아요, 전문적인 능력은 교육과 훈련을 통해 개발되는 거죠. 하지만 기본적인 소질과 관심이 있다면 그게 좋은 출발점이 될 수 있어요. 지금 당장 완벽할 필요는 없어요.",
       "technique": [
-        "emotion_labeling",
-        "reflection",
-        "empathy"
+        "validation",
+        "information_giving",
+        "encouragement"
       ]
     },
     {
-      "turn": 6,
+      "turn": 11,
       "speaker": "client",
-      "text": "맞아요. 친구로서 기뻐해줘야 하는데... 그렇게 안 돼요. 오히려 수진이가 시험 망쳤으면 좋겠다는 생각까지 들어요."
+      "text": "그렇게 생각하니까 조금 마음이 편해지네요. 근데 부모님은 안정적인 직업을 원하시는데..."
     },
     {
-      "turn": 6,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "그런 생각까지 하게 되는 자신이 낯설고 두렵기도 하시죠. 하지만 질투심은 누구나 느낄 수 있는 자연스러운 감정이에요. 그 감정 자체가 당신을 나쁜 사람으로 만들지는 않아요.",
+      "text": "부모님은 어떤 직업을 원하시나요?",
       "technique": [
-        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "공무원이나 교사, 아니면 간호사요. 안정적이고 평생 일할 수 있는 거요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "부모님은 당신의 안정적인 미래를 걱정하시는군요. 그런데 부모님이 말씀하신 직업 중에도 당신이 관심 있는 분야와 연결될 수 있는 게 있어 보이는데요. 교사나 간호사도 사람을 돕는 일이잖아요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "아, 그렇네요! 생각해보니 교사도 학생들 상담하고 그러잖아요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "맞아요. 교사는 교과 지도뿐 아니라 학생들의 고민을 들어주고 진로 상담도 하죠. 당신의 관심사와 부모님의 바람을 모두 충족시킬 수 있는 방향일 수 있겠네요.",
+      "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 7,
+      "turn": 14,
       "speaker": "client",
-      "text": "정말요? 근데 이런 생각을 하는 게 나쁘지 않나요?"
+      "text": "근데 저는 수학이나 과학 같은 거 가르치는 건 자신 없는데..."
     },
     {
-      "turn": 7,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "감정과 행동은 다른 것이에요. 질투심을 느끼는 건 자연스럽지만, 그 감정을 어떻게 다루느냐가 중요해요. 혹시 수진이에게 이런 감정을 표현하거나 행동으로 옮긴 적이 있나요?",
+      "text": "교사라고 해서 꼭 수학이나 과학만 가르치는 건 아니에요. 국어, 사회, 도덕 교사도 있고, 상담교사나 특수교사도 있어요. 어떤 과목에 관심이 있으세요?",
       "technique": [
         "information_giving",
-        "validation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "직접적으로는 안 했지만... 요즘 수진이랑 거리를 두고 있어요. 같이 공부하자고 하면 핑계 대고 거절하고, 연락도 잘 안 받고..."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "의도적으로 거리를 두고 계시는군요. 수진이는 이런 변화를 눈치채고 있을까요?",
-      "technique": [
-        "reflection",
         "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "아마 눈치챘을 거예요. 어제 '요즘 왜 그러냐, 내가 뭘 잘못했냐'고 물어봤거든요. 근데 저는 '아니야, 바빠서 그래'라고 둘러댔어요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "수진이가 당신의 변화를 느끼고 이유를 물었지만, 솔직하게 말하지 못했군요. 진실을 말하기 어려웠던 이유가 뭘까요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "제 질투심을 들키면 정말 나쁜 친구로 보일 것 같아서요. 그리고 관계도 깨질 것 같고..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "관계가 손상될까봐 두려우신거군요. 하지만 지금도 이미 관계에 균열이 생기고 있는 것 같아요. 솔직하지 못한 것이 오히려 더 큰 거리를 만들고 있을 수 있어요.",
-      "technique": [
-        "reflection",
-        "interpretation"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "그렇긴 하네요... 근데 어떻게 말해요? '너가 성적 올라서 질투난다'고요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "직접적으로 표현하기 어렵게 느껴지시는군요. 하지만 감정을 솔직하게 나누되, 비난하지 않는 방식으로 표현할 수 있어요. 예를 들어 자신의 느낌과 어려움에 초점을 맞추는 거예요.",
-      "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "어떻게요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "'네가 잘해서 정말 축하해. 근데 솔직히 말하면 주변에서 자꾸 너랑 나를 비교해서 나도 힘들었어. 친구로서 기뻐하고 싶은데 내 감정이 복잡해져서 미안해'처럼요. 자신의 감정을 솔직하게 인정하면서도 상대를 비난하지 않는 거예요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그렇게 말하면... 수진이가 이해해줄까요?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "확실하게 말할 수는 없지만, 진심 어린 솔직함은 대부분의 경우 관계를 깊게 만들어요. 오랜 친구라면 당신의 어려움을 이해하려고 노력할 거예요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "그런데 선생님, 저는 왜 이렇게 질투가 나는 걸까요? 다른 애들은 괜찮은데 유독 수진이만..."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "좋은 질문이에요. 왜 수진이에게 특히 더 강한 감정을 느끼는지 생각해보셨나요? 혹시 당신과 수진이의 관계나 위치에 대한 생각이 있나요?",
-      "technique": [
-        "validation",
-        "open_question",
-        "clarification"
       ]
     },
     {
       "turn": 15,
       "speaker": "client",
-      "text": "음... 사실 우리는 항상 비슷한 수준이었어요. 성적도 비슷하고, 비슷한 것들을 좋아하고... 그게 편했거든요. 근데 이제 수진이가 앞서 나가니까..."
+      "text": "국어나 사회는 괜찮아요. 그리고 상담교사라는 게 있다는 건 처음 알았어요."
     },
     {
       "turn": 15,
       "speaker": "counselor",
-      "text": "비슷한 수준에서 동등한 관계를 유지했는데, 그 균형이 깨진 것 같은 느낌이 드시는군요. 혹시 수진이가 당신을 두고 떠나갈 것 같은 불안감도 있나요?",
+      "text": "상담교사는 학생들의 심리적, 정서적 문제를 상담하고 진로 지도를 하는 전문가예요. 당신이 좋아하는 상담 활동을 직업으로 할 수 있는 길이죠.",
       "technique": [
-        "reflection",
-        "interpretation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "맞아요! 수진이가 이제 공부 잘하는 애들이랑만 놀고, 저는 버릴 것 같아요. 실제로 요즘 반 1등 하는 애들이랑 자주 얘기하더라고요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "관계를 잃을 수도 있다는 두려움이 있으시군요. 질투심 뒤에는 사실 수진이를 잃고 싶지 않은 마음이 있는 것 같아요.",
-      "technique": [
-        "reflection",
-        "interpretation"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "네... 수진이는 제 제일 친한 친구거든요. 중학교 때부터 모든 걸 같이 했는데..."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "수진이가 당신에게 매우 소중한 친구이군요. 그렇다면 이 감정을 수진이와 나누는 게 더욱 중요할 수 있어요. 진짜 문제는 질투심이 아니라 관계를 잃을까봐 두려운 마음일 수 있어요.",
-      "technique": [
-        "validation",
-        "interpretation",
         "information_giving"
       ]
     },
     {
-      "turn": 18,
+      "turn": 16,
       "speaker": "client",
-      "text": "그렇게 말하니까... 제가 정말 화낸 건 수진이한테가 아니라 저를 비교하는 사람들한테였던 것 같기도 해요."
+      "text": "와, 그런 직업이 있다니 신기해요. 어떻게 되는 건가요?"
     },
     {
-      "turn": 18,
+      "turn": 16,
       "speaker": "counselor",
-      "text": "중요한 통찰이에요. 질투심의 근원을 알아차리고 계시네요. 비교당하는 상황에 대한 분노를 수진이에게 돌리고 있었던 건 아닐까요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
-        "validation",
-        "encouragement",
-        "interpretation"
+        "information_giving"
       ]
     },
     {
-      "turn": 19,
+      "turn": 17,
       "speaker": "client",
-      "text": "맞는 것 같아요. 수진이는 잘못한 게 없는데... 제가 엉뚱한 데 화를 낸 거네요."
+      "text": "생각보다 명확한 길이 있네요. 근데 제가 잘할 수 있을지 아직도 불안해요."
     },
     {
-      "turn": 19,
+      "turn": 17,
       "speaker": "counselor",
-      "text": "감정의 방향을 깨닫게 되셨네요. 이제 어떻게 하면 좋을지 생각이 드시나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "수진이한테 사과하고... 솔직하게 얘기해야 할 것 같아요. 그리고 부모님한테도 제 기분을 말씀드려야겠어요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "좋은 계획이에요. 두 가지 모두 중요한 대화가 될 것 같아요. 부모님께는 어떻게 말씀드릴 생각이세요?",
-      "technique": [
-        "validation",
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "'엄마, 저도 열심히 하고 있어요. 수진이랑 비교하지 말아주세요. 그게 저한테 상처가 돼요'라고 말할게요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "자신의 감정을 명확하게 표현하는 좋은 방법이에요. 당신의 노력을 인정받고 싶은 마음을 전달하는 거네요.",
+      "text": "새로운 길을 선택할 때 불안감을 느끼는 건 자연스러운 거예요. 중요한 건 지금 당장 완벽하게 확신할 필요는 없다는 거예요. 천천히 탐색하고 경험해보면서 결정해도 괜찮아요.",
       "technique": [
         "validation",
         "encouragement"
       ]
     },
     {
-      "turn": 22,
+      "turn": 18,
       "speaker": "client",
-      "text": "네... 그런데 선생님, 저는 여전히 수진이가 부러워요. 이 감정은 어떻게 하죠?"
+      "text": "천천히 해도 되는 거군요. 그럼 지금 제가 뭘 해볼 수 있을까요?"
     },
     {
-      "turn": 22,
+      "turn": 18,
       "speaker": "counselor",
-      "text": "부러움 자체는 나쁜 감정이 아니에요. 오히려 그 감정을 성장의 동기로 사용할 수도 있어요. 수진이의 성공에서 배울 점이 있다면 뭐가 있을까요?",
+      "text": "좋은 질문이에요. 우선 관심 분야에 대해 더 알아보는 게 좋겠어요. 예를 들어 상담 관련 책을 읽어보거나, 교육학과나 상담학과에 대한 정보를 찾아보는 거죠. 또 학교 상담선생님과 이야기를 나눠보는 것도 도움이 될 거예요.",
       "technique": [
-        "validation",
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "음... 수진이는 요즘 정말 규칙적으로 공부하더라고요. 저는 그날그날 기분에 따라 하는데..."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "수진이의 규칙성에서 힌트를 얻으셨네요. 당신도 자신만의 학습 방법을 개선하고 싶다는 의지가 있으신가요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "네, 있어요. 제 방식대로 해보고 싶어요. 수진이처럼은 아니더라도, 제 나름대로요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "훌륭해요. 수진이를 모방하는 게 아니라 그로부터 영감을 받아 자신만의 방법을 찾으려는 거군요. 그게 건강한 경쟁이에요.",
-      "technique": [
-        "validation",
-        "encouragement",
+        "goal_setting",
         "information_giving"
       ]
     },
     {
-      "turn": 25,
+      "turn": 19,
       "speaker": "client",
-      "text": "건강한 경쟁... 좋네요. 수진이랑 같이 공부하면서 서로 도우면 더 좋을 것 같아요."
+      "text": "네, 그렇게 해볼게요. 책 읽는 건 좋아하니까 관련 책부터 찾아봐야겠어요."
     },
     {
-      "turn": 25,
+      "turn": 19,
       "speaker": "counselor",
-      "text": "관점이 많이 바뀌셨네요. 경쟁 상대가 아닌 함께 성장하는 파트너로 볼 수 있게 되셨어요. 오늘 대화를 통해 어떤 걸 느끼셨나요?",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
-        "validation",
         "encouragement",
+        "goal_setting",
         "open_question"
       ]
     },
     {
-      "turn": 26,
+      "turn": 20,
       "speaker": "client",
-      "text": "제 감정이 그렇게 나쁜 게 아니었다는 것, 그리고 진짜 문제가 뭔지 알게 된 것 같아요."
+      "text": "네, 좋은 것 같아요. 학교에 또래상담 동아리가 있던데 그거 해볼까요?"
     },
     {
-      "turn": 26,
+      "turn": 20,
       "speaker": "counselor",
-      "text": "중요한 깨달음을 얻으셨네요. 감정을 이해하고 그 뒤에 숨은 진짜 필요를 발견하셨어요. 이번 주에 수진이와 대화해보시고, 다음에 어떻게 됐는지 나눠봐요.",
+      "text": "아주 좋은 선택이에요! 또래상담 동아리는 상담 기술도 배우고 실제로 친구들을 도울 수 있는 경험도 쌓을 수 있어서 진로 탐색에 큰 도움이 될 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "생각해보니 할 수 있는 게 많네요. 처음에는 막막했는데 조금씩 보이는 것 같아요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "처음에 느꼈던 막막함에서 이제 구체적인 방향과 실천 가능한 계획이 생긴 거죠. 스스로 이런 변화를 만들어내셨어요.",
+      "technique": [
+        "summarization",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "그런데 부모님께 어떻게 말씀드려야 할까요? 갑자기 상담교사 하겠다고 하면 놀라실 것 같아서요."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "부모님과의 대화가 걱정되시는군요. 어떻게 말씀드리고 싶으세요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "일단 교사라는 직업에 관심이 있다고 말씀드리면 좋아하실 것 같아요. 그리고 천천히 상담교사에 대해서도 설명드리고요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "좋은 전략이네요. 부모님이 원하시는 안정성도 있고, 당신의 관심사도 반영된 진로라는 점을 강조하면 좋을 것 같아요. 또 아직 탐색 단계라는 것도 함께 말씀드리시면 부담이 덜하실 거예요.",
       "technique": [
         "validation",
-        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "네, 그렇게 해볼게요. 오늘 상담하고 나니까 마음이 한결 가벼워졌어요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "다행이에요. 오늘 우리가 나눈 이야기를 정리해볼까요? 당신은 사람을 돕는 일에 관심이 있고, 그것을 교사나 상담교사라는 진로로 연결해볼 수 있다는 걸 발견했어요. 그리고 또래상담 동아리 활동과 관련 책 읽기로 탐색을 시작하기로 했죠.",
+      "technique": [
         "summarization",
         "structuring"
       ]
     },
     {
-      "turn": 27,
+      "turn": 25,
       "speaker": "client",
-      "text": "네, 선생님. 용기 내볼게요. 감사합니다."
+      "text": "네, 맞아요. 이제 뭘 해야 할지 알겠어요."
     },
     {
-      "turn": 27,
+      "turn": 25,
       "speaker": "counselor",
-      "text": "용기 내기로 하셨네요. 진심 어린 대화가 관계를 더 깊게 만들 거예요. 응원할게요.",
+      "text": "진로는 한 번에 결정하는 게 아니라 천천히 탐색하고 경험하면서 만들어가는 거예요. 오늘이 그 여정의 좋은 시작이 될 것 같네요. 앞으로도 궁금한 게 있거나 도움이 필요하면 언제든 찾아오세요.",
       "technique": [
         "encouragement",
-        "validation"
+        "validation",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "네, 감사합니다. 다음에 또 올게요!"
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "언제든 환영해요. 오늘 나눈 계획들 잘 실천해보시고, 어떻게 되는지 다음에 또 이야기 나눠요. 응원할게요!",
+      "technique": [
+        "encouragement",
+        "structuring"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "17세",
-    "gender": "남성",
-    "occupation": "고등학교 2학년",
-    "background": "친한 친구와의 오해로 인한 관계 악화"
-  }
+  ]
 }

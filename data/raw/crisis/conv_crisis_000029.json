@@ -1,24 +1,29 @@
 {
-  "category": "crisis",
+  "metadata": {
+    "category": "crisis",
+    "topic": "심각한 불안 발작",
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:32.274643+00:00"
+  },
   "client_profile": {
-    "age": "19",
+    "age": "40세",
     "gender": "여성",
-    "occupation": "대학교 1학년",
-    "background": "최근 자해 충동이 심해짐, 과거 자해 경험 있음, 현재 극심한 스트레스 상태"
+    "occupation": "주부",
+    "background": "심각한 불안 발작 관련 상담"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 저 요즘 너무 힘들어요. 자꾸 이상한 생각이 나요."
+      "text": "선생님, 저 요즘 너무 힘들어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "오셔서 이야기해주셔서 감사해요. 이상한 생각이라고 하셨는데, 조금 더 구체적으로 말씀해 주실 수 있을까요?",
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
       "technique": [
         "empathy",
-        "clarification"
+        "open_question"
       ]
     },
     {
@@ -85,7 +90,7 @@
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "자해 충동이 반복적으로 생기니 힘들고 혼란스러우실 거예요. 혹시 어떤 상황에서 그런 생각이 특히 많이 드세요?",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
         "empathy",
         "open_question"
@@ -155,7 +160,7 @@
     {
       "turn": 11,
       "speaker": "counselor",
-      "text": "네, 강한 감각이 뇌를 자극해서 충동을 줄여주는 효과가 있어요. 자해의 감각적인 측면을 덜 해로운 방식으로 대체하는 거죠.",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "information_giving",
         "clarification"
@@ -323,7 +328,7 @@
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "지금까지 이야기해 주신 것 정리해볼게요. 자해 충동이 있고, 밤에 특히 심해지며, 대학 적응 어려움과 외로움이 큰 스트레스군요.",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
         "summarization"
       ]
@@ -370,13 +375,5 @@
         "encouragement"
       ]
     }
-  ],
-  "generated_at": "2024-12-17T00:00:00.000Z",
-  "conversation_id": "CRI_20251218_0029",
-  "metadata": {
-    "generated_at": "2025-12-18T05:07:46.140390+00:00",
-    "model": "claude-sonnet-4-5",
-    "seed_category": "crisis",
-    "generator": "claude_code_direct"
-  }
+  ]
 }

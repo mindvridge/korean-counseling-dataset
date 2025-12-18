@@ -1,456 +1,342 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "부모와의 갈등",
-    "total_turns": 30,
-    "quality_indicators": [
-      "reflection",
-      "validation",
-      "open_question",
-      "clarification",
-      "closed_question",
-      "empathy",
-      "emotion_labeling",
-      "confrontation"
-    ]
+    "topic": "결혼 생활 문제",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:28.524489+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0007_c9d0e1f2",
-    "category": "adult",
-    "topic": "부모와의 갈등"
+  "client_profile": {
+    "age": "35세",
+    "gender": "남성",
+    "occupation": "자영업",
+    "background": "결혼 생활 문제 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.079501+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "동료가 제 아이디어를 훔쳐갔어요. 너무 화가 나서..."
+      "text": "주변에서 상담 받아보라고 해서요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "동료가 아이디어를 훔쳤다고 느끼시는군요. 많이 속상하셨겠어요. 무슨 일이 있었나요?",
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
+      "turn": 2,
       "technique": [
         "empathy",
-        "reflection",
-        "validation",
         "open_question"
       ]
     },
     {
-      "turn": 2,
       "speaker": "client",
-      "text": "제가 한 달 전에 팀 회의에서 새로운 디자인 콘셉트를 발표했어요. 그랬더니 그 동료가 비슷한 콘셉트로 어제 제안서를 냈더라고요."
+      "text": "감사합니다. 저는 중학교에서 국어를 가르치는 교사인데요... 요즘 학교에 가는 게 너무 힘들어요. 아침에 일어나면 출근하기가 싫고, 학생들 얼굴을 보는 것도 부담스럽고...",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "본인이 발표한 콘셉트와 비슷한 걸 동료가 제안서로 제출했군요. 얼마나 비슷한가요?",
-      "technique": [
-        "empathy",
-        "reflection",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "색감, 분위기, 핵심 요소가 거의 똑같아요. 우연이라고 하기엔 너무 비슷해요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "우연으로 보기 어려울 정도로 유사하다고 느끼시는군요. 그 동료와 이 문제에 대해 이야기해보셨나요?",
-      "technique": [
-        "empathy",
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
+      "text": "학교에 가는 것 자체가 큰 부담으로 느껴지시는군요. 교직 생활을 하신 지는 얼마나 되셨나요?",
       "turn": 4,
-      "speaker": "client",
-      "text": "네, 따졌죠. 근데 그 사람은 '나는 내 아이디어로 만든 거다, 네 발표는 참고만 했다'고 하더라고요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "'참고만 했다'는 답변을 들으셨을 때 어떤 감정이 드셨나요?",
       "technique": [
-        "empathy",
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "배신감이요. 우리 원래 친했거든요. 함께 밥도 먹고, 아이디어도 공유하고... 그랬는데 이렇게 당할 줄은..."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "친한 동료였기 때문에 더 배신감이 크셨겠어요. 예전에는 아이디어를 자유롭게 공유하는 사이였군요.",
-      "technique": [
-        "empathy",
         "reflection"
       ]
     },
     {
-      "turn": 6,
       "speaker": "client",
-      "text": "네, 그래서 더 화나요. 제가 먼저 아이디어를 나눴는데 그걸 이용한 거잖아요."
+      "text": "8년 됐어요. 처음엔 정말 열정적으로 했거든요. 학생들에게 좋은 선생님이 되고 싶었고, 국어의 재미를 알려주고 싶었어요. 그런데 언제부턴가... 제가 왜 이 일을 하고 있는지 모르겠어요.",
+      "turn": 5
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "신뢰를 바탕으로 공유한 아이디어가 이렇게 사용되니 화가 나시는 거네요. 다른 사람들은 이 상황을 어떻게 보나요?",
+      "text": "처음의 열정과 지금의 모습 사이에 큰 간극이 느껴지시는 것 같아요. 언제부터 이런 변화를 느끼기 시작하셨나요?",
+      "turn": 6,
       "technique": [
-        "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 7,
       "speaker": "client",
-      "text": "팀장님께 말씀드렸는데... '두 사람 다 좋은 아이디어니까 협업해보면 어떻겠냐'고 하시더라고요."
+      "text": "정확히는 모르겠지만... 2년 전쯤부터인 것 같아요. 그때 담임을 맡게 됐는데, 학부모들이 정말 힘들었어요. 사소한 일에도 전화가 오고, 자기 아이만 특별 대우 해달라고 하고...",
+      "turn": 7
     },
     {
-      "turn": 7,
       "speaker": "counselor",
-      "text": "표절 문제가 아니라 협업으로 제안하셨군요. 그 제안을 들었을 때 어떠셨어요?",
-      "technique": [
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
+      "text": "학부모들과의 관계에서 많은 스트레스를 받으셨네요. 그런 상황들이 계속되면서 교직에 대한 회의감이 생기신 것 같은데, 구체적으로 어떤 일들이 가장 힘드셨나요?",
       "turn": 8,
-      "speaker": "client",
-      "text": "기가 막혔죠. 제 아이디어를 훔쳐간 사람이랑 협업하라고요? 절대 안 해요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "억울하고 화가 나시는 게 당연해요. 그런데 질문 하나 드려도 될까요? 그 동료가 '의도적으로' 훔쳤다고 확신하시나요, 아니면 '무의식적으로' 영향을 받았을 가능성도 있을까요?",
       "technique": [
-        "validation",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "그게 무슨 차이가 있어요? 결과는 똑같잖아요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "결과는 비슷해 보이지만, 의도가 다르면 해결 방법도 달라져요. 만약 의도적이라면 명백한 표절이고, 무의식적이라면 영향을 받은 거죠.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "... 확실하진 않지만, 친했으니까 의도적으로 그랬을 것 같진 않아요. 근데 그래도 화나는 건 똑같아요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "의도가 아니었을 수도 있지만 화는 나신다는 거네요. 그 감정은 충분히 이해돼요. 지금 가장 원하시는 건 뭔가요? 사과인가요, 아이디어에 대한 인정인가요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "둘 다요. 제가 먼저 제안했다는 걸 인정하고, 미안하다고 말하고, 제 이름도 같이 올려줬으면 좋겠어요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "명확하게 정리해주셨네요. 그 세 가지를 동료에게 직접 요청해보셨나요?",
-      "technique": [
-        "encouragement",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "아니요. 그냥 '내 아이디어 훔쳤다'고만 따졌어요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "비난은 했지만 구체적인 요청은 안 하셨군요. 그럼 동료 입장에서는 어떻게 해야 할지 모를 수 있어요.",
-      "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그럼 제가 다시 말해야 한다는 건가요? 잘못한 건 그 사람인데..."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "누가 잘못했는지와 별개로, 원하는 결과를 얻으려면 명확히 표현해야 해요. 지금처럼 가면 관계만 더 나빠질 수 있어요.",
-      "technique": [
-        "information_giving",
         "validation"
       ]
     },
     {
+      "speaker": "client",
+      "text": "한 번은... 학생이 수업 시간에 계속 떠들어서 주의를 줬는데, 그 학부모가 학교에 찾아와서 제가 자기 아이를 차별한다고 교장실까지 찾아갔어요. 저는 그냥 다른 학생들처럼 공평하게 대했을 뿐인데...",
+      "turn": 9
+    },
+    {
+      "speaker": "counselor",
+      "text": "정당한 교육적 행위를 했는데도 오히려 문제 제기를 받으셨군요. 그런 상황에서 선생님은 어떤 감정을 느끼셨나요?",
+      "turn": 10,
+      "technique": [
+        "emotion_exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "억울하고... 화도 났지만 동시에 무력감이 들었어요. '내가 뭘 잘못했지?' 싶기도 하고, '이렇게까지 해야 하나' 싶기도 하고... 그 이후로는 학생들한테 뭘 말하는 것도 조심스러워졌어요.",
+      "turn": 11
+    },
+    {
+      "speaker": "counselor",
+      "text": "억울함과 무력감, 그리고 자기 검열까지... 여러 복잡한 감정들이 겹쳐졌었네요. 그런 경험이 선생님의 교육 방식에도 영향을 정신없이군요.",
+      "turn": 12,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 맞아요. 이제는 그냥... 최소한만 하게 돼요. 수업만 하고, 학생들과 깊이 관계 맺지 않으려고 하고. 예전엔 방과 후에도 남아서 학생들이랑 이야기도 하고 그랬는데, 이제는 빨리 집에 가고 싶어요.",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신을 보호하기 위해 감정적 거리를 두게 되신 거네요. 그런데 그렇게 하면서도 마음 한편으로는 어떤 느낌이 드시나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "... 관계는 이미 나빠졌어요. 요즘 마주치면 서로 말도 안 해요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "관계가 악화됐군요. 그 상태가 계속되면 일하기 어렵지 않으세요? 같은 팀인데.",
       "technique": [
-        "reflection",
-        "closed_question"
+        "deepening"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "힘들죠. 회의 때도 어색하고, 협업이 필요한 프로젝트도 피하게 되고..."
+      "text": "죄책감이요... 학생들한테 미안하기도 하고. 제가 원래 이런 선생님이 아니었는데. 어떤 학생이 수업 끝나고 질문하러 오면, 귀찮다는 생각이 먼저 들어요. 그러고 나서 '내가 왜 이러지' 싶어서 자책하게 되고...",
+      "turn": 15
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "이 갈등이 업무에도 영향을 주고 있네요. 이 상황을 개선하고 싶으신가요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
+      "text": "이상적인 교사상과 현재의 모습 사이에서 갈등하고 계시는군요. 그 죄책감이 선생님을 더 힘들게 만드는 것 같아요.",
       "turn": 16,
-      "speaker": "client",
-      "text": "개선하고 싶긴 한데... 어떻게요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "한 번 더 대화를 시도해보는 거예요. 이번에는 비난 대신, 본인의 느낌과 구체적인 요청을 전달하는 거죠.",
       "technique": [
-        "information_giving",
-        "structuring"
+        "reflection"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "예를 들면요?"
+      "text": "맞아요. 그리고 학생들도... 요즘 애들은 정말 수업에 관심이 없어요. 스마트폰만 보고, 수업 시간에 자고... 제가 아무리 재미있게 준비해도 반응이 없으니까 허탈해요.",
+      "turn": 17
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "'네가 훔쳤어'가 아니라 '내가 먼저 제안한 아이디어와 네 제안서가 매우 비슷해서 기분이 상했어. 나는 네가 내 기여를 인정해주고, 공동 작업으로 명시해줬으면 좋겠어' 이런 식으로요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
+      "text": "많은 노력을 기울여도 학생들의 반응이 없을 때 느끼는 좌절감이 크시겠어요. 그런 상황이 반복되면 동기부여가 떨어지는 건 자연스러운 일입니다.",
       "turn": 18,
-      "speaker": "client",
-      "text": "그렇게 말하면 들어줄까요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "확실하진 않지만, 비난보다는 훨씬 건설적이에요. 그리고 증거를 준비하는 것도 좋아요. 본인이 먼저 발표한 기록이 있나요?",
       "technique": [
-        "information_giving",
-        "closed_question"
+        "validation"
       ]
     },
     {
-      "turn": 19,
       "speaker": "client",
-      "text": "회의록이 있어요. 제가 한 달 전에 발표한 게 기록되어 있죠."
+      "text": "선생님 말씀 들으니까 조금 위안이 되네요. 주변 동료 교사들한테는 이런 얘기 못 하거든요. 다들 힘든 건 마찬가지인데 제가 약한 것처럼 보일까 봐...",
+      "turn": 19
     },
     {
-      "turn": 19,
       "speaker": "counselor",
-      "text": "그럼 그걸 근거로 제시하면서 대화해보세요. 감정적으로 접근하지 말고 사실 기반으로요.",
+      "text": "동료들에게도 속마음을 나누기 어려우셨군요. 혼자 이 어려움을 감당해오셨다는 게 느껴집니다. 주변에 이런 감정을 나눌 수 있는 분은 계신가요?",
+      "turn": 20,
       "technique": [
-        "information_giving",
+        "support_exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "남편이 있긴 한데... 남편은 회사원이라 교사의 어려움을 잘 이해 못 해요. '방학도 있고 좋지 않냐'고 하거나, '그냥 적당히 해'라고 하는데, 그게 위로가 안 돼요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "turn": 22,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그래서 더 힘든 것 같아요. 요즘은 주말에도 월요일 생각하면 우울해지고, 방학 때도 개학 생각하면 불안하고... 이게 번아웃인가요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "turn": 24,
+      "technique": [
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그럼 저는 어떻게 해야 하나요? 교사를 그만둬야 할까요? 근데 8년이나 했는데 이제 와서 다른 걸 할 수도 없고...",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 당장 큰 결정을 내리실 필요는 없어요. 먼저 선생님의 상태를 회복하는 게 중요합니다. 교직을 계속할지 말지는 그 이후에 충분히 고민해볼 수 있어요. 지금은 어떤 생각이 드세요?",
+      "turn": 26,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "사실... 마음 한편으로는 아직 학생들을 가르치고 싶은 마음이 있어요. 가끔 학생이 '선생님 수업 재밌었어요'라고 하면 그래도 보람을 느끼거든요. 근데 그런 순간이 너무 드물어서...",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "아직 교직에 대한 애정과 보람이 남아있으시네요. 그 마음이 중요합니다. 지금은 그 마음이 상처와 피로에 가려져 있는 상태인 것 같아요. 선생님께서 다시 그 보람을 느낄 수 있도록 함께 방법을 찾아보면 어떨까요?",
+      "turn": 28,
+      "technique": [
+        "hope_instillation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그게 가능할까요? 솔직히 지금은 너무 지쳐서 뭘 어떻게 해야 할지 모르겠어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금은 그렇게 느껴지시는 게 당연해요. 하지만 선생님은 이미 첫걸음을 내디뎠어요. 여기 오셔서 자신의 어려움을 솔직하게 나누신 것처럼요. 작은 변화부터 시작해볼 수 있습니다.",
+      "turn": 30,
+      "technique": [
         "encouragement"
       ]
     },
     {
-      "turn": 20,
       "speaker": "client",
-      "text": "알겠어요. 근데 만약 그래도 안 들어주면요?"
+      "text": "작은 변화요... 예를 들면 어떤 거요?",
+      "turn": 31
     },
     {
-      "turn": 20,
       "speaker": "counselor",
-      "text": "그럴 경우 팀장님께 다시 말씀드리되, 이번에는 '협업'이 아니라 '지적재산권 침해' 문제로 접근할 수 있어요. 회사에 관련 규정이 있을 거예요.",
+      "text": "우선 선생님 자신을 돌보는 시간을 갖는 것부터 시작할 수 있어요. 퇴근 후나 주말에 선생님이 좋아하시는 활동이 있나요? 교직과 완전히 분리된 시간을 가져보는 것도 도움이 될 수 있습니다.",
+      "turn": 32,
       "technique": [
-        "information_giving",
-        "structuring"
+        "coping_strategy"
       ]
     },
     {
-      "turn": 21,
       "speaker": "client",
-      "text": "그 정도까지 가면... 관계는 완전히 끝나겠네요."
+      "text": "예전엔 책 읽는 걸 좋아했는데... 요즘은 그럴 여유도 없고, 집에 오면 그냥 누워있기만 해요.",
+      "turn": 33
     },
     {
-      "turn": 21,
       "speaker": "counselor",
-      "text": "그럴 수 있어요. 그래서 먼저 대화로 풀어보는 게 중요한 거죠. 관계를 유지하면서 문제도 해결하는 게 최선이니까요.",
+      "text": "에너지가 많이 소진되어 있으시니 그럴 수밖에 없어요. 처음에는 아주 작은 것부터 시작해보면 어떨까요? 하루 10분이라도 좋아하는 책을 읽는다거나, 짧은 산책을 한다거나 하는 것들이요.",
+      "turn": 34,
       "technique": [
-        "validation",
-        "information_giving"
+        "behavioral_activation"
       ]
     },
     {
-      "turn": 22,
       "speaker": "client",
-      "text": "그렇네요. 일단 대화는 해봐야겠어요."
+      "text": "그 정도는 해볼 수 있을 것 같아요. 그런데 학교에서의 문제는 어떻게 해야 할까요?",
+      "turn": 35
     },
     {
-      "turn": 22,
       "speaker": "counselor",
-      "text": "그리고 앞으로는 아이디어 공유 방식을 바꾸는 것도 필요해요. 중요한 아이디어는 문서로 남기거나, 공식 채널에서 공유하는 거죠.",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "turn": 36,
       "technique": [
-        "information_giving",
+        "summary"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "생각보다 편하게 얘기할 수 있었어요. 그리고... 제 감정을 인정받는 느낌이 들어서 좋았습니다. 다음에 또 올 수 있을까요?",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "물론이죠. 선생님의 감정은 충분히 타당하고, 지금 겪고 계신 어려움도 극복할 수 있습니다. 다음 상담 때는 오늘 나눈 이야기를 바탕으로 더 구체적인 방법들을 함께 찾아보도록 해요. 이번 주는 작은 자기 돌봄 활동 하나를 실천해보시는 건 어떨까요?",
+      "turn": 38,
+      "technique": [
         "goal_setting"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "너무 방어적인 거 아닌가요?"
+      "text": "네, 해볼게요. 오늘 와서 정말 다행이라는 생각이 드네요. 감사합니다.",
+      "turn": 39
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "방어적이라기보다는 전문적인 거예요. 창작 분야에서는 자신의 아이디어를 보호하는 게 중요해요.",
+      "text": "선생님의 용기에 감사드립니다. 다음 상담 때 뵙겠습니다. 힘든 순간이 오면 오늘 나눈 이야기를 떠올려보세요.",
+      "turn": 40,
       "technique": [
-        "information_giving",
-        "validation"
+        "support"
       ]
     },
     {
-      "turn": 24,
       "speaker": "client",
-      "text": "맞는 말이에요. 이번 일로 배웠어요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 24,
       "speaker": "counselor",
-      "text": "이번 주에 그 동료와 다시 대화해보시겠어요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "goal_setting",
-        "closed_question"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 25,
       "speaker": "client",
-      "text": "네, 용기 내서 해볼게요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 25,
       "speaker": "counselor",
-      "text": "대화 전에 하고 싶은 말을 미리 정리해오세요. 감정적으로 흐르지 않도록요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "structuring",
-        "information_giving"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 26,
       "speaker": "client",
-      "text": "알겠습니다. 근데 만약 관계가 회복 안 되면 어떡하죠?"
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 26,
       "speaker": "counselor",
-      "text": "모든 관계가 회복되는 건 아니에요. 하지만 최소한 업무적으로 협력할 수 있는 관계는 만들 수 있어요. 친구처럼 지낼 필요는 없지만, 동료로서는 함께 일할 수 있잖아요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "information_giving",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 27,
       "speaker": "client",
-      "text": "그렇죠. 너무 친하게 지내려고 했던 게 문제였을 수도 있겠네요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 27,
       "speaker": "counselor",
-      "text": "친밀함과 전문성의 경계를 찾아가는 과정이에요. 오늘 정한 것들 정리해볼까요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "interpretation",
-        "summarization"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 28,
       "speaker": "client",
-      "text": "네, 동료와 재대화하기, 감정 대신 사실 기반으로 말하기, 회의록 준비하기, 앞으로 아이디어 문서화하기... 맞나요?"
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 28,
       "speaker": "counselor",
-      "text": "완벽하게 정리하셨네요. 이번 일이 힘들지만, 전문가로 성장하는 계기가 될 수 있어요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 29,
-      "speaker": "client",
-      "text": "그렇게 생각하니 조금 나아지네요. 감사합니다."
-    },
-    {
-      "turn": 29,
-      "speaker": "counselor",
-      "text": "다음 주에 대화 결과를 이야기 나눠봐요. 잘 하실 거예요.",
-      "technique": [
-        "goal_setting",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 30,
-      "speaker": "client",
-      "text": "네, 다음 주에 뵙겠습니다."
-    },
-    {
-      "turn": 30,
-      "speaker": "counselor",
-      "text": "용기 내세요. 본인의 권리를 지키면서도 관계를 존중하는 방법을 찾으실 거예요. 다음 주에 뵙겠습니다.",
-      "technique": [
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "27세",
-    "gender": "여성",
-    "occupation": "연구원",
-    "background": "성인이 되어서도 부모님과의 관계가 어려운 상황"
-  }
+  ]
 }

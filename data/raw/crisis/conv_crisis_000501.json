@@ -1,24 +1,29 @@
 {
-  "category": "crisis",
+  "metadata": {
+    "category": "crisis",
+    "topic": "자살 사고",
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:32.725455+00:00"
+  },
   "client_profile": {
-    "age": "19",
+    "age": "19세",
     "gender": "여성",
     "occupation": "대학교 1학년",
-    "background": "최근 자해 충동이 심해짐, 과거 자해 경험 있음, 현재 극심한 스트레스 상태"
+    "background": "자살 사고 관련 상담"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 저 요즘 너무 힘들어요. 자꾸 이상한 생각이 나요."
+      "text": "모든 게 제 잘못인 것 같아요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "오셔서 이야기해주셔서 감사해요. 이상한 생각이라고 하셨는데, 조금 더 구체적으로 말씀해 주실 수 있을까요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 모든 게 제 잘못인 것 같아요....라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
         "empathy",
-        "clarification"
+        "open_question"
       ]
     },
     {
@@ -57,7 +62,7 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "일주일 전에 자해를 하셨군요. 용기 내서 말씀해 주셔서 감사해요. 지금 상처 상태는 어떠세요? 치료가 필요한 정도인가요?",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "validation",
         "clarification"
@@ -141,7 +146,7 @@
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "있어요. 먼저, 자해 충동이 올 때 쓸 수 있는 대안적인 방법들이 있어요. 예를 들어, 얼음을 손에 쥐거나, 고무줄을 팔목에 튕기거나, 찬물에 얼굴을 담그는 방법들이요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "information_giving",
         "encouragement"
@@ -211,7 +216,7 @@
     {
       "turn": 15,
       "speaker": "counselor",
-      "text": "그렇죠. 도움을 요청하는 건 부담을 주는 게 아니라 신뢰하는 거예요. 한 가지 제안을 드릴게요. 위기 상황에서 연락할 사람을 미리 정해두는 거예요.",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
         "reflection",
         "goal_setting"
@@ -370,13 +375,5 @@
         "encouragement"
       ]
     }
-  ],
-  "generated_at": "2024-12-17T00:00:00.000Z",
-  "conversation_id": "CRI_20251218_0501",
-  "metadata": {
-    "generated_at": "2025-12-18T05:18:06.557052+00:00",
-    "model": "claude-sonnet-4-5",
-    "seed_category": "crisis",
-    "generator": "claude_code_direct"
-  }
+  ]
 }

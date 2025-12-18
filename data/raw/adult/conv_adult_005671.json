@@ -1,451 +1,343 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "대인 불안",
-    "total_turns": 30,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "closed_question",
-      "clarification",
-      "interpretation",
-      "confrontation",
-      "validation"
-    ]
+    "topic": "결혼 생활 문제",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:28.877541+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0014_e7f8g9h0",
-    "category": "adult",
-    "topic": "대인 불안"
+  "client_profile": {
+    "age": "32세",
+    "gender": "여성",
+    "occupation": "교사",
+    "background": "결혼 생활 문제 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.504114+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "이번 달도 목표를 못 채웠어요. 3개월째예요."
+      "text": "번아웃인 것 같아요. 아무것도 하기 싫어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "3개월 연속 목표 미달이시군요. 많이 힘드시겠어요. 어떤 점이 가장 어려우신가요?",
-      "technique": [
-        "reflection",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
       "turn": 2,
-      "speaker": "client",
-      "text": "수당이 계속 줄어들어요. 고정급이 적어서 수당으로 생활비를 충당하는데... 이번 달은 아이 학원비도 못 낼 것 같아요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "경제적 압박이 크시군요. 목표를 달성하지 못하는 이유가 뭐라고 생각하세요?",
       "technique": [
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "경기도 안 좋고, 고객들이 보험 가입을 꺼리고... 근데 다른 설계사들은 잘만 하더라고요. 저만 못하는 것 같아요."
+      "text": "네... 3개월 전에 팀장으로 승진했는데요. 처음엔 정말 기뻤는데, 요즘은 매일이 힘들어요.",
+      "turn": 3
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "'나만 못한다'는 생각이 드시는군요. 실제로 팀 내에서 본인 실적은 어느 정도인가요?",
+      "text": "승진이라는 기쁜 일이 있었지만, 지금은 매일이 힘들게 느껴지신다는 말씀이시군요. 어떤 점이 가장 힘드신가요?",
+      "turn": 4,
       "technique": [
         "reflection",
-        "closed_question"
+        "empathy"
       ]
     },
     {
-      "turn": 4,
       "speaker": "client",
-      "text": "하위 30% 정도요. 예전엔 중상위권이었는데..."
+      "text": "일단 책임감이 너무 무거워요. 예전엔 제 일만 잘하면 됐는데, 이제는 팀원 7명의 업무를 관리하고, 프로젝트 성과에 대한 책임까지... 밤에 잠도 제대로 못 자요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "예전에는 잘하셨는데 최근에 떨어지신 거네요. 3개월 전 즈음에 무슨 변화가 있었나요?",
+      "text": "개인 업무에서 팀 전체를 책임지는 위치로 역할이 크게 변화하면서 부담감이 상당히 커지셨네요. 수면에도 영향을 받고 계시고요.",
+      "turn": 6,
       "technique": [
-        "reflection",
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 맞아요. 밤에 누워도 '내가 이 결정을 제대로 한 건가', '팀원들이 나를 어떻게 생각할까' 이런 생각들이 계속 돌아요. 새벽 3시까지 뒤척이다가 겨우 잠들어요.",
+      "turn": 7
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "turn": 8,
+      "technique": [
         "clarification"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "특별한 건 없는데... 아, 그때 큰 고객 한 분이 해약하셨어요. 그 분이 제 주 수입원이었거든요."
+      "text": "처음 한 달은 괜찮았어요. 그런데 첫 프로젝트를 맡고 나서부터 이렇게 됐어요. 특히 한 팀원이 실수를 했는데, 제가 제대로 관리하지 못한 것 같아서 자책이 심했거든요.",
+      "turn": 9
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "주요 고객을 잃으면서 수입이 급감했군요. 그 이후로 어떻게 대응하셨나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "미친 듯이 일했어요. 신규 고객 발굴하려고 하루에 10시간씩 돌아다니고, 전화하고... 근데 안 돼요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "더 열심히 일했는데 결과가 안 나오니 더 좌절스러우시겠어요. 혹시 조급한 마음이 고객에게 전달되진 않았을까요?",
-      "technique": [
-        "empathy",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "... 그럴 수도 있겠네요. 요즘 만나는 고객들이 '부담스럽다'는 말을 하긴 했어요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "급한 마음에 고객을 압박하게 되고, 그게 오히려 역효과를 낸 거네요. 이 일을 6년 하셨으면 본인만의 노하우가 있으실 텐데, 요즘은 그걸 활용하고 계신가요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "노하우요? 요즘은 그냥... 닥치는 대로 해요. 예전 방식은 너무 느린 것 같아서."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "조급함 때문에 검증된 본인 방식을 버리고 무작위로 하고 계시는군요. 예전에 잘했을 때는 어떻게 하셨나요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "기존 고객들 관리에 집중했어요. 꾸준히 연락하고, 신뢰 쌓고... 그럼 자연스럽게 소개도 들어오고."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "관계 중심 영업을 하셨군요. 지금은 그렇게 안 하시나요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
+      "text": "팀원의 실수를 자신의 관리 부족으로 받아들이시면서 자책감이 커지셨군요. 그 상황에 대해 좀 더 말씀해 주실 수 있을까요?",
       "turn": 10,
-      "speaker": "client",
-      "text": "시간이 없어요. 당장 이번 달 목표를 채워야 하는데..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "'당장' 목표를 채우려다가 장기적으로 효과적인 방법을 놓치고 계신 것 같아요. 단기 목표와 장기 전략, 둘 다 필요하지 않을까요?",
       "technique": [
-        "confrontation",
-        "information_giving"
+        "exploration"
       ]
     },
     {
-      "turn": 11,
       "speaker": "client",
-      "text": "그렇긴 한데... 장기 전략을 짤 여유가 없어요."
+      "text": "그 팀원이 중요한 마감일을 놓쳤어요. 상사한테 엄청 혼났고... 저는 그때 '내가 더 꼼꼼하게 체크했어야 했는데'라는 생각만 들었어요. 그 이후로 모든 걸 다 확인하게 됐어요.",
+      "turn": 11
     },
     {
-      "turn": 11,
       "speaker": "counselor",
-      "text": "여유가 없다고 느끼시는 건 이해돼요. 하지만 지금 방식으로 3개월 했는데 안 됐잖아요. 방법을 바꿔야 할 때 아닐까요?",
-      "technique": [
-        "validation",
-        "confrontation"
-      ]
-    },
-    {
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "turn": 12,
-      "speaker": "client",
-      "text": "... 맞는 말이에요. 어떻게 해야 할까요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "먼저 목표를 재설정해볼까요? 회사 목표는 그대로 두고, 본인만의 현실적 목표를 정하는 거예요.",
       "technique": [
-        "structuring",
-        "goal_setting"
+        "empathy"
       ]
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "회사 목표를 못 채우면 수당이 적은데..."
+      "text": "팀원들의 업무를 하나하나 다 체크해요. 이메일도 다 확인하고, 회의록도 제가 직접 검토하고... 아침 8시에 출근해서 밤 10시에 퇴근해요. 주말에도 일 생각뿐이에요.",
+      "turn": 13
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "지금도 못 채우고 계시잖아요. 현실적 목표를 세우고 그걸 달성하는 게, 달성 불가능한 목표에 스트레스받는 것보다 나아요.",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "실수를 방지하기 위해 모든 것을 직접 관리하시면서 업무 시간이 크게 늘어났고, 주말에도 일에서 벗어나기 어려운 상황이시네요.",
       "turn": 14,
-      "speaker": "client",
-      "text": "그렇긴 하네요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "그리고 신규 고객보다 기존 고객 관리에 집중해보는 건 어떨까요? 본인이 잘했던 방식으로 돌아가는 거죠.",
       "technique": [
-        "information_giving",
-        "encouragement"
+        "reflection"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "기존 고객들... 요즘 연락도 제대로 못 했어요. 미안해서 연락하기도 그렇고..."
+      "text": "네... 남자친구랑도 요즘 자주 싸워요. 데이트 약속을 여러 번 취소했거든요. '일이 너무 중요해?'라고 물어보는데, 뭐라고 대답해야 할지 모르겠어요.",
+      "turn": 15
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "미안한 마음이 드시는군요. 하지만 그분들 입장에서는 본인이 연락해주는 게 고마울 수도 있어요. 이번 주에 5명만이라도 연락해보는 건 어떨까요?",
-      "technique": [
-        "empathy",
-        "goal_setting"
-      ]
-    },
-    {
+      "text": "일 때문에 개인적인 관계에도 영향을 받고 계시군요. 남자친구의 질문에 답하기 어려우셨다는 건, 내담자님 스스로도 지금 상황에 대해 혼란스러운 마음이 있으신 것 같아요.",
       "turn": 16,
-      "speaker": "client",
-      "text": "5명이요? 할 수 있을 것 같아요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "판매 목적이 아니라 안부 목적으로요. '요즘 어떻게 지내세요?' 이런 식으로. 관계를 다시 쌓는 거예요.",
       "technique": [
-        "structuring",
-        "information_giving"
+        "interpretation"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "알겠어요. 해볼게요."
+      "text": "맞아요... 사실 저도 이게 정상이 아니라는 건 알아요. 그런데 멈출 수가 없어요. 뭔가 놓치면 또 문제가 생길 것 같고, 그럼 제가 무능한 팀장이라는 게 드러날 것 같아요.",
+      "turn": 17
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "그리고 본인의 자존감 문제도 다뤄야 해요. '나만 못한다'는 생각이 계속되면 고객 앞에서도 자신감이 없어져요.",
-      "technique": [
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "실수나 문제가 생기는 것이 자신의 무능함을 드러내는 것이라고 느끼시는군요. 그래서 완벽하게 통제하려고 하시는 것 같은데, 이런 생각은 언제부터 있으셨나요?",
       "turn": 18,
-      "speaker": "client",
-      "text": "맞아요. 요즘 고객 만날 때도 주눅 들어요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "지금 3개월 부진하지만, 6년 커리어를 보세요. 그동안 쌓은 경험과 실력이 사라진 게 아니에요. 일시적 슬럼프일 뿐이죠.",
       "technique": [
-        "encouragement",
-        "validation"
+        "exploration"
       ]
     },
     {
-      "turn": 19,
       "speaker": "client",
-      "text": "일시적... 맞을까요?"
+      "text": "생각해보니... 어릴 때부터 그랬던 것 같아요. 부모님이 항상 '최고가 되어야 한다'고 하셨거든요. 2등 하면 '왜 1등 못했냐'고 하시고... 실수는 용납이 안 됐어요.",
+      "turn": 19
     },
     {
-      "turn": 19,
       "speaker": "counselor",
-      "text": "맞아요. 하지만 슬럼프에서 벗어나려면 방법을 바꿔야 해요. 지금처럼 계속하면 악순환이 계속될 거예요.",
-      "technique": [
-        "validation",
-        "confrontation"
-      ]
-    },
-    {
+      "text": "어린 시절부터 완벽해야 한다는 기대를 받으며 성장하셨군요. 실수가 받아들여지지 않는 환경에서 자라셨다면, 지금 팀장으로서의 실수나 팀의 실수를 받아들이기 더욱 어려우셨을 것 같아요.",
       "turn": 20,
-      "speaker": "client",
-      "text": "알겠습니다. 변화가 필요하네요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "경제적 압박도 크시니, 단기 대책도 필요해요. 혹시 다른 수입원을 고려해보신 적 있으세요?",
       "technique": [
-        "structuring",
-        "open_question"
+        "validation"
       ]
     },
     {
-      "turn": 21,
       "speaker": "client",
-      "text": "부업이요? 시간이 없는데..."
+      "text": "그렇네요... 그래서 이렇게 힘든 건가요? 근데 팀장이면 완벽해야 하는 거 아닌가요?",
+      "turn": 21
     },
     {
-      "turn": 21,
       "speaker": "counselor",
-      "text": "부업이 아니라, 가족 지원이나 긴급 대출 같은 임시 방안이요. 경제적 압박을 조금이라도 줄이면 영업할 때 조급함이 줄어들 거예요.",
-      "technique": [
-        "clarification",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "팀장은 완벽해야 한다고 생각하시는군요. 내담자님이 생각하시는 '완벽한 팀장'은 어떤 모습인가요?",
       "turn": 22,
-      "speaker": "client",
-      "text": "가족한테 손 벌리긴 싫은데..."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "자존심이 상하시는 건 이해해요. 하지만 일시적으로 도움받고, 안정되면 갚으면 되잖아요. 지금처럼 압박 속에서 일하면 더 오래 걸릴 수 있어요.",
       "technique": [
-        "validation",
-        "information_giving"
+        "socratic_questioning"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "생각해볼게요."
+      "text": "음... 모든 걸 파악하고 있고, 실수가 없고, 팀원들한테 존경받고... 그런데 이렇게 말하니까 불가능한 것 같네요.",
+      "turn": 23
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "이번 주에 할 것들 정리해볼까요? 기존 고객 5명에게 안부 연락하기, 본인만의 현실적 목표 세우기, 경제적 임시 방안 고려하기. 맞나요?",
-      "technique": [
-        "summarization",
-        "closed_question"
-      ]
-    },
-    {
+      "text": "스스로 말씀하시면서 그 기준이 현실적으로 달성하기 어렵다는 것을 느끼셨네요. 중요한 통찰이에요. 실제로 내담자님이 존경하는 리더나 상사 중에 그런 완벽한 모습을 가진 분이 계신가요?",
       "turn": 24,
-      "speaker": "client",
-      "text": "네, 맞아요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "가장 먼저 할 건 뭔가요?",
       "technique": [
-        "open_question"
+        "socratic_questioning"
       ]
     },
     {
-      "turn": 25,
       "speaker": "client",
-      "text": "기존 고객 연락이요. 오늘 당장 해볼게요."
+      "text": "아... 생각해보니 없네요. 우리 전 팀장님도 가끔 실수하셨고, 그래도 우리는 그분을 존경했어요. 오히려 실수를 인정하고 함께 해결하려는 모습이 좋았던 것 같아요.",
+      "turn": 25
     },
     {
-      "turn": 25,
       "speaker": "counselor",
-      "text": "훌륭해요. 판매 생각 말고, 진심으로 안부만 물어보세요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
+      "text": "아주 중요한 발견을 하셨네요. 완벽함이 아니라 실수를 인정하고 함께 해결하는 태도가 존경받는 리더의 모습이었다는 것을요. 지금 내담자님은 어떤 리더의 모습을 보여주고 계신가요?",
       "turn": 26,
-      "speaker": "client",
-      "text": "네, 그렇게 할게요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "그리고 자책하지 마세요. 슬럼프는 누구에게나 와요. 중요한 건 어떻게 극복하느냐예요.",
       "technique": [
-        "validation",
-        "encouragement"
+        "reflection"
       ]
     },
     {
-      "turn": 27,
       "speaker": "client",
-      "text": "감사합니다. 조금 희망이 보여요."
+      "text": "저는... 팀원들을 믿지 못하고 모든 걸 통제하려고 하고 있네요. 팀원들도 답답해할 것 같아요. 실제로 한 팀원이 '제가 할게요'라고 해도 제가 '내가 확인할게'라고 하거든요.",
+      "turn": 27
     },
     {
-      "turn": 27,
       "speaker": "counselor",
-      "text": "6년 경력의 전문가로서 본인을 믿으세요. 이 어려움도 지나갈 거예요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
+      "text": "스스로의 리더십 방식을 객관적으로 보기 시작하셨네요. 팀원들을 신뢰하지 못하는 것이 사실은 팀원들의 능력 문제가 아니라, 내담자님의 불안과 관련이 있다는 것을 알아차리신 것 같아요.",
       "turn": 28,
-      "speaker": "client",
-      "text": "오늘 상담이 큰 도움이 됐어요."
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "다음 주에 만나서 어떻게 진행됐는지 이야기 나눠봐요. 작은 성공이라도 있으면 꼭 공유해주세요.",
       "technique": [
-        "goal_setting",
-        "encouragement"
+        "interpretation"
       ]
     },
     {
-      "turn": 29,
       "speaker": "client",
-      "text": "네, 다음 주에 좋은 소식 가지고 올게요."
+      "text": "맞아요... 제 불안 때문에 팀원들까지 힘들게 하고 있었네요. 그럼 저는 어떻게 해야 하나요? 이 불안을 어떻게 줄일 수 있을까요?",
+      "turn": 29
     },
     {
-      "turn": 29,
       "speaker": "counselor",
-      "text": "기대할게요. 본인의 강점을 기억하세요. 관계 중심 영업, 그게 본인의 무기예요.",
+      "text": "변화를 원하시는 마음이 느껴져요. 먼저, 지금까지 내담자님이 해오신 방식, 즉 모든 것을 통제하려는 시도가 실제로 불안을 줄여주었나요, 아니면 오히려 불안이 더 커졌나요?",
+      "turn": 30,
       "technique": [
-        "encouragement",
-        "validation"
+        "socratic_questioning"
       ]
     },
     {
-      "turn": 30,
       "speaker": "client",
-      "text": "감사합니다. 다음 주에 뵙겠습니다."
+      "text": "오히려 더 커진 것 같아요. 확인할 게 많아지니까 더 불안하고, 잠도 못 자고... 악순환이네요.",
+      "turn": 31
     },
     {
-      "turn": 30,
       "speaker": "counselor",
-      "text": "힘내세요. 슬럼프는 일시적이에요. 다음 주에 뵙겠습니다.",
+      "text": "정확히 보셨어요. 불안을 줄이려는 시도가 오히려 불안을 키우는 악순환이 되고 있었네요. 이 패턴을 바꾸기 위해서는 점진적으로 통제를 내려놓고 팀원들을 신뢰하는 연습이 필요할 것 같아요. 작은 것부터 시도해볼 수 있을까요?",
+      "turn": 32,
       "technique": [
-        "encouragement",
-        "validation"
+        "guidance"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "해보고 싶어요. 근데 무섭기도 해요. 구체적으로 어떻게 시작하면 좋을까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "두려운 마음이 드는 것은 자연스러운 일이에요. 이번 주에 작은 업무 하나를 선택해서, 팀원에게 맡기고 중간 확인 없이 최종 결과만 받아보는 건 어떨까요? 그리고 그때의 불안 수준과 실제 결과를 기록해보는 거예요.",
+      "turn": 34,
+      "technique": [
+        "behavioral_experiment"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "해볼 수 있을 것 같아요. 그리고... 수면 문제도 해결하고 싶어요. 너무 피곤해요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "수면은 정말 중요하죠. 잠들기 전에 어떤 루틴을 가지고 계신가요? 일과 관련된 생각을 정리하는 시간을 따로 가져보시는 것도 도움이 될 수 있어요. 예를 들어, 저녁 8시에 10분간 걱정 목록을 적고, 그 이후로는 일 생각을 하지 않기로 약속하는 거죠.",
+      "turn": 36,
+      "technique": [
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그런 방법도 있군요. 시도해볼게요. 오늘 상담하면서 제가 왜 이렇게 힘들었는지 조금 이해가 됐어요. 완벽해야 한다는 생각이 저를 이렇게 만들었네요.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "오늘 정말 중요한 통찰들을 많이 하셨어요. 완벽주의가 어디서 왔는지, 그것이 지금 어떤 영향을 미치고 있는지 알아차리셨고, 변화를 위한 구체적인 첫걸음도 계획하셨어요. 이번 주 실험을 해보시고, 다음에 그 경험을 함께 나눠보면 좋겠습니다.",
+      "turn": 38,
+      "technique": [
+        "summarization"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "27세",
-    "gender": "여성",
-    "occupation": "연구원",
-    "background": "새로운 사람을 만나는 것이 두려운 사회불안"
-  }
+  ]
 }

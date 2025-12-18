@@ -1,467 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "꿈 찾기",
-    "total_turns": 30,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "closed_question",
-      "emotion_labeling",
-      "validation",
-      "information_giving",
-      "structuring"
-    ]
+    "topic": "정체성 혼란",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:24.937548+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_가족갈등_0014_부모님이혼",
-    "category": "adolescent",
-    "topic": "꿈 찾기"
+  "client_profile": {
+    "age": "16세",
+    "gender": "남성",
+    "occupation": "고등학교 1학년",
+    "background": "정체성 혼란 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.012667+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "선생님... 부모님이 이혼하신대요. 어제 저한테 말씀하셨어요."
+      "text": "엄마가 상담 받아보라고 해서 왔어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "부모님의 이혼 소식을 들었군요. 갑작스러운 소식에 많이 놀라고 혼란스러우셨겠어요. 어떤 기분이 드세요?",
-      "technique": [
-        "reflection",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
       "turn": 2,
-      "speaker": "client",
-      "text": "믿기지가 않아요... 싸우시긴 했지만 설마 이혼까지 하실 줄은... 저는 어떻게 되는 거죠?"
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "현실감이 없고, 자신의 미래에 대한 불안감이 크시군요. 부모님께서 양육이나 생활에 대해 말씀해주신 게 있나요?",
       "technique": [
-        "emotion_labeling",
+        "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "엄마랑 살래, 아빠랑 살래 물어보셨어요. 근데 저는... 둘 다 좋은데 어떻게 선택해요. 누구를 선택하든 한 분은 버리는 거잖아요."
+      "text": "저... 요즘 친구들이랑 잘 안 맞는 것 같아요. 아니, 친구들이 저를 싫어하는 것 같아요.",
+      "turn": 3
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "선택 자체가 한 분을 포기하는 것처럼 느껴져서 죄책감이 드시는군요. 정말 어려운 상황이에요. 두 분 모두 사랑하는 마음이 크시니까 더 힘드시겠어요.",
-      "technique": [
-        "reflection",
-        "empathy",
-        "validation"
-      ]
-    },
-    {
+      "text": "친구들과의 관계에서 힘든 일이 있었나 보네요. 어떤 일이 있었는지 좀 더 자세히 이야기해줄 수 있을까요?",
       "turn": 4,
-      "speaker": "client",
-      "text": "네... 엄마는 제가 엄마를 선택해주길 바라시는 것 같고, 아빠도 그러실 것 같고... 저는 그냥 세 명이 함께 살고 싶은데..."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "양쪽 모두의 기대를 느끼고 있고, 무엇보다 가족이 함께 있기를 원하시는군요. 이혼을 막을 수 있을 거라는 희망도 있으신가요?",
       "technique": [
-        "reflection",
-        "closed_question"
+        "open_ended_question"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "처음엔 제가 뭐라도 하면 막을 수 있을 것 같았어요. 근데 부모님 표정 보니까... 이미 결정하신 것 같아요. 돌이킬 수 없는..."
+      "text": "지난 주말에 인스타 보다가... 제 친한 친구들이 다 같이 놀러 간 사진을 봤어요. 근데 저만 빠져 있었어요. 아무도 저한테 연락 안 했어요.",
+      "turn": 5
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "희망을 가지려 했지만 현실을 받아들이게 되는 과정이시군요. 그 과정이 고통스러우실 거예요. 부모님이 이혼하시는 이유에 대해 설명해주셨나요?",
-      "technique": [
-        "empathy",
-        "validation",
-        "open_question"
-      ]
-    },
-    {
+      "text": "자신만 빠진 모임 사진을 보았을 때 정말 많이 속상하고 서운했겠어요. 그 순간 어떤 기분이 들었나요?",
       "turn": 6,
-      "speaker": "client",
-      "text": "'가치관이 맞지 않는다', '더 이상 함께 살 수 없다'고만 하셨어요. 구체적으로는 안 말씀해주셨어요. 제 잘못인가요? 제가 더 착하게 굴었으면..."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "지금 자신을 탓하고 계시는군요. 하지만 명확히 말씀드릴게요. 부모님의 이혼은 절대 당신 잘못이 아니에요. 이건 부모님 두 분 사이의 문제예요.",
       "technique": [
-        "reflection",
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "하지만... 제가 더 말 잘 듣고, 성적도 잘 받고, 그랬으면 부모님이 덜 싸우셨을 텐데..."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "자신이 뭔가 더 했어야 했다고 생각하시는군요. 하지만 부부 관계의 문제는 자녀가 해결할 수 없어요. 당신은 충분히 좋은 딸이에요. 이건 어른들의 선택이에요.",
-      "technique": [
-        "reflection",
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "그럼... 저는 정말 아무것도 할 수 없는 거예요? 그냥 받아들여야 하는 거예요?"
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "이혼 자체를 막을 수는 없지만, 당신의 생각과 감정을 표현할 수는 있어요. 부모님께 지금 느끼는 감정과 원하는 것을 솔직하게 말씀드린 적 있나요?",
-      "technique": [
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "아니요... 부모님도 힘들어 보이셔서 제 감정을 말하면 더 부담주는 것 같아서요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "부모님을 배려하는 마음에 자신의 감정을 숨기고 계시는군요. 하지만 당신도 이 상황의 당사자예요. 당신의 감정과 의견을 표현할 권리가 있어요.",
-      "technique": [
-        "reflection",
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "뭐라고 말해야 할지 모르겠어요. '이혼하지 마세요'라고 하면 소용없을 것 같고..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "이혼을 막는 것보다, 당신이 느끼는 감정과 앞으로에 대한 걱정을 나누는 게 중요해요. '저는 두 분 모두 사랑하고, 선택하기가 어렵다. 제 마음을 이해해달라'고 말하는 거죠.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "그렇게 말하면... 부모님이 이해해주실까요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "부모님도 당신을 사랑하시니까 당신의 마음을 듣고 싶어하실 거예요. 그리고 당신이 억지로 한쪽을 선택하는 것보다, 당신의 진심을 아는 게 부모님께도 중요할 거예요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "근데 선생님... 친구들한테는 어떻게 말하죠? 부모님이 이혼했다는 걸..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "친구들의 반응이 걱정되시는군요. 모든 친구에게 말할 필요는 없어요. 신뢰하는 친한 친구에게만 말하거나, 아니면 말하지 않아도 괜찮아요. 당신이 편한 대로 하면 돼요.",
-      "technique": [
-        "reflection",
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "말하면 동정받는 것 같을 것 같아서 싫어요. '불쌍하다'는 눈빛으로 보는 것도..."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "동정받고 싶지 않은 마음이 드시는군요. 그럼 굳이 말하지 않으셔도 돼요. 하지만 혼자 감당하기 힘들 때 도움을 청하는 건 약함이 아니라 용기예요.",
-      "technique": [
-        "reflection",
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "제 절친 유나한테는... 말해도 될 것 같아요. 유나는 이해해줄 것 같아요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "유나라는 믿을 수 있는 친구가 있군요. 그 친구에게 지금 상황과 감정을 나누는 건 좋은 선택이에요. 혼자 짊어지지 마세요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "네... 그리고 선생님, 제가 엄마나 아빠 중 한 분을 선택하면... 안 선택한 분은 저를 미워하실까요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "그 두려움이 크시군요. 하지만 부모님은 당신의 선택을 이해하실 거예요. 그리고 한쪽과 사는 것이 다른 쪽과의 관계를 끊는 건 아니에요. 양쪽 부모님 모두와 관계를 유지할 수 있어요.",
-      "technique": [
-        "empathy",
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "정말요? 계속 만날 수 있어요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "물론이죠. 많은 이혼 가정의 자녀들이 양쪽 부모님과 시간을 보내요. 주말에 만나거나 방학에 함께 지내는 방식으로요. 부모님께 그런 면회에 대해 이야기 나눠보셨나요?",
-      "technique": [
-        "information_giving",
-        "validation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "아직 구체적으로는... 그냥 누구랑 살 거냐만 물어보셨어요."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "그럼 부모님께 당신의 바람을 말씀드려보세요. '누구와 살더라도 두 분 모두 자주 만나고 싶다'고요. 당신의 의견을 존중해주실 거예요.",
-      "technique": [
-        "structuring",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "네... 그렇게 말씀드려볼게요. 근데 학교는 어떻게 되는 거죠? 이사 가야 하나요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "그것도 걱정이시군요. 이사 여부는 부모님과 상의해야 할 부분이에요. 당신이 학교를 옮기고 싶지 않다면 그것도 분명히 말씀드리세요. 당신의 생활도 중요하니까요.",
-      "technique": [
-        "reflection",
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "저는... 지금 학교에 계속 다니고 싶어요. 친구들도 있고, 익숙한 곳이니까..."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "환경의 변화를 최소화하고 싶은 마음이시군요. 그건 당연한 바람이에요. 부모님께 그 마음을 전달하세요. 가능한 한 당신의 일상이 유지될 수 있도록 배려하실 거예요.",
-      "technique": [
-        "reflection",
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "부모님... 저 때문에 싸우시진 않을까요? 제가 이것저것 요구하면..."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "또 자신을 탓하고 계시네요. 당신의 필요와 바람을 말하는 건 요구가 아니라 의사소통이에요. 부모님이 이혼하시더라도 당신에 대한 사랑은 변하지 않아요.",
-      "technique": [
-        "reflection",
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "정말 그럴까요? 저는... 부모님이 저를 부담스러워하실까봐..."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "그런 두려움이 있으시군요. 하지만 부모가 된다는 건 평생 자녀를 사랑하고 책임지는 거예요. 이혼은 부부관계의 끝이지 부모-자녀 관계의 끝이 아니에요.",
-      "technique": [
-        "empathy",
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "선생님 말씀 듣고 조금 안심이 되는 것 같아요. 그래도... 여전히 슬퍼요."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "슬픔은 자연스러운 감정이에요. 가족의 형태가 바뀌는 건 큰 변화니까요. 슬퍼해도 괜찮아요. 그 감정을 억누를 필요 없어요.",
-      "technique": [
-        "validation",
         "empathy"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "친구들은 다 부모님이랑 같이 사는데... 저만 이혼 가정이 되는 게 서럽고..."
+      "text": "너무 화나고... 슬프고... 제가 뭘 잘못한 건지 모르겠어요. 계속 그 생각만 나요.",
+      "turn": 7
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "다른 가정과 비교하면서 박탈감을 느끼시는군요. 하지만 가족의 형태가 달라도 사랑은 달라지지 않아요. 그리고 당신만 그런 상황이 아니에요. 많은 친구들이 비슷한 경험을 하고 있어요.",
+      "text": "화나고 슬픈 감정이 동시에 들었군요. 그리고 자신이 무엇을 잘못했는지 계속 생각하게 되었다는 거네요.",
+      "turn": 8,
       "technique": [
-        "reflection",
-        "information_giving",
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 밤에 잠도 잘 안 왔어요. 제가 평소에 친구들한테 안 좋게 했나 계속 생각했어요.",
+      "turn": 9
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "turn": 10,
+      "technique": [
         "validation"
       ]
     },
     {
+      "speaker": "client",
+      "text": "그런데 월요일에 학교에서 친구들을 만났을 때, 다들 아무렇지 않게 대하는 거예요. 그게 더 이상했어요.",
+      "turn": 11
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구들이 평소처럼 대하니까 오히려 더 혼란스럽고 이상하게 느껴졌나요?",
+      "turn": 12,
+      "technique": [
+        "clarification"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 맞아요. 저는 엄청 상처받았는데 친구들은 아무렇지도 않은 것처럼... 제가 예민한 건가 싶기도 하고요.",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "turn": 14,
+      "technique": [
+        "open_ended_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아니요... 물어보기가 무서워요. 만약에 진짜로 저를 싫어해서 일부러 안 부른 거면 어떡하죠?",
+      "turn": 15
+    },
+    {
+      "speaker": "counselor",
+      "text": "거절당하거나 상처받을까 봐 두렵다는 거네요. 그런 걱정이 드는 건 충분히 이해가 돼요.",
+      "turn": 16,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 요즘 단톡방에서도 제가 말하면 다들 대답을 잘 안 해주는 것 같아요. 다른 애들이 말하면 바로 답장하는데...",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "단톡방에서도 비슷한 느낌을 받았군요. 그런 상황들이 반복되면서 점점 더 소외감을 느끼게 된 것 같네요.",
+      "turn": 18,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 이제는 학교 가는 것도 싫어요. 점심시간이 제일 힘들어요. 어디 앉아야 할지 모르겠어요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "학교생활 전반이 힘들어졌고, 특히 점심시간이 가장 어렵다는 거네요. 지금은 어떻게 점심시간을 보내고 있나요?",
+      "turn": 20,
+      "technique": [
+        "clarification"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그냥... 친구들이랑 같이 앉긴 하는데, 제가 먼저 말 걸지 않으면 아무도 저한테 말 안 거는 것 같아요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "turn": 22,
+      "technique": [
+        "open_ended_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 중학교 때까지는 괜찮았어요. 고등학교 올라오면서 반이 바뀌었는데, 처음에는 잘 지냈거든요. 그런데 2학기 들어서부터 이상해진 것 같아요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "2학기 시작하면서 뭔가 변화가 있었나요? 특별한 사건이 있었거나, 아니면 조금씩 달라진 건가요?",
       "turn": 24,
-      "speaker": "client",
-      "text": "다른 애들도요? 그래도 제 주변엔 별로 없는 것 같은데..."
+      "technique": [
+        "exploration"
+      ]
     },
     {
-      "turn": 24,
+      "speaker": "client",
+      "text": "특별한 일은 없었던 것 같은데... 아, 그때 제가 시험 성적이 반에서 1등 했어요. 그 후로 좀 달라진 것 같기도 해요.",
+      "turn": 25
+    },
+    {
       "speaker": "counselor",
-      "text": "눈에 띄지 않을 뿐이에요. 많은 학생들이 이혼 가정에서 살고 있고, 건강하게 잘 성장하고 있어요. 가족의 형태가 행복을 결정하는 건 아니에요.",
+      "text": "성적이 좋았던 것과 친구들의 태도 변화 사이에 연관이 있을 수도 있다고 느끼는 거네요.",
+      "turn": 26,
       "technique": [
-        "information_giving",
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그때 친구 하나가 농담처럼 '너 공부만 하냐'고 했었어요. 근데 그게 농담이 아니었던 것 같아요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 말이 단순한 농담이 아니라 친구의 진짜 감정이었을 수도 있다고 생각하는군요. 그 말을 들었을 때 어떻게 반응했나요?",
+      "turn": 28,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그냥 웃어넘겼어요. 뭐라고 대답해야 할지 몰라서... 그리고 제가 공부를 열심히 하는 게 잘못된 건 아니잖아요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "맞아요. 공부를 열심히 하는 것은 전혀 잘못된 게 아니에요. 오히려 칭찬받아야 할 일이죠. 당신의 노력은 정당하고 가치 있는 거예요.",
+      "turn": 30,
+      "technique": [
         "validation"
       ]
     },
     {
-      "turn": 25,
       "speaker": "client",
-      "text": "저도... 잘 견뎌낼 수 있을까요?"
+      "text": "그렇죠? 근데 왜 친구들은 저를 멀리하는 걸까요? 제가 뭘 어떻게 해야 할지 모르겠어요.",
+      "turn": 31
     },
     {
-      "turn": 25,
       "speaker": "counselor",
-      "text": "물론이에요. 지금 이렇게 자신의 감정을 표현하고, 도움을 구하는 것 자체가 잘 대처하고 있다는 증거예요. 당신은 충분히 강해요.",
+      "text": "지금 정말 혼란스럽고 답답한 상황이네요. 친구들과의 관계를 회복하고 싶은 마음이 큰 것 같아요. 그렇다면 우리가 함께 이 상황을 어떻게 풀어갈 수 있을지 생각해볼까요?",
+      "turn": 32,
       "technique": [
-        "encouragement",
-        "validation"
+        "collaborative_approach"
       ]
     },
     {
-      "turn": 26,
       "speaker": "client",
-      "text": "감사합니다... 혼자 끙끙 앓지 말고 선생님께 얘기하길 잘한 것 같아요."
+      "text": "네... 좋아요. 근데 정말 방법이 있을까요?",
+      "turn": 33
     },
     {
-      "turn": 26,
       "speaker": "counselor",
-      "text": "잘 선택하셨어요. 앞으로도 힘들 때 언제든 오세요. 그리고 부모님과 솔직한 대화를 나눠보세요. 당신의 감정, 바람, 걱정을 모두요.",
+      "text": "먼저, 한 가지 생각해볼 점이 있어요. 지금 당신이 느끼는 감정들과 실제 상황이 정확히 일치하는지 확인해볼 필요가 있어요. 친구들이 정말 당신을 싫어하는 건지, 아니면 다른 이유가 있는 건지 말이에요.",
+      "turn": 34,
       "technique": [
-        "encouragement",
-        "structuring"
+        "cognitive_restructuring"
       ]
     },
     {
-      "turn": 27,
       "speaker": "client",
-      "text": "네, 오늘 집에 가서 부모님께 말씀드려볼게요. 제가 느끼는 것들을..."
+      "text": "다른 이유요? 어떤 이유가 있을 수 있을까요?",
+      "turn": 35
     },
     {
-      "turn": 27,
       "speaker": "counselor",
-      "text": "용기있는 결정이에요. 대화할 때는 비난하지 말고, '나는 이렇게 느낀다', '나는 이걸 원한다' 형식으로 말하는 게 좋아요. 이해되시죠?",
+      "text": "예를 들어, 그 모임이 갑자기 정해진 거라 연락할 시간이 없었을 수도 있고, 누군가 당신에게 연락한다고 했는데 실수로 빠뜨렸을 수도 있어요. 아니면 친구들이 당신이 공부하느라 바쁠 거라고 생각해서 일부러 방해하지 않으려 했을 수도 있고요.",
+      "turn": 36,
       "technique": [
-        "encouragement",
-        "information_giving"
+        "reframing"
       ]
     },
     {
-      "turn": 28,
       "speaker": "client",
-      "text": "네, 이해했어요. '엄마 아빠 둘 다 사랑하고, 계속 만나고 싶다. 그리고 학교는 옮기고 싶지 않다' 이렇게요."
+      "text": "아... 그런 가능성도 있네요. 생각해보니 제가 최근에 시험 준비한다고 먼저 약속을 몇 번 거절한 적이 있어요.",
+      "turn": 37
     },
     {
-      "turn": 28,
       "speaker": "counselor",
-      "text": "완벽해요. 그렇게 솔직하게 말씀하시면 부모님도 당신의 마음을 이해하실 거예요. 다음 주에 어떻게 됐는지 얘기 나눠요.",
+      "text": "그렇군요. 그럼 친구들이 당신이 바쁘다고 생각해서 배려한 것일 수도 있겠네요. 이제 다음 단계로, 친구들과 솔직하게 대화해보는 건 어떨까요?",
+      "turn": 38,
       "technique": [
-        "encouragement",
-        "validation",
-        "structuring"
+        "suggestion"
       ]
     },
     {
-      "turn": 29,
       "speaker": "client",
-      "text": "네, 감사합니다, 선생님. 많이 도움이 됐어요."
+      "text": "어떻게 말을 꺼내야 할까요? 너무 부담스럽게 들리지 않게 하고 싶어요.",
+      "turn": 39
     },
     {
-      "turn": 29,
       "speaker": "counselor",
-      "text": "천천히 받아들이세요. 시간이 필요한 일이에요. 그리고 기억하세요, 이건 당신 잘못이 아니고, 당신은 혼자가 아니라는 걸요.",
+      "text": "가장 편한 친구 한 명을 선택해서, 가볍게 '나도 다음엔 같이 놀고 싶어. 요즘 시험 끝났으니까 시간 있어'라고 말해보는 건 어떨까요? 비난하거나 따지는 게 아니라, 당신의 바람을 표현하는 거예요.",
+      "turn": 40,
       "technique": [
-        "validation",
-        "encouragement",
-        "information_giving"
+        "behavioral_guidance"
       ]
     },
     {
-      "turn": 30,
       "speaker": "client",
-      "text": "네, 기억할게요. 다음 주에 뵙겠습니다."
+      "text": "그 정도면 할 수 있을 것 같아요. 민지한테 말해볼까요? 민지가 제일 오래 친하게 지낸 친구거든요.",
+      "turn": 41
     },
     {
-      "turn": 30,
       "speaker": "counselor",
-      "text": "응원할게요. 힘내세요.",
+      "text": "좋은 선택이에요. 민지와 먼저 대화해보고, 그 결과에 따라 다음 단계를 함께 생각해보면 좋겠어요. 오늘 우리가 나눈 이야기를 정리해볼까요?",
+      "turn": 42,
+      "technique": [
+        "summarization"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 좋아요.",
+      "turn": 43
+    },
+    {
+      "speaker": "counselor",
+      "text": "당신은 친구들에게서 소외감을 느꼈고, 그것 때문에 많이 힘들어했어요. 하지만 우리가 이야기하면서, 친구들의 행동에는 여러 가능성이 있을 수 있다는 걸 알게 되었어요. 그리고 민지에게 먼저 솔직하게 마음을 표현해보기로 했죠.",
+      "turn": 44,
+      "technique": [
+        "summarization"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 맞아요. 이야기하고 나니까 좀 마음이 편해진 것 같아요. 제가 너무 부정적으로만 생각했던 것 같아요.",
+      "turn": 45
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 생각을 하게 된 건 자연스러운 거예요. 중요한 건 이제 다른 관점으로도 볼 수 있게 되었다는 거죠. 다음 주에 민지와 대화한 결과를 함께 이야기해보면 좋겠어요.",
+      "turn": 46,
       "technique": [
         "encouragement"
       ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 선생님. 다음 주에 또 올게요. 오늘 정말 도움이 많이 됐어요. 감사합니다.",
+      "turn": 47
+    },
+    {
+      "speaker": "counselor",
+      "text": "천천히 해나가면 돼요. 언제든 힘들면 이야기하러 오세요. 잘 할 수 있을 거예요.",
+      "turn": 48,
+      "technique": [
+        "support"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
     }
-  ],
-  "client_profile": {
-    "age": "15세",
-    "gender": "여성",
-    "occupation": "중학교 3학년",
-    "background": "장래 희망을 찾지 못해 불안한 상황"
-  }
+  ]
 }

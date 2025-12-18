@@ -1,406 +1,343 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "가정환경",
-    "total_turns": 27,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "restatement",
-      "validation",
-      "closed_question",
-      "information_giving",
-      "confrontation"
-    ]
+    "topic": "친구 관계 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:26.589749+00:00"
   },
-  "seed_info": {
-    "source_file": "adolescent_career_0004",
-    "category": "adolescent",
-    "topic": "가정환경"
+  "client_profile": {
+    "age": "16세",
+    "gender": "남성",
+    "occupation": "고등학교 1학년",
+    "background": "친구 관계 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.838913+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "선생님... 저 대학 안 가고 취업하려고 하는데 너무 불안해요."
+      "text": "요즘 잠을 못 자요. 자꾸 생각이 많아서요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "취업을 준비하고 계시는데 불안감이 크신가봐요. 어떤 부분이 가장 불안하신가요?",
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
+      "turn": 2,
       "technique": [
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 2,
       "speaker": "client",
-      "text": "다 불안해요. 제가 취업을 할 수 있을지, 취업해도 제대로 할 수 있을지... 그리고 주변 사람들이 대학도 안 간다고 뭐라고 할 것 같아서요."
+      "text": "음... 사실 요즘 학교 가기가 너무 싫어요. 친구들이랑 있어도 혼자 있는 것 같고...",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "취업 자체에 대한 두려움과 함께 주변의 시선도 걱정되시는군요. 대학 진학 대신 취업을 선택하신 이유가 있나요?",
+      "text": "학교에서 친구들과 함께 있어도 혼자 있는 것처럼 느껴진다는 거네요. 그런 기분이 들면 정말 힘들었을 것 같아요.",
+      "turn": 4,
       "technique": [
-        "empathy",
         "reflection",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 지난주에 인스타 보니까 제 친한 친구들이라고 생각했던 애들이 저 빼고 다 같이 놀러 간 사진을 올렸더라고요.",
+      "turn": 5
+    },
+    {
+      "speaker": "counselor",
+      "text": "친하다고 생각했던 친구들이 자신만 빼고 만난 걸 소셜미디어에서 보게 됐군요. 그 순간 어떤 기분이 들었나요?",
+      "turn": 6,
+      "technique": [
         "open_question"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "집안 형편도 그렇고... 솔직히 공부가 제 길이 아닌 것 같아요. 차라리 빨리 사회에 나가서 일 배우는 게 나을 것 같거든요."
+      "text": "처음엔 그냥... 뭔가 가슴이 철렁했어요. 그리고 나서 화도 나고, 슬프기도 하고... 왜 나만 빼고 만났을까 계속 생각하게 되더라고요.",
+      "turn": 7
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "경제적인 이유도 있고, 학업보다는 실무 경험을 쌓는 게 자신에게 맞다고 생각하시는군요. 현실적인 판단을 하신 것 같네요.",
+      "text": "가슴이 철렁하고, 화나고, 슬프기도 하고... 여러 가지 복잡한 감정들이 한꺼번에 밀려왔었네요. 그런 감정을 느끼는 게 당연해요.",
+      "turn": 8,
       "technique": [
-        "empathy",
-        "restatement",
         "validation"
       ]
     },
     {
-      "turn": 4,
       "speaker": "client",
-      "text": "그런데 주변에서 다들 대학은 나와야 한다고 하니까... 제가 잘못된 선택을 하는 건 아닌가 싶어요."
+      "text": "제가 뭘 잘못한 걸까요? 혹시 제가 모르는 사이에 애들한테 실수를 한 건 아닐까 싶어서 계속 생각해봤는데 잘 모르겠어요.",
+      "turn": 9
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "주변의 의견 때문에 자신의 선택이 흔들리시는군요. 대학 진학이 유일한 길이라고 생각하세요?",
-      "technique": [
-        "empathy",
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "아니요... 저는 그렇게 생각 안 하는데, 다들 그렇게 말하니까 불안해지는 거예요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "자신은 확신이 있는데 주변의 반응 때문에 흔들리는 거군요. 요즘은 대학 진학이 유일한 길이 아니에요. 특성화고, 마이스터고 졸업생들의 취업률도 높고, 직업교육을 통한 성공 사례도 많아요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "저는 일반고인데... 그래도 취업할 수 있을까요?"
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "일반고 출신이시군요. 어떤 분야에 관심이 있으세요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "기계 쪽이요. 손으로 뭔가 만들고 고치는 게 좋아요. 그래서 기계 관련 일을 하고 싶은데..."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "기계 관련 작업에 흥미가 있으시군요. 관련 경험이 있으신가요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "학교 동아리에서 간단한 기계 조립 같은 거 해봤어요. 그리고 집에서 고장 난 거 있으면 제가 고쳐보고 그래요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "이미 관련 활동을 하고 계시고, 실제로 문제를 해결한 경험도 있으시네요. 기계 관련 직업에는 어떤 것들이 있는지 알아보셨나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "자동차 정비사, 기계 정비사... 이런 거요? 근데 이런 일은 힘들고 돈도 많이 못 번다고 하던데..."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "기계 관련 직업에 대한 부정적인 이미지를 갖고 계시는 것 같네요. 실제로는 어떤지 제대로 알아보신 적 있나요?",
-      "technique": [
-        "reflection",
-        "confrontation"
-      ]
-    },
-    {
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "turn": 10,
-      "speaker": "client",
-      "text": "아니요... 그냥 주변에서 듣기만 했어요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "직접 알아보지 않고 소문만 듣고 판단하시는군요. 실제로는 기계 관련 직업의 범위가 매우 넓고, 전문성을 쌓으면 좋은 대우를 받을 수 있어요. 예를 들어 산업기계 기술자, 컴퓨터제어 가공 기술자, 자동화 설비 기술자 등은 수요가 많고 연봉도 괜찮아요.",
       "technique": [
-        "information_giving",
-        "clarification"
+        "exploration"
       ]
     },
     {
-      "turn": 11,
       "speaker": "client",
-      "text": "진짜요? 그런 직업들이 있는지 몰랐어요."
+      "text": "그냥... 평범하게 지냈어요. 점심도 같이 먹고, 쉬는 시간에도 같이 있고. 근데 생각해보니까 제가 먼저 말을 거는 경우가 더 많았던 것 같아요.",
+      "turn": 11
     },
     {
-      "turn": 11,
       "speaker": "counselor",
-      "text": "네, 그리고 국가기술자격증을 따면 취업에도 유리하고, 경력이 쌓이면 독립해서 사업을 할 수도 있어요. 기술직은 나이가 들어도 계속 일할 수 있다는 장점도 있고요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
+      "text": "평소에는 함께 시간을 보냈지만, 주로 본인이 먼저 다가가는 편이었다는 거네요. 그런 걸 깨닫고 나니 어떤 생각이 들었어요?",
       "turn": 12,
-      "speaker": "client",
-      "text": "자격증이요? 어떤 자격증을 따야 하나요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "기계 분야에는 기계정비산업기사, 일반기계기사, 용접기능사 등 다양한 자격증이 있어요. 자신이 원하는 분야에 따라 선택할 수 있죠.",
       "technique": [
-        "information_giving"
+        "reflection"
       ]
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "그런 자격증은 어떻게 따요? 공부해야 하는 거죠?"
+      "text": "혹시 애들이 저를 귀찮아하는 건 아닐까... 싶어요. 제가 너무 오버하는 거 아닌가 하는 생각도 들고요.",
+      "turn": 13
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "네, 필기와 실기 시험이 있어요. 학원이나 직업훈련원에서 교육을 받을 수도 있고, 독학으로 준비하는 사람들도 있어요. 취업 후에 회사에서 지원해주는 경우도 많고요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
+      "text": "친구들이 나를 부담스러워할까봐 걱정이 되는군요. 그런데 친구들이 실제로 그렇다고 말한 적이 있나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "취업 전에 따야 하나요, 아니면 취업하고 따도 되나요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "둘 다 가능해요. 취업 전에 자격증이 있으면 취업에 유리하지만, 자격증 없이 취업해서 경험을 쌓으면서 따는 것도 방법이에요. 어떤 게 자신에게 맞을지 생각해보셨나요?",
       "technique": [
-        "information_giving",
-        "open_question"
+        "reality_testing"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "음... 빨리 취업하고 싶은데, 자격증 없이 취업이 가능할까요?"
+      "text": "아니요... 그런 말은 들은 적 없어요. 근데 그 사진을 보고 나서는 확신이 들었어요. 애들이 저랑 안 놀고 싶어하는 게 맞는 것 같아요.",
+      "turn": 15
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "가능해요. 많은 기업들이 신입 사원을 뽑아서 교육시키는 과정을 운영해요. 특히 제조업 중소기업들은 인력이 부족해서 배울 의지가 있는 사람을 환영하죠.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "turn": 16,
-      "speaker": "client",
-      "text": "그렇군요. 근데 어떻게 취업 정보를 알 수 있나요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "워크넷, 고용24 같은 정부 취업 사이트, 학교 취업지원센터, 산업인력공단 등에서 정보를 얻을 수 있어요. 특성화고가 아니어도 일반고 학생들을 위한 취업 과정도 있어요.",
       "technique": [
-        "information_giving"
+        "cognitive_restructuring"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "학교 취업지원센터... 저희 학교에도 있나요?"
+      "text": "다른 가능성이요? 잘 모르겠는데요...",
+      "turn": 17
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "대부분의 고등학교에 있어요. 담당 선생님께 문의해보세요. 취업 정보뿐만 아니라 이력서 작성, 면접 준비 등도 도와주실 거예요.",
-      "technique": [
-        "information_giving",
-        "goal_setting"
-      ]
-    },
-    {
+      "text": "예를 들어, 그날 갑자기 만나게 된 거라든지, 아니면 우연히 몇 명만 같이 있게 된 상황일 수도 있지 않을까요?",
       "turn": 18,
-      "speaker": "client",
-      "text": "이력서나 면접... 생각만 해도 떨려요. 잘할 수 있을까요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "처음이라 긴장되시는 게 당연해요. 하지만 준비하면 할 수 있어요. 자신의 강점과 배우고 싶은 열정을 보여주면 돼요.",
       "technique": [
-        "validation",
-        "encouragement"
+        "alternative_perspective"
       ]
     },
     {
-      "turn": 19,
       "speaker": "client",
-      "text": "제 강점이요? 저한텐 그런 게 있을까요?"
+      "text": "음... 그럴 수도 있겠네요. 근데 저한테는 아무 말도 안 했잖아요. 그게 더 서운해요.",
+      "turn": 19
     },
     {
-      "turn": 19,
       "speaker": "counselor",
-      "text": "아까 말씀하신 것 있잖아요. 손으로 뭔가 만들고 고치는 걸 좋아하고, 실제로 고장 난 물건을 고친 경험도 있고, 동아리 활동도 했다고요. 이게 다 강점이에요.",
+      "text": "자신에게 말해주지 않았다는 게 서운하고 상처가 됐네요. 그건 충분히 그럴 수 있어요. 친구들에게 그 서운한 마음을 표현해본 적은 있나요?",
+      "turn": 20,
       "technique": [
-        "restatement",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아니요... 말하면 제가 너무 예민한 애처럼 보일까봐요. 그리고 애들이 더 저를 귀찮아할 것 같아요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신의 솔직한 감정을 표현하는 게 부담스럽고 두렵게 느껴지는군요. 그런데 말하지 않으면 친구들은 네가 어떻게 느끼는지 알 수 있을까요?",
+      "turn": 22,
+      "technique": [
+        "socratic_questioning"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그건... 모를 것 같아요. 근데 어떻게 말해야 할지 모르겠어요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 24,
+      "technique": [
+        "perspective_taking"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "저요? 음... 미안하다고 할 것 같아요. 그리고 왜 서운했는지 물어볼 것 같고요. 제가 모르고 그랬을 수도 있으니까요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇죠. 네가 친구라면 이해하려고 하고 미안해할 거라고 생각하는군요. 네 친구들도 그럴 가능성이 있지 않을까요?",
+      "turn": 26,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그럴 수도 있겠네요... 생각해보니 제가 너무 최악만 생각했던 것 같아요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "스스로 그걸 알아차렸네요. 상처받았을 때는 최악의 상황만 떠올리기 쉬워요. 그건 자연스러운 거예요. 이제 친구들과 대화해볼 마음이 조금 생기나요?",
+      "turn": 28,
+      "technique": [
         "validation"
       ]
     },
     {
-      "turn": 20,
       "speaker": "client",
-      "text": "아... 그렇게 생각하니까 저도 할 수 있는 게 있네요."
+      "text": "조금은요... 근데 여전히 무섭긴 해요. 만약에 정말로 저를 싫어한다고 하면 어떡하죠?",
+      "turn": 29
     },
     {
-      "turn": 20,
       "speaker": "counselor",
-      "text": "그렇죠. 그리고 배우려는 의지와 열정이 있다는 것도 큰 강점이에요. 기업들은 완벽한 사람보다 배우려는 자세를 가진 사람을 원하는 경우가 많아요.",
+      "text": "그 두려움도 이해해요. 하지만 지금처럼 확인하지 않고 혼자 상상만 하는 것과, 용기 내어 물어보고 진실을 아는 것 중에 어느 쪽이 더 나을까요?",
+      "turn": 30,
       "technique": [
-        "encouragement",
-        "information_giving"
+        "guided_discovery"
       ]
     },
     {
-      "turn": 21,
       "speaker": "client",
-      "text": "조금 자신감이 생기네요. 그런데 부모님은 뭐라고 하실까..."
+      "text": "물어보는 게 나을 것 같아요. 이렇게 계속 혼자 생각하는 게 더 힘든 것 같아요.",
+      "turn": 31
     },
     {
-      "turn": 21,
       "speaker": "counselor",
-      "text": "부모님은 취업에 대해 어떻게 생각하시나요?",
+      "text": "정말 중요한 깨달음이에요. 그럼 친구들에게 어떤 식으로 말을 꺼내볼 수 있을까요? 함께 연습해볼까요?",
+      "turn": 32,
       "technique": [
-        "open_question"
+        "behavioral_rehearsal"
       ]
     },
     {
-      "turn": 22,
       "speaker": "client",
-      "text": "별로 말씀 안 하시는데... 집안 형편이 어려우니까 제가 빨리 돈 벌었으면 하시는 것 같아요. 근데 좋은 직장 다녔으면 하시는 것 같기도 하고..."
+      "text": "네, 그럼 좋을 것 같아요. 도와주세요.",
+      "turn": 33
     },
     {
-      "turn": 22,
       "speaker": "counselor",
-      "text": "부모님은 당신이 안정적으로 잘 되기를 바라시는군요. 기술직도 안정적이고 좋은 직장이 될 수 있다는 걸 보여드리면 좋을 것 같아요.",
+      "text": "좋아요. 비난하는 톤이 아니라 '나-전달법'을 사용해서 네 감정을 표현하는 연습을 해봐요. '너희가 나를 빼고 만났어'가 아니라 '내가 이런 걸 보고 서운했어'처럼요.",
+      "turn": 34,
       "technique": [
-        "interpretation",
-        "goal_setting"
+        "skill_training"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "어떻게 보여드려요?"
+      "text": "아, 그렇게 말하는 거군요. 한번 해볼게요. '지난주에 너희가 만난 사진 봤는데, 나만 몰랐던 것 같아서 조금 서운했어. 혹시 내가 뭘 잘못한 거 있어?' 이렇게요?",
+      "turn": 35
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "구체적인 계획을 세워서 말씀드리는 거예요. 어떤 직종에 취업할 것인지, 자격증은 어떻게 딸 것인지, 미래 전망은 어떤지 등을 조사해서 보여드리면 부모님도 안심하실 거예요.",
+      "text": "아주 잘했어요! 자신의 감정을 솔직하게 표현하면서도 공격적이지 않게 말했네요. 이렇게 대화를 시작하면 친구들도 네 마음을 이해하고 설명할 기회를 가질 수 있을 거예요. 오늘 이야기 나눈 것 어땠나요?",
+      "turn": 36,
       "technique": [
-        "information_giving",
-        "goal_setting"
+        "positive_reinforcement"
       ]
     },
     {
-      "turn": 24,
       "speaker": "client",
-      "text": "그렇게 준비하면 되겠네요. 오늘 이야기하고 나니까 취업이 그렇게 막막하게만 느껴지지 않아요."
+      "text": "생각보다 도움이 많이 됐어요. 제가 혼자 너무 나쁘게만 생각하고 있었던 것 같아요. 친구들한테 한번 말해볼게요.",
+      "turn": 37
     },
     {
-      "turn": 24,
       "speaker": "counselor",
-      "text": "좋아요. 오늘 우리가 나눈 이야기를 정리해볼까요? 기계 분야에 관심이 있고, 관련 자격증과 취업 정보를 알아보기로 했어요. 학교 취업지원센터도 방문하고, 부모님께는 구체적인 계획을 세워서 말씀드리기로 했죠.",
+      "text": "용기 내서 시도해보는 것 자체가 큰 발걸음이에요. 다음에 만날 때 어떻게 됐는지 이야기 나눠봐요. 언제든 힘들면 찾아와도 좋아요.",
+      "turn": 38,
       "technique": [
-        "summarization",
-        "structuring"
+        "support"
       ]
     },
     {
-      "turn": 25,
       "speaker": "client",
-      "text": "네, 맞아요. 이제 뭘 해야 할지 알겠어요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 25,
       "speaker": "counselor",
-      "text": "대학 진학이 유일한 길이 아니에요. 자신에게 맞는 길을 선택한 것은 용기 있는 결정이에요. 그 길을 잘 준비하면 충분히 성공할 수 있어요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "validation",
-        "encouragement"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 26,
       "speaker": "client",
-      "text": "감사합니다, 선생님. 힘이 나네요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 26,
       "speaker": "counselor",
-      "text": "천천히 하나씩 준비해나가세요. 궁금한 게 생기거나 도움이 필요하면 언제든 찾아오세요. 응원할게요!",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement",
-        "structuring"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 27,
       "speaker": "client",
-      "text": "네, 꼭 다시 올게요!"
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 27,
       "speaker": "counselor",
-      "text": "좋은 소식 기다릴게요. 화이팅!",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement"
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "14세",
-    "gender": "여성",
-    "occupation": "중학교 2학년",
-    "background": "부모님의 불화로 인한 심리적 불안"
-  }
+  ]
 }

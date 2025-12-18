@@ -1,78 +1,70 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "우울감",
+    "topic": "불안장애",
     "total_turns": 25,
-    "quality_indicators": [
-      "validation",
-      "empathy",
-      "open_question",
-      "reflection",
-      "closed_question",
-      "restatement",
-      "emotion_labeling",
-      "clarification"
-    ]
+    "generated_at": "2025-12-18T07:14:29.647274+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_대인관계_0004_m3n4o5p6",
-    "category": "adult",
-    "topic": "우울감"
+  "client_profile": {
+    "age": "30세",
+    "gender": "남성",
+    "occupation": "개발자",
+    "background": "불안장애 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:40.372645+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "헤어진 지 3개월이 됐는데도 아직도 힘들어요. 이게 정상인가요?"
+      "text": "육아가 너무 힘들어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "3개월이 지났는데도 여전히 힘드시군요. 5년이나 함께하셨으니 충분히 그럴 수 있어요. 지금 어떤 점이 가장 힘드신가요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "text": "외과의사는 시간이 불규칙하잖아요. 수술 스케줄, 응급 콜... 가정을 돌보기 힘들어요."
+    },
+    {
+      "turn": 2,
+      "speaker": "counselor",
+      "text": "직업 특성상 시간 관리가 어려우시군요. 주변에 결혼한 여성 외과의는 없나요?",
+      "technique": [
+        "restatement",
+        "clarification",
+        "empathy"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "있긴 한데... 다들 힘들어 보여요. 일과 가정 둘 다 완벽히 못 하면서 죄책감 느끼고..."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "주변 사례를 보며 두 가지를 병행하는 게 어렵겠다고 느끼시는군요. 본인은 결혼 자체를 원하시나요, 아니면 부모님 때문에 고민하시는 건가요?",
       "technique": [
         "validation",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 2,
-      "speaker": "client",
-      "text": "모든 게요. 일도 집중이 안 되고, 친구들 만나도 재미없고... 그냥 무기력해요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "일상의 모든 부분에서 의욕이 없으시군요. 하루 일과가 어떠신지 말씀해주시겠어요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "아침에 일어나기 싫고, 출근해서도 멍하니 있고, 퇴근하면 그냥 누워있어요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "기본적인 일상도 버겁게 느껴지시는군요. 식사는 제대로 하고 계세요?",
-      "technique": [
-        "empathy",
-        "closed_question"
+        "clarification",
+        "empathy"
       ]
     },
     {
       "turn": 4,
       "speaker": "client",
-      "text": "아니요. 입맛도 없고... 먹어도 맛도 모르겠고요."
+      "text": "잘 모르겠어요. 외롭지 않은 건 아니지만... 결혼까지 해야 하나 싶기도 하고요."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "식욕까지 떨어지셨네요. 수면은 어떠세요?",
+      "text": "외로움은 느끼지만 결혼이 해답인지는 확신이 없으시군요. 결혼에 대해 어떤 이미지를 갖고 계세요?",
       "technique": [
         "reflection",
         "open_question"
@@ -81,302 +73,361 @@
     {
       "turn": 5,
       "speaker": "client",
-      "text": "잠을 못 자요. 자려고 누우면 생각이 많아져서요. 그 사람 생각이 계속 나요."
+      "text": "희생이요. 제 시간, 제 꿈, 제 자유를 포기하는 거..."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "밤에 잠들기 어려우시고 생각이 많아지시는군요. 어떤 생각들이 주로 드시나요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "왜 헤어졌을까, 내가 뭘 잘못했을까, 다시 연락하면 어떨까... 이런 생각들이요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "후회와 자책, 그리고 미련이 공존하고 있군요. 실제로 연락해보신 적은 있으세요?",
-      "technique": [
-        "emotion_labeling",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "몇 번요. 근데 답이 없어요. 소셜미디어는 차단당했고요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "연락을 시도했지만 응답이 없었군요. 그때 기분이 어땠어요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "처음엔 화가 났는데, 나중엔 그냥... 비참했어요. 제가 너무 초라해 보였어요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "분노에서 자괴감으로 이어졌네요. 이별의 이유가 무엇이었나요?",
+      "text": "결혼을 희생으로 보시는군요. 그런 생각은 어디서 오는 걸까요?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 9,
+      "turn": 6,
       "speaker": "client",
-      "text": "그 사람이 '마음이 식었다'고 했어요. 갑자기요. 아무 예고도 없이."
+      "text": "엄마를 보면... 엄마는 꿈이 많았는데 결혼하고 다 포기했어요. 저는 그렇게 살고 싶지 않아요."
     },
     {
-      "turn": 9,
+      "turn": 6,
       "speaker": "counselor",
-      "text": "예상치 못한 이별이었군요. 그래서 더 받아들이기 어려우셨을 것 같아요.",
+      "text": "어머니의 삶을 보며 결혼을 희생과 동일시하게 되셨군요. 하지만 모든 결혼이 어머니의 경우와 같을까요?",
       "technique": [
-        "empathy",
-        "validation"
+        "interpretation",
+        "confrontation"
       ]
     },
     {
-      "turn": 10,
+      "turn": 7,
       "speaker": "client",
-      "text": "네. 정말 갑자기였어요. 전날까지도 평소처럼 연락했는데..."
+      "text": "... 다르긴 하겠죠. 시대도 다르고..."
     },
     {
-      "turn": 10,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "갑작스러운 변화라 혼란스러우셨겠어요. 혹시 돌이켜보면 징조 같은 게 있었나요?",
+      "text": "맞아요. 요즘은 맞벌이 부부도 많고, 역할을 나누는 부부들도 있어요. 본인이 원하는 결혼 생활의 모습이 있나요?",
       "technique": [
         "validation",
-        "clarification"
+        "open_question"
       ]
     },
     {
-      "turn": 11,
+      "turn": 8,
       "speaker": "client",
-      "text": "지금 생각해보면... 몇 달 전부터 연락이 좀 뜸해지긴 했어요. 근데 그땐 몰랐어요."
+      "text": "서로 독립적이면서도 지지해주는... 그런 관계요. 근데 그런 사람을 찾을 수 있을까요?"
     },
     {
-      "turn": 11,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "당시에는 알아차리기 어려웠던 변화들이 있었군요. 그 징조들을 못 봤다고 본인을 자책하고 계신가요?",
+      "text": "본인의 커리어를 존중하고 지지해줄 파트너를 원하시는군요. 그런 사람이 없을 거라고 생각하시나요?",
       "technique": [
         "reflection",
         "closed_question"
       ]
     },
     {
+      "turn": 9,
+      "speaker": "client",
+      "text": "있을 수도 있겠지만... 찾기 힘들 것 같아요. 그리고 시간도 없고요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "시간이 없다는 게 결혼을 미루는 또 다른 이유이기도 하군요. 만약 시간이 있다면 결혼을 하고 싶으실까요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "잘 모르겠어요. 결혼 자체가 필수라고 생각하지 않거든요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "결혼을 필수로 보지 않으시는군요. 그렇다면 비혼을 선택하는 것도 고려하고 계신가요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "생각은 해봤어요. 근데 부모님이 너무 실망하실 것 같고... 나중에 후회하면 어쩌나 싶기도 하고요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "부모님의 기대와 본인의 미래에 대한 불안이 있으시군요. 지금 결정을 서둘러야 하는 이유가 있나요?",
+      "technique": [
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
       "turn": 12,
       "speaker": "client",
-      "text": "네... 제가 너무 둔했던 것 같아요. 좀 더 신경 썼으면..."
+      "text": "나이요. 34살인데 늦었잖아요. 아이 낳으려면..."
     },
     {
       "turn": 12,
       "speaker": "counselor",
-      "text": "본인을 많이 탓하고 계시네요. 하지만 관계는 혼자 만드는 게 아니에요. 상대방도 자신의 마음 변화를 솔직히 말할 책임이 있었죠.",
+      "text": "생물학적 시계에 대한 압박이 있으시군요. 그런데 아이를 꼭 원하시나요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그것도 잘 모르겠어요. 있으면 좋겠지만 없어도... 제 인생이 불행할 것 같지는 않아요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "아이에 대한 강한 욕구는 없으시군요. 그렇다면 결혼과 출산에 대한 압박이 사회적 기대 때문일 수도 있어요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "맞아요. 모두가 그렇게 사는데 저만 안 하면 이상한 사람 같고..."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "사회적 규범에서 벗어나는 게 두려우시군요. 하지만 '정상'이란 건 개인마다 달라요. 본인에게 맞는 삶을 사는 게 중요하죠.",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그래도... 제가 뭔가 했으면 달라졌을 수도 있잖아요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "그 가능성을 계속 생각하시는군요. 하지만 '만약에'는 현실이 아니에요. 그리고 상대의 마음을 본인이 통제할 수는 없어요.",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "그럼 저는 뭘 해야 하나요? 계속 이렇게 힘들 순 없잖아요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "회복하고 싶으신 마음이 있으시군요. 그게 중요한 첫걸음이에요. 지금 소셜미디어나 공통 친구를 통해 그 사람 소식을 접하고 계신가요?",
-      "technique": [
-        "encouragement",
-        "closed_question"
-      ]
-    },
-    {
       "turn": 15,
       "speaker": "client",
-      "text": "가끔요. 소셜미디어는 차단당했지만 공통 친구가 얘기해줘요."
+      "text": "제게 맞는 삶이요... 어떻게 알아요?"
     },
     {
       "turn": 15,
       "speaker": "counselor",
-      "text": "간접적으로라도 소식을 듣고 계시군요. 그 소식을 들으면 기분이 어떠세요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "궁금하면서도... 듣고 나면 더 아파요. 그 사람은 잘 지내는 것 같더라고요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "상대는 회복한 것처럼 보이니 본인만 힘든 것 같아서 더 괴로우신 거죠. 이별 회복을 위해 첫 번째로 필요한 건 '연결 끊기'예요.",
-      "technique": [
-        "empathy",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "연결 끊기요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "네. 소셜미디어 차단, 공통 친구에게 그 사람 소식 안 듣기, 추억의 물건 정리 등이요. 상처가 아물려면 계속 건드리지 말아야 해요.",
+      "text": "시간을 두고 본인의 가치관을 탐색하는 거예요. '내가 진짜 원하는 건 뭔가?', '어떤 삶이 나를 행복하게 할까?'요.",
       "technique": [
         "information_giving",
         "clarification"
       ]
     },
     {
-      "turn": 18,
+      "turn": 16,
       "speaker": "client",
-      "text": "근데 그러면 완전히 끝나는 거잖아요..."
+      "text": "지금 당장은 일이 제일 중요해요. 그게 저를 가장 만족시켜요."
     },
     {
-      "turn": 18,
+      "turn": 16,
       "speaker": "counselor",
-      "text": "이미 끝난 관계예요. 인정하기 어렵지만요. 끝을 받아들여야 새로운 시작이 가능해요.",
+      "text": "현재는 커리어가 우선순위군요. 그렇다면 지금은 그것에 집중하고, 결혼은 나중에 생각해도 되지 않을까요?",
       "technique": [
-        "confrontation",
+        "reflection",
         "information_giving"
       ]
     },
     {
-      "turn": 19,
+      "turn": 17,
       "speaker": "client",
-      "text": "... 너무 무서워요. 그 사람 없는 삶이."
+      "text": "그래도 되나요? 부모님은..."
     },
     {
-      "turn": 19,
+      "turn": 17,
       "speaker": "counselor",
-      "text": "5년을 함께했으니 두려운 게 당연해요. 하지만 그 사람 이전의 본인도 있었고, 이후의 본인도 있을 거예요.",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "validation",
-        "encouragement"
+        "goal_setting"
       ]
     },
     {
-      "turn": 20,
+      "turn": 18,
       "speaker": "client",
-      "text": "어떻게 시작하죠?"
+      "text": "실망하실 텐데..."
     },
     {
-      "turn": 20,
+      "turn": 18,
       "speaker": "counselor",
-      "text": "작은 것부터요. 오늘은 제시간에 잠자리에 들기, 내일은 아침 식사 챙기기. 이렇게 하나씩이요.",
-      "technique": [
-        "goal_setting",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "그게 도움이 될까요?"
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "일상의 리듬을 되찾는 게 회복의 기초예요. 작은 성취들이 쌓이면 힘이 돼요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "해볼게요. 근데 힘들면 어떡하죠?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "힘들면 다시 상담 오시면 돼요. 혼자 견딜 필요 없어요. 함께 해나가요.",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
         "validation",
-        "encouragement"
+        "clarification"
       ]
     },
     {
-      "turn": 23,
+      "turn": 19,
       "speaker": "client",
-      "text": "감사합니다. 조금은... 희망이 보이는 것 같아요."
+      "text": "그렇게 말하면 조금 나을 것 같네요. 해볼게요."
     },
     {
-      "turn": 23,
+      "turn": 19,
       "speaker": "counselor",
-      "text": "그 마음 잘 간직하세요. 회복은 직선이 아니라 곡선이에요. 나쁜 날도 있지만 결국 나아질 거예요.",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "오늘 이야기 나눠서 마음이 한결 가벼워진 것 같아요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
-      "technique": [
-        "empathy",
         "validation"
       ]
     },
     {
+      "turn": 20,
+      "speaker": "client",
+      "text": "감사합니다. 마음이 좀 편해졌어요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "잘하실 거예요. 본인의 삶을 사세요, 타인의 기대를 사는 게 아니라요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "선생님과 이야기하니까 마음이 좀 가벼워지는 것 같아요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "그렇게 말씀해 주셔서 감사해요. 앞으로도 함께 이야기 나눠요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "다음에는 뭘 이야기하면 될까요?"
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "편하게 그때 마음에 있는 이야기를 해주시면 돼요. 준비된 것 없어도 괜찮아요.",
+      "technique": [
+        "structuring",
+        "validation"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "선생님과 이야기하니까 마음이 좀 가벼워지는 것 같아요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "그렇게 말씀해 주셔서 감사해요. 앞으로도 함께 이야기 나눠요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "혼자서는 어떻게 해야 할지 모르겠어요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "혼자 해결하려고 하지 않으셔도 돼요. 함께 방법을 찾아볼게요.",
+      "technique": [
+        "empathy",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 25,
       "speaker": "client",
-      "text": "앞으로 어떻게 하면 좋을지 조금 더 생각해볼게요."
+      "text": "선생님과 이야기하니까 마음이 좀 가벼워지는 것 같아요."
     },
     {
       "turn": 25,
       "speaker": "counselor",
-      "text": "천천히 생각해보시고, 다음에 만나서 어떻게 지내셨는지 이야기 나눠봐요.",
+      "text": "그렇게 말씀해 주셔서 감사해요. 앞으로도 함께 이야기 나눠요.",
       "technique": [
-        "encouragement",
-        "structuring"
+        "validation",
+        "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "29세",
-    "gender": "여성",
-    "occupation": "디자이너",
-    "background": "특별한 이유 없이 지속되는 무기력과 우울"
-  }
+  ]
 }

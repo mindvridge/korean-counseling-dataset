@@ -1,260 +1,250 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "대인 불안",
-    "total_turns": 25,
-    "quality_indicators": [
-      "validation",
-      "empathy",
-      "open_question",
-      "reflection",
-      "closed_question",
-      "restatement",
-      "emotion_labeling",
-      "clarification"
-    ]
+    "topic": "이직 고민",
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:29.862796+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_대인관계_0004_m3n4o5p6",
-    "category": "adult",
-    "topic": "대인 불안"
+  "client_profile": {
+    "age": "35세",
+    "gender": "남성",
+    "occupation": "자영업",
+    "background": "이직 고민 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:40.610855+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "헤어진 지 3개월이 됐는데도 아직도 힘들어요. 이게 정상인가요?"
+      "text": "번아웃인 것 같아요. 아무것도 하기 싫어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "3개월이 지났는데도 여전히 힘드시군요. 5년이나 함께하셨으니 충분히 그럴 수 있어요. 지금 어떤 점이 가장 힘드신가요?",
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "text": "네, 3년 사귀었는데 이렇게 된 적은 처음이에요. 무슨 말을 해도 싸움이 돼요."
+    },
+    {
+      "turn": 2,
+      "speaker": "counselor",
+      "text": "3년이나 함께하셨는데 처음으로 이런 상황을 겪고 계시는군요. 어떤 일이 있었는지 말씀해 주시겠어요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "한 달 전쯤 제가 회사 일이 바빠서 약속을 몇 번 못 지켰거든요. 그때부터 시작된 것 같아요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "약속을 지키지 못한 일이 계기가 되었군요. 그때 여자친구분은 어떤 반응을 보이셨나요?",
+      "technique": [
+        "clarification",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "처음엔 이해한다고 했는데, 계속되니까 화가 많이 났나 봐요. 저한테 '나는 네 우선순위가 아니다'라고 하더라고요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "'우선순위가 아니다'라는 말에서 여자친구분이 느끼셨을 서운함과 상처가 느껴지네요. 그 말을 들었을 때 어떠셨어요?",
+      "technique": [
+        "empathy",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "솔직히 억울했어요. 저도 일하느라 힘든 건데, 왜 저만 나쁜 사람이 되어야 하나 싶고..."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "본인도 힘든 상황인데 이해받지 못한다고 느끼시니 억울하셨겠어요. 두 분 모두 각자의 입장에서 힘드셨던 거네요.",
       "technique": [
         "validation",
-        "empathy",
-        "open_question"
+        "reflection"
       ]
     },
     {
-      "turn": 2,
+      "turn": 6,
       "speaker": "client",
-      "text": "모든 게요. 일도 집중이 안 되고, 친구들 만나도 재미없고... 그냥 무기력해요."
+      "text": "그렇죠. 근데 제가 그 말을 했을 때 더 싸움이 커졌어요. '너는 항상 네 입장만 생각한다'면서요."
     },
     {
-      "turn": 2,
+      "turn": 6,
       "speaker": "counselor",
-      "text": "일상의 모든 부분에서 의욕이 없으시군요. 하루 일과가 어떠신지 말씀해주시겠어요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "아침에 일어나기 싫고, 출근해서도 멍하니 있고, 퇴근하면 그냥 누워있어요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "기본적인 일상도 버겁게 느껴지시는군요. 식사는 제대로 하고 계세요?",
-      "technique": [
-        "empathy",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "아니요. 입맛도 없고... 먹어도 맛도 모르겠고요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "식욕까지 떨어지셨네요. 수면은 어떠세요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "잠을 못 자요. 자려고 누우면 생각이 많아져서요. 그 사람 생각이 계속 나요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "밤에 잠들기 어려우시고 생각이 많아지시는군요. 어떤 생각들이 주로 드시나요?",
+      "text": "본인 입장을 말씀하셨는데 오히려 상황이 악화됐군요. 그때 기분이 어떠셨어요?",
       "technique": [
         "restatement",
         "open_question"
       ]
     },
     {
-      "turn": 6,
+      "turn": 7,
       "speaker": "client",
-      "text": "왜 헤어졌을까, 내가 뭘 잘못했을까, 다시 연락하면 어떨까... 이런 생각들이요."
+      "text": "답답했어요. 뭘 말해도 안 통하니까요. 그래서 저도 그냥 입을 닫았어요."
     },
     {
-      "turn": 6,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "후회와 자책, 그리고 미련이 공존하고 있군요. 실제로 연락해보신 적은 있으세요?",
+      "text": "대화가 통하지 않는다고 느끼시니 말문을 닫게 되셨네요. 그런데 침묵은 문제 해결에 도움이 되었나요?",
       "technique": [
-        "emotion_labeling",
-        "closed_question"
+        "reflection",
+        "confrontation"
       ]
     },
     {
-      "turn": 7,
+      "turn": 8,
       "speaker": "client",
-      "text": "몇 번요. 근데 답이 없어요. 소셜미디어는 차단당했고요."
+      "text": "아니요, 더 심해졌어요. 이제는 같이 있어도 각자 폰만 보고 있어요."
     },
     {
-      "turn": 7,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "연락을 시도했지만 응답이 없었군요. 그때 기분이 어땠어요?",
+      "text": "함께 있지만 마음은 멀어진 상태군요. 그런 상황에서 어떤 감정을 느끼세요?",
       "technique": [
-        "restatement",
+        "empathy",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "외로워요. 같이 있는데 혼자 있는 것 같아요. 그리고 이러다 진짜 끝나는 거 아닌가 무섭기도 하고요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "외로움과 관계가 끝날지 모른다는 두려움이 있으시군요. 여자친구분에 대한 마음은 어떠세요?",
+      "technique": [
+        "summarization",
         "open_question"
       ]
     },
     {
-      "turn": 8,
+      "turn": 10,
       "speaker": "client",
-      "text": "처음엔 화가 났는데, 나중엔 그냥... 비참했어요. 제가 너무 초라해 보였어요."
+      "text": "아직 좋아해요. 그래서 더 힘든 것 같아요. 헤어지고 싶지 않은데 어떻게 해야 할지 모르겠어요."
     },
     {
-      "turn": 8,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "분노에서 자괴감으로 이어졌네요. 이별의 이유가 무엇이었나요?",
+      "text": "마음은 여전히 있는데 방법을 모르겠다는 거군요. 지금까지 관계 회복을 위해 어떤 시도를 해보셨어요?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 9,
+      "turn": 11,
       "speaker": "client",
-      "text": "그 사람이 '마음이 식었다'고 했어요. 갑자기요. 아무 예고도 없이."
+      "text": "그냥... 시간이 지나면 괜찮아지겠지 생각했어요. 특별히 뭘 한 건 없는 것 같아요."
     },
     {
-      "turn": 9,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "예상치 못한 이별이었군요. 그래서 더 받아들이기 어려우셨을 것 같아요.",
+      "text": "시간에 맡기셨군요. 하지만 상황이 나아지지 않았네요. 혹시 직접 대화를 시도해보신 적은 있으세요?",
       "technique": [
-        "empathy",
-        "validation"
+        "restatement",
+        "closed_question"
       ]
     },
     {
-      "turn": 10,
+      "turn": 12,
       "speaker": "client",
-      "text": "네. 정말 갑자기였어요. 전날까지도 평소처럼 연락했는데..."
+      "text": "몇 번 '우리 얘기 좀 하자'고 했는데 '할 말 없다'고 하더라고요."
     },
     {
-      "turn": 10,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "갑작스러운 변화라 혼란스러우셨겠어요. 혹시 돌이켜보면 징조 같은 게 있었나요?",
+      "text": "먼저 대화를 시도하셨는데 거절당하셨군요. 그때 어떤 기분이었어요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "포기하고 싶었어요. 제가 이렇게까지 해야 하나 싶고, 자존심도 상하고..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "노력이 받아들여지지 않으니 포기하고 싶고 자존심도 상하셨군요. 그런데 '우리 얘기 좀 하자'고 할 때 어떤 태도로 말씀하셨어요?",
       "technique": [
         "validation",
         "clarification"
       ]
     },
     {
-      "turn": 11,
+      "turn": 14,
       "speaker": "client",
-      "text": "지금 생각해보면... 몇 달 전부터 연락이 좀 뜸해지긴 했어요. 근데 그땐 몰랐어요."
+      "text": "음... 솔직히 짜증 섞인 목소리였을 수도 있어요. '도대체 언제까지 이럴 거냐'는 느낌으로요."
     },
     {
-      "turn": 11,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "당시에는 알아차리기 어려웠던 변화들이 있었군요. 그 징조들을 못 봤다고 본인을 자책하고 계신가요?",
+      "text": "그렇다면 여자친구분 입장에서는 대화 제안이 아니라 비난처럼 느껴졌을 수도 있겠네요. 어떻게 생각하세요?",
       "technique": [
-        "reflection",
-        "closed_question"
+        "interpretation",
+        "open_question"
       ]
     },
     {
-      "turn": 12,
+      "turn": 15,
       "speaker": "client",
-      "text": "네... 제가 너무 둔했던 것 같아요. 좀 더 신경 썼으면..."
+      "text": "... 그렇게 들렸을 수도 있겠네요. 저는 몰랐는데."
     },
     {
-      "turn": 12,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "본인을 많이 탓하고 계시네요. 하지만 관계는 혼자 만드는 게 아니에요. 상대방도 자신의 마음 변화를 솔직히 말할 책임이 있었죠.",
+      "text": "대화의 '내용'도 중요하지만 '태도'도 중요해요. 같은 말도 어떻게 하느냐에 따라 전혀 다르게 전달되거든요.",
+      "technique": [
+        "information_giving",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "그럼 어떻게 말해야 할까요? 저도 감정이 있으니까 냉정하게 말하기가 쉽지 않아요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그래도... 제가 뭔가 했으면 달라졌을 수도 있잖아요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "그 가능성을 계속 생각하시는군요. 하지만 '만약에'는 현실이 아니에요. 그리고 상대의 마음을 본인이 통제할 수는 없어요.",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "그럼 저는 뭘 해야 하나요? 계속 이렇게 힘들 순 없잖아요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "회복하고 싶으신 마음이 있으시군요. 그게 중요한 첫걸음이에요. 지금 소셜미디어나 공통 친구를 통해 그 사람 소식을 접하고 계신가요?",
-      "technique": [
-        "encouragement",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "가끔요. 소셜미디어는 차단당했지만 공통 친구가 얘기해줘요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "간접적으로라도 소식을 듣고 계시군요. 그 소식을 들으면 기분이 어떠세요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "궁금하면서도... 듣고 나면 더 아파요. 그 사람은 잘 지내는 것 같더라고요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "상대는 회복한 것처럼 보이니 본인만 힘든 것 같아서 더 괴로우신 거죠. 이별 회복을 위해 첫 번째로 필요한 건 '연결 끊기'예요.",
-      "technique": [
-        "empathy",
-        "information_giving"
-      ]
-    },
-    {
       "turn": 17,
       "speaker": "client",
-      "text": "연결 끊기요?"
+      "text": "나-전달법이요? 예를 들면 어떻게 하는 건가요?"
     },
     {
       "turn": 17,
       "speaker": "counselor",
-      "text": "네. 소셜미디어 차단, 공통 친구에게 그 사람 소식 안 듣기, 추억의 물건 정리 등이요. 상처가 아물려면 계속 건드리지 말아야 해요.",
+      "text": "예를 들어 '너는 맨날 내 얘기를 안 들어'라고 하면 비난이 되지만, '나는 내 얘기가 들리지 않는 것 같아서 외로워'라고 하면 내 감정을 전달하는 거예요.",
       "technique": [
         "information_giving",
         "clarification"
@@ -263,120 +253,128 @@
     {
       "turn": 18,
       "speaker": "client",
-      "text": "근데 그러면 완전히 끝나는 거잖아요..."
+      "text": "아... 그렇게 하면 다르게 들리겠네요. 근데 연습이 필요할 것 같아요."
     },
     {
       "turn": 18,
       "speaker": "counselor",
-      "text": "이미 끝난 관계예요. 인정하기 어렵지만요. 끝을 받아들여야 새로운 시작이 가능해요.",
+      "text": "맞아요, 처음엔 어색할 수 있어요. 하지만 연습하면 나아져요. 그리고 또 하나, 대화를 시작할 때 여자친구분의 감정을 먼저 인정해주는 것도 중요해요.",
       "technique": [
-        "confrontation",
+        "encouragement",
         "information_giving"
       ]
     },
     {
       "turn": 19,
       "speaker": "client",
-      "text": "... 너무 무서워요. 그 사람 없는 삶이."
+      "text": "감정을 먼저 인정한다고요?"
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "5년을 함께했으니 두려운 게 당연해요. 하지만 그 사람 이전의 본인도 있었고, 이후의 본인도 있을 거예요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "어떻게 시작하죠?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "작은 것부터요. 오늘은 제시간에 잠자리에 들기, 내일은 아침 식사 챙기기. 이렇게 하나씩이요.",
-      "technique": [
-        "goal_setting",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "그게 도움이 될까요?"
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "일상의 리듬을 되찾는 게 회복의 기초예요. 작은 성취들이 쌓이면 힘이 돼요.",
+      "text": "네, 예를 들면 '네가 많이 서운했겠다. 그동안 내가 약속을 잘 못 지켜서 힘들었을 거야'라고 먼저 상대방 마음을 알아주는 거예요.",
       "technique": [
         "information_giving",
-        "encouragement"
+        "clarification"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "근데 저도 힘들었는데 제가 먼저 그렇게 해야 하나요?"
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "좋은 질문이에요. 누가 먼저 하느냐가 중요한 게 아니라, 관계를 회복하고 싶은 쪽이 먼저 손 내미는 거예요. 그게 약해지는 게 아니에요.",
+      "technique": [
+        "validation",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "... 그렇게 생각해보니 제가 먼저 해볼 수도 있겠네요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "좋은 결심이에요. 그리고 이번엔 대화할 시간과 장소도 정하는 게 좋아요. 조용하고 두 분 다 편한 상태에서요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
       ]
     },
     {
       "turn": 22,
       "speaker": "client",
-      "text": "해볼게요. 근데 힘들면 어떡하죠?"
+      "text": "그렇게 하면 좀 달라질까요?"
     },
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "힘들면 다시 상담 오시면 돼요. 혼자 견딜 필요 없어요. 함께 해나가요.",
+      "text": "상대방이 어떻게 반응할지는 모르지만, 최소한 본인은 노력했다는 것을 알 수 있어요. 그리고 진심은 전달되기 마련이에요.",
+      "technique": [
+        "encouragement",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "네, 한번 해볼게요. 근데 만약 그래도 안 되면요?"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "technique": [
+        "structuring",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "알겠어요. 뭔가 좀 정리가 되는 것 같아요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "validation",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "제가 대화할 때 태도가 문제였을 수 있다는 것, 그리고 나-전달법이랑 상대 감정을 먼저 인정하는 방법이요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "잘 정리해주셨어요. 이번 주에 여자친구분과 대화를 시도해보시고, 다음 시간에 어떠셨는지 이야기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "네, 주말에 한번 시도해볼게요. 좀 떨리긴 하네요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "떨리는 게 당연해요. 중요한 일을 앞두고 있으니까요. 결과보다는 진심을 전하겠다는 마음으로 임해보세요.",
       "technique": [
         "validation",
         "encouragement"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "감사합니다. 조금은... 희망이 보이는 것 같아요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "그 마음 잘 간직하세요. 회복은 직선이 아니라 곡선이에요. 나쁜 날도 있지만 결국 나아질 거예요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "오늘 이야기 나눠서 마음이 한결 가벼워진 것 같아요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
-      "technique": [
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "앞으로 어떻게 하면 좋을지 조금 더 생각해볼게요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "천천히 생각해보시고, 다음에 만나서 어떻게 지내셨는지 이야기 나눠봐요.",
-      "technique": [
-        "encouragement",
-        "structuring"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "33세",
-    "gender": "남성",
-    "occupation": "프리랜서",
-    "background": "새로운 사람을 만나는 것이 두려운 사회불안"
-  }
+  ]
 }

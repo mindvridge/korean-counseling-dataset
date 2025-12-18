@@ -1,37 +1,27 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "외로움",
-    "total_turns": 27,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "emotion_labeling",
-      "closed_question",
-      "clarification",
-      "validation",
-      "interpretation"
-    ]
+    "topic": "진로 고민과 미래 불안",
+    "total_turns": 30,
+    "generated_at": "2025-12-18T07:14:26.698774+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0006_외모경쟁",
-    "category": "adolescent",
-    "topic": "외로움"
+  "client_profile": {
+    "age": "18세",
+    "gender": "남성",
+    "occupation": "고등학교 3학년",
+    "background": "진로 고민과 미래 불안 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.969956+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님... 제 친구들은 다 예쁜데 저만 못생긴 것 같아요."
+      "text": "소셜미디어 때문에 스트레스받아요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "친구들과 비교하면서 자신의 외모에 대해 부정적으로 느끼고 계시는군요. 어떤 상황에서 특히 그런 생각이 드나요?",
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
@@ -39,384 +29,413 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "항상요... 특히 같이 사진 찍을 때. 친구들은 다 예쁘게 나오는데 저만 이상하게 나와요. 소셜미디어에 올릴 때도 제 얼굴만 가리고 싶어요."
+      "text": "무릎이 까졌어요... 그리고 울면서 엄마한테 일렀어요. 엄마가 저한테 엄청 화내셨어요. '형이 동생을 때리냐'고..."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "사진을 찍는 상황에서 자신만 다르게 보인다고 느끼시는군요. 소셜미디어에 올리는 것도 부담스러우시네요. 그럴 때 어떤 감정이 드시나요?",
+      "text": "어머니께 혼나고 죄책감도 느끼시는군요. 그런데 싸움이 어떻게 시작됐는지 말씀해주시겠어요?",
       "technique": [
-        "empathy",
         "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "동생이 제 방에 허락도 없이 들어와서 제 게임기를 가져갔어요. 돌려달라고 했는데 안 주고 도망가길래... 따라가서 뺏으려다가 밀친 거예요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "동생이 허락없이 물건을 가져가서 화가 났고, 그 과정에서 물리적 충돌이 생긴 거군요. 동생과 이렇게 싸우는 일이 자주 있나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "거의 매일이요. 동생이 맨날 제 물건 가져가고, 제 방 들어오고, 제가 뭐 하면 따라하고... 진짜 짜증나요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "동생의 행동이 자신의 영역을 침범한다고 느끼고 계시는군요. 그게 반복되니까 스트레스가 쌓이는 거죠. 동생은 몇 살인가요?",
+      "technique": [
+        "reflection",
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "11살이요. 초등학교 5학년... 나이는 어린데 하는 짓은 완전 짜증나요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "3살 차이시군요. 동생이 형을 따라하고 관심받고 싶어하는 것일 수도 있어요. 하지만 당신에게는 경계가 침범당하는 것처럼 느껴지는 거죠.",
+      "technique": [
+        "information_giving",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "관심받고 싶어한다고요? 동생은 그냥 저를 괴롭히는 게 재밌는 거예요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "그렇게 느껴지시는군요. 그럼 동생에게 '내 물건 가져가지 마', '내 방에 허락없이 들어오지 마'라고 명확하게 말해본 적 있나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "맨날 말해요! 근데 안 듣는다고요. 그래서 제가 소리 지르면 엄마가 '형이 동생한테 왜 그러냐'고 하시고..."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "말로 해도 안 되고, 어머니도 동생 편만 드시는 것 같아서 억울하신 거군요. 어머니는 왜 동생 편을 드신다고 생각하세요?",
+      "technique": [
+        "reflection",
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "동생이 어리니까요. 맨날 '동생이 어린데 이해해라', '형이 양보해라'... 저는 왜 맨날 참아야 해요?"
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "항상 양보하고 참으라는 말을 들으니까 부당하게 느껴지는 거죠. '나는 왜 이해받지 못하나' 하는 생각도 드시고요.",
+      "technique": [
+        "reflection",
+        "empathy"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "맞아요. 저도 이해받고 싶어요. 근데 엄마는 맨날 동생만..."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "형이라는 이유로 항상 양보해야 한다는 게 불공평하게 느껴지시는군요. 아버지는 어떠세요? 아버지도 같은 반응이신가요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "아빠는... 거의 집에 안 계세요. 늦게 들어오시고... 우리 싸움에 별로 관심 없으세요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "아버지는 부재중이시고 어머니만 중재하시는데, 어머니가 동생 편만 드시니까 더 외롭고 억울하신 거군요. 혹시 부모님께 당신의 감정을 진지하게 얘기해본 적 있나요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "말해봤자... '형이 어른스럽게 굴어라'만 들을 거예요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "들어주지 않을 거라고 미리 포기하고 계시는군요. 하지만 제대로 대화를 시도해보지 않으면 어머니는 당신이 얼마나 힘든지 모르실 수 있어요.",
+      "technique": [
+        "reflection",
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "어떻게 말해야 들어주실까요?"
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "감정적으로 소리 지르는 대신, 차분하게 '엄마, 나도 힘들다. 동생이 내 물건을 가져가고 내 공간을 침범할 때 존중받지 못한다고 느낀다'고 말하는 거예요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그렇게 말하면... 엄마가 들어주실까요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "확실하지는 않지만 지금처럼 싸우고 소리 지르는 것보다 효과적일 거예요. 그리고 구체적인 해결책을 제안하는 것도 좋아요. '내 방문에 잠금장치를 달아달라'든지요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "잠금장치요? 그런 거 요구해도 돼요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "물론이에요. 당신도 프라이버시와 개인 공간을 가질 권리가 있어요. 14살이면 자신만의 공간이 필요한 나이예요. 합리적인 요구예요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "근데 선생님... 제가 동생을 민 건 잘못한 거죠? 저도 그건 알아요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "규칙이요?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "네. 가족 규칙이요. '상대방 물건은 허락받고 쓴다', '형의 방에 들어갈 때는 노크한다' 같은 명확한 규칙이 있으면 동생도 따를 수 있어요.",
+      "technique": [
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그런 규칙을 부모님한테 제안해도 될까요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "좋은 생각이에요. 가족 회의를 제안하는 거예요. 모두가 모여서 서로 불편한 점을 얘기하고 규칙을 정하는 시간이요. 당신의 주도로요.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "가족 회의... 근데 동생이 제대로 할까요?"
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "동생도 11살이면 규칙을 이해하고 따를 수 있는 나이예요. 그리고 부모님이 함께 계시면 동생도 더 진지하게 받아들일 거예요. 시도해볼 만하지 않나요?",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "해볼게요... 근데 제가 동생한테 사과는 해야 하나요? 밀친 거..."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "사과하는 게 좋아요. 하지만 일방적인 사과가 아니라 대화가 필요해요. '내가 밀친 건 미안해. 하지만 네가 내 물건 가져간 것도 화가 났어. 앞으로는 서로 존중하자'는 식으로요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "동생한테 직접요? 어색할 것 같은데..."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "처음엔 어색할 수 있어요. 하지만 진심으로 대화하면 동생도 달라질 수 있어요. 11살이면 이해할 수 있는 나이예요. 시도해보는 게 어떨까요?",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "알겠어요... 오늘 집에 가서 동생한테 얘기해볼게요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 화가 날 때 어떻게 대처할지도 생각해봐야 해요. 동생이 또 물건을 가져가면 어떻게 하면 좋을까요? 밀치지 않고요.",
+      "technique": [
+        "encouragement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "음... 엄마한테 바로 말하는 거요?"
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "그것도 방법이고요, 아니면 동생에게 침착하게 '그거 지금 돌려줘. 안 그러면 엄마한테 말할 거야'라고 경고하는 것도 방법이에요. 폭력 대신 말로요.",
+      "technique": [
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "침착하게... 그게 어려워요. 화나면 그냥 욱하고..."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "연습이요... 해볼게요. 근데 선생님, 제가 동생을 좋아하게 될 수 있을까요?"
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "동생의 장점이요? 잘 모르겠는데..."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "생각해보세요. 동생이 잘하는 것, 착한 점은 없나요? 편견을 버리고 한번 관찰해보세요.",
+      "technique": [
         "open_question",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "창피하고... 친구들 옆에 있기 싫어요. 제가 있으면 친구들이 덜 예뻐 보일 것 같아서요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "자신이 친구들에게 방해가 된다고 느끼시는군요. 자존감이 많이 낮아진 상태인 것 같아요. 친구들은 당신의 외모에 대해 뭐라고 말하나요?",
-      "technique": [
-        "empathy",
-        "reflection",
-        "emotion_labeling",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "친구들은... 아무 말도 안 해요. 그게 더 신경 쓰여요. '예쁘다'고 말해주는 건 서로인데 저한테는 안 하거든요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "친구들 사이에서 외모에 대한 칭찬이 오가는데 자신만 제외된다고 느끼시는군요. 그게 사실인지 아니면 그렇게 느껴지는 건지 확인해보신 적 있나요?",
-      "technique": [
-        "reflection",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "확실해요. 지난주에도 지유한테는 '오늘 화장 예쁘다'고 했는데 제 화장은 아무도 말 안 했어요. 똑같이 했는데..."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "구체적인 상황을 기억하고 계시네요. 그때 기분이 어떠셨어요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "서운하고... 화도 났어요. 근데 제가 화낼 이유가 있나 싶기도 하고. 실제로 지유가 더 예쁘니까요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "서운함과 분노를 느끼면서도 그 감정을 느낄 자격이 없다고 생각하시는군요. 외모에 대한 기준은 어디서 오는 걸까요?",
-      "technique": [
-        "reflection",
-        "emotion_labeling",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "뭐... 다들 아는 거 아닌가요? 큰 눈, 하얀 피부, 작은 얼굴... 그런 게 예쁜 거죠. 저는 그런 게 없어요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "특정한 외모 기준을 가지고 자신을 평가하고 계시는군요. 그 기준에 맞지 않으면 안 예쁘다고 생각하시나요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "그런 것 같아요. 주변 애들도 다 그렇게 생각하는 것 같고..."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "외모에 대한 획일적인 기준이 있다고 느끼시는군요. 혹시 친구들이 직접적으로 당신의 외모를 비판한 적이 있나요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "직접적으로는 아니지만... 한번은 제가 '나도 쌍꺼풀 수술하고 싶다'고 했을 때 친구들이 '응, 하면 좋을 것 같아'라고 했어요. 보통 '지금도 예쁜데'라고 하잖아요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "기대했던 반응을 받지 못해서 상처받으셨군요. 그 말이 당신에게 '지금은 안 예쁘다'는 의미로 들렸나요?",
-      "technique": [
-        "empathy",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "네... 그렇게 들렸어요. 친구들도 제가 못생겼다고 생각하는구나 싶었죠."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "그 경험이 자신에 대한 부정적인 믿음을 강화시켰군요. 그 이후로 친구들과의 관계가 어떻게 변했나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "더 비교하게 됐어요. 누가 더 예쁜지, 남자애들이 누구를 더 좋아하는지... 항상 제가 꼴찌인 것 같아요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "친구들과의 관계가 경쟁과 비교의 관계로 변했군요. 외모 경쟁에서 항상 뒤처진다고 느끼시는 것 같아요. 친구들과 함께 있을 때 즐거운 순간도 있나요?",
-      "technique": [
-        "reflection",
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "음... 그냥 수다 떨거나 게임할 때는 재밌어요. 근데 어디 나가거나 사진 찍을 때는 스트레스받아요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "외모가 드러나지 않는 상황에서는 편하게 느끼시는군요. 외모가 주목받는 상황에서만 불편함을 느끼시네요.",
-      "technique": [
-        "reflection",
-        "interpretation"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "맞아요. 그래서 요즘은 친구들 만나는 것도 피하게 돼요. 특히 놀러 가자고 하면 핑계 대고..."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "외모에 대한 불안감이 관계 자체를 회피하게 만들고 있군요. 친구들은 당신이 만남을 피하는 이유를 알고 있나요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "모를 거예요. 그냥 바쁘다고만 했으니까... 말할 수도 없잖아요. '너네랑 있으면 제가 못생겨 보여서 싫어요'라고요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "진짜 이유를 말하기 어렵다고 느끼시는군요. 혹시 친구들이 실제로 당신을 외모로만 판단하고 있다고 생각하세요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "글쎄요... 생각해보니 친구들은 제 성격이나 재미있는 점도 좋아하는 것 같긴 해요. 근데 외모도 중요하잖아요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "친구들이 당신의 다른 면들도 좋아한다는 걸 알고는 계시지만, 외모가 더 중요하다고 믿고 계시는군요. 외모가 정말 우정에서 가장 중요한 요소일까요?",
-      "technique": [
-        "reflection",
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "아니긴 한데... 근데 다들 외모 얘기 많이 하잖아요. 소셜미디어에도 예쁜 사진 올리는 게 중요하고..."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "소셜미디어 문화와 또래 집단의 분위기가 외모를 과도하게 강조하고 있는 것 같네요. 하지만 소셜미디어에 올라가는 모습이 전부일까요? 실제 관계는 어떤가요?",
-      "technique": [
-        "reflection",
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "실제로는... 친구들이 저를 좋아하는 것 같긴 해요. 제가 없으면 심심하다고 하고, 같이 있으면 재밌다고 하고..."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "친구들이 당신과 함께하는 것을 즐거워한다는 증거들이 있군요. 그렇다면 친구들이 당신을 좋아하는 이유는 외모가 아닐 수도 있겠네요.",
-      "technique": [
-        "validation",
-        "interpretation"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "그런가요? 근데 예뻤으면 더 좋았을 텐데..."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "여전히 외모가 중요하다고 느끼시네요. 혹시 '예쁘다'는 기준이 정말 객관적인 걸까요? 사람마다 다를 수 있지 않을까요?",
-      "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "음... 생각해보니 제가 예쁘다고 생각하는 연예인도 친구들이랑 다르긴 해요. 저는 청순한 스타일을 좋아하는데 친구들은 섹시한 스타일을 좋아하고..."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "좋은 통찰이에요. 아름다움에 대한 기준이 사람마다 다르다는 걸 발견하셨네요. 그렇다면 '못생겼다'는 절대적인 기준도 존재하지 않을 수 있어요.",
-      "technique": [
-        "validation",
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "그렇게 생각하니까... 조금 다르게 보이네요. 근데 선생님, 그래도 칭찬받고 싶은 건 어떻게 해요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "인정받고 싶은 욕구는 자연스러운 거예요. 하지만 외모에 대한 칭찬만이 인정의 전부는 아니에요. 당신이 받고 싶은 칭찬은 정말 외모뿐인가요?",
-      "technique": [
-        "validation",
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "아니요... 제 그림도 칭찬받고 싶고, 농담 재밌다는 말도 듣고 싶고..."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "다양한 부분에서 인정받고 싶어하시는군요. 실제로 그런 칭찬을 받은 경험도 있으실 것 같은데요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "있긴 해요. 친구들이 제 그림 예쁘다고 하고, 같이 있으면 재밌다고 하고... 근데 그게 외모만큼 중요하게 느껴지지 않았어요."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "다른 칭찬들을 평가절하하고 외모에만 집중하고 계셨군요. 왜 외모 칭찬이 유독 더 중요하게 느껴질까요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "음... 소셜미디어에서 '좋아요'를 많이 받는 게 예쁜 애들이니까요? 그게 가치의 증거 같아 보여서..."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "소셜미디어의 '좋아요'가 가치의 척도가 되어버렸군요. 하지만 실제 당신의 가치와 소셜미디어의 반응은 다를 수 있어요. 진짜 친구들이 당신을 좋아하는 이유를 다시 생각해볼 필요가 있을 것 같아요.",
-      "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "제 성격이나 다른 면들... 맞아요, 그게 진짜 우정이죠."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "중요한 깨달음이에요. 외모보다 내면과 관계의 질이 더 중요하다는 걸 알아가고 계세요. 이번 주에 한 가지 실험을 해볼까요? 외모에 대한 걱정 없이 친구들과 만나보는 거예요.",
-      "technique": [
-        "validation",
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "외모 걱정 없이요? 그게 가능할까요?"
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "완전히 없애기는 어렵겠지만, 그 생각이 들 때마다 '친구들은 내 외모가 아니라 나라는 사람을 좋아해'라고 상기시켜보는 거예요. 어떠세요?",
-      "technique": [
-        "validation",
-        "information_giving"
+        "encouragement"
       ]
     },
     {
       "turn": 26,
       "speaker": "client",
-      "text": "해볼게요. 조금 무섭지만... 시도는 해볼 수 있을 것 같아요."
+      "text": "음... 동생이 그림은 잘 그려요. 그리고 제가 아플 때 걱정해주긴 했어요."
     },
     {
       "turn": 26,
       "speaker": "counselor",
-      "text": "용기 내주셔서 고마워요. 외모는 당신의 일부이지 전부가 아니에요. 당신의 진짜 가치는 훨씬 더 많은 것들로 이루어져 있어요.",
+      "text": "좋은 점들을 찾으셨네요. 그럼 동생도 나쁜 아이는 아니죠. 단지 표현 방법이 서툴고 경계를 모르는 거예요. 당신이 가르쳐줄 수 있어요.",
       "technique": [
-        "encouragement",
-        "validation"
+        "validation",
+        "encouragement"
       ]
     },
     {
       "turn": 27,
       "speaker": "client",
-      "text": "네, 선생님. 그렇게 생각하려고 노력할게요."
+      "text": "제가요? 제가 가르쳐요?"
     },
     {
       "turn": 27,
       "speaker": "counselor",
-      "text": "좋아요. 다음 주에 어떤 경험을 했는지 나눠봐요. 자신의 다양한 가치를 발견해가는 시간이 되길 바랄게요.",
+      "text": "형으로서요. '이건 내가 싫어하니까 하지 마', '이렇게 하면 나도 너를 도와줄게' 이런 식으로요. 형제 관계도 배워가는 거예요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "그렇게 생각해본 적 없었어요... 제가 가르쳐줄 수 있다는 거."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "당신이 3살 더 많고 더 성숙하니까 가능해요. 물론 부모님의 도움도 필요하지만, 당신도 역할이 있어요. 책임이 아니라 기회로 생각해보세요.",
+      "technique": [
+        "validation",
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네... 노력해볼게요. 오늘 집에 가서 동생한테 사과하고, 엄마한테도 제대로 얘기해볼게요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "훌륭한 결심이에요. 한 번에 바뀌지는 않을 거예요. 하지만 꾸준히 노력하면 관계가 나아질 거예요. 다음 주에 어떻게 됐는지 얘기 나눠요.",
       "technique": [
         "encouragement",
         "validation",
         "structuring"
       ]
+    },
+    {
+      "turn": 30,
+      "speaker": "client",
+      "text": "네, 감사합니다, 선생님. 포기하지 않을게요."
+    },
+    {
+      "turn": 30,
+      "speaker": "counselor",
+      "text": "응원할게요. 형제 관계는 평생 가는 거니까 지금 노력하는 게 나중에 큰 자산이 될 거예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
-  ],
-  "client_profile": {
-    "age": "16세",
-    "gender": "남성",
-    "occupation": "고등학교 1학년",
-    "background": "친구를 사귀는 것이 어려워 늘 혼자인 상황"
-  }
+  ]
 }

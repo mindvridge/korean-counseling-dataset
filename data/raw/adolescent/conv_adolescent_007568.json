@@ -1,423 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "진도 따라가기",
-    "total_turns": 27,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "validation",
-      "closed_question",
-      "interpretation",
-      "emotion_labeling",
-      "information_giving"
-    ]
+    "topic": "친구 관계 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:25.997798+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_학업스트레스_0009_CONCENTRATION_002",
-    "category": "adolescent",
-    "topic": "진도 따라가기"
+  "client_profile": {
+    "age": "14세",
+    "gender": "여성",
+    "occupation": "중학교 2학년",
+    "background": "친구 관계 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.201387+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "선생님... 저 요즘 공부가 전혀 안 돼요. 시험이 일주일 남았는데..."
+      "text": "학교 선생님이 여기 오면 좋겠다고 하셨어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "시험이 얼마 안 남았는데 공부가 안 되니 불안하시겠어요. 무엇 때문에 집중이 안 되는 것 같나요?",
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
+      "turn": 2,
       "technique": [
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 2,
       "speaker": "client",
-      "text": "친구 문제 때문에요. 얼마 전에 친한 친구랑 싸웠는데, 자꾸 그 생각만 나요. 공부하려고 해도 머릿속이 복잡해요."
+      "text": "음... 사실 저는 괜찮은데 엄마가 자꾸 걱정하셔서요. 요즘 학교 가기 싫다고 했더니 바로 상담 예약하셨어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "친구와의 갈등이 계속 마음에 걸려서 다른 일에 집중하기 어려운 거네요. 어떤 일이 있었나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "제 친한 친구가 다른 애들이랑 더 친해지더라고요. 저는 빼고요. 그래서 섭섭해서 말을 했는데, 친구가 '네가 너무 집착한다'고 하면서 화를 냈어요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "소외감을 느껴서 이야기했는데 오히려 집착한다는 말을 들으니 상처받았겠어요. 그 후로 친구와는 어떤 사이인가요?",
-      "technique": [
-        "empathy",
-        "validation",
-        "closed_question"
-      ]
-    },
-    {
+      "text": "그렇군요. 학교 가는 게 요즘 좀 힘드신가 봐요. 어머니는 걱정하시지만, 본인은 괜찮다고 느끼시는 건가요?",
       "turn": 4,
-      "speaker": "client",
-      "text": "어색해요. 말도 잘 안 하고... 학교 가는 게 너무 싫어요. 쉬는 시간마다 친구가 다른 애들이랑 노는 거 보면 마음이 아파요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "학교에서 매일 그 장면을 보면서 마음이 아프고, 그게 계속 머릿속을 맴도니까 공부에도 집중할 수 없는 거네요.",
       "technique": [
-        "empathy",
-        "interpretation"
+        "reflection"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "네... 수업 시간에도 그 생각만 해요. 선생님 말씀이 귀에 안 들어와요. 그러다가 집에 와서 공부하려고 하면, 오늘 있었던 일들이 또 떠오르고..."
+      "text": "괜찮다기보다는... 그냥 시간이 지나면 나아질 것 같아서요. 전학 온 지 3개월밖에 안 됐으니까요.",
+      "turn": 5
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "학교에서도, 집에서도 계속 그 생각에 사로잡혀 있는 상태네요. 밤에 잠은 잘 오나요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
+      "text": "아, 전학을 오셨군요. 3개월 전에 새로운 학교로 오게 되었는데, 아직 적응하는 과정이라고 생각하시는 거네요.",
       "turn": 6,
-      "speaker": "client",
-      "text": "잘 못 자요. 자려고 누워도 자꾸 생각나고... '내가 뭘 잘못했나', '친구가 왜 그랬을까' 이런 생각 계속 해요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "수면에까지 영향을 받고 있네요. 그 생각들이 계속 반복되면서 잠도 못 자고, 공부도 못 하고, 학교 생활도 힘든 악순환에 빠진 것 같아요.",
       "technique": [
-        "empathy",
-        "interpretation"
+        "reflection"
       ]
     },
     {
-      "turn": 7,
       "speaker": "client",
-      "text": "맞아요... 그리고 요즘 기분도 계속 우울해요. 아무것도 하기 싫고, 재미있는 것도 없고..."
+      "text": "네... 근데 생각보다 쉽지 않더라고요. 다들 이미 친한 애들끼리 그룹이 있고, 저는 뭔가 끼기가 어려워요.",
+      "turn": 7
     },
     {
-      "turn": 7,
       "speaker": "counselor",
-      "text": "우울감까지 느끼고 있군요. 친구 관계 문제가 전반적인 기분과 생활에 큰 영향을 미치고 있네요. 다른 친구들은 있나요?",
+      "text": "새로운 환경에서 이미 형성된 친구 관계들 사이에 들어가는 게 쉽지 않으셨겠어요. 그런 상황에서 외로움을 느끼는 건 자연스러운 일이에요.",
+      "turn": 8,
       "technique": [
-        "emotion_labeling",
-        "empathy",
-        "closed_question"
+        "empathy"
       ]
     },
     {
-      "turn": 8,
       "speaker": "client",
-      "text": "있긴 한데... 그 친구만큼 친하지는 않아요. 그리고 걔네도 그 친구랑 친하니까 제 편은 안 들어줄 것 같아요."
+      "text": "맞아요... 점심시간이 제일 힘들어요. 어디 앉아야 할지 모르겠고, 혼자 먹자니 창피하고...",
+      "turn": 9
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "다른 친구들도 있지만 마음을 터놓고 이야기하기 어려운 상황이네요. 혼자 이 감정을 견뎌야 하니 더 힘들 것 같아요.",
+      "text": "점심시간에 혼자 있는 게 특히 힘드시군요. 다른 친구들은 다 함께 있는데 나만 혼자라는 느낌이 들 때, 정말 외롭고 불편할 것 같아요.",
+      "turn": 10,
       "technique": [
-        "reflection",
-        "empathy",
         "validation"
       ]
     },
     {
-      "turn": 9,
       "speaker": "client",
-      "text": "네... 부모님한테도 말 못 해요. '공부나 열심히 해'라고 하실 것 같아서..."
+      "text": "네... 그래서 요즘은 아예 점심을 안 먹거나 화장실에서 시간을 보낼 때도 있어요. 엄마한테는 말 못했는데...",
+      "turn": 11
     },
     {
-      "turn": 9,
       "speaker": "counselor",
-      "text": "부모님께도 이해받지 못할까 봐 말하지 못하고 있군요. 정말 외롭고 답답하겠어요. 그런데 지금 가장 힘든 게 뭔가요? 친구 관계인가요, 아니면 공부가 안 되는 거인가요?",
-      "technique": [
-        "empathy",
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "둘 다요... 친구 관계도 해결하고 싶고, 시험도 잘 봐야 하는데 둘 다 안 되니까 너무 답답해요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "두 가지 문제가 동시에 있으니 더욱 힘드시겠어요. 그런데 이 둘은 연결되어 있어요. 친구 관계가 정리되면 마음이 편해지고, 그러면 공부에도 집중할 수 있을 거예요.",
-      "technique": [
-        "empathy",
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "근데 어떻게 정리하죠? 친구가 저한테 화났는데..."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "먼저 질문할게요. 그 친구와의 관계를 회복하고 싶나요, 아니면 거리를 두고 싶나요?",
-      "technique": [
-        "structuring",
-        "closed_question"
-      ]
-    },
-    {
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "turn": 12,
-      "speaker": "client",
-      "text": "회복하고 싶어요. 정말 친한 친구였거든요. 근데 어떻게 다가가야 할지 모르겠어요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "관계를 회복하고 싶은 마음이 있네요. 그럼 먼저 친구의 입장에서 생각해볼까요? 친구가 '집착한다'고 느낀 이유가 뭘까요?",
       "technique": [
-        "validation",
-        "open_question",
-        "structuring"
+        "empathy"
       ]
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "음... 제가 좀 친구한테만 의존했던 것 같기도 해요. 다른 친구들이랑 놀면 섭섭해하고... 친구 입장에서는 부담스러웠을 수도 있겠네요."
+      "text": "엄마가 걱정할까봐요. 그리고 전학은 제가 원한 게 아니라 아빠 직장 때문에 어쩔 수 없이 온 거거든요. 불평하면 미안할 것 같아서...",
+      "turn": 13
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "자신의 행동을 객관적으로 볼 수 있네요. 그게 중요한 첫 단계예요. 친구도 다른 친구들과 어울리고 싶은 욕구가 있었을 거예요. 그걸 이해할 수 있나요?",
-      "technique": [
-        "encouragement",
-        "interpretation",
-        "closed_question"
-      ]
-    },
-    {
+      "text": "가족을 위해서 자신의 힘든 감정을 혼자 감당하려고 하셨군요. 부모님을 배려하는 마음이 느껴지지만, 동시에 혼자서 감당하기엔 너무 버거웠을 것 같아요.",
       "turn": 14,
-      "speaker": "client",
-      "text": "이해는 돼요. 근데 그래도 섭섭한 건 어쩔 수 없잖아요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "섭섭한 감정은 당연해요. 그 감정 자체가 문제가 아니에요. 중요한 건 그 감정을 어떻게 표현하느냐예요. 친구한테 '다른 애들이랑 놀지 마'라고 한 건지, '나도 같이 놀고 싶어'라고 한 건지에 따라 달라지죠.",
       "technique": [
-        "validation",
-        "information_giving",
-        "interpretation"
+        "validation"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "저는... '왜 나는 빼고 다른 애들이랑만 노냐'고 했어요. 좀 따졌던 것 같아요."
+      "text": "사실... 이전 학교 친구들이 너무 그리워요. 매일 연락하고 그랬는데, 요즘은 점점 연락이 뜸해지고 있어요.",
+      "turn": 15
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "비난하는 톤으로 말했다면 친구가 방어적이 됐을 거예요. 만약 다시 이야기할 기회가 있다면, '나 전달법'을 써보는 건 어떨까요?",
-      "technique": [
-        "interpretation",
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "이전 학교 친구들과의 관계도 점점 멀어지는 느낌이 드는군요. 새로운 곳에서 적응도 어렵고, 소중했던 관계들도 변하는 것 같아서 더 힘드셨겠어요.",
       "turn": 16,
-      "speaker": "client",
-      "text": "나 전달법이요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "'너는 왜 그래'가 아니라 '나는 이렇게 느꼈어'로 말하는 거예요. 예를 들어 '네가 다른 애들이랑만 놀아서 나는 섭섭했어. 나도 같이 있고 싶었어'라고요.",
       "technique": [
-        "information_giving",
-        "clarification"
+        "empathy"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "그렇게 말하면 친구가 덜 방어적으로 들을까요?"
+      "text": "네... 친구들이 단체 채팅방에 올리는 사진들 보면 너무 슬퍼요. 다들 재밌게 지내는데 저만 빠진 것 같아서요.",
+      "turn": 17
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "가능성이 높아요. 비난받는다고 느끼지 않으니까요. 그리고 자신의 감정을 솔직하게 표현하는 거니까 친구도 이해할 수 있을 거예요.",
+      "text": "친구들의 일상을 보면서 자신만 소외된 것 같은 기분이 드셨군요. 그런 감정을 느끼는 게 정말 힘들었을 것 같아요.",
+      "turn": 18,
       "technique": [
-        "information_giving",
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그래서 요즘은 소셜미디어도 잘 안 보게 돼요. 볼 때마다 우울해지거든요. 근데 안 보면 또 뭔가 놓치는 것 같고...",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "보면 힘들고, 안 보면 불안하고... 어느 쪽을 선택해도 편하지 않은 상황이네요. 지금 새 학교에서는 친구를 사귀기 위해 시도해본 적이 있나요?",
+      "turn": 20,
+      "technique": [
+        "open_ended_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "처음에는 먼저 말 걸어보려고 했어요. 근데 다들 대답은 해주는데 그냥 예의상 대답하는 느낌? 깊은 대화로는 안 이어지더라고요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "turn": 22,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 그 이후로는 거의 포기한 것 같아요. 그냥 수업 듣고 집에 오고... 반복이에요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘든 경험 후에 시도하는 것 자체가 두려워진 거네요. 혹시 지금 학교에서 조금이라도 관심 가는 친구나 활동이 있나요?",
+      "turn": 24,
+      "technique": [
+        "open_ended_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 미술 시간에 옆자리에 앉는 애가 있는데, 그 친구는 좀 조용한 편이에요. 저처럼 혼자 다니는 것 같던데...",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "비슷한 상황에 있는 것처럼 보이는 친구가 있군요. 그 친구에게 관심이 가시나요?",
+      "turn": 26,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "조금요. 근데 먼저 말 걸면 또 거절당할까봐 무섭기도 해요. 만약에 그 친구마저 저를 싫어하면 정말 아무도 없는 거잖아요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "거절에 대한 두려움이 크시군요. 한 번 더 상처받을까봐 조심스러운 마음, 충분히 이해가 돼요. 그런데 만약 그 친구도 당신처럼 누군가 먼저 다가와주길 기다리고 있다면 어떨까요?",
+      "turn": 28,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "생각해본 적 없는데... 그럴 수도 있겠네요. 그 친구도 혼자 있으니까...",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 맞아요. 때로는 서로 비슷한 상황에 있는 사람들이 서로를 이해하기 더 쉬울 수 있어요. 작은 것부터 시작해볼 수 있을 것 같아요. 예를 들어 미술 시간에 간단한 대화를 나눠보는 건 어떨까요?",
+      "turn": 30,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그 정도는 할 수 있을 것 같기도 해요... 근데 뭐라고 말해야 할지 모르겠어요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "자연스럽게 미술 작품이나 수업 내용에 대해 이야기를 시작해볼 수 있어요. '이거 어떻게 그리는 거야?' 같은 간단한 질문도 좋은 시작이 될 수 있죠. 부담 없이 시도해볼 수 있는 방법을 함께 생각해볼까요?",
+      "turn": 32,
+      "technique": [
+        "guidance"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 한번 해볼게요. 그리고 이전 학교 친구들이랑은 어떻게 해야 할까요? 계속 연락하는 게 맞는 건지...",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 질문이에요. 이전 친구들과의 관계를 유지하고 싶으신가요?",
+      "turn": 34,
+      "technique": [
+        "open_ended_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 당연히요. 그 친구들은 정말 소중하거든요. 근데 자꾸 제가 먼저 연락하는 것 같아서 부담스러울까봐 걱정돼요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "turn": 36,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니까 좀 마음이 편해지네요. 오늘 이야기하고 나니까 생각이 좀 정리되는 것 같아요.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "이야기를 나누면서 스스로 생각을 정리하셨네요. 잘하셨어요. 오늘 나눈 이야기들을 바탕으로 작은 변화부터 시도해보고, 다음에 만날 때 어떤 경험을 하셨는지 함께 이야기 나눠보면 좋겠어요.",
+      "turn": 38,
+      "technique": [
         "encouragement"
       ]
     },
     {
-      "turn": 18,
       "speaker": "client",
-      "text": "한번 해볼게요. 근데 거절당하면 어떡하죠? 더 상처받을 것 같아요."
+      "text": "네, 감사합니다. 다음 주에 또 올게요.",
+      "turn": 39
     },
     {
-      "turn": 18,
       "speaker": "counselor",
-      "text": "그 걱정도 이해돼요. 하지만 지금 상태로 있는 것도 힘들잖아요. 시도해보지 않으면 영원히 알 수 없어요. 그리고 만약 친구가 거절한다면, 그건 그 관계의 한계일 수 있어요.",
+      "text": "오늘 이야기 나눠주셔서 감사합니다. 다음에 또 만나요.",
       "technique": [
-        "validation",
-        "information_giving",
-        "confrontation"
+        "empathy",
+        "supportive"
       ]
     },
     {
-      "turn": 19,
       "speaker": "client",
-      "text": "관계의 한계요?"
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 19,
       "speaker": "counselor",
-      "text": "모든 관계가 영원할 수는 없어요. 때로는 멀어지기도 하죠. 그게 슬프긴 하지만, 받아들이는 것도 성장이에요. 그리고 새로운 관계를 만들 수도 있고요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "information_giving",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 20,
       "speaker": "client",
-      "text": "새로운 관계요... 생각해본 적 없는데. 지금은 그 친구밖에 생각이 안 나요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 20,
       "speaker": "counselor",
-      "text": "지금은 그 친구에게 집중되어 있지만, 시야를 넓혀보면 다른 가능성도 있어요. 그런데 그건 나중 이야기고, 우선 시험이 일주일 남았다고 했죠? 공부에 대해 이야기해볼까요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "validation",
-        "structuring"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 21,
       "speaker": "client",
-      "text": "네... 근데 공부가 손에 안 잡혀요. 자꾸 딴생각만 나고..."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 21,
       "speaker": "counselor",
-      "text": "친구 생각이 계속 나는 건 당연해요. 하지만 그 생각에 완전히 지배당하지 않는 연습이 필요해요. 생각이 나면 '아, 또 이 생각이 나는구나' 인정하고, 다시 현재로 돌아오는 거예요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "validation",
-        "information_giving",
-        "structuring"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 22,
       "speaker": "client",
-      "text": "그게 쉽게 될까요?"
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 22,
       "speaker": "counselor",
-      "text": "처음에는 어려워요. 하지만 연습하면 점점 나아져요. 공부할 때 타이머를 25분으로 맞추고, 그 시간만큼은 공부에만 집중하는 연습을 해보세요. 딴생각이 나면 종이에 적어두고 나중에 생각하기로 하는 거예요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "validation",
-        "information_giving",
-        "structuring"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "종이에 적어두면 좀 나을까요?"
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "네. 머릿속에서만 맴돌면 계속 신경 쓰이는데, 적어두면 '나중에 생각해도 돼'라는 안심이 되거든요. 그리고 25분 뒤에 5분 쉬는 시간에 그 종이를 보면서 잠깐 생각해도 돼요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "그 방법 한번 해볼게요. 그리고 친구한테도 용기 내서 말해볼게요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "좋은 결심이에요. 그럼 정리해볼까요? 첫째, 친구에게 나 전달법으로 자신의 감정 전달해보기. 둘째, 공부할 때는 25분 집중하고 딴생각은 종이에 적어두기. 셋째, 충분한 수면 취하기. 이렇게 해보는 거예요.",
-      "technique": [
-        "encouragement",
-        "summarization",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 해볼게요. 특히 친구한테 말하는 게 제일 중요할 것 같아요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "맞아요. 그 문제가 해결되면 마음이 한결 가벼워질 거예요. 그리고 기억하세요. 어떤 결과가 나오든 자신은 최선을 다한 거예요. 그걸로 충분해요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "감사해요. 오늘 이야기하니까 좀 정리가 된 것 같아요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "다행이에요. 힘들 때는 언제든 오세요. 친구 문제든 공부 문제든, 함께 이야기 나눠봐요. 힘내세요.",
-      "technique": [
-        "encouragement",
-        "validation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "네, 감사합니다!"
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "잘할 수 있을 거예요. 응원할게요.",
-      "technique": [
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "17세",
-    "gender": "남성",
-    "occupation": "고등학교 2학년",
-    "background": "수업 진도를 따라가지 못해 누적되는 학습 부담"
-  }
+  ]
 }

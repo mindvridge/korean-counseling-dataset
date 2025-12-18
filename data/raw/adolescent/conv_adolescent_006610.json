@@ -1,35 +1,26 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "진로 정체성",
-    "total_turns": 27,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "restatement",
-      "reflection",
-      "interpretation",
-      "emotion_labeling",
-      "validation",
-      "structuring"
-    ]
+    "topic": "학업 스트레스와 성적 압박",
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:25.020901+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_가족갈등_0005_간섭통제반발_02",
-    "category": "adolescent",
-    "topic": "진로 정체성"
+  "client_profile": {
+    "age": "18세",
+    "gender": "남성",
+    "occupation": "고등학교 3학년",
+    "background": "학업 스트레스와 성적 압박 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.114592+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "부모님이 제 공부 시간까지 다 정해놓으세요. 진짜 미칠 것 같아요."
+      "text": "선생님... 요즘 너무 힘들어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "부모님이 학습 시간을 통제하는 것에 대해 상당한 스트레스를 받고 계시네요. 어떤 식으로 정해놓으시나요?",
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
       "technique": [
         "empathy",
         "open_question"
@@ -38,375 +29,351 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "아침 6시에 일어나서 학교 가기 전 1시간 공부, 학교 끝나고 학원, 학원 끝나고 집에서 자정까지 공부... 주말에도 스케줄 꽉 차 있어요."
+      "text": "국어 2등급에서 4등급으로 떨어지고, 수학은 3등급이에요. 작년까지만 해도 다 2등급 안쪽이었는데..."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "아침부터 밤까지, 주말에도 빈틈없이 짜여진 일정으로 숨 쉴 틈이 없는 상태네요. 그 일정을 따라가는 게 어떤가요?",
+      "text": "2-3등급에서 3-4등급으로 떨어지니까 충격이 크겠구나. 수능까지 얼마 남지 않은 시점이라 더 불안하고.",
       "technique": [
-        "restatement",
-        "open_question"
+        "reflection",
+        "emotion_labeling",
+        "empathy"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "처음엔 따라갔죠. 근데 이제는 반항하고 싶어요. 일부러 안 하기도 하고... 그러면 부모님이랑 싸우게 되고요."
+      "text": "네... 100일밖에 안 남았는데 이 성적으로는 제가 원하는 대학 절대 못 가요. 부모님한테도 면목이 없고요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "통제에 대한 반발로 의도적으로 거부하게 되고, 그게 갈등으로 이어지는 악순환이 생긴 거군요.",
+      "text": "목표 대학과의 거리가 멀어진 것 같아서 좌절감이 크고, 부모님께도 죄송스러운 마음이 드는구나. 성적이 떨어진 이유가 뭐라고 생각해?",
       "technique": [
-        "reflection",
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "솔직히 잘 모르겠어요. 공부는 똑같이 하고 있는데... 아, 근데 3월부터 스마트폰을 좀 많이 본 것 같긴 해요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "restatement",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "스크린 타임 봤더니 하루 4-5시간 나오더라고요. 공부하다가 쉬는 시간에 보는 건데 그게 쌓이나 봐요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "하루 4-5시간이면 꽤 많은 시간이네. 공부하다가 쉬는 시간에 본다고 했는데, 그게 실제로 휴식이 되고 있어? 아니면 오히려 집중력을 떨어뜨리는 것 같아?",
+      "technique": [
+        "clarification",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "음... 생각해보니 휴식은 아닌 것 같아요. 유튜브 보다 보면 시간 가는 줄 모르고, 다시 공부하려면 집중하기 힘들어요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "스마트폰이 휴식이 아니라 오히려 집중력을 방해하는 요소가 되고 있다는 걸 스스로 알아챘구나. 중요한 깨달음이야.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "네... 근데 그걸 알면서도 계속 보게 되더라고요. 스트레스 받으면 자동으로 손이 가요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "잠도 부족해진 것 같아요. 스마트폰 보다가 늦게 자고, 아침에 일어나기 힘들고... 악순환이에요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "수면 부족으로 인한 악순환까지 생긴 거구나. 스마트폰 사용 → 수면 부족 → 집중력 저하 → 성적 하락 → 스트레스 → 다시 스마트폰. 이런 패턴이 보이네.",
+      "technique": [
+        "summarization",
         "interpretation"
       ]
     },
     {
-      "turn": 4,
-      "speaker": "client",
-      "text": "맞아요. 아빠는 '네가 나중에 후회할 거야', '지금 안 하면 인생 망친다' 이러시고... 저는 지금 당장이 너무 힘든데."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "아버지는 미래를 걱정하시는데, 정작 당신은 현재가 너무 힘들어서 버티기 어려운 상태네요. 지금 가장 힘든 점이 뭔가요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "제 시간이 하나도 없다는 거요. 친구들이랑 놀 시간도 없고, 제가 좋아하는 것 할 시간도 없고... 그냥 공부 기계가 된 것 같아요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "자신의 시간과 선택권이 전혀 없이 공부만 하는 기계처럼 느껴진다는 거네요. 그 감정이 상당히 힘들겠어요.",
-      "technique": [
-        "emotion_labeling",
-        "empathy"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "네. 가끔은 '내가 왜 사는 건지' 그런 생각도 들어요. 이게 정말 내 인생인가 싶고..."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "삶의 의미에 대한 회의감까지 느끼고 계시군요. 그건 정말 심각한 신호예요. 부모님께 이렇게까지 힘들다고 말씀드린 적 있나요?",
-      "technique": [
-        "emotion_labeling",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "말했죠. 근데 '다 너 잘되라고 하는 거야', '요즘 애들은 힘든 걸 못 견뎌' 이러면서 안 들어주세요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "자신의 고통을 호소했지만 진지하게 받아들여지지 않고, 오히려 나약하다는 평가를 받았군요. 그게 더 좌절스러웠을 것 같아요.",
-      "technique": [
-        "reflection",
-        "empathy"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "네. 그래서 이제는 말도 안 해요. 그냥 속으로 삭이고... 가끔 폭발하고 그래요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "감정을 억누르다가 한계에 다다르면 폭발하는 패턴이 반복되는 거네요. 폭발할 때는 어떻게 되나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
       "turn": 9,
       "speaker": "client",
-      "text": "소리 지르고, 물건 던지고... 한번은 방문을 주먹으로 쳐서 손을 다쳤어요. 그러면 부모님이랑 며칠 동안 서로 말도 안 하고..."
+      "text": "맞아요... 완전 그래요. 어떻게 끊어야 할지 모르겠어요. 이제 100일밖에 안 남았는데..."
     },
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "감정이 폭발해서 자해까지 한 경험이 있고, 그 후 냉전 상태가 이어지는군요. 지금 당신의 상태가 정말 심각하다는 걸 알아주셨으면 해요.",
+      "text": "악순환의 고리를 끊어야 하는데 방법을 모르겠고, 시간은 촉박하니 더 초조한 거네. 그런데 이 패턴을 인식한 것 자체가 변화의 첫걸음이야.",
       "technique": [
-        "emotion_labeling",
         "empathy",
-        "validation"
+        "encouragement"
       ]
     },
     {
       "turn": 10,
       "speaker": "client",
-      "text": "저도 알아요. 근데 어떻게 해야 할지 모르겠어요. 이대로는 안 되는 것 같은데..."
+      "text": "정말요? 근데 지금 시작해도 늦은 거 아닌가요? 100일로 2등급을 회복할 수 있을까요?"
     },
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "변화가 필요하다는 건 인식하고 계시지만 방법을 모르는 상태네요. 먼저, 부모님과 제대로 된 대화가 필요할 것 같아요.",
-      "technique": [
-        "reflection",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "대화요? 부모님은 제 말 안 들으실 텐데요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "지금까지의 경험 때문에 회의적이시군요. 하지만 이번에는 다른 방식으로 접근해볼 필요가 있어요. 감정적으로가 아니라 차분하게, 구체적으로요.",
+      "text": "100일이 짧게 느껴지겠지만, 올바른 방법으로 집중한다면 충분히 가능해. 실제로 막판에 성적을 끌어올리는 경우도 많거든. 네가 지금 바꿀 수 있는 것들부터 하나씩 해보자.",
       "technique": [
         "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "뭐부터 시작해야 할까요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "우선순위를 정해야 해. 첫 번째는 스마트폰 사용 조절, 두 번째는 수면 패턴 회복, 세 번째는 공부 방법 점검. 이 중에서 네가 가장 먼저 시도해볼 수 있는 건 뭘까?",
+      "technique": [
         "structuring",
-        "information_giving"
+        "open_question"
       ]
     },
     {
       "turn": 12,
       "speaker": "client",
-      "text": "차분하게요? 저는 화가 나는데 어떻게 차분하게 해요?"
+      "text": "스마트폰... 이거부터 해야 할 것 같아요. 이게 모든 문제의 시작인 것 같거든요."
     },
     {
       "turn": 12,
       "speaker": "counselor",
-      "text": "화가 나는 건 당연해요. 하지만 화를 내면 부모님도 방어적이 되어서 대화가 안 돼요. 그래서 전략이 필요한 거예요. 목표는 화를 푸는 게 아니라 상황을 바꾸는 거잖아요?",
+      "text": "정확한 판단이야. 스마트폰 사용을 조절하면 수면도 개선되고, 집중력도 회복될 거야. 구체적으로 어떻게 조절할 생각이야?",
       "technique": [
         "validation",
-        "information_giving",
         "open_question"
       ]
     },
     {
       "turn": 13,
       "speaker": "client",
-      "text": "그렇긴 하죠... 근데 어떻게요?"
+      "text": "아예 안 보면 좋겠지만... 그건 불가능할 것 같고요. 하루 1시간으로 제한하면 어떨까요?"
     },
     {
       "turn": 13,
       "speaker": "counselor",
-      "text": "먼저 부모님과 정식으로 대화 시간을 갖자고 요청하세요. 그리고 현재 일정의 문제점을 데이터로 제시하는 거예요. 성적이 오르지 않는다든지, 집중력이 떨어진다든지요.",
-      "technique": [
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "아, 부모님이 원하는 결과가 안 나온다는 걸 보여주는 거네요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "정확해요. 부모님의 목표는 당신이 공부를 잘하는 거잖아요. 지금 방식이 오히려 역효과라는 걸 보여주는 거죠.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "실제로 성적도 오르지 않았어요. 너무 피곤해서 수업 시간에 졸고... 집중도 안 되고."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "그걸 부모님께 객관적으로 설명하고, 적절한 휴식이 필요하다는 연구 결과나 전문가 의견을 같이 제시하면 더 효과적일 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "전문가 의견이요? 어디서 구하죠?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "학습과 휴식의 균형에 대한 교육 자료나 기사들을 찾아볼 수 있어요. 그리고 학교 선생님께 조언을 구할 수도 있고요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "아, 그런 것들을 가지고 대화하면 부모님도 좀 들어주시려나요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "가능성이 높아져요. 그리고 대안도 제시해야 해요. 무조건 공부 줄이자가 아니라, 더 효율적인 스케줄을 함께 만들자고요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "더 효율적인 스케줄이요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "예를 들어, 하루에 1시간 정도 자유 시간을 갖되, 나머지 시간은 집중해서 공부한다든지. 주말에 반나절은 쉰다든지. 구체적인 제안을 하는 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "그 정도면 저도 할 수 있을 것 같고, 부모님도 받아들이실 수 있을 것 같네요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "맞아요. 양쪽 모두 받아들일 수 있는 타협점을 찾는 거죠. 그리고 한 달 정도 시도해보고 결과를 점검하자고 제안하세요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "한 달 후에 다시 평가하는 거요? 그럼 부모님도 덜 불안해하시겠네요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "정확해요. 실험 기간을 두는 거죠. 그리고 그 기간 동안 당신도 약속을 잘 지켜야 해요. 자유 시간에는 정말 쉬되, 공부 시간에는 집중하는 거예요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "알겠어요. 그렇게 하면 부모님도 제가 책임감 있다는 걸 보실 수 있겠네요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "그렇죠. 신뢰를 쌓는 거예요. 그리고 이 과정에서 중요한 건 감정적으로 대응하지 않는 거예요. 냉정하고 논리적으로 접근해야 해요.",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 22,
+      "turn": 14,
       "speaker": "client",
-      "text": "네, 노력해볼게요. 근데 만약 부모님이 안 된다고 하시면요?"
+      "text": "그게 더 현실적인 것 같네요. 그럼 이번 주는 3시간, 다음 주는 2시간, 그 다음은 1시간. 이렇게요?"
     },
     {
-      "turn": 22,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "한 번에 설득되지 않을 수도 있어요. 그럴 땐 시간을 두고 다시 이야기하거나, 선생님이나 다른 어른을 중재자로 세울 수도 있어요.",
+      "text": "좋아, 구체적인 계획이 생겼네. 그런데 목표 시간을 지키기 위한 구체적인 방법도 필요해. 스크린 타임 제한 기능을 사용하거나, 공부할 때 폰을 다른 방에 두는 것 같은 방법들 말이야.",
       "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "중재자요? 누가 좋을까요?"
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "담임 선생님이나 학교 상담 선생님, 혹은 부모님이 신뢰하시는 친척분 같은 분들이 좋아요. 객관적인 시각을 제공해주실 수 있으니까요.",
-      "technique": [
+        "encouragement",
         "information_giving"
       ]
     },
     {
-      "turn": 24,
+      "turn": 15,
       "speaker": "client",
-      "text": "알겠어요. 일단 먼저 제가 부모님과 직접 대화해보고, 안 되면 담임쌤께 부탁드려볼게요."
+      "text": "아, 스크린 타임 제한 기능이요! 그거 설정해볼게요. 공부할 때는 폰을 거실에 두고 올게요."
     },
     {
-      "turn": 24,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "좋은 계획이에요. 정리해볼까요? 1. 학습 효율성 저하 자료 준비, 2. 대화 시간 요청, 3. 대안 스케줄 제안, 4. 한 달 실험 기간 제안. 이렇게 진행하는 거예요.",
+      "text": "실행 가능한 구체적인 방법들이네. 이제 두 번째, 수면 패턴을 얘기해볼까? 지금은 몇 시에 자고 몇 시간 자?",
       "technique": [
-        "encouragement",
-        "summarization",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "명확하네요. 이번 주말에 한번 시도해볼게요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "그리고 한 가지 더. 폭발적으로 화내는 건 당신에게도 부모님에게도 도움이 안 돼요. 화가 날 때 잠시 심호흡하고, 방에서 진정할 시간을 가지세요.",
-      "technique": [
-        "information_giving",
+        "validation",
         "structuring"
       ]
     },
     {
-      "turn": 26,
+      "turn": 16,
       "speaker": "client",
-      "text": "네, 감정 조절도 연습해볼게요."
+      "text": "보통 새벽 1-2시에 자서 6시에 일어나요. 4-5시간? 수업 시간에 졸리고 집중이 안 돼요."
     },
     {
-      "turn": 26,
+      "turn": 16,
       "speaker": "counselor",
-      "text": "잘 하실 거예요. 변화는 시간이 걸리지만, 전략적으로 접근하면 가능해요. 응원할게요.",
+      "text": "4-5시간은 청소년에게 많이 부족해. 최소 7시간은 자야 뇌가 제대로 작동해. 12시에 자면 어때? 스마트폰을 줄이면 가능할 것 같아?",
+      "technique": [
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "12시요... 해볼게요. 근데 공부할 시간이 부족할 것 같은데..."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "오히려 잘 자고 집중력을 높이면 같은 시간에 더 효율적으로 공부할 수 있어. 지금처럼 졸린 상태로 오래 앉아있는 것보다 훨씬 낫지.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "그렇긴 하네요. 요즘 공부해도 머리에 안 들어오는 것 같았거든요."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "바로 그 이유가 수면 부족 때문일 수 있어. 이제 세 번째, 공부 방법을 점검해보자. 지금 어떤 식으로 공부하고 있어?",
+      "technique": [
+        "validation",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "학원 다니고, 집에서 복습하고... 문제집도 풀고요. 근데 효과가 없는 것 같아요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "학원과 독학을 병행하고 있구나. 혹시 틀린 문제를 다시 복습하거나, 약점을 집중적으로 보완하는 시간은 있어?",
+      "technique": [
+        "restatement",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "아... 그냥 새로운 문제만 계속 풀었어요. 틀린 건 표시만 해두고 다시 안 봤어요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "그게 문제일 수 있어. 새 문제만 풀면 같은 유형에서 계속 틀릴 수 있거든. 틀린 문제를 완전히 이해할 때까지 반복하는 게 중요해.",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "그럼 앞으로는 틀린 문제 위주로 다시 풀어봐야겠네요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "맞아. 특히 모의고사에서 틀린 문제들은 꼭 다시 보고. 그게 실력 향상의 핵심이야. 자, 지금까지 정리한 걸 다시 한번 확인해볼까?",
+      "technique": [
+        "validation",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "네, 좋아요."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "첫째, 스마트폰 사용 단계적 감축 (이번 주 3시간, 다음 주 2시간, 그 다음 1시간). 둘째, 12시 취침으로 수면 7시간 확보. 셋째, 틀린 문제 반복 학습. 이 세 가지를 실천해보는 거야.",
+      "technique": [
+        "structuring",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "네, 할 수 있을 것 같아요. 근데 혹시 실패하면 어떡하죠?"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "완벽하게 지키지 못하더라도 괜찮아. 중요한 건 방향을 잡고 꾸준히 노력하는 거야. 힘들 때 언제든 와서 이야기하고, 함께 조정하면 돼.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "네, 선생님. 다음 주에 어떻게 됐는지 말씀드리러 올게요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "좋아. 그리고 기억해, 100일은 짧지 않아. 제대로 집중하면 충분히 올릴 수 있어. 넌 할 수 있어.",
       "technique": [
         "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 27,
+      "turn": 25,
       "speaker": "client",
-      "text": "감사합니다. 희망이 좀 생긴 것 같아요."
+      "text": "감사합니다, 선생님. 열심히 해볼게요!"
     },
     {
-      "turn": 27,
+      "turn": 25,
       "speaker": "counselor",
-      "text": "그 희망을 가지고 차근차근 진행해보세요. 다음에 결과 들려주세요.",
+      "text": "응, 파이팅! 다음 주에 보자.",
       "technique": [
-        "encouragement",
-        "structuring"
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "네, 다음 주에 뵐게요!"
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "좋은 한 주 보내!",
+      "technique": [
+        "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "15세",
-    "gender": "여성",
-    "occupation": "중학교 3학년",
-    "background": "하고 싶은 것을 찾지 못해 방황하는 상황"
-  }
+  ]
 }

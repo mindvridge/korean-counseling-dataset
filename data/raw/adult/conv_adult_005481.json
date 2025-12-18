@@ -1,400 +1,391 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "갈등 해결",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy",
-      "clarification",
-      "structuring",
-      "reflection",
-      "open_question",
-      "emotion_labeling",
-      "validation",
-      "closed_question"
-    ]
+    "topic": "육아 스트레스",
+    "total_turns": 30,
+    "generated_at": "2025-12-18T07:14:28.684531+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0024_워라밸_과도한야근_8b4d2e",
-    "category": "adult",
-    "topic": "갈등 해결"
+  "client_profile": {
+    "age": "38세",
+    "gender": "여성",
+    "occupation": "주부",
+    "background": "육아 스트레스 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.280670+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "상담사님, 저 요즘 집에 자러만 가요. 가족 얼굴 제대로 보지도 못하고..."
+      "text": "육아가 너무 힘들어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 일 때문에 가족과의 시간을 못 갖고 계시는군요. 요즘 업무량이 많으신가 봐요?",
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
       "technique": [
         "empathy",
-        "clarification",
-        "structuring"
+        "open_question"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "많은 정도가 아니라... 미친 수준이에요. 큰 프로젝트가 있어서 거의 매일 11시, 12시까지 일하고, 토요일도 나가요."
+      "text": "투자 운동가 다음 달이거든요. 제품이 없으면 투자를 못 받고, 투자 못 받으면 회사가 문 닫아요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "주 6일 근무에 매일 12시간 이상 일하시는 거네요. 그럼 하루에 몇 시간이나 집에 계시나요?",
+      "text": "투자와 회사 존폐가 걸려있으니 엄청난 압박이시겠어요. 지금 개발 진행 상황은 어떤가요?",
       "technique": [
-        "reflection",
+        "empathy",
         "open_question"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "자는 시간 빼면... 거의 없죠. 아침 7시에 나가서 밤 12시에 들어오니까. 애들은 잠든 후에 들어가고, 아침에는 애들 일어나기 전에 나가고..."
+      "text": "70% 정도요? 근데 나머지 30%가 핵심 기능이에요. 그걸 한 달 안에..."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "아이들 얼굴을 거의 못 보시는 거네요. 아이는 몇 살인가요? 그리고 이런 생활이 얼마나 지속됐나요?",
-      "technique": [
-        "emotion_labeling",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "아들이 7살, 딸이 5살이에요. 이런 생활이... 벌써 6개월째예요. 프로젝트가 내년 2월에 끝나는데, 그때까지 계속 이럴 것 같아요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "아이들이 아빠를 가장 필요로 하는 나이인데, 함께하지 못해 안타까우시겠어요. 6개월간 이런 생활을 하셨으면 신체적으로, 정신적으로 많이 지치셨을 텐데 어떠세요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "몸은 항상 피곤하고, 주말에는 거의 힘들어있어요. 가족이랑 어디 나가고 싶어도 체력이 없어서... 그냥 집에서 자요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "회복할 시간도 없이 계속 일만 하시니까 몸이 한계에 도달한 것 같네요. 배우자분은 이 상황에 대해 어떻게 생각하시나요?",
-      "technique": [
-        "emotion_labeling",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "아내가... 많이 화나 있어요. 처음엔 이해해줬는데, 이제는 '당신은 돈만 벌면 됐지, 가족은 신경도 안 쓴다'고 해요. 어제도 크게 싸웠어요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "배우자와의 관계도 악화되고 있군요. 아내분의 서운함과 분노가 느껴지는데, 당신은 그 말을 들었을 때 어떤 기분이었나요?",
+      "text": "핵심 기능을 한 달 안에 완성해야 하는 상황이군요. 개발팀은 몇 명인가요?",
       "technique": [
         "reflection",
-        "emotion_labeling"
+        "closed_question",
+        "empathy"
       ]
     },
     {
-      "turn": 7,
+      "turn": 4,
       "speaker": "client",
-      "text": "억울하죠. 저도 가족이랑 시간 보내고 싶어요. 근데 회사 일을 안 할 수도 없고... 제가 프로젝트 책임자거든요. 제가 빠지면 다 무너져요."
+      "text": "저 포함 4명이요. 근데 한 명은 신입이라 사실상 3명이에요."
     },
     {
-      "turn": 7,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "책임감 때문에 어쩔 수 없다고 느끼시는군요. 일도 중요하고 가족도 중요한데, 양쪽 다 만족시킬 수 없어서 괴로우신 거죠?",
-      "technique": [
-        "validation",
-        "reflection"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "맞아요. 양쪽에서 다 죄책감이 들어요. 회사에선 더 못 한다고 생각하고, 집에선 아빠 자격이 없다고 생각하고..."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "어디에서도 충분하지 못하다고 느끼시는군요. 그런 죄책감이 계속 쌓이면 번아웃으로 이어질 수 있어요. 지금 가장 힘든 부분은 뭔가요?",
-      "technique": [
-        "emotion_labeling",
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "아이들이 커가는 걸 못 보는 게 제일 슬퍼요. 아들이 어제 '아빠는 맨날 회사만 가'라고 했대요. 아내한테 들었는데... 가슴이 미어지더라고요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "아이의 그 한마디가 얼마나 아프셨을지... 아이들에게 아빠의 부재가 영향을 미치고 있다는 걸 실감하셨네요. 이 상황을 바꾸고 싶으신가요?",
-      "technique": [
-        "empathy",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "당연히 바꾸고 싶죠. 근데 어떻게요? 프로젝트는 계속 돌아가야 하고, 제가 책임자인데..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "책임감이 발목을 잡고 있군요. 하지만 한 가지 질문할게요. 프로젝트가 성공해도 가족을 잃으면 그게 진정한 성공일까요?",
+      "text": "3명이 한 달 안에 핵심 기능을 완성해야 하는군요. 현실적으로 가능하다고 생각하세요?",
       "technique": [
         "reflection",
         "confrontation"
       ]
     },
     {
+      "turn": 5,
+      "speaker": "client",
+      "text": "... 솔직히 모르겠어요. 해야 하니까 하는 거죠."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "'해야 하니까 한다'는 마음이시군요. 지금 어떤 방식으로 일하고 계신가요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "매일 새벽 2시까지 일하고, 주말도 없어요. 팀원들도 마찬가지고..."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "하루 16시간 넘게 일하시는군요. 이런 속도로 한 달 가면 어떻게 될 것 같으세요?",
+      "technique": [
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "쓰러지겠죠. 벌써 팀원 한 명이 과로로 병원 갔어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "이미 과로로 쓰러진 팀원이 있군요. 그럼 실질적으로 2명이 남은 건데, 이 상황을 대표나 투자팀에 보고하셨나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "대표님한테 말씀드렸는데... '어떻게든 해야 한다, 이게 안 되면 다 끝이다'라고만 하세요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "실질적 해결책 없이 압박만 받고 계시는군요. 그럼 투자 체육 일정을 조정하거나, 제품 범위를 조정하는 건 논의해보셨나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "대표님이 안 된대요. 투자자가 정한 일정이라 미룰 수 없고, 제품도 약속한 기능을 다 보여줘야 한대요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "일정도 범위도 조정 불가능한 상황이군요. 그럼 자원 추가는요? 외부 개발자 영입이나 아웃소싱 같은 거요.",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "돈이 없대요. 투자 받기 전까지는..."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "일정, 범위, 자원 모두 고정된 상태에서 불가능한 미션을 수행하고 계시는군요. 이런 상황에서 본인이 가장 필요한 게 뭐라고 생각하세요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 11,
       "speaker": "client",
-      "text": "그건... 아니죠. 당연히 가족이 더 중요하죠."
+      "text": "현실적 계획이요. 지금은 그냥 미친 듯이 일만 하고 있어요."
     },
     {
       "turn": 11,
       "speaker": "counselor",
-      "text": "우선순위가 분명하시네요. 그럼 가족을 지키면서도 프로젝트를 완수할 방법이 있을까요? 현재 업무를 조금이라도 줄일 수 있는 방법을 생각해보셨나요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
-        "validation",
-        "open_question"
+        "reflection",
+        "goal_setting"
       ]
     },
     {
       "turn": 12,
       "speaker": "client",
-      "text": "팀원들한테 업무를 더 나눠줄 수는 있을 것 같은데... 제가 완벽주의라서 제가 직접 하는 게 마음 편해요."
+      "text": "다 우선순위예요. 다 중요해요."
     },
     {
       "turn": 12,
       "speaker": "counselor",
-      "text": "아, 위임의 어려움이 있으시군요. '내가 하는 게 더 빠르고 정확하다'는 생각이 드시나요?",
+      "text": "'다 중요하다'는 건 '우선순위가 없다'는 뜻이에요. 정말로 투자 운동에서 모든 기능을 다 보여줘야 하나요?",
       "technique": [
-        "clarification",
+        "confrontation",
         "closed_question"
       ]
     },
     {
       "turn": 13,
       "speaker": "client",
-      "text": "맞아요. 팀원들한테 맡기면 결국 제가 다시 검토하고 수정해야 해서... 차라리 제가 하는 게 낫다고 생각했어요."
+      "text": "... 꼭 그렇진 않을 수도 있겠네요. 핵심만 작동하면..."
     },
     {
       "turn": 13,
       "speaker": "counselor",
-      "text": "그 생각이 당신을 과로로 몰아넣고 있어요. 완벽하게 하려다 중요한 것들을 잃을 수 있어요. 80%의 완성도로도 충분한 일들이 있지 않을까요?",
-      "technique": [
-        "confrontation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "음... 생각해보니 제가 너무 세세한 것까지 신경 쓰는 것 같긴 해요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "그걸 인식하신 게 중요해요. 팀원들을 신뢰하고 권한을 위임하면 당신의 부담이 줄어들 거예요. 그리고 팀원들도 성장할 기회를 얻고요.",
+      "text": "그거예요. 최우수선수(최소실행가능 제품) 개념이에요. 완벽한 제품보다 작동하는 핵심 기능이 먼저예요.",
       "technique": [
         "encouragement",
         "information_giving"
       ]
     },
     {
-      "turn": 15,
+      "turn": 14,
       "speaker": "client",
-      "text": "맞는 말씀이에요. 근데 습관을 바꾸기가 쉽지 않아요. 어떻게 시작하면 좋을까요?"
+      "text": "근데 대표님이 원하시는 건..."
     },
     {
-      "turn": 15,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "작은 것부터 시작해보세요. 중요도가 낮은 업무부터 팀원에게 맡기고, 과정을 지켜보는 거예요. 완벽하지 않아도 괜찮다는 걸 스스로에게 허락하는 연습이죠.",
+      "text": "대표님께 다시 한번 제안해보는 건 어떨까요? '모든 기능'과 '핵심 기능만 완벽하게', 두 옵션을 놓고요.",
       "technique": [
         "structuring",
         "information_giving"
       ]
     },
     {
-      "turn": 16,
+      "turn": 15,
       "speaker": "client",
-      "text": "그렇게 해볼게요. 그런데... 야근을 안 할 순 없어도 줄일 순 있을까요?"
+      "text": "거절하실 것 같은데..."
     },
     {
-      "turn": 16,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "가능해요. 예를 들어 주 2-3일은 6시에 퇴근하는 날로 정하는 거예요. '가족의 날'로 정하고, 그날만큼은 반드시 지키는 거죠. 어떻게 생각하세요?",
+      "text": "데이터를 준비해서 제시하는 거예요. '현재 리소스로 모든 기능 구현 시 품질 위험 80%, 핵심 기능만 구현 시 성공률 90%' 이런 식으로요.",
       "technique": [
         "information_giving",
         "structuring"
       ]
     },
     {
-      "turn": 17,
+      "turn": 16,
       "speaker": "client",
-      "text": "주 2-3일이요? 가능할까요... 하지만 해볼 만한 것 같아요. 적어도 애들 얼굴은 볼 수 있겠네요."
+      "text": "그렇게 객관적으로 보여드리면 들어주실 수도 있겠네요."
     },
     {
-      "turn": 17,
+      "turn": 16,
       "speaker": "counselor",
-      "text": "맞아요. 완벽하게 바꿀 수 없어도 개선은 할 수 있어요. 그리고 아내분께도 '지금 당장은 힘들지만, 이렇게 노력하고 있다'는 걸 보여주는 게 중요해요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "아내한테 어떻게 말하면 좋을까요? 어제 싸웠는데 대화가 잘 될지 모르겠어요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "먼저 아내의 힘든 마음을 인정하고 공감해주세요. '혼자 육아하느라 힘들었지? 미안해'라고요. 그리고 구체적인 변화 계획을 제시하는 거예요. '수요일과 금요일은 6시에 집에 올게'처럼요.",
+      "text": "그리고 팀원 건강 문제도 중요해요. 지금처럼 가다가 또 쓰러지면 2명이 되고, 그럼 정말 불가능해져요.",
       "technique": [
         "information_giving",
-        "structuring"
+        "validation"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "맞아요. 근데 어떻게 쉬게 하죠? 시간이 없는데..."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "최소한의 휴식은 필수예요. 하루 수면 6시간, 일주일에 하루 휴무. 이건 성과를 위한 투자예요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "그 시간에 일하면 더 많이 할 수 있는데..."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "과로한 상태에서의 10시간보다 충분히 쉰 후의 8시간이 더 생산적이에요. 실수도 줄고, 효율도 높아지고요.",
+      "technique": [
+        "information_giving",
+        "confrontation"
       ]
     },
     {
       "turn": 19,
       "speaker": "client",
-      "text": "구체적인 계획을 말하는 게 좋겠네요. 그냥 '노력할게'보다는..."
+      "text": "... 그럴 수도 있겠네요. 요즘 실수가 늘긴 했어요."
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "정확해요. 구체적인 실천 계획이 신뢰를 만들어요. 그리고 약속한 날은 반드시 지켜야 해요. 한 번이라도 어기면 신뢰가 깨지니까요.",
+      "text": "바로 그거예요. 지금 방식은 지속 가능하지 않아요. 한 달을 버티려면 페이스 조절이 필요해요.",
       "technique": [
-        "validation",
+        "interpretation",
         "information_giving"
       ]
     },
     {
       "turn": 20,
       "speaker": "client",
-      "text": "네, 약속 지키는 게 중요하겠네요. 그런데 회사에서도 이해를 해줄까요?"
+      "text": "알겠습니다. 팀원들이랑 얘기해볼게요."
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "팀장이나 상사에게 솔직하게 말씀해보셨나요? 워라밸이 중요한 이슈이고, 대부분의 회사가 그걸 인정하는 추세예요. 건강과 가정을 지켜야 장기적으로 좋은 성과를 낼 수 있다고 말씀드려보세요.",
+      "text": "그리고 본인 자신도 돌보세요. 리더가 쓰러지면 팀 전체가 무너져요.",
       "technique": [
-        "open_question",
-        "information_giving"
+        "information_giving",
+        "validation"
       ]
     },
     {
       "turn": 21,
       "speaker": "client",
-      "text": "아직 말 안 해봤어요. 약해 보일까봐... 근데 이제는 말해야겠네요."
+      "text": "저요? 저는 괜찮아요."
     },
     {
       "turn": 21,
       "speaker": "counselor",
-      "text": "가족을 돌보는 게 약한 게 아니에요. 오히려 책임감 있는 태도죠. 그리고 번아웃으로 쓰러지는 것보다 미리 조절하는 게 회사에도 이익이에요.",
+      "text": "정말요? 지금 수면 시간은 몇 시간이신가요?",
       "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "맞아요. 제가 쓰러지면 프로젝트가 더 위험해지죠. 상사한테 한번 이야기해볼게요."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "좋은 결정이에요. 그럼 오늘 상담을 통해 세운 계획을 정리해볼까요?",
-      "technique": [
-        "encouragement",
-        "summarization"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "네, 정리하면 좋겠어요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "첫째, 업무 위임하기 - 작은 일부터 팀원에게 맡기기. 둘째, 주 2-3일 가족의 날 정하기. 셋째, 아내에게 구체적인 계획 제시하며 사과하기. 넷째, 상사와 워라밸에 대해 대화하기. 맞나요?",
-      "technique": [
-        "summarization",
+        "confrontation",
         "closed_question"
       ]
     },
     {
+      "turn": 22,
+      "speaker": "client",
+      "text": "3-4시간? 근데 버틸 만해요."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "3-4시간은 위험 수준이에요. 판단력, 창의력, 문제해결 능력 모두 떨어져요. 리더가 잘못된 결정하면 팀 전체가 영향받아요.",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "... 맞는 말이에요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
       "turn": 24,
       "speaker": "client",
-      "text": "완벽해요. 이렇게 하나씩 하면 될 것 같아요."
+      "text": "대표님께 제안이요. 데이터 준비해서 내일 말씀드려야겠어요."
     },
     {
       "turn": 24,
       "speaker": "counselor",
-      "text": "언제부터 실행하실 계획이에요?",
+      "text": "좋아요. 그리고 팀원들과도 솔직하게 이야기 나누세요. '우리가 할 수 있는 최선'을 함께 정하는 거죠.",
       "technique": [
-        "open_question"
+        "encouragement",
+        "structuring"
       ]
     },
     {
       "turn": 25,
       "speaker": "client",
-      "text": "오늘 저녁에 일찍 들어가서 아내한테 먼저 이야기하고, 내일부터 업무 위임 시작할게요."
+      "text": "네, 오늘 저녁에 팀 회의 소집할게요."
     },
     {
       "turn": 25,
       "speaker": "counselor",
-      "text": "구체적인 시작일까지 정하셨네요. 실천 가능성이 높아 보여요. 한 가지 더, 프로젝트가 끝나는 2월 이후에는 어떻게 하실 계획인가요?",
+      "text": "훌륭해요. 그리고 자책하지 마세요. 불가능한 미션을 받은 게 본인 잘못이 아니에요.",
       "technique": [
         "encouragement",
-        "open_question"
+        "validation"
       ]
     },
     {
       "turn": 26,
       "speaker": "client",
-      "text": "2월 이후에는... 좀 쉬고 싶어요. 휴가 내서 가족이랑 여행 가고..."
+      "text": "그래도 제가 리더인데..."
     },
     {
       "turn": 26,
       "speaker": "counselor",
-      "text": "좋은 계획이에요. 그걸 아이들에게 약속으로 해주면 어떨까요? '아빠가 지금은 바쁘지만, 2월에는 꼭 함께 놀러 가자'고요. 아이들에게 희망을 주는 거죠.",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
-        "encouragement",
+        "validation",
         "information_giving"
       ]
     },
     {
       "turn": 27,
       "speaker": "client",
-      "text": "아, 그거 좋네요! 애들이 기다릴 수 있겠어요. 오늘 당장 얘기해줘야겠어요."
+      "text": "가능한 최선... 그걸 찾아야겠네요."
     },
     {
       "turn": 27,
       "speaker": "counselor",
-      "text": "훌륭해요. 가족과의 관계도, 일의 효율도 모두 개선할 수 있는 계획을 세우셨어요. 실천하시면서 어려움이 있으면 언제든 다시 오세요.",
+      "text": "맞아요. 그리고 최악의 경우도 대비하세요. 만약 투자가 안 되면 어떻게 할지도 생각해두는 거죠.",
       "technique": [
         "encouragement",
         "structuring"
@@ -403,22 +394,44 @@
     {
       "turn": 28,
       "speaker": "client",
-      "text": "감사합니다. 희망이 생겼어요. 변화를 만들어볼게요."
+      "text": "생각하기 싫지만... 필요하긴 하네요."
     },
     {
       "turn": 28,
       "speaker": "counselor",
-      "text": "당신은 할 수 있어요. 가족을 사랑하는 마음, 일에 대한 책임감, 둘 다 소중해요. 균형을 찾아가시길 응원할게요.",
+      "text": "오늘 상담에서 어떤 게 가장 도움이 됐나요?",
+      "technique": [
+        "open_question",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "무작정 일하는 게 답이 아니라는 것, 그리고 우선순위를 정해야 한다는 것. 팀과 저 자신도 돌봐야 한다는 거요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "완벽하게 정리하셨네요. 한 달이 힘들겠지만, 현명하게 접근하시면 충분히 해낼 수 있어요. 다음 주에 어떻게 됐는지 이야기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "client",
+      "text": "감사합니다. 조금 길이 보이는 것 같아요. 다음 주에 뵙겠습니다."
+    },
+    {
+      "turn": 30,
+      "speaker": "counselor",
+      "text": "힘든 상황이지만 본인과 팀을 믿으세요. 잘하실 거예요. 다음 주에 뵙겠습니다.",
       "technique": [
         "encouragement",
         "validation"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "35세",
-    "gender": "남성",
-    "occupation": "영업직",
-    "background": "주변 사람들과의 갈등을 해결하지 못하는 상황"
-  }
+  ]
 }

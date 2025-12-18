@@ -1,385 +1,397 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "대인 불안",
-    "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "clarification",
-      "restatement",
-      "open_question",
-      "interpretation",
-      "validation",
-      "empathy",
-      "confrontation"
-    ]
+    "topic": "직장 내 인간관계 갈등",
+    "total_turns": 27,
+    "generated_at": "2025-12-18T07:14:28.530485+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_대인관계_0013_w9x0y1z2",
-    "category": "adult",
-    "topic": "대인 불안"
+  "client_profile": {
+    "age": "23세",
+    "gender": "여성",
+    "occupation": "대학생",
+    "background": "직장 내 인간관계 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.088868+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "재택근무 시작한 지 2년 됐는데요. 사람 만나는 게 너무 힘들어졌어요."
+      "text": "직장 상사 때문에 미치겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "재택근무 후 사회적 접촉이 줄어들었군요. 사람을 만나는 게 어떻게 힘들어지셨나요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
       "technique": [
         "empathy",
-        "reflection",
-        "clarification"
+        "open_question"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "대화하는 게 어색하고... 무슨 말을 해야 할지 모르겠어요. 집에만 있다 보니까요."
+      "text": "한두 시간은 기본이고, 심하면 세 시간도 걸려요. 그러다 보니 새벽 2-3시에 겨우 잠들어요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "대화 자체가 어색하게 느껴지시는군요. 재택 전에는 어떠셨나요?",
+      "text": "입면까지 2-3시간이 걸리시는군요. 그럼 아침에 일어나는 시간은 언제인가요?",
       "technique": [
-        "empathy",
+        "restatement",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "7시에 일어나야 해요. 출근해야 하니까... 그래서 잠을 4-5시간밖에 못 자요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "4-5시간 수면으로 하루를 버티시는군요. 낮 동안은 어떠세요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "너무 피곤해요. 집중도 안 되고, 실수도 많아지고... 오후만 되면 정신이 하나도 없어요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "6개월 정도요. 처음엔 일시적인 줄 알았는데, 계속되네요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "6개월이면 만성 불면증이에요. 6개월 전쯤 스트레스받을 일이 있었나요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "회사에서 감사 업무가 있었어요. 그때 스트레스가 심했죠. 근데 그건 이미 끝났는데도 잠은 여전히 안 와요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "스트레스는 끝났지만 불면증은 지속되고 있군요. 잠자리에 누워서 주로 무슨 생각을 하시나요?",
+      "technique": [
         "restatement",
         "open_question"
       ]
     },
     {
-      "turn": 3,
-      "speaker": "client",
-      "text": "그땐 괜찮았어요. 회사에서 동료들이랑 자연스럽게 얘기하고 그랬는데..."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "회사에서의 자연스러운 교류가 없어지니 대화 기술이 퇴화된 느낌이시군요. 지금 사회적 접촉은 어느 정도 되시나요?",
-      "technique": [
-        "empathy",
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "거의 없어요. 화상회의 말고는... 밖에 나가는 것도 일주일에 한두 번?"
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "대부분의 시간을 집에서 혼자 보내시는군요. 이런 생활이 얼마나 계속되었나요?",
-      "technique": [
-        "empathy",
-        "reflection",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "2년이요. 처음엔 좋았어요. 출퇴근 안 해도 되고, 편하고... 근데 점점 외로워지더라고요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "처음엔 편했지만 시간이 지나며 외로움을 느끼기 시작하셨군요. 언제부터 문제라고 느끼셨나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "몇 달 전부터요. 주말에도 아무도 안 만나고 집에만 있으니까... 이게 정상인가 싶었어요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "주말에도 사회적 교류가 없으시군요. 친구들이나 가족은 어떠세요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
       "turn": 7,
       "speaker": "client",
-      "text": "친구들은 다 바쁘고... 가족은 지방에 계세요. 전화는 가끔 하지만 직접 만나진 못해요."
+      "text": "'오늘도 잠 못 자면 어떡하지', '내일 회의에서 졸면 어떡하지' 이런 생각들이요."
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "물리적으로 가까운 사람들이 없으시군요. 외로움을 느낄 때 어떻게 하시나요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "게임하거나 유튜브 봐요. 그것도 지겹긴 한데... 다른 할 게 없어요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "온라인 활동으로 외로움을 달래시는군요. 하지만 만족스럽지는 않으신 것 같네요.",
-      "technique": [
-        "interpretation",
-        "reflection"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "네. 진짜 사람이랑 얘기하고 싶은데... 막상 기회가 생기면 피하게 돼요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "외로운데 사람을 피한다는 게 모순적으로 들리시나요? 왜 피하게 되는 것 같으세요?",
-      "technique": [
-        "confrontation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "어색할 것 같아서요. 그리고 피곤하기도 하고... 집이 편해요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "단기적으로는 집이 편하지만, 장기적으로는 고립되고 있는 거예요. 이게 계속되면 어떻게 될 것 같으세요?",
-      "technique": [
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "더 심해지겠죠... 이미 사람 만나는 게 너무 힘들어졌는데."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "악순환이 되고 있다는 걸 알고 계시네요. 이 패턴을 깨고 싶으신가요?",
+      "text": "잠에 대한 걱정이 오히려 잠을 방해하고 있네요. 전형적인 불면증의 악순환이에요.",
       "technique": [
         "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "깨고 싶긴 한데... 어떻게 해야 할지 모르겠어요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "작은 것부터 시작하면 돼요. 갑자기 많은 사람을 만나려고 하지 말고요. 예를 들어, 카페에 가서 주문하는 것부터요.",
-      "technique": [
-        "encouragement",
         "information_giving"
       ]
     },
     {
+      "turn": 8,
+      "speaker": "client",
+      "text": "악순환이요? 그럼 어떻게 끊어야 하나요?"
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "그런데 자야 하잖아요. 안 자면 다음 날이 힘든데..."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "맞아요. 하지만 '자야 한다'고 애쓸수록 뇌는 깨어있게 돼요. 역설적이죠. 수면위생에 대해 들어보셨나요?",
+      "technique": [
+        "validation",
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "아니요, 그게 뭔가요?"
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "좋은 수면을 위한 생활 습관이에요. 예를 들어 침실 환경, 취침 시간, 자기 전 활동 같은 거죠. 지금 어떤 습관들이 있으세요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "침대에서 핸드폰 보다가 자려고 해요. 그리고 잠 안 오면 텔레비전 켜놓고..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "침대에서 핸드폰과 텔레비전를 보시는군요. 이게 문제가 될 수 있어요. 블루라이트가 멜라토닌 분비를 방해하거든요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "그럼 뭘 해야 하나요? 가만히 누워있으면 더 답답한데..."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 13,
       "speaker": "client",
-      "text": "카페 주문이요? 그건 별로 안 어려운데..."
+      "text": "침대에서 일어나라고요? 그럼 더 잠이 안 올 것 같은데..."
     },
     {
       "turn": 13,
       "speaker": "counselor",
-      "text": "그럼 거기서 한 단계 더 나가보는 거예요. 점원에게 추천 메뉴 물어보기, 같은 테이블 사람에게 간단히 인사하기 같은 거요.",
+      "text": "처음엔 그렇게 느껴질 수 있어요. 하지만 침대는 '수면의 공간'이라는 인식을 심어주는 게 중요해요. 침대에서 뒤척이는 시간이 길어지면 침대가 '불면의 공간'이 돼요.",
+      "technique": [
+        "empathy",
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "그렇군요... 그럼 일어나서 뭘 하면 좋을까요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "조명을 어둡게 하고, 책을 읽거나 음악을 듣거나... 자극적이지 않은 활동이 좋아요. 핸드폰은 피하시고요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "알겠어요. 그리고 낮잠은요? 너무 피곤해서 점심 먹고 자고 싶은데..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "낮잠은 가능하면 피하세요. 만약 꼭 자야 한다면 20분 이내로, 오후 3시 전에 자세요. 늦은 낮잠은 밤 수면을 방해해요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "20분만요? 알람 맞춰놓고 자야겠네요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "네, 정확해요. 그리고 취침 시간과 기상 시간을 일정하게 유지하는 게 중요해요. 주말에도요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "주말에도요? 주말엔 좀 늦게까지 자고 싶은데..."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그 마음은 이해해요. 하지만 불규칙한 수면 패턴이 불면증을 악화시켜요. 생체 리듬을 일정하게 유지하는 게 핵심이에요.",
+      "technique": [
+        "empathy",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "생체 리듬... 그럼 몇 시에 자는 게 좋나요?"
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "본인에게 맞는 시간이면 돼요. 다만 7시에 일어나신다면 11시-11시 30분에는 누우시는 게 좋겠어요. 7-8시간 수면 기회를 주는 거죠.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "11시요... 지금은 10시에 누워도 새벽에 자는데, 더 늦게 누우라는 건가요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "네, 역설적이지만 침대에 있는 시간을 줄이는 거예요. 수면효율을 높이기 위해서요. 이걸 수면제한요법이라고 해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "수면효율이요?"
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "침대에 누워있는 시간 대비 실제 잔 시간의 비율이에요. 지금은 3시간 누워서 1-2시간 자시니 효율이 낮죠. 누워있는 시간을 줄여서 효율을 높이는 거예요.",
       "technique": [
         "clarification",
-        "structuring"
+        "information_giving"
       ]
     },
     {
-      "turn": 14,
+      "turn": 21,
       "speaker": "client",
-      "text": "그게 도움이 될까요?"
+      "text": "아, 그렇게 하면 피곤해서라도 빨리 잠들겠네요."
     },
     {
-      "turn": 14,
+      "turn": 21,
       "speaker": "counselor",
-      "text": "사회적 근육을 키우는 거예요. 운동 안 하던 사람이 갑자기 마라톤 뛸 수 없듯이, 작은 상호작용부터 연습하는 거죠.",
+      "text": "정확해요. 그리고 낮에 햇빛을 쬐는 것도 중요해요. 점심시간에 밖에서 10-20분 정도 산책해보세요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "햇빛이 수면과 무슨 상관이 있나요?"
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "햇빛이 생체 리듬을 조절하는 호르몬인 멜라토닌 분비에 영향을 줘요. 낮에 햇빛을 충분히 받으면 밤에 멜라토닌이 잘 분비돼요.",
       "technique": [
         "information_giving",
         "clarification"
       ]
     },
     {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그렇게 생각하니 이해가 되네요. 다른 방법도 있나요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "취미 모임이나 동호회에 참여해보는 건 어떨까요? 공통 관심사가 있으니 대화하기 쉬워요.",
-      "technique": [
-        "information_giving",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "동호회요... 가본 적이 없는데 어떻게 찾아요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "온라인 플랫폼에 지역별, 관심사별로 많아요. 우선 온라인 모임부터 시작해도 좋아요. 화상으로 시작하면 부담이 덜하죠.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "온라인이면 좀 나을 것 같아요. 근데 뭘 해야 할까요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "본인이 좋아하는 게 뭔가요? 게임, 독서, 운동, 뭐든 좋아요.",
-      "technique": [
-        "open_question",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "게임 좋아해요. 근데 혼자 하는 게임만..."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "그럼 온라인 게임 커뮤니티에 참여해보세요. 같이 게임하면서 자연스럽게 대화할 수 있어요.",
-      "technique": [
-        "information_giving",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "그거라면 해볼 만할 것 같아요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "좋아요. 이번 주에 하나 찾아서 참여해보시고, 다음 주에 어떠셨는지 얘기 나눠봐요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "네, 해볼게요. 감사합니다."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "작은 시작이 큰 변화를 만들어요. 잘하실 거예요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "오늘 이야기 나눠서 마음이 한결 가벼워진 것 같아요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
-      "technique": [
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "앞으로 어떻게 하면 좋을지 조금 더 생각해볼게요."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "천천히 생각해보시고, 다음에 만나서 어떻게 지내셨는지 이야기 나눠봐요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
       "turn": 23,
       "speaker": "client",
-      "text": "네, 다음 상담 때 뵙겠습니다."
+      "text": "그렇군요. 운동은 어때요? 저녁에 운동하면 잠 오려나 해서..."
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "네, 그때까지 자신을 잘 돌봐주세요. 응원하고 있을게요.",
+      "text": "운동은 좋아요. 하지만 잠들기 3-4시간 전에는 피하세요. 늦은 운동은 오히려 각성을 높여요. 오전이나 오후 이른 시간이 좋아요.",
       "technique": [
-        "encouragement",
-        "validation"
+        "validation",
+        "information_giving"
       ]
     },
     {
       "turn": 24,
       "speaker": "client",
-      "text": "감사합니다. 선생님 덕분에 힘이 나요."
+      "text": "아침에 운동하면 좋겠네요. 근데 일어나자마자 운동할 기력이 있을지..."
     },
     {
       "turn": 24,
       "speaker": "counselor",
-      "text": "힘내세요. 잘 해내실 수 있을 거예요.",
+      "text": "처음엔 힘들 수 있어요. 가벼운 스트레칭이나 10분 걷기부터 시작해보세요. 작은 것부터요.",
       "technique": [
-        "empathy",
-        "encouragement"
+        "validation",
+        "goal_setting"
       ]
     },
     {
       "turn": 25,
       "speaker": "client",
-      "text": "네, 열심히 해볼게요!"
+      "text": "알겠어요. 그리고 잠들기 전에 술을 한잔하면 잘 자게 되던데..."
     },
     {
       "turn": 25,
       "speaker": "counselor",
-      "text": "좋아요, 다음 주에 뵙겠습니다.",
+      "text": "술은 일시적으로 졸음을 유발하지만, 수면의 질을 떨어뜨려요. 특히 새벽에 자주 깨게 만들어요. 피하시는 게 좋아요.",
       "technique": [
-        "encouragement",
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "그렇군요... 카페인도 피해야겠죠?"
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "맞아요. 오후 2시 이후에는 카페인 섭취를 피하세요. 카페인은 체내에 오래 남아있거든요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "할 게 많네요... 다 할 수 있을까요?"
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "한 번에 다 하려고 하지 마세요. 이번 주에는 취침 시간 조정하기, 침대에서 핸드폰 안 보기, 이 두 가지만 해보세요.",
+      "technique": [
+        "validation",
+        "goal_setting",
         "structuring"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "27세",
-    "gender": "여성",
-    "occupation": "연구원",
-    "background": "새로운 사람을 만나는 것이 두려운 사회불안"
-  }
+  ]
 }

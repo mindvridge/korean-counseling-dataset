@@ -1,384 +1,436 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "친구 관계",
-    "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "restatement",
-      "clarification",
-      "validation",
-      "closed_question",
-      "interpretation"
-    ]
+    "topic": "부모와의 갈등",
+    "total_turns": 30,
+    "generated_at": "2025-12-18T07:14:28.775269+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_대인관계_0009_g3h4i5j6",
-    "category": "adult",
-    "topic": "친구 관계"
+  "client_profile": {
+    "age": "35세",
+    "gender": "남성",
+    "occupation": "자영업",
+    "background": "부모와의 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.383822+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "시어머니 때문에 미칠 것 같아요. 남편은 중간에서 아무것도 안 하고요."
+      "text": "사람들 만나는 게 두려워요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "시댁과의 갈등이 심하시고, 남편분의 도움도 받지 못하고 계시는군요. 어떤 일들이 있으셨나요?",
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "text": "매출 목표를 두 배로 올리셨어요. 현실적으로 불가능한 숫자인데... 무조건 달성하라고만 하세요."
+    },
+    {
+      "turn": 2,
+      "speaker": "counselor",
+      "text": "현재의 두 배라는 목표를 설정하셨군요. 왜 불가능하다고 생각하시나요?",
       "technique": [
         "reflection",
-        "empathy",
         "open_question"
-      ]
-    },
-    {
-      "turn": 2,
-      "speaker": "client",
-      "text": "시어머니가 집에 허락도 없이 오세요. 그리고 육아에 이것저것 간섭하고... 제가 하는 건 다 잘못됐대요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "경계 침범과 육아 간섭으로 힘드시군요. 구체적인 예를 하나 들어주시겠어요?",
-      "technique": [
-        "empathy",
-        "restatement",
-        "clarification"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "어제도 갑자기 오셔서 '애가 왜 이렇게 말랐어?'라고 하시더라고요. 제가 밥을 안 먹인다고요. 얼마나 억울한지..."
+      "text": "시장 상황, 인력, 자원... 모든 게 부족해요. 작년에도 목표 달성하느라 힘들어라 일했는데, 그걸 두 배로 하라니..."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "육아 방식을 비난받는다고 느끼시니 억울하고 화나셨겠어요. 그때 어떻게 반응하셨나요?",
-      "technique": [
-        "empathy",
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "참았죠. 뭐라고 하면 남편이 '엄마한테 왜 그래?'라고 할 거 뻔하니까요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "남편의 반응이 두려워서 참으셨군요. 실제로 남편분께 이런 상황을 말씀드린 적은 있으세요?",
+      "text": "객관적으로 자원이 부족한 상황에서 목표만 높아진 거네요. 이걸 사장님께 말씀드려 보셨나요?",
       "technique": [
         "reflection",
         "closed_question"
       ]
     },
     {
-      "turn": 5,
+      "turn": 4,
       "speaker": "client",
-      "text": "여러 번 했죠. '어머니가 이렇게 말씀하셨다', '힘들다'고요. 근데 남편은 '그냥 그러려니 해', '엄마 성격이 원래 그래'라고만 해요."
+      "text": "말씀드렸죠. '방법을 찾으면 된다, 그게 팀장의 역할이다'라고 하시더라고요."
     },
     {
-      "turn": 5,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "남편분이 문제를 최소화하고 회피하시는군요. 그 말을 들으면 어떤 기분이 드세요?",
+      "text": "구체적인 지원 없이 '방법을 찾으라'는 답변을 들으셨군요. 그때 어떤 감정이 드셨어요?",
       "technique": [
-        "interpretation",
-        "open_question"
+        "reflection",
+        "emotion_labeling"
       ]
     },
     {
-      "turn": 6,
+      "turn": 5,
       "speaker": "client",
-      "text": "배신감이요. 결혼할 때 '우리 편이 되어주겠다'고 했는데... 거짓말이었어요."
+      "text": "답답하고 화나고... '이분은 현장을 모르시는구나' 싶었어요."
     },
     {
-      "turn": 6,
+      "turn": 5,
       "speaker": "counselor",
-      "text": "약속이 지켜지지 않아서 배신감을 느끼시는군요. 남편분이 왜 이렇게 반응하실까요?",
+      "text": "현장과 괴리된 지시를 받는 것 같아서 답답하시군요. 지금 이 목표 달성률은 어떻게 되나요?",
       "technique": [
         "empathy",
         "open_question"
       ]
     },
     {
+      "turn": 6,
+      "speaker": "client",
+      "text": "50% 정도요? 그것도 팀원들이 과로하면서 겨우 만들어낸 건데, 사장님은 '왜 이것밖에 안 되냐'고 하세요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
       "turn": 7,
       "speaker": "client",
-      "text": "마마보이니까요. 어머니 말씀이면 무조건이에요."
+      "text": "다들 지쳐있어요. 사기도 바닥이고... 저한테 '팀장님, 이거 정말 해야 해요?'라고 물어봐요. 저도 모르겠어요."
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "남편분을 마마보이로 보고 계시네요. 혹시 남편 입장에서는 어떤 고민이 있을까요?",
+      "text": "팀원들도 힘들어하고, 팀장으로서 본인도 답을 못 찾고 계시는군요. 가장 힘든 부분은 뭔가요?",
+      "technique": [
+        "empathy",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "위에서는 압박하고, 아래에서는 불만이 올라오고... 저는 중간에서 샌드위치 신세예요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "중간 관리자로서 양쪽의 압력을 다 받고 계시는군요. 이런 상황이 얼마나 지속됐나요?",
       "technique": [
         "reflection",
         "clarification"
       ]
     },
     {
-      "turn": 8,
-      "speaker": "client",
-      "text": "고민이요? 뭘 고민해요. 그냥 편한 쪽으로만 가는 거죠."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "화가 많이 나셔서 남편의 입장을 생각하기 어려우실 것 같아요. 하지만 남편은 어머니와 아내 사이에서 곤란할 수 있어요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
       "turn": 9,
       "speaker": "client",
-      "text": "그래서 저만 계속 참으라는 건가요?"
+      "text": "새 사장님 오신 지 6개월째요. 매달 회의 때마다 스트레스받고..."
     },
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "참으라는 게 아니에요. 다른 방식으로 대화해보자는 거죠. '어머니 편을 들지 말고 내 편을 들어달라'가 아니라요.",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
-        "clarification",
-        "information_giving"
+        "reflection",
+        "open_question"
       ]
     },
     {
       "turn": 10,
       "speaker": "client",
-      "text": "그럼 뭐라고 해야 하나요?"
+      "text": "현실적인 목표요. 아니면 목표 달성을 위한 실질적 지원..."
     },
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "'어머니와 나 사이에서 중재해달라', '우리 부부의 경계를 지켜달라'고 구체적으로 요청하는 거예요.",
+      "text": "목표 조정이나 자원 지원이 필요하시군요. 이걸 어떻게 요청하면 좋을까요?",
       "technique": [
-        "information_giving",
-        "clarification"
+        "reflection",
+        "open_question"
       ]
     },
     {
       "turn": 11,
       "speaker": "client",
-      "text": "경계요?"
+      "text": "이미 말씀드렸는데 안 들어주시는데요..."
     },
     {
       "turn": 11,
       "speaker": "counselor",
-      "text": "네. 예를 들어, '방문 전에 미리 연락하기', '육아 방식은 우리가 결정하기' 같은 규칙이요. 이런 경계를 남편과 함께 정하고 시어머니께 전달하는 거죠.",
+      "text": "이전 요청이 받아들여지지 않았던 건, 방식의 문제일 수 있어요. 데이터를 준비해서 제안해보셨나요?",
       "technique": [
         "information_giving",
-        "clarification"
+        "closed_question"
       ]
     },
     {
       "turn": 12,
       "speaker": "client",
-      "text": "남편이 그렇게까지 할까요? 어머니한테 그런 말을..."
+      "text": "데이터요?"
     },
     {
       "turn": 12,
       "speaker": "counselor",
-      "text": "확신은 못 하시겠지만, 시도는 해볼 만하지 않나요? 현재 방식으로는 계속 힘드실 텐데요.",
-      "technique": [
-        "validation",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "맞아요. 이대로는 못 살아요. 근데 남편한테 어떻게 얘기하죠?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "감정이 격해지지 않은 차분한 시간에, '당신과 나눌 중요한 얘기가 있다'고 먼저 말하세요. 그리고 본인의 감정을 솔직하게 표현하는 거예요.",
+      "text": "네. 현재 시장 점유율, 경쟁사 성장률, 필요 인력과 예산 같은 구체적 수치를 제시하면서 '현재 자원으로 가능한 현실적 목표'를 역제안하는 거예요.",
       "technique": [
         "information_giving",
         "structuring"
       ]
     },
     {
-      "turn": 14,
+      "turn": 13,
       "speaker": "client",
-      "text": "감정을요?"
+      "text": "아, 감정적으로 '힘들다'가 아니라 객관적 데이터로 말씀드리는 거군요."
     },
     {
-      "turn": 14,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "네. '시어머니 때문에 화난다'가 아니라, '나는 존중받지 못하는 것 같아서 슬프고 외롭다'고 표현하는 거죠.",
-      "technique": [
-        "clarification",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "슬프고 외롭다... 맞아요. 화보다는 그런 감정이 더 큰 것 같아요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "정확히 파악하셨네요. 그 감정을 남편분께 전달하고, 무엇이 필요한지 구체적으로 말씀하세요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "필요한 게요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "'당신이 나를 지지해주고, 우리 가족의 경계를 함께 지켜주길 바란다'고요. 그리고 구체적인 행동을 제안하는 거예요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "구체적인 행동이요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "'어머니께 방문 전에 연락해달라고 말씀드려주세요', '육아에 대한 조언은 우리가 요청할 때만 해달라고 전해주세요' 같은 거요.",
-      "technique": [
-        "clarification",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "그렇게 구체적으로 말하면 남편도 뭘 해야 할지 알겠네요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "맞아요. 막연하게 '도와달라'고만 하면 어떻게 도와야 할지 몰라요. 구체적일수록 좋아요.",
+      "text": "정확해요. 사장님 같은 분들은 데이터에 더 반응하시거든요. 그리고 문제만 제시하지 말고 대안도 함께 제시하세요.",
       "technique": [
         "encouragement",
         "information_giving"
       ]
     },
     {
-      "turn": 19,
+      "turn": 14,
       "speaker": "client",
-      "text": "만약 남편이 거부하면요?"
+      "text": "대안이요?"
     },
     {
-      "turn": 19,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "그때는 부부 상담을 제안해보세요. 제3자의 도움이 필요할 수도 있어요. 하지만 일단 대화를 시도해보는 게 먼저예요.",
+      "text": "'목표를 낮춰주세요'가 아니라, '영업 인력 2명 충원 시 X% 증대 가능합니다' 아니면 '마케팅 예산 증액 시 Y% 성장 가능합니다' 같은 식으로요.",
       "technique": [
         "information_giving",
         "structuring"
       ]
     },
     {
-      "turn": 20,
+      "turn": 15,
       "speaker": "client",
-      "text": "네, 이번 주말에 한번 제대로 얘기해볼게요."
+      "text": "제안서 형태로 준비해야겠네요."
     },
     {
-      "turn": 20,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "좋은 결정이에요. 침착하게, 본인의 감정과 욕구를 전달하세요. 다음 주에 어떠셨는지 들려주세요.",
+      "text": "맞아요. 그리고 팀원들과도 솔직한 대화가 필요해요. 지금 본인이 중간에서 압력을 혼자 받고 계시잖아요.",
       "technique": [
         "encouragement",
-        "goal_setting"
+        "information_giving"
       ]
     },
     {
-      "turn": 21,
+      "turn": 16,
       "speaker": "client",
-      "text": "감사합니다. 용기가 생겼어요."
+      "text": "팀원들한테 뭐라고 말하죠? 위에서 압박한다고?"
     },
     {
-      "turn": 21,
+      "turn": 16,
       "speaker": "counselor",
-      "text": "잘하실 거예요. 본인과 가족을 위해 용기 내시는 모습이 멋져요.",
+      "text": "상황을 공유하되, 함께 해결책을 찾자고 제안하는 거예요. '회사 목표가 이렇습니다. 현실적으로 어려운 상황이지만, 우리가 할 수 있는 최선을 찾아봅시다' 이런 식으로요.",
       "technique": [
-        "encouragement",
-        "validation"
+        "structuring",
+        "information_giving"
       ]
     },
     {
-      "turn": 22,
+      "turn": 17,
       "speaker": "client",
-      "text": "오늘 이야기 나눠서 마음이 한결 가벼워진 것 같아요."
+      "text": "팀원들을 참여시키는 거군요."
     },
     {
-      "turn": 22,
+      "turn": 17,
       "speaker": "counselor",
-      "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
+      "text": "네. 그럼 '팀장이 우리를 압박한다'가 아니라 '우리가 함께 어려운 상황을 해결한다'가 되거든요.",
       "technique": [
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "앞으로 어떻게 하면 좋을지 조금 더 생각해볼게요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "천천히 생각해보시고, 다음에 만나서 어떻게 지내셨는지 이야기 나눠봐요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "네, 다음 상담 때 뵙겠습니다."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "네, 그때까지 자신을 잘 돌봐주세요. 응원하고 있을게요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "감사합니다. 선생님 덕분에 힘이 나요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "힘내세요. 잘 해내실 수 있을 거예요.",
-      "technique": [
-        "empathy",
+        "information_giving",
         "encouragement"
       ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "그렇게 하면 팀 분위기가 좀 나아질까요?"
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "가능성이 있어요. 투명하게 소통하면 신뢰가 생기거든요. 그리고 팀원들의 아이디어 중에 좋은 게 나올 수도 있고요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "해볼게요. 이번 주 팀 회의 때 이야기해볼게요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 본인의 스트레스 관리도 중요해요. 중간 관리자의 스트레스가 가장 높거든요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "저도 지쳤어요. 집에 가면 아내한테 짜증만 내고..."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "스트레스가 가정에까지 영향을 미치는군요. 본인만의 스트레스 해소 방법이 있으신가요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "예전엔 운동했는데 요즘은 시간이 없어서..."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "운동이 도움이 됐었군요. 일주일에 한두 번이라도 시간을 내보는 건 어떨까요?",
+      "technique": [
+        "reflection",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "그럴 시간이 어디 있어요..."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "시간을 '찾는' 게 아니라 '만드는' 거예요. 본인이 건강해야 팀도 이끌 수 있어요. 쓰러지면 누가 팀을 챙기나요?",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "... 그렇긴 하네요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "일주일에 2시간이라도 본인을 위한 시간을 확보하세요. 그게 투자예요.",
+      "technique": [
+        "goal_setting",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "알겠습니다. 해보겠습니다."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "이번 주에 할 수 있는 것들을 정리해볼까요? 데이터 기반 제안서 준비하기, 팀원들과 솔직한 대화하기, 일주일에 2시간 운동 시간 확보하기. 이 중에서 가장 먼저 할 건 뭔가요?",
+      "technique": [
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "팀원들과 대화요. 이번 주 팀 회의가 있으니까."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 제안서는 2주 안에 준비해보세요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "네, 데이터 수집부터 시작하겠습니다."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "훌륭해요. 운동은 언제 하실 건가요?",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "토요일 아침에... 2시간 정도?"
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "encouragement",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "네, 해보겠습니다. 제가 건강해야 팀도 이끌 수 있다는 말씀이 와닿았어요."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "오늘 상담에서 어떤 게 가장 도움이 되셨나요?",
+      "technique": [
+        "open_question",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "감정이 아니라 데이터로 접근하는 것, 팀원들과 함께 해결책을 찾는 것, 그리고 제 자신도 돌봐야 한다는 거요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "핵심을 잘 정리하셨네요. 중간 관리자로서 어려우시겠지만, 전략적으로 접근하시면 충분히 해결할 수 있어요. 다음 주에 어떻게 진행됐는지 이야기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "client",
+      "text": "감사합니다. 방향이 보이는 것 같아요. 다음 주에 뵙겠습니다."
+    },
+    {
+      "turn": 30,
+      "speaker": "counselor",
+      "text": "12년간 쌓으신 경험과 리더십을 믿으세요. 잘하실 거예요. 다음 주에 뵙겠습니다.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
     }
-  ],
-  "client_profile": {
-    "age": "40세",
-    "gender": "남성",
-    "occupation": "관리직",
-    "background": "오랜 친구와의 관계가 멀어져가는 상황"
-  }
+  ]
 }

@@ -1,409 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "가정환경",
-    "total_turns": 26,
-    "quality_indicators": [
-      "reflection",
-      "open_question",
-      "empathy",
-      "restatement",
-      "emotion_labeling",
-      "validation",
-      "closed_question",
-      "information_giving"
-    ]
+    "topic": "친구 관계 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:26.563781+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0003_언어장벽",
-    "category": "adolescent",
-    "topic": "가정환경"
+  "client_profile": {
+    "age": "17세",
+    "gender": "여성",
+    "occupation": "고등학교 2학년",
+    "background": "친구 관계 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.813089+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "선생님... 친구들이 하는 말을 이해하기가 너무 어려워요."
+      "text": "상담이 처음인데 뭘 말해야 할지 모르겠어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "친구들의 대화를 이해하는 데 어려움이 있으시군요. 어떤 부분이 특히 어렵게 느껴지나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
       "turn": 2,
-      "speaker": "client",
-      "text": "저희 가족이 미국에서 8년 살다가 이번에 한국으로 돌아왔거든요. 한국어는 집에서 배워서 말은 할 수 있는데... 애들이 쓰는 줄임말이나 유행어를 전혀 모르겠어요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "8년 만에 한국으로 돌아오셨군요. 한국어 자체는 가능하지만 또래들 사이에서 쓰이는 특별한 표현들이 낯설게 느껴지시는군요.",
       "technique": [
-        "reflection",
-        "empathy"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "네... '쩐다', 'J수련회' 이런 거요. 무슨 뜻인지도 모르겠고, 언제 써야 하는지도 모르겠어요. 그래서 대화에 끼기가 힘들어요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "또래 문화에서 사용하는 특수한 언어 때문에 대화에 참여하기 어렵다고 느끼시는군요. 그런 상황에서 어떤 감정이 드시나요?",
-      "technique": [
-        "restatement",
-        "open_question",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "답답하고... 어리석은 사람같이 느껴져요. 다른 애들은 다 웃는데 저만 무슨 말인지 몰라서 어색하게 서 있고."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "답답함과 함께 스스로가 무능하다고 느껴지는군요. 혼자만 이해하지 못하는 상황이 매우 어색하고 힘드셨겠어요.",
-      "technique": [
-        "emotion_labeling",
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "네... 그리고 제가 영어를 섞어 쓰면 애들이 잘난 척한다고 생각하는 것 같아요. 그냥 한국어 단어가 안 떠올라서 그런 건데..."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "의도치 않게 영어를 사용했을 때 오해를 받는 경험도 있으셨군요. 양쪽 문화 사이에서 어려움을 겪고 계시네요.",
-      "technique": [
-        "reflection",
-        "empathy"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "맞아요. 미국에 있을 때도 한국 애라고 놀림 받았는데, 한국 와서도 미국 애라고... 저는 어디에도 속하지 못하는 것 같아요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "양쪽 어디에서도 완전히 받아들여지지 못한다고 느끼시는군요. 정체성에 대한 혼란과 외로움이 크시겠어요. 그 마음이 얼마나 힘들지 충분히 이해해요.",
-      "technique": [
-        "reflection",
-        "emotion_labeling",
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "정말 외로워요... 미국에 있던 친구들도 이제 연락이 뜸하고, 여기서는 친구를 사귀지 못하고..."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "이전의 관계는 멀어지고 새로운 관계는 만들어지지 않아서 고립감을 느끼시는군요. 혹시 학교에서 조금이라도 대화를 나눈 친구가 있나요?",
-      "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
     },
     {
+      "speaker": "client",
+      "text": "음... 사실 요즘 학교 가기가 너무 싫어요. 친구들이랑 있어도 혼자인 것 같고...",
+      "turn": 3
+    },
+    {
+      "speaker": "counselor",
+      "text": "학교에 가는 게 힘들고, 친구들과 함께 있어도 외로움을 느끼고 있군요. 그런 감정이 들면 정말 힘들었을 것 같아요.",
+      "turn": 4,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 지난주에 인스타그램을 봤는데, 제 친한 친구들이라고 생각했던 애들이 저 빼고 다 같이 놀러 간 거예요.",
+      "turn": 5
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신만 빠진 채 친구들이 함께 있는 모습을 보았을 때, 어떤 기분이 들었나요?",
+      "turn": 6,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "너무 속상하고... 화도 나고... 근데 제일 큰 건 '내가 뭘 잘못했나?' 하는 생각이 계속 들어요. 저한테 문제가 있는 건가 싶어서요.",
+      "turn": 7
+    },
+    {
+      "speaker": "counselor",
+      "text": "속상하고 화가 나면서도, 자신에게 문제가 있는 건 아닐까 걱정하고 있군요. 그런 복잡한 감정들을 느끼는 게 당연해요.",
       "turn": 8,
-      "speaker": "client",
-      "text": "영어 시간에 옆에 앉는 친구가... 발음 좋다고 칭찬해줬어요. 그래서 기분은 좋았는데, 그것뿐이었어요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "긍정적인 상호작용이 있었군요. 그 친구와 더 대화를 나누고 싶은 마음은 있으신가요?",
       "technique": [
-        "validation",
-        "closed_question"
+        "validation"
       ]
     },
     {
-      "turn": 9,
       "speaker": "client",
-      "text": "있긴 한데... 뭘 얘기해야 할지 모르겠어요. 제가 좋아하는 것들을 애들이 모르거든요. 미국 드라마나 음악 같은 것들..."
+      "text": "그래도... 제가 좀 재미없는 사람인가 봐요. 친구들이 저를 안 부르는 데는 이유가 있겠죠.",
+      "turn": 9
     },
     {
-      "turn": 9,
       "speaker": "counselor",
-      "text": "관심사가 달라서 공통 화제를 찾기 어렵다고 느끼시는군요. 하지만 한국 친구들도 미국 문화에 관심이 있을 수 있어요. 그리고 반대로 한국 문화를 배우는 것도 하나의 접근 방법이 될 수 있고요.",
-      "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "스스로를 재미없는 사람이라고 평가하고 있네요. 그렇게 생각하게 된 다른 이유가 있을까요?",
       "turn": 10,
-      "speaker": "client",
-      "text": "한국 문화를 배운다는 게... 예를 들면 어떤 걸까요?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "예를 들어 친구들이 요즘 보는 드라마나 듣는 음악, 유행하는 예능 과정 같은 것들이요. 그 친구에게 추천해달라고 해보는 건 어떨까요?",
       "technique": [
-        "information_giving",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "그런 걸 물어봐도 될까요? 모른다고 이상하게 생각하지 않을까요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "오히려 관심을 가지고 물어보는 건 긍정적으로 받아들여질 거예요. '나 미국에 오래 있어서 요즘 유행하는 거 잘 모르는데 추천해줄래?'라고 솔직하게 말하는 것도 방법이에요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "아... 제가 모르는 게 당연한 상황이니까 솔직하게 말해도 되는 거네요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "정확히 이해하셨어요. 당신의 배경을 부끄러워할 필요 없어요. 오히려 그게 독특한 강점이 될 수 있어요. 두 문화를 모두 경험했다는 건 특별한 일이거든요.",
-      "technique": [
-        "validation",
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "강점이라... 생각해본 적 없었어요. 항상 약점이라고만 생각했거든요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "관점을 바꿔보면 어떨까요? 영어를 잘하는 것, 다른 문화를 이해하는 것, 이런 것들은 분명한 장점이에요. 친구들 중에 영어 공부 도움이 필요한 친구가 있을 수도 있고요.",
-      "technique": [
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "아, 맞아요. 영어 시간에 몇몇 애들이 저한테 물어보긴 했어요. 근데 제가 설명을 잘 못해서..."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "이미 도움을 요청받은 경험이 있군요. 그건 친구들이 당신의 능력을 인정한다는 의미예요. 설명이 서툴렀다고 느껴지신 건 어떤 부분이었나요?",
-      "technique": [
-        "validation",
-        "encouragement",
         "clarification"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "문법 용어를 한국어로 몰라서요. '과거분사'나 '관계대명사' 이런 거..."
+      "text": "음... 친구들이 요즘 유행하는 아이돌이나 드라마 얘기할 때, 저는 잘 모르겠더라고요. 그냥 듣기만 하고 있으면 친구들이 시큰둥해지는 것 같아요.",
+      "turn": 11
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "아, 영어는 잘하지만 한국어로 된 문법 용어가 익숙하지 않으신거군요. 그런 부분은 선생님이나 교과서를 통해 배울 수 있어요. 그리고 '나도 한국어 용어는 잘 모르는데 같이 공부하자'고 하는 것도 좋은 접근이에요.",
+      "text": "친구들의 관심사에 함께 참여하지 못할 때 소외감을 느끼는군요. 그럼 평소에는 어떤 것들에 관심이 있나요?",
+      "turn": 12,
       "technique": [
-        "reflection",
-        "information_giving"
+        "open_question"
       ]
     },
     {
+      "speaker": "client",
+      "text": "저는 책 읽는 거 좋아하고, 그림 그리는 것도 좋아해요. 근데 그런 얘기하면 친구들이 별로 관심 없어 하는 것 같아서...",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신이 좋아하는 것들이 있는데, 친구들과 공유하기 어렵다고 느끼고 있네요. 그래서 자신의 관심사를 숨기게 되나요?",
+      "turn": 14,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 맞아요. 요즘은 그냥 친구들한테 맞춰주려고 노력하는데, 그것도 쉽지 않아요. 피곤하기도 하고...",
+      "turn": 15
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신을 숨기고 다른 사람에게 맞추려고 노력하는 것은 정말 힘든 일이에요. 그 과정에서 많이 지쳐가고 있는 것 같네요.",
       "turn": 16,
-      "speaker": "client",
-      "text": "같이 공부하자... 그럼 친해질 수도 있겠네요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "바로 그거예요. 공통의 목표를 가지고 함께하는 활동은 관계를 만드는 좋은 방법이에요. 영어 스터디 같은 걸 제안해볼 수도 있어요.",
       "technique": [
-        "validation",
-        "encouragement",
-        "information_giving"
+        "empathy"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "그런데 선생님, 저는 여전히 애들 대화에 끼는 게 어려울 것 같아요. 유행어도 모르고..."
+      "text": "네... 그래서 요즘은 학교에서도 혼자 있는 시간이 많아졌어요. 점심시간에도 그냥 도서관 가거나...",
+      "turn": 17
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "유행어에 대한 걱정이 여전히 크시군요. 그런 것들은 시간이 지나면서 자연스럽게 배울 수 있어요. 모를 때 솔직하게 물어보는 것도 방법이에요. '그게 무슨 뜻이야?'라고요.",
-      "technique": [
-        "reflection",
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "혼자만의 시간을 갖게 되었군요. 그 시간이 편안한가요, 아니면 더 외로운가요?",
       "turn": 18,
-      "speaker": "client",
-      "text": "물어봐도 될까요? 어리석은 사람같아 보이지 않을까요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "전혀 어리석은 사람같지 않아요. 오히려 배우려는 자세를 보여주는 거예요. 그리고 친구들에게 가르쳐줄 기회를 주는 거기도 해요. 사람들은 자신이 아는 걸 알려주는 걸 좋아하거든요.",
       "technique": [
-        "validation",
-        "information_giving"
+        "exploration"
       ]
     },
     {
-      "turn": 19,
       "speaker": "client",
-      "text": "그렇게 생각할 수도 있네요... 제가 너무 부정적으로만 생각했나 봐요."
+      "text": "둘 다인 것 같아요. 편하긴 한데... 가끔 복도에서 친구들이 웃으면서 지나가는 거 보면 저만 혼자인 것 같아서 슬퍼요.",
+      "turn": 19
     },
     {
-      "turn": 19,
       "speaker": "counselor",
-      "text": "스스로를 인식하고 계시네요. 새로운 환경에서 불안감이 크면 부정적으로 생각하기 쉬워요. 당연한 일이에요. 하지만 이제 다른 관점도 시도해볼 수 있어요.",
-      "technique": [
-        "validation",
-        "empathy",
-        "encouragement"
-      ]
-    },
-    {
+      "text": "편안함과 외로움이 동시에 느껴지는군요. 그런 복잡한 감정을 느끼는 것은 자연스러운 거예요. 혹시 이런 감정들을 부모님이나 다른 누군가와 나눠본 적이 있나요?",
       "turn": 20,
-      "speaker": "client",
-      "text": "네... 해볼게요. 근데 미국 친구들이 그리울 때는 어떻게 해야 하나요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "그리움을 느끼는 건 자연스러운 감정이에요. 온라인으로 연락을 유지하면서, 동시에 한국에서 새로운 관계를 만들어가는 균형이 필요해요. 두 가지가 공존할 수 있어요.",
       "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "둘 다 할 수 있는 거군요. 하나를 선택해야 한다고 생각했어요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "전혀 그렇지 않아요. 당신은 두 문화를 모두 가진 사람이에요. 그게 당신의 정체성이고, 그건 풍요로운 일이에요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "두 문화를 가진 사람... 좋게 들리네요. 그렇게 생각하니까 조금 자신감이 생겨요."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "좋아요. 그럼 이번 주 목표를 세워볼까요? 영어 시간에 옆자리 친구에게 요즘 유행하는 걸 추천해달라고 물어보는 게 첫 번째 목표가 될 수 있을 것 같아요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "네, 그거 해볼게요. 그리고... 영어 공부 도움 필요하면 말하라고도 해볼게요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "훌륭해요. 자신의 강점을 나누면서 친구의 도움도 받는 좋은 전략이에요. 주고받는 관계가 건강한 우정의 시작이거든요.",
-      "technique": [
-        "validation",
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "네, 선생님. 오늘 이야기하니까 제가 생각보다 나쁜 상황이 아닌 것 같아요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "관점이 바뀌니 상황이 달리 보이기 시작하시는군요. 어려운 점들이 있지만 동시에 기회도 있어요. 당신의 독특한 배경이 장점이 될 수 있다는 걸 기억하세요.",
-      "technique": [
-        "validation",
-        "encouragement",
-        "summarization"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 기억할게요. 감사합니다."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "천천히 적응해가면 돼요. 서두르지 말고 자신의 속도로요. 다음 주에 어떤 경험을 했는지 함께 나눠봐요.",
-      "technique": [
-        "encouragement",
-        "validation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "네, 다음 주에 또 올게요. 기대되네요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "기대된다는 말을 들으니 저도 기뻐요. 응원할게요. 두 문화의 장점을 모두 가진 당신을 믿어요.",
-      "technique": [
-        "empathy",
-        "encouragement",
         "validation"
       ]
+    },
+    {
+      "speaker": "client",
+      "text": "아니요... 엄마한테는 말 못 해요. 엄마가 '친구 많이 사귀어야지' 이런 말씀만 하실 것 같아서요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "어머니께 말씀드리기 어려운 상황이군요. 이해받지 못할까 봐 걱정되는 마음이 있는 것 같네요.",
+      "turn": 22,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그냥 제가 참으면 되는 건데, 왜 이렇게 힘든지 모르겠어요. 저만 유난스러운 건가요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "절대 유난스러운 게 아니에요. 친구 관계에서 소외감을 느끼는 것은 누구에게나 힘든 경험이에요. 그런 감정을 느끼는 자신을 탓할 필요는 없어요.",
+      "turn": 24,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그래도... 어떻게 해야 할지 모르겠어요. 계속 이렇게 혼자 지내야 하나요?",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 당장 답을 찾기는 어려울 수 있어요. 하지만 함께 천천히 방법을 찾아갈 수 있어요. 먼저, 자신이 좋아하는 것들, 예를 들어 책이나 그림에 관심 있는 친구들을 찾아보는 건 어떨까요?",
+      "turn": 26,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그런 친구들이 있을까요? 우리 반에는 없는 것 같은데...",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "학교에 동아리 활동이나 독서 모임 같은 것들이 있나요? 같은 관심사를 가진 사람들을 만날 수 있는 기회가 될 수 있어요.",
+      "turn": 28,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "미술부가 있긴 한데... 저는 그림을 잘 그리는 것도 아니라서 들어갈 자신이 없어요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "turn": 30,
+      "technique": [
+        "encouragement"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 생각해볼게요. 그런데 지금 친구들이랑은 어떻게 해야 할까요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금의 친구들과도 관계를 유지하고 싶은 마음이 있군요. 혹시 그 친구들 중에서 좀 더 편하게 느껴지는 친구가 있나요?",
+      "turn": 32,
+      "technique": [
+        "clarification"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "수진이는... 좀 나은 것 같아요. 가끔 제 얘기도 들어주고...",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇다면 수진이와 먼저 좀 더 깊은 대화를 나눠보는 건 어떨까요? 자신의 솔직한 감정을 조금씩 나누다 보면 관계가 더 가까워질 수 있어요.",
+      "turn": 34,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 한번 해볼게요. 그런데 선생님, 제가 너무 예민한 건 아닐까요? 친구들은 그냥 깜빡한 걸 수도 있잖아요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "그럴 가능성도 있어요. 하지만 중요한 건 지금 당신이 느끼는 감정이에요. 예민한 게 아니라, 자신의 감정에 솔직한 거예요. 그리고 그 감정을 인정하고 표현하는 것이 건강한 관계의 시작이랍니다.",
+      "turn": 36,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "감사해요, 선생님. 오늘 얘기하니까 좀 후련한 것 같아요.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "이렇게 용기 내서 자신의 이야기를 나눠줘서 고마워요. 천천히, 자신의 속도로 나아가면 돼요. 다음에 또 이야기 나눠요.",
+      "turn": 38,
+      "technique": [
+        "encouragement"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
     }
-  ],
-  "client_profile": {
-    "age": "16세",
-    "gender": "여성",
-    "occupation": "고등학교 1학년",
-    "background": "부모님의 불화로 인한 심리적 불안"
-  }
+  ]
 }

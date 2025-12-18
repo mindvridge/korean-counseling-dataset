@@ -1,24 +1,29 @@
 {
-  "category": "crisis",
+  "metadata": {
+    "category": "crisis",
+    "topic": "자살 사고",
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:32.537282+00:00"
+  },
   "client_profile": {
-    "age": "19",
+    "age": "35세",
     "gender": "여성",
-    "occupation": "대학교 1학년",
-    "background": "최근 자해 충동이 심해짐, 과거 자해 경험 있음, 현재 극심한 스트레스 상태"
+    "occupation": "직장인",
+    "background": "자살 사고 관련 상담"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 저 요즘 너무 힘들어요. 자꾸 이상한 생각이 나요."
+      "text": "더 이상 못 버티겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "오셔서 이야기해주셔서 감사해요. 이상한 생각이라고 하셨는데, 조금 더 구체적으로 말씀해 주실 수 있을까요?",
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
       "technique": [
         "empathy",
-        "clarification"
+        "open_question"
       ]
     },
     {
@@ -127,7 +132,7 @@
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "도움을 받으려고 스스로 찾아오신 거, 정말 용기 있는 행동이에요. 우리 함께 다른 방법을 찾아볼 수 있어요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "encouragement",
         "validation"
@@ -197,7 +202,7 @@
     {
       "turn": 14,
       "speaker": "counselor",
-      "text": "친구분을 배려하시는 마음이 느껴져요. 그런데 만약 반대로 그 친구가 이런 상황이었다면, 말해줬으면 좋겠다고 생각하지 않으실까요?",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "validation",
         "confrontation"
@@ -225,7 +230,7 @@
     {
       "turn": 16,
       "speaker": "counselor",
-      "text": "네, 그리고 혼자 감당하기 어려운 밤에는 위기상담 전화도 있어요. 자살예방상담전화 1393, 정신건강위기상담 1577-0199. 24시간 운영이에요.",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
         "encouragement",
         "information_giving"
@@ -370,13 +375,5 @@
         "encouragement"
       ]
     }
-  ],
-  "generated_at": "2024-12-17T00:00:00.000Z",
-  "conversation_id": "CRI_20251218_0313",
-  "metadata": {
-    "generated_at": "2025-12-18T05:07:52.444195+00:00",
-    "model": "claude-sonnet-4-5",
-    "seed_category": "crisis",
-    "generator": "claude_code_direct"
-  }
+  ]
 }

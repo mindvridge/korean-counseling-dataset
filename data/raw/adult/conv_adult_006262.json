@@ -1,38 +1,29 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "우울감",
+    "topic": "대인관계 어려움",
     "total_turns": 27,
-    "quality_indicators": [
-      "empathy",
-      "reflection",
-      "open_question",
-      "closed_question",
-      "validation",
-      "information_giving",
-      "goal_setting",
-      "encouragement"
-    ]
+    "generated_at": "2025-12-18T07:14:29.477600+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_가족관계_0007_placeholder",
-    "category": "adult",
-    "topic": "우울감"
+  "client_profile": {
+    "age": "45세",
+    "gender": "여성",
+    "occupation": "간호사",
+    "background": "대인관계 어려움 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:40.171903+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "[청소년 자녀와의 소통 관련 내담자 발화 1턴]"
+      "text": "요즘 직장 때문에 많이 힘듭니다."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "[상담사 응답 1턴]",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 요즘 직장 때문에 많이 힘듭니다....라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
-        "open_question",
-        "validation"
+        "empathy",
+        "open_question"
       ]
     },
     {
@@ -71,7 +62,7 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "[상담사 응답 4턴]",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "empathy",
         "reflection"
@@ -155,7 +146,7 @@
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "[상담사 응답 10턴]",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
         "empathy",
         "reflection"
@@ -309,7 +300,7 @@
     {
       "turn": 21,
       "speaker": "counselor",
-      "text": "[상담사 응답 21턴]",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "open_question",
         "validation"
@@ -399,11 +390,5 @@
         "validation"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "29세",
-    "gender": "여성",
-    "occupation": "디자이너",
-    "background": "특별한 이유 없이 지속되는 무기력과 우울"
-  }
+  ]
 }

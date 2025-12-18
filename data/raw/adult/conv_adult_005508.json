@@ -1,37 +1,27 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "대인 불안",
+    "topic": "대인관계 어려움",
     "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "validation",
-      "clarification",
-      "restatement",
-      "emotion_labeling",
-      "closed_question"
-    ]
+    "generated_at": "2025-12-18T07:14:28.713445+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_대인관계_0010_k7l8m9n0",
-    "category": "adult",
-    "topic": "대인 불안"
+  "client_profile": {
+    "age": "40세",
+    "gender": "남성",
+    "occupation": "관리자",
+    "background": "대인관계 어려움 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.314503+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "가장 친했던 친구가 저를 배신했어요. 이제 누구도 믿기 힘들어요."
+      "text": "처음 와보는 건데, 좀 긴장되네요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "친한 친구의 배신으로 상처받으셨군요. 신뢰가 깨지니 다른 사람들도 믿기 어려우시겠어요. 무슨 일이 있었나요?",
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
@@ -59,7 +49,7 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "사적인 얘기가 직장까지 영향을 답답했군요. 이중으로 힘드셨겠어요. 친구에게 어떻게 하셨나요?",
+      "text": "사적인 얘기가 직장까지 영향을 정신없이군요. 이중으로 힘드셨겠어요. 친구에게 어떻게 하셨나요?",
       "technique": [
         "empathy",
         "open_question"
@@ -73,7 +63,7 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "문제를 인정하지도 않고 사과도 없었군요. 그때 어떤 기분이었어요?",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "restatement",
         "open_question"
@@ -82,7 +72,7 @@
     {
       "turn": 5,
       "speaker": "client",
-      "text": "어이없고... 화나고... 이 사람을 10년 넘게 친구로 믿었던 제가 어리석은 사람 같았어요."
+      "text": "어이없고... 화나고... 이 사람을 10년 넘게 친구로 믿었던 제가 어리석은 선택 같았어요."
     },
     {
       "turn": 5,
@@ -269,7 +259,7 @@
     {
       "turn": 18,
       "speaker": "counselor",
-      "text": "그 친구 때문에 받은 상처를 돌보는 거예요. 모든 사람이 배신자가 아니라는 걸 스스로 이해하고, 다시 관계를 맺을 용기를 내는 거죠.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "information_giving",
         "clarification"
@@ -332,52 +322,85 @@
       ]
     },
     {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
       "turn": 23,
       "speaker": "client",
-      "text": "오늘 이야기 나눠서 마음이 한결 가벼워진 것 같아요."
+      "text": "선생님과 이야기하니까 마음이 좀 가벼워지는 것 같아요."
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
+      "text": "그렇게 말씀해 주셔서 감사해요. 앞으로도 함께 이야기 나눠요.",
       "technique": [
-        "empathy",
-        "validation"
+        "validation",
+        "encouragement"
       ]
     },
     {
       "turn": 24,
       "speaker": "client",
-      "text": "앞으로 어떻게 하면 좋을지 조금 더 생각해볼게요."
+      "text": "다음에는 뭘 이야기하면 될까요?"
     },
     {
       "turn": 24,
       "speaker": "counselor",
-      "text": "천천히 생각해보시고, 다음에 만나서 어떻게 지내셨는지 이야기 나눠봐요.",
+      "text": "편하게 그때 마음에 있는 이야기를 해주시면 돼요. 준비된 것 없어도 괜찮아요.",
       "technique": [
-        "encouragement",
-        "structuring"
+        "structuring",
+        "validation"
       ]
     },
     {
       "turn": 25,
       "speaker": "client",
-      "text": "네, 다음 상담 때 뵙겠습니다."
+      "text": "선생님과 이야기하니까 마음이 좀 가벼워지는 것 같아요."
     },
     {
       "turn": 25,
       "speaker": "counselor",
-      "text": "네, 그때까지 자신을 잘 돌봐주세요. 응원하고 있을게요.",
+      "text": "그렇게 말씀해 주셔서 감사해요. 앞으로도 함께 이야기 나눠요.",
       "technique": [
-        "encouragement",
-        "validation"
+        "validation",
+        "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "25세",
-    "gender": "여성",
-    "occupation": "회사원",
-    "background": "새로운 사람을 만나는 것이 두려운 사회불안"
-  }
+  ]
 }

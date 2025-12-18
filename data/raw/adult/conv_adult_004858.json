@@ -1,382 +1,342 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "상사 갈등",
+    "topic": "상사와의 갈등",
     "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "restatement",
-      "open_question",
-      "closed_question",
-      "clarification",
-      "emotion_labeling",
-      "validation"
-    ]
+    "generated_at": "2025-12-18T07:14:28.023552+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_대인관계_0001_a1b2c3d4",
-    "category": "adult",
-    "topic": "상사 갈등"
+  "client_profile": {
+    "age": "50세",
+    "gender": "남성",
+    "occupation": "공무원",
+    "background": "상사와의 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:38.477223+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "남자친구가 요즘 저한테 관심이 없는 것 같아요. 연락도 잘 안 하고요."
+      "text": "인간관계가 너무 어려워요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "남자친구분의 무관심이 느껴지시는군요. 연락도 뜸해지면 불안하시겠어요.",
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
+      "turn": 2,
       "technique": [
-        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "감사합니다. 저는 중학교에서 국어를 가르치는 교사인데요... 요즘 학교 가는 게 너무 힘들어요. 아침에 일어나면 출근하기가 싫고, 학생들 얼굴 보는 것도 부담스럽고...",
+      "turn": 3
+    },
+    {
+      "speaker": "counselor",
+      "text": "학교 가는 것 자체가 많이 힘드신 상황이시군요. 교직 생활을 얼마나 하셨나요?",
+      "turn": 4,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "올해로 10년차예요. 처음엔 정말 열정적이었거든요. 학생들을 가르치는 게 너무 좋았고, 보람도 느꼈는데... 지금은 그런 감정이 전혀 없어요.",
+      "turn": 5
+    },
+    {
+      "speaker": "counselor",
+      "text": "10년 동안 열정적으로 학생들을 가르쳐오셨는데, 지금은 그때의 보람과 기쁨이 느껴지지 않으시는군요. 언제부터 이런 변화를 느끼셨나요?",
+      "turn": 6,
+      "technique": [
         "empathy"
       ]
     },
     {
-      "turn": 2,
       "speaker": "client",
-      "text": "네. 제가 먼저 연락해야 답장이 오는데, 그것도 몇 시간씩 지나서요."
+      "text": "정확히는 모르겠지만... 작년부터였던 것 같아요. 작년에 담임을 맡았는데 학생들이 정말 힘들었어요. 수업 시간에 집중을 안 하고, 휴대폰만 보고, 제 말을 무시하는 느낌이었어요.",
+      "turn": 7
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "항상 본인이 먼저 연락하시고, 답장도 늦게 온다는 거죠? 언제부터 이런 패턴이 시작되었나요?",
+      "text": "작년 담임 경험이 특히 힘드셨군요. 학생들이 수업에 집중하지 않고 선생님의 말을 무시하는 것처럼 느껴졌을 때, 어떤 감정이 드셨나요?",
+      "turn": 8,
       "technique": [
-        "restatement",
         "open_question"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "한 두 달 전부터요. 처음엔 바쁜가보다 했는데 계속되니까 이게 뭔가 싶어요."
+      "text": "처음엔 화가 났어요. 그런데 점점 무력감이 들더라고요. '내가 뭘 잘못하고 있는 걸까', '나는 교사로서 자격이 없는 건 아닐까' 이런 생각들이 계속 들었어요.",
+      "turn": 9
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "처음엔 이해하려 하셨는데, 계속되니 마음이 많이 불편하신 거군요. 남자친구분께 이런 감정을 표현해보셨나요?",
+      "text": "화가 나다가 점차 자신에 대한 회의감과 무력감으로 바뀌셨네요. 그런 감정들을 느끼시는 게 얼마나 힘드셨을까요. 그 상황에서 주변에 도움을 요청하거나 이야기를 나누신 적은 있으셨나요?",
+      "turn": 10,
       "technique": [
-        "empathy",
-        "closed_question"
+        "validation"
       ]
     },
     {
-      "turn": 4,
       "speaker": "client",
-      "text": "말했죠. '왜 연락을 안 해?'라고요. 그랬더니 '바빠서 그래'라고만 하더라고요."
+      "text": "그게... 동료 선생님들한테 말하기가 어려웠어요. 다들 바쁘기도 하고, 제가 무능해 보일까봐 두려웠어요. 그래서 혼자 끙끙 앓았죠.",
+      "turn": 11
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "'왜 연락을 안 해?'라고 물어보셨을 때 어떤 감정이셨어요?",
+      "text": "무능해 보일까봐 두려워서 혼자 감당하셨군요. 그런데 혼자 견디는 것이 오히려 더 큰 부담이 되었을 것 같은데, 지금은 어떠세요?",
+      "turn": 12,
       "technique": [
-        "clarification",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "솔직히 화가 났어요. 바쁘면 얼마나 바쁜데 몇 분도 연락 못 하나 싶고요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "화가 나셨군요. 그 뒤에는 어떤 감정들이 더 있으셨나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "서운하고... 내가 중요하지 않은 건가 싶어서 슬펐어요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "화남, 서운함, 슬픔까지 복합적인 감정을 느끼고 계시네요. '중요하지 않은 것 같다'는 생각이 가장 힘드셨을 것 같아요.",
-      "technique": [
-        "summarization",
         "empathy"
       ]
     },
     {
-      "turn": 7,
       "speaker": "client",
-      "text": "네, 맞아요. 저는 열심히 노력하는데 남자친구는 그냥 저를 당연하게 생각하는 것 같아요."
+      "text": "지금은... 더 심해졌어요. 동료들과도 거리가 생긴 것 같고, 점심시간에도 혼자 있게 되고... 학교에서 완전히 고립된 기분이에요. 수업도 대충하게 되고요.",
+      "turn": 13
     },
     {
-      "turn": 7,
       "speaker": "counselor",
-      "text": "본인은 노력하는데 상대는 당연하게 여긴다고 느끼시니 허탈하셨겠어요. '바빠서 그래'라는 답변을 들었을 때 어떻게 반응하셨나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "'그래, 알았어'라고 하고 전화 끊었어요. 더 말해봤자 똑같을 것 같아서요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "대화를 포기하고 끊으셨군요. 그런데 이렇게 대화를 중단하면 문제가 해결되던가요?",
-      "technique": [
-        "restatement",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "아니요... 오히려 더 답답하고 서로 멀어지는 것 같아요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "맞아요, 문제를 회피하면 더 멀어지게 되죠. 남자친구분이 '바빠서'라고 할 때, 구체적으로 무엇 때문에 바쁜지 물어보신 적은 있으세요?",
-      "technique": [
-        "information_giving",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "아니요, 그냥 변명처럼 들려서... 물어보지 않았어요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "변명처럼 들렸다는 건 남자친구분의 말을 신뢰하지 못하고 계신 거네요. 혹시 정말 바쁜 상황일 수도 있다고 생각해보신 적은 있으세요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "음... 생각해보니 요즘 프로젝트 막바지라고는 했어요. 그래도 연락은 할 수 있잖아요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "프로젝트 막바지라는 상황은 있지만, 그래도 연락은 가능할 거라고 생각하시는군요. 본인이 바쁠 때는 어떻게 하시나요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "저요? 저는 아무리 바빠도 틈틈이 연락해요. 점심시간이나 쉬는 시간에요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "본인은 바빠도 연락하는 스타일이시군요. 그런데 사람마다 바쁠 때 대처 방식이 다를 수 있어요. 어떤 사람은 일에 몰두하면 주변이 안 보이기도 하거든요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그럼 저는 어떻게 해야 하나요? 계속 기다리고만 있어야 하나요?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "기다리기만 하는 게 아니라, 대화 방식을 바꿔볼 수 있어요. '왜 연락 안 해?'라는 질문 대신 '요즘 많이 바쁜가 봐. 괜찮아?'라고 먼저 걱정해주는 거죠.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
+      "text": "고립감을 느끼시면서 수업에 대한 열의도 떨어지셨네요. 이런 상황이 일상생활에도 영향을 미치고 있나요? 예를 들어 잠이나 식사, 취미 활동 같은 것들은 어떠신가요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "그게 달라질까요? 제가 먼저 걱정해주면요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "비난받는다고 느끼면 사람들은 방어하게 되지만, 걱정받는다고 느끼면 마음을 열게 되거든요. 한번 시도해보시겠어요?",
       "technique": [
-        "information_giving",
-        "encouragement"
+        "assessment"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "해볼게요. 근데 솔직히 제 감정도 표현하고 싶은데요."
+      "text": "잠을 잘 못 자요. 자다가 자주 깨고, 아침에 일어나면 피곤해요. 식사도 제대로 안 하게 되고... 예전엔 주말에 친구들 만나고 영화 보는 걸 좋아했는데, 요즘은 그냥 집에만 있어요. 아무것도 하기 싫어요.",
+      "turn": 15
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "물론이죠, 감정 표현은 중요해요. 다만 방법이 중요한 거예요. '너 때문에 힘들어' 대신 '나는 연락이 없으면 불안해'라고 표현하는 거죠.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "수면, 식사, 사회활동 모두에 영향을 받고 계시네요. 이런 상태가 지속되면서 많이 지치셨을 것 같아요. 혹시 '이렇게 살 바엔 차라리...' 같은 극단적인 생각을 하신 적은 없으신가요?",
       "turn": 16,
-      "speaker": "client",
-      "text": "아, 나를 주어로 하라는 거네요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "정확해요. 그러면 상대를 공격하지 않으면서도 내 감정을 전달할 수 있어요.",
       "technique": [
-        "encouragement",
-        "clarification"
+        "risk_assessment"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "그런데 남자친구가 제 말을 안 들으면 어떡하죠?"
+      "text": "아, 그 정도는 아니에요. 다만 '교사를 그만둬야 하나' 하는 생각은 자주 해요. 근데 10년을 했는데 지금 그만두면 뭘 할 수 있을까 싶기도 하고...",
+      "turn": 17
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "그건 그때 가봐야 알 수 있는 일이에요. 하지만 최소한 본인은 최선을 다했다는 것을 알 수 있죠. 결과보다 과정에 집중해보세요.",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "turn": 18,
       "technique": [
-        "structuring",
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 제가 고등학교 때 국어 선생님이 정말 좋으셨어요. 그 선생님 덕분에 책 읽는 재미를 알았고, 진로도 결정하게 됐죠. 저도 그런 선생님이 되고 싶었어요. 학생들에게 영향을 주는...",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "학생들에게 긍정적인 영향을 주고 싶다는 소망으로 교사가 되셨군요. 그 마음이 정말 아름답네요. 그런데 지금은 그 초심과 현실 사이에서 괴로움을 느끼시는 것 같아요.",
+      "turn": 20,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 제가 상상했던 교사의 모습과 현실이 너무 달라요. 학생들은 제 수업에 관심이 없고, 학부모들은 성적만 올려달라고 하고, 행정 업무는 산더미고... 이게 제가 원했던 교직인가 싶어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "이상과 현실의 괴리가 크시네요. 그런데 선생님, 10년 동안 단 한 번도 보람을 느끼신 순간이 없으셨을까요? 작은 순간이라도 '아, 내가 교사를 해서 다행이다' 싶었던 때가 있으셨나요?",
+      "turn": 22,
+      "technique": [
+        "strength_finding"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 있긴 했어요. 작년에도 힘들었지만, 한 학생이 졸업하면서 편지를 줬어요. 자기가 국어를 싫어했는데 제 수업을 듣고 책을 좋아하게 됐다고... 그때는 울컥했어요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 의미 있는 순간이 있으셨군요. 그 학생에게는 선생님이 정말 중요한 영향을 주신 거예요. 선생님이 처음 꿈꿨던 그 모습 그대로요. 그런데 지금은 그런 순간들보다 힘든 순간들이 더 크게 느껴지시는 거네요.",
+      "turn": 24,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 맞아요. 좋은 순간도 분명 있었는데, 요즘은 그런 게 기억이 안 나요. 부정적인 것들만 보이는 것 같아요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 26,
+      "technique": [
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "번아웃이요? 그럼 이게 제 잘못이 아니라는 건가요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 선생님의 잘못이 아니에요. 오히려 헌신적으로 일해온 결과예요. 지금 필요한 건 자책이 아니라 회복이에요. 선생님께서 다시 에너지를 채우고, 교직에 대한 의미를 재발견할 수 있도록 함께 방법을 찾아보면 어떨까요?",
+      "turn": 28,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "회복이 가능할까요? 솔직히 자신이 없어요. 너무 오래 이 상태였던 것 같아서...",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇게 느끼시는 게 당연해요. 하지만 오늘 이렇게 상담을 받으러 오신 것 자체가 변화를 위한 첫 걸음이에요. 작은 변화부터 시작해보는 거예요. 우선, 선생님께서 일상에서 작은 휴식이나 즐거움을 찾을 수 있는 방법을 함께 고민해보면 좋겠어요.",
+      "turn": 30,
+      "technique": [
+        "hope_instillation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "구체적으로 어떤 걸 하면 좋을까요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "먼저, 하루 중 10분이라도 온전히 선생님 자신을 위한 시간을 가져보세요. 좋아하셨던 책을 읽거나, 산책을 하거나, 음악을 듣는 것도 좋아요. 그리고 동료 선생님들 중에 편하게 이야기 나눌 수 있는 분이 한 분이라도 계신가요?",
+      "turn": 32,
+      "technique": [
+        "behavioral_activation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 같은 학년 부장 선생님이 괜찮으신 것 같긴 한데, 제가 먼저 다가가기가 어렵네요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 선생님과 점심 한 끼 같이 하시는 것부터 시작해보시면 어떨까요? 처음부터 깊은 이야기를 하실 필요는 없어요. 작은 연결부터 만들어가는 거죠. 고립감을 줄이는 것이 회복의 중요한 부분이거든요.",
+      "turn": 34,
+      "technique": [
+        "behavioral_suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그 정도는 해볼 수 있을 것 같아요. 그리고 상담을 계속 받으면 도움이 될까요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "turn": 36,
+      "technique": [
+        "treatment_planning"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그러고 싶어요. 오늘 이야기하고 나니까 조금 후련한 것 같아요. 감사합니다.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "오늘 용기 내어 이야기해주셔서 감사합니다. 다음 주까지 오늘 말씀드린 작은 실천들을 해보시고, 어떤 느낌이 드셨는지 함께 나눠보도록 해요. 힘내세요, 선생님.",
+      "turn": 38,
+      "technique": [
         "encouragement"
       ]
     },
     {
-      "turn": 18,
       "speaker": "client",
-      "text": "네, 이번 주말에 만날 때 한번 제대로 얘기해볼게요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 18,
       "speaker": "counselor",
-      "text": "좋은 계획이에요. 주말에 만나서 얘기해보시고, 다음 주에 어떠셨는지 이야기 나눠봐요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement",
-        "goal_setting"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 19,
       "speaker": "client",
-      "text": "알겠습니다. 감사해요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 19,
       "speaker": "counselor",
-      "text": "오늘 상담이 도움이 되셨길 바라요. 힘내세요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 20,
       "speaker": "client",
-      "text": "오늘 이야기 나눠서 마음이 한결 가벼워진 것 같아요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 20,
       "speaker": "counselor",
-      "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "empathy",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 21,
       "speaker": "client",
-      "text": "앞으로 어떻게 하면 좋을지 조금 더 생각해볼게요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 21,
       "speaker": "counselor",
-      "text": "천천히 생각해보시고, 다음에 만나서 어떻게 지내셨는지 이야기 나눠봐요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement",
-        "structuring"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 22,
       "speaker": "client",
-      "text": "네, 다음 상담 때 뵙겠습니다."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 22,
       "speaker": "counselor",
-      "text": "네, 그때까지 자신을 잘 돌봐주세요. 응원하고 있을게요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "감사합니다. 선생님 덕분에 힘이 나요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "힘내세요. 잘 해내실 수 있을 거예요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "empathy",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "네, 열심히 해볼게요!"
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "좋아요, 다음 주에 뵙겠습니다.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "선생님 말씀 정말 감사해요. 많이 도움이 됐어요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "도움이 되셨다니 기쁘네요. 천천히 하나씩 해나가시면 됩니다. 힘내세요.",
-      "technique": [
-        "empathy",
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "27세",
-    "gender": "여성",
-    "occupation": "연구원",
-    "background": "상사의 지속적인 비난과 무시로 인한 스트레스"
-  }
+  ]
 }

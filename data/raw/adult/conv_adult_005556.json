@@ -1,400 +1,343 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "직장 내 괴롭힘",
-    "total_turns": 26,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "structuring",
-      "emotion_labeling",
-      "validation",
-      "closed_question",
-      "reflection",
-      "interpretation"
-    ]
+    "topic": "상사와의 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:28.762594+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0022_직장내괴롭힘상사_6e2b9f",
-    "category": "adult",
-    "topic": "직장 내 괴롭힘"
+  "client_profile": {
+    "age": "42세",
+    "gender": "여성",
+    "occupation": "상담사",
+    "background": "상사와의 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.370029+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "상담사님, 저 더 이상 못 견디겠어요. 매일 출근하는 게 지옥이에요."
+      "text": "처음 와보는 건데, 좀 긴장되네요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 출근이 지옥 같다는 표현에서 얼마나 힘드신지 느껴져요. 무슨 일이 있으신지 편하게 말씀해주세요.",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 처음 와보는 건데, 좀 긴장되네요....라고 하셨는데, 어떤 일이 있었나요?",
+      "turn": 2,
       "technique": [
         "empathy",
-        "open_question",
-        "structuring"
+        "open_question"
       ]
     },
     {
-      "turn": 2,
       "speaker": "client",
-      "text": "제 팀장님이... 저한테만 유독 심하게 대하세요. 매일 욕설하고, 다른 직원들 앞에서 모욕하고... 도저히 참을 수가 없어요."
+      "text": "저는 정보기술 스타트업을 운영하고 있는데요, 3년 정도 됐습니다. 최근에 투자 유치에 실패했고, 함께 시작했던 핵심 개발자 두 명이 더 나은 조건으로 다른 회사로 이직했어요. 이제 어떻게 해야 할지 모르겠습니다.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "팀장님의 언어폭력과 공개적인 모욕을 당하고 계시는군요. 이건 명백한 직장 내 괴롭힘이에요. 얼마나 오래 지속되었나요?",
-      "technique": [
-        "emotion_labeling",
-        "validation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "제가 이 팀에 온 지 6개월 됐는데, 처음부터 그랬어요. 처음엔 '내가 일을 못해서 그런가보다' 생각했는데... 이제는 그게 아니라는 걸 알겠어요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "처음엔 스스로를 탓하셨지만, 이제는 문제가 자신이 아니라 팀장의 태도에 있다는 걸 인식하신 거네요. 그걸 깨닫는 것도 중요한 과정이에요.",
+      "text": "창업 3년차에 투자 유치 실패와 핵심 인력 이탈을 동시에 경험하고 계시는군요. 그동안 쌓아온 것들이 한순간에 흔들리는 것처럼 느껴지실 것 같습니다.",
+      "turn": 4,
       "technique": [
         "reflection",
-        "validation"
+        "empathy"
       ]
     },
     {
-      "turn": 4,
       "speaker": "client",
-      "text": "네... 다른 팀원들한테 물어보니까, 저만 그렇게 당한대요. 똑같은 실수를 해도 다른 사람한테는 '괜찮다'고 하면서 저한테는 '너는 왜 맨날 그러냐'며 소리 지르고..."
+      "text": "네, 맞아요. 제가 3년 동안 쏟아부은 시간과 노력, 그리고 돈이... 부모님께 빌린 돈도 있고, 집도 담보로 잡혔거든요. 밤에 잠도 제대로 못 자요. 자려고 누우면 온갖 생각이 다 들어서요.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "차별적인 대우를 받고 계시는군요. 그건 더 힘들었을 거예요. 왜 자신만 그런 대우를 받는지 이유를 아시나요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "모르겠어요. 처음 만난 날부터 저를 싫어하는 것 같았어요. 제가 전 회사에서 성과를 잘 냈다고 소개받았는데, 그게 마음에 안 들었나봐요. '잘난 척 하지 말라'는 말을 자주 해요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "팀장이 당신의 능력을 위협으로 느끼고 있을 수도 있겠네요. 그래서 의도적으로 자신감을 꺾으려는 것일 수도 있어요. 구체적으로 어떤 말들을 하시나요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "turn": 6,
-      "speaker": "client",
-      "text": "'너는 왜 이것밖에 못하냐', '이 정도 일도 못해?', '전 회사에서 뭐 했냐'... 어제는 '너 같은 애는 회사 그만둬야 한다'고까지 했어요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "정말 심각한 언어폭력이네요. 그런 말들을 들으면 자존감이 무너지고, 자신을 의심하게 되죠. 지금 심리 상태는 어떠세요?",
       "technique": [
-        "validation",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "최악이에요. 아침에 일어나면 눈물이 나고, 회사 가는 게 무섭고... 밤에는 악몽 꿔요. 팀장님이 소리 지르는 꿈..."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "트라우마 증상이 나타나고 있네요. 눈물, 두려움, 악몽... 이건 단순한 스트레스를 넘어선 거예요. 전문적인 도움이 필요한 상태예요.",
-      "technique": [
-        "emotion_labeling",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "정신과를 가야 할까요? 근데 그러면 제가 정말 이상한 사람이 되는 것 같아서..."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "정신과 치료를 받는다고 이상한 게 아니에요. 오히려 자신을 돌보는 현명한 선택이에요. 감기 걸리면 내과 가듯이, 마음이 아프면 정신과 가는 게 당연한 거예요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "그런가요... 근데 병원 가는 것만으로 해결될까요? 팀장님은 그대로인데..."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "맞아요. 병원 치료와 함께 상황 자체를 개선하는 것도 필요해요. 이 문제를 회사에 신고해보신 적은 있나요?",
-      "technique": [
-        "validation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "아니요... 신고하면 더 괴롭힘당할까봐 무서워요. 그리고 증거도 없고..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "보복에 대한 두려움이 있으시군요. 그건 자연스러운 감정이에요. 하지만 증거가 없다고 하셨는데, 지금부터라도 증거를 모을 수 있어요. 어떻게 할 수 있을지 같이 생각해볼까요?",
-      "technique": [
-        "validation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "증거요? 어떻게요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "팀장이 욕설하거나 모욕적인 발언을 할 때 녹음을 할 수 있어요. 그리고 일지를 쓰는 거예요. 언제, 어디서, 어떤 일이 있었는지, 누가 들었는지 기록하는 거죠. 이메일이나 메신저 대화도 캡처해두고요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "녹음이요? 그게 법적으로 문제 안 되나요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "자신이 대화 당사자인 경우 녹음은 합법이에요. 상대방 동의 없이도 가능하죠. 다만 이걸 공개적으로 퍼뜨리면 안 되고, 증거 자료로만 사용해야 해요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그럼 당장 내일부터 녹음해야겠네요. 그런데... 증거를 모은 다음엔 어떻게 해야 하나요?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "회사에 직장 내 괴롭힘 신고 제도가 있을 거예요. 인사팀이나 윤리경영팀에 신고하는 거죠. 없다면 노동청에 진정을 넣을 수도 있어요. 근로기준법에 직장 내 괴롭힘 금지 조항이 있거든요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "회사에 그런 제도가 있는지도 몰랐어요. 찾아봐야겠네요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "네, 취업규칙이나 인사관리 규정을 보면 나와 있을 거예요. 그리고 중요한 건, 신고하면 회사는 조사할 의무가 있고, 신고자를 보호해야 할 의무도 있어요.",
-      "technique": [
-        "information_giving",
         "validation"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "그래도... 팀장님이 제 평가를 하잖아요. 신고하면 불이익 받을 것 같아요."
+      "text": "한 두 달 정도 된 것 같아요. 투자 유치 실패 통보를 받은 게 두 달 전이고, 그 직후부터 팀원들이 하나둘씩 나가기 시작했어요. 지금은 저 포함해서 4명밖에 안 남았습니다.",
+      "turn": 7
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "그 걱정도 이해해요. 하지만 신고 이후 불이익 조치를 하면 그것도 법 위반이에요. 그리고 신고하지 않으면 이 상황이 계속될 텐데, 그럼 건강이 더 나빠질 거예요. 어느 쪽이 더 위험할까요?",
+      "text": "두 달간 연속적으로 어려운 상황들을 마주하셨네요. 그 과정에서 가장 힘들었던 순간은 언제였나요?",
+      "turn": 8,
       "technique": [
-        "validation",
-        "information_giving",
-        "confrontation"
+        "open-ended question"
       ]
     },
     {
-      "turn": 16,
       "speaker": "client",
-      "text": "지금처럼 계속 당하는 게 더 위험하긴 하죠... 근데 정말 무서워요."
+      "text": "투자 실패 통보를 받았을 때보다... 사실은 같이 시작했던 친구가 나간다고 했을 때가 더 힘들었어요. 그 친구는 제가 대학 때부터 알던 친구였거든요. 배신당한 기분이었습니다.",
+      "turn": 9
     },
     {
-      "turn": 16,
       "speaker": "counselor",
-      "text": "두려운 마음이 충분히 이해돼요. 그럴 땐 혼자 하지 말고 도움을 받으세요. 노동조합이 있다면 조합에, 없다면 노동청 상담을 받거나 근로복지공단에 문의할 수 있어요.",
+      "text": "오랜 친구이자 동료의 이탈이 단순한 인력 손실을 넘어서 개인적인 배신감으로 다가왔군요. 그 친구와는 그 후에 대화를 나누셨나요?",
+      "turn": 10,
       "technique": [
-        "empathy",
-        "information_giving"
+        "empathy"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "노동청 상담이요? 그런 것도 있어요?"
+      "text": "아니요. 그냥... 연락을 안 하고 있어요. 사실 화가 나기도 하고, 뭐라고 말해야 할지도 모르겠고요. 그 친구 입장도 이해는 가요. 가족도 있고, 안정적인 수입이 필요하니까요. 그래도 서운한 건 어쩔 수 없네요.",
+      "turn": 11
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "네, 고용노동부 상담센터(1350)에 전화하면 무료로 상담받을 수 있어요. 법적 대응 방법도 안내해주고요. 혼자 싸우는 게 아니라 제도적 지원을 받는 거예요.",
+      "text": "상대방의 입장을 이해하면서도 동시에 서운함과 배신감을 느끼시는 거군요. 이렇게 복잡한 감정을 느끼는 것은 매우 자연스러운 반응입니다.",
+      "turn": 12,
       "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "그럼 저도 도움받을 수 있겠네요. 혼자서 감당하려니까 너무 힘들었거든요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "맞아요. 이건 혼자 감당할 문제가 아니에요. 그리고 주변 동료 중에 목격자가 있다면 그 사람들의 도움을 받을 수도 있어요. 혹시 편한 동료가 있나요?",
-      "technique": [
-        "validation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "같은 팀에 선배가 한 분 계신데, 팀장님의 행동을 다 봤어요. 조금 전에 '참지 말고 신고하라'고 조언해주셨거든요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "그 선배분이 증인이 될 수 있겠네요. 그분의 지지가 있다는 것만으로도 큰 힘이 될 거예요. 신고할 때 그분께 증언을 부탁드려도 될 것 같아요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "네, 부탁드려볼게요. 그런데... 신고 후에 팀장님과 계속 같은 팀에서 일해야 하나요? 그건 너무 힘들 것 같은데..."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "신고 후 조사 기간 동안은 보통 분리 조치가 이루어져요. 피해자나 가해자 중 한 명을 다른 부서로 임시 배치하는 거죠. 괴롭힘이 인정되면 팀장이 징계를 받거나 부서 이동을 하게 될 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "그럼 제가 계속 같이 있지 않아도 되는 거네요. 그게 제일 걱정이었거든요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "네, 회사는 피해자를 보호할 의무가 있어요. 만약 회사가 적절하게 대응하지 않으면 그것도 법 위반이고요. 그럼 지금까지 이야기한 것들을 정리해볼까요?",
-      "technique": [
-        "validation",
-        "summarization"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "네, 정리해주세요."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "먼저 증거 수집하기 - 녹음, 일지 작성, 증인 확보. 그 다음 정신과 진료 받기. 노동청 상담 받기. 회사 내부 신고 제도 확인하기. 그리고 적절한 시점에 신고하기. 이렇게 단계별로 준비하는 거예요.",
-      "technique": [
-        "summarization",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "단계별로 하니까 할 수 있을 것 같아요. 한꺼번에 하려니까 막막했는데..."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "맞아요. 하나씩 차근차근 하면 돼요. 언제부터 시작하실 계획이에요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "내일부터 녹음 시작하고, 이번 주 안에 병원 예약하고 노동청 상담도 받아볼게요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "구체적인 계획이 있으니 실천하기 좋겠어요. 그리고 기억하세요. 이건 당신 잘못이 아니에요. 당신은 피해자예요. 당당하게 권리를 찾으세요.",
-      "technique": [
-        "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 25,
       "speaker": "client",
-      "text": "네... 제 잘못이 아니라는 걸 계속 되새겨야겠어요. 자꾸 제 탓으로 돌리게 되거든요."
+      "text": "요즘은 사무실에 가는 것도 두려워요. 남은 팀원들 얼굴을 보면 미안하고... 이 사람들도 언제 나갈지 모른다는 생각도 들고요. 제가 리더로서 자격이 없는 건 아닌가 하는 생각도 듭니다.",
+      "turn": 13
     },
     {
-      "turn": 25,
       "speaker": "counselor",
-      "text": "그건 괴롭힘의 전형적인 영향이에요. 피해자가 자신을 탓하게 만드는 것. 하지만 당신은 잘못한 게 없어요. 힘든 과정이겠지만 응원할게요.",
+      "text": "지금 스스로에 대한 신뢰가 많이 흔들리고 있는 상태시군요. 리더로서의 자격에 대해 의심하신다고 하셨는데, 구체적으로 어떤 부분에서 그렇게 느끼시나요?",
+      "turn": 14,
       "technique": [
-        "information_giving",
-        "validation",
-        "encouragement"
+        "clarification"
       ]
     },
     {
-      "turn": 26,
       "speaker": "client",
-      "text": "감사합니다. 이제 뭘 해야 할지 알겠어요. 더 이상 참지 않을게요."
+      "text": "투자를 못 받은 것도 결국 제 능력 부족이고, 팀원들을 붙잡지 못한 것도 제 탓이잖아요. 더 좋은 비전을 제시했어야 하는데, 더 나은 대우를 해줬어야 하는데... 그러지 못했으니까요.",
+      "turn": 15
     },
     {
-      "turn": 26,
       "speaker": "counselor",
-      "text": "아주 중요한 결심이에요. 과정 중에 힘들면 언제든 다시 오세요. 혼자 감당하지 마시고요.",
+      "text": "모든 책임을 본인에게 돌리고 계시네요. 그런데 투자 유치나 인력 유지는 대표 혼자만의 노력으로 결정되는 것일까요? 시장 상황, 경쟁사, 타이밍 등 다른 요인들도 있지 않을까요?",
+      "turn": 16,
       "technique": [
-        "validation",
-        "structuring"
+        "cognitive restructuring"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇긴 하죠... 최근에 경기도 안 좋고, 투자 시장도 얼어붙었다고들 하니까요. 하지만 그래도 잘하는 회사들은 투자 받잖아요. 결국 우리가 부족했던 거죠.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "다른 회사들과 비교하시면서 더 자책하게 되시는군요. 혹시 창업 초기부터 지금까지 이루신 성과나 잘했던 부분들도 있지 않으셨나요?",
+      "turn": 18,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 생각해보면 첫 해에 매출 목표는 달성했고, 두 번째 해에는 대기업과 파트너십도 맺었어요. 제품 자체는 사용자들 반응이 좋았고요. 그런데 지금은 그게 다 무의미하게 느껴져요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "현재의 어려움이 너무 크다 보니 그동안 이루신 성과들이 보이지 않는 상태인 것 같습니다. 매출 목표 달성, 대기업 파트너십, 좋은 제품 평가... 이런 것들은 분명 의미 있는 성과들입니다.",
+      "turn": 20,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 말씀해주시니 조금... 위안이 되네요. 그런데 지금 당장의 문제가 너무 커요. 이번 달 월급도 제대로 못 줄 것 같고, 사무실 임대료도 밀리고 있어요. 정말 문을 닫아야 하나 싶어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "당장의 현실적인 문제들이 압박으로 다가오고 있군요. 사업을 접는 것에 대해서도 고민하고 계신데, 그 선택지에 대해서는 어떻게 느끼시나요?",
+      "turn": 22,
+      "technique": [
+        "open-ended question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "한편으로는 이렇게 힘들게 사는 것보다 편해질 것 같기도 하고... 다른 한편으로는 3년을 여기에 쏟아부었는데 이대로 포기하는 게 맞나 싶기도 하고요. 그리고 부모님께 빌린 돈은 어떻게 갚아야 할지...",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "계속할 것인가 그만둘 것인가 사이에서 갈등하고 계시는군요. 두 선택 모두 각각의 어려움이 있어 보입니다. 지금 당장 결정을 내려야 하는 상황인가요?",
+      "turn": 24,
+      "technique": [
+        "clarification"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아니요, 당장은 아니에요. 다음 달까지는 버틸 수 있을 것 같고... 그 사이에 다른 투자자를 찾아볼 수도 있고요. 근데 자신이 없어요. 또 거절당하면 어쩌나 싶어서요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "실패에 대한 두려움이 새로운 시도를 가로막고 있는 것 같습니다. 이전의 거절이 너무 큰 상처로 남아있는 거죠. 그런데 시도하지 않으면 결과를 알 수 없는 것도 사실입니다.",
+      "turn": 26,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요... 안 해보고 포기하는 건 더 후회될 것 같기도 해요. 그런데 지금 제 상태로 투자자들을 만나는 게 맞을까요? 이렇게 불안하고 자신감 없는 모습으로요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 28,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그게 가능할까요? 어떻게 해야 마음을 좀 추스를 수 있을까요?",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "먼저 수면 패턴을 개선하는 것부터 시작해볼 수 있습니다. 규칙적인 수면 시간, 잠들기 전 스크린 차단, 가벼운 운동 등이 도움이 될 수 있어요. 그리고 정기적인 상담을 통해 감정을 정리하고, 현실적인 계획을 세워나가는 것도 필요합니다.",
+      "turn": 30,
+      "technique": [
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "운동... 생각해보니 창업하고 나서 운동을 거의 안 했네요. 시간도 없고 여유도 없어서요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "바쁜 일상 속에서 자신을 돌보는 시간을 갖지 못하셨군요. 하루 20-30분이라도 산책이나 가벼운 운동을 하시면 스트레스 해소와 수면에 큰 도움이 됩니다. 이것도 사업을 위한 투자라고 생각해보시면 어떨까요?",
+      "turn": 32,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니 좀 다르게 느껴지네요. 제가 건강해야 사업도 할 수 있는 거니까요. 그리고... 혹시 제 친구, 나간 그 친구와는 어떻게 하는 게 좋을까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 34,
+      "technique": [
+        "open-ended question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "솔직히 말하면... 연락하고 싶긴 해요. 화난 것도 있지만, 그래도 오랜 친구니까요. 그냥 서운했다는 말 정도는 하고 싶어요. 하지만 그게 괜찮은 건지 모르겠어요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "감정을 표현하고 싶은 마음과 그것이 적절한지에 대한 고민이 함께 있으시네요. 솔직한 감정을 비난이 아닌 '나-전달법'으로 표현하신다면, 관계를 회복하는 데 도움이 될 수 있습니다. '네가 나를 배신했다'가 아니라 '나는 네가 떠날 때 많이 서운했다' 같은 방식으로요.",
+      "turn": 36,
+      "technique": [
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아, 그런 방법이 있군요. 한번 시도해볼게요. 오늘 상담하면서 조금 마음이 정리되는 느낌이에요. 모든 게 제 잘못만은 아니라는 것도 알게 됐고요.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "오늘 대화를 통해 스스로를 좀 더 객관적으로 바라보게 되셨다니 다행입니다. 앞으로 몇 가지를 함께 작업해보면 좋겠습니다. 수면 관리, 규칙적인 운동, 그리고 사업에 대한 현실적인 계획 수립이요. 다음 상담 때 이야기 나눠볼까요?",
+      "turn": 38,
+      "technique": [
+        "summary"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 좋아요. 다음 주에 또 올게요. 오늘 정말 고맙습니다. 이렇게 이야기하니까 혼자 끙끙 앓는 것보다 훨씬 낫네요.",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "용기 내어 오셔서 솔직하게 이야기해주셔서 감사합니다. 힘든 시기지만 함께 잘 헤쳐나가보도록 하겠습니다. 다음 주에 뵙겠습니다.",
+      "turn": 40,
+      "technique": [
+        "support"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "35세",
-    "gender": "남성",
-    "occupation": "영업직",
-    "background": "동료들로부터 은근한 따돌림을 당하는 상황"
-  }
+  ]
 }

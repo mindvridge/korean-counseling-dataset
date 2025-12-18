@@ -1,35 +1,26 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "시험 불안",
-    "total_turns": 26,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "emotion_labeling",
-      "validation",
-      "restatement",
-      "information_giving",
-      "encouragement"
-    ]
+    "topic": "자존감 저하와 외모 콤플렉스",
+    "total_turns": 27,
+    "generated_at": "2025-12-18T07:14:26.689878+00:00"
   },
-  "seed_info": {
-    "source_file": "adolescent_career_0000",
-    "category": "adolescent",
-    "topic": "시험 불안"
+  "client_profile": {
+    "age": "16세",
+    "gender": "여성",
+    "occupation": "고등학교 1학년",
+    "background": "자존감 저하와 외모 콤플렉스 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.957043+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 진로 때문에 너무 스트레스를 받아서 상담을 신청했어요."
+      "text": "선생님... 요즘 너무 힘들어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 편하게 앉으세요. 진로 문제로 많이 힘드셨나봐요. 어떤 부분이 가장 힘드신지 천천히 이야기해주시겠어요?",
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
       "technique": [
         "empathy",
         "open_question"
@@ -38,359 +29,371 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "이제 고3이 되는데... 제가 뭘 하고 싶은지 모르겠어요. 친구들은 다 목표가 있는 것 같은데 저만 없는 것 같아서요."
+      "text": "한 달 전에 5만원을 빌려줬어요. 일주일 후에 갚겠다고 했는데 아직도 안 갚고 있어요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "친구들은 다 진로가 정해진 것처럼 보이는데, 나만 방향을 못 잡은 것 같아서 불안하고 초조한 마음이 드시는군요.",
-      "technique": [
-        "empathy",
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "네... 맞아요. 부모님도 빨리 정하라고 하시는데, 저는 정말 모르겠어요. 뭘 해도 재밌는지 모르겠고, 잘하는 것도 없는 것 같고..."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "부모님의 기대도 있고, 시간은 흐르는데 명확한 답이 안 보여서 더 답답하시겠어요. 혹시 지금까지 관심 있었던 분야나 활동이 있었나요?",
-      "technique": [
-        "empathy",
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "음... 책 읽는 건 좋아해요. 그리고 친구들이 고민 상담할 때 들어주는 것도 좋고요. 근데 이게 직업이 될 수 있을까요?"
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "책을 좋아하고, 친구들의 이야기를 들어주는 것을 좋아하신다고 하셨네요. 그럴 때 어떤 감정이 드세요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "음... 친구들이 고민을 털어놓고 나서 좀 나아졌다고 하면 뿌듯하고 좋아요. 근데 그냥 취미 아닌가요?"
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "다른 사람을 돕고 그들이 나아지는 모습을 볼 때 보람을 느끼시는군요. 그런 경험이 단순한 취미를 넘어 진로의 방향이 될 수도 있어요.",
+      "text": "한 달이 지났는데도 돌려받지 못하셨군요. 친구에게 이야기는 해보셨나요?",
       "technique": [
         "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "그럴 수도 있나요? 근데 제가 심리학과 같은 데 가기엔 성적이 애매해요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "성적 때문에 고민이시군요. 현재 성적이 어느 정도인가요?",
-      "technique": [
-        "empathy",
         "closed_question"
       ]
     },
     {
+      "turn": 3,
+      "speaker": "client",
+      "text": "네, 두세 번 얘기했어요. 근데 '조금만 기다려', '곧 갚을게' 이렇게만 말하고 실제로는 안 갚아요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "reflection",
+        "open_question",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "화나고... 무시당하는 느낌이에요. 그리고 제가 돈 때문에 친구와 사이가 나빠질까봐 걱정도 돼요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "분노와 함께 관계가 손상될까봐 걱정하시는군요. 두 가지 감정 사이에서 갈등하고 계시네요. 그 친구는 어떤 친구인가요?",
+      "technique": [
+        "emotion_labeling",
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "지혜는 고등학교 때부터 친한 친구예요. 같은 반이고... 그래서 더 말하기 어려워요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "오랜 친구이고 자주 마주치는 사이라서 더 복잡하시군요. 지혜가 돈을 못 갚는 이유를 알고 계신가요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "처음에는 '부모님이 용돈을 안 주셔서'라고 했는데... 근데 지혜가 카페에서 음료 사 먹고, 옷도 사는 거 봤어요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "지혜에게 돈이 없는 게 아니라 우선순위가 다른 것 같다고 느끼시는군요. 그걸 봤을 때 어떤 기분이 드셨나요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 7,
       "speaker": "client",
-      "text": "전교에서 한 30~40등 정도 해요. 내신은 2등급 중후반이고요."
+      "text": "배신감? 제 돈은 갚을 생각도 안 하면서 자기가 쓰고 싶은 건 다 쓰고 있으니까..."
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "2등급대면 충분히 좋은 성적인데요. 혹시 심리학과만 생각하고 계신가요, 아니면 다른 관련 분야도 열려있으신가요?",
+      "text": "배신감을 느끼셨군요. 당신을 우선순위에 두지 않는다고 느껴지시네요. 그 상황을 지혜에게 말씀하셨나요?",
       "technique": [
-        "encouragement",
-        "open_question"
+        "emotion_labeling",
+        "reflection",
+        "closed_question"
       ]
     },
     {
       "turn": 8,
       "speaker": "client",
-      "text": "사실 심리학과 말고는 잘 모르겠어요. 어떤 게 있나요?"
+      "text": "못했어요... '너 카페 갈 돈 있으면 내 돈 갚아'라고 말하면 너무 째째하게 보일 것 같아서요."
     },
     {
       "turn": 8,
       "speaker": "counselor",
-      "text": "사람을 돕는 일에는 상담심리, 사회복지, 교육학, 간호학 등 다양한 분야가 있어요. 또 출판 쪽도 책을 좋아하신다면 고려해볼 수 있고요.",
+      "text": "자신의 권리를 주장하는 게 째째해 보일까봐 걱정되시는군요. 하지만 빌려준 돈을 돌려받는 건 정당한 권리예요. 째째한 게 아니에요.",
+      "technique": [
+        "reflection",
+        "validation"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "정말요? 근데 주변 애들은 '친구 사이에 그 정도 돈 가지고 그러냐'고 할 것 같아요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "다른 사람들의 반응이 걱정되시는군요. 하지만 5만원은 학생에게 적지 않은 돈이에요. 그리고 금액의 문제가 아니라 약속을 지키지 않는 것이 문제예요.",
+      "technique": [
+        "reflection",
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "맞아요. 돈보다는... 약속을 안 지킨다는 게 더 속상해요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "신뢰의 문제라고 느끼시는군요. 지혜에게 그 부분을 말씀해보는 건 어떨까요? 돈 자체보다 약속을 지키지 않아서 속상하다고요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "어떻게 말하면 좋을까요? 기분 나쁘지 않게..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "'지혜야, 돈이 문제가 아니라 약속을 계속 미루는 게 속상해. 내가 믿음이 안 가는 친구인가 싶어서'라고 솔직하게 말하는 거예요. 당신의 감정에 초점을 맞추는 거죠.",
       "technique": [
         "information_giving"
       ]
     },
     {
-      "turn": 9,
+      "turn": 12,
       "speaker": "client",
-      "text": "아, 그런 게 있구나... 근데 제가 그걸 잘할 수 있을까요? 자신이 없어요."
+      "text": "제 감정을 말하는 거군요... 근데 지혜가 화내면 어떡하죠?"
     },
     {
-      "turn": 9,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "자신감이 부족하신 것 같은데, 친구들이 계속 당신에게 상담을 청한다는 건 당신에게 그런 능력이 있다는 신호일 수 있어요. 스스로를 너무 과소평가하고 계신 건 아닐까요?",
+      "text": "지혜가 화낼까봐 두려우신거군요. 하지만 정당한 요구를 하는데 화를 낸다면 그건 지혜의 문제예요. 당신이 잘못한 게 아니에요.",
       "technique": [
-        "confrontation",
+        "reflection",
         "validation"
       ]
     },
     {
-      "turn": 10,
+      "turn": 13,
       "speaker": "client",
-      "text": "음... 친구들이 저한테 얘기하는 걸 편하게 느낀다고는 했어요. 근데 그게 전문적인 능력은 아니잖아요."
+      "text": "그렇긴 한데... 관계가 틀어질까봐 무서워요."
     },
     {
-      "turn": 10,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "맞아요, 전문적인 능력은 교육과 훈련을 통해 개발되는 거죠. 하지만 기본적인 소질과 관심이 있다면 그게 좋은 출발점이 될 수 있어요. 지금 당장 완벽할 필요는 없어요.",
+      "text": "관계가 손상될까봐 걱정이 크시군요. 하지만 생각해보세요. 지금도 이미 관계가 불편해지고 있지 않나요? 말하지 않고 속으로 쌓아두면 더 나빠질 수 있어요.",
       "technique": [
-        "validation",
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "그렇게 생각하니까 조금 마음이 편해지네요. 근데 부모님은 안정적인 직업을 원하시는데..."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "부모님은 어떤 직업을 원하시나요?",
-      "technique": [
-        "open_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "공무원이나 교사, 아니면 간호사요. 안정적이고 평생 일할 수 있는 거요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "부모님은 당신의 안정적인 미래를 걱정하시는군요. 그런데 부모님이 말씀하신 직업 중에도 당신이 관심 있는 분야와 연결될 수 있는 게 있어 보이는데요. 교사나 간호사도 사람을 돕는 일이잖아요.",
-      "technique": [
+        "empathy",
         "interpretation",
         "information_giving"
       ]
     },
     {
-      "turn": 13,
+      "turn": 14,
       "speaker": "client",
-      "text": "아, 그렇네요! 생각해보니 교사도 학생들 상담하고 그러잖아요."
+      "text": "맞아요... 요즘 지혜 보면 자꾸 그 생각나서 짜증나요. 예전처럼 편하지 않아요."
     },
     {
-      "turn": 13,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "맞아요. 교사는 교과 지도뿐 아니라 학생들의 고민을 들어주고 진로 상담도 하죠. 당신의 관심사와 부모님의 바람을 모두 충족시킬 수 있는 방향일 수 있겠네요.",
+      "text": "이미 관계에 영향을 미치고 있군요. 그렇다면 솔직하게 대화하는 게 오히려 관계를 회복하는 길일 수 있어요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "대화를 하면... 관계가 나아질까요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "확실하지는 않지만 가능성은 있어요. 솔직한 대화를 통해 서로를 이해할 수 있고, 지혜도 상황의 심각성을 깨달을 수 있어요. 침묵보다는 낫죠.",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 14,
+      "turn": 16,
       "speaker": "client",
-      "text": "근데 저는 수학이나 과학 같은 거 가르치는 건 자신 없는데..."
+      "text": "알겠어요. 한번 얘기해볼게요. 근데 선생님, 만약 지혜가 계속 안 갚으면 어떡하죠?"
     },
     {
-      "turn": 14,
+      "turn": 16,
       "speaker": "counselor",
-      "text": "교사라고 해서 꼭 수학이나 과학만 가르치는 건 아니에요. 국어, 사회, 도덕 교사도 있고, 상담교사나 특수교사도 있어요. 어떤 과목에 관심이 있으세요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "기한을 정하는 거요. 그리고 그때까지도 안 갚으면요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그럼 그 돈은 포기하고 다시는 빌려주지 않는 교훈으로 삼는 거예요. 슬프지만 돈보다 더 큰 걸 배우는 거죠. 누구를 믿을 수 있는지, 어떤 상황에서 돈을 빌려줘야 하는지요.",
+      "technique": [
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "5만원 주고 배우는 교훈이라... 비싼 수업료네요."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "validation",
         "information_giving",
-        "open_question"
+        "encouragement"
       ]
     },
     {
-      "turn": 15,
+      "turn": 19,
       "speaker": "client",
-      "text": "국어나 사회는 괜찮아요. 그리고 상담교사라는 게 있다는 건 처음 알았어요."
+      "text": "네... 이번 주 안에 지혜한테 얘기해볼게요. 혼자 만나서 진지하게..."
     },
     {
-      "turn": 15,
+      "turn": 19,
       "speaker": "counselor",
-      "text": "상담교사는 학생들의 심리적, 정서적 문제를 상담하고 진로 지도를 하는 전문가예요. 당신이 좋아하는 상담 활동을 직업으로 할 수 있는 길이죠.",
+      "text": "좋은 계획이에요. 다른 친구들 앞에서가 아니라 둘이서 이야기하는 게 좋아요. 지혜도 덜 방어적일 거예요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "네, 알겠습니다. 근데 선생님, 앞으로는 친구한테 돈 안 빌려주는 게 나을까요?"
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "무조건 안 빌려주는 것보다는 신중하게 판단하는 게 좋아요. 정말 필요한 상황인지, 갚을 능력이 있는지, 그리고 잃어도 괜찮은 금액인지 생각해보는 거죠.",
       "technique": [
         "information_giving"
       ]
     },
     {
-      "turn": 16,
+      "turn": 21,
       "speaker": "client",
-      "text": "와, 그런 직업이 있다니 신기해요. 어떻게 되는 건가요?"
+      "text": "잃어도 괜찮은 금액이라... 그 정도만 빌려주는 게 안전하겠네요."
     },
     {
-      "turn": 16,
+      "turn": 21,
       "speaker": "counselor",
-      "text": "교육학과나 상담 관련 학과를 졸업하고 교원자격증을 취득한 후, 전문상담교사 자격을 따로 취득하면 돼요. 단계적으로 준비할 수 있어요.",
+      "text": "현명한 생각이에요. '빌려준다'는 마음보다 '줄 수도 있다'는 마음으로 하면 나중에 돌려받지 못해도 덜 속상해요.",
       "technique": [
+        "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 17,
+      "turn": 22,
       "speaker": "client",
-      "text": "생각보다 명확한 길이 있네요. 근데 제가 잘할 수 있을지 아직도 불안해요."
+      "text": "그럼 제가 5만원을 '잃어도 괜찮다'는 마음으로 빌려줬어야 했나요?"
     },
     {
-      "turn": 17,
+      "turn": 22,
       "speaker": "counselor",
-      "text": "새로운 길을 선택할 때 불안감을 느끼는 건 자연스러운 거예요. 중요한 건 지금 당장 완벽하게 확신할 필요는 없다는 거예요. 천천히 탐색하고 경험해보면서 결정해도 괜찮아요.",
+      "text": "이미 빌려준 상황이니 과거를 후회할 필요는 없어요. 하지만 다음에는 그렇게 생각하면 도움이 될 거예요. 지금은 지혜와의 대화에 집중하세요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "네, 알겠습니다. 오늘 배운 게 많네요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "돈과 관계에 대한 중요한 교훈들이에요. 오늘 대화 내용 정리해볼까요? 지혜에게 솔직하게 당신의 감정을 전달하고, 구체적인 기한을 정하는 거예요.",
+      "technique": [
+        "validation",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "네, 제 감정을 말하고 기한을 정하기. 그리고 비난하지 않고 'I-메시지'로 말하기."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "완벽하게 이해하셨네요. 그리고 결과가 어떻든 당신은 할 일을 다 한 거예요. 관계가 회복되길 바라지만, 안 되더라도 당신 잘못은 아니에요.",
       "technique": [
         "validation",
         "encouragement"
       ]
     },
     {
-      "turn": 18,
+      "turn": 25,
       "speaker": "client",
-      "text": "천천히 해도 되는 거군요. 그럼 지금 제가 뭘 해볼 수 있을까요?"
+      "text": "네, 감사합니다. 용기가 생겼어요."
     },
     {
-      "turn": 18,
+      "turn": 25,
       "speaker": "counselor",
-      "text": "좋은 질문이에요. 우선 관심 분야에 대해 더 알아보는 게 좋겠어요. 예를 들어 상담 관련 책을 읽어보거나, 교육학과나 상담학과에 대한 정보를 찾아보는 거죠. 또 학교 상담선생님과 이야기를 나눠보는 것도 도움이 될 거예요.",
-      "technique": [
-        "goal_setting",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "네, 그렇게 해볼게요. 책 읽는 건 좋아하니까 관련 책부터 찾아봐야겠어요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "좋은 시작이네요. 그리고 봉사활동이나 동아리 활동을 통해 실제로 사람들을 돕는 경험을 더 쌓아보는 것도 좋을 것 같아요. 어떻게 생각하세요?",
+      "text": "다행이에요. 어려운 대화지만 필요한 대화예요. 다음 주에 어떻게 됐는지 나눠봐요.",
       "technique": [
         "encouragement",
-        "goal_setting",
-        "open_question"
+        "validation",
+        "structuring"
       ]
     },
     {
-      "turn": 20,
+      "turn": 26,
       "speaker": "client",
-      "text": "네, 좋은 것 같아요. 학교에 또래상담 동아리가 있던데 그거 해볼까요?"
+      "text": "네, 다음 주에 결과 말씀드릴게요."
     },
     {
-      "turn": 20,
+      "turn": 26,
       "speaker": "counselor",
-      "text": "아주 좋은 선택이에요! 또래상담 동아리는 상담 기술도 배우고 실제로 친구들을 도울 수 있는 경험도 쌓을 수 있어서 진로 탐색에 큰 도움이 될 거예요.",
+      "text": "네, 기다릴게요. 그리고 기억하세요, 당신의 권리를 주장하는 건 정당한 일이에요. 째째한 게 아니에요.",
       "technique": [
         "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 21,
+      "turn": 27,
       "speaker": "client",
-      "text": "생각해보니 할 수 있는 게 많네요. 처음에는 막막했는데 조금씩 보이는 것 같아요."
+      "text": "네, 기억할게요. 감사합니다, 선생님."
     },
     {
-      "turn": 21,
+      "turn": 27,
       "speaker": "counselor",
-      "text": "처음에 느꼈던 막막함에서 이제 구체적인 방향과 실천 가능한 계획이 생긴 거죠. 스스로 이런 변화를 만들어내셨어요.",
-      "technique": [
-        "summarization",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "그런데 부모님께 어떻게 말씀드려야 할까요? 갑자기 상담교사 하겠다고 하면 놀라실 것 같아서요."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "부모님과의 대화가 걱정되시는군요. 어떻게 말씀드리고 싶으세요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "일단 교사라는 직업에 관심이 있다고 말씀드리면 좋아하실 것 같아요. 그리고 천천히 상담교사에 대해서도 설명드리고요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "좋은 전략이네요. 부모님이 원하시는 안정성도 있고, 당신의 관심사도 반영된 진로라는 점을 강조하면 좋을 것 같아요. 또 아직 탐색 단계라는 것도 함께 말씀드리시면 부담이 덜하실 거예요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "네, 그렇게 해볼게요. 오늘 상담하고 나니까 마음이 한결 가벼워졌어요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "다행이에요. 오늘 우리가 나눈 이야기를 정리해볼까요? 당신은 사람을 돕는 일에 관심이 있고, 그것을 교사나 상담교사라는 진로로 연결해볼 수 있다는 걸 발견했어요. 그리고 또래상담 동아리 활동과 관련 책 읽기로 탐색을 시작하기로 했죠.",
-      "technique": [
-        "summarization",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 맞아요. 이제 뭘 해야 할지 알겠어요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "진로는 한 번에 결정하는 게 아니라 천천히 탐색하고 경험하면서 만들어가는 거예요. 오늘이 그 여정의 좋은 시작이 될 것 같네요. 앞으로도 궁금한 게 있거나 도움이 필요하면 언제든 찾아오세요.",
+      "text": "천천히, 차분하게 대화하세요. 응원할게요.",
       "technique": [
         "encouragement",
-        "validation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "네, 감사합니다. 다음에 또 올게요!"
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "언제든 환영해요. 오늘 나눈 계획들 잘 실천해보시고, 어떻게 되는지 다음에 또 이야기 나눠요. 응원할게요!",
-      "technique": [
-        "encouragement",
-        "structuring"
+        "validation"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "17세",
-    "gender": "여성",
-    "occupation": "고등학교 2학년",
-    "background": "시험만 보면 머리가 하얘지고 아는 것도 틀리는 시험 불안"
-  }
+  ]
 }

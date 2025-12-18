@@ -1,39 +1,29 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "양육 스트레스",
+    "topic": "육아 스트레스",
     "total_turns": 26,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "structuring",
-      "reflection",
-      "closed_question",
-      "emotion_labeling",
-      "clarification",
-      "validation"
-    ]
+    "generated_at": "2025-12-18T07:14:29.315664+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0028_퇴사후재취업걱정_4c7e9b",
-    "category": "adult",
-    "topic": "양육 스트레스"
+  "client_profile": {
+    "age": "38세",
+    "gender": "여성",
+    "occupation": "주부",
+    "background": "육아 스트레스 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.985264+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "상담사님, 저 6개월째 쉬고 있는데요. 이제 다시 일해야 할 것 같은데 너무 무서워요."
+      "text": "삶의 의미를 모르겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 6개월 동안 쉬셨군요. 퇴사한 이유가 있으셨나요? 그리고 왜 무섭다고 느끼시는지 말씀해주시겠어요?",
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
       "technique": [
         "empathy",
-        "open_question",
-        "structuring"
+        "open_question"
       ]
     },
     {
@@ -59,9 +49,8 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "휴식이 필요했던 초반에는 편안했지만, 시간이 지나면서 불안이 커진 거네요. 지금은 일할 준비가 되셨다고 느끼세요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
-        "empathy",
         "emotion_labeling",
         "closed_question"
       ]
@@ -117,7 +106,7 @@
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "먼저 자신의 한계를 명확히 하세요. '하루 야근은 2시간까지', '주말 근무는 월 1회까지'처럼요. 그리고 그 한계를 넘는 요청이 오면 정중하지만 단호하게 거절하는 거예요.",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "information_giving",
         "structuring"
@@ -299,7 +288,7 @@
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "조급함은 나쁜 선택을 만들어요. 여유를 갖고 신중하게 준비하는 게 중요해요. 그럼 지금부터 어떤 순서로 진행하실 건가요?",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "validation",
         "goal_setting"
@@ -389,11 +378,5 @@
         "validation"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "32세",
-    "gender": "여성",
-    "occupation": "마케터",
-    "background": "자녀 양육으로 인한 극심한 스트레스"
-  }
+  ]
 }

@@ -1,386 +1,435 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "상사 갈등",
-    "total_turns": 25,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "structuring",
-      "interpretation",
-      "closed_question",
-      "validation",
-      "emotion_labeling",
-      "information_giving"
-    ]
+    "topic": "부모와의 갈등",
+    "total_turns": 30,
+    "generated_at": "2025-12-18T07:14:29.563452+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0027_이직실패불안_7e4b2c",
-    "category": "adult",
-    "topic": "상사 갈등"
+  "client_profile": {
+    "age": "28세",
+    "gender": "여성",
+    "occupation": "회사원",
+    "background": "부모와의 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:40.269486+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "상담사님, 저 또 떨어졌어요. 이게 벌써 다섯 번째예요..."
+      "text": "사람들 만나는 게 두려워요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 연속으로 탈락하니까 많이 힘드시겠어요. 이직 준비를 언제부터 하셨나요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 사람들 만나는 게 두려워요....라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
         "empathy",
-        "open_question",
-        "structuring"
+        "open_question"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "6개월 전부터요. 처음엔 자신 있었는데... 이제는 제가 뭐가 문제인지 모르겠어요. 서류는 통과하는데 최종 면접에서 계속 떨어져요."
+      "text": "수당이 계속 줄어들어요. 고정급이 적어서 수당으로 생활비를 충당하는데... 이번 달은 아이 학원비도 못 낼 것 같아요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "서류는 통과하는데 최종 면접에서 탈락한다는 건, 스펙은 충분하지만 면접에서 어떤 부분이 부족하다는 뜻일 수 있어요. 면접 후 피드백을 받아보신 적은 있나요?",
+      "text": "경제적 압박이 크시군요. 목표를 달성하지 못하는 이유가 뭐라고 생각하세요?",
       "technique": [
         "empathy",
-        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "경기도 안 좋고, 고객들이 보험 가입을 꺼리고... 근데 다른 설계사들은 잘만 하더라고요. 저만 못하는 것 같아요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "'나만 못한다'는 생각이 드시는군요. 실제로 팀 내에서 본인 실적은 어느 정도인가요?",
+      "technique": [
+        "reflection",
         "closed_question"
       ]
     },
     {
-      "turn": 3,
-      "speaker": "client",
-      "text": "몇 군데에서 받았는데요. '너무 긴장한 것 같다', '자신감이 부족해 보인다'는 피드백이었어요. 근데 긴장 안 할 수가 없잖아요..."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "긴장과 자신감 부족이 문제로 지적됐군요. 긴장하는 건 자연스러운 거예요. 하지만 그게 면접 내내 드러나면 불리할 수 있죠. 면접 때 구체적으로 어떤 상황인가요?",
-      "technique": [
-        "empathy",
-        "validation",
-        "open_question"
-      ]
-    },
-    {
       "turn": 4,
       "speaker": "client",
-      "text": "질문 받으면 머릿속이 하얘지고, 말을 더듬고... 준비한 대답도 까먹어요. 그러다 보면 더 긴장하고 악순환이에요."
+      "text": "하위 30% 정도요. 예전엔 중상위권이었는데..."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "불안이 심해지면서 평소 실력을 발휘하지 못하는 거네요. 처음 면접 때도 이랬나요, 아니면 탈락을 거듭하면서 더 심해졌나요?",
+      "text": "예전에는 잘하셨는데 최근에 떨어지신 거네요. 3개월 전 즈음에 무슨 변화가 있었나요?",
       "technique": [
-        "empathy",
-        "emotion_labeling",
-        "open_question"
+        "reflection",
+        "clarification"
       ]
     },
     {
       "turn": 5,
       "speaker": "client",
-      "text": "처음엔 좀 나았는데, 떨어질수록 점점 더 심해졌어요. '또 떨어지면 어쩌지' 하는 생각에 더 긴장하게 돼요."
+      "text": "특별한 건 없는데... 아, 그때 큰 고객 한 분이 해약하셨어요. 그 분이 제 주 수입원이었거든요."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "실패 경험이 쌓이면서 불안이 더 커진 거군요. 그리고 '또 떨어질 것 같다'는 예상이 실제로 그런 결과를 만들어낸 거예요. 자기충족적 예언이라고 해요.",
-      "technique": [
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "제가 스스로 망치고 있다는 말씀이세요? 근데 어떻게 해요... 생각이 자꾸 그렇게 되는데..."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "스스로를 탓하려는 게 아니에요. 패턴을 이해하는 거죠. 이해하면 바꿀 수 있어요. 지금 가장 힘든 부분이 뭔가요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "자신감이 완전히 바닥났어요. '나는 안 되나봐', '능력이 없나봐' 하는 생각만 들어요. 지금 직장도 그만두고 싶은데, 이직도 안 되니까 갇힌 느낌이에요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "자존감이 많이 낮아진 상태시고, 진퇴양난에 빠진 느낌이시군요. 현재 직장은 왜 그만두고 싶으신가요?",
-      "technique": [
-        "emotion_labeling",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "업무 강도가 너무 세고, 연봉도 낮고, 발전 가능성도 없어요. 그래서 이직하려는 건데... 안 되니까 더 답답하고..."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "현재 상황에 대한 불만과 이직 실패가 겹치면서 스트레스가 배가 됐네요. 한 가지 물어볼게요. 면접 준비는 어떻게 하고 계세요?",
+      "text": "주요 고객을 잃으면서 수입이 급감했군요. 그 이후로 어떻게 대응하셨나요?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
+      "turn": 6,
+      "speaker": "client",
+      "text": "미친 듯이 일했어요. 신규 고객 발굴하려고 하루에 10시간씩 돌아다니고, 전화하고... 근데 안 돼요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "더 열심히 일했는데 결과가 안 나오니 더 좌절스러우시겠어요. 혹시 조급한 마음이 고객에게 전달되진 않았을까요?",
+      "technique": [
+        "empathy",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "... 그럴 수도 있겠네요. 요즘 만나는 고객들이 '부담스럽다'는 말을 하긴 했어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "급한 마음에 고객을 압박하게 되고, 그게 오히려 역효과를 낸 거네요. 이 일을 6년 하셨으면 본인만의 노하우가 있으실 텐데, 요즘은 그걸 활용하고 계신가요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "노하우요? 요즘은 그냥... 닥치는 대로 해요. 예전 방식은 너무 느린 것 같아서."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 9,
       "speaker": "client",
-      "text": "예상 질문 찾아서 답변 준비하고, 거울 보면서 연습하고... 그런데 막상 면접장 가면 다 소용없어요."
+      "text": "기존 고객들 관리에 집중했어요. 꾸준히 연락하고, 신뢰 쌓고... 그럼 자연스럽게 소개도 들어오고."
     },
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "혼자 준비하시는군요. 모의 면접은 해보셨나요? 다른 사람 앞에서 연습해보는 것?",
+      "text": "관계 중심 영업을 하셨군요. 지금은 그렇게 안 하시나요?",
       "technique": [
-        "clarification",
+        "reflection",
         "closed_question"
       ]
     },
     {
       "turn": 10,
       "speaker": "client",
-      "text": "아니요... 창피해서 아무한테도 말 못 했어요. 이직한다는 것도 비밀로 하고 있어서..."
+      "text": "시간이 없어요. 당장 이번 달 목표를 채워야 하는데..."
     },
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "혼자서 모든 걸 감당하고 계시는군요. 그게 더 부담을 키우고 있을 수 있어요. 모의 면접은 정말 중요해요. 실전 같은 긴장감을 미리 경험해볼 수 있거든요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "그럼 누구한테 부탁해야 하나요? 친구들한테 말하기도 좀 그렇고..."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "이직 준비 커뮤니티나 스터디 그룹을 찾아보세요. 같은 처지의 사람들과 서로 모의 면접을 해주는 곳들이 많아요. 혼자가 아니라는 것만으로도 힘이 될 거예요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "그런 곳이 있어요? 찾아봐야겠네요. 그런데... 제 문제는 긴장인데, 모의 면접 한다고 나아질까요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "긴장은 낯선 상황에 대한 두려움에서 와요. 면접 상황에 익숙해지면 긴장이 줄어들어요. 그리고 피드백을 받으면서 개선점을 찾을 수 있고요. 지금은 뭐가 문제인지도 정확히 모르는 상태잖아요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "맞아요... 면접 후에 '아, 이걸 잘못했구나' 싶은데, 면접 중엔 몰라요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "그게 바로 모의 면접이 필요한 이유예요. 실시간 피드백을 받으면 즉각 수정할 수 있어요. 그리고 긴장 관리 기법도 배울 수 있고요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "긴장 관리 기법이요? 예를 들면 어떤 게 있나요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "호흡법이 대표적이에요. 면접 전에 깊게 숨 쉬기, 긴장되는 순간 천천히 호흡하기. 그리고 긍정적인 자기 암시도 도움이 돼요. '나는 할 수 있다', '준비를 충분히 했다'처럼요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그런데 긍정적인 암시를 해도... 솔직히 안 믿어져요. 계속 떨어졌는데 뭘 믿고..."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "그 마음 이해해요. 하지만 부정적인 생각이 부정적인 결과를 만들어요. 생각을 바꾸는 것도 연습이 필요해요. '나는 못해'를 '나는 배우고 있어'로 바꾸는 거죠.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "생각을 바꾸는 게... 쉽지 않을 것 같아요. 자동으로 부정적인 생각이 들거든요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "처음엔 어려워요. 하지만 부정적 생각이 들 때마다 의식적으로 멈추고 바꿔보세요. '또 떨어질 것 같아' → '이번엔 다를 수 있어'. 계속 반복하면 습관이 돼요.",
-      "technique": [
-        "validation",
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "연습해볼게요. 그런데... 다음 면접도 떨어지면 어떡하죠? 정말 자신이 없어요."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "'만약 떨어지면'에 이미 집중하고 계시네요. 대신 '합격하려면 뭘 해야 하나'에 집중해보세요. 결과가 아니라 과정에 초점을 맞추는 거예요.",
+      "text": "'당장' 목표를 채우려다가 장기적으로 효과적인 방법을 놓치고 계신 것 같아요. 단기 목표와 장기 전략, 둘 다 필요하지 않을까요?",
       "technique": [
         "confrontation",
         "information_giving"
       ]
     },
     {
-      "turn": 18,
+      "turn": 11,
       "speaker": "client",
-      "text": "과정에 집중하는 거요? 구체적으로 어떻게 하나요?"
+      "text": "그렇긴 한데... 장기 전략을 짤 여유가 없어요."
     },
     {
-      "turn": 18,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "'합격해야 해'보다 '오늘 면접에서 내 장점을 잘 보여주자', '준비한 것을 자신 있게 말하자'처럼 구체적인 행동 목표를 세우는 거예요. 결과는 통제할 수 없지만, 행동은 통제할 수 있어요.",
+      "text": "여유가 없다고 느끼시는 건 이해돼요. 하지만 지금 방식으로 3개월 했는데 안 됐잖아요. 방법을 바꿔야 할 때 아닐까요?",
       "technique": [
-        "information_giving",
-        "structuring"
+        "validation",
+        "confrontation"
       ]
     },
     {
-      "turn": 19,
+      "turn": 12,
       "speaker": "client",
-      "text": "아, 그렇게 생각하니까 조금 부담이 덜 되네요. 결과는 제가 어쩔 수 없는 거니까..."
+      "text": "... 맞는 말이에요. 어떻게 해야 할까요?"
     },
     {
-      "turn": 19,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "맞아요. 최선을 다하는 건 당신의 몫이지만, 최종 결정은 회사의 몫이에요. 탈락했다고 당신이 무능한 게 아니에요. 그냥 매칭이 안 된 거죠.",
+      "text": "먼저 목표를 재설정해볼까요? 회사 목표는 그대로 두고, 본인만의 현실적 목표를 정하는 거예요.",
       "technique": [
-        "validation",
+        "structuring",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "회사 목표를 못 채우면 수당이 적은데..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "지금도 못 채우고 계시잖아요. 현실적 목표를 세우고 그걸 달성하는 게, 달성 불가능한 목표에 스트레스받는 것보다 나아요.",
+      "technique": [
+        "confrontation",
         "information_giving"
       ]
     },
     {
-      "turn": 20,
+      "turn": 14,
       "speaker": "client",
-      "text": "매칭이요? 그렇게 생각하면 덜 상처받을 것 같아요. 지금까지는 '내가 부족해서 떨어졌다'고만 생각했거든요."
+      "text": "그렇긴 하네요."
     },
     {
-      "turn": 20,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "물론 개선할 점은 있어요. 긴장 관리, 면접 스킬 같은 것. 하지만 그게 당신의 가치를 결정하는 건 아니에요. 이해되시나요?",
+      "text": "그리고 신규 고객보다 기존 고객 관리에 집중해보는 건 어떨까요? 본인이 잘했던 방식으로 돌아가는 거죠.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "기존 고객들... 요즘 연락도 제대로 못 했어요. 미안해서 연락하기도 그렇고..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "미안한 마음이 드시는군요. 하지만 그분들 입장에서는 본인이 연락해주는 게 고마울 수도 있어요. 이번 주에 5명만이라도 연락해보는 건 어떨까요?",
+      "technique": [
+        "empathy",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "5명이요? 할 수 있을 것 같아요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "판매 목적이 아니라 안부 목적으로요. '요즘 어떻게 지내세요?' 이런 식으로. 관계를 다시 쌓는 거예요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "알겠어요. 해볼게요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "맞아요. 요즘 고객 만날 때도 주눅 들어요."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "지금 3개월 부진하지만, 6년 커리어를 보세요. 그동안 쌓은 경험과 실력이 사라진 게 아니에요. 일시적 슬럼프일 뿐이죠.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "일시적... 맞을까요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "맞아요. 하지만 슬럼프에서 벗어나려면 방법을 바꿔야 해요. 지금처럼 계속하면 악순환이 계속될 거예요.",
       "technique": [
         "validation",
-        "clarification"
+        "confrontation"
       ]
     },
     {
-      "turn": 21,
+      "turn": 20,
       "speaker": "client",
-      "text": "네... 제 가치와 면접 결과를 분리해서 생각해야겠어요. 그럼 지금부터 뭘 해야 할까요?"
+      "text": "알겠습니다. 변화가 필요하네요."
     },
     {
-      "turn": 21,
+      "turn": 20,
       "speaker": "counselor",
-      "text": "정리해볼까요? 첫째, 이직 준비 스터디 그룹 찾기. 둘째, 모의 면접으로 실전 연습하기. 셋째, 긴장 관리 기법 연습하기. 넷째, 부정적 생각을 긍정적으로 바꾸기. 다섯째, 결과가 아닌 과정에 집중하기. 어때요?",
-      "technique": [
-        "summarization",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "좋아요. 구체적이어서 실천할 수 있을 것 같아요. 언제부터 시작하면 좋을까요?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "바로 오늘부터요. 오늘 저녁에 스터디 그룹 검색해보고, 긍정적 자기 암시도 시작하세요. 다음 면접이 언제예요?",
+      "text": "경제적 압박도 크시니, 단기 대책도 필요해요. 혹시 다른 수입원을 고려해보신 적 있으세요?",
       "technique": [
         "structuring",
         "open_question"
       ]
     },
     {
+      "turn": 21,
+      "speaker": "client",
+      "text": "부업이요? 시간이 없는데..."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "부업이 아니라, 가족 지원이나 긴급 대출 같은 임시 방안이요. 경제적 압박을 조금이라도 줄이면 영업할 때 조급함이 줄어들 거예요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "가족한테 손 벌리긴 싫은데..."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "자존심이 상하시는 건 이해해요. 하지만 일시적으로 도움받고, 안정되면 갚으면 되잖아요. 지금처럼 압박 속에서 일하면 더 오래 걸릴 수 있어요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 23,
       "speaker": "client",
-      "text": "다음 주 금요일이요."
+      "text": "생각해볼게요."
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "그럼 이번 주에 모의 면접 최소 2번은 해보세요. 그리고 매일 호흡법 연습하고, 긍정적 암시도 하루에 10번씩 해보세요. '나는 잘할 수 있어'라고요.",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
-        "structuring",
-        "encouragement"
+        "summarization",
+        "closed_question"
       ]
     },
     {
       "turn": 24,
       "speaker": "client",
-      "text": "네, 해볼게요. 그런데... 만약 이번에도 떨어지면 다시 와도 될까요?"
+      "text": "네, 맞아요."
     },
     {
       "turn": 24,
       "speaker": "counselor",
-      "text": "물론이죠. 하지만 이번엔 다를 거예요. 준비를 다르게 하니까요. 그리고 중요한 건, 합격 여부와 상관없이 당신은 가치 있는 사람이에요. 잊지 마세요.",
+      "text": "가장 먼저 할 건 뭔가요?",
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "기존 고객 연락이요. 오늘 당장 해볼게요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "훌륭해요. 판매 생각 말고, 진심으로 안부만 물어보세요.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "네, 그렇게 할게요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "그리고 자책하지 마세요. 슬럼프는 누구에게나 와요. 중요한 건 어떻게 극복하느냐예요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "감사합니다. 조금 희망이 보여요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "6년 경력의 전문가로서 본인을 믿으세요. 이 어려움도 지나갈 거예요.",
       "technique": [
         "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 25,
+      "turn": 28,
       "speaker": "client",
-      "text": "감사합니다. 용기가 생겼어요. 이번엔 정말 최선을 다해볼게요."
+      "text": "오늘 상담이 큰 도움이 됐어요."
     },
     {
-      "turn": 25,
+      "turn": 28,
       "speaker": "counselor",
-      "text": "그 마음가짐이 중요해요. 결과는 하늘에 맡기고, 과정에 최선을 다하세요. 다음 주 금요일, 응원할게요.",
+      "text": "다음 주에 만나서 어떻게 진행됐는지 이야기 나눠봐요. 작은 성공이라도 있으면 꼭 공유해주세요.",
+      "technique": [
+        "goal_setting",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네, 다음 주에 좋은 소식 가지고 올게요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "기대할게요. 본인의 강점을 기억하세요. 관계 중심 영업, 그게 본인의 무기예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "client",
+      "text": "감사합니다. 다음 주에 뵙겠습니다."
+    },
+    {
+      "turn": 30,
+      "speaker": "counselor",
+      "text": "힘내세요. 슬럼프는 일시적이에요. 다음 주에 뵙겠습니다.",
       "technique": [
         "encouragement",
         "validation"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "33세",
-    "gender": "남성",
-    "occupation": "프리랜서",
-    "background": "상사의 지속적인 비난과 무시로 인한 스트레스"
-  }
+  ]
 }

@@ -1,91 +1,82 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "업무 과부하",
+    "topic": "우울감과 무기력",
     "total_turns": 30,
-    "quality_indicators": [
-      "reflection",
-      "open_question",
-      "empathy",
-      "clarification",
-      "closed_question",
-      "structuring",
-      "summarization",
-      "validation"
-    ]
+    "generated_at": "2025-12-18T07:14:28.611130+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0016_m5n6o7p8",
-    "category": "adult",
-    "topic": "업무 과부하"
+  "client_profile": {
+    "age": "23세",
+    "gender": "여성",
+    "occupation": "대학생",
+    "background": "우울감과 무기력 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.189259+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "이직을 해야 할지 고민이에요."
+      "text": "부모님과의 관계가 어려워요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "이직을 고민하고 계시는군요. 어떤 점 때문에 이직을 생각하시나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 2,
-      "speaker": "client",
-      "text": "지금 회사는 안정적이긴 한데... 배우는 게 없어요. 7년째 똑같은 일만 하고 있어요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "안정성은 있지만 성장 기회가 없다고 느끼시는군요. 구체적으로 어떤 점이 답답하신가요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "업무가 루틴해요. 매일 똑같은 서류 검토하고, 보고서 쓰고... 새로운 프로젝트도 없고, 도전적인 일도 없어요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "반복적인 업무에 지루함을 느끼시는군요. 이직하고 싶다는 생각은 언제부터 하셨나요?",
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
       "technique": [
         "empathy",
-        "clarification"
+        "open_question"
+      ]
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "text": "현장 일은 제가 제일 잘 아는데, 사무실에서 일도 안 해보신 임원님이 일일이 간섭하세요. '이렇게 해라, 저렇게 해라' 제 판단을 전혀 믿어주지 않아요."
+    },
+    {
+      "turn": 2,
+      "speaker": "counselor",
+      "text": "현장 전문가인 본인의 판단을 신뢰하지 않고 세세하게 간섭한다는 거네요. 구체적으로 어떤 일들이 있었나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "어제도 자재 발주 건으로 전화하셨어요. 제가 A 업체로 하려고 했는데 '왜 B 업체는 안 알아봤냐, 다시 알아보고 보고해라'고요. 이미 견적 다 받아본 건데..."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "이미 충분히 검토한 사안인데도 다시 확인하라고 하시는군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "reflection",
+        "emotion_labeling"
       ]
     },
     {
       "turn": 4,
       "speaker": "client",
-      "text": "작년부터요. 대학 동기들은 다 커리어가 성장하는데 저만 제자리인 것 같아서..."
+      "text": "무시당하는 기분이죠. '내가 뭐 하러 8년을 일했나' 싶고... 화나고 억울하고."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "다른 사람들과 비교하면서 조급함을 느끼시는군요. 이직을 실제로 준비해보신 적 있으세요?",
+      "text": "전문성을 인정받지 못하는 느낌에 화와 억울함을 느끼시는군요. 이런 일이 자주 있나요?",
       "technique": [
-        "reflection",
+        "empathy",
         "closed_question"
       ]
     },
     {
       "turn": 5,
       "speaker": "client",
-      "text": "이력서는 써봤는데... 제출은 못 했어요."
+      "text": "매일요. 하루에 전화를 10통도 넘게 받아요. '이거 확인했어? 저거는 어떻게 됐어?' 제가 알아서 하고 있는데..."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "이력서까지 준비했는데 제출은 못 하셨군요. 무엇이 망설여지나요?",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
         "reflection",
         "open_question"
@@ -94,357 +85,352 @@
     {
       "turn": 6,
       "speaker": "client",
-      "text": "지금 회사를 떠나는 게 맞는지 확신이 안 서요. 안정적인 직장을 버리는 게 맞나..."
+      "text": "집중이 안 돼요. 현장에서 작업 지시하다가도 전화 오면 받아야 하고... 그럼 작업 흐름이 끊기고. 비효율적이에요."
     },
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "안정성을 포기하는 게 두려우시군요. 지금 회사의 장점과 단점을 정리해볼까요?",
+      "text": "잦은 전화로 업무 흐름이 끊겨서 효율성이 떨어지는군요. 임원님께 이런 어려움을 말씀드려 보신 적 있으세요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "한번 조심스럽게 말했어요. '제가 알아서 잘 진행하고 있으니 믿어주셔도 됩니다'라고. 근데 '내가 확인하는 게 뭐가 문제야? 책임은 내가 지는데'라고 하시더라고요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "본인의 요청을 '책임' 문제로 돌리셨군요. 그 답변을 들었을 때 어떠셨어요?",
+      "technique": [
+        "reflection",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "말문이 막혔죠. '그럼 저는 책임 안 진다는 건가?' 싶기도 하고... 더 이상 말할 수가 없었어요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "방어적인 반응에 더 이상 소통하기 어려우셨군요. 임원님은 왜 그렇게 세세하게 확인하시는 것 같으세요?",
       "technique": [
         "empathy",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "장점은... 안정적이고, 복지 좋고, 워라밸 좋고. 단점은 성장 없고, 지루하고, 연봉도 낮아요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "안정성과 복지 대 성장과 연봉이 저울질 되는 거네요. 지금 본인에게 더 중요한 건 뭔가요?",
-      "technique": [
-        "summarization",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "... 모르겠어요. 둘 다 중요한데."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "둘 다 중요하니 결정이 어려우실 거예요. 5년 후 본인 모습을 상상해보면 어떤가요? 지금 회사에 계속 다니는 모습과 이직한 모습, 어느 쪽이 더 만족스러울 것 같으세요?",
-      "technique": [
-        "validation",
         "open_question"
       ]
     },
     {
       "turn": 9,
       "speaker": "client",
-      "text": "계속 다니면... 안정적이겠지만 후회할 것 같아요. 이직하면... 성장했겠지만 불안할 것 같고."
+      "text": "통제욕이 강하신 것 같아요. 모든 걸 본인이 관리하고 싶어 하시는..."
     },
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "안정성 속의 후회 대 성장 속의 불안이군요. 혹시 이직하지 않고 현재 회사에서 성장할 방법은 없나요?",
+      "text": "마이크로매니징 스타일이시군요. 임원님 입장에서는 그게 책임을 다하는 방법일 수 있지만, 현장 전문가인 본인에게는 불신으로 느껴지는 거네요.",
       "technique": [
         "interpretation",
-        "open_question"
+        "information_giving"
       ]
     },
     {
       "turn": 10,
       "speaker": "client",
-      "text": "부서 이동을 신청해봤는데 안 됐어요. 공기업이라 이동이 쉽지 않거든요."
+      "text": "맞아요. 정확히 그래요. 그럼 어떻게 해야 하나요?"
     },
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "내부에서의 변화도 시도해보셨군요. 그럼 외부 교육이나 자기계발은 어떠세요?",
+      "text": "마이크로매니저를 바꾸기는 어렵지만, 불필요한 확인을 줄이는 방법은 있어요. 선제적으로 보고하는 거예요.",
       "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "퇴근 후에 온라인 강의 듣고 있어요. 근데 그게 실무에 적용될 기회가 없어요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "배우는 건 있는데 활용할 곳이 없어서 답답하시군요. 이직한다면 어떤 곳으로 가고 싶으세요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "스타트업이나 성장하는 중소기업요. 더 다이내믹하고 배울 게 많을 것 같아서."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "공기업에서 스타트업으로 간다면 많은 게 달라질 텐데, 그 변화를 감당할 준비가 되어 있나요?",
-      "technique": [
-        "confrontation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "... 솔직히 모르겠어요. 불안하긴 해요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "불안을 느끼시는 게 당연해요. 구체적으로 무엇이 불안하신가요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "연봉이 낮아질 수도 있고, 야근이 많을 수도 있고, 회사가 망할 수도 있고..."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "경제적 불안, 워라밸 악화, 회사 존속 위험... 여러 우려가 있으시군요. 이런 위험을 감수할 만한 이유가 있나요?",
-      "technique": [
-        "summarization",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "성장이요. 지금처럼 정체되어 있기 싫어요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "성장이 그만큼 중요하시군요. 실제로 이직 시장 조사는 해보셨나요? 본인 경력으로 어떤 기회가 있는지요.",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "아직 안 해봤어요. 그냥 막연하게 생각만..."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "막연한 생각만 하고 계시는군요. 구체적인 정보 없이 결정하기는 어려워요. 이번 주에 할 수 있는 게 있어요.",
-      "technique": [
-        "reflection",
+        "information_giving",
         "structuring"
       ]
     },
     {
+      "turn": 11,
+      "speaker": "client",
+      "text": "선제적 보고요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "임원님이 전화하시기 전에 먼저 보고하는 거예요. '오늘 자재 발주 완료했습니다, A 업체로 결정했고 이유는 ~~입니다' 이런 식으로요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "그럼 전화가 줄어들까요?"
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "보장할 수는 없지만, 가능성은 있어요. 마이크로매니저들은 '모르는 것'에 대한 불안이 커서 확인하는 경우가 많거든요. 먼저 알려드리면 불안이 줄어들 수 있어요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "일리가 있네요. 해볼게요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "그리고 정기 보고 체계를 제안해보는 것도 방법이에요. '매일 오후 5시에 일일 보고 드리겠습니다' 이런 식으로요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "정해진 시간에 보고하면 수시 전화가 줄 수도 있겠네요."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "과정과 이유요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "아, 미리 궁금해하실 걸 설명하는 거군요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "맞아요. 그리고 중요한 결정은 사전에 의견을 구하는 것도 방법이에요. '이렇게 하려고 하는데 어떻게 생각하세요?'라고요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 17,
       "speaker": "client",
-      "text": "뭔가요?"
+      "text": "그건... 제가 결정권을 포기하는 거 아닌가요?"
     },
     {
       "turn": 17,
       "speaker": "counselor",
-      "text": "첫째, 본인 경력으로 지원 가능한 회사들을 리서치해보세요. 둘째, 실제 채용공고를 보면서 요구 조건과 본인 역량을 비교해보세요. 셋째, 가능하면 해당 업계 종사자와 커피챗을 해보세요.",
+      "text": "그렇게 느껴질 수 있지만, 조금 다르게 보면 '협의'하는 거예요. 최종 결정은 본인이 하되, 임원님을 과정에 참여시키는 거죠. 그럼 존중받는다고 느끼실 거예요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "전략적으로 접근하는 거네요."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "정확해요. 이상적이진 않지만, 현실적인 방법이에요. 그리고 본인의 감정 관리도 중요해요. 매번 무시당한다고 느끼시면 소진될 수 있거든요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "이미 많이 지쳤어요. 어떻게 관리하죠?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "임원님의 확인을 '불신'이 아니라 '업무 스타일'로 받아들이는 연습을 해보세요. '나를 못 믿는 게 아니라, 원래 저런 분이구나'라고요.",
       "technique": [
         "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "관점을 바꾸는 거군요. 쉽진 않겠지만..."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "쉽지 않죠. 하지만 매번 화내고 억울해하는 것보다는 본인 정신 건강에 나아요. 그리고 퇴근 후에는 일을 완전히 내려놓는 시간을 가지세요.",
+      "technique": [
+        "validation",
         "goal_setting"
       ]
     },
     {
-      "turn": 18,
+      "turn": 21,
       "speaker": "client",
-      "text": "그렇게 구체적으로 알아봐야겠네요."
+      "text": "퇴근 후에도 전화 오는데요..."
     },
     {
-      "turn": 18,
+      "turn": 21,
       "speaker": "counselor",
-      "text": "네. 막연한 불안은 구체적인 정보로 해소할 수 있어요. 그리고 중요한 건, 이직이 '모두 '은 아니에요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "무슨 뜻이죠?"
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "지금 당장 그만둘 필요는 없어요. 준비하면서 기회를 탐색하는 거죠. 좋은 기회가 있으면 가고, 없으면 더 준비하고.",
+      "text": "그건 경계를 정해야 해요. '긴급 상황 외에는 퇴근 후 통화가 어렵습니다'라고 정중하게 말씀드리는 거죠.",
       "technique": [
         "information_giving",
         "structuring"
       ]
     },
     {
-      "turn": 20,
+      "turn": 22,
       "speaker": "client",
-      "text": "그렇게 할 수 있군요."
+      "text": "그렇게 말해도 될까요?"
     },
     {
-      "turn": 20,
+      "turn": 22,
       "speaker": "counselor",
-      "text": "그리고 면접을 보는 것 자체가 좋은 경험이 돼요. 본인 시장 가치도 파악하고, 면접 스킬도 쌓고.",
+      "text": "일과 생활의 경계는 정당한 권리예요. 물론 조심스럽게 표현해야겠지만요. '가족 시간을 보장해야 해서' 같은 이유를 덧붙이면 좋아요.",
       "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "맞아요. 일단 지원부터 해봐야겠어요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "좋아요. 그런데 현재 회사에서의 태도도 중요해요. '어차피 이직할 거니까' 하고 소홀히 하면 안 돼요.",
-      "technique": [
-        "encouragement",
+        "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 22,
-      "speaker": "client",
-      "text": "왜요?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "이직이 확정된 게 아니고, 또 이전 회사 경력은 이력서에 남거든요. 끝까지 최선을 다하는 게 프로예요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
       "turn": 23,
       "speaker": "client",
-      "text": "맞는 말이에요."
+      "text": "알겠습니다. 시도는 해볼게요."
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "그리고 혹시 가족이나 주변 사람들은 어떻게 생각하시나요?",
-      "technique": [
-        "open_question"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "부모님은 반대하세요. 공기업 그만두면 어리석은 사람라고... 남편은 제 뜻대로 하래요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "부모님은 안정성을 중시하시고, 남편은 존중해주시는군요. 결국 본인이 결정해야 하는데, 본인은 뭘 원하세요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "도전해보고 싶어요. 후회하고 싶지 않아요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "분명한 바람이 있으시군요. 그럼 그 방향으로 준비하시되, 신중하게 하세요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "알겠습니다."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "이번 주에 할 것들 정리해볼까요? 이직 시장 리서치하기, 채용공고 분석하기, 업계 종사자와 커피챗 시도하기. 이 중 가장 먼저 할 건 뭔가요?",
+      "text": "이번 주에 할 수 있는 것들을 정리해볼까요? 선제적 보고하기, 정기 보고 체계 제안하기, 과정과 이유 함께 설명하기. 이 중에서 가장 먼저 시도해볼 건 뭔가요?",
       "technique": [
         "summarization",
         "open_question"
       ]
     },
     {
-      "turn": 27,
+      "turn": 24,
       "speaker": "client",
-      "text": "채용공고 분석이요. 오늘 당장 해볼게요."
+      "text": "선제적 보고요. 오늘부터 해볼게요."
     },
     {
-      "turn": 27,
+      "turn": 24,
       "speaker": "counselor",
-      "text": "좋아요. 그리고 조급해하지 마세요. 좋은 이직은 준비가 필요해요.",
+      "text": "좋아요. 그리고 정기 보고 체계는 이번 주 안에 제안해보세요.",
       "technique": [
         "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네, '업무 효율을 위해'라는 명목으로 말씀드려볼게요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "완벽해요. 본인의 필요가 아니라 '업무 효율'을 강조하는 게 좋아요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "그런데 만약 안 받아들여지면요?"
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "최소한 시도는 해본 거예요. 그리고 계속 안 된다면, 장기적으로 팀 이동이나 다른 선택을 고려할 수도 있고요.",
+      "technique": [
+        "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 28,
+      "turn": 27,
       "speaker": "client",
-      "text": "네, 차근차근 준비하겠습니다."
+      "text": "그렇죠. 일단 할 수 있는 건 다 해보겠습니다."
     },
     {
-      "turn": 28,
+      "turn": 27,
       "speaker": "counselor",
-      "text": "오늘 상담에서 어떤 게 도움이 됐나요?",
+      "text": "오늘 상담에서 어떤 게 가장 도움이 되셨나요?",
       "technique": [
         "open_question",
         "summarization"
       ]
     },
     {
-      "turn": 29,
+      "turn": 28,
       "speaker": "client",
-      "text": "막연하게 고민만 하지 말고 구체적으로 알아봐야 한다는 것. 그리고 이직이 모두 nothing이 아니라는 거요."
+      "text": "임원님을 바꿀 순 없지만, 제 대응 방식은 바꿀 수 있다는 것. 그리고 선제적으로 보고하면 불필요한 확인을 줄일 수 있다는 거요."
     },
     {
-      "turn": 29,
+      "turn": 28,
       "speaker": "counselor",
-      "text": "잘 정리하셨네요. 다음 주에 어떻게 진행됐는지 이야기 나눠봐요. 본인의 선택을 믿으세요.",
+      "text": "핵심을 잘 정리하셨네요. 다음 주에 어떻게 진행되었는지 이야기 나눠봐요.",
       "technique": [
         "encouragement",
         "goal_setting"
       ]
     },
     {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네, 감사합니다. 막막했는데 방법이 보이네요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "8년 경력의 전문가로서 본인의 가치를 잊지 마세요. 임원님의 스타일이 본인의 역량을 결정하는 건 아니에요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 30,
       "speaker": "client",
-      "text": "감사합니다. 다음 주에 뵙겠습니다."
+      "text": "명심하겠습니다. 다음 주에 뵙겠습니다."
     },
     {
       "turn": 30,
       "speaker": "counselor",
-      "text": "어떤 선택을 하든 후회 없도록 준비하세요. 다음 주에 뵙겠습니다.",
+      "text": "전략적이고 현명하게 대처하시길 바라요. 다음 주에 뵙겠습니다.",
       "technique": [
         "encouragement",
         "validation"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "27세",
-    "gender": "여성",
-    "occupation": "연구원",
-    "background": "계속 늘어나는 업무량으로 인한 번아웃"
-  }
+  ]
 }

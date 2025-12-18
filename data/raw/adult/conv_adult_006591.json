@@ -1,381 +1,437 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "친구 관계",
-    "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "open_question",
-      "restatement",
-      "emotion_labeling",
-      "empathy",
-      "validation",
-      "interpretation",
-      "confrontation"
-    ]
+    "topic": "이직 고민",
+    "total_turns": 30,
+    "generated_at": "2025-12-18T07:14:29.790182+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_가족관계_0000_q5r6s7t8",
-    "category": "adult",
-    "topic": "친구 관계"
+  "client_profile": {
+    "age": "29세",
+    "gender": "여성",
+    "occupation": "마케터",
+    "background": "이직 고민 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:40.540720+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "어머니랑 통화만 하면 스트레스를 받아요. 전화하기가 싫어지네요."
+      "text": "인간관계가 너무 어려워요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "어머니와 통화할 때마다 스트레스를 받으시는군요. 어떤 일이 있으셨는지 말씀해 주시겠어요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
       "technique": [
-        "reflection",
+        "empathy",
         "open_question"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "제가 서른인데 아직도 간섭이 심해요. 뭘 먹었니, 여자친구는 있니, 언제 결혼하니... 매번 같은 질문이에요."
+      "text": "저희 팀장님이 두 달 전에 갑자기 퇴사하셨거든요. 그 후로 팀장님 일까지 제가 다 떠안게 됐어요. 원래 제 업무도 벅찬데..."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "일상적인 것부터 결혼까지 많은 질문을 받으시는군요. 그런 질문을 들을 때 어떤 기분이 드세요?",
+      "text": "팀장님의 갑작스러운 퇴사로 그분의 업무까지 맡게 되셨군요. 원래도 바쁘셨는데 업무량이 두 배가 되다 보니 정말 버거우셨겠어요.",
+      "technique": [
+        "reflection",
+        "validation"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "네, 맞아요. 매일 야근이에요. 주말에도 노트북 들고 가서 일하고... 남편이랑 얼굴 볼 시간도 없어요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "야근에 주말 근무까지... 개인 시간이나 가족과의 시간이 거의 없으시네요. 그런 생활이 지속되면서 어떤 감정이 드세요?",
       "technique": [
         "restatement",
         "emotion_labeling"
       ]
     },
     {
-      "turn": 3,
+      "turn": 4,
       "speaker": "client",
-      "text": "숨 막혀요. 저도 이제 어른인데 아직도 아이 취급당하는 것 같아서요."
+      "text": "지쳤어요. 완전히 지쳤는데도 쉴 수가 없어요. 눈 감으면 내일 해야 할 일들이 머릿속에서 빙빙 돌아요."
     },
     {
-      "turn": 3,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "성인으로서 존중받지 못한다고 느끼시는군요. 그 답답함이 느껴지네요.",
+      "text": "몸과 마음이 극도로 지쳐있는데도 쉬지 못하는 상태시군요. 그 피로감과 불안감이 수면까지 방해하고 있는 것 같아요.",
       "technique": [
         "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "네, 그리고 제가 대답 안 하거나 귀찮아하면 '엄마 걱정해서 그런 거지' 하면서 죄책감 주시거든요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "걱정이라는 말로 죄책감을 느끼게 하시는군요. 그런 패턴이 반복되면 정말 지치실 것 같아요.",
-      "technique": [
-        "reflection",
-        "empathy"
+        "interpretation"
       ]
     },
     {
       "turn": 5,
       "speaker": "client",
-      "text": "맞아요. 근데 또 어머니가 요즘 우울증이 있으셔서... 제가 화내면 안 될 것 같기도 하고요."
+      "text": "맞아요. 어젯밤도 새벽 3시까지 뒤척였어요. 그러다 6시에 알람 듣고 일어나야 하고..."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "어머니의 우울증 때문에 본인 감정을 표현하기 어려우시군요. 어머니를 배려하느라 본인이 많이 참고 계신 것 같아요.",
+      "text": "수면 시간이 3시간 정도밖에 안 되시네요. 이런 상태가 얼마나 지속되셨나요?",
       "technique": [
-        "interpretation",
-        "validation"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "네, 제가 뭐라 하면 더 안 좋아지실까 봐요. 그래서 그냥 들어요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "어머니를 보호하고 싶은 마음이 크시네요. 하지만 본인의 감정과 경계도 중요해요. 지금처럼 계속 참으시면 어떻게 될 것 같으세요?",
-      "technique": [
-        "empathy",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "... 점점 더 어머니를 피하게 될 것 같아요. 이미 전화도 잘 안 받게 됐고요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "회피가 늘어나고 있군요. 그게 장기적으로 관계에 도움이 될까요?",
-      "technique": [
-        "reflection",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "아니죠. 더 멀어질 것 같아요. 근데 어떻게 해야 할지 모르겠어요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "방법을 찾고 싶으신 거군요. 어머니께 본인 마음을 직접 말씀하신 적 있으세요?",
-      "technique": [
-        "validation",
+        "clarification",
         "closed_question"
       ]
     },
     {
+      "turn": 6,
+      "speaker": "client",
+      "text": "한 달 반 정도 된 것 같아요. 처음엔 그래도 버틸 만했는데 요즘은 정말..."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "한 달 반이나 이런 상태가 지속되셨군요. 처음보다 지금이 더 힘들어지셨다는 건, 몸과 마음이 한계에 가까워지고 있다는 신호일 수 있어요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "한계요? 그런가... 저도 요즘 예전 같지 않다고 느껴요. 업무 실수도 늘었고, 사소한 일에도 짜증이 나요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "technique": [
+        "summarization",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "제가 무능한 것 같아요. 다른 사람들은 다 잘 해내는데 저만 이러고 있는 것 같고..."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "'나만 못하고 있다'는 생각이 드시는군요. 그런데 잠깐, 두 사람 몫의 일을 하면서 완벽하게 해내야 한다고 생각하시는 건 스스로에게 너무 가혹한 기준 아닐까요?",
+      "technique": [
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 9,
       "speaker": "client",
-      "text": "한두 번 했는데 '엄마가 언제까지 살겠니' 이런 말씀하시면서 눈물 흘리셨어요. 그래서 더 말을 못 하겠더라고요."
+      "text": "그렇게 생각해 본 적은 없는데... 사실 저도 억울하긴 해요. 왜 저만 이렇게 해야 하나 싶기도 하고요."
     },
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "어머니의 눈물에 마음이 많이 흔들리셨겠어요. 그런 반응이 오면 대화를 이어가기 어려우시죠.",
+      "text": "억울함도 느끼고 계시네요. 그 감정도 아주 자연스러운 거예요. 회사 측에 상황을 말씀하시거나 도움을 요청해 보신 적 있으세요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "부장님한테 한번 말씀드렸는데... '조금만 참아, 곧 새 팀장 뽑을 거야'라고만 하시더라고요. 그게 두 달 전이에요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "도움을 요청했는데 실질적인 지원은 없었군요. '조금만 참아'라는 말이 두 달이나 지속되니 더 지치셨을 것 같아요.",
       "technique": [
         "empathy",
         "reflection"
       ]
     },
     {
-      "turn": 10,
+      "turn": 11,
       "speaker": "client",
-      "text": "네, 그래서 그냥 참는 게 나은 것 같았어요."
+      "text": "네, 이제는 말해도 소용없다는 생각이 들어요. 그냥 제가 버텨야 하나 봐요."
     },
     {
-      "turn": 10,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "지금까지는 참는 방식을 택하셨군요. 하지만 그 방식이 본인에게 주는 영향은 어떤가요?",
+      "text": "'혼자 버텨야 한다'는 생각이 드시는군요. 그런데 지금처럼 수면도 못 자고 건강이 악화되는 상태에서 계속 버티시는 게 장기적으로 가능할까요?",
       "technique": [
         "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "스트레스받고, 어머니한테 미운 감정도 생기고... 저도 제가 싫어요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "'미운 감정'이 드시는군요. 부모에 대한 부정적 감정을 느끼면 자책하게 되기 쉬워요. 하지만 그건 자연스러운 감정이에요.",
-      "technique": [
-        "emotion_labeling",
-        "validation"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "그래도 되는 건가요? 저 진짜 불효자 같아요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "부모를 사랑하면서도 힘들 수 있어요. 두 감정이 공존할 수 있는 거예요. 불효와는 다른 문제예요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "... 그렇게 생각해본 적은 없었어요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "경계를 세우는 것과 사랑하지 않는 것은 달라요. 오히려 건강한 경계가 관계를 더 오래 유지하게 해줄 수 있어요.",
-      "technique": [
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "경계요? 어떻게 세우는 건가요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "예를 들어, 어머니의 질문에 다 대답하지 않아도 돼요. '그건 제가 알아서 할게요'라고 부드럽지만 명확하게 선을 그을 수 있어요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그렇게 말하면 또 서운해하시지 않을까요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "처음엔 서운해하실 수 있어요. 하지만 일관되게 경계를 유지하면 점차 적응되세요. 중요한 건 본인이 죄책감 없이 그 선을 유지하는 거예요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "죄책감 없이요... 그게 제일 어려울 것 같아요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "죄책감이 드실 때 스스로에게 '나는 나를 보호할 권리가 있다'고 말해보세요. 본인을 돌보는 건 이기적인 게 아니에요.",
-      "technique": [
-        "goal_setting",
-        "validation"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "그렇게 생각하려고 노력해볼게요."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "그리고 어머니의 우울증 상태도 중요해요. 어머니는 치료를 받고 계세요?",
-      "technique": [
-        "encouragement",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "병원은 다니시는데 약만 타오시고 상담은 안 받으세요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "약물 치료는 하고 계시는군요. 어머니의 우울증은 어머니의 문제이고, 본인이 다 책임질 수 있는 게 아니에요.",
-      "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "저도 알아요. 근데 아버지가 일찍 돌아가셔서 제가 유일한 자식이거든요. 그래서 더 부담이에요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "아버지를 여의시고 유일한 자녀로서 책임감을 많이 느끼고 계시는군요. 그 무게가 많이 무거우셨겠어요.",
-      "technique": [
-        "empathy",
-        "reflection"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "네, 제가 잘해야 할 것 같은데 잘 안 되니까 괴로워요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "'잘해야 한다'는 생각이 본인을 많이 압박하고 있네요. 어떤 게 '잘하는 것'이라고 생각하세요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "어머니가 원하는 대로 해드리는 거요. 자주 연락하고, 결혼도 하고..."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "어머니의 기대를 충족시키는 게 잘하는 거라고 생각하시는군요. 그런데 본인이 원하는 건 뭐예요?",
-      "technique": [
-        "reflection",
         "confrontation"
       ]
     },
     {
-      "turn": 22,
+      "turn": 12,
       "speaker": "client",
-      "text": "... 저요? 저는 그냥 제 속도대로 살고 싶어요. 간섭 없이요."
+      "text": "... 그건 아닌 것 같아요. 솔직히 요즘 회사 그만두고 싶다는 생각도 많이 해요."
     },
     {
-      "turn": 22,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "본인만의 속도로 삶을 살고 싶으시군요. 그 바람도 충분히 존중받아야 해요.",
+      "text": "퇴사까지 고민하고 계시는군요. 그만큼 현재 상황이 힘드시다는 의미이기도 하네요. 퇴사에 대해 어떤 생각을 갖고 계세요?",
       "technique": [
-        "validation",
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그만두고 싶지만 막상 그러면 경력 단절될 것 같고... 7년 다닌 회사를 이렇게 나가도 되나 싶기도 하고요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "퇴사를 원하지만 경력 단절과 7년간의 노력이 아까운 마음도 있으시네요. 양쪽으로 갈등이 있으실 것 같아요.",
+      "technique": [
+        "summarization",
         "empathy"
       ]
     },
     {
-      "turn": 23,
+      "turn": 14,
       "speaker": "client",
-      "text": "그게 효도가 아닌 것 같아서 말하기 어려웠어요."
+      "text": "네, 맞아요. 그래서 더 힘든 것 같아요. 어느 쪽을 선택해도 후회할 것 같아서..."
     },
     {
-      "turn": 23,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "자신의 삶을 사는 것과 부모를 사랑하는 것은 양립할 수 있어요. 둘 다 가능한 거예요.",
+      "text": "지금 결정을 내리기 어려우신 게 당연해요. 다만, 지금 가장 시급한 건 결정을 내리는 것보다 지금의 건강 상태를 먼저 챙기시는 거라고 생각해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "건강이요? 저 건강에 문제가 있는 건가요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "수면장애, 집중력 저하, 감정 조절 어려움, 극도의 피로감... 이런 증상들이 지속되면 심각한 번아웃이나 우울증으로 이어질 수 있어요. 혹시 요즘 두통이나 소화불량 같은 신체 증상도 있으세요?",
       "technique": [
         "information_giving",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "... 있어요. 두통도 자주 있고, 밥 먹어도 소화가 잘 안 돼요. 그게 다 연관된 거예요?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "네, 심한 스트레스는 이렇게 신체 증상으로도 나타나요. 몸이 보내는 경고 신호라고 볼 수 있어요.",
+      "technique": [
+        "information_giving",
+        "empathy"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그렇군요... 저도 이러다 쓰러지는 거 아닌가 걱정은 했는데, 막상 들으니까 무섭네요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "걱정이 드시는 게 당연해요. 하지만 지금 이렇게 상담을 찾아오신 것 자체가 자신을 돌보기 시작하신 거예요. 이제부터 함께 방법을 찾아볼 수 있어요.",
+      "technique": [
+        "validation",
         "encouragement"
       ]
     },
     {
-      "turn": 24,
+      "turn": 18,
       "speaker": "client",
-      "text": "그렇게 될 수 있으면 좋겠어요."
+      "text": "방법이 있을까요? 저 상황에서 뭘 어떻게 해야 할지 모르겠어요."
     },
     {
-      "turn": 24,
+      "turn": 18,
       "speaker": "counselor",
-      "text": "가능해요. 이번 주에 어머니와 통화할 때 한 가지만 연습해보세요. 불편한 질문에 '그건 제가 알아서 할게요'라고 한 번만 말해보시는 거예요.",
+      "text": "일단 크게 두 가지를 생각해볼 수 있어요. 하나는 현재 신체 증상에 대한 의료적 관리, 다른 하나는 업무 상황을 조정하기 위한 실질적인 조치예요. 어떤 것부터 이야기해볼까요?",
       "technique": [
-        "encouragement",
+        "structuring",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "업무 상황을 어떻게 조정할 수 있을까요? 말해도 안 바뀌던데..."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "지금까지는 구두로 말씀하셨잖아요. 혹시 현재 업무량을 문서화해서 구체적인 수치로 보여드린 적 있으세요?",
+      "technique": [
+        "clarification",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "아니요, 그냥 힘들다고만 말했어요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "그럼 한 가지 제안을 드려볼게요. 현재 본인 업무량과 팀장님 업무량을 리스트로 정리해서, 객관적인 데이터로 상황을 보고하는 거예요. 감정적으로 힘들다고 하면 공감 받기 어렵지만, 수치로 보여드리면 달라질 수 있어요.",
+      "technique": [
+        "information_giving",
         "goal_setting"
       ]
     },
     {
+      "turn": 21,
+      "speaker": "client",
+      "text": "그렇게 해볼 수도 있겠네요... 정리하면 확실히 말도 안 되는 양이긴 해요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "그리고 추가 인력 충원이나 업무 재분배를 공식적으로 요청하는 것도 방법이에요. 필요하면 인사팀에도 얘기할 수 있고요. 회사에서 직원의 건강을 해치면서까지 일을 시킬 권한은 없어요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "인사팀까지요? 그러면 제가 문제 있는 사람처럼 보이지 않을까요?"
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "그런 걱정이 드시는군요. 하지만 정당한 권리를 요청하는 것과 문제를 일으키는 것은 다른 거예요. 지금 본인의 건강과 회사에서의 이미지 중 어떤 게 더 중요하다고 느끼세요?",
+      "technique": [
+        "empathy",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "... 건강이 더 중요하죠. 사실 이미지 신경 쓰느라 여기까지 온 것 같기도 해요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "interpretation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "그래야 할 것 같아요. 근데 막상 하려니까 어떻게 시작해야 할지..."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "작은 것부터 시작해보죠. 이번 주 안에 할 수 있는 한 가지를 정해볼까요? 예를 들어, 현재 업무량을 리스트로 정리하는 것부터요.",
+      "technique": [
+        "goal_setting",
+        "structuring"
+      ]
+    },
+    {
       "turn": 25,
       "speaker": "client",
-      "text": "한 번만요? 그건 해볼 수 있을 것 같아요."
+      "text": "네, 그건 할 수 있을 것 같아요. 정리는 해봐야겠다 싶었거든요."
     },
     {
       "turn": 25,
       "speaker": "counselor",
-      "text": "작은 것부터 시작하시면 돼요. 다음 시간에 어떠셨는지 이야기 나눠봐요. 오늘 상담 수고하셨습니다.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "그게 될까요? 머릿속에서 자꾸 생각이 나는데..."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "처음엔 어려울 수 있어요. 하지만 반복하면 조금씩 나아져요. 그리고 가능하면 이번 주말은 일을 내려놓고 남편분과 시간을 보내보시는 건 어떨까요?",
       "technique": [
         "encouragement",
-        "structuring"
+        "open_question"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "주말에 쉬어도 될까요...? 일이 밀려있는데..."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "일은 항상 밀려있을 거예요. 하지만 지금 본인이 쓰러지면 그 일은 누가 하나요? 쉬는 것도 일을 위한 투자라고 생각해보세요.",
+      "technique": [
+        "confrontation",
+        "interpretation"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "... 그렇네요. 저 없으면 일이 돌아가긴 하겠죠. 생각해보니 제가 너무 제 자신을 몰아붙인 것 같아요."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "그 점을 인식하신 게 정말 중요해요. 오늘 상담에서 어떤 것들이 도움이 되셨나요?",
+      "technique": [
+        "encouragement",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "제 상태가 생각보다 심각하다는 것, 그리고 업무량을 객관적으로 정리해서 회사에 요청해볼 수 있다는 것... 그리고 저도 쉬어야 한다는 거요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "잘 정리해주셨어요. 다음 주에 뵐 때 업무 리스트 정리는 어땠는지, 주말은 어떻게 보내셨는지 이야기 나눠보면 좋겠어요. 그리고 수면이 계속 안 좋으시면 전문 병원 방문도 고려해주세요.",
+      "technique": [
+        "summarization",
+        "goal_setting",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "client",
+      "text": "네, 알겠어요. 오늘 상담 와보길 잘한 것 같아요. 조금은 마음이 가벼워진 느낌이에요."
+    },
+    {
+      "turn": 30,
+      "speaker": "counselor",
+      "text": "그렇게 느끼신다니 다행이에요. 지금 힘든 상황이지만 이렇게 도움을 요청하셨다는 것 자체가 큰 용기예요. 다음 주에 또 뵙겠습니다.",
+      "technique": [
+        "validation",
+        "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "25세",
-    "gender": "여성",
-    "occupation": "회사원",
-    "background": "오랜 친구와의 관계가 멀어져가는 상황"
-  }
+  ]
 }

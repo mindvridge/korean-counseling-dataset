@@ -1,417 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "부모 갈등",
-    "total_turns": 27,
-    "quality_indicators": [
-      "reflection",
-      "open_question",
-      "closed_question",
-      "emotion_labeling",
-      "empathy",
-      "interpretation",
-      "validation",
-      "information_giving"
-    ]
+    "topic": "수면 문제",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:25.367166+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0011_금전갈등",
-    "category": "adolescent",
-    "topic": "부모 갈등"
+  "client_profile": {
+    "age": "15세",
+    "gender": "여성",
+    "occupation": "중학교 3학년",
+    "background": "수면 문제 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.524684+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "선생님, 친구한테 돈을 빌려줬는데 안 갚아요. 어떻게 해야 할까요?"
+      "text": "소셜미디어 때문에 스트레스받아요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "친구에게 빌려준 돈을 돌려받지 못하고 계시군요. 얼마나 됐고, 얼마 정도인지 말씀해주시겠어요?",
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
+      "turn": 2,
       "technique": [
         "empathy",
-        "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 2,
       "speaker": "client",
-      "text": "한 달 전에 5만원을 빌려줬어요. 일주일 후에 갚겠다고 했는데 아직도 안 갚고 있어요."
+      "text": "사실... 요즘 학교 가는 게 너무 힘들어요. 친구들이 저를 빼고 따로 노는 것 같아서요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "한 달이 지났는데도 돌려받지 못하셨군요. 친구에게 이야기는 해보셨나요?",
+      "text": "친구들과의 관계에서 소외감을 느끼고 있군요. 학교 가는 것이 힘들 정도라니, 많이 힘들었겠어요.",
+      "turn": 4,
       "technique": [
-        "empathy",
-        "reflection",
-        "closed_question"
+        "empathy"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "네, 두세 번 얘기했어요. 근데 '조금만 기다려', '곧 갚을게' 이렇게만 말하고 실제로는 안 갚아요."
+      "text": "네... 어제도 인스타그램을 봤는데, 제 친구들이 노래방 간 사진을 올렸더라고요. 저는 아무 연락도 못 받았어요.",
+      "turn": 5
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "여러 번 요청했지만 계속 미뤄지고 있군요. 지금 어떤 기분이 드시나요?",
+      "text": "친구들이 함께 있는 모습을 소셜미디어에서 보게 되었는데, 자신만 초대받지 못했다는 걸 알게 되었군요. 그 순간 어떤 기분이 들었나요?",
+      "turn": 6,
       "technique": [
-        "empathy",
-        "reflection",
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "정말 속상하고... 화도 나고... 왜 나만 빼고 가는 건지 이해가 안 됐어요. 제가 뭘 잘못한 건지...",
+      "turn": 7
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 8,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 밤새 잠도 못 자고 생각했어요. 혹시 제가 친구들한테 실수한 게 있나 싶어서요.",
+      "turn": 9
+    },
+    {
+      "speaker": "counselor",
+      "text": "이런 상황이 언제부터 시작되었나요? 친구들과의 관계에서 변화를 느낀 게 최근인가요?",
+      "turn": 10,
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 한 달 전쯤부터인 것 같아요. 중학교 때 친했던 친구들인데, 고등학교 올라오면서 반이 달라졌거든요.",
+      "turn": 11
+    },
+    {
+      "speaker": "counselor",
+      "text": "중학교 때는 친했던 친구들인데, 고등학교에 와서 반이 달라지면서 관계에 변화가 생긴 것 같다고 느끼는 거네요.",
+      "turn": 12,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 얘네는 같은 반이 됐는데 저만 다른 반이 됐어요. 그래서 점점 멀어지는 느낌이에요.",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "반이 달라지면서 자연스럽게 함께하는 시간이 줄어들었고, 그로 인해 관계가 예전 같지 않다고 느끼는 거군요. 그건 충분히 불안하고 걱정될 수 있는 상황이에요.",
+      "turn": 14,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그래도 주말에는 만날 수 있잖아요. 근데 저만 빼고 만나니까... 제가 싫어진 건가 봐요.",
+      "turn": 15
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구들이 자신을 싫어하게 된 게 아닐까 하는 생각이 드는군요. 혹시 친구들에게 직접 물어보거나 이야기해 본 적은 있나요?",
+      "turn": 16,
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아니요... 물어보기가 무서워요. 만약에 정말로 저를 싫어한다고 하면 어떡해요?",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "거절당하거나 부정적인 대답을 들을까 봐 두렵군요. 그 불안한 마음, 충분히 이해가 돼요.",
+      "turn": 18,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 제가 먼저 물어보면 제가 너무 집착하는 것처럼 보일까 봐요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신의 감정을 표현하는 것이 부담스럽거나 집착처럼 보일까 봐 걱정되는 거네요. 현재 반 친구들과의 관계는 어떤가요?",
+      "turn": 20,
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "새로운 반 친구들도 있긴 한데... 아직 어색하고 친하진 않아요. 점심시간에도 그냥 혼자 있을 때가 많아요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "옛 친구들과는 거리가 생긴 것 같고, 새로운 친구들과는 아직 친밀한 관계를 만들지 못해서 학교에서 외로움을 느끼고 있는 상황이네요.",
+      "turn": 22,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 그래서 더 힘든 것 같아요. 예전 친구들한테 매달리고 싶지도 않고... 그렇다고 혼자 있는 것도 너무 외롭고...",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "turn": 24,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 저는 그냥 편하게 어울릴 수 있는 친구들이 있었으면 좋겠어요. 누가 저를 좋아하는지 안 좋아하는지 눈치 보지 않고요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "편안하고 자연스러운 관계를 원하는 거군요. 그건 아주 건강한 바람이에요. 그런 관계를 만들기 위해 어떤 것들을 시도해볼 수 있을까요?",
+      "turn": 26,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "잘 모르겠어요... 제가 먼저 다가가야 하는 건 알겠는데, 어떻게 해야 할지 모르겠어요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "방법을 모르겠다는 게 솔직한 마음이군요. 그럼 작은 것부터 생각해볼까요? 새로운 반 친구들 중에서 조금이라도 관심이 가거나 대화해보고 싶은 친구가 있나요?",
+      "turn": 28,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 옆자리에 앉은 친구가 좀 친절해 보이긴 해요. 가끔 저한테 말도 걸고요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋아요. 그 친구가 먼저 다가와 준 적도 있군요. 그 친구와 조금 더 대화를 나눠보는 건 어떨까요? 작은 시작이 될 수 있을 것 같아요.",
+      "turn": 30,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그런데 제가 대화를 잘 못해요. 뭐라고 말해야 할지 모르겠고...",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "대화 시작이 어렵게 느껴지는 거네요. 처음부터 깊은 대화를 나눌 필요는 없어요. '오늘 과제 어땠어?', '점심 뭐 먹었어?' 같은 일상적인 질문부터 시작하는 건 어떨까요?",
+      "turn": 32,
+      "technique": [
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그 정도는... 할 수 있을 것 같기도 해요. 그런데 옛날 친구들은 어떻게 해야 하죠?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "옛 친구들도 여전히 신경 쓰이는군요. 그 친구들과의 관계도 중요하다고 생각하나요?",
+      "turn": 34,
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 중학교 때부터 친했으니까요. 완전히 포기하고 싶지는 않아요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 관계가 소중하다고 느끼는 거네요. 그렇다면 한 번쯤은 솔직하게 자신의 감정을 표현해보는 것도 필요할 수 있어요. '요즘 너희랑 예전처럼 자주 못 만나서 아쉬워' 정도로 가볍게 말해보는 건 어떨까요?",
+      "turn": 36,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 말하면... 친구들이 어떻게 반응할까요?",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "turn": 38,
+      "technique": [
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 한번 용기 내서 말해볼게요. 그런데 만약에 친구들이 별로 관심 없어 하면요?",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 결과가 나올 수도 있죠. 그건 분명 아플 거예요. 하지만 그것도 하나의 답이 될 수 있어요. 그때는 새로운 관계에 더 집중할 수 있는 기회가 되기도 하고요. 어떤 결과든 당신은 혼자가 아니에요.",
+      "turn": 40,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "선생님 말씀을 듣고 나니까 조금은 마음이 편해지는 것 같아요. 제가 너무 혼자 고민만 했던 것 같아요.",
+      "turn": 41
+    },
+    {
+      "speaker": "counselor",
+      "text": "이렇게 나와서 이야기해준 것 자체가 큰 용기였어요. 혼자 끙끙 앓는 것보다 훨씬 건강한 방법이에요. 앞으로도 힘들 때는 언제든 이야기하러 와도 좋아요.",
+      "turn": 42,
+      "technique": [
+        "encouragement"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "감사합니다. 다음 주에 친구한테 한번 말해보고 다시 올게요.",
+      "turn": 43
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋아요. 어떻게 되었는지 다음에 함께 이야기 나눠봐요. 작은 시도들이 모여서 변화를 만들어갈 거예요. 오늘 잘 이야기 나눴어요.",
+      "turn": 44,
+      "technique": [
+        "encouragement"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
         "open_question",
-        "emotion_labeling"
+        "empathy"
       ]
     },
     {
-      "turn": 4,
       "speaker": "client",
-      "text": "화나고... 무시당하는 느낌이에요. 그리고 제가 돈 때문에 친구와 사이가 나빠질까봐 걱정도 돼요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "분노와 함께 관계가 손상될까봐 걱정하시는군요. 두 가지 감정 사이에서 갈등하고 계시네요. 그 친구는 어떤 친구인가요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "emotion_labeling",
-        "reflection",
-        "open_question"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "지혜는 고등학교 때부터 친한 친구예요. 같은 반이고... 그래서 더 말하기 어려워요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "오랜 친구이고 자주 마주치는 사이라서 더 복잡하시군요. 지혜가 돈을 못 갚는 이유를 알고 계신가요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "reflection",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "처음에는 '부모님이 용돈을 안 주셔서'라고 했는데... 근데 지혜가 카페에서 음료 사 먹고, 옷도 사는 거 봤어요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "지혜에게 돈이 없는 게 아니라 우선순위가 다른 것 같다고 느끼시는군요. 그걸 봤을 때 어떤 기분이 드셨나요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "배신감? 제 돈은 갚을 생각도 안 하면서 자기가 쓰고 싶은 건 다 쓰고 있으니까..."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "배신감을 느끼셨군요. 당신을 우선순위에 두지 않는다고 느껴지시네요. 그 상황을 지혜에게 말씀하셨나요?",
-      "technique": [
-        "emotion_labeling",
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "못했어요... '너 카페 갈 돈 있으면 내 돈 갚아'라고 말하면 너무 째째하게 보일 것 같아서요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "자신의 권리를 주장하는 게 째째해 보일까봐 걱정되시는군요. 하지만 빌려준 돈을 돌려받는 건 정당한 권리예요. 째째한 게 아니에요.",
-      "technique": [
-        "reflection",
-        "validation"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "정말요? 근데 주변 애들은 '친구 사이에 그 정도 돈 가지고 그러냐'고 할 것 같아요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "다른 사람들의 반응이 걱정되시는군요. 하지만 5만원은 학생에게 적지 않은 돈이에요. 그리고 금액의 문제가 아니라 약속을 지키지 않는 것이 문제예요.",
-      "technique": [
-        "reflection",
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "맞아요. 돈보다는... 약속을 안 지킨다는 게 더 속상해요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "신뢰의 문제라고 느끼시는군요. 지혜에게 그 부분을 말씀해보는 건 어떨까요? 돈 자체보다 약속을 지키지 않아서 속상하다고요.",
-      "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "어떻게 말하면 좋을까요? 기분 나쁘지 않게..."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "'지혜야, 돈이 문제가 아니라 약속을 계속 미루는 게 속상해. 내가 믿음이 안 가는 친구인가 싶어서'라고 솔직하게 말하는 거예요. 당신의 감정에 초점을 맞추는 거죠.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "제 감정을 말하는 거군요... 근데 지혜가 화내면 어떡하죠?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "지혜가 화낼까봐 두려우신거군요. 하지만 정당한 요구를 하는데 화를 낸다면 그건 지혜의 문제예요. 당신이 잘못한 게 아니에요.",
-      "technique": [
-        "reflection",
-        "validation"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그렇긴 한데... 관계가 틀어질까봐 무서워요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "관계가 손상될까봐 걱정이 크시군요. 하지만 생각해보세요. 지금도 이미 관계가 불편해지고 있지 않나요? 말하지 않고 속으로 쌓아두면 더 나빠질 수 있어요.",
-      "technique": [
-        "empathy",
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "맞아요... 요즘 지혜 보면 자꾸 그 생각나서 짜증나요. 예전처럼 편하지 않아요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "이미 관계에 영향을 미치고 있군요. 그렇다면 솔직하게 대화하는 게 오히려 관계를 회복하는 길일 수 있어요.",
-      "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "대화를 하면... 관계가 나아질까요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "확실하지는 않지만 가능성은 있어요. 솔직한 대화를 통해 서로를 이해할 수 있고, 지혜도 상황의 심각성을 깨달을 수 있어요. 침묵보다는 낫죠.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "알겠어요. 한번 얘기해볼게요. 근데 선생님, 만약 지혜가 계속 안 갚으면 어떡하죠?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "그럴 수도 있어요. 그럼 명확한 기한을 정하는 거예요. '이번 달 말까지 갚아줄 수 있어?'라고 구체적으로 물어보는 거죠.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "기한을 정하는 거요. 그리고 그때까지도 안 갚으면요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "그럼 그 돈은 포기하고 다시는 빌려주지 않는 교훈으로 삼는 거예요. 슬프지만 돈보다 더 큰 걸 배우는 거죠. 누구를 믿을 수 있는지, 어떤 상황에서 돈을 빌려줘야 하는지요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "5만원 주고 배우는 교훈이라... 비싼 수업료네요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "그렇게 볼 수도 있어요. 하지만 지금 배우는 게 나중에 더 큰 금액을 잃는 것보다는 나아요. 그리고 아직 포기하기엔 이르죠. 대화를 시도해보세요.",
-      "technique": [
-        "validation",
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "네... 이번 주 안에 지혜한테 얘기해볼게요. 혼자 만나서 진지하게..."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "좋은 계획이에요. 다른 친구들 앞에서가 아니라 둘이서 이야기하는 게 좋아요. 지혜도 덜 방어적일 거예요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "네, 알겠습니다. 근데 선생님, 앞으로는 친구한테 돈 안 빌려주는 게 나을까요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "무조건 안 빌려주는 것보다는 신중하게 판단하는 게 좋아요. 정말 필요한 상황인지, 갚을 능력이 있는지, 그리고 잃어도 괜찮은 금액인지 생각해보는 거죠.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "잃어도 괜찮은 금액이라... 그 정도만 빌려주는 게 안전하겠네요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "현명한 생각이에요. '빌려준다'는 마음보다 '줄 수도 있다'는 마음으로 하면 나중에 돌려받지 못해도 덜 속상해요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "그럼 제가 5만원을 '잃어도 괜찮다'는 마음으로 빌려줬어야 했나요?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "이미 빌려준 상황이니 과거를 후회할 필요는 없어요. 하지만 다음에는 그렇게 생각하면 도움이 될 거예요. 지금은 지혜와의 대화에 집중하세요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "네, 알겠습니다. 오늘 배운 게 많네요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "돈과 관계에 대한 중요한 교훈들이에요. 오늘 대화 내용 정리해볼까요? 지혜에게 솔직하게 당신의 감정을 전달하고, 구체적인 기한을 정하는 거예요.",
-      "technique": [
-        "validation",
-        "summarization"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "네, 제 감정을 말하고 기한을 정하기. 그리고 비난하지 않고 'I-메시지'로 말하기."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "완벽하게 이해하셨네요. 그리고 결과가 어떻든 당신은 할 일을 다 한 거예요. 관계가 회복되길 바라지만, 안 되더라도 당신 잘못은 아니에요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 감사합니다. 용기가 생겼어요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "다행이에요. 어려운 대화지만 필요한 대화예요. 다음 주에 어떻게 됐는지 나눠봐요.",
-      "technique": [
-        "encouragement",
-        "validation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "네, 다음 주에 결과 말씀드릴게요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "네, 기다릴게요. 그리고 기억하세요, 당신의 권리를 주장하는 건 정당한 일이에요. 째째한 게 아니에요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "네, 기억할게요. 감사합니다, 선생님."
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "천천히, 차분하게 대화하세요. 응원할게요.",
-      "technique": [
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "16세",
-    "gender": "여성",
-    "occupation": "고등학교 1학년",
-    "background": "부모님의 기대와 자신의 희망이 달라 갈등"
-  }
+  ]
 }

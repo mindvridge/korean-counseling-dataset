@@ -1,37 +1,27 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "진도 따라가기",
-    "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "restatement",
-      "emotion_labeling",
-      "closed_question",
-      "summarization",
-      "validation"
-    ]
+    "topic": "친구 관계 갈등",
+    "total_turns": 30,
+    "generated_at": "2025-12-18T07:14:25.518184+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0006_SNS갈등_2f6b9a",
-    "category": "adolescent",
-    "topic": "진도 따라가기"
+  "client_profile": {
+    "age": "14세",
+    "gender": "남성",
+    "occupation": "중학교 2학년",
+    "background": "친구 관계 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.701903+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 친구가 제 사진을 막 올려서 정말 화가 나요."
+      "text": "진로를 못 정하겠어요. 뭘 해야 할지..."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "친구가 동의 없이 사진을 올렸군요. 많이 화가 나고 불편하셨겠어요. 어떤 상황인지 자세히 말씀해주시겠어요?",
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
@@ -39,350 +29,412 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "지난주에 친구들이랑 놀러 갔는데, 유진이가 저 몰래 찍은 사진들을 인스타에 막 올렸어요. 제가 정말 못생기게 나온 사진까지..."
+      "text": "어제도 성적표 받았는데, 전 전보다 올랐거든요? 근데 엄마는 '형은 네 나이 때 전교 10등 안에 들었는데'라고만 하셨어요. 제가 노력한 건 아무도 안 봐요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "동의도 구하지 않고, 본인이 원치 않는 사진까지 올라갔군요. 그 사진들을 보았을 때 어떤 기분이 드셨나요?",
+      "text": "성적이 올라서 기대했는데 인정받지 못하고 또 형과 비교당했군요. 당신의 노력과 발전을 봐주지 않아서 억울하고 화가 나시겠어요.",
       "technique": [
-        "restatement",
+        "reflection",
+        "empathy",
         "emotion_labeling"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "진짜 당황스럽고 창피했어요. 댓글에 애들이 '이게 뭐야' 이러면서 웃고... 완전 망신당한 기분이었어요."
+      "text": "네... 형은 공부도 잘하고, 운동도 잘하고, 성격도 좋대요. 저는 뭘 해도 형만 못하다는 소리만 들어요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "당황스럽고 창피함, 그리고 망신당했다는 느낌까지 드셨군요. 정말 힘드셨겠어요. 유진이에게 뭔가 말씀하신 적은 있나요?",
-      "technique": [
-        "emotion_labeling",
-        "empathy",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "카톡으로 '야, 그 사진 좀 내려줘. 나 진짜 싫어'라고 했는데, '뭐가 문제야? 다들 재밌어하는데'라고만 하더라고요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "자신의 불편함을 표현했는데 유진이가 진지하게 받아들이지 않았군요. 그럼 사진은 아직 올라가 있나요?",
+      "text": "형은 모든 면에서 우수하고, 자신은 항상 부족하다는 메시지를 받는다고 느끼시는군요. 형과는 몇 살 차이인가요?",
       "technique": [
         "reflection",
-        "closed_question"
+        "open_question"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "3살이요. 형은 지금 대학생인데... 서울대 다녀요. 부모님 자랑이죠."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "형이 명문대에 다니면서 부모님의 기대와 비교가 더 커진 거군요. 형과의 관계는 어떤가요?",
+      "technique": [
+        "reflection",
+        "open_question"
       ]
     },
     {
       "turn": 5,
       "speaker": "client",
-      "text": "네... 계속 있어요. 좋아요도 계속 늘어나고... 정말 스트레스받아요."
+      "text": "형이랑은... 사이가 나쁘진 않아요. 형은 저한테 잘해주는데... 그게 더 화나요. 형도 미워할 수 없으니까 더 답답해요."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "사진이 계속 올라가 있고 반응도 늘어나니까 더 불안하고 스트레스받으시겠어요. 지금 가장 원하는 게 무엇인가요?",
+      "text": "형에게 화낼 수도 없고, 형을 미워할 수도 없어서 감정이 더 복잡하군요. 미울 수 없는 대상 때문에 괴로운 상황이네요. 그럼 주로 누가 비교를 하나요?",
       "technique": [
+        "reflection",
         "empathy",
-        "emotion_labeling",
         "open_question"
       ]
     },
     {
       "turn": 6,
       "speaker": "client",
-      "text": "일단 그 사진들을 내려줬으면 좋겠어요. 그리고 앞으로는 허락 없이 사진 올리지 말아 달라고 하고 싶고요."
+      "text": "엄마요. 아빠는 좀 덜한데 엄마는... 하루에 몇 번씩 형 얘기를 하세요. '형은 네 나이 때', '형처럼 해봐', '형한테 배워'..."
     },
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "명확한 두 가지 요구사항이 있으시군요. 현재 사진 삭제와 앞으로의 동의 요청. 모두 정당한 요구예요. 유진이는 평소에 어떤 친구인가요?",
+      "text": "어머니가 자주 형을 기준으로 말씀하시는군요. 그럴 때마다 어떤 감정이 드세요?",
       "technique": [
-        "summarization",
+        "reflection",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "화나고... 슬프고... 저는 왜 그냥 '나'로는 안 되는 건지. 왜 꼭 형이 돼야 하는 건지... 저는 저인데."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "자신의 정체성을 인정받지 못하는 느낌이 드시는군요. '너는 너로서 충분해'라는 말을 듣고 싶으신 거죠?",
+      "technique": [
+        "reflection",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "네... 저도 잘하는 게 있는데 아무도 안 봐요. 저는 미술을 좋아하고 그림도 잘 그려요. 근데 엄마는 '그런 걸로 먹고 살 수 있냐'고만 하세요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "당신의 재능과 관심사를 가치있게 여기지 않는다고 느끼시는군요. 미술은 언제부터 좋아하셨어요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "초등학교 때부터요. 미술 선생님도 제가 재능 있다고 하셨고, 대회에서 상도 받았어요. 근데 엄마는 '공부나 해'라고만..."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "객관적인 인정도 받았는데 부모님은 관심을 주지 않으시는군요. 당신의 강점을 봐주지 않아서 더 좌절스러우시겠어요.",
+      "technique": [
         "validation",
-        "open_question"
+        "empathy"
       ]
     },
     {
-      "turn": 7,
+      "turn": 10,
       "speaker": "client",
-      "text": "원래 친했어요. 근데 좀... 소셜미디어에 집착하는 편이에요. 맨날 인스타 스토리 올리고, 좋아요 많이 받으려고 하고..."
+      "text": "맞아요. 형은 공부 잘한다고 칭찬받는데 저는 그림 잘 그려도 아무도 관심 없어요. 이게 공평한가요?"
     },
     {
-      "turn": 7,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "유진이가 소셜미디어 활동을 중요하게 생각하는 사람이군요. 그렇다면 당신의 불편함보다 자신의 소셜미디어 콘텐츠를 우선시했을 수 있겠네요. 이런 일이 이번이 처음인가요?",
+      "text": "불공평하다고 느끼시는 게 당연해요. 부모님의 가치 기준이 하나뿐이라서 당신의 재능이 평가절하되는 거죠. 그 억울함이 충분히 이해돼요.",
       "technique": [
-        "restatement",
-        "clarification"
+        "validation",
+        "empathy",
+        "reflection"
       ]
     },
     {
-      "turn": 8,
+      "turn": 11,
       "speaker": "client",
-      "text": "사실 전에도 몇 번 있었어요. 근데 이번이 제일 심해요. 예전에는 그냥 넘어갔는데..."
+      "text": "저는... 미술대학 가고 싶은데 엄마가 절대 반대하실 거예요. '형처럼 서울대 가라'고 하실 거예요."
     },
     {
-      "turn": 8,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "반복되는 패턴이었군요. 이전에는 넘어갔지만 이번에는 더 이상 참기 어렵다는 거죠. 왜 이전에는 넘어가셨나요?",
+      "text": "자신의 꿈과 부모님의 기대 사이에서 갈등하고 계시는군요. 어머니께 진로에 대해 말씀드린 적 있나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "한 번 말했는데... '정신 차려', '현실적으로 생각해'라고만 하셨어요. 제 말은 끝까지 안 들으셨어요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "당신의 의견을 진지하게 받아들이지 않으셨군요. 그럼 형은 어떤 반응이던가요? 형한테는 얘기해봤나요?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 9,
+      "turn": 13,
       "speaker": "client",
-      "text": "사소한 거로 싸우기 싫어서요. 그리고 제가 예민한 건가 싶기도 하고... 근데 이번엔 정말 심했어요."
+      "text": "형은... '네가 하고 싶은 거 해. 나는 네 편이야'라고 했어요. 근데 그게 더 짜증나요. 형은 쉽게 말하지만 형처럼 못하는 저는 선택권도 없는 것 같아서..."
     },
     {
-      "turn": 9,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "갈등을 피하고 싶었고, 자신의 감정을 의심하기도 하셨군요. 하지만 이번에는 선을 넘었다고 느끼시는 거죠. 사진을 동의 없이 올리는 건 예민한 게 아니라 정당한 경계예요. 이해되시나요?",
+      "text": "형의 지지조차 부담스럽게 느껴지는군요. 형은 이미 성공했으니 여유있게 말할 수 있지만, 당신은 증명해야 한다는 압박을 느끼는 거죠.",
       "technique": [
         "reflection",
+        "empathy"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "맞아요. 형은 이미 부모님을 만족시켰으니까... 저는 아직 아무것도 증명 못했으니까 더 제약이 많은 거예요."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "순서가 불공평하다고 느끼시는군요. 하지만 당신은 형이 아니에요. 형과 다른 길을 갈 권리가 있어요. 미술대학에 대한 꿈이 얼마나 확고한가요?",
+      "technique": [
+        "validation",
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "확실해요. 저는 그림 그릴 때가 제일 행복하고, 제가 저다운 것 같아요. 다른 건 형 따라하는 것 같은데 그림만은 온전히 제 거예요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "미술이 당신의 정체성이자 자존감의 원천이군요. 그럼 그 꿈을 위해 구체적으로 준비하고 있는 게 있나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "학원 다니고 싶은데... 엄마가 학원비 안 대주세요. '쓸데없는 데 돈 쓸 수 없다'고... 형 대학 등록금은 그렇게 잘 내시면서."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "경제적 지원에서도 차별을 느끼시는군요. 정말 답답하시겠어요. 그럼 다른 방법을 생각해보신 적 있나요? 혼자 연습하거나 온라인 강의를 찾는다든지.",
+      "technique": [
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "유튜브 보면서 독학하고 있어요. 근데... 한계가 있어요. 제대로 배우고 싶은데..."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "스스로 노력하고 계시는군요. 그 의지가 대단해요. 혹시 학교에 미술 선생님이나 상담 선생님께 도움을 요청해보신 적 있나요?",
+      "technique": [
+        "validation",
+        "encouragement",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "미술 선생님한테는 가끔 조언 구해요. 선생님도 제가 재능 있다고 하시는데... 부모님 설득하는 건 제 몫이라고..."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "선생님의 인정은 받았지만 부모님 설득은 어렵군요. 어머니를 설득하려면 좀 더 전략적으로 접근할 필요가 있어요. 감정적으로 말하는 것보다 구체적인 계획을 보여드리는 거죠.",
+      "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 10,
+      "turn": 19,
       "speaker": "client",
-      "text": "정말요? 제가 너무 민감한 건 아닐까 계속 생각했거든요."
+      "text": "구체적인 계획이요? 어떤 거요?"
     },
     {
-      "turn": 10,
+      "turn": 19,
       "speaker": "counselor",
-      "text": "자신의 이미지와 초상권은 본인이 통제할 권리가 있어요. 동의 없이 사진을 올리는 건 그 권리를 침해하는 거예요. 불편함을 느끼는 게 당연해요. 이제 유진이에게 어떻게 이야기할지 생각해볼까요?",
+      "text": "미술대학 진학 후 진로, 졸업 후 직업, 수입 등을 조사해서 보여드리는 거예요. '현실적이지 않다'는 어머니의 우려를 구체적인 정보로 해소하는 거죠.",
       "technique": [
-        "information_giving",
-        "validation",
-        "structuring"
+        "information_giving"
       ]
     },
     {
-      "turn": 11,
+      "turn": 20,
       "speaker": "client",
-      "text": "또 카톡으로 할까요? 근데 이미 한번 무시했는데..."
+      "text": "아... 그렇게 하면 엄마가 조금이라도 들어주실까요?"
     },
     {
-      "turn": 11,
+      "turn": 20,
       "speaker": "counselor",
-      "text": "카톡으로는 진지함이 덜 전달될 수 있어요. 이번에는 직접 만나서 이야기하는 게 어떨까요? 얼굴을 보고 이야기하면 당신이 얼마나 진지한지 전달될 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "직접요? 무섭긴 한데... 그게 나을까요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "두렵다는 건 이해해요. 하지만 중요한 대화는 직접 하는 게 효과적이에요. 함께 어떻게 이야기할지 준비해볼까요? 어떤 내용을 전달하고 싶으세요?",
-      "technique": [
-        "validation",
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그 사진들이 저를 너무 불편하게 한다는 것, 당장 내려달라는 것, 그리고 앞으로는 제 허락을 받고 올려달라는 거요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "세 가지를 명확하게 정리하셨네요. 이걸 전달할 때 '나 전달법'을 사용하면 좋아요. '너는 왜 그랬어?'보다 '나는 이렇게 느꼈어'라고 말하는 거죠. 어떻게 말할 수 있을까요?",
-      "technique": [
-        "encouragement",
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "음... '나는 네가 내 허락 없이 사진을 올려서 정말 불편하고 창피했어. 그 사진들 내려줬으면 좋겠어. 그리고 앞으로는 내 허락을 받아줘' 이런 식인가요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "완벽해요! 비난하지 않으면서도 자신의 감정과 요구를 명확히 전달하셨어요. 그리고 한 가지 더, 유진이가 방어적으로 나오거나 '뭐가 문제야?'라고 하면 어떻게 대응하실 건가요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "음... 잘 모르겠어요. 어떻게 해야 할까요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "'네가 문제라고 생각 안 해도, 나는 정말 불편해. 내 사진이니까 내가 결정할 권리가 있어'라고 단호하게 말할 수 있어요. 상대가 어떻게 생각하든, 자신의 경계는 지킬 권리가 있어요.",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
         "information_giving",
         "validation"
       ]
     },
     {
-      "turn": 16,
-      "speaker": "client",
-      "text": "단호하게... 할 수 있을까요? 저 원래 말을 세게 못하는데..."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "단호함은 공격성이 아니에요. 차분하지만 명확하게 자신의 입장을 지키는 거예요. 연습해볼까요? 제가 유진이 역할을 해볼게요. 한번 말씀해보세요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "(연습) 유진아, 나 네가 내 사진 올린 거 정말 불편해. 내려줘."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "(유진이 역할) 뭐가 문제야? 다들 재밌어하잖아. 너무 예민한 거 아니야?",
-      "technique": [
-        "structuring"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "아니야, 나는 정말 불편해. 내 사진이니까 내가 결정할 권리가 있어. 꼭 내려줘."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "(상담사로 돌아옴) 아주 잘하셨어요! 감정적이지 않으면서도 단호했어요. 이런 식으로 하시면 돼요. 어떤 느낌이 드세요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "생각보다... 할 만한 것 같아요. 연습하니까 덜 무섭네요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "연습이 자신감을 줬군요. 실제 상황에서도 이렇게 하시면 돼요. 그리고 만약 유진이가 계속 거부하면 어떻게 하실 건가요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "음... 어떻게 해야 할까요? 포기해야 하나요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "포기할 필요는 없어요. 소셜미디어 플랫폼에는 신고 기능이 있어요. 본인 동의 없이 올라간 사진은 신고하면 삭제될 수 있어요. 그리고 계속 거부한다면 그 관계가 진짜 건강한 우정인지 생각해봐야 할 수도 있고요.",
-      "technique": [
-        "information_giving",
-        "confrontation"
-      ]
-    },
-    {
       "turn": 21,
       "speaker": "client",
-      "text": "신고 기능이 있는 줄 몰랐어요. 그걸 마지막 수단으로 쓸 수 있겠네요."
+      "text": "노력해볼게요... 근데 선생님, 엄마가 저를 형만큼 사랑하지 않는 건 아닐까요?"
     },
     {
       "turn": 21,
       "speaker": "counselor",
-      "text": "맞아요. 먼저 대화로 해결하려고 시도하고, 안 되면 다른 방법을 쓰는 거죠. 그리고 이번 일을 계기로 앞으로 사진을 찍을 때 서로 동의를 구하는 문화를 만들 수도 있어요. 어떻게 생각하세요?",
+      "text": "비교당하면서 사랑받지 못한다고 느끼시는군요. 하지만 어머니의 비교는 사랑의 부족이 아니라 잘못된 표현 방식일 수 있어요. 어머니 나름대로는 당신을 걱정하시는 거예요.",
       "technique": [
-        "validation",
+        "empathy",
         "information_giving"
       ]
     },
     {
       "turn": 22,
       "speaker": "client",
-      "text": "좋은 생각이에요. 친구들끼리 그런 규칙 같은 걸 정하면 되겠네요."
+      "text": "걱정을... 그런 식으로 표현하시는 거예요?"
     },
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "정확해요. 서로의 경계를 존중하는 문화를 만드는 거죠. 그럼 언제 유진이와 이야기해볼 계획인가요?",
+      "text": "잘못된 방식이긴 하지만 그럴 수 있어요. 어머니 세대는 비교를 통해 동기부여를 하려는 경향이 있어요. 하지만 그게 당신에게 상처가 된다는 걸 모르실 수 있어요.",
       "technique": [
-        "encouragement",
-        "closed_question"
+        "information_giving",
+        "validation"
       ]
     },
     {
       "turn": 23,
       "speaker": "client",
-      "text": "내일... 점심시간에 만나서 이야기해볼게요."
+      "text": "그럼... 엄마한테 상처받는다고 말해야 하나요?"
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "구체적인 계획을 세우셨네요. 훌륭해요. 대화하기 전에 우리가 연습한 내용을 한번 더 떠올려보세요. 준비된 느낌이 드시나요?",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
-        "encouragement",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "네, 이제 할 수 있을 것 같아요. 떨리긴 하지만..."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "떨리는 건 자연스러워요. 중요한 대화니까요. 하지만 자신의 경계를 지키는 건 정말 중요한 일이에요. 잘하실 거예요. 대화 후에 어떻게 됐는지 궁금하네요. 필요하면 다시 오세요.",
-      "technique": [
-        "validation",
-        "encouragement",
+        "information_giving",
         "structuring"
       ]
     },
     {
+      "turn": 24,
+      "speaker": "client",
+      "text": "엄마가... 들어주실까요?"
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "한 번에 바뀌지는 않을 수 있어요. 하지만 계속 말하지 않으면 어머니는 당신이 괜찮다고 생각하실 거예요. 당신의 감정을 알리는 게 변화의 시작이에요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 25,
       "speaker": "client",
-      "text": "감사합니다, 선생님. 용기 얻었어요!"
+      "text": "네... 용기 내서 말해볼게요."
     },
     {
       "turn": 25,
       "speaker": "counselor",
-      "text": "그 용기 잘 간직하세요. 응원하겠습니다!",
+      "text": "좋아요. 그리고 기억하세요. 당신은 형이 아닌 당신으로서 충분히 가치있어요. 형과 다른 길을 가도 괜찮아요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "감사합니다... 그 말 들으니까 조금 위안이 돼요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "당신의 재능과 꿈을 응원해요. 미술대학 진학 계획을 구체적으로 준비하고, 부모님께 진심을 전달해보세요. 시간이 걸리겠지만 가능할 거예요.",
+      "technique": [
+        "encouragement",
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "네, 포기하지 않을게요. 제 길을 가볼게요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "훌륭한 결심이에요. 힘들 때 언제든 오세요. 당신은 혼자가 아니에요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "네, 감사합니다, 선생님."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "technique": [
+        "structuring"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네, 그때 또 찾아뵙겠습니다."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "기대할게요. 당신은 당신만의 빛을 가지고 있어요. 그걸 믿으세요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "client",
+      "text": "네, 믿어볼게요. 감사합니다."
+    },
+    {
+      "turn": 30,
+      "speaker": "counselor",
+      "text": "응원할게요. 힘내세요.",
       "technique": [
         "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "15세",
-    "gender": "여성",
-    "occupation": "중학교 3학년",
-    "background": "수업 진도를 따라가지 못해 누적되는 학습 부담"
-  }
+  ]
 }

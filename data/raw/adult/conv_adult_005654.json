@@ -1,400 +1,342 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "친구 관계",
-    "total_turns": 26,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "structuring",
-      "reflection",
-      "closed_question",
-      "emotion_labeling",
-      "interpretation",
-      "validation"
-    ]
+    "topic": "상사와의 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:28.861272+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0029_직장내부당대우_9a5d3f",
-    "category": "adult",
-    "topic": "친구 관계"
+  "client_profile": {
+    "age": "28세",
+    "gender": "여성",
+    "occupation": "회사원",
+    "background": "상사와의 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.481419+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "상담사님, 저 정말 화가 나요. 실력으로 평가받는 게 아니라 나이와 성별로 평가받는 것 같아요."
+      "text": "결혼 생활이 힘듭니다.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 나이와 성별로 차별받고 있다고 느끼시는군요. 구체적으로 어떤 일이 있었나요?",
-      "technique": [
-        "empathy",
-        "open_question",
-        "structuring"
-      ]
-    },
-    {
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
       "turn": 2,
-      "speaker": "client",
-      "text": "이번에 큰 프로젝트 리더 선정이 있었는데요. 제가 그 분야 경험도 많고, 실적도 좋은데... 30대 남자 부장이 선정됐어요. 제 경력의 절반밖에 안 되는 사람이..."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "경력과 실적에서 우위에 있었는데 선정되지 못해서 억울하시군요. 회사 측에서 이유를 설명해줬나요?",
       "technique": [
         "empathy",
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "'젊은 피가 필요하다', '새로운 시각이 필요하다'는 말만 하더라고요. 젊은 피요? 결국 제가 늙었다는 소리잖아요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "그 말을 나이 차별로 받아들이셨군요. 정말 속상하셨겠어요. 이런 일이 처음인가요, 아니면 이전에도 비슷한 경험이 있으셨나요?",
-      "technique": [
-        "empathy",
-        "emotion_labeling",
         "open_question"
       ]
     },
     {
+      "speaker": "client",
+      "text": "저는 중학교에서 국어를 가르치는 교사인데요... 요즘 너무 힘들어서 왔어요. 아침에 일어나는 것부터가 고통이에요.",
+      "turn": 3
+    },
+    {
+      "speaker": "counselor",
+      "text": "아침에 일어나는 것부터 고통스러울 정도로 힘든 상황이시군요. 교직 생활이 얼마나 되셨나요?",
       "turn": 4,
-      "speaker": "client",
-      "text": "40 넘어서부터 계속 이래요. 예전엔 제 의견을 존중해줬는데, 요즘엔 회의 때도 '요즘 트렌드는 모르시죠?'라는 식으로 무시당하고..."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "나이가 들면서 점점 소외되는 느낌을 받고 계시는군요. 그런 발언을 하는 사람들은 주로 누구인가요?",
       "technique": [
-        "empathy",
-        "reflection",
-        "open_question"
+        "reflection"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "젊은 남자 직원들이요. 특히 30대 남자 부장들... 그리고 임원들도 그 사람들 편을 드는 것 같아요."
+      "text": "올해로 10년차예요. 처음엔 정말 열정적으로 했거든요. 아이들 가르치는 게 좋았고, 보람도 느꼈어요. 그런데 언제부턴가... 모든 게 무의미하게 느껴져요.",
+      "turn": 5
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "세대 간, 성별 간의 갈등이 있는 것 같네요. 혹시 여성 동료들도 같은 경험을 하고 있나요?",
-      "technique": [
-        "interpretation",
-        "closed_question"
-      ]
-    },
-    {
+      "text": "처음의 열정과 보람이 있었는데, 지금은 무의미하게 느껴지신다는 거죠. 언제부터 이런 변화가 시작되었다고 느끼세요?",
       "turn": 6,
-      "speaker": "client",
-      "text": "네, 저랑 비슷한 연배 여자 부장들은 다 똑같이 느껴요. 우리끼리 '유리천장'이라고 얘기해요. 승진도 남자들이 먼저 하고..."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "조직 내에 구조적인 차별이 있다고 느끼시는군요. 이런 상황에서 가장 힘든 부분은 뭔가요?",
       "technique": [
-        "validation",
-        "open_question"
+        "reflection"
       ]
     },
     {
-      "turn": 7,
       "speaker": "client",
-      "text": "실력을 인정받지 못한다는 게 제일 힘들어요. 저도 열심히 일하고, 성과도 냈는데... 결국 중요한 건 나이와 성별이더라고요. 이게 맞나 싶어요."
+      "text": "정확히는 모르겠지만... 작년부터인 것 같아요. 특히 지난 학기에 한 학부모님과 크게 문제가 있었어요. 그게 결정타였던 것 같아요.",
+      "turn": 7
     },
     {
-      "turn": 7,
       "speaker": "counselor",
-      "text": "노력과 성과가 제대로 평가받지 못하니까 무력감이 느껴지시는군요. 이 상황을 바꾸기 위해 어떤 시도를 해보셨나요?",
-      "technique": [
-        "emotion_labeling",
-        "open_question"
-      ]
-    },
-    {
+      "text": "학부모님과의 문제가 큰 영향을 정신없이군요. 어떤 일이 있었는지 편하신 만큼 말씀해 주시겠어요?",
       "turn": 8,
-      "speaker": "client",
-      "text": "한 번 인사팀에 항의했어요. 근데 '객관적인 평가 기준에 따라 선정됐다'는 답변만 받았어요. 객관적이라는 게 뭔지 모르겠어요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "공식적인 루트로 항의했지만 만족스러운 답을 못 들으셨군요. 혹시 같은 처지의 동료들과 함께 목소리를 낸 적은 있나요?",
       "technique": [
-        "reflection",
-        "closed_question"
+        "open_ended_question"
       ]
     },
     {
-      "turn": 9,
       "speaker": "client",
-      "text": "다들 조용히 있어요. '어차피 바뀌지 않는다', '괜히 밉보였다가 더 손해'라는 생각이 강해요. 저도 사실 걱정돼요."
+      "text": "한 학생이 수업 시간에 계속 떠들고 다른 아이들을 방해해서 제가 주의를 줬어요. 그런데 그 학부모님이 제가 자기 아이를 차별한다고, 교사 자격이 없다고 교육청에 민원을 넣으셨어요.",
+      "turn": 9
     },
     {
-      "turn": 9,
       "speaker": "counselor",
-      "text": "보복에 대한 두려움 때문에 집단적 목소리를 내기 어려운 상황이군요. 그럼 지금 당신은 어떻게 하고 싶으세요? 참고 지낼 건가요, 아니면 변화를 만들고 싶으세요?",
-      "technique": [
-        "validation",
-        "confrontation"
-      ]
-    },
-    {
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "turn": 10,
-      "speaker": "client",
-      "text": "변화를 만들고 싶어요. 이대로 있으면 저만 손해니까. 근데 어떻게 해야 할지 모르겠어요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "변화를 원하신다니 다행이에요. 몇 가지 방법이 있어요. 첫째, 회사 내부 신고 제도 활용하기. 둘째, 외부 기관에 진정하기. 셋째, 법적 대응하기. 어떤 게 현실적으로 가능할까요?",
       "technique": [
-        "encouragement",
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "법적 대응까지는... 너무 큰 것 같고. 회사 내부 신고도 이미 해봤고. 외부 기관이요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "고용노동부나 국가인권위원회에 진정할 수 있어요. 나이와 성별에 의한 차별은 명백한 인권 침해니까요. 조사가 들어가면 회사도 무시할 수 없어요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "그런 게 가능해요? 근데 그러면 회사에서 저를 어떻게 볼까요..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "그 걱정이 이해돼요. 하지만 지금처럼 참고만 있으면 상황은 절대 바뀌지 않아요. 그리고 진정을 넣으면 신고자 보호 의무가 있어요. 불이익 조치를 하면 그것도 법 위반이고요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그래도... 혼자 하기엔 부담스러워요. 동료들이 함께 하면 좋을 텐데..."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "동료들을 설득해보셨나요? '우리가 함께 하면 바꿀 수 있다'고요. 변화는 누군가 시작해야 일어나요. 당신이 그 시작이 될 수 있어요.",
-      "technique": [
-        "open_question",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "제가 먼저 나서는 게... 무섭긴 하지만, 누군가는 해야겠죠. 동료들한테 한번 얘기해볼게요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "용기 있는 결정이에요. 그런데 한 가지 더 생각해볼 게 있어요. 혹시 이직은 고려해보셨나요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "이직이요? 45살에 이직이 가능할까요? 나이 때문에 더 힘들 것 같은데..."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "45세면 충분히 경력과 전문성이 있으시잖아요. 나이를 차별하는 회사가 아니라, 경력을 존중하는 회사도 있어요. 모든 회사가 지금 회사 같은 건 아니에요.",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "그런 회사가 있을까요? 저는 어디 가나 똑같을 것 같은데..."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "그렇게 생각하시면 희망이 없어져요. 외국계 기업이나, 여성 친화적인 회사, 능력 중심의 스타트업 등 다양한 선택지가 있어요. 리서치해보셨나요?",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "아니요... 이직 생각 자체를 안 했어요. 이 회사에 15년 있었으니까..."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "15년은 긴 시간이죠. 하지만 그동안 쌓은 경력과 네트워크가 있잖아요. 그게 당신의 자산이에요. 남은 직장 생활을 차별받으며 보낼 건가요, 아니면 새로운 기회를 찾을 건가요?",
-      "technique": [
-        "validation",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "새로운 기회... 생각해본 적 없는데, 지금 말씀 들으니 고려해볼 만한 것 같아요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "좋아요. 두 가지 전략을 동시에 가져가는 거예요. 하나는 현재 회사에서 부당함에 맞서기, 다른 하나는 더 나은 환경 찾기. 선택지가 많아지면 협상력도 높아져요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "그렇네요. 여기만 붙들고 있을 필요는 없죠. 근데 이직 준비하면서 동시에 회사 문제와도 싸우는 게 가능할까요?"
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "힘들긴 하겠지만 가능해요. 오히려 이직 카드가 있으면 회사와의 싸움에서도 덜 위축될 수 있어요. '최악의 경우 떠나면 된다'는 생각이 용기를 줄 수 있거든요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "맞아요. 지금은 '이 회사 아니면 안 된다'는 생각에 갇혀 있었어요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "그 생각에서 벗어나는 게 중요해요. 당신은 가치 있는 인재예요. 회사가 당신을 필요로 하는 거지, 당신이 회사에 매달려야 하는 게 아니에요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "오랜만에 듣는 말이네요. 제가 가치 있다는 말... 스스로도 잊고 있었어요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "차별적인 환경에 오래 있으면 자존감이 낮아져요. 하지만 당신의 15년 경력, 전문성, 성과는 변하지 않아요. 그걸 인정해주는 곳을 찾으면 돼요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "네... 이제 좀 용기가 생겨요. 그럼 구체적으로 어떻게 시작하면 좋을까요?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "먼저 동료들과 대화하면서 함께 할 사람이 있는지 확인하세요. 그리고 이력서를 업데이트하면서 시장 조사도 시작하고요. 두 가지를 병행하는 거예요.",
-      "technique": [
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "알겠습니다. 증거도 모아야겠죠? 차별받은 사례들?"
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "맞아요! 날짜, 장소, 발언 내용, 목격자 등을 기록하세요. 이메일이나 메시지가 있다면 캡처해두고요. 나중에 진정을 넣거나 법적 대응을 할 때 필요해요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "네, 오늘부터 바로 시작할게요. 더 이상 참지 않을 거예요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "훌륭한 결심이에요. 쉽지 않은 과정이 될 수 있어요. 하지만 당신은 혼자가 아니에요. 같은 처지의 동료들이 있고, 법과 제도도 당신 편이에요.",
-      "technique": [
-        "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 25,
       "speaker": "client",
-      "text": "감사합니다. 오늘 상담이 큰 힘이 됐어요. 제가 가치 있다는 걸 다시 깨달았어요."
+      "text": "네... 정말 억울했어요. 조사도 받고, 해명도 하고... 결국 문제없다고 결론 났지만, 그 과정이 너무 힘들었어요. 제가 뭘 잘못한 건가 계속 자책했어요.",
+      "turn": 11
     },
     {
-      "turn": 25,
       "speaker": "counselor",
-      "text": "원래 가지고 계셨던 거예요. 제가 한 건 그걸 상기시켜드린 것뿐이에요. 과정 중에 힘들면 언제든 오세요. 응원할게요.",
+      "text": "결과적으로는 문제가 없다고 나왔지만, 그 과정에서 받은 상처와 자책감이 지금까지 영향을 미치고 있는 것 같네요.",
+      "turn": 12,
       "technique": [
-        "encouragement",
-        "structuring"
+        "empathy"
       ]
     },
     {
-      "turn": 26,
       "speaker": "client",
-      "text": "네, 꼭 좋은 결과로 다시 찾아뵐게요."
+      "text": "맞아요. 그 이후로 학생들을 대하는 게 너무 조심스러워요. 혹시라도 또 민원이 들어올까 봐... 제대로 지도도 못 하겠어요.",
+      "turn": 13
     },
     {
-      "turn": 26,
       "speaker": "counselor",
-      "text": "기대할게요. 부당함에 맞서는 당신의 용기가 다른 사람들에게도 희망이 될 거예요. 힘내세요.",
+      "text": "그 경험 이후로 학생 지도에 대한 두려움이 생기셨군요. 교사로서의 역할을 제대로 수행하기 어려운 상황이 되신 거네요.",
+      "turn": 14,
       "technique": [
-        "encouragement",
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 동료 교사들도 비슷한 일들을 겪고 있어요. 다들 지쳐있어요. 교무실 분위기도 예전 같지 않고... 저만 힘든 게 아니라는 걸 알지만, 그게 위로가 되진 않아요.",
+      "turn": 15
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 16,
+      "technique": [
         "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "제가 이 일을 계속해야 하나 하는 생각이요. 10년을 했는데, 이제 와서 그만둘 수도 없고... 하지만 앞으로 20년을 더 한다고 생각하면 막막해요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "그만두기도 어렵고, 계속하기도 막막한 상황에서 갇혀 계신 느낌이시군요. 교직 외에 다른 진로를 생각해 보신 적은 있으세요?",
+      "turn": 18,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "생각은 해봤죠. 하지만 구체적으로 뭘 할 수 있을지 모르겠어요. 그리고 제가 교사를 그만두면 주변에서 뭐라고 할까 봐... 부모님도 실망하실 것 같고요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "내담자님의 선택에 대한 주변의 시선과 평가가 걱정되시는군요. 내담자님 스스로는 정말 어떻게 하고 싶으세요?",
+      "turn": 20,
+      "technique": [
+        "open_ended_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "솔직히... 잘 모르겠어요. 예전처럼 보람을 느끼며 일할 수 있다면 계속하고 싶어요. 하지만 지금 상태로는 불가능해 보여요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "예전의 보람과 열정을 되찾을 수 있다면 계속하고 싶다는 마음이 있으시네요. 그 마음이 아직 남아있다는 것이 중요해 보입니다.",
+      "turn": 22,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그런가요? 저는 그냥 제가 나약해서 이러는 건 줄 알았어요. 다른 선생님들도 다 힘든데 저만 유난 떠는 것 같아서요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘든 상황에서 도움을 구하는 것은 나약함이 아니라 용기예요. 내담자님은 지금 자신을 돌보기 위해 여기 오신 거잖아요.",
+      "turn": 24,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니까 조금... 마음이 편해지네요. 그런데 어떻게 해야 할까요? 이 상황을 어떻게 벗어날 수 있을까요?",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "변화를 원하시는 마음이 느껴집니다. 당장 모든 걸 해결하려고 하기보다는, 작은 것부터 시작해 보면 어떨까요? 우선 내담자님이 지금 가장 필요하다고 느끼는 게 무엇일까요?",
+      "turn": 26,
+      "technique": [
+        "open_ended_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 일단 마음의 여유가 필요한 것 같아요. 요즘 학교 끝나면 집에서도 계속 일 생각만 하거든요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "일과 삶의 경계가 흐려져 있는 상태네요. 퇴근 후나 주말에 내담자님만을 위한 시간을 가져보신 적은 언제인가요?",
+      "turn": 28,
+      "technique": [
+        "open_ended_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "기억이 안 날 정도로 오래된 것 같아요. 항상 수업 준비하고, 학생 상담 기록 쓰고... 주말에도 일을 가져와요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "지속적으로 일에만 집중하다 보니 소진된 상태가 되신 거네요. 예전에 좋아하셨던 활동이나 취미가 있으셨나요?",
+      "turn": 30,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "대학 때는 등산을 좋아했어요. 그리고 책 읽는 것도 좋아했고요. 요즘은 교과서 외에는 책을 안 읽게 되더라고요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "등산과 독서를 좋아하셨군요. 이런 활동들이 내담자님께 어떤 의미였나요?",
+      "turn": 32,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "등산할 때는 머리가 맑아지는 느낌이었어요. 자연 속에 있으면 복잡한 생각들이 정리되고... 책을 읽을 때는 다른 세계에 빠져드는 게 좋았어요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 활동들이 내담자님께 휴식과 재충전의 시간이었던 거네요. 이번 주말에 짧은 시간이라도 그런 활동을 해보는 건 어떨까요?",
+      "turn": 34,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "해보고 싶긴 한데... 할 일이 많아서 시간을 낼 수 있을지 모르겠어요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "일이 우선순위가 되어 있는 상황이네요. 하지만 내담자님 자신을 돌보는 것도 중요한 일이에요. 30분이라도 내담자님을 위한 시간을 갖는 것이 장기적으로는 더 효율적일 수 있어요.",
+      "turn": 36,
+      "technique": [
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇긴 하죠... 사실 제가 이렇게 계속 일만 하면서 버티는 게 오히려 비효율적인 것 같긴 해요.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 38,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "제가 생각보다 많이 지쳐있다는 걸 깨달았어요. 그리고 저 스스로를 너무 몰아붙이고 있었던 것 같아요. 조금은 여유를 가져도 되겠다는 생각이 들어요.",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "중요한 깨달음이시네요. 자신을 돌보는 것이 나약함이 아니라 필요한 일이라는 것을 인식하신 것 같아요. 다음 상담 때까지 작은 목표를 하나 정해보시겠어요?",
+      "turn": 40,
+      "technique": [
+        "goal_setting"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 이번 주말에 가까운 산이라도 한 번 다녀오려고 해요. 그리고 읽고 싶었던 소설책도 주문해볼게요.",
+      "turn": 41
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 계획이네요. 실천하시고 어떤 느낌이 드셨는지 다음에 나눠주시면 좋겠어요. 오늘 용기 내어 상담받으러 오신 것, 정말 잘하셨어요.",
+      "turn": 42,
+      "technique": [
+        "encouragement"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "감사합니다. 오늘 이야기하면서 조금 후련해진 것 같아요. 다음 주에 또 뵐게요.",
+      "turn": 43
+    },
+    {
+      "speaker": "counselor",
+      "text": "오늘 이야기 나눠주셔서 감사합니다. 다음에 또 만나요.",
+      "technique": [
+        "empathy",
+        "supportive"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "32세",
-    "gender": "여성",
-    "occupation": "마케터",
-    "background": "오랜 친구와의 관계가 멀어져가는 상황"
-  }
+  ]
 }

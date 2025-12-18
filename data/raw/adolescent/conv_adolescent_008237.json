@@ -1,35 +1,26 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "대학 진학",
-    "total_turns": 26,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "restatement",
-      "reflection",
-      "emotion_labeling",
-      "validation",
-      "interpretation",
-      "information_giving"
-    ]
+    "topic": "정체성 혼란",
+    "total_turns": 30,
+    "generated_at": "2025-12-18T07:14:26.711711+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_가족갈등_0004_간섭통제반발_01",
-    "category": "adolescent",
-    "topic": "대학 진학"
+  "client_profile": {
+    "age": "15세",
+    "gender": "남성",
+    "occupation": "중학교 3학년",
+    "background": "정체성 혼란 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.985867+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "엄마가 제 모든 걸 다 통제하려고 해요. 정말 숨막혀요."
+      "text": "부모님 기대가 너무 커서 힘들어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "어머니의 통제로 인해 숨 막히는 느낌을 받고 있군요. 구체적으로 어떤 부분에서 그렇게 느끼시나요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 부모님 기대가 너무 커서 힘들어요....라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
         "empathy",
         "open_question"
@@ -38,364 +29,413 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "제 일정을 전부 짜놓으세요. 학원 끝나면 몇 시에 집에 와야 하고, 친구 만나는 것도 허락받아야 하고... 제 휴대폰도 수시로 확인하시고요."
+      "text": "무릎이 까졌어요... 그리고 울면서 엄마한테 일렀어요. 엄마가 저한테 엄청 화내셨어요. '형이 동생을 때리냐'고..."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "시간 관리부터 친구 관계, 휴대폰 사용까지 모든 영역에서 어머니의 감시와 통제를 받고 있다고 느끼는군요.",
+      "text": "어머니께 혼나고 죄책감도 느끼시는군요. 그런데 싸움이 어떻게 시작됐는지 말씀해주시겠어요?",
       "technique": [
-        "restatement",
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "동생이 제 방에 허락도 없이 들어와서 제 게임기를 가져갔어요. 돌려달라고 했는데 안 주고 도망가길래... 따라가서 뺏으려다가 밀친 거예요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "동생이 허락없이 물건을 가져가서 화가 났고, 그 과정에서 물리적 충돌이 생긴 거군요. 동생과 이렇게 싸우는 일이 자주 있나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "거의 매일이요. 동생이 맨날 제 물건 가져가고, 제 방 들어오고, 제가 뭐 하면 따라하고... 진짜 짜증나요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "technique": [
+        "reflection",
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "11살이요. 초등학교 5학년... 나이는 어린데 하는 짓은 완전 짜증나요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "3살 차이시군요. 동생이 형을 따라하고 관심받고 싶어하는 것일 수도 있어요. 하지만 당신에게는 경계가 침범당하는 것처럼 느껴지는 거죠.",
+      "technique": [
+        "information_giving",
         "reflection"
       ]
     },
     {
-      "turn": 3,
+      "turn": 6,
       "speaker": "client",
-      "text": "네. 친구들은 자유롭게 놀러 다니는데, 전 항상 허락받아야 하고 시간도 정해져 있어요. 너무 창피해요."
+      "text": "관심받고 싶어한다고요? 동생은 그냥 저를 괴롭히는 게 재밌는 거예요."
     },
     {
-      "turn": 3,
+      "turn": 6,
       "speaker": "counselor",
-      "text": "친구들과 비교했을 때 자신만 제약이 많아서 창피하고 억울한 마음이 드는군요.",
-      "technique": [
-        "emotion_labeling",
-        "empathy"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "맞아요. 얼마 전에도 친구들이랑 영화 보러 가자고 했는데, 엄마가 '누구랑 가는데?', '몇 시에 끝나는데?', '왜 가야 하는데?' 이렇게 계속 물어보시더니 결국 안 된대요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "친구들과의 약속도 자유롭게 할 수 없고, 여러 질문 끝에 결국 거절당하는 경험을 하셨군요. 그때 기분이 어땠나요?",
+      "text": "그렇게 느껴지시는군요. 그럼 동생에게 '내 물건 가져가지 마', '내 방에 허락없이 들어오지 마'라고 명확하게 말해본 적 있나요?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 5,
+      "turn": 7,
       "speaker": "client",
-      "text": "화나고 서러웠어요. 친구들한테도 미안하고... '우리 엄마는 왜 이렇게 간섭이 심할까' 생각했어요."
+      "text": "맨날 말해요! 근데 안 듣는다고요. 그래서 제가 소리 지르면 엄마가 '형이 동생한테 왜 그러냐'고 하시고..."
     },
     {
-      "turn": 5,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "분노와 서러움, 그리고 친구들에 대한 미안함까지 복잡한 감정을 느꼈네요. 어머니께 이런 마음을 이야기해본 적이 있나요?",
+      "text": "말로 해도 안 되고, 어머니도 동생 편만 드시는 것 같아서 억울하신 거군요. 어머니는 왜 동생 편을 드신다고 생각하세요?",
       "technique": [
-        "emotion_labeling",
-        "empathy",
+        "reflection",
+        "validation",
         "open_question"
       ]
     },
     {
-      "turn": 6,
+      "turn": 8,
       "speaker": "client",
-      "text": "말했죠! 근데 '너를 위해서 그러는 거야', '세상이 얼마나 위험한지 몰라' 이러시면서 오히려 저보고 철없다고 하세요."
+      "text": "동생이 어리니까요. 맨날 '동생이 어린데 이해해라', '형이 양보해라'... 저는 왜 맨날 참아야 해요?"
     },
     {
-      "turn": 6,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "자신의 감정을 표현했지만 이해받지 못하고, 오히려 미성숙하다는 평가를 받아서 더 답답했겠어요.",
-      "technique": [
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "네. 그래서 요즘엔 그냥 포기하고 말 안 해요. 어차피 안 들어주실 거니까."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "반복된 경험 때문에 소통 자체를 포기하게 된 상태네요. 하지만 속으로는 답답함이 계속 쌓이고 있는 것 같아요.",
+      "text": "항상 양보하고 참으라는 말을 들으니까 부당하게 느껴지는 거죠. '나는 왜 이해받지 못하나' 하는 생각도 드시고요.",
       "technique": [
         "reflection",
         "empathy"
       ]
     },
     {
-      "turn": 8,
-      "speaker": "client",
-      "text": "맞아요. 가끔은 그냥 집 나가고 싶어요. 근데 그럴 수도 없고..."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "상황에서 벗어나고 싶을 만큼 힘들지만, 실제로 그럴 수는 없어서 갇힌 느낌을 받는군요. 혹시 어머니가 왜 이렇게 행동하시는지 생각해본 적 있나요?",
-      "technique": [
-        "emotion_labeling",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
       "turn": 9,
       "speaker": "client",
-      "text": "글쎄요... 그냥 저를 믿지 못하시는 거 아닌가요?"
+      "text": "맞아요. 저도 이해받고 싶어요. 근데 엄마는 맨날 동생만..."
     },
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "신뢰받지 못한다고 느끼는군요. 그런데 어머니 입장에서는 걱정과 불안 때문일 수도 있어요. 물론 그게 과한 통제를 정당화하는 건 아니지만요.",
+      "text": "형이라는 이유로 항상 양보해야 한다는 게 불공평하게 느껴지시는군요. 아버지는 어떠세요? 아버지도 같은 반응이신가요?",
       "technique": [
         "validation",
-        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "아빠는... 거의 집에 안 계세요. 늦게 들어오시고... 우리 싸움에 별로 관심 없으세요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "아버지는 부재중이시고 어머니만 중재하시는데, 어머니가 동생 편만 드시니까 더 외롭고 억울하신 거군요. 혹시 부모님께 당신의 감정을 진지하게 얘기해본 적 있나요?",
+      "technique": [
+        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "말해봤자... '형이 어른스럽게 굴어라'만 들을 거예요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "들어주지 않을 거라고 미리 포기하고 계시는군요. 하지만 제대로 대화를 시도해보지 않으면 어머니는 당신이 얼마나 힘든지 모르실 수 있어요.",
+      "technique": [
+        "reflection",
+        "confrontation",
         "information_giving"
       ]
     },
     {
-      "turn": 10,
+      "turn": 12,
       "speaker": "client",
-      "text": "걱정이요? 근데 친구들 부모님도 걱정하실 텐데, 왜 우리 엄마만 이렇게 심해요?"
+      "text": "어떻게 말해야 들어주실까요?"
     },
     {
-      "turn": 10,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "좋은 질문이에요. 사람마다 불안을 다루는 방식이 달라요. 어머니는 통제로 불안을 해소하려는 것 같네요. 혹시 어머니에게 특별한 경험이나 걱정거리가 있으신가요?",
+      "text": "감정적으로 소리 지르는 대신, 차분하게 '엄마, 나도 힘들다. 동생이 내 물건을 가져가고 내 공간을 침범할 때 존중받지 못한다고 느낀다'고 말하는 거예요.",
       "technique": [
-        "validation",
         "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "음... 엄마가 예전에 사고 당한 적이 있다고 들었어요. 그것 때문인가요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "그럴 가능성이 있어요. 과거의 트라우마가 현재의 과보호로 나타나는 거죠. 하지만 그렇다고 해서 당신의 힘든 감정이 무시되어야 하는 건 아니에요.",
-      "technique": [
-        "interpretation",
-        "validation"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "그렇구나... 생각해보니 엄마도 힘드실 수도 있겠네요. 근데 그래도 저는 답답한데 어떡하죠?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "어머니를 이해하면서도 자신의 필요는 여전히 중요하다는 걸 알고 계시네요. 양쪽 모두를 고려하는 해결책이 필요할 것 같아요.",
-      "technique": [
-        "validation",
         "structuring"
       ]
     },
     {
       "turn": 13,
       "speaker": "client",
-      "text": "어떻게요? 어떤 해결책이 있을까요?"
+      "text": "그렇게 말하면... 엄마가 들어주실까요?"
     },
     {
       "turn": 13,
       "speaker": "counselor",
-      "text": "먼저 어머니의 걱정을 인정하면서, 점진적으로 신뢰를 쌓아가는 방법이 있어요. 작은 것부터 약속을 지키고, 투명하게 소통하면서 자유를 조금씩 넓혀가는 거죠.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "약속을 지키고 투명하게 소통한다... 구체적으로 어떻게 해야 하죠?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "예를 들어, 외출할 때 미리 계획을 알려드리고, 중간중간 연락하고, 약속한 시간에 꼭 귀가하는 거예요. 그러면 어머니도 점차 안심하시게 될 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그런데... 그것도 답답하긴 한데요. 왜 제가 그렇게까지 해야 해요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "억울한 마음이 드는 건 이해해요. 하지만 이건 어머니를 위해서가 아니라 당신 자신의 자유를 위한 투자라고 생각해보면 어떨까요?",
-      "technique": [
-        "validation",
-        "interpretation"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "제 자유를 위한 투자... 그렇게 생각하니까 조금 다르게 느껴지네요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "맞아요. 당장은 불편하지만 장기적으로는 더 많은 자유를 얻을 수 있는 방법이에요. 그리고 어머니와도 대화를 해볼 필요가 있어요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "대화요? 어떤 대화를 해야 할까요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "자신이 성장하고 있고, 책임감 있게 행동할 수 있다는 걸 보여드리고, 조금씩 자율권을 달라고 요청하는 거예요. '엄마, 내가 이번 달 약속 다 지켰으니 다음엔 30분 더 있어도 될까요?' 이런 식으로요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "아, 단계적으로 협상하는 거네요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "정확해요! 한 번에 모든 걸 바꾸려고 하면 어머니도 불안해하실 테니까, 조금씩 변화를 만들어가는 거죠.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "그런데 엄마가 동의 안 하시면요?"
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "처음에는 쉽지 않을 수 있어요. 하지만 계속 신뢰를 쌓고 대화를 시도하다 보면 점차 변화가 생길 거예요. 인내가 필요한 과정이에요.",
+      "text": "확실하지는 않지만 지금처럼 싸우고 소리 지르는 것보다 효과적일 거예요. 그리고 구체적인 해결책을 제안하는 것도 좋아요. '내 방문에 잠금장치를 달아달라'든지요.",
       "technique": [
         "information_giving",
         "encouragement"
       ]
     },
     {
+      "turn": 14,
+      "speaker": "client",
+      "text": "잠금장치요? 그런 거 요구해도 돼요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "물론이에요. 당신도 프라이버시와 개인 공간을 가질 권리가 있어요. 14살이면 자신만의 공간이 필요한 나이예요. 합리적인 요구예요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "근데 선생님... 제가 동생을 민 건 잘못한 거죠? 저도 그건 알아요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그걸 인정하는 게 중요해요. 화가 나도 폭력은 안 돼요. 하지만 당신만 잘못한 건 아니에요. 동생의 행동도 문제고, 부모님이 명확한 규칙을 정해주지 않은 것도 문제예요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "규칙이요?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "네. 가족 규칙이요. '상대방 물건은 허락받고 쓴다', '형의 방에 들어갈 때는 노크한다' 같은 명확한 규칙이 있으면 동생도 따를 수 있어요.",
+      "technique": [
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그런 규칙을 부모님한테 제안해도 될까요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "좋은 생각이에요. 가족 회의를 제안하는 거예요. 모두가 모여서 서로 불편한 점을 얘기하고 규칙을 정하는 시간이요. 당신의 주도로요.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "가족 회의... 근데 동생이 제대로 할까요?"
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "동생도 11살이면 규칙을 이해하고 따를 수 있는 나이예요. 그리고 부모님이 함께 계시면 동생도 더 진지하게 받아들일 거예요. 시도해볼 만하지 않나요?",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "해볼게요... 근데 제가 동생한테 사과는 해야 하나요? 밀친 거..."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "사과하는 게 좋아요. 하지만 일방적인 사과가 아니라 대화가 필요해요. '내가 밀친 건 미안해. 하지만 네가 내 물건 가져간 것도 화가 났어. 앞으로는 서로 존중하자'는 식으로요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 20,
       "speaker": "client",
-      "text": "시간이 걸리겠네요... 근데 지금 당장 친구들 만나는 것도 힘든데..."
+      "text": "동생한테 직접요? 어색할 것 같은데..."
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "당장의 답답함도 이해해요. 그래서 단기적으로는 어머니가 안심할 수 있는 조건을 만들어보는 건 어떨까요? 예를 들어, 잘 아는 친구들과 부모님이 아시는 장소에서 만나는 것부터요.",
+      "text": "처음엔 어색할 수 있어요. 하지만 진심으로 대화하면 동생도 달라질 수 있어요. 11살이면 이해할 수 있는 나이예요. 시도해보는 게 어떨까요?",
       "technique": [
-        "empathy",
-        "structuring",
-        "information_giving"
+        "validation",
+        "encouragement"
       ]
     },
     {
       "turn": 21,
       "speaker": "client",
-      "text": "엄마가 아는 장소에서요? 그럼 좀 허락해주실 수도 있겠네요."
+      "text": "알겠어요... 오늘 집에 가서 동생한테 얘기해볼게요."
     },
     {
       "turn": 21,
       "speaker": "counselor",
-      "text": "네, 어머니의 불안을 줄여드리면서 당신도 친구들을 만날 수 있는 방법이에요. 그리고 그 경험이 쌓이면 어머니도 당신을 더 신뢰하게 되실 거예요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "encouragement",
-        "information_giving"
+        "open_question"
       ]
     },
     {
       "turn": 22,
       "speaker": "client",
-      "text": "알겠어요. 한번 해볼게요. 이번 주말에 친구들이랑 집 근처 카페에서 만나는 거 제안해볼게요."
+      "text": "음... 엄마한테 바로 말하는 거요?"
     },
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "좋은 계획이에요. 그리고 어머니께 미리 누구랑 만나고 무엇을 할 건지 자세히 설명하고, 중간에 연락도 하세요. 그러면 성공 확률이 높아질 거예요.",
+      "text": "그것도 방법이고요, 아니면 동생에게 침착하게 '그거 지금 돌려줘. 안 그러면 엄마한테 말할 거야'라고 경고하는 것도 방법이에요. 폭력 대신 말로요.",
       "technique": [
-        "encouragement",
-        "structuring",
         "information_giving"
       ]
     },
     {
       "turn": 23,
       "speaker": "client",
-      "text": "네, 그렇게 할게요. 그런데 제가 이렇게까지 해야 한다는 게 여전히 억울하긴 하네요."
+      "text": "침착하게... 그게 어려워요. 화나면 그냥 욱하고..."
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "그 감정도 충분히 타당해요. 하지만 지금은 현실적인 해결책을 찾는 게 중요하고, 동시에 어머니와의 관계도 개선해 나가는 거예요. 둘 다 중요해요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "연습이요... 해볼게요. 근데 선생님, 제가 동생을 좋아하게 될 수 있을까요?"
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "지금은 어렵겠지만 가능해요. 관계가 나아지면 동생의 다른 면도 보이기 시작할 거예요. 지금은 부정적인 면만 보이지만, 동생도 장점이 있을 거예요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "동생의 장점이요? 잘 모르겠는데..."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "생각해보세요. 동생이 잘하는 것, 착한 점은 없나요? 편견을 버리고 한번 관찰해보세요.",
+      "technique": [
+        "open_question",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "음... 동생이 그림은 잘 그려요. 그리고 제가 아플 때 걱정해주긴 했어요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "좋은 점들을 찾으셨네요. 그럼 동생도 나쁜 아이는 아니죠. 단지 표현 방법이 서툴고 경계를 모르는 거예요. 당신이 가르쳐줄 수 있어요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "제가요? 제가 가르쳐요?"
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "형으로서요. '이건 내가 싫어하니까 하지 마', '이렇게 하면 나도 너를 도와줄게' 이런 식으로요. 형제 관계도 배워가는 거예요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "그렇게 생각해본 적 없었어요... 제가 가르쳐줄 수 있다는 거."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "당신이 3살 더 많고 더 성숙하니까 가능해요. 물론 부모님의 도움도 필요하지만, 당신도 역할이 있어요. 책임이 아니라 기회로 생각해보세요.",
+      "technique": [
+        "validation",
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네... 노력해볼게요. 오늘 집에 가서 동생한테 사과하고, 엄마한테도 제대로 얘기해볼게요."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "훌륭한 결심이에요. 한 번에 바뀌지는 않을 거예요. 하지만 꾸준히 노력하면 관계가 나아질 거예요. 다음 주에 어떻게 됐는지 얘기 나눠요.",
+      "technique": [
+        "encouragement",
         "validation",
         "structuring"
       ]
     },
     {
-      "turn": 24,
+      "turn": 30,
       "speaker": "client",
-      "text": "네... 알겠어요. 조금씩 해보겠습니다."
+      "text": "네, 감사합니다, 선생님. 포기하지 않을게요."
     },
     {
-      "turn": 24,
+      "turn": 30,
       "speaker": "counselor",
-      "text": "오늘 이야기 나눈 것 정리해볼까요? 첫째, 작은 약속 지키며 신뢰 쌓기. 둘째, 어머니가 안심할 수 있는 조건으로 외출 제안하기. 셋째, 단계적으로 자율권 확대 협상하기. 이렇게 해보는 거예요.",
-      "technique": [
-        "summarization",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "명확하네요. 이렇게 정리하니까 할 수 있을 것 같아요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "잘하실 거예요. 변화는 시간이 걸리지만, 노력하면 분명 달라질 거예요. 다음에 어떻게 됐는지 이야기 나눠봐요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "네, 감사합니다. 좀 더 긍정적으로 생각하게 됐어요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "긍정적인 마음으로 접근하는 것 자체가 큰 변화예요. 응원할게요.",
+      "text": "응원할게요. 형제 관계는 평생 가는 거니까 지금 노력하는 게 나중에 큰 자산이 될 거예요.",
       "technique": [
         "encouragement",
         "validation"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "17세",
-    "gender": "여성",
-    "occupation": "고등학교 2학년",
-    "background": "원하는 대학과 현실적 가능성 사이의 갈등"
-  }
+  ]
 }

@@ -1,400 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "시험 불안",
-    "total_turns": 26,
-    "quality_indicators": [
-      "empathy",
-      "validation",
-      "open_question",
-      "reflection",
-      "restatement",
-      "closed_question",
-      "clarification",
-      "emotion_labeling"
-    ]
+    "topic": "교사와의 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:26.295445+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_학업스트레스_0012_학습동기상실_001",
-    "category": "adolescent",
-    "topic": "시험 불안"
+  "client_profile": {
+    "age": "18세",
+    "gender": "남성",
+    "occupation": "고등학교 3학년",
+    "background": "교사와의 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.532465+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "어... 안녕하세요. 엄마가 가라고 해서 왔는데요."
+      "text": "친구가 없어요. 혼자예요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 어머니께서 권유하셔서 오게 되었군요. 조금 어색하고 불편할 수도 있을 것 같은데, 편하게 이야기 나눠봐요. 요즘 어떻게 지내고 있나요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
+      "turn": 2,
       "technique": [
         "empathy",
-        "validation",
         "open_question"
       ]
     },
     {
-      "turn": 2,
       "speaker": "client",
-      "text": "그냥... 뭐 그렇게 저렇게요. 학교 가고 집에 오고..."
+      "text": "저... 제 친구들이요. 저랑 항상 친하게 지내던 애들인데, 어제 인스타그램을 보니까 저 빼고 다 같이 놀러 간 거예요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "일상이 좀 무료하게 느껴지는 것 같네요. 학교생활은 어떤가요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "그냥 다녀요. 친구들은 있는데... 수업 시간이 너무 지루해요. 왜 이런 걸 배워야 하는지 모르겠어요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "수업이 지루하고 배우는 내용의 의미를 찾기 어렵다는 거네요. 중학교 때도 이랬나요?",
-      "technique": [
-        "restatement",
-        "closed_question"
-      ]
-    },
-    {
+      "text": "친한 친구들이 자신만 빼고 만났다는 걸 알게 되었군요. 그 순간 어떤 기분이 들었나요?",
       "turn": 4,
-      "speaker": "client",
-      "text": "아니요. 중학교 때는 공부도 재미있었고 성적도 잘 나왔어요. 근데 고등학교 오니까 갑자기 너무 어렵고 재미없어요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "중학교 때와 고등학교가 많이 다르게 느껴지는군요. 갑자기 난이도가 올라가면서 흥미도 함께 떨어진 것 같아요. 구체적으로 어떤 과목이 가장 어려운가요?",
       "technique": [
-        "validation",
-        "empathy",
-        "clarification"
+        "reflection"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "수학이요. 중학교 때는 1등급이었는데 여기 와서는 4~5등급 나와요. 아무리 해도 안 되니까 하기 싫어져요."
+      "text": "너무 속상했어요. 왜 나만 안 부른 거지? 내가 뭘 잘못했나? 이런 생각만 계속 들었어요. 밤새 잠도 못 잤어요.",
+      "turn": 5
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "1등급에서 4~5등급으로 떨어지면서 많이 좌절하고 의욕을 잃게 된 거네요. 그 경험이 정말 힘들었겠어요.",
+      "text": "갑자기 소외된 것 같은 느낌에 많이 힘들었겠어요. 밤새 잠도 못 잘 정도로 마음이 불편했다니, 정말 괴로웠겠네요.",
+      "turn": 6,
       "technique": [
-        "emotion_labeling",
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 오늘 학교에서 걔네들을 봤는데, 아무렇지도 않게 저한테 인사하는 거예요. 저는 속으로 너무 화가 났어요.",
+      "turn": 7
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구들은 평소처럼 행동하는데, 본인만 속상한 마음을 안고 있으니까 더 답답하고 화가 났겠어요.",
+      "turn": 8,
+      "technique": [
         "empathy"
       ]
     },
     {
-      "turn": 6,
       "speaker": "client",
-      "text": "네... 처음엔 열심히 했는데 성적이 안 오르니까 이제는 하기도 싫어요. 어차피 안 될 거 같아서요."
+      "text": "맞아요. 그래서 저도 그냥 대충 인사만 하고 피했어요. 근데 그러고 나니까 또 '내가 너무 예민한 건가?' 이런 생각도 들고...",
+      "turn": 9
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "노력해도 결과가 나오지 않으니 '어차피 안 될 거야'라는 생각이 들고, 그래서 아예 시도조차 하기 싫어진 상태인 것 같아요. 이런 마음을 '학습된 무기력'이라고 하는데, 많은 학생들이 겪는 현상이에요.",
+      "text": "속상한 마음과 동시에 자신의 반응이 적절했는지에 대해서도 고민이 되는군요. 이 친구들과는 얼마나 오래 친하게 지냈나요?",
+      "turn": 10,
       "technique": [
-        "reflection",
-        "interpretation",
-        "information_giving"
+        "open_ended_question"
       ]
     },
     {
-      "turn": 7,
       "speaker": "client",
-      "text": "학습된 무기력이요? 그게 뭔데요?"
+      "text": "중학교 때부터요. 거의 3년 정도 됐어요. 그래서 더 배신감이 드는 것 같아요.",
+      "turn": 11
     },
     {
-      "turn": 7,
       "speaker": "counselor",
-      "text": "반복적으로 실패를 경험하면 '내가 아무리 노력해도 안 돼'라고 학습하게 되는 거예요. 그래서 시도 자체를 포기하게 되는 거죠. 하지만 이건 사실이 아니라 그냥 그렇게 느끼는 거예요.",
+      "text": "3년이나 함께 한 친구들이라면 더욱 상처가 컸을 것 같아요. 혹시 이런 일이 처음인가요, 아니면 전에도 비슷한 적이 있었나요?",
+      "turn": 12,
       "technique": [
-        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 생각해보니까 가끔 있었던 것 같기도 해요. 근데 그땐 그냥 '바빴나보다' 하고 넘겼는데, 이번엔 사진까지 올린 걸 보니까 확실히 알게 된 거죠.",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 14,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 맞아요. 그리고 저는 항상 걔네들한테 먼저 연락하고 챙기는 편이었거든요. 그런데 이렇게 당하니까 너무 억울해요.",
+      "turn": 15
+    },
+    {
+      "speaker": "counselor",
+      "text": "평소에 관계에서 많이 노력하고 먼저 다가가는 편이었는데, 그 노력이 제대로 인정받지 못한다고 느껴지는군요.",
+      "turn": 16,
+      "technique": [
         "validation"
       ]
     },
     {
-      "turn": 8,
       "speaker": "client",
-      "text": "근데 진짜 안 되는데요... 저는 고등학교 수학을 못하는 것 같아요."
+      "text": "정확히 그래요. 저는 뭔가 항상 노력하는데, 걔네들은 별로 신경 안 쓰는 것 같아요. 이제 저도 관계를 끊어야 하나요?",
+      "turn": 17
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "지금은 그렇게 느껴지겠지만, 중학교 때 1등급이었다는 건 수학적 능력이 충분하다는 증거예요. 다만 학습 방법이나 접근이 고등학교 수준에 맞게 조정되지 않았을 수도 있어요.",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "turn": 18,
       "technique": [
-        "confrontation",
-        "validation",
-        "interpretation"
+        "open_ended_question"
       ]
     },
     {
-      "turn": 9,
       "speaker": "client",
-      "text": "학습 방법이요? 그냥 문제 많이 푸는 거 아니에요?"
+      "text": "아니요... 그런 얘기를 꺼내면 제가 너무 예민한 애처럼 보일까봐 못했어요. 그리고 걔네들이 어떻게 반응할지 무서워요.",
+      "turn": 19
     },
     {
-      "turn": 9,
       "speaker": "counselor",
-      "text": "문제를 많이 푸는 것도 중요하지만, 고등학교 수학은 개념 이해가 더 중요해요. 혹시 모르는 부분이 나왔을 때 누구한테 물어보거나 도움을 받나요?",
+      "text": "자신의 감정을 표현했을 때 친구들이 부정적으로 받아들일까봐 걱정되는군요. 그런 두려움은 자연스러운 거예요.",
+      "turn": 20,
       "technique": [
-        "information_giving",
-        "open_question"
+        "normalization"
       ]
     },
     {
-      "turn": 10,
       "speaker": "client",
-      "text": "아니요... 그냥 넘어가요. 물어보기도 귀찮고 어차피 몰라도 상관없을 것 같아서요."
+      "text": "근데 계속 이렇게 속으로만 삭이는 것도 힘들어요. 학교 가는 것도 이제 스트레스예요.",
+      "turn": 21
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "모르는 걸 그냥 넘어가다 보면 점점 더 쌓이게 되고, 그럼 더 어려워지는 악순환이 생기죠. 그래서 더 하기 싫어지는 거예요.",
+      "text": "마음속에 담아두는 것도 힘들고, 표현하는 것도 두렵고... 지금 정말 어려운 상황에 있네요. 만약 친구들에게 솔직하게 이야기한다면 어떻게 말하고 싶나요?",
+      "turn": 22,
       "technique": [
-        "interpretation",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... '너희가 나 빼고 만난 거 알아. 나는 그게 좀 속상했어' 이렇게 말하고 싶어요. 근데 막상 하려니까 입이 안 떨어져요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신의 감정을 'I-메시지'로 표현하고 싶다는 생각을 하고 있네요. 그건 아주 건강한 방법이에요. 실제로 말하는 게 어렵게 느껴지는 건 당연해요.",
+      "turn": 24,
+      "technique": [
         "validation"
       ]
     },
     {
-      "turn": 11,
       "speaker": "client",
-      "text": "맞아요... 이제는 선생님 말씀이 외계어처럼 들려요. 그냥 수업 시간에 게임 생각만 해요."
+      "text": "선생님은 제가 어떻게 하는 게 좋다고 생각하세요?",
+      "turn": 25
     },
     {
-      "turn": 11,
       "speaker": "counselor",
-      "text": "수업 내용이 이해가 안 되니 집중도 안 되고 다른 생각을 하게 되는군요. 게임은 많이 하는 편인가요?",
-      "technique": [
-        "restatement",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "네... 요즘 하루에 5~6시간은 하는 것 같아요. 게임할 때가 제일 재미있어요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "게임을 하면서 스트레스를 풀고 재미를 느끼고 있군요. 게임에서는 어떤 점이 재미있나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "음... 레벨업하고 아이템 얻고 그런 거요? 노력하면 바로바로 결과가 나오잖아요. 공부는 그런 게 없는데..."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "아, 중요한 걸 말씀하셨어요. 게임은 즉각적인 보상이 있지만, 공부는 노력과 결과 사이에 시간차가 있어서 보람을 느끼기 어렵다는 거네요.",
-      "technique": [
-        "validation",
-        "interpretation"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "맞아요! 게임은 하면 할수록 강해지는데, 공부는 해도 해도 똑같은 것 같아요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "그렇다면 공부도 게임처럼 작은 성취를 느낄 수 있는 방법을 만들어보면 어떨까요? 예를 들어, 하루에 수학 개념 하나씩 완벽하게 이해하기 같은 작은 목표 말이에요.",
-      "technique": [
-        "goal_setting",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그게 가능할까요? 이미 너무 뒤처져 있는데..."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "지금 당장 친구들을 따라잡으려고 하면 부담스럽겠죠. 하지만 어제의 나보다 오늘의 내가 조금이라도 나아지는 걸 목표로 하면 어떨까요?",
-      "technique": [
-        "validation",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "어제의 나보다 나아지기... 그건 뭔가 할 수 있을 것 같기도 해요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "좋아요. 그럼 작게 시작해 볼까요? 이번 주에는 딱 하나의 수학 개념만 제대로 이해해 보는 건 어떨까요? 어떤 단원부터 시작하고 싶으세요?",
-      "technique": [
-        "encouragement",
-        "goal_setting",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "음... 이차함수요. 거기서부터 막힌 것 같아요."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "이차함수가 막힌 지점이군요. 좋아요, 그럼 이번 주는 이차함수의 기본 개념 하나만 확실히 해보는 거예요. 30분만 집중해서 유튜브 강의 하나 보거나 교과서 읽어보는 거죠.",
-      "technique": [
-        "validation",
-        "goal_setting",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "30분이요? 그 정도면 할 수 있을 것 같은데... 근데 그거 하고 나면 뭐해요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "그거 하고 나면 스스로에게 보상을 주는 거예요. 게임처럼요. '오늘 30분 공부했으니 게임 1시간 하기' 이런 식으로 말이에요.",
-      "technique": [
-        "goal_setting",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "오, 그거 괜찮은데요? 그럼 게임도 하고 공부도 하고..."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "네, 둘 다 할 수 있어요. 다만 순서가 중요해요. 공부를 먼저 하고 게임을 보상으로 하는 거죠. 그렇게 하면 게임을 더 즐겁게 할 수 있을 거예요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "그렇게 하면 죄책감 없이 게임할 수 있겠네요. 요즘 게임하면서도 '공부해야 하는데...' 이런 생각 때문에 완전히 즐기지 못했거든요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "정확해요. 공부 안 한 채로 게임하면 즐겁지도 않고 불안하기만 하죠. 작은 목표를 달성하고 게임하면 마음 편히 즐길 수 있을 거예요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "좋아요, 해볼게요. 근데 선생님, 제가 계속 하게 될까요? 작심삼일로 끝날 것 같은데..."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "처음부터 완벽하게 할 필요는 없어요. 며칠 못 하더라도 다시 시작하면 돼요. 중요한 건 포기하지 않는 거예요. 그리고 매일 체크리스트를 만들어서 30분 공부하면 체크하는 것도 도움이 될 거예요.",
-      "technique": [
-        "encouragement",
-        "goal_setting",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "체크리스트요? 게임에서 퀘스트 완료하는 것처럼?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "정확해요! 바로 그거예요. 하루의 퀘스트를 완료하는 거죠. 일주일 동안 5일 이상 체크하면 자신에게 더 큰 보상을 주는 것도 좋아요.",
-      "technique": [
-        "validation",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "재밌을 것 같은데요? 한번 해볼게요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "좋아요. 일주일 후에 어땠는지 다시 이야기 나눠볼까요? 어려운 점이 있으면 그때 함께 해결 방법을 찾아보고요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "네, 다음 주에 또 올게요. 오늘 생각보다 괜찮았어요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "다행이에요. 처음에는 어색했을 텐데 열심히 이야기해 줘서 고마워요. 작은 성공을 경험하면서 조금씩 공부의 재미를 다시 찾아가길 바랄게요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 감사합니다!"
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "네, 다음 주에 좋은 소식 기대할게요. 파이팅!",
-      "technique": [
-        "encouragement"
-      ]
-    },
-    {
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "turn": 26,
-      "speaker": "client",
-      "text": "네! 열심히 해볼게요."
+      "technique": [
+        "collaboration"
+      ]
     },
     {
-      "turn": 26,
+      "speaker": "client",
+      "text": "음... 친구들에게 솔직하게 말하기, 아니면 그냥 거리를 두기, 아니면 아무 일 없었던 것처럼 지내기... 이 정도인 것 같아요.",
+      "turn": 27
+    },
+    {
       "speaker": "counselor",
-      "text": "응원할게요. 게임도 공부도 모두 즐겁게 할 수 있기를 바라요.",
+      "text": "세 가지 선택지를 스스로 찾아냈네요. 각각의 선택이 가져올 결과에 대해서는 어떻게 생각하나요?",
+      "turn": 28,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "솔직하게 말하면 관계가 더 좋아질 수도 있지만 더 나빠질 수도 있을 것 같고... 거리를 두면 덜 상처받겠지만 외로울 것 같아요. 그냥 넘어가면... 계속 이렇게 불편할 것 같아요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "각 선택의 장단점을 정말 잘 파악하고 있네요. 그럼 이 중에서 지금의 나에게 가장 중요한 게 뭘까요? 관계의 회복일까요, 아니면 자신의 감정을 보호하는 것일까요?",
+      "turn": 30,
+      "technique": [
+        "clarification"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "둘 다 중요한데... 그래도 저는 이 친구들이 소중하거든요. 한 번쯤은 솔직하게 얘기해볼 가치가 있는 것 같아요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구들과의 관계가 소중하다는 걸 분명히 알고 있고, 그래서 용기를 내보고 싶다는 마음이 생긴 거네요. 정말 대단해요.",
+      "turn": 32,
+      "technique": [
+        "affirmation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "근데 어떻게 시작해야 할지 모르겠어요. 그냥 단톡방에 말할까요, 아니면 한 명씩 따로 만날까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 질문이에요. 어떤 방법이 더 편하고 안전하게 느껴지나요? 그리고 친구들 중에 특히 더 가까운 친구가 있나요?",
+      "turn": 34,
+      "technique": [
+        "guidance"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 지민이가 제일 친한 것 같아요. 지민이한테 먼저 조심스럽게 물어보는 게 나을 것 같아요. 단톡방은 너무 부담스러워요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "가장 가까운 친구에게 먼저 조심스럽게 접근해보겠다는 계획을 세웠네요. 그건 현명한 선택인 것 같아요. 오늘 상담을 통해 어떤 도움이 되었나요?",
+      "turn": 36,
+      "technique": [
+        "summarization"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "제 감정이 이상한 게 아니라는 걸 알게 됐어요. 그리고 어떻게 해야 할지 방향이 좀 잡힌 것 같아요. 감사합니다, 선생님.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "스스로 해결 방법을 찾아낸 건 모두 본인의 힘이에요. 다음에 또 어려운 일이 생기면 언제든 찾아오세요. 응원할게요.",
+      "turn": 38,
       "technique": [
         "encouragement"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "15세",
-    "gender": "여성",
-    "occupation": "중학교 3학년",
-    "background": "시험만 보면 머리가 하얘지고 아는 것도 틀리는 시험 불안"
-  }
+  ]
 }

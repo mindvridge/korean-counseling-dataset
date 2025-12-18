@@ -1,37 +1,27 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "갈등 해결",
-    "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "interpretation",
-      "restatement",
-      "clarification",
-      "confrontation",
-      "closed_question"
-    ]
+    "topic": "우울감과 무기력",
+    "total_turns": 27,
+    "generated_at": "2025-12-18T07:14:28.201080+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_대인관계_0021_c1d2e3f4",
-    "category": "adult",
-    "topic": "갈등 해결"
+  "client_profile": {
+    "age": "28세",
+    "gender": "여성",
+    "occupation": "회사원",
+    "background": "우울감과 무기력 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:38.698816+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "사람들이 약속을 안 지키면 화가 나요. 한 번이라도 어기면 그 사람을 못 믿겠어요."
+      "text": "부모님과의 관계가 어려워요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "약속 이행에 대한 기준이 엄격하시군요. 한 번의 실수도 용납하기 어려우신 것 같아요. 이런 성향이 언제부터 있었나요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 부모님과의 관계가 어려워요....라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
@@ -39,345 +29,366 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "어릴 때부터요. 아버지가 약속을 안 지키는 사람이었거든요. '주말에 놀아주겠다', '다음에 사주겠다' 이런 거... 다 거짓말이었어요."
+      "text": "지금 다니는 회사에서 5년 정도 일했는데요. 최근에 헤드헌터를 통해서 더 큰 회사에서 제안이 들어왔어요. 연봉도 40% 정도 올려준다고 하고..."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "어릴 때 아버지의 약속 불이행으로 상처를 받으셨군요. 그 경험이 지금의 신뢰 기준에 영향을 미치고 있네요.",
+      "text": "5년 동안 쌓은 경력을 인정받은 좋은 기회가 온 거네요. 그런데 결정이 어려우신 이유가 있으신가요?",
       "technique": [
-        "empathy",
-        "interpretation"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "맞아요. 그래서 저는 절대 약속을 안 어겨요. 다른 사람들도 그래야 한다고 생각해요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "본인은 약속을 철저히 지키시고, 다른 사람들에게도 같은 기준을 적용하시는군요. 이게 관계에 어떤 영향을 미치나요?",
-      "technique": [
-        "empathy",
-        "restatement",
+        "validation",
         "open_question"
       ]
     },
     {
+      "turn": 3,
+      "speaker": "client",
+      "text": "그게... 지금 회사 사람들이랑 정말 잘 지내거든요. 팀장님도 좋으시고, 동료들도 다 좋고... 근데 연봉 차이가 커서 포기하기도 아깝고..."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "현재 직장의 좋은 인간관계와 새로운 회사의 경제적 조건 사이에서 갈등하고 계시는군요. 양쪽 다 중요한 부분이라 고민이 되시겠어요.",
+      "technique": [
+        "reflection",
+        "empathy"
+      ]
+    },
+    {
       "turn": 4,
       "speaker": "client",
-      "text": "사람들이 저를 까다롭다고 해요. 그리고 친구들이 별로 없어요. 한두 번 약속 어기면 연락을 끊어버리니까..."
+      "text": "네... 밤에 잠도 제대로 못 자요. 계속 이 생각 저 생각하다가... 아내는 연봉이 높은 데로 가라고 하는데, 저는 확신이 안 서요."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "높은 기준 때문에 관계가 오래 유지되지 못하는군요. 약속을 어긴 사람들은 어떤 이유였나요?",
+      "text": "결정을 못 내려서 수면까지 영향을 받고 계시고, 배우자와도 의견이 다른 상황이군요. 무엇이 가장 걱정되시나요?",
       "technique": [
-        "reflection",
+        "emotion_labeling",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "새 회사에서 적응을 못하면 어쩌나 하는 게 제일 큰 걱정이에요. 지금은 눈 감고도 일할 수 있을 만큼 익숙한데... 새로운 환경, 새로운 사람들..."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "익숙함에서 벗어나는 것에 대한 불안과 두려움이 크시군요. 변화 자체가 스트레스로 느껴지는 거죠. 혹시 과거에 비슷한 경험이 있으셨나요?",
+      "technique": [
+        "emotion_labeling",
         "clarification"
       ]
     },
     {
-      "turn": 5,
+      "turn": 6,
       "speaker": "client",
-      "text": "갑자기 일이 생겼다거나, 깜빡했다거나... 변명들이죠."
+      "text": "5년 전에 지금 회사로 왔을 때도 그랬어요. 처음 몇 달은 정말 힘들었거든요. 그때 생각하면... 또 그걸 겪어야 하나 싶어요."
     },
     {
-      "turn": 5,
+      "turn": 6,
       "speaker": "counselor",
-      "text": "그걸 변명으로 보시는군요. 혹시 정말 불가피한 상황일 수도 있다고 생각해보신 적 있나요?",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
-        "reflection",
+        "empathy",
         "confrontation"
       ]
     },
     {
-      "turn": 6,
+      "turn": 7,
       "speaker": "client",
-      "text": "... 있을 수도 있겠죠. 근데 제가 약속을 지키는데 왜 다른 사람들은 못 지켜요?"
+      "text": "음... 그때보다는 경력도 쌓였고, 자신감도 생긴 것 같긴 해요. 기술적으로도 많이 성장했고..."
     },
     {
-      "turn": 6,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "본인의 기준을 다른 사람에게 적용하고 계시네요. 혹시 본인은 한 번도 약속을 못 지킨 적이 없으세요?",
+      "text": "맞아요. 5년 전의 신입 개발자와 지금의 5년차 경력자는 다른 역량과 경험을 가지고 있죠. 그 점을 고려하면 적응 과정도 달라질 수 있지 않을까요?",
       "technique": [
-        "interpretation",
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "그렇게 생각하니 좀 다르네요. 근데... 지금 회사 팀장님한테 너무 미안해요. 제가 나가면 팀에 구멍이 생기거든요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "validation",
         "closed_question"
       ]
     },
     {
-      "turn": 7,
+      "turn": 9,
       "speaker": "client",
-      "text": "없어요. 아파도 가고, 힘들어도 가요. 약속은 약속이니까요."
+      "text": "배신이라고까지는... 근데 팀장님이 저를 정말 아껴주셨거든요. 힘들 때 많이 도와주시고... 그래서 더 미안한 거 같아요."
     },
     {
-      "turn": 7,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "본인에게 매우 엄격하시군요. 그런데 그렇게까지 해야 할 때도 있나요? 아플 때는 쉬는 게 맞지 않을까요?",
+      "text": "은혜를 입은 분에게 보답하고 싶은 마음이 있으시군요. 훌륭한 태도예요. 그런데 자신의 커리어 발전과 팀에 대한 의리, 둘 중 하나를 선택해야만 할까요?",
       "technique": [
         "validation",
         "confrontation"
       ]
     },
     {
-      "turn": 8,
+      "turn": 10,
       "speaker": "client",
-      "text": "그래도... 약속은 지켜야죠."
+      "text": "음... 어떻게든 양쪽 다 지킬 수 있으면 좋겠지만... 쉽지 않죠."
     },
     {
-      "turn": 8,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "약속을 지키는 게 중요하지만, 때로는 상황이 변할 수 있어요. 그리고 완벽한 사람은 없거든요.",
+      "text": "완벽한 해결책은 없을 수 있어요. 하지만 이직을 한다 해도 충분한 인수인계 기간을 두고, 팀장님께 감사를 표현하는 등 최선을 다할 수는 있죠. 그렇게 하면 죄책감을 줄일 수 있을 거예요.",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 9,
-      "speaker": "client",
-      "text": "그럼 사람들한테 계속 실망해야 하나요?"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "실망하는 이유가 기대가 너무 높아서일 수 있어요. '약속은 100% 지켜져야 한다'는 기대 말이에요. 좀 더 유연한 기대를 갖는다면 어떨까요?",
-      "technique": [
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "유연한 기대요?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "네. '약속은 일반적으로 지켜지지만, 불가피한 상황에서는 어겨질 수 있다. 그럴 때 어떻게 대처하는지가 중요하다' 같은 거요.",
-      "technique": [
-        "clarification",
-        "information_giving"
-      ]
-    },
-    {
       "turn": 11,
       "speaker": "client",
-      "text": "대처요?"
+      "text": "그렇긴 하네요... 그런데 새 회사에서 제안한 조건이 정말 좋을까요? 연봉은 높지만 일이 훨씬 힘들 수도 있잖아요."
     },
     {
       "turn": 11,
       "speaker": "counselor",
-      "text": "네. 약속을 못 지킬 때 미리 연락하고 사과하고 대안을 제시하는 거죠. 그런 태도가 있으면 신뢰가 유지될 수 있어요.",
+      "text": "새 회사의 근무 환경에 대한 정보가 부족해서 불안하신 거네요. 혹시 새 회사에 대해 조사해보셨나요? 실제 근무하는 사람들 이야기를 들어보셨다든지?",
       "technique": [
         "clarification",
-        "information_giving"
+        "closed_question"
       ]
     },
     {
       "turn": 12,
       "speaker": "client",
-      "text": "... 그렇게 생각하면 좀 다르네요."
+      "text": "아직은 못 해봤어요. 어떻게 알아봐야 할지도 모르겠고..."
     },
     {
       "turn": 12,
       "speaker": "counselor",
-      "text": "맞아요. 약속 자체보다 그 사람의 전반적인 태도가 더 중요할 수 있어요. 한 번의 실수로 사람을 판단하지 말고 패턴을 보는 거죠.",
+      "text": "정보 수집이 필요할 것 같네요. 블라인드나 잡플래닛 같은 곳에서 회사 리뷰를 보거나, 지인 중에 그 회사 아는 사람이 있는지 찾아보는 것도 방법이에요. 헤드헌터에게 구체적인 업무 강도나 문화에 대해 물어볼 수도 있고요.",
       "technique": [
-        "encouragement",
-        "information_giving"
+        "information_giving",
+        "structuring"
       ]
     },
     {
       "turn": 13,
       "speaker": "client",
-      "text": "패턴이요?"
+      "text": "아, 그런 방법들이 있네요. 헤드헌터한테는 좋은 말만 들을 줄 알았는데 직접 물어봐도 되는 거예요?"
     },
     {
       "turn": 13,
       "speaker": "counselor",
-      "text": "네. 가끔 어기지만 대부분 지키고 성의를 보이는 사람과, 자주 어기고 변명만 하는 사람은 다르죠. 그 차이를 구별하는 거예요.",
+      "text": "물론이죠. 구체적으로 물어볼수록 좋아요. 평균 퇴근 시간, 야근 빈도, 팀 분위기, 이직률 등을 물어보세요. 헤드헌터는 성사시키고 싶어하겠지만, 직접적인 질문에는 어느 정도 솔직하게 답할 거예요.",
       "technique": [
-        "clarification",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "저는 그냥 한 번이라도 어기면 끝이었는데..."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "그건 너무 엄격한 기준이에요. 본인도 실수할 수 있고, 다른 사람도 그렇죠. 완벽을 요구하면 아무도 남지 않아요.",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "... 그래서 친구가 없는 건가..."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "스스로 깨달으셨네요. 기준을 조금 낮추면 관계가 더 풍요로워질 수 있어요. 완벽하지 않아도 괜찮은 사람들을 받아들이는 거죠.",
-      "technique": [
-        "validation",
+        "information_giving",
         "encouragement"
       ]
     },
     {
-      "turn": 16,
+      "turn": 14,
       "speaker": "client",
-      "text": "어떻게 기준을 낮춰요? 불안할 것 같은데..."
+      "text": "알겠습니다. 그렇게 해볼게요. 그런데... 만약 조사해봤는데 괜찮은 회사라면, 그럼 가야 하는 건가요?"
     },
     {
-      "turn": 16,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "한 번에 완전히 바꿀 필요는 없어요. 다음에 누군가 약속을 못 지키면, 바로 끊지 말고 이유를 들어보는 거예요.",
+      "text": "결정은 결국 본인이 하셔야 해요. 다만 결정할 때 고려해야 할 것들을 함께 정리해보면 어떨까요? 지금까지 말씀하신 걸 보면 여러 요소가 있는 것 같은데요.",
       "technique": [
-        "information_giving",
+        "structuring",
         "goal_setting"
       ]
     },
     {
+      "turn": 15,
+      "speaker": "client",
+      "text": "네, 정리하면 좋을 것 같아요. 머릿속이 너무 복잡해서..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "좋아요. 지금까지 나온 요소들을 보면 연봉, 인간관계, 적응에 대한 불안, 현 직장에 대한 의리, 업무 강도 등이 있네요. 이 중에서 우선순위를 매겨보면 어떨까요?",
+      "technique": [
+        "summarization",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "우선순위요? 음... 일단 가족이 있으니까 경제적인 부분도 중요하고... 근데 행복도 중요하고..."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "validation",
+        "confrontation"
+      ]
+    },
+    {
       "turn": 17,
       "speaker": "client",
-      "text": "이유를 들어봐요?"
+      "text": "그건... 아니겠죠. 가능성은 있죠. 제가 너무 현재 상황만 보고 있었나봐요."
     },
     {
       "turn": 17,
       "speaker": "counselor",
-      "text": "네. 그리고 그 사람의 전반적인 모습을 고려해보는 거죠. '이 사람이 평소에는 어땠지?' '이번이 처음인가?' 같은 거요.",
+      "text": "현재의 확실함과 미래의 불확실함을 비교하는 건 당연해요. 하지만 미래는 만들어가는 것이기도 하죠. 새 직장에서도 좋은 관계를 만들 수 있다고 믿으시나요?",
       "technique": [
-        "clarification",
-        "structuring"
+        "validation",
+        "closed_question"
       ]
     },
     {
       "turn": 18,
       "speaker": "client",
-      "text": "해볼게요. 근데 어렸을 때 상처가 계속 생각나면 어떡하죠?"
+      "text": "할 수 있을 것 같긴 해요. 지금도 처음엔 낯설었지만 잘 적응했으니까..."
     },
     {
       "turn": 18,
       "speaker": "counselor",
-      "text": "그럴 때는 '지금은 어릴 때가 아니다. 이 사람은 아버지가 아니다'라고 스스로에게 말해주세요. 과거와 현재를 분리하는 거예요.",
+      "text": "맞아요. 이미 한 번 해낸 경험이 있으시잖아요. 그리고 연봉 40% 인상은 가족의 경제적 안정에도 큰 도움이 될 거예요. 아내분도 그 부분을 고려하시는 것 같고요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "맞아요. 아내가 내년에 둘째 계획하고 있거든요. 육아휴직하면 수입이 줄어드니까... 그것도 생각해야 하는데..."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "앞으로의 가족 계획도 중요한 고려사항이네요. 그렇다면 이직이 단순히 현재의 선택이 아니라 가족의 미래를 위한 투자일 수도 있겠어요.",
+      "technique": [
+        "reflection",
+        "restatement"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "그렇게 보니까 조금 다르게 느껴지네요. 제 욕심이 아니라 가족을 위한 선택이라고 생각하면..."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "관점이 바뀌니 죄책감도 줄어드는 것 같네요. 그런데 이직을 결정하기 전에 현 회사에서 연봉 협상을 시도해보신 적은 있나요?",
+      "technique": [
+        "emotion_labeling",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "아니요, 그냥 정해진 대로 받았어요. 협상을 할 수 있는 건가요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "물론이죠. 다른 회사에서 제안이 온 상황을 팀장님께 솔직하게 말씀드리고, 현 회사에서 머물 의향이 있지만 경제적 부분이 고민이라고 하시는 거예요. 회사에서 어떻게 대응하는지 보는 것도 하나의 방법이에요.",
       "technique": [
         "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "알겠습니다. 연습해볼게요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "잘하실 거예요. 다음 주에 어떠셨는지 얘기 나눠봐요. 완벽하지 않아도 괜찮다는 걸 기억하세요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "감사합니다."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "천천히 가도 돼요. 본인에게도, 다른 사람에게도 더 너그러워지길 바라요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "오늘 이야기 나눠서 마음이 한결 가벼워진 것 같아요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
-      "technique": [
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "앞으로 어떻게 하면 좋을지 조금 더 생각해볼게요."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "천천히 생각해보시고, 다음에 만나서 어떻게 지내셨는지 이야기 나눠봐요.",
-      "technique": [
-        "encouragement",
         "structuring"
       ]
     },
     {
+      "turn": 22,
+      "speaker": "client",
+      "text": "그런 방법도 있네요! 근데 그렇게 했다가 회사에서 기분 나빠하면 어쩌죠?"
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "정직하게 소통하는 건 협박이 아니에요. '다른 제안이 있지만 이 회사에 머물고 싶다. 하지만 가족의 경제적 상황도 고려해야 한다'는 건 충분히 이해받을 수 있는 입장이에요. 만약 그걸로 기분 나빠하는 회사라면 그것도 중요한 정보죠.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 23,
       "speaker": "client",
-      "text": "네, 다음 상담 때 뵙겠습니다."
+      "text": "아... 맞네요. 회사의 반응을 보는 것도 의미가 있겠네요."
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "네, 그때까지 자신을 잘 돌봐주세요. 응원하고 있을게요.",
+      "text": "그렇죠. 그럼 지금까지 이야기한 것들을 정리해볼까요? 어떤 단계로 진행하실 건가요?",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "먼저 새 회사에 대해 조사를 하고, 헤드헌터한테도 구체적으로 물어보고... 그 다음에 현 회사 팀장님께 솔직하게 말씀드려보는 거죠?"
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "좋은 계획이에요. 정보를 충분히 수집한 후에 현명한 결정을 내리는 거죠. 기한은 언제까지인가요?",
+      "technique": [
+        "encouragement",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "새 회사에서 2주 안에 답을 달라고 했어요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "2주면 충분히 조사하고 결정할 시간이 있네요. 이번 주에 정보 수집하고, 다음 주 초에 팀장님과 대화하는 건 어떨까요?",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "그렇게 하면 되겠네요. 마음이 좀 정리되는 것 같아요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "처음보다 훨씬 명확해지셨죠? 중요한 건 어떤 선택을 하든 그게 충분한 고민과 정보를 바탕으로 한 결정이라는 거예요. 그러면 후회가 덜할 거예요.",
       "technique": [
         "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 24,
+      "turn": 27,
       "speaker": "client",
-      "text": "감사합니다. 선생님 덕분에 힘이 나요."
+      "text": "맞아요. 이제 뭘 해야 할지 알겠어요. 감사합니다."
     },
     {
-      "turn": 24,
+      "turn": 27,
       "speaker": "counselor",
-      "text": "힘내세요. 잘 해내실 수 있을 거예요.",
-      "technique": [
-        "empathy",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 열심히 해볼게요!"
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "좋아요, 다음 주에 뵙겠습니다.",
+      "text": "스스로 답을 찾으셨어요. 결정 과정에서 또 어려움이 있으면 언제든 다시 오세요. 좋은 선택 하시길 바랄게요.",
       "technique": [
         "encouragement",
         "structuring"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "33세",
-    "gender": "남성",
-    "occupation": "프리랜서",
-    "background": "주변 사람들과의 갈등을 해결하지 못하는 상황"
-  }
+  ]
 }

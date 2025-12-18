@@ -1,456 +1,342 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "수면 문제",
-    "total_turns": 30,
-    "quality_indicators": [
-      "reflection",
-      "open_question",
-      "emotion_labeling",
-      "clarification",
-      "closed_question",
-      "encouragement",
-      "information_giving",
-      "interpretation"
-    ]
+    "topic": "수면장애",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:29.177369+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0005_u1v2w3x4",
-    "category": "adult",
-    "topic": "수면 문제"
+  "client_profile": {
+    "age": "40세",
+    "gender": "남성",
+    "occupation": "관리자",
+    "background": "수면장애 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.831684+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "팀 내 분위기가 너무 안 좋아서 출근이 괴로워요."
+      "text": "직장 상사 때문에 미치겠어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "팀 분위기 때문에 출근이 괴로우시군요. 구체적으로 어떤 상황인가요?",
-      "technique": [
-        "empathy",
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
+      "text": "안녕하세요. 편하게 말씀해 주세요. 직장 상사 때문에 미치겠어요....라고 하셨는데, 어떤 일이 있었나요?",
       "turn": 2,
-      "speaker": "client",
-      "text": "3개월 전에 신입 팀원이 들어왔는데, 그 친구랑 계속 부딪혀요. 제 말을 안 듣고 자기 방식대로만 하려고 해요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "신입 팀원이 본인의 의견을 따르지 않고 자기 방식을 고집한다고 느끼시는군요. 구체적으로 어떤 일들이 있었나요?",
       "technique": [
         "empathy",
-        "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "제가 'A 방식으로 하자'고 하면 '왜 B 방식은 안 되냐'고 따져 묻고, 회의 때마다 제 결정에 반론을 제기해요."
+      "text": "요즘 제가 하는 일이 의미가 있는 건지 모르겠어요. 교사로 10년을 일했는데, 요즘은 학교 가는 게 너무 힘들어요.",
+      "turn": 3
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "회의 때마다 본인의 결정에 반론을 제기하는 상황이 반복되고 있군요. 그런 상황에서 어떤 감정이 드세요?",
-      "technique": [
-        "empathy",
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
+      "text": "10년간 교직에 계셨는데 최근 들어 학교 가는 것이 힘들어지셨군요. 구체적으로 어떤 점이 가장 힘드신가요?",
       "turn": 4,
-      "speaker": "client",
-      "text": "화나고, 무시당하는 느낌이에요. 저는 PM이고 5년차인데, 신입이 감히... 이런 생각도 들고요."
+      "technique": [
+        "reflection"
+      ]
     },
     {
-      "turn": 4,
+      "speaker": "client",
+      "text": "학생들이 수업에 집중을 안 해요. 스마트폰만 보고, 제가 뭘 말해도 관심이 없어 보여요. 그리고 학부모들은... 자기 아이만 특별대우 해달라고 하고.",
+      "turn": 5
+    },
+    {
       "speaker": "counselor",
-      "text": "화와 무시당하는 느낌, 그리고 '신입이 감히'라는 생각도 드시는군요. 그 팀원의 반론이 업무적으로는 어떤가요? 타당한 부분이 있나요?",
+      "text": "학생들의 무관심과 학부모들의 과도한 요구 사이에서 많이 지쳐가고 계시는 것 같네요. 양쪽에서 오는 압박이 상당히 부담스러우셨겠어요.",
+      "turn": 6,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 맞아요. 예전에는 그래도 보람을 느꼈는데... 요즘은 아침에 일어나는 것부터가 고역이에요. 출근하기 싫어서 알람을 계속 미루게 돼요.",
+      "turn": 7
+    },
+    {
+      "speaker": "counselor",
+      "text": "예전에 느끼셨던 보람이 지금은 느껴지지 않으시는군요. 아침에 일어나는 것조차 힘들다는 건 정말 많이 힘드신 상태라는 신호예요. 이런 상태가 얼마나 지속되셨나요?",
+      "turn": 8,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "한 6개월 정도 된 것 같아요. 작년 2학기부터였던 것 같은데... 그때 학부모 한 분이랑 크게 마찰이 있었거든요.",
+      "turn": 9
+    },
+    {
+      "speaker": "counselor",
+      "text": "6개월 전 학부모와의 마찰이 있었던 게 계기가 되었군요. 그 일에 대해 좀 더 말씀해주실 수 있으실까요?",
+      "turn": 10,
+      "technique": [
+        "open-ended question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "한 학생이 수업 중에 계속 떠들고 다른 애들 방해해서 제가 주의를 줬어요. 그런데 그 학부모가 교장실까지 찾아가서 제가 자기 아이를 차별한다고 난리를 쳤어요.",
+      "turn": 11
+    },
+    {
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 12,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그 일 이후로 학생들 지도하는 게 무서워졌어요. 뭘 해도 민원이 들어올까 봐. 그냥 아무것도 안 하게 되더라고요.",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 경험이 트라우마처럼 남아서 지금도 학생 지도에 영향을 미치고 있군요. 교사로서의 역할을 제대로 하고 싶은데 두려움 때문에 움츠러들게 되는 상황이 참 힘드시겠어요.",
+      "turn": 14,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 저는 교사가 되고 싶어서 정말 열심히 공부했는데... 이게 제가 원했던 모습이 아니거든요. 요즘은 그냥 월급받는 기계 같아요.",
+      "turn": 15
+    },
+    {
+      "speaker": "counselor",
+      "text": "처음 교사가 되셨을 때는 어떤 마음이셨나요? 그때의 모습과 지금의 모습 사이에서 큰 괴리감을 느끼시는 것 같아요.",
+      "turn": 16,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "처음엔 정말 열정적이었어요. 아이들이 성장하는 걸 보는 게 너무 좋았고, 제가 그들에게 긍정적인 영향을 줄 수 있다는 게 뿌듯했죠.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "turn": 18,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그래서 더 괴로운 것 같아요. 제가 변한 건지, 환경이 변한 건지... 아니면 제가 교사로서 부족한 건지 모르겠어요.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신을 탓하고 계시는군요. 하지만 말씀하신 상황들을 들어보면, 이건 개인의 문제라기보다는 교육 현장의 구조적인 어려움과 맞닿아 있는 것 같아요. 본인을 너무 책망하지 않으셨으면 해요.",
+      "turn": 20,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각해본 적은 없었네요. 항상 제가 부족해서 그런 줄만 알았어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "10년간 교직을 유지해오신 것 자체가 대단한 일이에요. 그 과정에서 분명 많은 학생들에게 좋은 영향을 주셨을 거예요. 지금 힘든 시기를 겪고 있는 것이지, 선생님이 부족한 게 아니에요.",
+      "turn": 22,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "감사합니다... 그런 말 들으니까 좀 위로가 되네요. 그런데 이 상황을 어떻게 해결해야 할지 모르겠어요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 당장 모든 걸 해결하려고 하지 않으셔도 괜찮아요. 우선 선생님께서 지금 어떤 것이 가장 필요하다고 느끼시나요?",
+      "turn": 24,
+      "technique": [
+        "open-ended question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 일단 마음의 여유가 필요한 것 같아요. 너무 긴장하고 있었던 것 같아요. 그리고 다시 학생들을 대하는 게 두렵지 않았으면 좋겠어요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "마음의 여유와 학생들을 대하는 두려움 해소, 이 두 가지가 중요하게 느껴지시는군요. 먼저 마음의 여유를 위해 요즘 본인을 위한 시간을 가지고 계신가요?",
+      "turn": 26,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아니요... 퇴근하면 그냥 집에서 누워있거나 텔레비전만 봐요. 아무것도 하기 싫어요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "turn": 28,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "예전에는 요가도 하고 친구들도 자주 만났는데... 요즘은 그럴 기력이 없어요. 사람 만나는 것도 피곤하고.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "번아웃 상태에서는 그런 활동들이 더 부담스럽게 느껴질 수 있어요. 작은 것부터 시작해보는 건 어떨까요? 예를 들어 주말에 10분 정도 가벼운 스트레칭이나 산책 같은 것부터요.",
+      "turn": 30,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그 정도는 할 수 있을 것 같아요. 그런데 그게 도움이 될까요?",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "작은 실천들이 모여서 변화를 만들어요. 중요한 건 본인을 돌보는 시간을 의식적으로 갖는다는 거예요. 그리고 학생들을 대하는 두려움에 대해서는, 그 두려움이 생긴 게 당연한 반응이라는 걸 먼저 인정하는 게 중요해요.",
+      "turn": 32,
+      "technique": [
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "당연한 반응이라고요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "네. 부당한 상황을 겪으셨을 때 조심스러워지는 건 자연스러운 방어기제예요. 다만 그것이 지금 선생님의 본래 모습을 가로막고 있는 거죠. 천천히 그 두려움을 이해하고 다루는 연습이 필요해요.",
+      "turn": 34,
+      "technique": [
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "어떻게 다루면 될까요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "우선 상담을 통해 그 경험을 충분히 처리하는 것이 필요하고, 동료 교사들과의 지지 체계도 중요해요. 학교에 믿고 이야기할 수 있는 동료가 계신가요?",
+      "turn": 36,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "한 명 있긴 한데... 제 얘기 하면 부담 줄까 봐 말 안 했어요.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "혼자 끙끙 앓고 계셨군요. 하지만 어려움을 나누는 것도 관계의 일부예요. 그 동료분도 선생님의 이야기를 들어주고 싶어 하실 수 있어요. 다음 주까지 작은 목표를 세워볼까요?",
+      "turn": 38,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "어떤 목표요?",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "첫째, 주 3회 10분씩 본인을 위한 시간 갖기. 둘째, 믿을 수 있는 동료와 가벼운 대화 한 번 나눠보기. 어떠세요?",
+      "turn": 40,
+      "technique": [
+        "goal-setting"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "할 수 있을 것 같아요. 오늘 상담하고 나니까 조금 마음이 가벼워진 것 같아요. 제가 잘못한 게 아니라는 말이 특히 위로가 됐어요.",
+      "turn": 41
+    },
+    {
+      "speaker": "counselor",
+      "text": "다행이에요. 선생님은 충분히 잘하고 계세요. 다만 지금 힘든 시기를 지나고 있는 거예요. 다음 상담 때 이번 주 어떠셨는지 함께 나눠보도록 해요. 오늘 용기 내어 오신 것만으로도 큰 첫걸음이에요.",
+      "turn": 42,
+      "technique": [
+        "encouragement"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "감사합니다. 다음 주에 또 뵐게요.",
+      "turn": 43
+    },
+    {
+      "speaker": "counselor",
+      "text": "오늘 이야기 나눠주셔서 감사합니다. 다음에 또 만나요.",
       "technique": [
         "empathy",
-        "reflection",
-        "open_question"
+        "supportive"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "... 솔직히 가끔은 맞는 말도 해요. 근데 그게 문제가 아니라 태도가 문제죠. 존댓말도 안 쓰고, 저를 동료처럼 대해요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "내용보다 태도 - 반말, 선후배 관계를 무시하는 것 - 가 더 불편하시군요. 그 팀원에게 이런 불편함을 직접 말씀해보신 적 있으세요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "empathy",
-        "clarification",
-        "closed_question"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 6,
       "speaker": "client",
-      "text": "회의 때 '내 의견을 존중해줬으면 좋겠다'고 돌려서 말했는데, 그 친구는 '전 PM님 의견 존중해요. 그냥 제 생각을 말하는 것뿐이에요'라고 하더라고요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "간접적으로 표현했지만 상대방은 자신이 존중하고 있다고 생각하는 거네요. 그 대답을 들었을 때 어떠셨어요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "reflection",
-        "emotion_labeling"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 7,
       "speaker": "client",
-      "text": "더 화났죠. '모르는 척하네' 싶었어요. 다른 팀원들도 이 상황을 불편해해요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 7,
       "speaker": "counselor",
-      "text": "'모르는 척한다'고 느끼셨고, 다른 팀원들도 불편해한다고 하셨는데, 다른 팀원들이 구체적으로 뭐라고 하나요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "직접적으로 말하진 않지만 눈치로 알아요. 회의 때 분위기가 싸해지거든요. 그 친구도 느낄 텐데 행동을 안 바꿔요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "다른 팀원들의 직접적인 피드백보다는 분위기로 추측하고 계시는 거군요. 혹시 그 팀원 입장에서는 어떻게 느낄 것 같으세요?",
-      "technique": [
-        "clarification",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "그 친구 입장이요? 글쎄요... 생각해본 적 없는데요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "한 번 생각해볼까요? 그 팀원은 왜 계속 다른 의견을 제시하고, 질문을 할까요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "... 잘난 척하려고? 아니면 정말로 그게 더 나은 방법이라고 생각해서?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "두 가지 가능성을 생각해주셨네요. 그 친구의 제안 중에 실제로 채택된 것도 있나요?",
-      "technique": [
-        "encouragement",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "한두 번 있었어요. 그때는 결과가 좋았죠. 근데 그게 중요한 게 아니라..."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "결과는 좋았지만 그래도 불편하시군요. 무엇이 가장 불편하신가요? 내용인가요, 태도인가요, 아니면 본인의 권위가 도전받는 느낌인가요?",
-      "technique": [
-        "reflection",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "... 권위가 도전받는 느낌이요. PM인 제가 결정하면 따라야 하는 거 아닌가요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "PM으로서 최종 결정권을 가지고 있고, 그 권위가 존중받아야 한다고 느끼시는군요. 그런데 권위와 일방적 복종은 다를 수 있어요. 의견을 제시하는 것과 결정을 따르지 않는 것도 다르고요.",
-      "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "무슨 뜻이죠?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "팀원이 회의에서 다른 의견을 제시하는 것은 권위에 대한 도전이 아니라 더 나은 결과를 위한 협력일 수 있어요. 최종 결정 후에 그 결정을 따르지 않는 게 문제인 거죠. 최종 결정 후에도 따르지 않나요?",
-      "technique": [
-        "information_giving",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "아니요... 결정되면 따라요. 잘 해내기까지 해요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "그럼 그 팀원은 의견 제시는 하지만 최종 결정은 존중하고 있는 거네요. 그렇다면 문제는 '불복종'이 아니라 '의견 제시 방식'일 수 있겠어요.",
-      "technique": [
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그런가요? 근데 왜 이렇게 불편한 걸까요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "본인이 생각하시는 '신입-선배 관계'와 실제 그 팀원의 태도가 다르기 때문일 수 있어요. 혹시 신입은 어떻게 행동해야 한다고 생각하세요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "선배 말 경청하고, 배우려는 자세로... 반박보다는 질문을 하고..."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "경청, 배우는 자세, 질문... 그런데 그 팀원은 반박하고, 대등하게 의견을 내고 있으니 기대와 다른 거네요. 요즘 젊은 세대는 위계보다 수평적 소통을 중요하게 생각하는 경향이 있어요.",
-      "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "그래서 저랑 부딪히는 건가요? 저는 좀 전통적인 방식을 선호하는데..."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "세대 간, 소통 방식 간 차이가 갈등의 원인일 수 있겠네요. 이 상황을 개선하고 싶으신가요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "당연하죠. 이대로는 계속 일할 수 없어요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "그럼 두 가지 접근을 해볼 수 있어요. 하나는 그 팀원과 1:1로 솔직한 대화를 나누는 것, 다른 하나는 팀의 소통 규칙을 함께 정하는 거예요. 어떤 게 더 가능할 것 같으세요?",
-      "technique": [
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "1:1 대화는... 뭐라고 말해야 할지 모르겠어요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "그럼 연습해볼까요? '당신의 의견은 가치 있지만, 회의 때 표현 방식이 때로 공격적으로 느껴진다. 앞으로는 이렇게 해주면 좋겠다' 이런 식으로요.",
-      "technique": [
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "그렇게 말하면... 들어줄까요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "확실하진 않지만, 지금처럼 간접적으로 표현하는 것보다는 낫겠죠. 중요한 건 상대방을 비난하지 않고 본인의 느낌을 전달하는 거예요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "제 느낌이요?"
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "네. '너는 반항적이야'(비난)가 아니라 '내가 무시당한다고 느껴져'(느낌 표현) 이런 식으로요. 그리고 구체적인 행동을 요청하세요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "예를 들면 어떤 거요?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "'회의 때 다른 의견이 있으면, 반박하기보다는 \"이런 방법은 어떨까요?\"라는 식으로 제안해주면 좋겠어요' 같은 거죠.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "아, 그렇게 구체적으로 말하는 거군요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "맞아요. 그리고 본인도 변화할 부분을 생각해보세요. 혹시 그 팀원의 의견을 처음부터 방어적으로 받아들이진 않으셨나요?",
-      "technique": [
-        "encouragement",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "... 그럴 수도 있겠네요. '또 반박하겠지' 하는 마음으로 듣긴 했어요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "그럼 그것도 바꿔볼 수 있어요. '반박'이 아니라 '또 다른 관점'으로 받아들여 보는 거죠. PM으로서 다양한 의견을 듣고 최선을 선택하는 거니까요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "관점을 바꾸는 게 쉽진 않을 것 같지만... 해보겠습니다."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "처음엔 어려울 수 있어요. 이번 주에 그 팀원과 1:1 대화 시간을 가져보시는 건 어떨까요?",
-      "technique": [
-        "validation",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "네, 해볼게요. 커피라도 마시면서 편하게..."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "좋은 방법이에요. 격식 없는 자리가 더 솔직한 대화에 도움이 될 거예요. 대화 전에 하고 싶은 말을 미리 정리해 오시면 더 좋고요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "그렇게 하겠습니다. 그런데 만약 그 친구가 안 바뀌면 어떡하죠?"
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "한 번의 대화로 모든 게 해결되진 않을 수 있어요. 하지만 최소한 서로의 입장을 이해하는 계기가 될 거예요. 그래도 안 되면 팀 전체의 소통 규칙을 정하거나, 상급자에게 도움을 요청할 수도 있고요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 28,
-      "speaker": "client",
-      "text": "알겠습니다. 일단 먼저 대화를 해보는 게 중요하겠네요."
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "맞아요. 오늘 이야기 나눈 것들을 정리해볼까요? 이번 주에 1:1 대화하기, 비난 대신 느낌 표현하기, 구체적인 행동 요청하기, 그리고 본인도 '반박'을 '다른 관점'으로 받아들여보기. 맞나요?",
-      "technique": [
-        "summarization",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 29,
-      "speaker": "client",
-      "text": "네, 맞아요. 생각보다 제가 바꿔야 할 것도 많네요."
-    },
-    {
-      "turn": 29,
-      "speaker": "counselor",
-      "text": "갈등은 한쪽만의 문제가 아니에요. 서로 이해하고 조율하는 과정이 필요해요. 다음 주에 어떻게 되었는지 이야기 나눠봐요.",
-      "technique": [
-        "information_giving",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 30,
-      "speaker": "client",
-      "text": "네, 감사합니다. 다음 주에 뵙겠습니다."
-    },
-    {
-      "turn": 30,
-      "speaker": "counselor",
-      "text": "용기 내서 대화해보세요. 잘하실 거예요. 다음 주에 뵙겠습니다.",
-      "technique": [
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "33세",
-    "gender": "남성",
-    "occupation": "프리랜서",
-    "background": "불면증으로 인한 일상생활 지장"
-  }
+  ]
 }

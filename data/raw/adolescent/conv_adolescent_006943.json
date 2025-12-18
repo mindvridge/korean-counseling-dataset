@@ -1,35 +1,26 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "부모 갈등",
+    "topic": "학교 폭력과 따돌림",
     "total_turns": 28,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "closed_question",
-      "restatement",
-      "validation",
-      "information_giving",
-      "clarification"
-    ]
+    "generated_at": "2025-12-18T07:14:25.339135+00:00"
   },
-  "seed_info": {
-    "source_file": "adolescent_career_0009",
-    "category": "adolescent",
-    "topic": "부모 갈등"
+  "client_profile": {
+    "age": "17세",
+    "gender": "남성",
+    "occupation": "고등학교 2학년",
+    "background": "학교 폭력과 따돌림 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.491816+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 저 정말 고민이 많아요. 수시 원서를 써야 하는데 계속 망설여져요."
+      "text": "말하기 부끄럽지만... 고민이 있어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "수시 원서 작성을 앞두고 고민이 많으시군요. 무엇 때문에 망설여지시나요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 말하기 부끄럽지만... 고민이 있어요...라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
         "empathy",
         "open_question"
@@ -45,9 +36,9 @@
       "speaker": "counselor",
       "text": "작가라는 꿈과 안정적인 생활 사이에서 고민하고 계시는군요. 두 가지 모두 중요하게 느껴지시나요?",
       "technique": [
-        "empathy",
         "reflection",
-        "closed_question"
+        "closed_question",
+        "empathy"
       ]
     },
     {
@@ -60,9 +51,9 @@
       "speaker": "counselor",
       "text": "부모님께 부담 드리는 것과 실패에 대한 두려움이 있으시군요. 작가가 되고 싶다는 마음은 언제부터였나요?",
       "technique": [
-        "empathy",
         "restatement",
-        "open_question"
+        "open_question",
+        "empathy"
       ]
     },
     {
@@ -75,7 +66,6 @@
       "speaker": "counselor",
       "text": "오랫동안 글을 써오셨고, 이미 작품도 만들고 계시네요. 글을 쓸 때 어떤 감정이 드세요?",
       "technique": [
-        "empathy",
         "validation",
         "open_question"
       ]
@@ -282,7 +272,7 @@
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "성공의 기준이 뭐라고 생각하세요? 베스트셀러 작가가 되는 것만이 성공인가요?",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "open_question",
         "confrontation"
@@ -310,7 +300,7 @@
     {
       "turn": 21,
       "speaker": "counselor",
-      "text": "꿈을 이루는 방법은 하나가 아니에요. 자신만의 방법으로 꿈을 향해 가면 되는 거죠.",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
         "encouragement",
         "validation"
@@ -324,7 +314,7 @@
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "좋은 결정이에요. 그리고 지원서를 쓸 때 자신의 글쓰기 경험과 작품, 그리고 앞으로의 계획을 잘 정리해서 보여주세요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "encouragement",
         "goal_setting"
@@ -412,11 +402,5 @@
         "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "17세",
-    "gender": "여성",
-    "occupation": "고등학교 2학년",
-    "background": "부모님의 기대와 자신의 희망이 달라 갈등"
-  }
+  ]
 }

@@ -1,418 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "외로움",
-    "total_turns": 27,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "emotion_labeling",
-      "validation",
-      "closed_question",
-      "clarification",
-      "interpretation"
-    ]
+    "topic": "정체성 혼란",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:25.031532+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0005_동아리경쟁",
-    "category": "adolescent",
-    "topic": "외로움"
+  "client_profile": {
+    "age": "16세",
+    "gender": "여성",
+    "occupation": "고등학교 1학년",
+    "background": "정체성 혼란 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.127417+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "선생님, 제가 1년 동안 이끌어온 동아리인데 후배한테 리더 자리를 빼앗겼어요."
+      "text": "선생님... 요즘 너무 힘들어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "1년간 리더로서 동아리를 이끌어왔는데 리더 자리를 잃게 되셨군요. 그 상황이 어떻게 된 건지 좀 더 말씀해 주시겠어요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
+      "turn": 2,
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 2,
       "speaker": "client",
-      "text": "저희 댄스 동아리는 매 학기 초에 투표로 리더를 뽑거든요. 저는 당연히 다시 될 줄 알았는데... 2학년 후배가 당선됐어요."
+      "text": "네... 사실 별일 아닐 수도 있는데, 요즘 학교 가기가 너무 싫어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "재선될 거라고 예상했는데 결과가 달랐군요. 그 소식을 들었을 때 어떤 기분이 드셨나요?",
+      "text": "학교 가는 게 힘들어졌군요. '별일 아닐 수도 있다'고 했는데, 지금 느끼는 감정은 충분히 중요하고 의미 있어요. 어떤 일이 있었는지 편하게 이야기해줄 수 있을까요?",
+      "turn": 4,
       "technique": [
-        "reflection",
-        "open_question",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "너무 충격적이었어요. 배신당한 느낌? 제가 1년 동안 얼마나 열심히 했는데... 후배들 챙기고, 공연 준비하고..."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "배신감과 함께 자신의 노력이 인정받지 못했다는 느낌이 드시는군요. 1년간의 헌신이 무시당한 것 같아서 더 힘드시겠어요.",
-      "technique": [
-        "emotion_labeling",
-        "empathy",
         "validation"
       ]
     },
     {
-      "turn": 4,
       "speaker": "client",
-      "text": "네... 그리고 당선된 민준이가 사실 실력은 저보다 나아요. 그게 더 화나요. 제가 질투하는 것 같아서..."
+      "text": "저희 반에 친하게 지내던 애들이 있었는데... 며칠 전에 인스타 보니까 걔네들끼리 놀러 간 사진이 올라와 있더라고요. 저는 아무 말도 못 들었는데.",
+      "turn": 5
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "민준이의 실력을 인정하면서도 동시에 복잡한 감정을 느끼고 계시는군요. 질투심을 느끼는 자신에게도 불편함을 느끼시네요.",
-      "technique": [
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "맞아요. 솔직히 민준이가 춤은 정말 잘 춰요. 후배들도 민준이 춤을 보고 배우고 싶어하고... 근데 제가 리더로서 한 일들은 왜 안 봐주는 건지..."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "실력과 리더십은 다른 영역인데, 실력만으로 평가받은 것 같아서 억울하신거군요. 리더로서의 역할에 대해 어떻게 생각하세요?",
-      "technique": [
-        "reflection",
-        "validation",
-        "open_question"
-      ]
-    },
-    {
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "turn": 6,
-      "speaker": "client",
-      "text": "저는 동아리를 잘 운영했다고 생각해요. 일정 관리하고, 공연장 섭외하고, 부원들 사이 갈등도 중재하고... 그런 게 리더의 역할 아닌가요?"
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "운영과 관리 측면에서 많은 역할을 해오셨군요. 그런 노력들이 제대로 알려지지 않았다고 느끼시나요?",
       "technique": [
-        "validation",
-        "closed_question"
+        "reflection"
       ]
     },
     {
-      "turn": 7,
       "speaker": "client",
-      "text": "네... 후배들은 그냥 춤만 추면 되니까 그런 건 잘 모르는 것 같아요. 화려한 춤 실력만 보이고..."
+      "text": "처음엔 그냥... 깜짝 놀랐어요. 그리고 나서는 막 화도 나고, 슬프기도 하고... 내가 뭘 잘못했나 계속 생각하게 되더라고요.",
+      "turn": 7
     },
     {
-      "turn": 7,
       "speaker": "counselor",
-      "text": "보이지 않는 노력들은 간과되고 눈에 띄는 부분만 평가받은 것 같아서 속상하시군요. 투표 후에 민준이나 다른 부원들과 이야기 나눈 게 있나요?",
-      "technique": [
-        "reflection",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
+      "text": "놀람, 화, 슬픔... 여러 감정이 한꺼번에 밀려왔었네요. 그리고 자신을 돌아보며 '내 잘못인가' 생각하게 됐고요. 그런 상황에서 그렇게 느끼는 건 자연스러운 반응이에요.",
       "turn": 8,
-      "speaker": "client",
-      "text": "민준이가 미안하다고 했어요. 근데 그게 더 기분 나빴어요. 동정받는 것 같아서..."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "민준이의 사과가 오히려 더 상처가 되었군요. 어떻게 대답하셨나요?",
       "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "'괜찮아, 축하해'라고 했죠. 근데 속으로는 전혀 괜찮지 않았어요. 지금도 민준이 얼굴 보기 싫고, 동아리 가는 것도 싫어요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "겉으로는 괜찮은 척 했지만 실제로는 힘든 감정들을 억누르고 계셨군요. 동아리 활동 자체가 이제는 부담스럽게 느껴지시네요.",
-      "technique": [
-        "reflection",
-        "emotion_labeling",
         "empathy"
       ]
     },
     {
-      "turn": 10,
       "speaker": "client",
-      "text": "네... 심지어 동아리 그만둘까도 생각했어요. 계속 다니면서 민준이 밑에서 활동하는 게 자존심 상해서요."
+      "text": "그 이후로 학교에서 걔네들 마주치는 게 너무 불편해요. 어떻게 행동해야 할지 모르겠고... 그냥 없는 사람처럼 느껴져요.",
+      "turn": 9
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "그만두는 것까지 고려하고 계시군요. 자존심이 상한다고 하셨는데, 구체적으로 어떤 상황이 가장 견디기 어려울 것 같나요?",
+      "text": "친구들과 마주치는 것 자체가 부담스럽고, 자신이 투명인간이 된 것 같은 느낌이 드는군요. 학교에서 하루 종일 그런 감정을 느끼며 지내는 게 얼마나 힘들까요.",
+      "turn": 10,
       "technique": [
-        "reflection",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 점심시간이 제일 힘들어요. 어디 앉아야 할지, 누구랑 먹어야 할지... 매일 고민이에요.",
+      "turn": 11
+    },
+    {
+      "speaker": "counselor",
+      "text": "점심시간처럼 원래는 편하게 쉬어야 할 시간이 오히려 가장 큰 스트레스가 되었네요. 그런 상황에서 지금까지 어떻게 대처해왔나요?",
+      "turn": 12,
+      "technique": [
+        "open_ended_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그냥... 핸드폰만 보거나, 아니면 도서관 가서 혼자 있어요. 근데 그것도 한두 번이지, 계속 그러니까 더 외롭고... 저만 이상한 사람 같아요.",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "혼자 시간을 보내는 것도 처음엔 괜찮았지만, 계속되니까 더 외로움이 커지고 자신이 이상한 것 같다는 생각까지 들게 되었군요. 그 친구들에게 직접 물어보거나 이야기해본 적은 있나요?",
+      "turn": 14,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아니요... 말 걸기가 너무 무서워요. 만약에 진짜로 저를 싫어하는 거라면 어떡하죠? 그럼 더 창피하잖아요.",
+      "turn": 15
+    },
+    {
+      "speaker": "counselor",
+      "text": "거절당하거나 실제로 싫어한다는 걸 확인하게 될까 봐 두렵군요. 그 두려움 때문에 물어보는 것 자체가 큰 용기가 필요한 일이 되어버렸네요.",
+      "turn": 16,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 사실 걔네들이 저한테 막 나쁘게 대하는 건 아니에요. 학교에서 마주치면 인사도 하고, 대화도 해요. 그래서 더 헷갈려요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "아, 겉으로는 평소처럼 대하는데, 소셜미디어에서는 자신을 제외한 모습을 보게 되니까 더 혼란스럽군요. 그 친구들의 진심이 뭔지 알 수 없어서 더 불안한 거네요.",
+      "turn": 18,
+      "technique": [
         "clarification"
       ]
     },
     {
-      "turn": 11,
       "speaker": "client",
-      "text": "민준이가 제가 했던 것처럼 동아리를 이끄는 걸 보는 것... 그리고 제가 이제 그냥 평범한 부원이 된 것..."
+      "text": "맞아요. 그게 제일 힘들어요. 차라리 확실하게 싫어하면... 아니 그것도 싫긴 한데, 이렇게 애매한 게 더 힘든 것 같아요.",
+      "turn": 19
     },
     {
-      "turn": 11,
       "speaker": "counselor",
-      "text": "리더에서 일반 부원으로의 위치 변화가 받아들이기 어려우시군요. 리더라는 정체성이 당신에게 중요했던 것 같아요.",
+      "text": "불확실한 상황이 계속되는 게 마음을 더 힘들게 하는군요. 혹시 그 전에 친구들과 어떤 일이 있었는지, 관계가 달라진 계기가 있었나요?",
+      "turn": 20,
       "technique": [
-        "reflection",
-        "interpretation"
+        "open_ended_question"
       ]
     },
     {
-      "turn": 12,
       "speaker": "client",
-      "text": "맞아요. 사실 댄스 실력으로는 제가 최고는 아니거든요. 그래서 리더 역할을 열심히 했던 건데... 이제 그것도 없어지니까 제가 뭐가 남았나 싶어요."
+      "text": "음... 특별히 싸운 건 없는데, 생각해보니까 제가 좀 바빴던 것 같아요. 학원도 많이 다니고, 주말에도 약속을 몇 번 못 지켰어요. 그게 이유일까요?",
+      "turn": 21
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "리더 역할을 통해 자신의 가치를 증명해왔는데, 그게 없어지니 정체성의 혼란을 느끼시는군요. 하지만 당신의 가치는 직책에 있는 게 아니라 당신 자신에게 있어요.",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "turn": 22,
       "technique": [
-        "reflection",
-        "interpretation",
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "미안한 마음도 들고... 근데 또 저도 어쩔 수 없었던 상황이었거든요. 그래도 제가 먼저 사과하거나 해야 하나요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "미안한 마음과 동시에 자신도 불가피한 상황이었다는 생각이 공존하고 있군요. 두 가지 감정이 다 타당해요. 친구들과의 관계에서 자신이 원하는 게 뭔지 생각해본 적 있나요?",
+      "turn": 24,
+      "technique": [
         "validation"
       ]
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "그렇게 말씀하시니까... 제가 리더 자리에 너무 집착했던 것 같기도 해요."
+      "text": "그냥... 예전처럼 편하게 지내고 싶어요. 학교 가는 게 즐거웠으면 좋겠고, 점심시간이 두렵지 않았으면 좋겠어요.",
+      "turn": 25
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "스스로를 돌아보고 계시네요. 리더 자리가 당신에게 어떤 의미였는지 생각해본 적 있나요?",
+      "text": "편안하고 즐거운 관계를 원하는 거네요. 그건 정말 자연스럽고 건강한 바람이에요. 그런 관계를 다시 만들기 위해 어떤 작은 시도를 해볼 수 있을까요?",
+      "turn": 26,
       "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "음... 인정받는 느낌? 제가 필요한 사람이라는 느낌? 그런 것 같아요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "리더 역할을 통해 인정과 소속감을 느꼈군요. 그렇다면 리더가 아니어도 그런 느낌을 받을 수 있는 방법이 있을까요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "글쎄요... 생각해본 적이 없는데..."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "함께 생각해볼까요? 동아리에서 당신만이 할 수 있는 것, 당신의 강점이 뭐라고 생각하세요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "저는... 안무를 짜는 걸 좋아해요. 창작하는 거요. 민준이는 춤은 잘 추는데 안무 창작은 잘 못하거든요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "안무 창작이라는 독특한 강점이 있으시군요. 그 능력으로 동아리에 기여할 수 있는 방법이 있을까요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "음... 안무를 만들어서 제공할 수는 있을 것 같아요. 사실 작년 공연 안무 대부분 제가 짰거든요."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "중요한 역할을 해오셨네요. 리더 직책은 아니지만 안무 크리에이터로서 핵심적인 기여를 할 수 있겠어요. 어떻게 들리나요?",
-      "technique": [
-        "validation",
-        "interpretation"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "나쁘지 않네요... 리더는 아니지만 나름대로 중요한 역할이긴 하죠."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "역할에 대한 관점이 바뀌기 시작하시는 것 같아요. 민준이와 협력할 수 있는 부분도 보이시나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "민준이가 제 안무를 잘 소화해줄 수는 있을 것 같아요. 실력이 좋으니까... 생각해보니 좋은 팀이 될 수도 있겠네요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "경쟁에서 협력으로 관점이 전환되고 있네요. 민준이의 실력을 인정하면서도 당신의 강점도 인식하게 되셨어요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "근데 선생님, 민준이한테는 여전히 질투가 나요. 이건 어떻게 하죠?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "질투심이 하루아침에 사라지지는 않아요. 하지만 그 감정을 인정하면서도 민준이와의 관계를 새롭게 설정할 수 있어요. 민준이와 대화를 나눠볼 생각은 있으세요?",
-      "technique": [
-        "validation",
-        "information_giving",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "대화를요? 뭐라고 해야 할지..."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "솔직하게 축하하면서도 당신의 역할에 대해 이야기할 수 있어요. '네가 리더로서 춤을 이끌어간다면, 나는 안무 쪽에서 기여하고 싶어'처럼요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "그렇게 말하면 민준이도 좋아할 것 같은데요? 안무 짜는 걸 항상 어려워했거든요."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "서로의 필요가 맞아떨어지는군요. 리더와 크리에이터로서 상호보완적인 관계를 만들 수 있을 것 같아요.",
-      "technique": [
-        "validation",
-        "interpretation"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "그렇게 생각하니까 조금 마음이 편해지네요. 그래도 가끔 부럽긴 할 것 같지만..."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "부러움을 느끼는 건 자연스러워요. 중요한 건 그 감정에 휘둘리지 않고 자신의 길을 찾는 거예요. 오늘 대화를 통해 자신의 강점과 새로운 역할을 발견하셨네요.",
-      "technique": [
-        "validation",
-        "encouragement",
-        "summarization"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "네, 리더가 전부가 아니라는 걸 깨달았어요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "중요한 깨달음이에요. 직책보다는 기여와 역할이 중요하다는 거요. 이번 주에 민준이와 대화해볼 계획이세요?",
-      "technique": [
-        "validation",
         "goal_setting"
       ]
     },
     {
-      "turn": 25,
       "speaker": "client",
-      "text": "네, 한번 해볼게요. 제 감정을 정리하고 나니까 이야기할 수 있을 것 같아요."
+      "text": "잘 모르겠어요... 뭘 해야 할지. 그냥 먼저 말 걸면 될까요?",
+      "turn": 27
     },
     {
-      "turn": 25,
       "speaker": "counselor",
-      "text": "좋아요. 감정을 이해하고 나니 행동할 준비가 되셨군요. 대화가 잘 되길 바라고, 다음에 어떻게 됐는지 나눠봐요.",
+      "text": "먼저 말을 거는 것도 하나의 방법이 될 수 있죠. 좀 더 구체적으로 생각해볼까요? 예를 들어, 그 친구들 중에서 가장 편하게 느껴지는 친구가 있나요?",
+      "turn": 28,
       "technique": [
-        "encouragement",
-        "validation",
-        "structuring"
+        "problem_solving"
       ]
     },
     {
-      "turn": 26,
       "speaker": "client",
-      "text": "감사합니다, 선생님. 동아리 그만두려고 했는데 다시 생각하게 됐어요."
+      "text": "음... 지혜라는 친구가 있어요. 걔는 원래 좀 더 조용하고, 저랑 비슷한 면이 많아요.",
+      "turn": 29
     },
     {
-      "turn": 26,
       "speaker": "counselor",
-      "text": "새로운 관점으로 상황을 볼 수 있게 되셨네요. 당신의 강점과 가치는 직책과 무관하다는 걸 기억하세요.",
+      "text": "지혜라는 친구와는 좀 더 편안함을 느끼는군요. 그렇다면 먼저 지혜와 일대일로 이야기를 나눠보는 건 어떨까요? 전체 그룹보다는 부담이 덜할 수 있을 것 같은데요.",
+      "turn": 30,
       "technique": [
-        "validation",
+        "problem_solving"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그게 나을 것 같긴 해요... 근데 뭐라고 말해야 할까요? '너희 왜 나만 빼고 놀았어?' 이렇게 말하면 이상하잖아요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "직접적으로 따지는 것처럼 들릴까 봐 걱정되는군요. 그렇다면 좀 더 부드럽게 자신의 감정을 표현하는 방법을 연습해볼까요? '요즘 나 좀 외로웠어' 같은 식으로 자신의 느낌을 솔직하게 나누는 거예요.",
+      "turn": 32,
+      "technique": [
+        "skill_training"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아... 그렇게 말하는 게 덜 부담스러울 것 같아요. 그런데 만약에 걔가 별로 관심 없어 하면 어떡하죠?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "최악의 상황을 걱정하고 있네요. 그 걱정도 충분히 이해가 돼요. 하지만 시도해보기 전에는 결과를 알 수 없어요. 만약 반응이 기대와 다르더라도, 그건 자신의 가치와는 별개예요. 용기 내서 시도했다는 것 자체가 중요한 거죠.",
+      "turn": 34,
+      "technique": [
+        "cognitive_restructuring"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 한번 해볼게요. 근데 선생님, 만약에 진짜로 걔네가 저를 싫어하는 거면 전 어떡하죠? 다른 친구를 사귀어야 하나요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "turn": 36,
+      "technique": [
+        "reassurance"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 알겠어요. 조금 덜 무섭네요. 다음 주에 한번 지혜한테 말해볼게요.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋아요. 구체적인 계획을 세우니까 조금 마음이 편해졌나요? 다음 상담 때 어떻게 됐는지 이야기 나눠봐요. 그리고 혹시 너무 힘들면 언제든 이야기할 수 있다는 것 기억해주세요.",
+      "turn": 38,
+      "technique": [
+        "support"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 감사합니다. 오늘 이야기하니까 좀 후련해요.",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "이야기해줘서 고마워요. 오늘 많은 용기를 냈어요. 다음 주에 또 만나요.",
+      "turn": 40,
+      "technique": [
         "encouragement"
       ]
     },
     {
-      "turn": 27,
       "speaker": "client",
-      "text": "네, 기억할게요. 다음 주에 또 올게요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 27,
       "speaker": "counselor",
-      "text": "네, 기다릴게요. 민준이와의 대화가 잘 되기를 응원합니다.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "18세",
-    "gender": "남성",
-    "occupation": "고등학교 3학년",
-    "background": "친구를 사귀는 것이 어려워 늘 혼자인 상황"
-  }
+  ]
 }

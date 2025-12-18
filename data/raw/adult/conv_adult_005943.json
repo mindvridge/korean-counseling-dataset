@@ -1,37 +1,27 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "직장 내 괴롭힘",
-    "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "restatement",
-      "clarification",
-      "interpretation",
-      "information_giving",
-      "closed_question"
-    ]
+    "topic": "이직 고민",
+    "total_turns": 33,
+    "generated_at": "2025-12-18T07:14:29.156836+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_대인관계_0008_c9d0e1f2",
-    "category": "adult",
-    "topic": "직장 내 괴롭힘"
+  "client_profile": {
+    "age": "29세",
+    "gender": "여성",
+    "occupation": "마케터",
+    "background": "이직 고민 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.809700+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "아내랑 맨날 싸워요. 성격이 너무 안 맞아요. 이혼을 고민 중입니다."
+      "text": "사람들 만나는 게 두려워요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "잦은 갈등으로 이혼까지 고민하고 계시는군요. 10년을 함께하셨는데 쉽지 않은 결정이실 거예요. 어떤 점에서 성격이 안 맞으신가요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
@@ -39,346 +29,451 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "저는 조용히 집에서 쉬고 싶은데, 아내는 계속 밖에 나가자고 해요. 그리고 저는 계획적인데 아내는 즉흥적이고요."
+      "text": "제가 말을 잘 못해요. 대화할 때 뭐라고 해야 할지 모르겠고, 어색해서..."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "라이프스타일과 성향이 다르시군요. 내향적-외향적, 계획적-즉흥적 차이가 있네요. 결혼 초기부터 이런 차이가 있었나요?",
+      "text": "대화 상황에서 긴장하시고 어색함을 느끼시는군요. 이런 어려움은 언제부터 있었나요?",
       "technique": [
         "empathy",
         "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "사실 학창 시절부터요. 친구도 별로 없었고, 혼자 지내는 게 편했어요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "오랜 시간 대인관계의 어려움을 경험해오셨군요. 그런데 지금은 혼자 지내는 게 편하지만은 않은가 봐요?",
+      "technique": [
+        "reflection",
         "clarification"
       ]
     },
     {
-      "turn": 3,
-      "speaker": "client",
-      "text": "있었죠. 근데 연애할 땐 그게 매력적이었어요. 아내가 활발하고 재밌어서 좋았거든요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "처음엔 매력으로 느껴졌던 차이가 이제는 갈등의 원인이 되었군요. 언제부터 이게 문제가 되기 시작했나요?",
-      "technique": [
-        "empathy",
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
       "turn": 4,
       "speaker": "client",
-      "text": "아이 낳고 나서요. 육아하면서 제가 더 예민해졌나 봐요. 쉬고 싶은데 아내는 가족 나들이 가자고 하고..."
+      "text": "네... 외로워요. 다른 사람들은 즐겁게 얘기하는데, 저만 혼자 있으니까..."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "육아로 지친 상태에서 휴식 방식에 대한 욕구가 달라서 충돌하시는군요. 아내분은 왜 나들이를 원하실까요?",
+      "text": "사람들과 함께하고 싶은데 방법을 모르시는군요. 소속감을 느끼고 싶은 욕구가 있으시네요.",
       "technique": [
-        "empathy",
-        "open_question"
+        "emotion_labeling",
+        "validation"
       ]
     },
     {
       "turn": 5,
       "speaker": "client",
-      "text": "글쎄요... 가족끼리 시간을 보내고 싶다고 하는데, 저는 그게 휴식이 아니거든요."
+      "text": "맞아요. 저도 그들처럼 웃고 떠들고 싶은데... 어떻게 해야 할지 모르겠어요."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "본인에게는 휴식이 아니지만, 아내분에게는 가족과의 시간이 중요한 거군요. 두 분의 욕구가 다른 거예요.",
+      "text": "시도해보신 적은 있나요? 먼저 말을 걸어본다거나...",
+      "technique": [
+        "open_question",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "한두 번 해봤는데, 어색하게 끝났어요. '역시 안 되는구나' 싶어서 포기했죠."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "한두 번의 어색한 경험이 '나는 안 돼'라는 결론으로 이어졌군요. 그 이후로는 시도 자체를 안 하게 되셨고요.",
       "technique": [
         "interpretation",
-        "information_giving"
+        "restatement"
       ]
     },
     {
-      "turn": 6,
+      "turn": 7,
       "speaker": "client",
-      "text": "그럼 어떻게 해야 하나요? 맨날 양보해야 하나요?"
+      "text": "네... 거절당하거나 무시당할까 봐 무서워요."
     },
     {
-      "turn": 6,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "양보가 아니라 조율이 필요해요. 혹시 아내분과 이런 차이에 대해 진지하게 대화해보신 적 있으세요?",
+      "text": "거절에 대한 두려움이 크시군요. 그런데 실제로 거절당하신 적은 있나요?",
       "technique": [
-        "information_giving",
+        "reflection",
         "closed_question"
       ]
     },
     {
-      "turn": 7,
+      "turn": 8,
       "speaker": "client",
-      "text": "대화요? 그냥 '난 피곤하다', '나가기 싫다'고만 했지..."
+      "text": "직접적으로는... 아닌 것 같아요. 근데 제가 말하면 반응이 별로 없어서..."
     },
     {
-      "turn": 7,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "거절만 하셨지 본인의 욕구나 아내의 욕구에 대해 깊이 얘기는 안 해보셨군요. 아내분은 뭐라고 하시나요?",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
-        "restatement",
+        "interpretation",
         "open_question"
       ]
     },
     {
-      "turn": 8,
+      "turn": 9,
       "speaker": "client",
-      "text": "'당신은 가족보다 쉬는 게 더 중요하냐'고 해요. 그럼 저도 화가 나서 '당신은 내 상황을 이해 안 하냐'고 하고... 싸움이 돼요."
+      "text": "상대방 입장이요? 아마 저를 이상하게 생각했을 거예요."
     },
     {
-      "turn": 8,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "서로 이해받지 못한다고 느끼시는군요. 두 분 다 자신의 입장만 주장하고 상대의 입장은 들으려 하지 않는 것 같아요.",
+      "text": "그건 본인의 추측이에요. 상대방이 실제로 뭐라고 했나요?",
       "technique": [
-        "reflection",
-        "confrontation"
+        "confrontation",
+        "clarification"
       ]
     },
     {
-      "turn": 9,
+      "turn": 10,
       "speaker": "client",
-      "text": "... 그런 것 같기도 하네요. 근데 10년 동안 계속 이랬는데 바뀔까요?"
+      "text": "음... '그렇구나', '아 그래?' 정도였던 것 같아요."
     },
     {
-      "turn": 9,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "10년간 같은 패턴이었으니 회의적이실 수 있어요. 하지만 변화는 언제든 가능해요. 본인이 먼저 바뀌면요.",
+      "text": "중립적인 반응이었군요. 그런데 본인은 그걸 부정적으로 해석하신 거예요. 이걸 인지 왜곡이라고 해요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "인지 왜곡... 제가 잘못 생각한 건가요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "잘못이 아니라, 불안이 생각을 왜곡시키는 거예요. 사회불안이 있으면 중립적인 반응도 부정적으로 보이거든요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "그럼 어떻게 해야 하나요? 이 불안을 없앨 수는 없나요?"
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "완전히 없앨 순 없지만, 관리할 수는 있어요. 먼저 자동적 사고를 알아차리는 연습부터 해보세요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "자동적 사고요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "순간적으로 떠오르는 부정적 생각들이요. '날 이상하게 볼 거야', '거절당할 거야' 같은 거죠. 이게 떠오를 때 알아차리는 거예요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "알아차리면 뭐가 달라지나요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "생각과 사실을 구분할 수 있게 돼요. '내가 지금 부정적으로 생각하고 있구나'라고 인식하면, 그 생각에 휘둘리지 않을 수 있어요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "쉽지 않을 것 같은데..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "행동이요? 어떻게요?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "아주 작은 사회적 상호작용부터 시작하는 거예요. 예를 들어 엘리베이터에서 눈 마주치고 미소 짓기, 커피 주문할 때 '감사합니다' 말하기 같은 거요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그런 것도 사실 부담스러운데..."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "부담스러우실 거예요. 하지만 안전한 상황에서 연습하는 거예요. 성공 경험이 쌓이면 자신감이 생겨요.",
       "technique": [
         "validation",
         "encouragement"
       ]
     },
     {
-      "turn": 10,
+      "turn": 18,
       "speaker": "client",
-      "text": "제가요? 왜 제가 바뀌어야 하죠?"
+      "text": "직장 동료들한테는 어떻게 접근하면 좋을까요?"
     },
     {
-      "turn": 10,
+      "turn": 18,
       "speaker": "counselor",
-      "text": "상대를 바꿀 순 없지만 본인은 바꿀 수 있으니까요. 그리고 한 사람이 바뀌면 관계 역학도 바뀌어요.",
+      "text": "한 명부터 시작해보세요. 가장 편해 보이는 동료 한 명에게 간단한 질문을 하는 거예요. '점심 뭐 먹었어요?' 같은 거요.",
       "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "구체적으로 뭘 바꾸라는 건가요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "대화 방식이요. 아내의 제안을 거절하기 전에, 아내의 욕구를 먼저 이해하려고 해보세요. '왜 나가고 싶은지' 물어보는 거죠.",
-      "technique": [
-        "information_giving",
+        "structuring",
         "goal_setting"
       ]
     },
     {
-      "turn": 12,
+      "turn": 19,
       "speaker": "client",
-      "text": "그런 다음엔요?"
+      "text": "한 명... 그 정도는 해볼 수 있을 것 같아요."
     },
     {
-      "turn": 12,
+      "turn": 19,
       "speaker": "counselor",
-      "text": "그 다음 본인의 욕구도 표현하는 거예요. '나는 이런 이유로 쉬고 싶다'고요. 그리고 함께 해결책을 찾는 거죠.",
+      "text": "좋아요. 그리고 완벽한 대화를 기대하지 마세요. 어색해도 괜찮아요. 중요한 건 시도하는 거예요.",
       "technique": [
-        "information_giving",
-        "structuring"
+        "encouragement",
+        "validation"
       ]
     },
     {
-      "turn": 13,
+      "turn": 20,
       "speaker": "client",
-      "text": "해결책이요? 둘 다 만족할 수 있는 게 있을까요?"
+      "text": "어색해도 괜찮다... 기억할게요."
     },
     {
-      "turn": 13,
+      "turn": 20,
       "speaker": "counselor",
-      "text": "예를 들어, 주말 하루는 가족 나들이, 하루는 각자 시간 갖기. 또는 나들이를 짧게 하고 집에서 함께 시간 보내기 같은 거요.",
+      "text": "그리고 요즘 기분은 어때요? 외로움 말고 다른 감정은 없나요?",
       "technique": [
-        "information_giving",
-        "clarification"
+        "empathy",
+        "validation",
+        "open_question"
       ]
     },
     {
-      "turn": 14,
+      "turn": 21,
       "speaker": "client",
-      "text": "아... 그렇게 할 수도 있겠네요. 생각 못 했어요."
+      "text": "우울해요. 집에 가면 아무것도 하기 싫고, 주말에도 그냥 누워있어요."
     },
     {
-      "turn": 14,
+      "turn": 21,
       "speaker": "counselor",
-      "text": "대화 없이는 이런 아이디어가 나올 수 없어요. 서로의 욕구를 이해하고 나면 창의적인 해결책이 나와요.",
+      "text": "사회적 고립이 우울감으로 이어지고 있군요. 혼자 있는 시간이 많으니 더 그럴 거예요.",
       "technique": [
-        "information_giving",
-        "encouragement"
+        "reflection",
+        "validation"
       ]
     },
     {
-      "turn": 15,
+      "turn": 22,
       "speaker": "client",
-      "text": "근데 성격 차이는 어떡하죠? 그건 못 바꾸잖아요."
+      "text": "맞아요. 악순환인 것 같아요. 우울하니까 사람 만나기 싫고, 안 만나니까 더 우울하고..."
     },
     {
-      "turn": 15,
+      "turn": 22,
       "speaker": "counselor",
-      "text": "성격을 바꿀 필요는 없어요. 차이를 인정하고 존중하면 돼요. 차이가 문제가 아니라, 차이를 다루는 방식이 문제거든요.",
+      "text": "정확하게 보셨어요. 이 악순환을 끊으려면 행동을 바꿔야 해요. 기분이 좋아질 때까지 기다리는 게 아니라요.",
       "technique": [
-        "information_giving",
-        "confrontation"
+        "validation",
+        "information_giving"
       ]
     },
     {
-      "turn": 16,
+      "turn": 23,
       "speaker": "client",
-      "text": "차이를 다루는 방식이요?"
+      "text": "억지로라도 나가야 한다는 말씀이세요?"
     },
     {
-      "turn": 16,
+      "turn": 23,
       "speaker": "counselor",
-      "text": "네. 지금은 '당신이 이상하다'고 서로 비난하고 있잖아요. 대신 '우리가 다르구나. 어떻게 조율할까?'라고 접근하는 거예요.",
+      "text": "네, 행동활성화예요. 주말에 할 수 있는 활동이 있나요? 산책, 카페 가기, 영화 보기...?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "예전엔 헬스장 다녔는데... 요즘은 안 가요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "헬스장이요. 다시 가보는 건 어때요? 운동이 우울감 감소에 도움이 돼요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "혼자 가는 게... 외로울 것 같아요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "혼자여도 괜찮아요. 거기서 사람들과 같은 공간에 있는 것만으로도 소속감을 느낄 수 있어요. 시도해보시겠어요?",
+      "technique": [
+        "validation",
+        "encouragement",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "네... 해볼게요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 필요하다면 약물 치료도 고려해보세요. 사회불안과 우울이 함께 있으면 약물이 도움이 될 수 있어요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "약을 먹으면 사람들과 편하게 대화할 수 있나요?"
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "약이 불안을 줄여주긴 하지만, 대화 기술은 연습이 필요해요. 약과 상담을 함께 하는 게 가장 효과적이에요.",
       "technique": [
         "clarification",
         "information_giving"
       ]
     },
     {
-      "turn": 17,
+      "turn": 28,
       "speaker": "client",
-      "text": "그렇게 하면 싸움이 줄어들까요?"
+      "text": "알겠어요. 병원도 가볼게요."
     },
     {
-      "turn": 17,
+      "turn": 28,
       "speaker": "counselor",
-      "text": "완전히 없어지진 않겠지만 줄어들 거예요. 그리고 싸워도 건설적인 싸움이 될 수 있어요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "건설적인 싸움이요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "네. 서로를 비난하는 대신 문제를 해결하는 방향으로 싸우는 거죠. 이혼을 결정하기 전에 이런 시도를 해보시는 게 어떨까요?",
-      "technique": [
-        "clarification",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "... 한번 해볼게요. 10년을 함께했는데 그냥 포기하긴 아깝긴 하네요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "좋은 결정이에요. 이번 주에 아내분과 대화 시간을 가져보시고, 다음 주에 어떠셨는지 얘기 나눠봐요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "네, 그렇게 하겠습니다. 감사합니다."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "잘하실 거예요. 관계를 위해 노력하시는 모습이 훌륭해요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "오늘 이야기 나눠서 마음이 한결 가벼워진 것 같아요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
-      "technique": [
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "앞으로 어떻게 하면 좋을지 조금 더 생각해볼게요."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "천천히 생각해보시고, 다음에 만나서 어떻게 지내셨는지 이야기 나눠봐요.",
+      "text": "좋은 결정이에요. 이번 주에 실천해볼 것들 정리해볼까요?",
       "technique": [
         "encouragement",
         "structuring"
       ]
     },
     {
-      "turn": 23,
+      "turn": 29,
       "speaker": "client",
-      "text": "네, 다음 상담 때 뵙겠습니다."
+      "text": "네. 작은 사회적 상호작용 연습하기, 동료 한 명에게 말 걸기, 주말에 헬스장 가기, 병원 예약하기..."
     },
     {
-      "turn": 23,
+      "turn": 29,
       "speaker": "counselor",
-      "text": "네, 그때까지 자신을 잘 돌봐주세요. 응원하고 있을게요.",
+      "text": "완벽해요. 다 하지 못해도 괜찮아요. 하나씩 천천히 해보세요. 다음 주에 어땠는지 이야기 나눠요.",
       "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "감사합니다. 선생님 덕분에 힘이 나요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "힘내세요. 잘 해내실 수 있을 거예요.",
-      "technique": [
-        "empathy",
+        "validation",
         "encouragement"
       ]
     },
     {
-      "turn": 25,
+      "turn": 30,
       "speaker": "client",
-      "text": "네, 열심히 해볼게요!"
+      "text": "네, 감사합니다."
     },
     {
-      "turn": 25,
+      "turn": 30,
       "speaker": "counselor",
-      "text": "좋아요, 다음 주에 뵙겠습니다.",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
-        "encouragement",
-        "structuring"
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 31,
+      "speaker": "client",
+      "text": "네, 노력해볼게요."
+    },
+    {
+      "turn": 31,
+      "speaker": "counselor",
+      "text": "노력도 중요하지만, 작은 변화를 알아차리고 스스로를 칭찬하는 것도 중요해요. 다음 주에 봬요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 32,
+      "speaker": "client",
+      "text": "네, 다음 주에 뵐게요."
+    },
+    {
+      "turn": 32,
+      "speaker": "counselor",
+      "text": "수고하셨어요. 용기 내주셔서 감사해요.",
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "turn": 33,
+      "speaker": "client",
+      "text": "감사합니다."
+    },
+    {
+      "turn": 33,
+      "speaker": "counselor",
+      "text": "언제든 힘들면 연락주세요. 함께 해나가요.",
+      "technique": [
+        "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "32세",
-    "gender": "여성",
-    "occupation": "마케터",
-    "background": "동료들로부터 은근한 따돌림을 당하는 상황"
-  }
+  ]
 }

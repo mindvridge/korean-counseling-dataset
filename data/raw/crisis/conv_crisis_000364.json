@@ -1,24 +1,29 @@
 {
-  "category": "crisis",
+  "metadata": {
+    "category": "crisis",
+    "topic": "상실과 애도",
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:32.593937+00:00"
+  },
   "client_profile": {
-    "age": "19",
+    "age": "35세",
     "gender": "여성",
-    "occupation": "대학교 1학년",
-    "background": "최근 자해 충동이 심해짐, 과거 자해 경험 있음, 현재 극심한 스트레스 상태"
+    "occupation": "직장인",
+    "background": "상실과 애도 관련 상담"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 저 요즘 너무 힘들어요. 자꾸 이상한 생각이 나요."
+      "text": "아무도 저를 이해 못해요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "오셔서 이야기해주셔서 감사해요. 이상한 생각이라고 하셨는데, 조금 더 구체적으로 말씀해 주실 수 있을까요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 아무도 저를 이해 못해요....라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
         "empathy",
-        "clarification"
+        "open_question"
       ]
     },
     {
@@ -71,7 +76,7 @@
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "상처가 아물고 있다니 다행이에요. 그리고 지금 이렇게 상담을 찾아와 주신 게 정말 중요한 거예요. 스스로를 돌보려는 마음이 있으시니까요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "encouragement",
         "validation"
@@ -99,7 +104,7 @@
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "강렬한 감정을 감당하기 어려울 때 자해 충동이 생기시는군요. 그 감정을 달래기 위한 방법처럼 자해가 떠오르는 건가요?",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
         "reflection",
         "interpretation"
@@ -281,7 +286,7 @@
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "'의미 없다'고 느끼시는군요. 혹시 살고 싶지 않다는 생각까지 드시나요?",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "emotion_labeling",
         "closed_question"
@@ -370,13 +375,5 @@
         "encouragement"
       ]
     }
-  ],
-  "generated_at": "2024-12-17T00:00:00.000Z",
-  "conversation_id": "CRI_20251218_0364",
-  "metadata": {
-    "generated_at": "2025-12-18T05:07:53.465401+00:00",
-    "model": "claude-sonnet-4-5",
-    "seed_category": "crisis",
-    "generator": "claude_code_direct"
-  }
+  ]
 }

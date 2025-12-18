@@ -1,409 +1,343 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "업무 과부하",
-    "total_turns": 27,
-    "quality_indicators": [
-      "empathy",
-      "reflection",
-      "open_question",
-      "closed_question",
-      "validation",
-      "information_giving",
-      "goal_setting",
-      "encouragement"
-    ]
+    "topic": "상사와의 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:29.547373+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_가족관계_0005_placeholder",
-    "category": "adult",
-    "topic": "업무 과부하"
+  "client_profile": {
+    "age": "35세",
+    "gender": "남성",
+    "occupation": "자영업",
+    "background": "상사와의 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:40.251693+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 1턴]"
+      "text": "혼자 해결이 안 돼서 왔어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "[상담사 응답 1턴]",
-      "technique": [
-        "open_question",
-        "validation"
-      ]
-    },
-    {
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
       "turn": 2,
-      "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 2턴]"
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "[상담사 응답 2턴]",
       "technique": [
         "empathy",
-        "reflection"
+        "open_question"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 3턴]"
+      "text": "6개월 전에 팀장으로 승진했는데요. 처음엔 좋았어요. 그런데 지금은... 매일 아침 출근하는 게 너무 두렵습니다.",
+      "turn": 3
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "[상담사 응답 3턴]",
-      "technique": [
-        "open_question",
-        "validation"
-      ]
-    },
-    {
+      "text": "승진이라는 긍정적인 변화가 있었지만, 지금은 출근 자체가 두려울 만큼 힘든 상황이 되셨군요. 그 사이에 어떤 일들이 있었는지 좀 더 말씀해주시겠어요?",
       "turn": 4,
-      "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 4턴]"
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "[상담사 응답 4턴]",
       "technique": [
-        "empathy",
-        "reflection"
+        "reflection",
+        "empathy"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 5턴]"
+      "text": "팀원이 8명인데, 관리하는 게 생각보다 너무 어렵습니다. 업무 분배도 해야 하고, 실적도 책임져야 하고... 그러면서 제 업무도 해야 하니까 밤 11시, 12시까지 일하는 날이 대부분이에요.",
+      "turn": 5
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "[상담사 응답 5턴]",
-      "technique": [
-        "open_question",
-        "validation"
-      ]
-    },
-    {
+      "text": "팀 관리와 본인 업무를 동시에 해내야 하는 상황에서 매일 늦은 시간까지 일하고 계시는군요. 그런 생활이 6개월이나 지속되었다면 정말 지치실 만합니다.",
       "turn": 6,
-      "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 6턴]"
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "[상담사 응답 6턴]",
       "technique": [
-        "empathy",
-        "reflection"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 7턴]"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "[상담사 응답 7턴]",
-      "technique": [
-        "open_question",
         "validation"
       ]
     },
     {
+      "speaker": "client",
+      "text": "네... 그리고 팀원들 중에 저보다 나이도 많고 경력도 많은 분들이 있어요. 그분들한테 지시하는 게 너무 부담스럽고, 제가 잘하고 있는 건지 자신이 없습니다.",
+      "turn": 7
+    },
+    {
+      "speaker": "counselor",
+      "text": "경력이 많은 팀원들을 이끌어야 하는 상황이 부담으로 다가오고, 리더로서의 자신감도 흔들리고 있으시네요. 혹시 그런 상황에서 구체적으로 어려웠던 경험이 있으신가요?",
       "turn": 8,
-      "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 8턴]"
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "[상담사 응답 8턴]",
       "technique": [
-        "empathy",
-        "reflection"
+        "open_ended_question"
       ]
     },
     {
-      "turn": 9,
       "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 9턴]"
+      "text": "지난주에 제가 제안한 마케팅 전략을 팀원 한 분이 회의에서 공개적으로 비판하셨어요. 그 순간 얼굴이 화끈거리고... 아무 말도 못했습니다. 나중에 생각해보니 그분 말이 맞는 부분도 있었고요.",
+      "turn": 9
     },
     {
-      "turn": 9,
       "speaker": "counselor",
-      "text": "[상담사 응답 9턴]",
-      "technique": [
-        "open_question",
-        "validation"
-      ]
-    },
-    {
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "turn": 10,
-      "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 10턴]"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "[상담사 응답 10턴]",
       "technique": [
-        "empathy",
-        "reflection"
+        "empathy"
       ]
     },
     {
-      "turn": 11,
       "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 11턴]"
+      "text": "무능하다는 생각이 들었어요. '내가 팀장 자격이 있나?' 싶었죠. 그 이후로 회의 때마다 긴장되고, 제 의견을 말하는 게 두렵습니다.",
+      "turn": 11
     },
     {
-      "turn": 11,
       "speaker": "counselor",
-      "text": "[상담사 응답 11턴]",
-      "technique": [
-        "open_question",
-        "validation"
-      ]
-    },
-    {
+      "text": "그 경험이 자신감에 큰 타격을 주었고, 지금도 회의 상황에 영향을 미치고 있네요. 혹시 그 팀원분과는 그 이후에 대화를 나눠보신 적이 있으신가요?",
       "turn": 12,
-      "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 12턴]"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "[상담사 응답 12턴]",
       "technique": [
-        "empathy",
-        "reflection"
+        "clarification"
       ]
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 13턴]"
+      "text": "아니요... 어떻게 말을 꺼내야 할지 모르겠어서요. 그냥 피하게 되더라고요. 그런 제 모습이 또 한심하게 느껴지고요.",
+      "turn": 13
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "[상담사 응답 13턴]",
-      "technique": [
-        "open_question",
-        "validation"
-      ]
-    },
-    {
+      "text": "어려운 대화를 피하게 되는 것은 자연스러운 반응입니다. 그것이 한심한 게 아니라, 상처받은 상황에서 자신을 보호하려는 모습일 수 있어요. 스스로를 너무 가혹하게 평가하고 계신 것 같습니다.",
       "turn": 14,
-      "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 14턴]"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "[상담사 응답 14턴]",
       "technique": [
-        "empathy",
-        "reflection"
+        "reframing"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 15턴]"
+      "text": "그렇게 생각해본 적은 없네요... 그냥 제가 부족해서 이런 거라고만 생각했어요. 요즘은 잠도 잘 안 오고, 주말에도 일 생각에 쉬지를 못하겠어요.",
+      "turn": 15
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "[상담사 응답 15턴]",
-      "technique": [
-        "open_question",
-        "validation"
-      ]
-    },
-    {
+      "text": "수면 문제까지 생기셨군요. 신체적으로도 신호를 보내고 있는 것 같습니다. 이런 상태가 얼마나 지속되었나요?",
       "turn": 16,
-      "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 16턴]"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "[상담사 응답 16턴]",
       "technique": [
-        "empathy",
-        "reflection"
+        "assessment"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 17턴]"
+      "text": "한 두 달 정도 된 것 같아요. 아내도 제가 예전 같지 않다고 걱정하더라고요. 집에서도 짜증이 늘었고... 그래서 더 미안하고 죄책감이 듭니다.",
+      "turn": 17
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "[상담사 응답 17턴]",
-      "technique": [
-        "open_question",
-        "validation"
-      ]
-    },
-    {
+      "text": "직장에서의 스트레스가 가정생활에까지 영향을 미치고 있고, 그것에 대해 죄책감까지 느끼고 계시네요. 여러 방면에서 압박감을 느끼고 계신 것 같습니다.",
       "turn": 18,
-      "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 18턴]"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "[상담사 응답 18턴]",
       "technique": [
-        "empathy",
         "reflection"
       ]
     },
     {
-      "turn": 19,
       "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 19턴]"
+      "text": "네... 그래서 요즘 퇴사를 진지하게 고민하고 있어요. 이렇게 사는 게 의미가 있나 싶어서요. 하지만 또 그만두면 도망치는 것 같고...",
+      "turn": 19
     },
     {
-      "turn": 19,
       "speaker": "counselor",
-      "text": "[상담사 응답 19턴]",
-      "technique": [
-        "open_question",
-        "validation"
-      ]
-    },
-    {
+      "text": "지금 상황이 너무 힘들어서 퇴사를 고민하고 계시지만, 동시에 그것이 도망치는 것처럼 느껴져서 갈등하고 계시는군요. 양쪽 모두 강한 감정이 있으시네요.",
       "turn": 20,
-      "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 20턴]"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "[상담사 응답 20턴]",
       "technique": [
-        "empathy",
-        "reflection"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 21턴]"
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "[상담사 응답 21턴]",
-      "technique": [
-        "open_question",
         "validation"
       ]
     },
     {
+      "speaker": "client",
+      "text": "맞아요. 승진을 위해 그동안 정말 열심히 했거든요. 그런데 막상 되고 나니 이렇게 힘들 줄 몰랐어요. 제가 준비가 안 된 채로 팀장이 된 건가요?",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "리더십과 관리 업무는 기존에 하시던 실무와는 완전히 다른 영역입니다. 많은 분들이 승진 후 비슷한 어려움을 겪으세요. 회사에서 리더십 교육이나 지원은 받으셨나요?",
       "turn": 22,
-      "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 22턴]"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "[상담사 응답 22턴]",
       "technique": [
-        "empathy",
-        "reflection"
+        "normalization"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 23턴]"
+      "text": "승진하고 일주일 정도 교육받았는데... 형식적이었어요. 실제 현장에서는 전혀 다르더라고요. 선배 팀장들은 다들 잘하는 것 같은데 저만 못하는 것 같아요.",
+      "turn": 23
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "[상담사 응답 23턴]",
-      "technique": [
-        "open_question",
-        "validation"
-      ]
-    },
-    {
+      "text": "다른 팀장들과 비교하면서 자신만 뒤처진다고 느끼시는군요. 혹시 다른 팀장들도 어려움을 겪고 있을 가능성에 대해서는 생각해보신 적 있으신가요?",
       "turn": 24,
-      "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 24턴]"
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "[상담사 응답 24턴]",
       "technique": [
-        "empathy",
-        "reflection"
+        "cognitive_restructuring"
       ]
     },
     {
-      "turn": 25,
       "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 25턴]"
+      "text": "글쎄요... 다들 여유로워 보이던데요. 저처럼 밤늦게까지 일하는 것 같지도 않고요.",
+      "turn": 25
     },
     {
-      "turn": 25,
       "speaker": "counselor",
-      "text": "[상담사 응답 25턴]",
+      "text": "겉으로 보이는 모습과 실제는 다를 수 있습니다. 그리고 일하는 시간이 길다고 해서 더 나은 리더는 아닐 수 있어요. 지금 시간 관리나 업무 우선순위 설정에 대해서는 어떻게 하고 계신가요?",
+      "turn": 26,
       "technique": [
-        "open_question",
+        "open_ended_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "솔직히 모든 게 급한 것 같아요. 팀원들 요청도 다 들어줘야 할 것 같고, 상사 요구도 바로바로 처리해야 할 것 같고... 우선순위를 정하기가 어렵습니다.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "turn": 28,
+      "technique": [
+        "clarification"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 거절하면 무능해 보일까 봐 두렵고요. 특히 팀원들한테는 더 그래요. 믿음을 잃을까 봐요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "거절이 무능함으로 비춰질까 봐 걱정되시는군요. 하지만 현실적으로 모든 요청을 다 들어주려다 보니 지금 번아웃 상태에 이르신 것 같습니다. 이 상황에서 가장 먼저 변화가 필요한 부분이 무엇이라고 생각하시나요?",
+      "turn": 30,
+      "technique": [
+        "insight_oriented"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 제 생각을 좀 더 명확하게 표현하고, 우선순위를 정하는 것? 그리고 팀원들과 솔직하게 소통하는 게 필요할 것 같아요. 근데 어떻게 시작해야 할지 모르겠어요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "중요한 통찰을 하셨네요. 소통과 우선순위 설정이 핵심이라는 것을 스스로 파악하셨습니다. 작은 것부터 시작해볼까요? 예를 들어, 그 팀원분과의 대화를 준비해보는 것은 어떨까요?",
+      "turn": 32,
+      "technique": [
+        "action_planning"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그분과요? 여전히 두렵긴 한데... 해야 할 것 같긴 해요. 어떻게 말을 꺼내야 할까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "먼저 그분의 의견을 경청하고 싶다는 태도로 접근하는 건 어떨까요? '그때 회의에서 주신 의견에 대해 더 이야기 나누고 싶다'는 식으로 시작할 수 있을 것 같습니다. 방어적이 아닌, 배우려는 자세로요.",
+      "turn": 34,
+      "technique": [
+        "guidance"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "배우려는 자세... 그렇게 생각하니까 좀 덜 부담스럽네요. 사실 그분한테 배울 점이 많거든요. 제가 너무 완벽해 보이려고 했던 것 같아요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "turn": 36,
+      "technique": [
         "validation"
       ]
     },
     {
-      "turn": 26,
       "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 26턴]"
+      "text": "당장 퇴사가 답은 아닌 것 같다는 생각이 들어요. 제가 변화할 수 있는 부분들이 있다는 게 보이네요. 물론 여전히 두렵지만, 조금은 희망이 생긴 것 같습니다.",
+      "turn": 37
     },
     {
-      "turn": 26,
       "speaker": "counselor",
-      "text": "[상담사 응답 26턴]",
+      "text": "오늘 많은 용기를 내셨고, 스스로 해결의 실마리를 찾으셨습니다. 변화는 시간이 걸리지만, 작은 시도들이 모여 큰 변화를 만들 수 있습니다. 다음 상담에서는 실제로 시도해보신 것들을 함께 나눠보면 좋겠습니다.",
+      "turn": 38,
       "technique": [
-        "empathy",
-        "reflection"
+        "encouragement"
       ]
     },
     {
-      "turn": 27,
       "speaker": "client",
-      "text": "[남성 육아자의 어려움 관련 내담자 발화 27턴]"
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 27,
       "speaker": "counselor",
-      "text": "[상담사 응답 27턴]",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
-        "validation"
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "28세",
-    "gender": "남성",
-    "occupation": "개발자",
-    "background": "계속 늘어나는 업무량으로 인한 번아웃"
-  }
+  ]
 }

@@ -1,35 +1,26 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "대학 진학",
-    "total_turns": 27,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "restatement",
-      "validation",
-      "closed_question",
-      "information_giving",
-      "confrontation"
-    ]
+    "topic": "친구 관계 갈등",
+    "total_turns": 28,
+    "generated_at": "2025-12-18T07:14:25.688773+00:00"
   },
-  "seed_info": {
-    "source_file": "adolescent_career_0004",
-    "category": "adolescent",
-    "topic": "대학 진학"
+  "client_profile": {
+    "age": "18세",
+    "gender": "여성",
+    "occupation": "고등학교 3학년",
+    "background": "친구 관계 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.858608+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님... 저 대학 안 가고 취업하려고 하는데 너무 불안해요."
+      "text": "제가 왜 이런지 모르겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "취업을 준비하고 계시는데 불안감이 크신가봐요. 어떤 부분이 가장 불안하신가요?",
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
       "technique": [
         "empathy",
         "open_question"
@@ -38,369 +29,380 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "다 불안해요. 제가 취업을 할 수 있을지, 취업해도 제대로 할 수 있을지... 그리고 주변 사람들이 대학도 안 간다고 뭐라고 할 것 같아서요."
+      "text": "모든 게 다요... 잠도 못 자고, 밥도 안 넘어가고, 하루하루가 너무 무거워요. 시간은 계속 가는데 저는 준비가 안 된 것 같고..."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "취업 자체에 대한 두려움과 함께 주변의 시선도 걱정되시는군요. 대학 진학 대신 취업을 선택하신 이유가 있나요?",
+      "text": "신체적으로도 심리적으로도 매우 힘든 상태이시네요. 불면증과 식욕 부진까지 나타나고 있고, 시간에 쫓기는 조급함이 크신 것 같아요.",
       "technique": [
-        "empathy",
-        "reflection",
-        "open_question"
+        "emotion_labeling",
+        "reflection"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "집안 형편도 그렇고... 솔직히 공부가 제 길이 아닌 것 같아요. 차라리 빨리 사회에 나가서 일 배우는 게 나을 것 같거든요."
+      "text": "네... 어제도 거의 못 잤어요. 눈 감으면 수능 망치는 꿈을 꾸고, 깨면 '공부해야 하는데' 이 생각뿐이에요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "경제적인 이유도 있고, 학업보다는 실무 경험을 쌓는 게 자신에게 맞다고 생각하시는군요. 현실적인 판단을 하신 것 같네요.",
-      "technique": [
-        "empathy",
-        "restatement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "그런데 주변에서 다들 대학은 나와야 한다고 하니까... 제가 잘못된 선택을 하는 건 아닌가 싶어요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "주변의 의견 때문에 자신의 선택이 흔들리시는군요. 대학 진학이 유일한 길이라고 생각하세요?",
-      "technique": [
-        "empathy",
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "아니요... 저는 그렇게 생각 안 하는데, 다들 그렇게 말하니까 불안해지는 거예요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "자신은 확신이 있는데 주변의 반응 때문에 흔들리는 거군요. 요즘은 대학 진학이 유일한 길이 아니에요. 특성화고, 마이스터고 졸업생들의 취업률도 높고, 직업교육을 통한 성공 사례도 많아요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "저는 일반고인데... 그래도 취업할 수 있을까요?"
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "일반고 출신이시군요. 어떤 분야에 관심이 있으세요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "기계 쪽이요. 손으로 뭔가 만들고 고치는 게 좋아요. 그래서 기계 관련 일을 하고 싶은데..."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "기계 관련 작업에 흥미가 있으시군요. 관련 경험이 있으신가요?",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "학교 동아리에서 간단한 기계 조립 같은 거 해봤어요. 그리고 집에서 고장 난 거 있으면 제가 고쳐보고 그래요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "이미 관련 활동을 하고 계시고, 실제로 문제를 해결한 경험도 있으시네요. 기계 관련 직업에는 어떤 것들이 있는지 알아보셨나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "자동차 정비사, 기계 정비사... 이런 거요? 근데 이런 일은 힘들고 돈도 많이 못 번다고 하던데..."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "기계 관련 직업에 대한 부정적인 이미지를 갖고 계시는 것 같네요. 실제로는 어떤지 제대로 알아보신 적 있나요?",
-      "technique": [
-        "reflection",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "아니요... 그냥 주변에서 듣기만 했어요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "직접 알아보지 않고 소문만 듣고 판단하시는군요. 실제로는 기계 관련 직업의 범위가 매우 넓고, 전문성을 쌓으면 좋은 대우를 받을 수 있어요. 예를 들어 산업기계 기술자, 컴퓨터제어 가공 기술자, 자동화 설비 기술자 등은 수요가 많고 연봉도 괜찮아요.",
-      "technique": [
-        "information_giving",
         "clarification"
       ]
     },
     {
-      "turn": 11,
+      "turn": 4,
       "speaker": "client",
-      "text": "진짜요? 그런 직업들이 있는지 몰랐어요."
+      "text": "한 2주? 아니 3주 정도 된 것 같아요. 처음엔 괜찮았는데 D-30일 지나고부터 완전히 무너졌어요."
     },
     {
-      "turn": 11,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "네, 그리고 국가기술자격증을 따면 취업에도 유리하고, 경력이 쌓이면 독립해서 사업을 할 수도 있어요. 기술직은 나이가 들어도 계속 일할 수 있다는 장점도 있고요.",
+      "text": "D-30일이라는 상징적인 시점을 지나면서 불안이 급격히 증폭된 거네요. 그 전까지는 어떻게 관리하고 계셨나요?",
       "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "'아직 시간 있다'고 생각하면서 버텼는데, 이제 진짜 얼마 안 남으니까 현실이 느껴져요. 제가 원하는 대학에 갈 수 있을지 너무 불안해요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "시간이 촉박해지면서 막연했던 불안이 구체적인 현실로 다가온 거군요. 어느 대학을 목표로 하고 계시나요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "연세대 경영학과요... 부모님이 정말 원하시고, 저도 가고 싶은데... 지금 성적으로는 아슬아슬해요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "부모님의 기대와 본인의 바람이 일치하는 목표이면서 동시에 달성이 불확실해서 더 압박감이 큰 상황이네요. 현재 성적은 어느 정도인가요?",
+      "technique": [
+        "summarization",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "평균 2등급인데 가끔 1등급도 나오고 3등급도 나와요. 들쭉날쭉해서 예측이 안 돼요. 그게 더 불안해요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "성적이 불안정하니까 '수능 때는 어떻게 나올까' 하는 불확실성이 불안을 더 키우는군요. 성적이 들쭉날쭉한 이유를 분석해 보셨나요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "컨디션이랑 멘탈에 따라 달라지는 것 같아요. 긴장하면 못 보고, 편하면 잘 보고... 수능 때 긴장하면 어떡하죠?"
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "컨디션과 심리 상태가 수행에 큰 영향을 미친다는 걸 정확히 인식하고 계시네요. 그렇다면 수능 당일의 컨디션과 멘탈 관리가 정말 중요하겠어요.",
+      "technique": [
+        "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 12,
+      "turn": 9,
       "speaker": "client",
-      "text": "자격증이요? 어떤 자격증을 따야 하나요?"
+      "text": "맞아요... 근데 어떻게 관리해야 할지 모르겠어요. 지금도 이렇게 불안한데 수능 날은 어떡하죠?"
     },
     {
-      "turn": 12,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "기계 분야에는 기계정비산업기사, 일반기계기사, 용접기능사 등 다양한 자격증이 있어요. 자신이 원하는 분야에 따라 선택할 수 있죠.",
+      "text": "지금의 불안이 수능 당일까지 이어질까봐 두려운 마음이 드시는군요. 하지만 지금부터 준비하면 충분히 관리할 수 있어요. 먼저, 불안의 원인을 구체적으로 살펴볼까요?",
       "technique": [
-        "information_giving"
+        "empathy",
+        "encouragement",
+        "structuring"
       ]
     },
     {
-      "turn": 13,
+      "turn": 10,
       "speaker": "client",
-      "text": "그런 자격증은 어떻게 따요? 공부해야 하는 거죠?"
+      "text": "불안의 원인이요? 그냥... 떨어질까봐 불안한 거 아닌가요?"
     },
     {
-      "turn": 13,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "네, 필기와 실기 시험이 있어요. 학원이나 직업훈련원에서 교육을 받을 수도 있고, 독학으로 준비하는 사람들도 있어요. 취업 후에 회사에서 지원해주는 경우도 많고요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "취업 전에 따야 하나요, 아니면 취업하고 따도 되나요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "둘 다 가능해요. 취업 전에 자격증이 있으면 취업에 유리하지만, 자격증 없이 취업해서 경험을 쌓으면서 따는 것도 방법이에요. 어떤 게 자신에게 맞을지 생각해보셨나요?",
+      "text": "그것도 맞지만, 좀 더 구체적으로 보면 '부모님을 실망시킬까봐', '친구들에게 지는 것 같아서', '내 미래가 불확실해서' 등 여러 층위가 있을 수 있어요. 당신에게는 어떤 게 가장 크게 작용하나요?",
       "technique": [
         "information_giving",
         "open_question"
       ]
     },
     {
-      "turn": 15,
+      "turn": 11,
       "speaker": "client",
-      "text": "음... 빨리 취업하고 싶은데, 자격증 없이 취업이 가능할까요?"
+      "text": "음... 부모님 실망시키는 게 제일 무서워요. 12년 동안 저한테 투자하셨는데 제가 망치면... 평생 죄책감으로 살 것 같아요."
     },
     {
-      "turn": 15,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "가능해요. 많은 기업들이 신입 사원을 뽑아서 교육시키는 과정을 운영해요. 특히 제조업 중소기업들은 인력이 부족해서 배울 의지가 있는 사람을 환영하죠.",
+      "text": "부모님에 대한 책임감과 죄책감이 가장 큰 압박으로 작용하고 있군요. 부모님이 직접 압박을 주시나요, 아니면 당신이 스스로 그렇게 느끼는 건가요?",
       "technique": [
-        "information_giving",
-        "encouragement"
+        "emotion_labeling",
+        "clarification"
       ]
     },
     {
-      "turn": 16,
+      "turn": 12,
       "speaker": "client",
-      "text": "그렇군요. 근데 어떻게 취업 정보를 알 수 있나요?"
+      "text": "직접적으로는 안 하세요. 오히려 '네가 최선을 다하면 된다'고 하시는데... 그게 더 부담돼요. 기대를 저버리면 안 될 것 같아서요."
     },
     {
-      "turn": 16,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "워크넷, 고용24 같은 정부 취업 사이트, 학교 취업지원센터, 산업인력공단 등에서 정보를 얻을 수 있어요. 특성화고가 아니어도 일반고 학생들을 위한 취업 과정도 있어요.",
+      "text": "부모님의 배려 어린 말씀이 오히려 더 큰 책임감으로 느껴지는군요. 스스로에게 너무 높은 기준을 세우고 계신 것 같아요.",
       "technique": [
+        "interpretation",
+        "validation"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그런가요? 그냥 당연한 거라고 생각했는데..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "당신에게 묻고 싶어요. 만약 수능에서 원하는 결과가 나오지 않는다면, 그게 정말 부모님을 저버리는 일일까요? 당신의 가치는 수능 점수로 결정되나요?",
+      "technique": [
+        "open_question",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "그건... 아니지만... 근데 결과가 중요하잖아요. 인생이 달라지잖아요."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "결과가 중요한 건 맞아요. 하지만 수능이 인생의 전부는 아니에요. 수능은 많은 길 중 하나의 시작점일 뿐이에요. 이걸 모든 것을 거는 도박처럼 생각하면 압박이 너무 커져요.",
+      "technique": [
+        "validation",
         "information_giving"
       ]
     },
     {
+      "turn": 15,
+      "speaker": "client",
+      "text": "머리로는 아는데... 마음이 안 따라와요. 주변에서도 다들 인생이 걸렸다고 하고..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "주변의 말들이 압박을 더 키우는군요. 하지만 중요한 건 다른 사람들의 기준이 아니라 당신에게 이 시험이 어떤 의미인지예요. 한번 생각해 볼까요? 수능이 당신에게 진짜 의미하는 건 뭔가요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "음... 제가 원하는 공부를 할 수 있는 기회? 그리고 부모님께 보답하는 것?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "technique": [
+        "validation",
+        "interpretation"
+      ]
+    },
+    {
       "turn": 17,
       "speaker": "client",
-      "text": "학교 취업지원센터... 저희 학교에도 있나요?"
+      "text": "조금... 그런 것 같아요. 근데 한 달 남은 지금, 제가 뭘 해야 할까요?"
     },
     {
       "turn": 17,
       "speaker": "counselor",
-      "text": "대부분의 고등학교에 있어요. 담당 선생님께 문의해보세요. 취업 정보뿐만 아니라 이력서 작성, 면접 준비 등도 도와주실 거예요.",
+      "text": "좋은 질문이에요. 지금 필요한 건 세 가지예요. 첫째, 컨디션 관리. 둘째, 효율적인 마무리 학습. 셋째, 멘탈 관리. 하나씩 구체적으로 계획을 세워볼까요?",
       "technique": [
-        "information_giving",
+        "validation",
+        "structuring",
         "goal_setting"
       ]
     },
     {
       "turn": 18,
       "speaker": "client",
-      "text": "이력서나 면접... 생각만 해도 떨려요. 잘할 수 있을까요?"
+      "text": "네, 알려주세요!"
     },
     {
       "turn": 18,
       "speaker": "counselor",
-      "text": "처음이라 긴장되시는 게 당연해요. 하지만 준비하면 할 수 있어요. 자신의 강점과 배우고 싶은 열정을 보여주면 돼요.",
+      "text": "먼저 컨디션 관리. 지금부터는 절대 수면 시간을 줄이면 안 돼요. 최소 7시간은 자야 해요. 수면이 기억력과 집중력을 좌우하거든요.",
       "technique": [
-        "validation",
-        "encouragement"
+        "information_giving",
+        "structuring"
       ]
     },
     {
       "turn": 19,
       "speaker": "client",
-      "text": "제 강점이요? 저한텐 그런 게 있을까요?"
+      "text": "7시간이요? 그럼 공부 시간이 부족한데..."
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "아까 말씀하신 것 있잖아요. 손으로 뭔가 만들고 고치는 걸 좋아하고, 실제로 고장 난 물건을 고친 경험도 있고, 동아리 활동도 했다고요. 이게 다 강점이에요.",
+      "text": "남은 한 달은 새로운 걸 배우는 시기가 아니라 아는 것을 정리하고 실전 감각을 유지하는 시기예요. 질이 양보다 중요해요. 피곤한 상태로 10시간 공부하는 것보다 맑은 정신으로 6시간 공부하는 게 훨씬 효과적이에요.",
       "technique": [
-        "restatement",
+        "information_giving",
         "validation"
       ]
     },
     {
       "turn": 20,
       "speaker": "client",
-      "text": "아... 그렇게 생각하니까 저도 할 수 있는 게 있네요."
+      "text": "그렇군요... 마무리 학습은 어떻게 해야 하나요?"
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "그렇죠. 그리고 배우려는 의지와 열정이 있다는 것도 큰 강점이에요. 기업들은 완벽한 사람보다 배우려는 자세를 가진 사람을 원하는 경우가 많아요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "조금 자신감이 생기네요. 그런데 부모님은 뭐라고 하실까..."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "부모님은 취업에 대해 어떻게 생각하시나요?",
-      "technique": [
-        "open_question"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "별로 말씀 안 하시는데... 집안 형편이 어려우니까 제가 빨리 돈 벌었으면 하시는 것 같아요. 근데 좋은 직장 다녔으면 하시는 것 같기도 하고..."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "부모님은 당신이 안정적으로 잘 되기를 바라시는군요. 기술직도 안정적이고 좋은 직장이 될 수 있다는 걸 보여드리면 좋을 것 같아요.",
-      "technique": [
-        "interpretation",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "어떻게 보여드려요?"
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "구체적인 계획을 세워서 말씀드리는 거예요. 어떤 직종에 취업할 것인지, 자격증은 어떻게 딸 것인지, 미래 전망은 어떤지 등을 조사해서 보여드리면 부모님도 안심하실 거예요.",
+      "text": "이제는 새 문제보다 틀렸던 문제, 헷갈렸던 개념을 반복해서 보세요. 그리고 매일 실전 모의고사를 한 과목씩 풀면서 시간 배분과 감각을 유지하는 거예요.",
       "technique": [
         "information_giving",
         "goal_setting"
       ]
     },
     {
-      "turn": 24,
+      "turn": 21,
       "speaker": "client",
-      "text": "그렇게 준비하면 되겠네요. 오늘 이야기하고 나니까 취업이 그렇게 막막하게만 느껴지지 않아요."
+      "text": "알겠어요. 멘탈 관리는요?"
     },
     {
-      "turn": 24,
+      "turn": 21,
       "speaker": "counselor",
-      "text": "좋아요. 오늘 우리가 나눈 이야기를 정리해볼까요? 기계 분야에 관심이 있고, 관련 자격증과 취업 정보를 알아보기로 했어요. 학교 취업지원센터도 방문하고, 부모님께는 구체적인 계획을 세워서 말씀드리기로 했죠.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
-        "summarization",
-        "structuring"
+        "goal_setting",
+        "information_giving"
       ]
     },
     {
-      "turn": 25,
+      "turn": 22,
       "speaker": "client",
-      "text": "네, 맞아요. 이제 뭘 해야 할지 알겠어요."
+      "text": "그렇게 하면 정말 불안이 줄어들까요?"
     },
     {
-      "turn": 25,
+      "turn": 22,
       "speaker": "counselor",
-      "text": "대학 진학이 유일한 길이 아니에요. 자신에게 맞는 길을 선택한 것은 용기 있는 결정이에요. 그 길을 잘 준비하면 충분히 성공할 수 있어요.",
+      "text": "완전히 없어지진 않겠지만 분명히 줄어들어요. 불안을 적으로 보지 말고 '내가 이걸 중요하게 여기고 있다는 증거'로 받아들이세요. 적당한 긴장은 오히려 집중력을 높여줘요.",
       "technique": [
         "validation",
-        "encouragement"
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "적당한 긴장... 지금은 과도한 불안인 것 같네요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "맞아요. 그래서 조절이 필요한 거예요. 하루에 10분씩이라도 산책하거나 스트레칭하면서 긴장을 풀어주는 것도 중요해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "산책할 시간도 아까운 것 같은데... 해도 될까요?"
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "반드시 해야 해요. 그 10분이 나머지 시간의 효율을 2배로 만들어줘요. 계속 긴장 상태로 있으면 오히려 번아웃이 와요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "알겠어요. 오늘부터 실천해 볼게요. 오늘 상담 받으니까 조금 마음이 가벼워지는 것 같아요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "다행이에요. 기억하세요, 남은 한 달은 불안과 싸우는 시간이 아니라 자신을 믿고 준비한 것을 점검하는 시간이에요.",
+      "technique": [
+        "encouragement",
+        "validation"
       ]
     },
     {
       "turn": 26,
       "speaker": "client",
-      "text": "감사합니다, 선생님. 힘이 나네요."
+      "text": "네, 그렇게 생각하니까 좀 덜 무섭네요."
     },
     {
       "turn": 26,
       "speaker": "counselor",
-      "text": "천천히 하나씩 준비해나가세요. 궁금한 게 생기거나 도움이 필요하면 언제든 찾아오세요. 응원할게요!",
+      "text": "수능 전에 다시 한 번 만날까요? 그때 컨디션이랑 멘탈 상태 점검해 봐요.",
       "technique": [
-        "encouragement",
         "structuring"
       ]
     },
     {
       "turn": 27,
       "speaker": "client",
-      "text": "네, 꼭 다시 올게요!"
+      "text": "네, 꼭요! 감사합니다, 선생님."
     },
     {
       "turn": 27,
       "speaker": "counselor",
-      "text": "좋은 소식 기다릴게요. 화이팅!",
+      "text": "당신은 충분히 잘할 수 있어요. 자신을 믿고 한 걸음씩 나아가세요. 응원할게요!",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "네! 최선을 다해볼게요."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "최선을 다하는 당신의 모습이 이미 자랑스러워요. 좋은 결과 있기를 바랄게요.",
       "technique": [
         "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "17세",
-    "gender": "남성",
-    "occupation": "고등학교 2학년",
-    "background": "원하는 대학과 현실적 가능성 사이의 갈등"
-  }
+  ]
 }

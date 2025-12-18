@@ -1,24 +1,29 @@
 {
-  "category": "crisis",
+  "metadata": {
+    "category": "crisis",
+    "topic": "트라우마 후 위기",
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:32.800510+00:00"
+  },
   "client_profile": {
-    "age": "19",
+    "age": "17세",
     "gender": "여성",
-    "occupation": "대학교 1학년",
-    "background": "최근 자해 충동이 심해짐, 과거 자해 경험 있음, 현재 극심한 스트레스 상태"
+    "occupation": "고등학생",
+    "background": "트라우마 후 위기 관련 상담"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 저 요즘 너무 힘들어요. 자꾸 이상한 생각이 나요."
+      "text": "모든 게 끝났으면 좋겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "오셔서 이야기해주셔서 감사해요. 이상한 생각이라고 하셨는데, 조금 더 구체적으로 말씀해 주실 수 있을까요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 모든 게 끝났으면 좋겠어요....라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
         "empathy",
-        "clarification"
+        "open_question"
       ]
     },
     {
@@ -197,7 +202,7 @@
     {
       "turn": 14,
       "speaker": "counselor",
-      "text": "친구분을 배려하시는 마음이 느껴져요. 그런데 만약 반대로 그 친구가 이런 상황이었다면, 말해줬으면 좋겠다고 생각하지 않으실까요?",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
         "validation",
         "confrontation"
@@ -239,7 +244,7 @@
     {
       "turn": 17,
       "speaker": "counselor",
-      "text": "물론이죠. 바로 지금 같은 상황을 위한 서비스예요. 자해 충동이 심할 때 언제든 전화하시면 돼요.",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
         "validation",
         "information_giving"
@@ -253,7 +258,7 @@
     {
       "turn": 18,
       "speaker": "counselor",
-      "text": "잘하셨어요. 그리고 지금 극심한 스트레스 상태라고 하셨는데, 어떤 일이 있으세요?",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "encouragement",
         "open_question"
@@ -370,13 +375,5 @@
         "encouragement"
       ]
     }
-  ],
-  "generated_at": "2024-12-17T00:00:00.000Z",
-  "conversation_id": "CRI_20251218_0582",
-  "metadata": {
-    "generated_at": "2025-12-18T05:18:08.420426+00:00",
-    "model": "claude-sonnet-4-5",
-    "seed_category": "crisis",
-    "generator": "claude_code_direct"
-  }
+  ]
 }

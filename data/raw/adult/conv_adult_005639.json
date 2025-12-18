@@ -1,454 +1,443 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "배우자 갈등",
+    "topic": "직장 내 인간관계 갈등",
     "total_turns": 30,
-    "quality_indicators": [
-      "reflection",
-      "open_question",
-      "emotion_labeling",
-      "empathy",
-      "closed_question",
-      "interpretation",
-      "information_giving",
-      "structuring"
-    ]
+    "generated_at": "2025-12-18T07:14:28.845996+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0010_o1p2q3r4",
-    "category": "adult",
-    "topic": "배우자 갈등"
+  "client_profile": {
+    "age": "32세",
+    "gender": "여성",
+    "occupation": "교사",
+    "background": "직장 내 인간관계 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.462823+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "임원님이 저를 애 취급해요. 8년차인데도."
+      "text": "자존감이 바닥이에요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "8년 경력이 있는데도 애 취급당한다고 느끼시는군요. 어떤 상황인가요?",
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
       "technique": [
         "empathy",
-        "reflection",
         "open_question"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "현장 일은 제가 제일 잘 아는데, 사무실에서 일도 안 해보신 임원님이 일일이 간섭하세요. '이렇게 해라, 저렇게 해라' 제 판단을 전혀 믿어주지 않아요."
+      "text": "지난주에 회사에서... 갑자기 숨이 안 쉬어지고 심장이 미친 듯이 뛰더라고요. 병원 갔더니 공황발작이래요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "현장 전문가인 본인의 판단을 신뢰하지 않고 세세하게 간섭한다는 거네요. 구체적으로 어떤 일들이 있었나요?",
+      "text": "공황발작을 경험하셨군요. 갑자기 숨이 막히고 심장이 빠르게 뛰는 경험은 정말 무서우셨을 거예요. 그때 어떤 상황이었나요?",
       "technique": [
-        "empathy",
         "reflection",
+        "validation",
         "open_question"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "어제도 자재 발주 건으로 전화하셨어요. 제가 A 업체로 하려고 했는데 '왜 B 업체는 안 알아봤냐, 다시 알아보고 보고해라'고요. 이미 견적 다 받아본 건데..."
+      "text": "프로젝트 데드라인 하루 전이었어요. 버그가 계속 생기는데 시간은 없고... 그때 갑자기 가슴이 조여오면서 쓰러질 것 같았어요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "이미 충분히 검토한 사안인데도 다시 확인하라고 하시는군요. 그때 어떤 기분이 드셨어요?",
-      "technique": [
-        "empathy",
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "무시당하는 기분이죠. '내가 뭐 하러 8년을 일했나' 싶고... 화나고 억울하고."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "전문성을 인정받지 못하는 느낌에 화와 억울함을 느끼시는군요. 이런 일이 자주 있나요?",
-      "technique": [
-        "empathy",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "매일요. 하루에 전화를 10통도 넘게 받아요. '이거 확인했어? 저거는 어떻게 됐어?' 제가 알아서 하고 있는데..."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "하루 10통 넘는 확인 전화를 받으시는군요. 이게 업무에 어떤 영향을 미치나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "집중이 안 돼요. 현장에서 작업 지시하다가도 전화 오면 받아야 하고... 그럼 작업 흐름이 끊기고. 비효율적이에요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "잦은 전화로 업무 흐름이 끊겨서 효율성이 떨어지는군요. 임원님께 이런 어려움을 말씀드려 보신 적 있으세요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "한번 조심스럽게 말했어요. '제가 알아서 잘 진행하고 있으니 믿어주셔도 됩니다'라고. 근데 '내가 확인하는 게 뭐가 문제야? 책임은 내가 지는데'라고 하시더라고요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "본인의 요청을 '책임' 문제로 돌리셨군요. 그 답변을 들었을 때 어떠셨어요?",
-      "technique": [
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "말문이 막혔죠. '그럼 저는 책임 안 진다는 건가?' 싶기도 하고... 더 이상 말할 수가 없었어요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "방어적인 반응에 더 이상 소통하기 어려우셨군요. 임원님은 왜 그렇게 세세하게 확인하시는 것 같으세요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "통제욕이 강하신 것 같아요. 모든 걸 본인이 관리하고 싶어 하시는..."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "마이크로매니징 스타일이시군요. 임원님 입장에서는 그게 책임을 다하는 방법일 수 있지만, 현장 전문가인 본인에게는 불신으로 느껴지는 거네요.",
+      "text": "촉박한 데드라인과 해결되지 않는 문제들이 겹치면서 신체가 극심한 스트레스 반응을 보인 거네요. 그런 일이 처음이셨나요?",
       "technique": [
         "interpretation",
-        "information_giving"
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "네, 처음이었어요. 그래서 더 놀랐죠. 저는 원래 스트레스에 강한 편이라고 생각했거든요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "'나는 스트레스에 강하다'고 생각하셨는데 몸이 다른 신호를 보내니 당황스러우셨겠어요. 요즘 업무 상황은 어떠세요?",
+      "technique": [
+        "empathy",
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "지옥이에요. 솔직히 말하면... 3개월 전부터 주 7일 일하고 있어요. 주말도 없고, 하루에 12시간 이상씩 코딩하고 있어요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "3개월 동안 주 7일, 하루 12시간 이상 일하고 계시는군요. 휴식 없이 이렇게 일하시는 이유가 있으신가요?",
+      "technique": [
+        "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "저희 스타트업이 투자 유치를 해야 하는데, 그러려면 제품을 빨리 완성해야 한대요. 개발팀이 저 포함해서 3명뿐이거든요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "summarization",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "처음엔 의욕이 넘쳤어요. 좋은 기회라고 생각했죠. 근데 이제는... 그냥 로봇 된 기분이에요. 아무 감정도 없고 그냥 기계적으로 일만 하는."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "처음의 의욕이 사라지고 지금은 감정이 무뎌진 채로 기계적으로 일만 하고 계시는군요. 이건 번아웃의 핵심 증상 중 하나예요. 일 외에 다른 활동은 하시나요?",
+      "technique": [
+        "reflection",
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "아무것도 안 해요. 회사 갔다 집 와서 자고, 또 출근하고... 친구들 연락도 다 끊었어요. 만날 시간도 없고 만나고 싶은 마음도 없어요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "일과 수면만 반복하고 사회적 관계도 끊어진 상태네요. 예전에 즐기셨던 취미나 활동이 있으셨나요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "게임 좋아했고, 주말에 농구도 했었는데... 이제는 그런 거 할 생각도 안 나요. 그냥 피곤해요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "게임이나 농구 같은 취미에도 흥미가 없어지고 늘 피곤한 상태시군요. 수면은 충분히 취하고 계신가요?",
+      "technique": [
+        "reflection",
+        "closed_question"
       ]
     },
     {
       "turn": 10,
       "speaker": "client",
-      "text": "맞아요. 정확히 그래요. 그럼 어떻게 해야 하나요?"
+      "text": "잠은... 5-6시간? 근데 자도 잔 것 같지 않아요. 아침에 일어나면 이미 지쳐있어요."
     },
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "마이크로매니저를 바꾸기는 어렵지만, 불필요한 확인을 줄이는 방법은 있어요. 선제적으로 보고하는 거예요.",
+      "text": "수면 시간도 부족하고 수면의 질도 좋지 않으신 거네요. 잠들기 전이나 자는 중에 어떤 생각을 하시나요?",
       "technique": [
-        "information_giving",
-        "structuring"
+        "interpretation",
+        "open_question"
       ]
     },
     {
       "turn": 11,
       "speaker": "client",
-      "text": "선제적 보고요?"
+      "text": "내일 할 일, 해결 안 된 버그, 데드라인... 머릿속이 계속 돌아가요. 꿈도 코드 짜는 꿈 꿔요."
     },
     {
       "turn": 11,
       "speaker": "counselor",
-      "text": "임원님이 전화하시기 전에 먼저 보고하는 거예요. '오늘 자재 발주 완료했습니다, A 업체로 결정했고 이유는 ~~입니다' 이런 식으로요.",
+      "text": "잠자는 시간에도 일에서 벗어나지 못하시는군요. 뇌가 쉬지 못하니 아침에 더 피곤하실 수밖에 없어요. 이런 상태가 계속되면 어떻게 될 것 같으세요?",
       "technique": [
+        "empathy",
         "information_giving",
-        "structuring"
+        "open_question"
       ]
     },
     {
       "turn": 12,
       "speaker": "client",
-      "text": "그럼 전화가 줄어들까요?"
+      "text": "모르겠어요. 진짜 쓰러질 것 같긴 해요. 근데 제가 안 하면 프로젝트가 지연되고, 그럼 투자 못 받고, 회사가 망할 수도 있잖아요."
     },
     {
       "turn": 12,
       "speaker": "counselor",
-      "text": "보장할 수는 없지만, 가능성은 있어요. 마이크로매니저들은 '모르는 것'에 대한 불안이 커서 확인하는 경우가 많거든요. 먼저 알려드리면 불안이 줄어들 수 있어요.",
+      "text": "회사의 성공이 본인 어깨에 달려있다고 느끼시는군요. 그 책임감이 본인을 계속 몰아붙이고 있는 것 같아요. 실제로 회사 성공이 전적으로 본인에게만 달려있나요?",
       "technique": [
-        "information_giving",
-        "validation"
+        "reflection",
+        "confrontation"
       ]
     },
     {
       "turn": 13,
       "speaker": "client",
-      "text": "일리가 있네요. 해볼게요."
+      "text": "... 그건 아니죠. 다른 팀원들도 있고, 대표님도 계시고. 근데 제가 맡은 부분은 제가 해야 하잖아요."
     },
     {
       "turn": 13,
       "speaker": "counselor",
-      "text": "그리고 정기 보고 체계를 제안해보는 것도 방법이에요. '매일 오후 5시에 일일 보고 드리겠습니다' 이런 식으로요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "정해진 시간에 보고하면 수시 전화가 줄 수도 있겠네요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "정확해요. '그때 보고 들으면 되지' 하고 안심하실 수 있거든요. 그리고 보고할 때는 '결과'뿐 아니라 '과정'과 '이유'도 함께 설명하세요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "과정과 이유요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "네. 'A 업체로 결정했습니다'만 말하면 '왜?'라는 질문이 오잖아요. 대신 'A, B, C 업체 견적을 받았고, 가격과 품질을 비교한 결과 A가 최적이어서 결정했습니다'라고 하면 추가 질문이 줄어요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "아, 미리 궁금해하실 걸 설명하는 거군요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "맞아요. 그리고 중요한 결정은 사전에 의견을 구하는 것도 방법이에요. '이렇게 하려고 하는데 어떻게 생각하세요?'라고요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "그건... 제가 결정권을 포기하는 거 아닌가요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "그렇게 느껴질 수 있지만, 조금 다르게 보면 '협의'하는 거예요. 최종 결정은 본인이 하되, 임원님을 과정에 참여시키는 거죠. 그럼 존중받는다고 느끼실 거예요.",
+      "text": "본인 역할에 대한 책임감은 맞지만, 전체 회사의 성패까지 본인이 책임질 필요는 없어요. 지금 본인이 쓰러지면 프로젝트는 어떻게 되나요?",
       "technique": [
         "validation",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "당연히 더 지연되겠죠. 아, 그러니까 제가 쉬면 안 되는 거 아닌가요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "반대로 생각해 볼게요. 지금처럼 계속 가다가 정말 쓰러지신다면? 공황발작이 심해지거나 다른 건강 문제가 생긴다면 몇 주, 몇 달을 쉬어야 할 수도 있어요. 지금 조금 쉬시는 게 나을까요, 나중에 강제로 오래 쉬게 되는 게 나을까요?",
+      "technique": [
+        "confrontation",
         "information_giving"
       ]
     },
     {
-      "turn": 18,
+      "turn": 15,
       "speaker": "client",
-      "text": "전략적으로 접근하는 거네요."
+      "text": "... 지금 쉬는 게 낫겠죠. 근데 어떻게 쉬어요? 일은 계속 쌓이는데."
     },
     {
-      "turn": 18,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "정확해요. 이상적이진 않지만, 현실적인 방법이에요. 그리고 본인의 감정 관리도 중요해요. 매번 무시당한다고 느끼시면 소진될 수 있거든요.",
+      "text": "그 질문이 중요해요. 현재 상황을 대표님이나 팀원들과 솔직하게 공유해 보신 적 있으세요?",
       "technique": [
         "encouragement",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "아니요. 다들 바쁜데 제가 힘들다고 하면... 약해 보일 것 같아서요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "'약해 보일 것 같다'는 걱정이 드시는군요. 하지만 본인의 한계를 알고 도움을 요청하는 건 약함이 아니라 성숙함이에요. 스타트업에서 핵심 개발자가 번아웃으로 쓰러지는 건 회사에게도 큰 손실 아닐까요?",
+      "technique": [
+        "empathy",
+        "confrontation",
         "information_giving"
       ]
     },
     {
-      "turn": 19,
+      "turn": 17,
       "speaker": "client",
-      "text": "이미 많이 지쳤어요. 어떻게 관리하죠?"
+      "text": "그건... 맞는 말이네요. 대표님도 제가 건강하게 오래 일하길 바라시겠죠."
     },
     {
-      "turn": 19,
+      "turn": 17,
       "speaker": "counselor",
-      "text": "임원님의 확인을 '불신'이 아니라 '업무 스타일'로 받아들이는 연습을 해보세요. '나를 못 믿는 게 아니라, 원래 저런 분이구나'라고요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "관점을 바꾸는 거군요. 쉽진 않겠지만..."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "쉽지 않죠. 하지만 매번 화내고 억울해하는 것보다는 본인 정신 건강에 나아요. 그리고 퇴근 후에는 일을 완전히 내려놓는 시간을 가지세요.",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
         "validation",
         "goal_setting"
       ]
     },
     {
-      "turn": 21,
+      "turn": 18,
       "speaker": "client",
-      "text": "퇴근 후에도 전화 오는데요..."
+      "text": "그렇게 말하면 될까요? 뭐라고 말해야 할지 모르겠어요."
     },
     {
-      "turn": 21,
+      "turn": 18,
       "speaker": "counselor",
-      "text": "그건 경계를 정해야 해요. '긴급 상황 외에는 퇴근 후 통화가 어렵습니다'라고 정중하게 말씀드리는 거죠.",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
         "information_giving",
         "structuring"
       ]
     },
     {
+      "turn": 19,
+      "speaker": "client",
+      "text": "그 정도면... 대표님도 심각하게 받아들이시겠네요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "네, 그리고 해결 방안도 함께 제안해보세요. 예를 들어, 일부 기능을 다음 버전으로 미루거나, 외부 개발자를 단기로 고용하거나, 업무를 재분배하는 방법 등이요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "일부 기능을 미루는 건 저도 생각했었어요. 근데 혼자 결정할 수 없으니까..."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "바로 그거예요. 혼자 결정할 수 없는 문제는 같이 논의해야 해요. 본인만 감당하려고 하지 마시고 팀으로 해결책을 찾아보세요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "네, 이번 주 안에 대표님께 말씀드려 볼게요. 근데 당장 오늘부터 제가 할 수 있는 게 있을까요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "좋은 질문이에요. 오늘부터 할 수 있는 것들을 함께 정리해볼까요? 첫째, 퇴근 시간을 정하는 거예요. 예를 들어 밤 10시 이후에는 노트북을 끄는 거죠.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 22,
       "speaker": "client",
-      "text": "그렇게 말해도 될까요?"
+      "text": "밤 10시요? 보통 12시까지는 일하는데..."
     },
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "일과 생활의 경계는 정당한 권리예요. 물론 조심스럽게 표현해야겠지만요. '가족 시간을 보장해야 해서' 같은 이유를 덧붙이면 좋아요.",
+      "text": "지금 상황에서는 근무 시간을 줄이는 게 필수예요. 10시가 어렵다면 11시로 시작해도 좋아요. 중요한 건 경계선을 만드는 거예요.",
       "technique": [
-        "validation",
-        "information_giving"
+        "information_giving",
+        "validation"
       ]
     },
     {
       "turn": 23,
       "speaker": "client",
-      "text": "알겠습니다. 시도는 해볼게요."
+      "text": "11시면... 할 수 있을 것 같아요."
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "이번 주에 할 수 있는 것들을 정리해볼까요? 선제적 보고하기, 정기 보고 체계 제안하기, 과정과 이유 함께 설명하기. 이 중에서 가장 먼저 시도해볼 건 뭔가요?",
+      "text": "좋아요. 둘째, 주말 중 하루는 완전히 일을 내려놓는 거예요. 토요일이든 일요일이든, 하루는 코드를 보지 않는 날로 정하세요.",
       "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "하루를요? 그게... 가능할까요?"
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "불가능해 보이죠? 하지만 3개월 동안 하루도 쉬지 않고 일했는데도 프로젝트가 끝나지 않았어요. 하루 쉰다고 해서 크게 달라질 건 없어요. 오히려 그 하루가 다음 주 효율을 높여줄 거예요.",
+      "technique": [
+        "confrontation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "그렇게 생각하니 맞는 말 같네요. 일요일은 쉬어보겠습니다."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "훌륭해요. 그 날은 예전에 좋아하셨던 것들을 해보세요. 게임을 하거나, 농구를 하거나, 그냥 누워서 쉬어도 좋아요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "농구... 오랜만에 해보고 싶네요. 친구들한테 연락해봐야겠어요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "아주 좋은 생각이에요. 사회적 관계도 다시 회복하시는 거니까요. 셋째, 잠들기 전 30분은 디지털 기기를 끄고 몸과 마음을 이완하는 시간을 가지세요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "자기 전에 보통 누워서 노트북으로 코드 보는데... 그걸 끊어야겠네요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "네, 그게 수면의 질을 떨어뜨리는 주범이에요. 대신 가벼운 스트레칭이나 심호흡을 해보세요. 뇌에게 '이제 일 끝, 쉴 시간'이라는 신호를 주는 거예요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "네, 해볼게요. 오늘 상담 받길 잘한 것 같아요. 제가 얼마나 심각한 상태였는지 깨달았어요."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "본인 상태를 인식하신 게 가장 중요한 첫걸음이에요. 오늘 정한 것들을 정리해볼까요? 대표님과의 대화, 퇴근 시간 정하기, 주말 하루 쉬기, 잠들기 전 디지털 기기 끄기. 이 중에서 가장 먼저 해보고 싶은 게 뭔가요?",
+      "technique": [
+        "encouragement",
         "summarization",
         "open_question"
       ]
     },
     {
-      "turn": 24,
+      "turn": 29,
       "speaker": "client",
-      "text": "선제적 보고요. 오늘부터 해볼게요."
+      "text": "오늘부터 11시에 노트북 끄는 거요. 그리고 일요일에 친구들 만나기. 대표님께 말씀드리는 건 내일 해볼게요."
     },
     {
-      "turn": 24,
+      "turn": 29,
       "speaker": "counselor",
-      "text": "좋아요. 그리고 정기 보고 체계는 이번 주 안에 제안해보세요.",
+      "text": "아주 구체적으로 계획을 세우셨네요. 다음 주에 만나서 어떻게 진행되었는지 이야기 나눠보면 좋겠어요. 그리고 공황발작 증상이 다시 나타나면 즉시 병원에 가시고, 심하면 정신건강의학과 진료도 고려해주세요.",
       "technique": [
         "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, '업무 효율을 위해'라는 명목으로 말씀드려볼게요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "완벽해요. 본인의 필요가 아니라 '업무 효율'을 강조하는 게 좋아요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "그런데 만약 안 받아들여지면요?"
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "최소한 시도는 해본 거예요. 그리고 계속 안 된다면, 장기적으로 팀 이동이나 다른 선택을 고려할 수도 있고요.",
-      "technique": [
-        "validation",
+        "goal_setting",
         "information_giving"
       ]
     },
     {
-      "turn": 27,
+      "turn": 30,
       "speaker": "client",
-      "text": "그렇죠. 일단 할 수 있는 건 다 해보겠습니다."
+      "text": "네, 알겠습니다. 오늘 정말 도움이 많이 됐어요. 감사합니다."
     },
     {
-      "turn": 27,
+      "turn": 30,
       "speaker": "counselor",
-      "text": "오늘 상담에서 어떤 게 가장 도움이 되셨나요?",
-      "technique": [
-        "open_question",
-        "summarization"
-      ]
-    },
-    {
-      "turn": 28,
-      "speaker": "client",
-      "text": "임원님을 바꿀 순 없지만, 제 대응 방식은 바꿀 수 있다는 것. 그리고 선제적으로 보고하면 불필요한 확인을 줄일 수 있다는 거요."
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "핵심을 잘 정리하셨네요. 다음 주에 어떻게 진행되었는지 이야기 나눠봐요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 29,
-      "speaker": "client",
-      "text": "네, 감사합니다. 막막했는데 방법이 보이네요."
-    },
-    {
-      "turn": 29,
-      "speaker": "counselor",
-      "text": "8년 경력의 전문가로서 본인의 가치를 잊지 마세요. 임원님의 스타일이 본인의 역량을 결정하는 건 아니에요.",
+      "text": "도움이 되셨다니 다행이에요. 본인을 돌보는 것도 일만큼 중요하다는 걸 기억해주세요. 다음 주에 뵙겠습니다.",
       "technique": [
         "validation",
         "encouragement"
       ]
-    },
-    {
-      "turn": 30,
-      "speaker": "client",
-      "text": "명심하겠습니다. 다음 주에 뵙겠습니다."
-    },
-    {
-      "turn": 30,
-      "speaker": "counselor",
-      "text": "전략적이고 현명하게 대처하시길 바라요. 다음 주에 뵙겠습니다.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
     }
-  ],
-  "client_profile": {
-    "age": "25세",
-    "gender": "여성",
-    "occupation": "회사원",
-    "background": "배우자와의 소통 문제로 인한 갈등"
-  }
+  ]
 }

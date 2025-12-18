@@ -1,38 +1,29 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "친구 관계",
+    "topic": "불안장애",
     "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "restatement",
-      "open_question",
-      "clarification",
-      "interpretation",
-      "closed_question",
-      "validation"
-    ]
+    "generated_at": "2025-12-18T07:14:29.275903+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_대인관계_0003_i9j0k1l2",
-    "category": "adult",
-    "topic": "친구 관계"
+  "client_profile": {
+    "age": "30세",
+    "gender": "남성",
+    "occupation": "개발자",
+    "background": "불안장애 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.941169+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "남자친구가 게임만 해요. 주말에 만나도 게임 생각만 하고요."
+      "text": "직장 상사 때문에 미치겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "남자친구분이 게임에 많은 시간을 쓰시나 봐요. 함께 있어도 온전히 함께하지 못한다고 느끼시는군요.",
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
       "technique": [
-        "reflection",
-        "empathy"
+        "empathy",
+        "open_question"
       ]
     },
     {
@@ -73,7 +64,7 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "승진 탈락 후 게임이 늘어났군요. 스트레스 해소 방법으로 게임을 선택한 것 같네요. 그 점에 대해 남자친구분과 얘기해보셨나요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "empathy",
         "interpretation",
@@ -186,7 +177,7 @@
     {
       "turn": 12,
       "speaker": "counselor",
-      "text": "게임이 갈등의 원인이 아니라 증상일 수도 있겠어요. 근본적으로는 두 분의 소통 문제가 있는 거죠.",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "interpretation",
         "information_giving"
@@ -284,7 +275,7 @@
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "empathy",
         "validation"
@@ -376,11 +367,5 @@
         "validation"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "40세",
-    "gender": "남성",
-    "occupation": "관리직",
-    "background": "오랜 친구와의 관계가 멀어져가는 상황"
-  }
+  ]
 }

@@ -1,24 +1,29 @@
 {
-  "category": "crisis",
+  "metadata": {
+    "category": "crisis",
+    "topic": "트라우마 후 위기",
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:32.754559+00:00"
+  },
   "client_profile": {
-    "age": "19",
+    "age": "40세",
     "gender": "여성",
-    "occupation": "대학교 1학년",
-    "background": "최근 자해 충동이 심해짐, 과거 자해 경험 있음, 현재 극심한 스트레스 상태"
+    "occupation": "주부",
+    "background": "트라우마 후 위기 관련 상담"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 저 요즘 너무 힘들어요. 자꾸 이상한 생각이 나요."
+      "text": "더 이상 못 버티겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "오셔서 이야기해주셔서 감사해요. 이상한 생각이라고 하셨는데, 조금 더 구체적으로 말씀해 주실 수 있을까요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 더 이상 못 버티겠어요....라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
         "empathy",
-        "clarification"
+        "open_question"
       ]
     },
     {
@@ -43,7 +48,7 @@
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "밤에 혼자 있을 때 충동이 더 강해지시는군요. 지금 많이 힘드시겠어요. 최근에 실제로 자해를 하신 적은 있으세요?",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "empathy",
         "closed_question"
@@ -281,7 +286,7 @@
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "'의미 없다'고 느끼시는군요. 혹시 살고 싶지 않다는 생각까지 드시나요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "emotion_labeling",
         "closed_question"
@@ -309,7 +314,7 @@
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "구체적인 계획은 없으시다니 다행이에요. 하지만 이런 생각이 지속된다면 꼭 말씀해 주세요. 우리가 함께 다룰 수 있어요.",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "encouragement",
         "structuring"
@@ -370,13 +375,5 @@
         "encouragement"
       ]
     }
-  ],
-  "generated_at": "2024-12-17T00:00:00.000Z",
-  "conversation_id": "CRI_20251218_0531",
-  "metadata": {
-    "generated_at": "2025-12-18T05:18:07.260895+00:00",
-    "model": "claude-sonnet-4-5",
-    "seed_category": "crisis",
-    "generator": "claude_code_direct"
-  }
+  ]
 }

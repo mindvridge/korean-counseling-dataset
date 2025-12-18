@@ -1,35 +1,26 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "외로움",
+    "topic": "SNS 스트레스",
     "total_turns": 28,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "emotion_labeling",
-      "restatement",
-      "closed_question",
-      "validation",
-      "confrontation"
-    ]
+    "generated_at": "2025-12-18T07:14:26.717679+00:00"
   },
-  "seed_info": {
-    "source_file": "adolescent_identity_0001",
-    "category": "adolescent",
-    "topic": "외로움"
+  "client_profile": {
+    "age": "15세",
+    "gender": "여성",
+    "occupation": "중학교 3학년",
+    "background": "SNS 스트레스 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.992714+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님... 저 거울 보는 게 너무 싫어요."
+      "text": "선생님, 비밀은 지켜주시는 거죠?"
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "거울 보는 게 싫다니, 무엇 때문인지 이야기해주실 수 있나요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 선생님, 비밀은 지켜주시는 거죠?...라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
         "empathy",
         "open_question"
@@ -71,7 +62,7 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "그 경험이 깊은 상처가 되었군요. 매우 힘드셨겠어요. 지금도 그 일이 자주 떠오르나요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "validation",
         "closed_question"
@@ -113,7 +104,7 @@
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "외모에 대한 걱정이 일상생활과 학교생활에 많은 영향을 미치고 있군요. 친구들은 당신이 사진 찍기를 거절하는 것에 대해 뭐라고 하나요?",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
         "reflection",
         "open_question"
@@ -378,7 +369,7 @@
     {
       "turn": 26,
       "speaker": "counselor",
-      "text": "좋아요. 그리고 기억하세요. 당신의 가치는 외모로 결정되지 않아요. 당신에게는 훨씬 많은 소중한 점들이 있어요.",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "encouragement",
         "validation"
@@ -411,11 +402,5 @@
         "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "16세",
-    "gender": "여성",
-    "occupation": "고등학교 1학년",
-    "background": "친구를 사귀는 것이 어려워 늘 혼자인 상황"
-  }
+  ]
 }

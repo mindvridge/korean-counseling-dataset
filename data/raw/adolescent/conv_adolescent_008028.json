@@ -1,411 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "성적 압박",
-    "total_turns": 27,
-    "quality_indicators": [
-      "open_question",
-      "empathy",
-      "reflection",
-      "emotion_labeling",
-      "information_giving",
-      "restatement",
-      "closed_question",
-      "interpretation"
-    ]
+    "topic": "진로 고민과 미래 불안",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:26.487754+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_학업스트레스_0026_시험불안01",
-    "category": "adolescent",
-    "topic": "성적 압박"
+  "client_profile": {
+    "age": "14세",
+    "gender": "남성",
+    "occupation": "중학교 2학년",
+    "background": "진로 고민과 미래 불안 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.737484+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "선생님... 저 지난주 시험 볼 때 정말 이상한 일이 있었어요."
+      "text": "상담이 처음인데 뭘 말해야 할지 모르겠어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "무슨 일이 있었는지 이야기해볼까요? 많이 놀란 것 같네요.",
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
+      "turn": 2,
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 친구 문제인데요. 요즘 학교 가기가 너무 싫어요.",
+      "turn": 3
+    },
+    {
+      "speaker": "counselor",
+      "text": "학교 가는 게 싫을 만큼 친구 관계에서 힘든 일이 있었나 보네요. 어떤 일이 있었는지 천천히 말해줄 수 있을까요?",
+      "turn": 4,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "지난주에 인스타그램을 봤는데... 제 친구들이라고 생각했던 애들이 저 빼고 다 같이 놀러 간 거예요. 사진도 여러 장 올라와 있고...",
+      "turn": 5
+    },
+    {
+      "speaker": "counselor",
+      "text": "자신만 빠진 모임 사진을 소셜미디어에서 보게 되었군요. 그 순간 어떤 기분이 들었나요?",
+      "turn": 6,
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "처음엔 '어? 나만 못 본 건가?' 싶어서 카톡방을 확인했는데... 그냥 제가 빠진 거더라고요. 진짜 가슴이 철렁했어요.",
+      "turn": 7
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구들이 자신을 의도적으로 빼놓은 걸 알았을 때 가슴이 철렁했다는 표현이 정말 그 순간의 충격을 잘 담고 있네요. 많이 속상했겠어요.",
+      "turn": 8,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 월요일에 학교 갔는데 애들이 그 얘기하면서 웃고 떠드는 거예요. 저는 그냥 옆에 서 있는데...",
+      "turn": 9
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구들이 자신이 없었던 모임 이야기를 눈앞에서 하는데, 그 상황에서 어떻게 해야 할지 몰라 그냥 서 있을 수밖에 없었군요.",
+      "turn": 10,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 저도 뭐라고 말해야 할지 모르겠고. '나는 왜 안 불렀어?' 이렇게 물어보는 것도 좀 그렇고...",
+      "turn": 11
+    },
+    {
+      "speaker": "counselor",
+      "text": "직접 물어보고 싶지만 그렇게 했을 때 더 이상해질까봐, 혹은 관계가 더 나빠질까봐 걱정되는 마음도 있었나요?",
+      "turn": 12,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 괜히 물어봤다가 '쟤 왜 저래' 이런 식으로 될까봐... 그냥 모른 척하는 게 나을 것 같았어요.",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "그럼 그 이후로는 친구들과 어떻게 지내고 있나요?",
+      "turn": 14,
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "점심시간에도 같이 밥 먹긴 하는데... 뭔가 제가 끼어있는 느낌? 애들은 자기들끼리 얘기하고 저는 그냥 듣고만 있고요.",
+      "turn": 15
+    },
+    {
+      "speaker": "counselor",
+      "text": "함께 있지만 진정으로 함께하는 느낌이 아니라 겉도는 느낌이 든다는 거네요. 그런 상황이 계속되면 정말 외롭고 힘들 것 같아요.",
+      "turn": 16,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그래서 요즘은 그냥 혼자 있는 게 나을 것 같기도 하고. 근데 또 혼자 있으면 더 외톨이 같아 보일까봐 무서워요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구들과 함께 있어도 외롭고, 혼자 있으면 또 다른 걱정이 생기니까 정말 어디에도 마음 둘 곳이 없는 것 같네요. 그 친구들과는 언제부터 친하게 지냈나요?",
+      "turn": 18,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "중학교 때부터요. 같은 중학교 나온 애들이 저랑 세 명 더 있어서 고등학교 올라와서도 자연스럽게 같이 다녔는데...",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "그럼 꽤 오래 알고 지낸 친구들인데 갑자기 이런 일이 생긴 거네요. 혹시 언제부터 이렇게 소외되는 느낌을 받기 시작했나요?",
+      "turn": 20,
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "생각해보니까... 2학기 들어서부터인 것 같아요. 그 전에는 괜찮았는데. 아, 그때 제가 반 대항 체육대회 때 우리 반 응원 안 한다고 좀 혼났었어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "체육대회 때 있었던 일이 혹시 지금의 상황과 관련이 있을 수도 있겠네요. 그때 상황을 좀 더 자세히 말해줄 수 있을까요?",
+      "turn": 22,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "저는 운동에 별로 관심이 없어서 그냥 조용히 앉아있었는데, 친구들이 '너 왜 응원 안 해? 우리 반인데' 이러면서... 저는 그냥 관심이 없어서 그런 건데 애들은 제가 반 분위기를 깬다고 했어요.",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "turn": 24,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그런 것 같아요. 근데 저는 어떻게 해야 할지 모르겠어요. 이제 와서 사과하기도 애매하고...",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금 상황에서 어떻게 행동해야 할지 막막하게 느껴지는군요. 친구들과의 관계를 회복하고 싶은 마음은 있나요?",
+      "turn": 26,
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 있어요. 걔네들이랑 중학교 때부터 친했으니까. 근데 저한테 먼저 다가오지 않는 걸 보면 저를 싫어하는 것 같기도 하고...",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "친구들과 관계를 회복하고 싶지만, 친구들이 먼저 다가오지 않는 걸 보면서 '나를 싫어하는 건 아닐까' 하는 두려움도 생기는 거네요. 혹시 그 친구들 중에서 특별히 더 가까웠던 친구가 있나요?",
+      "turn": 28,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "지유라는 친구가 있어요. 얘랑은 중학교 때 같은 반이어서 제일 친했는데... 요즘은 얘도 저한테 좀 차가운 것 같아요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "가장 가까웠던 지유와의 관계도 예전 같지 않아서 더 힘들겠네요. 혹시 지유에게 솔직하게 마음을 터놓고 이야기해본 적은 있나요?",
+      "turn": 30,
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아니요... 무슨 말을 해야 할지도 모르겠고, 거절당할까봐 무서워요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "거절당하거나 관계가 더 나빠질까봐 두렵다는 마음, 충분히 이해해요. 하지만 지금처럼 계속 마음속에만 담아두는 것도 힘들잖아요. 우리 함께 어떻게 하면 친구들과 다시 가까워질 수 있을지 천천히 생각해볼까요?",
+      "turn": 32,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그럼 좋겠어요. 어떻게 하면 될까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "먼저, 지유에게 먼저 다가가서 둘이서만 편하게 이야기할 수 있는 시간을 가져보는 건 어떨까요? 전체 그룹보다는 가장 친했던 친구 한 명과 먼저 관계를 회복하는 게 더 쉬울 수 있어요.",
+      "turn": 34,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그게... 가능할까요? 뭐라고 말해야 할지 모르겠어요.",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "turn": 36,
+      "technique": [
+        "role_play"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 말하면... 괜찮을 것 같기도 해요. 한번 용기 내볼게요. 감사합니다, 선생님.",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "잘 생각했어요. 용기 내서 첫 걸음을 내딛는 게 가장 어려운 일인데, 그걸 하려고 하는 당신이 정말 대단해요. 다음 상담 때 어떻게 됐는지 이야기 나눠봐요.",
+      "turn": 38,
+      "technique": [
+        "encouragement"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
         "open_question",
         "empathy"
       ]
     },
     {
-      "turn": 2,
       "speaker": "client",
-      "text": "시험 시작하고 10분쯤 지났을 때... 갑자기 숨이 안 쉬어지고 손이 떨렸어요. 식은땀도 나고..."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "갑작스럽게 신체적 증상들이 나타났군요. 그때 기분이 어땠나요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "empathy",
-        "reflection",
-        "emotion_labeling"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "정말 무섭고... '이러다 죽는 거 아닌가' 싶었어요. 시험지는 전혀 보이지 않고..."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "공황 발작 증상으로 보이네요. 그 상황을 어떻게 대처했나요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "empathy",
-        "information_giving",
-        "open_question"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 4,
       "speaker": "client",
-      "text": "보건실로 갔어요. 선생님이 절 데려가셨고... 그 시험은 못 봤어요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "시험을 끝까지 보지 못했군요. 이런 경험이 처음인가요?",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
-        "empathy",
-        "restatement",
-        "closed_question"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "이렇게 심한 건 처음이에요. 근데 예전부터 시험만 보면 떨리고 불안하긴 했어요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "평소에도 시험 불안이 있었는데 이번에 정점에 달한 거네요. 시험 전에는 어떤 상태인가요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "interpretation",
-        "open_question"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 6,
       "speaker": "client",
-      "text": "시험 전날 밤에는 거의 잠을 못 자요. 계속 '이거 안 봤는데', '저거 까먹었는데' 이런 생각만 나고..."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "시험 전날부터 불안이 시작되는군요. 준비는 충분히 하는 편인가요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "네, 저는 공부 많이 하는 편이에요. 시험 범위 다 보고 문제집도 여러 번 풀어요. 근데도 불안해요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "충분히 준비했는데도 불안한 거네요. 그 불안의 원인이 뭐라고 생각하나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "잘 모르겠어요. 그냥... '실수하면 어쩌지', '예상 못한 문제가 나오면 어쩌지' 이런 생각들이 자동으로 나와요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "'만약에'라는 생각들이 계속 불안을 키우는 거네요. 시험에서 좋은 성적을 받는 게 왜 그렇게 중요한가요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "성적이 떨어지면... 제가 쓸모없는 사람 같아요. 공부밖에 못하는데 그것마저 못하면..."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "성적이 자신의 가치와 직결되어 있다고 느끼는군요. 성적 외에 자신의 다른 장점은 생각해본 적 있나요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "글쎄요... 잘 모르겠어요. 부모님도 선생님들도 다 성적 얘기만 하시니까..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "주변에서 성적으로만 평가하니까 스스로도 그렇게 생각하게 된 거네요. 그런데 시험 점수가 사람의 가치를 결정할까요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "아니라는 건 알아요. 근데... 막상 시험을 보면 그런 생각이 안 나요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "머리로는 알지만 감정적으로 받아들이기 어려운 거네요. 시험 상황에서 불안을 줄이는 방법을 배워볼 필요가 있어요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "방법이 있나요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "있어요. 먼저 호흡법이에요. 시험 중에 불안해지면 천천히 깊게 호흡하면서 '나는 충분히 준비했다'고 되뇌는 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그게... 효과가 있을까요?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "즉각적인 만능 해결책은 아니에요. 하지만 연습하면 불안을 조절하는 데 도움이 돼요. 지금부터 연습해두면 다음 시험 때 쓸 수 있을 거예요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "연습은 어떻게 하나요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "매일 5분씩 조용한 곳에서 4초 들이쉬고, 4초 참고, 4초 내쉬는 호흡을 반복하는 거예요. 그리고 긍정적인 문장을 함께 떠올리고요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "긍정적인 문장이요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "네. '나는 충분히 준비했다', '실수해도 괜찮다', '이건 단지 시험일 뿐이다' 같은 문장들이요. 본인에게 맞는 걸 만들어도 좋아요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "아... 그런 식으로 하는 거군요. 근데 시험 중에 또 그런 증상이 오면 어떡하죠?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "우선 펜을 내려놓고 눈을 감으세요. 그리고 호흡에 집중하면서 몸의 긴장을 풀어요. 5분 정도 시간을 써도 괜찮아요. 패닉 상태로 푸는 것보다 낫거든요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "5분이나요? 그럼 시간이 부족한데..."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "불안 상태에서는 집중이 안 되니까 결국 더 많은 시간을 낭비해요. 차라리 진정하고 나서 푸는 게 효율적이에요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "그렇게 생각하니까... 맞네요. 지난번에도 30분 동안 한 문제도 제대로 못 풀었거든요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "맞아요. 그리고 시험 전날의 습관도 바꿔야 해요. 전날 밤샘 공부는 오히려 역효과예요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "근데 안 보면 더 불안해요..."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "그 불안함을 이해해요. 하지만 전날은 가볍게 복습만 하고 일찍 자는 게 좋아요. 충분한 수면이 시험 당일 컨디션에 큰 영향을 주거든요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "수면이... 그렇게 중요한가요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "매우 중요해요. 잠이 부족하면 불안이 더 심해지고 집중력도 떨어져요. 시험 일주일 전부터는 규칙적인 수면을 유지하는 게 좋아요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "알겠어요... 노력해볼게요. 근데 선생님, 또 그런 일이 생기면 어떡하죠? 너무 무서워요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "그 두려움도 자연스러워요. 하지만 지금은 대처 방법을 알았잖아요. 그리고 한 번 경험했기 때문에 오히려 더 잘 준비할 수 있어요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "그렇게 생각할 수도 있네요..."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "그리고 필요하다면 시험 전에 담임 선생님께 상황을 미리 알려두는 것도 좋아요. 이해해주실 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "선생님께... 말씀드려도 될까요?"
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "물론이죠. 부끄러운 일이 아니에요. 도움을 요청하는 건 용기 있는 행동이에요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "알겠어요. 다음 시험 전에 말씀드려볼게요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "좋아요. 그리고 우리도 다음 시험 전에 한 번 더 만나서 준비 상태를 점검해봐요. 언제가 좋을까요?",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "시험 3일 전쯤 뵙고 싶어요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "좋아요. 그때 다시 만나요. 그 전까지 호흡 연습 꾸준히 하고, 불안할 때마다 기록해두세요. 패턴을 파악하면 도움이 될 거예요.",
-      "technique": [
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "네, 그렇게 할게요. 오늘 얘기하고 나니까 좀 덜 무서워요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "혼자가 아니라는 걸 기억하세요. 우리 함께 이 문제를 해결해나갈 거예요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "감사합니다, 선생님. 다음에 뵐게요."
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "응원할게요. 힘든 순간이 오면 연락하고요.",
-      "technique": [
-        "encouragement"
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "14세",
-    "gender": "여성",
-    "occupation": "중학교 2학년",
-    "background": "부모님의 높은 기대로 인한 극심한 성적 스트레스"
-  }
+  ]
 }

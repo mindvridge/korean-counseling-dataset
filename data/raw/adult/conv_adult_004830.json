@@ -1,454 +1,368 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "우울감",
-    "total_turns": 30,
-    "quality_indicators": [
-      "reflection",
-      "closed_question",
-      "open_question",
-      "interpretation",
-      "emotion_labeling",
-      "empathy",
-      "clarification",
-      "validation"
-    ]
+    "topic": "상사와의 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:27.992896+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0013_a3b4c5d6",
-    "category": "adult",
-    "topic": "우울감"
+  "client_profile": {
+    "age": "27세",
+    "gender": "여성",
+    "occupation": "디자이너",
+    "background": "상사와의 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:38.444239+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "이번 분기 실적이 안 나오면 짤릴 것 같아요."
+      "text": "직장 상사 때문에 미치겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "실적 압박 때문에 고용 불안을 느끼시는군요. 실제로 그런 얘기를 들으셨나요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 직장 상사 때문에 미치겠어요....라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
         "empathy",
-        "reflection",
-        "closed_question"
+        "open_question"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "직접 들은 건 아니지만... 분위기가 그래요. 실적 안 나오는 매니저들은 계약 연장 안 되거든요."
+      "text": "고등학교 때부터요. 발표할 때 떨리고 그랬는데, 점점 심해져서 이제는 일상적인 대화도 힘들어요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "직접적 언급은 없지만 회사 분위기로 느끼시는군요. 지금 본인 실적은 어떤가요?",
+      "text": "10년 가까이 이런 어려움이 있었군요. 증상이 점점 악화되어 일상생활까지 영향을 미치고 있네요. 가장 두려운 상황이 무엇인가요?",
       "technique": [
+        "validation",
         "empathy",
-        "reflection",
         "open_question"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "중간 정도요? 상위 50% 안에는 들어요. 근데 그게 안전하다는 보장은 없잖아요."
+      "text": "사람들이 저를 쳐다보는 거요. '저 사람 이상하다', '어색하다' 이렇게 생각할 것 같아서요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "상위 50%인데도 불안하시군요. 과거에 실적이 그 정도인데 계약 연장 안 된 사례가 있었나요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
-        "empathy",
-        "reflection",
+        "interpretation",
         "closed_question"
       ]
     },
     {
       "turn": 4,
       "speaker": "client",
-      "text": "... 없어요. 보통 하위 20% 정도만 문제가 되는데... 근데 제가 떨어질 수도 있잖아요."
+      "text": "직접적으로는 아니지만... 제가 어색하게 행동하면 사람들이 이상하게 쳐다봐요."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "실제 위험은 크지 않은데도 '떨어질 수도 있다'는 불안이 큰 거네요. 이런 불안이 얼마나 심한가요?",
+      "text": "본인이 어색하다고 느끼실 때 사람들의 시선을 의식하시는군요. 그 시선이 정말 '이상하다'는 의미일까요, 아니면 본인의 해석일까요?",
       "technique": [
-        "interpretation",
-        "emotion_labeling"
+        "clarification",
+        "confrontation"
       ]
     },
     {
       "turn": 5,
       "speaker": "client",
-      "text": "밤에 잠을 못 자요. 눈 감으면 숫자만 보이고, '이번 달 목표 못 채우면 어떡하지' 생각만 들어요."
+      "text": "... 제 해석일 수도 있겠네요. 확실히는 모르겠어요."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "불안이 수면을 방해할 정도로 심각하군요. 다른 신체 증상은 없나요?",
+      "text": "정직하게 말씀해주셨네요. 불안할 때는 중립적인 표정도 부정적으로 해석하게 되거든요. 지금 온라인 쇼핑몰 운영하신다고 하셨는데, 대면 접촉이 전혀 없나요?",
+      "technique": [
+        "validation",
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "네. 모든 걸 온라인으로 해요. 택배도 문 앞에 두고 가달라고 하고요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "완전히 대면 접촉을 차단하고 계시네요. 이런 생활에 만족하시나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "아니요. 외롭고... 정상적인 삶이 아니라는 거 알아요. 근데 무서워요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "변화를 원하지만 두려움이 크시군요. 두려움의 정체가 정확히 뭘까요? '사람을 만나면 무슨 일이 생길 것 같으세요?",
       "technique": [
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 6,
-      "speaker": "client",
-      "text": "심장이 자주 두근거려요. 그리고 시장 개장 전에는 속이 메스꺼워요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "심계항진과 메스꺼움까지 있으시군요. 이런 증상이 언제부터 시작됐나요?",
-      "technique": [
-        "reflection",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "작년 말부터요. 그때 실적이 좀 안 좋았거든요. 그 이후로 계속..."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "한 번의 부진 이후 계속 불안이 지속되고 있군요. 혹시 '완벽해야 한다' '실수하면 안 된다'는 생각이 자주 드시나요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
       "turn": 8,
       "speaker": "client",
-      "text": "네... 저는 항상 최상위이어야 해요. 그래야 살아남으니까."
+      "text": "창피당할 것 같아요. 말을 더듬거나, 어색하게 행동하거나... 그러면 사람들이 저를 이상한 사람으로 볼 거예요."
     },
     {
       "turn": 8,
       "speaker": "counselor",
-      "text": "항상 최고여야 한다는 압박감이 크시군요. 그런데 '상위 50%'도 살아남는 거잖아요. 왜 '최상위'이어야 한다고 생각하세요?",
+      "text": "'창피당하는 것'이 최악의 시나리오시군요. 만약 정말 그런 일이 생긴다면 어떻게 될까요?",
       "technique": [
         "reflection",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "... 글쎄요. 제 기준이 높아서? 평범한 건 못 참아요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "높은 기준을 가지신 거네요. 그 기준이 본인을 성장시키기도 하지만, 동시에 과도한 불안을 만들고 있는 것 같아요.",
-      "technique": [
-        "validation",
-        "interpretation"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "그럼 기준을 낮춰야 하나요? 그럼 경쟁력이 떨어지는데..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "기준을 낮추는 게 아니라 '현실적'으로 만드는 거예요. 항상 최상위이 목표가 아니라, '꾸준히 상위권 유지'가 목표가 될 수도 있잖아요.",
-      "technique": [
-        "information_giving",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "... 그게 다른가요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "많이 다르죠. '항상 최상위'은 단 한 번의 실수도 용납 안 하지만, '꾸준히 상위권'은 때로는 중간일 수도 있다는 여유를 주거든요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "여유라... 저한테는 없는 단어네요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "바로 그게 문제예요. 여유 없이 계속 달리면 결국 쓰러져요. 지금 신체 증상이 그 신호이고요.",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "쓰러지면 더 큰일이잖아요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "맞아요. 그래서 지금 조절해야 하는 거예요. 이번 주에 업무 외 시간은 어떻게 보내시나요?",
-      "technique": [
-        "validation",
         "open_question"
       ]
     },
     {
-      "turn": 14,
+      "turn": 9,
       "speaker": "client",
-      "text": "퇴근해서도 차트 보고, 뉴스 보고... 주말에도 공부해요."
+      "text": "견딜 수 없을 것 같아요. 그래서 아예 안 하는 거예요."
     },
     {
-      "turn": 14,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "일과 공부만 하시는군요. 완전히 쉬는 시간이 없으시네요.",
+      "text": "회피가 단기적으로는 안전하게 느껴지지만, 장기적으로는 삶을 제한하고 있어요. 이 패턴을 깨고 싶으신가요?",
       "technique": [
-        "reflection",
-        "empathy"
+        "information_giving",
+        "closed_question"
       ]
     },
     {
-      "turn": 15,
+      "turn": 10,
       "speaker": "client",
-      "text": "쉬면 뒤처질 것 같아서..."
+      "text": "깨고 싶긴 한데... 어떻게요?"
     },
     {
-      "turn": 15,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "'쉬면 뒤처진다'는 믿음이 있으시군요. 하지만 적절한 휴식이 오히려 판단력과 집중력을 높인다는 연구 결과가 많아요.",
+      "text": "노출 치료라는 방법이 있어요. 두려운 상황에 점진적으로 노출되면서 불안을 견디는 법을 배우는 거죠.",
       "technique": [
-        "reflection",
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "무서운데요..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "당연히 무섭죠. 하지만 갑자기 큰 것부터 하는 게 아니에요. 가장 덜 무서운 것부터 시작해요. 예를 들어, 편의점 가서 물건 사기 같은 거요.",
+      "technique": [
+        "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 16,
+      "turn": 12,
       "speaker": "client",
-      "text": "그래도... 불안해요."
+      "text": "편의점도 무서운데..."
     },
     {
-      "turn": 16,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "불안을 느끼시는 건 당연해요. 작게라도 시작해보는 건 어떨까요? 일주일에 하루, 3시간만이라도 완전히 일을 내려놓는 거예요.",
+      "text": "그럼 더 작은 것부터요. 창문 열고 밖 보기, 베란다에 나가기, 집 앞 계단까지 내려가기. 이렇게 단계적으로요.",
       "technique": [
-        "validation",
-        "goal_setting"
+        "structuring",
+        "clarification"
       ]
     },
     {
-      "turn": 17,
+      "turn": 13,
       "speaker": "client",
-      "text": "3시간이요? 그 시간에 뭘 하죠?"
+      "text": "그게 도움이 될까요?"
     },
     {
-      "turn": 17,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "아무것도 안 해도 돼요. 아니면 예전에 좋아했던 취미, 운동, 친구 만나기... 일과 무관한 활동이면 뭐든 좋아요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "그런 시간이... 필요할까요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "필수예요. 뇌도 쉬어야 해요. 계속 긴장 상태면 오히려 실수가 늘어나요. 지금 수면 부족과 불안으로 이미 판단력이 떨어지고 있지 않나요?",
+      "text": "처음엔 불안하겠지만, 반복하면 점점 줄어들어요. 뇌가 '이 상황이 위험하지 않구나'라고 학습하거든요.",
       "technique": [
         "information_giving",
-        "confrontation"
+        "encouragement"
       ]
     },
     {
-      "turn": 19,
+      "turn": 14,
       "speaker": "client",
-      "text": "... 맞아요. 요즘 실수가 늘었어요."
+      "text": "혼자 할 수 있을까요?"
     },
     {
-      "turn": 19,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "바로 그거예요. 쉬지 않아서 오히려 성과가 떨어지는 악순환이에요. 그리고 완벽주의에 대해서도 이야기해볼 필요가 있어요.",
-      "technique": [
-        "interpretation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "완벽주의가 나쁜 건가요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "적절한 완벽주의는 좋지만, 과도하면 해로워요. '실수 한 번에 모든 게 끝난다'는 생각이 현실적인가요?",
-      "technique": [
-        "information_giving",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "... 아니에요. 실적 한 분기 나빠도 바로 짤리진 않죠."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "맞아요. 그런데도 본인은 그렇게 느끼고 계세요. 이런 생각을 '인지 왜곡'이라고 해요. 현실을 더 위협적으로 해석하는 거죠.",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
         "encouragement",
         "information_giving"
       ]
     },
     {
-      "turn": 22,
+      "turn": 15,
       "speaker": "client",
-      "text": "제가 과장하고 있다는 건가요?"
+      "text": "호흡법이요?"
     },
     {
-      "turn": 22,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "과장이라기보다는, 불안이 현실을 왜곡하고 있다는 거예요. 이번 주에 해볼 수 있는 게 있어요. 불안한 생각이 들 때, '이게 사실인가? 증거가 있나?' 스스로에게 물어보는 거예요.",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
-        "clarification",
-        "structuring"
+        "information_giving",
+        "goal_setting"
       ]
     },
     {
-      "turn": 23,
+      "turn": 16,
       "speaker": "client",
-      "text": "생각에 질문하는 거요?"
+      "text": "네, 해보고 싶어요."
     },
     {
-      "turn": 23,
+      "turn": 16,
       "speaker": "counselor",
-      "text": "네. 예를 들어 '나는 짤릴 거야'라는 생각이 들면, '실제로 짤릴 증거가 있나? 내 실적은 상위 50%인데?'라고 반문하는 거죠.",
+      "text": "코로 4초 들이마시고, 7초 참았다가, 입으로 8초에 걸쳐 내쉬세요. 천천히 따라 해보세요.",
       "technique": [
         "information_giving",
         "structuring"
       ]
     },
     {
-      "turn": 24,
+      "turn": 17,
       "speaker": "client",
-      "text": "해볼게요. 근데 그래도 불안하면요?"
+      "text": "(호흡 연습) 조금... 진정되는 것 같아요."
     },
     {
-      "turn": 24,
+      "turn": 17,
       "speaker": "counselor",
-      "text": "한 번에 해결되진 않아요. 꾸준히 연습해야 해요. 그리고 심한 불안은 정신건강의학과 도움도 고려해야 해요.",
+      "text": "좋아요. 이 기법을 불안할 때 사용하면 도움이 돼요. 이번 주에 연습해보시겠어요?",
       "technique": [
-        "validation",
-        "information_giving"
+        "encouragement",
+        "goal_setting"
       ]
     },
     {
-      "turn": 25,
+      "turn": 18,
       "speaker": "client",
-      "text": "약을 먹어야 하나요?"
+      "text": "네, 해볼게요. 그리고 밖에 나가는 것도... 계단까지는 할 수 있을 것 같아요."
     },
     {
-      "turn": 25,
+      "turn": 18,
       "speaker": "counselor",
-      "text": "필요하다면요. 불안장애가 심하면 약물치료가 도움이 돼요. 하지만 그건 정신과 의사가 판단할 일이에요.",
+      "text": "훌륭해요. 계단까지 내려가는 것부터 시작해보세요. 하루에 한 번씩이요. 그리고 그때의 불안 정도를 기록해보세요.",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "기록이요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "네. 0점(전혀 불안하지 않음)부터 10점(극도로 불안함)까지요. 패턴을 보면 도움이 돼요.",
       "technique": [
         "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "알겠습니다. 해볼게요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "잘하실 거예요. 작은 한 걸음이 큰 변화의 시작이에요. 다음 주에 어떠셨는지 얘기 나눠봐요.",
+      "technique": [
+        "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 26,
+      "turn": 21,
       "speaker": "client",
-      "text": "알겠습니다. 일단 오늘 배운 것부터 해볼게요."
+      "text": "다음에는 뭘 이야기하면 될까요?"
     },
     {
-      "turn": 26,
+      "turn": 21,
       "speaker": "counselor",
-      "text": "오늘 정한 것들 정리해볼까요? 일주일에 3시간 일 내려놓기, 불안한 생각에 질문하기, 필요시 정신과 상담. 맞나요?",
+      "text": "편하게 그때 마음에 있는 이야기를 해주시면 돼요. 준비된 것 없어도 괜찮아요.",
       "technique": [
-        "summarization",
-        "closed_question"
+        "structuring",
+        "validation"
       ]
     },
     {
-      "turn": 27,
+      "turn": 22,
       "speaker": "client",
-      "text": "네, 맞아요."
+      "text": "선생님과 이야기하니까 마음이 좀 가벼워지는 것 같아요."
     },
     {
-      "turn": 27,
+      "turn": 22,
       "speaker": "counselor",
-      "text": "그리고 가장 중요한 건, '상위 50%도 훌륭하다'는 걸 인정하는 거예요. 항상 최상위일 필요 없어요.",
+      "text": "그렇게 말씀해 주셔서 감사해요. 앞으로도 함께 이야기 나눠요.",
       "technique": [
         "validation",
         "encouragement"
       ]
     },
     {
-      "turn": 28,
+      "turn": 23,
       "speaker": "client",
-      "text": "그게... 쉽지 않을 것 같지만 노력해볼게요."
+      "text": "선생님과 이야기하니까 마음이 좀 가벼워지는 것 같아요."
     },
     {
-      "turn": 28,
+      "turn": 23,
       "speaker": "counselor",
-      "text": "처음엔 어렵겠지만, 본인의 건강을 위해 필요한 일이에요. 다음 주에 어떻게 됐는지 이야기 나눠봐요.",
+      "text": "그렇게 말씀해 주셔서 감사해요. 앞으로도 함께 이야기 나눠요.",
       "technique": [
         "validation",
-        "goal_setting"
+        "encouragement"
       ]
     },
     {
-      "turn": 29,
+      "turn": 24,
       "speaker": "client",
-      "text": "네, 감사합니다."
+      "text": "상담을 받으면 정말 나아질 수 있을까요?"
     },
     {
-      "turn": 29,
+      "turn": 24,
       "speaker": "counselor",
-      "text": "오늘 상담에서 어떤 게 가장 도움이 됐나요?",
-      "technique": [
-        "open_question",
-        "summarization"
-      ]
-    },
-    {
-      "turn": 30,
-      "speaker": "client",
-      "text": "제 불안이 과도하다는 것, 그리고 완벽하지 않아도 괜찮다는 것. 쉬는 것도 필요하다는 거요."
-    },
-    {
-      "turn": 30,
-      "speaker": "counselor",
-      "text": "완벽하게 정리하셨네요. 본인에게 조금 더 관대해지세요. 다음 주에 뵙겠습니다.",
+      "text": "네, 많은 분들이 상담을 통해 변화를 경험하세요. 천천히 함께 해봐요.",
       "technique": [
         "encouragement",
-        "validation"
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네, 그래요. 말씀하시니까 조금 마음이 놓이는 것 같아요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "그렇게 느끼신다니 다행이에요. 앞으로 함께 해결해 나갈 수 있어요.",
+      "technique": [
+        "validation",
+        "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "33세",
-    "gender": "남성",
-    "occupation": "프리랜서",
-    "background": "특별한 이유 없이 지속되는 무기력과 우울"
-  }
+  ]
 }

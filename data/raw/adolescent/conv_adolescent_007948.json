@@ -1,395 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "형제 갈등",
+    "topic": "정체성 혼란",
     "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "restatement",
-      "emotion_labeling",
-      "clarification",
-      "closed_question",
-      "summarization"
-    ]
+    "generated_at": "2025-12-18T07:14:26.401868+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0010_소외감_7e4b9c",
-    "category": "adolescent",
-    "topic": "형제 갈등"
+  "client_profile": {
+    "age": "17세",
+    "gender": "여성",
+    "occupation": "고등학교 2학년",
+    "background": "정체성 혼란 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.643020+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "선생님, 친구들이 저를 놀림감으로 생각하는 것 같아요."
+      "text": "진로를 못 정하겠어요. 뭘 해야 할지...",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "친구들이 자신을 놀림감으로 여긴다고 느끼시는군요. 많이 상처받으셨을 것 같아요. 어떤 일들이 있었나요?",
-      "technique": [
-        "reflection",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
       "turn": 2,
-      "speaker": "client",
-      "text": "맨날 저만 놀려요. '야 너 진짜 웃기다', '너는 왜 그러니' 이런 식으로... 처음에는 장난인 줄 알았는데 계속 저만 그러니까..."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "반복적으로 자신만 놀림의 대상이 되니까 장난이 아니라 진짜 무시하는 것 같다고 느끼시는군요. 그럴 때 어떤 기분이 드세요?",
       "technique": [
-        "restatement",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "기분 나쁘죠. 근데 화내면 '장난도 못 받아주냐'고 하니까... 그냥 웃어요. 억지로..."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "화가 나지만 표현하지 못하고 억지로 웃어 넘기시는군요. 그런 상황이 계속되면 정말 힘드실 텐데요. 이 친구들은 어떤 관계인가요?",
-      "technique": [
-        "emotion_labeling",
         "empathy",
         "open_question"
       ]
     },
     {
+      "speaker": "client",
+      "text": "민준이요... 근데 저는 별로 상담 받고 싶지 않았어요. 엄마가 자꾸 강요해서...",
+      "turn": 3
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇군요. 본인의 의지보다는 어머니의 권유로 오게 되어서 마음이 편하지 않을 수 있겠어요. 민준이의 솔직한 마음을 이야기해줘서 고마워요.",
       "turn": 4,
-      "speaker": "client",
-      "text": "같은 반이고... 점심도 같이 먹고 그래요. 친구라고 생각했는데 요즘은 잘 모르겠어요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "친구라고 생각했는데 요즘은 확신이 서지 않는군요. 혹시 구체적으로 어떤 놀림을 당하시나요? 예를 들어 줄 수 있나요?",
       "technique": [
-        "reflection",
-        "clarification",
-        "open_question"
+        "validation"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "제가 운동을 못하는데, 체육시간마다 '야, 너 때문에 졌어', '너는 빠져 있어' 이러고... 외모도 놀리고, 성적도 놀려요. 뭐든지..."
+      "text": "엄마는 제가 게임만 한다고 난리예요. 근데 제가 뭘 잘못한 건지 모르겠어요.",
+      "turn": 5
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "운동 실력, 외모, 성적 등 여러 부분을 놀림의 소재로 삼고 있군요. 한두 가지가 아니라 전반적으로 무시당하는 느낌이 드시겠어요. 다른 친구들도 다 그러나요, 아니면 특정 친구가 주도하나요?",
-      "technique": [
-        "summarization",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
+      "text": "게임 때문에 어머니와 갈등이 있는 상황이네요. 민준이는 자신이 잘못했다고 생각하지 않는데, 어머니는 걱정이 많으신 것 같아요. 요즘 게임을 얼마나 하고 있나요?",
       "turn": 6,
-      "speaker": "client",
-      "text": "태영이가 주로 그러고, 다른 애들은 따라 웃어요. 근데 그것도 기분 나빠요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "태영이가 주도하고 다른 친구들은 동조하는 패턴이군요. 동조하는 것도 상처가 되죠. 태영이와는 어떤 사이인가요?",
       "technique": [
-        "clarification",
-        "validation",
-        "open_question"
+        "reflection"
       ]
     },
     {
-      "turn": 7,
       "speaker": "client",
-      "text": "초등학교 때부터 알았는데... 예전에는 안 그랬어요. 중학교 와서 얘가 인기가 많아지면서 이렇게 된 것 같아요."
+      "text": "하루에... 한 5-6시간? 주말엔 더 하고요. 근데 친구들도 다 하는데 왜 저만 혼나는지 모르겠어요.",
+      "turn": 7
     },
     {
-      "turn": 7,
       "speaker": "counselor",
-      "text": "태영이의 위치가 변하면서 당신을 대하는 태도도 변했군요. 혹시 태영이에게 왜 그러는지 물어본 적은 있나요?",
-      "technique": [
-        "restatement",
-        "closed_question"
-      ]
-    },
-    {
+      "text": "하루에 5-6시간 정도 게임을 하고 있고, 친구들도 다 하는데 자신만 혼나는 것 같아서 억울한 마음이 드는군요.",
       "turn": 8,
-      "speaker": "client",
-      "text": "한번 물어봤더니 '뭐? 장난인데'라고만 하더라고요. 그리고 더 심하게 놀렸어요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "문제를 제기했더니 오히려 악화됐군요. 그럼 더 말하기 어려워지셨겠어요. 지금 가장 힘든 부분은 무엇인가요?",
       "technique": [
-        "reflection",
-        "empathy",
-        "open_question"
+        "reflection"
       ]
     },
     {
-      "turn": 9,
       "speaker": "client",
-      "text": "저를 지켜줄 사람이 없다는 거요. 다들 태영이 편이에요. 저는 혼자고..."
+      "text": "네... 그리고 게임할 때가 제일 편해요. 학교에서도 스트레스 받고, 집에서도 공부하라고 난리고...",
+      "turn": 9
     },
     {
-      "turn": 9,
       "speaker": "counselor",
-      "text": "고립감과 무력감을 느끼시는군요. 정말 힘든 상황이에요. 혹시 반에 다른 친구들은 없나요? 이 그룹 말고요?",
-      "technique": [
-        "emotion_labeling",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
+      "text": "학교와 집에서 받는 스트레스가 많아서, 게임을 할 때만큼은 그런 것들을 잊고 편안함을 느끼는 것 같네요. 학교에서는 어떤 일들이 힘들게 하나요?",
       "turn": 10,
-      "speaker": "client",
-      "text": "있긴 한데... 얘들이랑만 놀아서 다른 애들이랑은 별로 안 친해요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "이 그룹에 많이 의존하고 계셨군요. 그래서 떠나기도 어렵고요. 하지만 지금처럼 계속 놀림을 당하는 것과, 새로운 관계를 시도하는 것 중 어느 것이 더 나을 것 같으세요?",
       "technique": [
-        "reflection",
-        "confrontation"
+        "empathy"
       ]
     },
     {
-      "turn": 11,
       "speaker": "client",
-      "text": "새로운 관계가... 나을 것 같긴 한데, 어떻게 해야 할지 모르겠어요."
+      "text": "공부도 어렵고... 친구들이랑도 잘 안 맞아요. 중학교 때 친했던 애들이랑 다른 반이 되면서 점점 멀어졌어요.",
+      "turn": 11
     },
     {
-      "turn": 11,
       "speaker": "counselor",
-      "text": "변화가 필요하다는 건 느끼지만 방법을 모르시는군요. 함께 생각해봅시다. 먼저, 이 상황을 선생님께 말씀드린 적은 있나요?",
-      "technique": [
-        "reflection",
-        "structuring",
-        "closed_question"
-      ]
-    },
-    {
+      "text": "고등학교에 올라오면서 친했던 친구들과 떨어지게 되었고, 새로운 친구 관계를 만드는 것도 쉽지 않은 상황이네요. 그런 상황이 많이 외롭고 힘들었겠어요.",
       "turn": 12,
-      "speaker": "client",
-      "text": "아니요... 고자질하는 것 같아서요. 그리고 더 놀림받을 것 같고..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "보복이 두렵고, 고자질이라는 낙인이 찍힐까봐 걱정되시는군요. 하지만 반복적인 놀림과 무시는 괴롭힘이에요. 고자질이 아니라 정당한 문제 제기예요. 이해되시나요?",
       "technique": [
-        "emotion_labeling",
-        "information_giving",
-        "validation"
+        "empathy"
       ]
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "괴롭힘이요? 그렇게까지 심각한 건가요?"
+      "text": "네... 그래서 게임에서 만난 친구들이랑 노는 게 더 좋아요. 걔네는 저를 잘 이해해주거든요.",
+      "turn": 13
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "네, 장난이라는 이름으로 한 사람을 지속적으로 놀리고 무시하는 건 언어적, 정서적 괴롭힘에 해당할 수 있어요. 특히 당신이 기분 나쁘다고 표현했는데도 계속된다면 더욱 그래요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
+      "text": "게임 속 친구들은 민준이를 이해해주고 받아들여주는 느낌이 드는군요. 그 친구들과는 주로 어떤 이야기를 나누나요?",
       "turn": 14,
-      "speaker": "client",
-      "text": "그렇군요... 그럼 어떻게 해야 하나요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "몇 가지 방법이 있어요. 첫째는 태영이에게 단호하게 경계를 표현하는 것, 둘째는 담임선생님께 도움을 요청하는 것, 셋째는 새로운 친구 관계를 만드는 것. 어느 것부터 시작하고 싶으세요?",
       "technique": [
-        "information_giving",
-        "structuring",
-        "open_question"
+        "open_ended_question"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "태영이한테 단호하게 말하는 게... 가능할까요? 무섭긴 한데..."
+      "text": "게임 이야기도 하고, 학교 이야기도 해요. 걔네도 학교에서 힘든 일 많대요. 서로 공감되는 게 많아요.",
+      "turn": 15
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "두렵다는 게 이해돼요. 하지만 시도는 해볼 가치가 있어요. '나는 네가 농담이라고 해도 정말 기분 나빠. 그만해 줬으면 좋겠어'라고 명확하게 말하는 거예요. 연습해볼까요?",
-      "technique": [
-        "validation",
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
+      "text": "그 친구들과는 서로의 어려움을 나누고 공감받을 수 있어서 좋은 것 같네요. 그런데 어머니는 이런 민준이의 마음을 잘 모르시는 것 같나요?",
       "turn": 16,
-      "speaker": "client",
-      "text": "(연습) 태영아, 나는 네가 계속 놀리는 거 정말 기분 나빠. 그만해 줘."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "아주 좋아요! 명확하고 단호했어요. 실제 상황에서도 이렇게 눈을 보고 차분하게 말하면 돼요. 만약 태영이가 '장난도 못 받아주냐'고 하면 어떻게 대답할 건가요?",
       "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "음... '장난이어도 나는 기분 나빠. 존중해 줘'라고 할 수 있을 것 같아요."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "완벽해요! 자신의 감정을 변명하지 않고 존중을 요구하는 거죠. 이런 태도가 정말 중요해요. 하지만 만약 그래도 계속된다면 선생님의 도움이 필요할 수 있어요.",
-      "technique": [
-        "encouragement",
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "네, 그래도 안 되면 선생님께 말씀드릴게요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "좋은 계획이에요. 그리고 새로운 친구 관계에 대해서도 생각해봅시다. 반에 관심 있는 친구가 있나요? 혹은 비슷한 취미를 가진 친구는요?",
-      "technique": [
-        "encouragement",
-        "structuring",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "저는 게임을 좋아하는데, 민호라는 애도 같은 게임을 해요. 근데 별로 얘기해본 적이 없어요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "공통 관심사가 있는 친구가 있군요! 게임 이야기로 대화를 시작해보면 어떨까요? '너도 그 게임 해? 나도 하는데' 이런 식으로요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "그렇게 말하면 될 것 같아요. 생각보다 간단하네요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "맞아요, 시작은 간단해요. 그리고 한 가지 더, 태영이 그룹에서 거리를 두기 시작하면 태영이가 뭐라고 할 수도 있어요. 그럴 때는 어떻게 하실 건가요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "음... '나는 다른 친구들이랑도 놀고 싶어'라고 하면 될까요?"
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "좋은 대답이에요. 비난하지 않으면서도 자신의 선택을 표현하는 거죠. 관계는 자유롭게 선택할 수 있는 거예요. 태영이가 진짜 친구라면 이해해줄 거고, 아니라면... 그건 친구가 아니었던 거예요.",
-      "technique": [
-        "encouragement",
-        "information_giving",
         "validation"
       ]
     },
     {
+      "speaker": "client",
+      "text": "엄마는 제 말을 안 들으려고 해요. 무조건 게임 그만하고 공부하래요. 제가 왜 게임을 하는지는 관심도 없어요.",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "turn": 18,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "맞아요. 그래서 더 게임을 하게 돼요. 엄마랑 얘기하기도 싫고...",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "어머니와의 대화가 힘들어지면서 게임으로 더 도피하게 되는 악순환이 생긴 것 같네요. 민준이는 이런 상황이 계속되는 게 괜찮다고 생각하나요?",
+      "turn": 20,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 사실 성적도 많이 떨어졌고, 요즘 피곤하긴 해요. 밤새 게임하느라 학교에서 졸고... 근데 어떻게 해야 할지 모르겠어요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "지금의 상황이 계속되는 것이 좋지 않다는 걸 민준이도 느끼고 있지만, 어떻게 변화해야 할지 막막한 거네요. 이렇게 솔직하게 이야기해줘서 고마워요.",
       "turn": 22,
-      "speaker": "client",
-      "text": "맞아요. 진짜 친구라면 저를 존중해줬어야 하는데..."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "정확해요. 우정은 서로를 존중하는 거예요. 그럼 오늘 우리가 이야기한 계획을 정리해볼까요?",
       "technique": [
-        "encouragement",
-        "summarization"
+        "validation"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "태영이한테 단호하게 경계 표현하기, 안 되면 선생님께 도움 요청하기, 그리고 민호한테 게임 이야기로 다가가기요."
+      "text": "선생님... 저 이상한 건가요? 게임 중독인가요?",
+      "turn": 23
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "완벽하게 정리하셨어요. 세 가지 모두 실천 가능한 계획이에요. 언제부터 시작해볼 건가요?",
-      "technique": [
-        "encouragement",
-        "closed_question"
-      ]
-    },
-    {
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "turn": 24,
-      "speaker": "client",
-      "text": "내일부터요. 태영이가 또 놀리면 단호하게 말하고, 민호한테도 말 걸어볼게요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "훌륭한 결심이에요. 쉽지 않겠지만 자신을 존중하는 첫걸음이에요. 결과가 어떻게 되든, 용기 내서 시도한 것 자체가 대단한 거예요. 필요하면 언제든 다시 오세요. 응원하겠습니다!",
       "technique": [
-        "encouragement",
-        "validation",
-        "structuring"
+        "normalization"
       ]
     },
     {
-      "turn": 25,
       "speaker": "client",
-      "text": "감사합니다, 선생님. 용기 얻었어요!"
+      "text": "그럼 어떻게 해야 하죠? 게임을 아예 안 할 수는 없을 것 같은데...",
+      "turn": 25
     },
     {
-      "turn": 25,
       "speaker": "counselor",
-      "text": "잘하실 거예요. 화이팅!",
+      "text": "게임을 완전히 끊어야 한다는 건 아니에요. 민준이의 생활에서 게임이 적절한 위치를 찾도록 돕고, 학교생활과 친구 관계에서 겪는 어려움을 함께 해결해나가는 게 중요해요. 민준이는 어떤 것부터 시작해보고 싶나요?",
+      "turn": 26,
+      "technique": [
+        "collaborative_approach"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 친구들이랑 좀 더 친해지고 싶긴 해요. 그럼 학교 가는 게 덜 힘들 것 같아요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋아요. 학교에서 친구 관계를 개선하는 것부터 시작해보는 거네요. 반에서 관심 가는 친구들이 있나요?",
+      "turn": 28,
+      "technique": [
+        "goal_setting"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "옆자리에 앉은 애가 게임 좋아하더라고요. 근데 먼저 말 걸기가 좀 어색해요.",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "공통 관심사가 있는 친구가 있네요. 먼저 말 거는 게 어색하다는 건 자연스러운 감정이에요. 작은 것부터 시작해볼 수 있을 것 같은데, 예를 들어 어떤 시도를 해볼 수 있을까요?",
+      "turn": 30,
       "technique": [
         "encouragement"
       ]
+    },
+    {
+      "speaker": "client",
+      "text": "게임 이야기로 말 걸어볼까요? 그 친구가 하는 게임 저도 하거든요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "아주 좋은 생각이에요! 공통 관심사로 자연스럽게 대화를 시작할 수 있겠네요. 이번 주에 한 번 시도해보고, 다음에 만날 때 어땠는지 이야기 나눠볼까요?",
+      "turn": 32,
+      "technique": [
+        "action_plan"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 해볼게요. 그리고... 엄마랑은 어떻게 해야 할까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "어머니와의 관계도 중요하죠. 민준이가 어머니께 하고 싶은 말이 있다면 어떤 걸까요?",
+      "turn": 34,
+      "technique": [
+        "open_ended_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "제가 왜 힘든지, 왜 게임을 하는지 알아줬으면 좋겠어요. 무조건 혼내기만 하지 말고...",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "민준이의 어려움과 마음을 이해해주길 바라는 거네요. 다음에는 어머니와 함께 상담하는 시간을 가져보면 어떨까요? 민준이의 마음을 어머니께 전달하고, 서로를 이해하는 시간을 만들어볼 수 있을 것 같아요.",
+      "turn": 36,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "엄마가 올까요? 그리고... 제 말을 들어줄까요?",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "어머니도 민준이를 걱정하는 마음에서 이곳에 오게 하신 거니까, 분명 민준이의 진심을 듣고 싶어 하실 거예요. 제가 함께 도와드릴게요. 오늘 민준이가 용기 내서 이야기해준 것처럼요.",
+      "turn": 38,
+      "technique": [
+        "reassurance"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "알겠어요. 그럼 다음에 또 올게요. 생각보다 얘기하니까 좀... 시원한 것 같아요.",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "그렇게 느껴졌다니 다행이에요. 오늘 민준이가 자신의 마음을 솔직하게 나눠줘서 정말 고마워요. 이번 주에 친구에게 말 걸어보는 것 시도해보고, 다음 주에 다시 만나서 이야기 나눠요.",
+      "turn": 40,
+      "technique": [
+        "positive_reinforcement"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
     }
-  ],
-  "client_profile": {
-    "age": "16세",
-    "gender": "남성",
-    "occupation": "고등학교 1학년",
-    "background": "형제자매와의 비교로 인한 스트레스"
-  }
+  ]
 }

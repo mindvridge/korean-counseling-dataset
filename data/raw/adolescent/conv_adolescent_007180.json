@@ -1,35 +1,26 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "대학 진학",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "emotion_labeling",
-      "validation",
-      "information_giving",
-      "interpretation",
-      "reflection",
-      "confrontation"
-    ]
+    "topic": "형제자매 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:25.573644+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_가족갈등_0011_형제자매갈등_01",
-    "category": "adolescent",
-    "topic": "대학 진학"
+  "client_profile": {
+    "age": "15세",
+    "gender": "여성",
+    "occupation": "중학교 3학년",
+    "background": "형제자매 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.764431+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "우리 언니는... 뭐든지 잘해요. 저는 항상 비교당해요."
+      "text": "말하기 부끄럽지만... 고민이 있어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "언니와 자주 비교당하면서 힘든 상황이군요. 어떤 부분에서 주로 비교를 당하나요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 말하기 부끄럽지만... 고민이 있어요...라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
         "empathy",
         "open_question"
@@ -38,68 +29,70 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "성적이요. 언니는 전교 1등이고, 명문대 다녀요. 부모님이 '언니는 네 나이 때 이랬는데', '언니처럼 해봐' 이런 말을 매일 하세요."
+      "text": "중학교 때부터요. 특히 중요한 시험 전에는 며칠 동안 거의 못 자요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "끊임없이 언니를 기준으로 평가받으니까 자신의 가치를 인정받지 못하는 것처럼 느껴지겠어요. 그럴 때 어떤 감정이 드나요?",
+      "text": "꽤 오래된 문제네요. 시험 전 며칠 동안 잠을 못 자면 컨디션이 안 좋을 텐데, 그래도 시험은 잘 보는 편인가요?",
       "technique": [
-        "empathy",
-        "open_question"
+        "reflection",
+        "open_question",
+        "empathy"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "열등감요. 그리고... 언니한테 질투도 나고, 미워지기도 해요. 근데 그런 제 자신이 싫어요."
+      "text": "성적은 괜찮아요. 전교 10등 안에는 들어요. 근데 만족을 못 하겠어요. 더 잘해야 할 것 같고..."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "열등감과 질투를 느끼고, 동시에 그런 감정을 가진 자신을 자책하고 있군요. 감정이 복잡하게 얽혀있네요.",
+      "text": "전교 상위권인데도 만족하지 못하고 계속 더 잘해야 한다고 느끼는 거네요. 왜 그럴까요?",
       "technique": [
-        "emotion_labeling",
+        "reflection",
+        "open_question",
         "empathy"
       ]
     },
     {
       "turn": 4,
       "speaker": "client",
-      "text": "네... 언니는 잘못이 없잖아요. 언니가 잘하는 건데 제가 왜 이렇게 싫어하는지... 제가 나쁜 사람 같아요."
+      "text": "실수가 용납이 안 돼요. 틀린 문제가 있으면 며칠 동안 그 생각만 나고... 더 완벽하게 준비했어야 했다는 생각이 들어요."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "그런 감정을 가지는 게 나쁘다고 생각하시는군요. 하지만 그건 자연스러운 반응이에요. 계속 비교당하면 질투와 분노를 느끼는 게 당연해요.",
+      "text": "완벽하지 않으면 용납이 안 된다는 강한 압박감을 느끼고 계시는군요. 혹시 이런 기준은 어디서 온 걸까요? 부모님이 요구하시나요?",
       "technique": [
-        "validation",
-        "information_giving"
+        "emotion_labeling",
+        "open_question"
       ]
     },
     {
       "turn": 5,
       "speaker": "client",
-      "text": "정말요? 저만 이런 거 아니에요?"
+      "text": "아니요, 부모님은 오히려 너무 무리하지 말라고 하세요. 이건 제가 스스로 정한 기준이에요."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "전혀 아니에요. 많은 형제자매가 비슷한 경험을 해요. 문제는 당신의 감정이 아니라, 부모님의 비교하는 행동이에요.",
+      "text": "스스로에게 매우 높은 기준을 적용하고 있네요. 그런데 그 기준이 오히려 자신을 힘들게 하고 있다는 건 느끼시나요?",
       "technique": [
-        "validation",
-        "information_giving"
+        "reflection",
+        "confrontation"
       ]
     },
     {
       "turn": 6,
       "speaker": "client",
-      "text": "부모님은... 저를 자극해서 더 열심히 하게 하려는 것 같아요. 근데 오히려 의욕이 안 나요."
+      "text": "힘들긴 해요. 근데 이렇게 안 하면 성적이 떨어질 것 같아서... 불안해요."
     },
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "부모님의 의도와 달리 비교는 동기를 떨어뜨리고 있는 거네요. 실제로 그렇게 되었을 때 기분이 어땠나요?",
+      "text": "완벽주의가 동기부여가 되지만 동시에 불안의 원인이 되는 거네요. 혹시 한 번이라도 '충분히 잘했어'라고 자신을 인정해본 적 있나요?",
       "technique": [
         "interpretation",
         "open_question"
@@ -108,316 +101,262 @@
     {
       "turn": 7,
       "speaker": "client",
-      "text": "'어차피 언니만 못하니까 뭐' 이런 생각이 들어요. 그래서 공부도 대충하게 되고... 그러면 또 혼나고."
+      "text": "거의 없어요. 항상 더 할 수 있었다는 생각이 들거든요."
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "포기하는 마음이 생기고, 그게 악순환이 되는 거군요. 언니와는 어떻게 지내고 있나요?",
+      "text": "자신을 인정하지 못하니까 계속 불안한 거예요. 이건 악순환이에요. 완벽을 추구하지만 절대 완벽할 수 없으니까 계속 불만족스러운 거죠.",
       "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "예전엔 친했는데... 요즘은 별로 안 친해요. 언니를 볼 때마다 제 초라함이 느껴져서 피하게 돼요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "비교로 인해 언니와의 관계까지 멀어진 거네요. 언니는 이런 상황에 대해 알고 있나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "잘 모르는 것 같아요. 언니는 공부하느라 바빠서... 그리고 언니한테 이런 얘기 하기도 창피하고요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "언니에게 마음을 털어놓기가 부담스러운 거군요. 혹시 당신만의 강점이나 잘하는 것이 있나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "음... 저는 그림 그리는 걸 좋아해요. 그리고 친구들은 제가 재미있대요. 근데 부모님은 그런 건 중요하게 안 보시는 것 같아요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "예술적 재능과 사회성이라는 멋진 강점이 있는데, 그게 인정받지 못하고 있군요. 그런 강점들도 정말 중요한 가치예요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "부모님은 '그런 걸로 밥 먹고 사냐'고 하세요. 오직 공부만..."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "부모님의 가치관이 학업 성적에만 집중되어 있어서, 당신의 다른 면들이 평가절하되는 거네요. 그게 정말 속상하겠어요.",
-      "technique": [
-        "empathy",
+        "information_giving",
         "interpretation"
       ]
     },
     {
+      "turn": 8,
+      "speaker": "client",
+      "text": "그럼 어떻게 해야 하나요? 기준을 낮추라는 건가요?"
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "기준을 낮추라는 게 아니라, 현실적인 기준을 세우라는 거예요. 그리고 실수를 용납하는 법을 배워야 해요. 완벽한 사람은 없거든요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "실수를 용납하는 법이요? 그게 가능한가요?"
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "머리로는 이해되는데... 감정적으로는 받아들이기 어려워요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "그건 자연스러운 거예요. 오랜 시간 동안 형성된 패턴이니까요. 천천히 바꿔가면 돼요. 작은 연습부터 시작해볼까요?",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "어떤 연습이요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "예를 들어, 시험을 본 후에 '내가 잘한 점 3가지'를 먼저 찾아보는 거예요. 틀린 문제에 집중하기 전에요. 자신을 인정하는 연습이죠.",
+      "technique": [
+        "goal_setting",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 12,
       "speaker": "client",
-      "text": "네. 저도 제 나름대로 노력하는데... 인정을 못 받으니까 자꾸 제 자신이 쓸모없는 것 같아요."
+      "text": "그렇게 하면... 느슨해지지 않을까요?"
     },
     {
       "turn": 12,
       "speaker": "counselor",
-      "text": "자신의 가치를 느끼지 못하는 상태까지 온 거네요. 하지만 당신은 쓸모없지 않아요. 단지 부모님이 당신을 제대로 보지 못하고 계신 거예요.",
+      "text": "자신을 인정하는 것과 느슨해지는 건 다른 거예요. 오히려 자신감이 생기면 더 좋은 성과를 낼 수 있어요. 지금처럼 불안하면 실력 발휘가 안 되잖아요.",
       "technique": [
-        "validation",
+        "information_giving",
         "confrontation"
       ]
     },
     {
       "turn": 13,
       "speaker": "client",
-      "text": "제대로 보지 못한다... 무슨 뜻이에요?"
+      "text": "맞아요. 시험 볼 때 너무 긴장해서 아는 문제도 틀려요."
     },
     {
       "turn": 13,
       "speaker": "counselor",
-      "text": "부모님이 언니라는 틀로만 당신을 보시는 거예요. 당신은 언니와 다른 사람이고, 다른 강점과 가치를 가진 독립된 개인인데 말이죠.",
+      "text": "바로 그거예요. 과도한 불안이 오히려 성적에 악영향을 미치고 있어요. 적당한 긴장은 좋지만, 지금은 과하다는 거죠.",
       "technique": [
-        "interpretation",
+        "validation",
         "information_giving"
       ]
     },
     {
       "turn": 14,
       "speaker": "client",
-      "text": "맞아요. 저는 언니가 아닌데... 자꾸 언니가 되길 바라시는 것 같아요."
+      "text": "그럼 불안을 줄이려면 어떻게 해야 하나요?"
     },
     {
       "turn": 14,
       "speaker": "counselor",
-      "text": "정확한 통찰이에요. 부모님께 이런 마음을 전해본 적이 있나요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "아니요... 말하면 '핑계 대지 마' 이러실 것 같아서요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "부정적인 반응을 예상하고 계시네요. 하지만 시도해보지 않으면 알 수 없어요. 그리고 말하는 방식도 중요해요.",
-      "technique": [
-        "validation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "어떻게 말해야 할까요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "'언니와 비교하지 마세요'가 아니라, '저는 언니와 다른 사람이고, 다른 강점이 있어요. 그걸 인정해주시면 좋겠어요'라고 표현하는 거예요. 자신의 정체성을 주장하는 거죠.",
-      "technique": [
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "제 정체성을 주장한다... 그렇게 할 수 있을까요?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "연습이 필요하겠지만 가능해요. 그리고 구체적으로 당신이 잘하는 것, 관심 있는 것을 보여드리는 것도 방법이에요. 그림 작품을 보여드린다든지요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "그림을 보여드리면... 관심 가져주실까요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "확실하지는 않지만, 당신의 열정과 재능을 보시면 생각이 바뀌실 수도 있어요. 그리고 중요한 건 부모님의 인정보다 스스로 자신의 가치를 인정하는 거예요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "스스로 인정한다... 어떻게요?"
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "언니와 비교하지 않고, 과거의 자신과 비교하는 거예요. '언니만큼 잘했나?'가 아니라 '어제의 나보다 나아졌나?'를 보는 거죠.",
+      "text": "먼저 수면을 충분히 취하는 게 중요해요. 잠을 못 자면 불안이 더 심해져요. 그리고 호흡법이나 이완 기법도 도움이 돼요.",
       "technique": [
         "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "과거의 나와 비교... 그렇게 하면 좀 덜 힘들 것 같아요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "맞아요. 그리고 언니와의 관계도 회복할 필요가 있어요. 언니는 당신의 경쟁자가 아니라 가족이잖아요.",
-      "technique": [
-        "validation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "언니와 관계 회복... 근데 어떻게요? 언니 보기만 해도 제가 초라해지는데..."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "먼저 언니를 언니 자체로 보는 연습이 필요해요. '완벽한 사람', '비교 대상'이 아니라 그냥 '내 언니'로요. 언니도 고민과 어려움이 있을 거예요.",
-      "technique": [
-        "structuring",
-        "interpretation"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "언니도 힘들 수 있다는 거요? 생각해본 적 없었어요."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "항상 1등을 유지해야 한다는 압박, 동생의 모범이 되어야 한다는 부담... 언니도 나름의 스트레스가 있을 거예요. 한번 대화해보는 건 어떨까요?",
-      "technique": [
-        "interpretation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "언니와 대화... 뭘 얘기하면 좋을까요?"
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "솔직한 감정을 나누는 거예요. '언니와 자꾸 비교당해서 힘들어. 언니 잘못은 아니지만...' 이렇게 시작할 수 있어요. 언니도 이해해줄 거예요.",
-      "technique": [
-        "structuring",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "언니가 이해해줄까요? 언니 입장에선 황당할 수도 있을 것 같은데..."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "언니도 가족이고, 당신을 사랑하는 사람이에요. 진심으로 이야기하면 공감해줄 거예요. 그리고 이런 대화가 오히려 관계를 더 가깝게 만들 수 있어요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "알겠어요. 용기 내서 해볼게요. 그런데... 제 열등감은 어떻게 극복하죠?"
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "열등감은 하루아침에 사라지지 않아요. 하지만 자신의 강점을 발견하고 키워가면서, 그리고 자신만의 기준으로 성장하면서 조금씩 나아질 거예요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "시간이 걸리겠네요. 근데 방향은 보이는 것 같아요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "정리해볼까요? 1. 자신의 강점 인정하기, 2. 부모님께 자신의 정체성 표현하기, 3. 언니와 솔직한 대화 나누기, 4. 스스로와 비교하며 성장하기. 이렇게 해보는 거예요.",
-      "technique": [
-        "summarization",
         "goal_setting"
       ]
     },
     {
-      "turn": 27,
+      "turn": 15,
       "speaker": "client",
-      "text": "명확하네요. 한 번에 하나씩 해볼게요."
+      "text": "수면은... 자고 싶은데 불안해서 못 자는 거예요."
     },
     {
-      "turn": 27,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "잘 하실 거예요. 당신은 당신만의 가치와 빛이 있는 사람이에요. 그걸 잊지 마세요.",
+      "text": "악순환이네요. 그럴 때는 의식적으로 이완하는 연습이 필요해요. 명상이나 복식호흡 같은 거요. 매일 조금씩 연습하면 효과가 있을 거예요.",
+      "technique": [
+        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "해볼게요. 그런데 시험 직전에 불안이 급증하면 어떡하죠?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "시험 전에는 '나는 충분히 준비했다' 라고 스스로에게 말해주세요. 그리고 '실수해도 괜찮아, 그것도 배움이야'라고요. 자기 대화를 바꾸는 거예요.",
+      "technique": [
+        "goal_setting",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "자기 대화요? 지금은 '망하면 어떡하지' 이런 생각만 하는데..."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "바로 그 부정적인 자기 대화가 불안을 키우는 거예요. 의식적으로 긍정적인 문장으로 바꿔보세요. 처음엔 어색하겠지만 계속하면 습관이 돼요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "알겠어요. 해볼게요."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 완벽하지 않아도 괜찮다는 걸 기억하세요. 전교 10등도 충분히 훌륭한 성적이에요.",
       "technique": [
         "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 28,
+      "turn": 19,
       "speaker": "client",
-      "text": "감사합니다. 힘이 나요."
+      "text": "노력해볼게요... 쉽지 않겠지만."
     },
     {
-      "turn": 28,
+      "turn": 19,
       "speaker": "counselor",
-      "text": "언제든 힘들면 다시 오세요. 응원할게요.",
+      "text": "쉽지 않을 거예요. 하지만 자신의 건강을 위해 필요한 일이에요. 천천히 바꿔가면 돼요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "다음 시험 전에 한번 실천해볼게요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "좋아요! 그리고 시험 후에 어떻게 느꼈는지 이야기 나눠봐요. 다음 주에 봬요.",
       "technique": [
         "encouragement",
         "structuring"
       ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "네, 감사합니다."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "네!"
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "노력할게요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "잘하실 거예요.",
+      "technique": [
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "감사합니다."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "다음에 봬요.",
+      "technique": [
+        "structuring"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네, 안녕히 계세요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "안녕히 가세요.",
+      "technique": [
+        "structuring"
+      ]
     }
-  ],
-  "client_profile": {
-    "age": "16세",
-    "gender": "여성",
-    "occupation": "고등학교 1학년",
-    "background": "원하는 대학과 현실적 가능성 사이의 갈등"
-  }
+  ]
 }

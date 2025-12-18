@@ -1,35 +1,26 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "시험 불안",
-    "total_turns": 28,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "emotion_labeling",
-      "restatement",
-      "validation",
-      "closed_question",
-      "confrontation"
-    ]
+    "topic": "정체성 혼란",
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:25.862117+00:00"
   },
-  "seed_info": {
-    "source_file": "adolescent_career_0005",
-    "category": "adolescent",
-    "topic": "시험 불안"
+  "client_profile": {
+    "age": "17세",
+    "gender": "여성",
+    "occupation": "고등학교 2학년",
+    "background": "정체성 혼란 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.060030+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님... 저 정말 고민이 많아요. 어떡하죠?"
+      "text": "어디서부터 말해야 할지 모르겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "많이 힘들어 보이네요. 무슨 고민인지 천천히 이야기해주시겠어요?",
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
       "technique": [
         "empathy",
         "open_question"
@@ -38,385 +29,350 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "저 이과를 선택했는데... 수학이랑 과학이 너무 힘들어요. 공부해도 성적이 안 오르고, 하기도 싫고... 차라리 문과로 바꾸고 싶은데 그러면 지금까지 한 게 다 헛수고가 되잖아요."
+      "text": "뉴스를 보면 첨단기술가 많은 직업을 대체할 거라고 하잖아요. 제가 대학 졸업할 때쯤엔 일자리가 없어지는 거 아닌가 싶어서요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "이과 공부가 힘들어서 문과로 바꾸고 싶지만, 지금까지의 시간과 노력이 아까워서 결정하기 어려우시군요.",
+      "text": "첨단기술와 자동화로 인한 직업의 변화가 걱정되시는군요. 그런 기사나 뉴스를 자주 접하시나요?",
       "technique": [
-        "empathy",
         "reflection",
-        "emotion_labeling"
+        "closed_question"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "네... 그리고 부모님이랑 선생님들도 계속 이과가 좋다고 하셨거든요. 이과가 취업도 잘 되고 전망도 좋다고... 근데 저는 정말 안 맞는 것 같아요."
+      "text": "네... 유튜브나 뉴스에서 자주 봐요. 회계사, 변호사, 의사까지도 첨단기술가 대체할 수 있다고 하더라고요. 그럼 저는 뭘 해야 하나 싶어서..."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "주변에서는 이과를 권하지만, 당신은 자신에게 맞지 않는다고 느끼시는군요. 처음에 이과를 선택한 이유는 뭐였나요?",
-      "technique": [
-        "empathy",
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "그냥... 성적이 괜찮았고, 다들 이과 가라고 해서요. 이과가 선택의 폭이 넓다고 했거든요. 근데 막상 와보니까 너무 힘들어요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "주변의 권유와 일반적인 조언을 따라 선택했는데, 실제로 경험해보니 생각과 달랐군요. 구체적으로 어떤 점이 가장 힘드세요?",
+      "text": "안정적이라고 생각했던 전문직도 위협받을 수 있다는 이야기를 듣고 더욱 불안해지셨군요. 이런 생각 때문에 진로 결정을 못 하고 계시나요?",
       "technique": [
         "validation",
         "open_question"
       ]
     },
     {
-      "turn": 5,
+      "turn": 4,
       "speaker": "client",
-      "text": "수학 문제 풀 때마다 머리가 아파요. 물리랑 화학도 이해가 안 되고... 반면에 국어나 사회는 재미있거든요. 책 읽는 것도 좋아하고, 글 쓰는 것도 좋아하고..."
+      "text": "네... 뭘 선택해도 나중엔 소용없을 것 같아서 아무것도 못 정하겠어요. 친구들은 다들 진로 정하는데 저만 멈춰 있는 느낌이에요."
     },
     {
-      "turn": 5,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "이과 과목은 어렵고 힘든데, 문과 과목은 흥미롭고 잘 맞는다고 느끼시는군요. 문과로 바꾸고 싶다는 생각은 언제부터 하셨나요?",
+      "text": "미래에 대한 불안 때문에 현재의 선택도 못 하고 있는 상태군요. 이런 생각은 언제부터 하셨나요?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
+      "turn": 5,
+      "speaker": "client",
+      "text": "몇 달 전부터요. 유튜브에서 우연히 그런 영상을 봤는데, 그 뒤로 계속 생각나요. 밤에 잠도 잘 안 와요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "그 생각이 일상생활에도 영향을 줄 정도로 심하시군요. 많이 힘드셨겠어요. 그런데 첨단기술에 대한 정보를 여러 출처에서 확인해보셨나요?",
+      "technique": [
+        "empathy",
+        "closed_question"
+      ]
+    },
+    {
       "turn": 6,
       "speaker": "client",
-      "text": "한 달 전쯤부터요. 중간고사 보고 나서 확실해졌어요. 이과 과목은 다 망했는데 국어랑 사회는 잘 봤거든요."
+      "text": "음... 주로 유튜브 영상이랑 기사 몇 개 봤어요. 다들 비슷한 얘기를 하더라고요."
     },
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "시험 결과가 자신의 적성을 확인시켜준 계기가 되었군요. 부모님이나 선생님께 이런 생각을 말씀드려 보셨나요?",
+      "text": "부정적인 내용에 더 많이 노출되신 것 같네요. 실제로는 첨단기술가 모든 직업을 대체하는 게 아니라, 새로운 직업도 많이 만들어내고 있어요. 이런 내용은 들어보신 적 있나요?",
       "technique": [
-        "restatement",
+        "reflection",
+        "information_giving",
         "closed_question"
       ]
     },
     {
       "turn": 7,
       "speaker": "client",
-      "text": "엄마한테 말했더니 조금만 더 해보라고 하세요. 이과가 나중에 더 좋다고... 담임선생님도 비슷하게 말씀하시고요."
+      "text": "새로운 직업이요? 어떤 거요?"
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "주변에서는 조금 더 노력해보라고 하시는군요. 그런데 당신은 이미 충분히 노력했다고 느끼시나요?",
+      "text": "첨단기술 개발자, 데이터 분석가, 첨단기술 윤리 전문가, 로봇 관리자 등 첨단기술 시대에 새롭게 생겨나는 직업들이 많아요. 또 첨단기술가 대체하기 어려운 직업들도 있고요.",
       "technique": [
-        "reflection",
-        "open_question"
+        "information_giving"
       ]
     },
     {
       "turn": 8,
       "speaker": "client",
-      "text": "네... 정말 열심히 했어요. 학원도 다니고, 인강도 듣고... 근데 안 되는 건 안 되더라고요. 노력의 문제가 아니라 적성의 문제인 것 같아요."
+      "text": "첨단기술가 대체하기 어려운 직업이요? 그런 게 있나요?"
     },
     {
       "turn": 8,
       "speaker": "counselor",
-      "text": "충분히 노력했지만 결과가 나오지 않아서, 이건 노력보다는 적성의 문제라고 판단하신 거군요. 문과로 바꾸면 어떻게 될 것 같으세요?",
+      "text": "네, 창의성이 필요한 일, 사람과의 깊은 교감이 필요한 일, 복잡한 문제 해결이 필요한 일 등은 첨단기술가 대체하기 어려워요. 예를 들어 예술가, 상담가, 교사 같은 직업이 그렇죠.",
       "technique": [
-        "validation",
-        "open_question"
+        "information_giving"
       ]
     },
     {
       "turn": 9,
       "speaker": "client",
-      "text": "더 잘할 수 있을 것 같아요. 좋아하는 과목이니까 공부도 재미있을 것 같고... 근데 지금까지 이과 공부한 시간이 너무 아까워요. 그리고 이과에서 문과로 바꾸면 뭔가 후퇴하는 느낌이 들어서..."
+      "text": "그렇구나... 그럼 저는 그런 쪽으로 가야 하나요?"
     },
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "문과로 바꾸면 더 잘할 자신이 있지만, 지금까지의 노력이 헛되는 것 같고 후퇴하는 느낌이 들어서 망설여지는군요. 그런데 정말 후퇴하는 걸까요?",
-      "technique": [
-        "reflection",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "음... 어떤 의미세요?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "자신에게 맞지 않는 길에서 맞는 길로 바꾸는 건 후퇴가 아니라 방향 수정이에요. 지금까지의 경험도 헛된 게 아니라, 자신을 더 잘 알게 된 과정이고요.",
+      "text": "반드시 그래야 한다기보다는, 중요한 건 변화에 적응할 수 있는 능력을 키우는 거예요. 어떤 직업을 선택하든 계속 배우고 발전하려는 자세가 더 중요해요.",
       "technique": [
         "information_giving",
-        "restatement"
+        "clarification"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "변화에 적응하는 능력이요... 그런 건 어떻게 키워요?"
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "새로운 것을 배우는 것을 두려워하지 않고, 다양한 경험을 하고, 여러 분야에 관심을 가지는 거예요. 한 가지만 파는 것보다 융합적인 사고를 할 수 있는 게 미래에는 더 중요해질 거예요.",
+      "technique": [
+        "information_giving"
       ]
     },
     {
       "turn": 11,
       "speaker": "client",
-      "text": "방향 수정... 그렇게 생각할 수도 있네요. 근데 다들 이과가 더 좋다고 하는데, 문과로 가면 나중에 후회하지 않을까요?"
+      "text": "융합적인 사고요... 어렵게 느껴지네요."
     },
     {
       "turn": 11,
       "speaker": "counselor",
-      "text": "'다들 이과가 좋다'는 말은 일반적인 이야기일 뿐이에요. 중요한 건 '나에게' 무엇이 맞는가예요. 문과도 충분히 좋은 선택이 될 수 있어요.",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
+        "empathy",
         "clarification",
-        "validation"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "문과도 취업이 잘 되나요? 이과보다 좁다고 들었는데..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "문과의 진로도 매우 다양해요. 인문학, 사회과학, 경영, 법학, 교육학, 언론, 광고 등 수많은 분야가 있고, 각 분야마다 다양한 직업이 있어요. 중요한 건 어떤 분야를 선택하느냐가 아니라 그 분야에서 얼마나 전문성을 쌓느냐예요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그렇군요... 그럼 문과에서는 어떤 걸 할 수 있나요?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "당신이 좋아한다고 한 책 읽기와 글쓰기로 예를 들면, 작가, 기자, 출판 기획자, 카피라이터, 콘텐츠 크리에이터 등이 있고, 교사나 교수도 가능해요. 사회에 관심 있다면 공무원, 정책 연구원, 비영리단체 활동가 등도 있고요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "생각보다 많네요. 저는 문과는 선택이 적다고만 생각했어요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "많은 사람들이 그렇게 오해하고 있어요. 실제로는 문과도 진로가 매우 다양해요. 당신은 문과 쪽으로 어떤 분야에 관심이 있으세요?",
-      "technique": [
-        "information_giving",
         "open_question"
       ]
     },
     {
+      "turn": 12,
+      "speaker": "client",
+      "text": "저는 미술을 좋아해요. 그림 그리는 것도 좋아하고, 디자인도 관심 있어요. 근데 이것도 첨단기술가 대체할 수 있다고 하던데..."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "미술과 디자인에 관심이 있으시군요. 첨단기술가 그림을 그릴 수는 있지만, 사람의 감성과 창의적인 아이디어를 대체할 수는 없어요. 오히려 첨단기술를 도구로 활용하는 디자이너가 미래에 더 필요할 거예요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "첨단기술를 도구로 활용하는 디자이너요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "그렇게 생각하니까 조금 다르게 보이네요. 근데 그런 걸 어떻게 배워요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "지금부터 관심 있는 분야를 깊이 공부하면서, 동시에 기술에도 관심을 가지면 돼요. 디자인과 프로그래밍을 함께 배운다든지, 미술과 과학을 융합한다든지 하는 식으로요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 15,
       "speaker": "client",
-      "text": "글 쓰는 거요. 기자나 작가 같은... 사람들에게 의미 있는 이야기를 전하고 싶어요."
+      "text": "저는 수학이랑 과학을 못하는데... 그래도 할 수 있을까요?"
     },
     {
       "turn": 15,
       "speaker": "counselor",
-      "text": "의미 있는 이야기를 전하고 싶다는 명확한 목표가 있으시네요. 이미 글을 써보신 경험이 있나요?",
+      "text": "지금 못한다고 해서 앞으로도 못하는 건 아니에요. 그리고 꼭 깊은 수준의 프로그래밍을 할 필요는 없어요. 기본적인 이해와 활용 능력만 있어도 충분해요.",
       "technique": [
-        "validation",
-        "closed_question"
+        "encouragement",
+        "information_giving"
       ]
     },
     {
       "turn": 16,
       "speaker": "client",
-      "text": "학교 문예반에서 활동하고 있어요. 시나 수필 쓰는 거요. 선생님들이 글을 잘 쓴다고 칭찬해주시거든요."
+      "text": "그렇군요... 조금 희망이 보이는 것 같아요. 근데 여전히 불안해요. 미래가 어떻게 될지 모르잖아요."
     },
     {
       "turn": 16,
       "speaker": "counselor",
-      "text": "이미 문예 활동을 하고 계시고, 주변의 인정도 받고 계시네요. 이런 것들이 다 당신의 적성을 말해주는 신호예요.",
+      "text": "미래에 대한 불확실성 때문에 불안하신 거군요. 그런데 불확실성은 두려움만 주는 게 아니라 기회이기도 해요. 정해진 미래가 없다는 건, 당신이 만들어갈 수 있다는 뜻이기도 하니까요.",
       "technique": [
-        "validation",
+        "reflection",
         "restatement"
       ]
     },
     {
       "turn": 17,
       "speaker": "client",
-      "text": "그렇게 생각하니까 문과가 제게 맞는 것 같아요. 근데 정말 바꿔도 될까요? 돌이킬 수 없는 선택이잖아요."
+      "text": "제가 만들어간다... 그렇게 생각해본 적은 없었어요."
     },
     {
       "turn": 17,
       "speaker": "counselor",
-      "text": "중요한 결정이니까 신중한 것은 좋아요. 그런데 지금 바꾸지 않고 계속 이과로 가는 것도 선택이고, 그것도 돌이킬 수 없는 선택이에요. 어느 쪽을 선택하는 게 후회가 덜할 것 같으세요?",
+      "text": "미래는 정해진 게 아니라 만들어가는 거예요. 물론 쉽지는 않겠지만, 준비하고 노력하는 사람에게는 기회가 있어요.",
       "technique": [
-        "validation",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "음... 이과로 계속 가면 더 후회할 것 같아요. 좋아하지도 않는 걸 계속하는 게 더 힘들 것 같아서요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "스스로 답을 찾으신 것 같네요. 자신의 마음에 귀를 기울이고 계시네요.",
-      "technique": [
-        "validation",
+        "information_giving",
         "encouragement"
       ]
     },
     {
+      "turn": 18,
+      "speaker": "client",
+      "text": "그런데 어른들도 미래를 모르는데, 저 같은 학생이 어떻게 준비해요?"
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "완벽하게 준비할 수는 없어요. 하지만 변화에 유연하게 대응할 수 있는 기본기를 갖추는 거죠. 깊이 있는 전문성과 넓은 시야, 그리고 배움을 멈추지 않는 자세요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
       "turn": 19,
       "speaker": "client",
-      "text": "그런데 부모님을 어떻게 설득해야 할까요? 반대하실 것 같아서..."
+      "text": "깊이 있는 전문성과 넓은 시야... 둘 다 갖추기는 어렵지 않나요?"
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "부모님께 문과로 바꾸고 싶은 이유를 진심으로 전하는 게 중요해요. 단순히 이과가 어렵다는 이유가 아니라, 문과에서 자신의 적성을 살리고 더 잘할 수 있다는 점을 설명하는 거죠.",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "technique": [
+        "encouragement",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "천천히... 그렇게 생각하니까 부담이 덜 되네요. 그럼 저는 지금 뭘 해야 할까요?"
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "우선 관심 있는 미술과 디자인 분야를 계속 공부하세요. 그리고 첨단기술나 기술에 대해서도 긍정적인 관점에서 알아보세요. 두려워하기보다는 활용할 수 있는 도구로 바라보는 거예요.",
       "technique": [
         "goal_setting",
         "information_giving"
       ]
     },
     {
-      "turn": 20,
+      "turn": 21,
       "speaker": "client",
-      "text": "구체적으로 어떻게 말씀드려야 할까요?"
+      "text": "첨단기술를 도구로... 그렇게 생각하면 덜 무섭네요."
     },
     {
-      "turn": 20,
+      "turn": 21,
       "speaker": "counselor",
-      "text": "이과를 충분히 노력했지만 적성에 맞지 않는다는 것, 문과 과목에서는 좋은 성적과 흥미를 보이고 있다는 것, 그리고 문과를 통해 추구하고 싶은 구체적인 진로가 있다는 것을 차례로 말씀드리면 돼요.",
+      "text": "맞아요. 첨단기술는 적이 아니라 동료가 될 수 있어요. 그리고 부정적인 뉴스만 보지 말고, 긍정적인 변화와 기회에 대한 정보도 균형 있게 접하세요.",
       "technique": [
-        "information_giving",
+        "encouragement",
         "goal_setting"
       ]
     },
     {
-      "turn": 21,
-      "speaker": "client",
-      "text": "그렇게 말씀드리면 들어주실까요?"
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "한 번에 설득되지 않을 수도 있어요. 하지만 당신의 진심과 진지한 고민을 보여드린다면 부모님도 고려해주실 거예요. 필요하다면 제가 부모님과 함께 상담하는 것도 가능해요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
       "turn": 22,
       "speaker": "client",
-      "text": "정말요? 그러면 좋을 것 같아요. 혼자 말씀드리기엔 자신이 없거든요."
+      "text": "네, 그렇게 해볼게요. 그런데 또 불안해지면 어떡하죠?"
     },
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "네, 괜찮아요. 부모님과 함께 이야기를 나누면서 서로의 생각을 이해하는 시간을 가지면 좋을 것 같아요.",
+      "text": "불안한 감정이 올 때마다 오늘 우리가 나눈 이야기를 떠올려보세요. 그리고 필요하면 언제든 다시 찾아와도 돼요. 혼자 감당하지 마세요.",
       "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "감사합니다. 그런데 지금 바꾸면 따라잡을 수 있을까요? 문과 애들은 벌써 1년을 했는데..."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "걱정되시는군요. 하지만 당신은 이미 국어와 사회 과목에서 좋은 성적을 내고 있잖아요. 그리고 자신이 좋아하는 분야라면 따라잡는 속도도 빠를 거예요.",
-      "technique": [
-        "empathy",
+        "structuring",
         "encouragement"
       ]
     },
     {
-      "turn": 24,
+      "turn": 23,
       "speaker": "client",
-      "text": "맞아요. 좋아하니까 더 열심히 할 수 있을 것 같아요."
+      "text": "감사합니다. 오늘 이야기하고 나니까 마음이 좀 편해졌어요."
     },
     {
-      "turn": 24,
+      "turn": 23,
       "speaker": "counselor",
-      "text": "그렇죠. 그리고 지금 2학년이니까 아직 충분히 시간이 있어요. 지금 결정하는 게 너무 늦은 게 아니라 오히려 적절한 시기예요.",
+      "text": "다행이에요. 오늘 우리가 나눈 이야기를 정리해볼게요. 미래에 대한 막연한 두려움이 있었는데, 첨단기술를 경쟁 상대가 아닌 도구로 보는 관점의 전환이 있었고, 자신이 좋아하는 미술과 디자인을 계속하면서 기술도 배워나가기로 했어요.",
       "technique": [
-        "encouragement",
-        "information_giving"
+        "summarization",
+        "structuring"
       ]
     },
     {
-      "turn": 25,
+      "turn": 24,
       "speaker": "client",
-      "text": "네, 이제 결심이 섰어요. 문과로 바꾸겠습니다."
+      "text": "네, 맞아요. 이제 방향이 보이는 것 같아요."
     },
     {
-      "turn": 25,
+      "turn": 24,
       "speaker": "counselor",
-      "text": "좋은 결정이에요. 자신에게 맞는 길을 선택하는 용기를 내셨네요. 오늘 우리가 나눈 이야기를 정리해볼게요. 이과가 적성에 맞지 않아 문과로 바꾸기로 결심했고, 부모님께 진심을 전하되 필요하면 함께 상담하기로 했어요.",
-      "technique": [
-        "encouragement",
-        "summarization"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "네, 맞아요. 오늘 상담하고 나니까 확신이 생겼어요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "자신의 선택을 믿고 나아가세요. 문과에서 당신의 재능을 펼치실 거라 믿어요. 응원할게요!",
+      "text": "좋아요. 그리고 기억하세요. 미래는 두려워할 대상이 아니라 만들어갈 대상이에요. 당신에게는 그럴 수 있는 시간과 가능성이 있어요.",
       "technique": [
         "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 27,
+      "turn": 25,
       "speaker": "client",
-      "text": "감사합니다, 선생님. 용기가 생겼어요!"
+      "text": "네, 잊지 않을게요. 감사합니다, 선생님."
     },
     {
-      "turn": 27,
+      "turn": 25,
       "speaker": "counselor",
-      "text": "언제든 필요하면 찾아오세요. 부모님과 상담 날짜도 정해봐요.",
+      "text": "천천히 준비해나가세요. 그리고 궁금한 게 생기면 언제든 오세요. 응원할게요!",
       "technique": [
-        "structuring",
-        "goal_setting"
+        "encouragement",
+        "structuring"
       ]
     },
     {
-      "turn": 28,
+      "turn": 26,
       "speaker": "client",
-      "text": "네, 부모님께 여쭤보고 연락드릴게요!"
+      "text": "네, 다음에 또 올게요!"
     },
     {
-      "turn": 28,
+      "turn": 26,
       "speaker": "counselor",
-      "text": "좋아요. 기다릴게요. 힘내세요!",
+      "text": "기다릴게요. 힘내세요!",
       "technique": [
         "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "16세",
-    "gender": "여성",
-    "occupation": "고등학교 1학년",
-    "background": "시험만 보면 머리가 하얘지고 아는 것도 틀리는 시험 불안"
-  }
+  ]
 }

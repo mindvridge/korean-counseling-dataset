@@ -1,402 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "문이과 선택",
-    "total_turns": 26,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "restatement",
-      "emotion_labeling",
-      "summarization",
-      "validation",
-      "clarification"
-    ]
+    "topic": "수면 문제",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:25.320442+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_학업스트레스_0000_GRADE_DROP_001",
-    "category": "adolescent",
-    "topic": "문이과 선택"
+  "client_profile": {
+    "age": "16세",
+    "gender": "여성",
+    "occupation": "고등학교 1학년",
+    "background": "수면 문제 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.469230+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "안녕하세요... 상담 받으러 왔어요."
+      "text": "공부가 안 돼요. 집중이 안 되고...",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 편하게 앉으세요. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
+      "turn": 2,
       "technique": [
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 2,
       "speaker": "client",
-      "text": "요즘 성적 때문에 너무 힘들어요. 중학교 때는 공부 잘했는데, 고등학교 와서는 계속 떨어지기만 해요."
+      "text": "제가... 친구들이랑 문제가 생긴 것 같아요. 지난 주말에 인스타를 보는데 제 친한 친구들이 저 빼고 다 같이 놀러 간 거예요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "중학교 때와 달리 고등학교에서 성적이 계속 떨어지니까 많이 힘드시겠어요.",
+      "text": "친한 친구들이 자신만 빼고 만났다는 걸 소셜미디어로 알게 되었군요. 그 순간 어떤 기분이 들었나요?",
+      "turn": 4,
       "technique": [
-        "reflection",
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "처음엔 그냥 '어? 얘네 만났네?' 했는데... 자꾸 생각하니까 너무 속상하고 화가 났어요. 왜 나만 안 부른 거지? 나한테 무슨 문제가 있나?",
+      "turn": 5
+    },
+    {
+      "speaker": "counselor",
+      "text": "처음엔 단순히 놀란 것에서 점점 속상함과 화가 올라왔고, 자신에게 문제가 있는 건 아닌지 걱정되기 시작했네요.",
+      "turn": 6,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 월요일에 학교 갔는데 애들이 주말 얘기를 하는 거예요. 제 앞에서요. 저는 그냥 웃으면서 듣고 있었는데 속으로는 진짜 힘들었어요.",
+      "turn": 7
+    },
+    {
+      "speaker": "counselor",
+      "text": "겉으로는 괜찮은 척 웃으면서 들어야 했지만, 속으로는 많이 힘들었겠어요. 그 상황이 정말 어려웠을 것 같아요.",
+      "turn": 8,
+      "technique": [
         "empathy"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "네... 중학교 때는 학년에서 10등 안에 들었거든요. 그런데 지금은 중간도 안 돼요. 이번 중간고사에서는 반에서 20등 했어요."
+      "text": "진짜 너무 힘들었어요. 왜 나한테는 말도 안 했을까... 나는 친구라고 생각했는데 걔네는 아니었나봐요.",
+      "turn": 9
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "학년 10등에서 반에서 20등으로 순위가 많이 변했네요. 그 변화를 경험하면서 어떤 감정이 드셨나요?",
+      "text": "자신은 친구라고 생각했는데, 혹시 그 친구들은 자신을 그만큼 친구로 생각하지 않는 건 아닌가 하는 의심이 드는 거네요.",
+      "turn": 10,
       "technique": [
-        "restatement",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "처음엔 믿기지 않았어요. 그리고 화가 나고... 지금은 그냥 무기력해요. 아무리 해도 안 될 것 같아요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "믿기지 않는 마음에서 시작해서, 화가 나다가, 지금은 무기력함까지 느끼고 계시는군요. 특히 어떤 과목에서 어려움을 겪고 있나요?",
-      "technique": [
-        "summarization",
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "수학이랑 영어요. 수학은 진도를 따라가기가 너무 힘들고, 영어는 단어 외우는 것도 힘들고 문법도 어려워요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "수학은 진도 자체를 따라가기 어렵고, 영어는 암기와 이해 모두 힘드시다는 거죠?",
-      "technique": [
-        "clarification",
-        "restatement"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "네 맞아요. 수학 선생님이 너무 빨리 나가세요. 설명하시는 중에 이해 못 하면 그냥 넘어가버리고요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "수업 시간에 이해가 안 되는 부분이 생겨도 질문하기 어려운 상황이었네요. 그럴 때 어떻게 하셨어요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "처음엔 쉬는 시간에 물어보려고 했는데, 선생님이 바쁘셔서... 그리고 친구들 눈치도 보이고요. 다들 이해한 것 같은데 나만 못하는 것 같아서요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "혼자만 이해하지 못한 것 같아서 질문하기가 부담스러웠던 거군요. 그러면 이해 안 되는 부분은 어떻게 해결하셨나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "혼자 인강 보면서 공부했어요. 근데 그것도 시간이 오래 걸리고... 다른 과목 공부할 시간이 없어져요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "인강으로 보충하려다 보니 시간 관리가 어려워진 상황이네요. 하루에 공부하는 시간은 대략 얼마나 되나요?",
-      "technique": [
-        "restatement",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "학교 끝나고 학원 가고, 집에 와서도 계속 해요. 새벽 1시까지는 하는 것 같아요. 근데 성적은 안 오르고..."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "하루에 굉장히 많은 시간을 공부에 투자하고 있는데도 성적이 오르지 않으니 더 좌절감이 크시겠어요.",
-      "technique": [
-        "empathy",
         "validation"
       ]
     },
     {
-      "turn": 10,
       "speaker": "client",
-      "text": "네... 노력해도 안 되니까 제가 머리가 나쁜 건가 싶어요. 친구들은 저보다 덜 하는 것 같은데 성적은 더 잘 나오거든요."
+      "text": "네... 그래서 요즘 학교 가기가 너무 싫어요. 애들 얼굴 보기도 싫고, 그렇다고 안 볼 수도 없고...",
+      "turn": 11
     },
     {
-      "turn": 10,
       "speaker": "counselor",
-      "text": "다른 친구들과 비교하면서 자신의 능력을 의심하게 되는 거네요. 그런데 궁금한 게 있어요. 중학교 때는 어떻게 공부하셨나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "중학교 때는... 그냥 수업 듣고 숙제하고, 시험 기간에 벼락치기 좀 했어요. 그래도 성적 잘 나왔는데."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "중학교 때의 공부 방법이 고등학교에서는 효과가 없어진 것 같네요. 지금은 어떤 방식으로 공부하고 계신가요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
+      "text": "지금 친구들을 대하는 게 불편하고 힘든 상태네요. 혹시 그 친구들에게 이런 감정에 대해 이야기해본 적은 있나요?",
       "turn": 12,
-      "speaker": "client",
-      "text": "지금도 비슷해요. 수업 듣고, 인강 보고, 문제집 풀고... 근데 양이 너무 많아요. 끝이 안 보여요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "공부 방법은 비슷한데 공부량이 압도적으로 늘어나면서 감당이 안 되는 상황이군요. 그렇다면 어떤 부분에서 가장 도움이 필요하다고 생각하세요?",
       "technique": [
-        "summarization",
         "open_question"
       ]
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "글쎄요... 공부를 어떻게 해야 할지 모르겠어요. 열심히 하는데 성적이 안 나오니까 방향을 잃은 느낌이에요."
+      "text": "아니요... 말하고 싶은데 뭐라고 해야 할지 모르겠어요. '너희 왜 나만 안 불렀어?'라고 하면 너무 찌질해 보일 것 같고...",
+      "turn": 13
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "열심히 하는데 결과가 안 나오니까 어떻게 공부해야 할지 방향성을 잃으신 거네요. 현재 학원은 다니고 계신가요?",
-      "technique": [
-        "restatement",
-        "closed_question"
-      ]
-    },
-    {
+      "text": "자신의 감정을 솔직하게 표현하고 싶지만, 그렇게 했을 때 친구들이 자신을 부정적으로 볼까봐 걱정되는 거군요.",
       "turn": 14,
-      "speaker": "client",
-      "text": "네, 수학이랑 영어 학원 다녀요. 주 3회씩요. 그것도 따라가기 버거워요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "학원까지 다니고 있는데도 따라가기 힘들다는 건, 단순히 공부 시간의 문제가 아닐 수 있겠어요. 학원 선생님께 질문이나 상담은 해보셨나요?",
       "technique": [
-        "interpretation",
-        "closed_question"
+        "reflection"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "학원은... 진도 나가기 바빠서 개별 상담은 잘 안 해줘요. 질문하면 답은 해주시는데, 제 공부 방법이 문제인지는 모르겠어요."
+      "text": "네 맞아요. 그리고 사실 물어보기도 무서워요. 만약에 진짜로 나를 싫어해서 안 부른 거라면 어떡하죠?",
+      "turn": 15
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "그렇군요. 그럼 지금부터 함께 생각해볼까요? 성적을 올리는 것도 중요하지만, 먼저 왜 성적이 떨어졌는지 원인을 찾는 게 중요할 것 같아요. 중학교와 고등학교의 가장 큰 차이가 뭐라고 생각하세요?",
+      "text": "진실을 알고 싶으면서도, 동시에 그 진실이 자신에게 상처가 될까봐 두려운 마음이 있는 거네요. 그런 복잡한 감정을 느끼는 건 당연한 거예요.",
+      "turn": 16,
       "technique": [
-        "structuring",
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "선생님... 저 요즘 밤에도 이 생각 때문에 잠을 잘 못 자요. 계속 생각나고, 왜 그랬을까 추측하고...",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "이 일이 단순히 학교에서만 영향을 주는 게 아니라, 일상생활 전체에 영향을 미치고 있네요. 잠도 제대로 못 자고 있다니 정말 힘들겠어요.",
+      "turn": 18,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그리고 제가 혹시 뭘 잘못한 건 아닌가 계속 생각해봤어요. 최근에 애들한테 기분 나쁜 말을 한 적이 있나, 뭘 잘못했나...",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "이 상황을 이해하려고 스스로를 돌아보고 있었군요. 혹시 특별히 기억나는 일이 있나요?",
+      "turn": 20,
+      "technique": [
         "open_question"
       ]
     },
     {
-      "turn": 16,
       "speaker": "client",
-      "text": "음... 공부량이랑 난이도요? 중학교 때는 교과서 위주로만 해도 됐는데, 고등학교는 심화 문제가 너무 많아요."
+      "text": "음... 딱히 생각나는 건 없어요. 평소처럼 지냈던 것 같은데... 그래서 더 모르겠어요.",
+      "turn": 21
     },
     {
-      "turn": 16,
       "speaker": "counselor",
-      "text": "맞아요. 고등학교는 단순 암기보다는 개념의 깊이 있는 이해와 응용이 필요하죠. 그렇다면 현재 공부할 때 개념을 이해하고 넘어가는지, 아니면 문제 풀이에 집중하는지 궁금해요.",
+      "text": "특별히 문제가 될 만한 일이 없었다는 게 오히려 더 혼란스럽게 만드는 것 같네요. 혹시 그 친구들이 원래 가끔 소규모로 만나곤 했나요?",
+      "turn": 22,
       "technique": [
-        "information_giving",
+        "information_gathering"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 생각해보니 예전에도 가끔 그랬던 것 같긴 해요. 근데 이번엔 왠지 다르게 느껴졌어요. 다들 너무 즐거워 보였고...",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "아, 그렇다면 이런 일이 처음은 아니었지만, 이번엔 유독 더 자신이 소외된 느낌이 강하게 들었던 거네요. 혹시 최근에 다른 스트레스나 힘든 일은 없었나요?",
+      "turn": 24,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 시험 기간이 끝나고 성적이 좀 안 좋게 나왔어요. 그것 때문에 부모님께도 혼났고... 그래서 좀 예민했던 것 같기도 해요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "아, 그렇군요. 이미 성적 때문에 마음이 힘든 상태에서 친구들의 모임을 알게 되었으니, 평소보다 더 크게 느껴졌을 수 있겠네요.",
+      "turn": 26,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그런가요? 그럼 제가 너무 예민하게 반응한 걸까요?",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "예민하게 반응했다기보다는, 이미 마음이 힘든 상태였기 때문에 더 민감하게 느껴질 수 있었다는 거예요. 당신의 감정은 충분히 타당해요. 다만, 상황을 좀 더 다양한 관점에서 볼 수 있을 것 같아요.",
+      "turn": 28,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "다양한 관점이요?",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "네. 예를 들어, 친구들이 의도적으로 당신을 배제한 것일 수도 있지만, 단순히 갑자기 만나게 된 상황이었거나, 연락이 잘못 전달되었을 수도 있어요. 혹은 당신이 바쁠 거라고 생각했을 수도 있고요.",
+      "turn": 30,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아... 그런 가능성도 있겠네요. 생각해보니 저 그때 시험 끝나고 집에서 쉬고 싶다고 말했던 것 같기도 해요.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "오, 그렇다면 친구들이 당신의 말을 배려해서 일부러 부르지 않았을 가능성도 있겠네요. 어떻게 생각하세요?",
+      "turn": 32,
+      "technique": [
+        "guided_discovery"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그럴 수도 있겠네요... 제가 너무 단정적으로 생각했던 것 같아요. 그럼 어떻게 해야 할까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 질문이에요. 당신이 생각하기에는 어떻게 하는 게 좋을 것 같나요?",
+      "turn": 34,
+      "technique": [
         "open_question"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "음... 개념은 대충 보고 문제 많이 푸는 편이에요. 문제 풀면서 이해하려고요."
+      "text": "음... 친구들한테 솔직하게 물어보는 게 나을 것 같아요. 근데 어떻게 말해야 할지는 아직도 잘 모르겠어요.",
+      "turn": 35
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "그 방법이 중학교 때는 효과적이었지만, 고등학교에서는 개념에 대한 깊은 이해 없이 문제만 풀면 응용 문제에서 막힐 수 있어요. 이게 지금 겪고 있는 어려움의 한 가지 원인일 수 있겠네요.",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "turn": 36,
       "technique": [
-        "information_giving",
-        "interpretation"
+        "problem_solving"
       ]
     },
     {
-      "turn": 18,
       "speaker": "client",
-      "text": "그럼 어떻게 해야 하나요? 개념을 더 깊이 공부하면 시간이 더 오래 걸릴 것 같은데..."
+      "text": "네, 좋아요. 그렇게 해보고 싶어요. 선생님 덕분에 조금 마음이 편해진 것 같아요.",
+      "turn": 37
     },
     {
-      "turn": 18,
       "speaker": "counselor",
-      "text": "좋은 질문이에요. 처음에는 시간이 더 걸릴 수 있지만, 개념을 제대로 이해하면 나중에는 오히려 시간이 단축돼요. 작은 목표부터 시작해볼까요? 예를 들어 수학 한 단원을 선택해서 개념 중심으로 공부하는 방법을 시도해보는 건 어떨까요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "turn": 38,
       "technique": [
-        "information_giving",
-        "goal_setting",
         "encouragement"
       ]
     },
     {
-      "turn": 19,
       "speaker": "client",
-      "text": "한 단원만요? 근데 시험 범위가 넓은데 그것만 해도 되나요?"
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 19,
       "speaker": "counselor",
-      "text": "지금 당장 모든 걸 바꾸려고 하면 부담스러울 거예요. 먼저 한 단원으로 새로운 공부 방법의 효과를 경험해보고, 그게 효과가 있다면 점차 확장하는 게 어떨까요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
-        "validation",
-        "goal_setting",
-        "encouragement"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 20,
       "speaker": "client",
-      "text": "그렇게 하면 좀 부담이 덜할 것 같긴 해요. 그런데 부모님이 성적 때문에 계속 뭐라고 하시는데, 그것도 스트레스예요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 20,
       "speaker": "counselor",
-      "text": "부모님과의 관계에서도 어려움을 겪고 계시는군요. 부모님은 주로 어떤 말씀을 하시나요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "empathy",
-        "open_question"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 21,
       "speaker": "client",
-      "text": "공부 더 하라고, 성적 올려야 한다고, 대학 못 가면 어쩌냐고... 저도 알아요. 근데 자꾸 말씀하시니까 더 스트레스받아요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 21,
       "speaker": "counselor",
-      "text": "부모님의 걱정 어린 말씀이 오히려 압박으로 느껴지는 거네요. 부모님께 지금 느끼는 어려움에 대해 이야기해본 적 있나요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "reflection",
-        "closed_question"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 22,
       "speaker": "client",
-      "text": "말해도 이해 못 하세요. 그냥 공부 열심히 안 해서 그런 거라고 생각하시는 것 같아요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 22,
       "speaker": "counselor",
-      "text": "부모님과 대화가 잘 통하지 않아서 더 답답하고 외로우셨겠어요. 그런데 혹시 선생님이나 친구들에게는 이런 고민을 이야기해본 적 있나요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "empathy",
-        "validation",
-        "closed_question"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "친구들한테는 민망해서... 선생님은 바쁘실 것 같고요. 그래서 혼자 끙끙 앓았어요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "혼자서 이 모든 걸 감당하려고 하셨네요. 지금 이렇게 상담실에 와서 이야기를 나누는 것 자체가 큰 용기예요. 스스로를 인정해주세요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "empathy",
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 24,
       "speaker": "client",
-      "text": "감사해요... 이야기하니까 좀 후련해지는 것 같아요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 24,
       "speaker": "counselor",
-      "text": "다행이에요. 그럼 오늘 상담을 정리해볼까요? 현재 성적 하락의 원인으로 공부 방법의 변화 필요성을 확인했고, 작은 목표부터 시작해보기로 했어요. 다음 상담 때까지 한 단원 개념 중심으로 공부해보고, 그 경험을 나눠보면 어떨까요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "summarization",
-        "goal_setting",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 해볼게요. 그리고 부모님이랑도 한 번 진지하게 얘기해보고 싶어요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "좋은 결심이에요. 부모님과의 대화도 중요하죠. 다음 상담에서 그 부분도 함께 이야기 나눠봐요. 힘들 때는 언제든 연락주세요.",
-      "technique": [
-        "encouragement",
-        "validation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "네, 감사합니다. 많이 도움이 됐어요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "천천히 해나가면 분명 좋은 변화가 있을 거예요. 수고하셨어요.",
-      "technique": [
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "14세",
-    "gender": "여성",
-    "occupation": "중학교 2학년",
-    "background": "문과와 이과 중 선택에 대한 고민"
-  }
+  ]
 }

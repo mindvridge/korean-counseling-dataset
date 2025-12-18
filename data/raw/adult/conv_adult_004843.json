@@ -1,384 +1,356 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "대인 불안",
-    "total_turns": 25,
-    "quality_indicators": [
-      "validation",
-      "empathy",
-      "open_question",
-      "reflection",
-      "clarification",
-      "closed_question",
-      "restatement",
-      "interpretation"
-    ]
+    "topic": "육아 스트레스",
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:28.008190+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_대인관계_0023_k9l0m1n2",
-    "category": "adult",
-    "topic": "대인 불안"
+  "client_profile": {
+    "age": "27세",
+    "gender": "여성",
+    "occupation": "디자이너",
+    "background": "육아 스트레스 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:38.459921+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "주변에서 결혼 안 하냐고 계속 물어봐요. 솔직히 필요성을 못 느끼는데... 이상한 건가요?"
+      "text": "주변에서 상담 받아보라고 해서요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "결혼의 필요성을 느끼지 못하신다는 게 이상한 건 아니에요. 각자 다른 가치관을 가질 수 있으니까요. 결혼에 대해 어떻게 생각하시나요?",
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
+      "turn": 2,
       "technique": [
-        "validation",
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 2,
       "speaker": "client",
-      "text": "복잡하고 귀찮은 것 같아요. 혼자 사는 게 편한데 왜 굳이 누군가와 살아야 하나 싶고요."
+      "text": "네... 6개월 전에 팀장으로 승진했는데, 생각보다 훨씬 힘들더라고요. 전에는 제 일만 잘하면 됐는데 이제는 팀원들까지 챙겨야 하니까요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "현재 혼자의 삶에 만족하고 계시는군요. 연애 경험은 있으신가요?",
-      "technique": [
-        "empathy",
-        "reflection",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "거의 없어요. 한두 번 만나다가 끝났고... 깊은 관계까지 간 적은 없어요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "친밀한 관계 경험이 많지 않으시군요. 그게 결혼에 대한 생각에 영향을 미칠 수도 있어요. 연애가 안 됐던 이유가 뭐라고 생각하세요?",
-      "technique": [
-        "empathy",
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
+      "text": "승진 후 6개월이 지났는데, 이전과는 달리 팀원들을 관리하는 역할이 부담스럽게 느껴지시는군요.",
       "turn": 4,
-      "speaker": "client",
-      "text": "제가 연애에 관심이 없었어요. 일이 더 재밌고 중요했거든요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "일에 집중하면서 연애 우선순위가 낮았군요. 지금도 여전히 그런가요?",
       "technique": [
         "reflection",
-        "closed_question"
+        "empathy"
       ]
     },
     {
-      "turn": 5,
       "speaker": "client",
-      "text": "네. 회사 키우는 게 목표고... 연애나 결혼은 그다음 문제 같아요. 근데 주변에서 계속 물어보니까 제가 잘못된 건가 싶기도 하고요."
+      "text": "맞아요. 팀원들이 일을 제대로 안 하면 제가 책임져야 하고, 위에서는 계속 성과를 내라고 압박하고... 밤에 잠도 제대로 못 자고 있어요.",
+      "turn": 5
     },
     {
-      "turn": 5,
       "speaker": "counselor",
-      "text": "주변의 질문이 본인을 의심하게 만드는군요. 하지만 우선순위는 사람마다 달라요. 잘못된 게 아니에요.",
+      "text": "위와 아래 사이에서 압박을 받고 계시는 상황이네요. 그로 인해 수면에도 영향을 받고 계신 것 같습니다. 구체적으로 어떤 부분이 가장 힘드신가요?",
+      "turn": 6,
       "technique": [
-        "empathy",
         "validation"
       ]
     },
     {
-      "turn": 6,
       "speaker": "client",
-      "text": "근데 이렇게 계속 혼자 살아도 괜찮을까요? 나중에 늙으면 외롭지 않을까요?"
+      "text": "팀원 중에 한 명이 계속 말을 안 듣는데, 제가 어떻게 대처해야 할지 모르겠어요. 부드럽게 말하면 무시하고, 강하게 말하면 분위기가 나빠지고...",
+      "turn": 7
     },
     {
-      "turn": 6,
       "speaker": "counselor",
-      "text": "미래에 대한 불안이 있으시군요. 지금 외롭다고 느끼시나요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "가끔요. 퇴근하고 집에 혼자 있으면... 근데 그렇다고 누군가와 살고 싶은 건 아니에요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "외로움은 느끼지만 동거는 원하지 않으시는군요. 외로움을 해소하는 다른 방법들도 있어요. 친구나 가족은 어떠세요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
+      "text": "팀원과의 소통 방식을 찾는 것이 어려우시군요. 부드럽게 해도, 강하게 해도 원하는 결과가 나오지 않아 답답하실 것 같습니다.",
       "turn": 8,
-      "speaker": "client",
-      "text": "친구들은 다 결혼해서 바쁘고... 가족은 지방에 있어요. 자주 못 봐요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "가까운 사람들과의 접촉이 줄어들었군요. 새로운 사회적 관계를 만들 생각은 없으세요?",
       "technique": [
-        "reflection",
-        "clarification"
+        "empathy"
       ]
     },
     {
-      "turn": 9,
       "speaker": "client",
-      "text": "어떻게요? 일하느라 시간도 없는데..."
+      "text": "네, 정말 그래요. 그리고 제가 관리를 못하는 건가 싶어서 자책도 많이 하게 되고... 이전 팀장님은 다들 잘 따랐거든요.",
+      "turn": 9
     },
     {
-      "turn": 9,
       "speaker": "counselor",
-      "text": "시간이 없다고 느끼시지만, 외로움을 해소하려면 관계에 시간을 투자해야 해요. 결혼이 아니어도 취미 모임이나 동호회 같은 것도 있죠.",
-      "technique": [
-        "confrontation",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "이전 팀장과 자신을 비교하면서 스스로를 부족하다고 느끼고 계시는군요. 그런 생각이 들 때 기분이 어떠신가요?",
       "turn": 10,
-      "speaker": "client",
-      "text": "그런 건 생각 안 해봤네요. 결혼 아니면 혼자인 줄 알았어요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "결혼과 고립 사이에 많은 선택지가 있어요. 친구, 동료, 커뮤니티 등으로 외로움을 해소할 수 있죠.",
       "technique": [
-        "information_giving",
-        "clarification"
+        "reflection"
       ]
     },
     {
-      "turn": 11,
       "speaker": "client",
-      "text": "그럼 결혼은 안 해도 되는 건가요?"
+      "text": "불안하고... 초조해요. 제가 이 자리에 어울리지 않는 사람인 것 같고, 언젠가 들통날 것 같은 느낌이 들어요.",
+      "turn": 11
     },
     {
-      "turn": 11,
       "speaker": "counselor",
-      "text": "결혼은 의무가 아니에요. 선택이죠. 본인이 원하지 않으면 안 해도 돼요. 다만 외로움을 관리하는 방법은 필요해요.",
+      "text": "마치 가면을 쓰고 있는 것 같은 느낌이실 수도 있겠네요. 혹시 '가면 증후군'이라는 말을 들어보신 적 있으신가요?",
+      "turn": 12,
       "technique": [
-        "information_giving",
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아니요, 그게 뭔가요?",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "가면 증후군은 실제로 능력이 있음에도 불구하고, 자신이 사기꾼처럼 느껴지고 언젠가 들통날 것 같은 두려움을 느끼는 현상입니다. 특히 승진이나 새로운 역할을 맡았을 때 많이 경험하시죠.",
+      "turn": 14,
+      "technique": [
+        "psychoeducation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아... 정확히 제 상황이네요. 그런데 이게 정상적인 건가요? 다른 사람들도 이런 걸 느끼나요?",
+      "turn": 15
+    },
+    {
+      "speaker": "counselor",
+      "text": "네, 생각보다 많은 분들이 경험하십니다. 특히 책임감이 강하고 완벽주의 성향이 있는 분들에게서 자주 나타나죠. 이런 감정을 느끼는 것 자체가 오히려 당신이 일에 진지하게 임하고 계시다는 증거일 수 있습니다.",
+      "turn": 16,
+      "technique": [
+        "normalization"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니 조금 위안이 되네요. 그런데 이 상황을 어떻게 극복해야 할까요?",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "먼저 승진하신 것 자체가 회사에서 당신의 능력을 인정했다는 객관적인 증거입니다. 그 점은 어떻게 생각하시나요?",
+      "turn": 18,
+      "technique": [
+        "cognitive_restructuring"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 그건 맞는 것 같아요. 성과도 좋았고 프로젝트도 성공적으로 마쳤으니까 승진한 거긴 하죠.",
+      "turn": 19
+    },
+    {
+      "speaker": "counselor",
+      "text": "맞습니다. 그리고 팀장 역할은 처음이시잖아요. 6개월 동안 모든 것을 완벽하게 해내야 한다는 기대가 혹시 너무 높은 건 아닐까요?",
+      "turn": 20,
+      "technique": [
+        "cognitive_restructuring"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그럴 수도 있겠네요. 저는 항상 빨리 적응해야 한다고 생각했거든요. 그게 제 성격이기도 하고요.",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "turn": 22,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니까 조금 마음이 편해지네요. 그런데 실질적으로 그 팀원과는 어떻게 대화해야 할까요?",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "구체적인 상황을 하나 예로 들어주실 수 있을까요? 최근에 있었던 일 중에서요.",
+      "turn": 24,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "지난주에 보고서 마감을 놓쳤는데, 제가 물어봤더니 '바빠서 못했다'고만 하더라고요. 변명처럼 들려서 화가 났지만 참았어요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "그 상황에서 화가 나셨지만 참으셨군요. 그 후에 어떻게 대응하셨나요?",
+      "turn": 26,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그냥 '다음엔 미리 말해달라'고만 했어요. 근데 별로 효과가 없는 것 같아요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "이해합니다. 혹시 그 팀원이 실제로 어떤 어려움을 겪고 있는지 깊이 있게 대화해보신 적은 있으신가요?",
+      "turn": 28,
+      "technique": [
+        "guidance"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아니요, 그냥 업무 얘기만 했어요. 개인적인 얘기를 해도 되나 싶기도 하고...",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "일대일 면담을 통해 업무 외적인 어려움이나 필요한 지원이 무엇인지 들어보는 것도 방법이 될 수 있습니다. 물론 사적인 영역을 침해하지 않는 선에서요. 어떻게 생각하세요?",
+      "turn": 30,
+      "technique": [
+        "guidance"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "한번 시도해볼 만할 것 같네요. 사실 그 팀원도 나름의 이유가 있을 수 있겠죠.",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 관점의 변화입니다. 그리고 수면 문제는 어떠신가요? 밤에 주로 어떤 생각 때문에 잠을 못 이루시나요?",
+      "turn": 32,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "내일 해야 할 일들이 계속 머릿속을 맴돌아요. 그리고 오늘 제가 한 말이나 행동이 괜찮았는지 반복해서 생각하게 돼요.",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "반추적 사고가 수면을 방해하고 있군요. 잠들기 전에 하루를 정리하는 시간을 따로 가져보시는 건 어떨까요? 예를 들어 저녁 시간에 10분 정도 일기를 쓰거나 메모를 하는 방식으로요.",
+      "turn": 34,
+      "technique": [
+        "behavioral_technique"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그게 도움이 될까요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "turn": 36,
+      "technique": [
+        "behavioral_technique"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "흥미롭네요. 한번 해볼게요. 그런데 제가 너무 완벽주의적인 건가요?",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "완벽주의 자체가 나쁜 것은 아닙니다. 오히려 일을 잘하게 만드는 동력이 되기도 하죠. 다만 그것이 스스로를 과도하게 압박하고 실수를 용납하지 못하게 만든다면, 조금 유연성을 가질 필요가 있습니다.",
+      "turn": 38,
+      "technique": [
         "validation"
       ]
     },
     {
-      "turn": 12,
       "speaker": "client",
-      "text": "부모님은 어떻게 설득해요? '대를 이어야 한다'고 하시는데..."
+      "text": "맞아요. 저는 실수하는 게 너무 싫거든요. 다른 사람들이 저를 어떻게 볼까 봐 두렵기도 하고요.",
+      "turn": 39
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "부모님 세대의 가치관이 있으시겠죠. 하지만 본인의 삶이에요. 솔직하게 결혼 의사가 없다고 말씀드리는 게 어떨까요?",
+      "text": "타인의 평가에 대한 두려움이 크시군요. 그런데 모든 사람에게 좋은 리더로 보이는 것이 가능할까요? 그리고 그것이 정말 필요할까요?",
+      "turn": 40,
       "technique": [
-        "validation",
+        "socratic_questioning"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 생각해보니 불가능하긴 하죠. 사람마다 원하는 리더십 스타일이 다를 테니까요.",
+      "turn": 41
+    },
+    {
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "turn": 42,
+      "technique": [
         "goal_setting"
       ]
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "큰일 나겠네요. 엄청 실망하실 텐데..."
+      "text": "팀원들이 성장할 수 있도록 돕고, 동시에 성과도 낼 수 있는 리더요. 그리고 소통을 잘하는 리더가 되고 싶어요.",
+      "turn": 43
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "처음엔 그러실 수 있어요. 하지만 시간이 지나면 받아들이실 거예요. 그리고 본인이 행복하면 부모님도 결국 안심하시게 돼 있어요.",
+      "text": "좋은 목표입니다. 그렇다면 그 목표를 향해 지금 당장 할 수 있는 작은 행동 하나를 정해볼까요?",
+      "turn": 44,
       "technique": [
-        "validation",
+        "goal_setting"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아까 말씀하신 것처럼 그 팀원과 일대일 면담을 해보는 게 첫 단계가 될 수 있을 것 같아요.",
+      "turn": 45
+    },
+    {
+      "speaker": "counselor",
+      "text": "훌륭합니다. 구체적으로 언제, 어떻게 진행해보실 계획이신가요?",
+      "turn": 46,
+      "technique": [
+        "action_planning"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "이번 주 금요일 오후에 커피 한잔하면서 편하게 얘기해보려고 해요. 업무 압박보다는 어떤 지원이 필요한지 물어보는 식으로요.",
+      "turn": 47
+    },
+    {
+      "speaker": "counselor",
+      "text": "구체적이고 실행 가능한 계획이네요. 대화 후에 어떤 변화가 있는지 다음 상담 때 나눠주시면 좋겠습니다. 오늘 상담을 통해 어떤 생각이나 느낌이 드셨나요?",
+      "turn": 48,
+      "technique": [
+        "summary"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "제가 혼자 너무 앞서가며 걱정했다는 걸 알게 됐어요. 그리고 완벽해야 한다는 압박을 스스로 만들고 있었던 것 같아요. 조금 더 여유를 가져도 되겠다는 생각이 들어요.",
+      "turn": 49
+    },
+    {
+      "speaker": "counselor",
+      "text": "중요한 통찰을 얻으셨네요. 새로운 역할에 적응하는 과정이고, 시행착오를 겪으면서 배워가는 것이 자연스러운 일입니다. 스스로에게 조금 더 관대해지시길 바랍니다.",
+      "turn": 50,
+      "technique": [
         "encouragement"
       ]
     },
     {
-      "turn": 14,
       "speaker": "client",
-      "text": "만약에요, 만약에 나중에 마음이 바뀌면 어떡하죠?"
+      "text": "네, 노력해볼게요. 오늘 상담 받길 정말 잘한 것 같아요. 감사합니다.",
+      "turn": 51
     },
     {
-      "turn": 14,
       "speaker": "counselor",
-      "text": "그럼 그때 생각하면 돼요. 지금 결정이 평생 결정이 아니에요. 사람은 변하고, 우선순위도 바뀌죠.",
+      "text": "함께해주셔서 감사합니다. 다음 상담 때 뵙겠습니다. 수면 관리와 팀원과의 면담, 잘 진행되시길 응원합니다.",
+      "turn": 52,
       "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그렇긴 하네요. 지금은 확실히 필요성을 못 느끼거든요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "그럼 지금은 그 감정을 존중하세요. 억지로 결혼하면 본인도 상대방도 불행해져요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "맞는 말이에요. 근데 혹시 제가 친밀감 회피형이거나 그런 건 아닐까요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "그럴 수도 있어요. 하지만 그게 꼭 나쁜 건 아니에요. 어떤 사람은 독립성을 더 중시하거든요. 관계에서 불편함을 느끼시나요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "가까워지면 부담스러워요. 제 공간이 침범당하는 느낌?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "경계가 중요하신 타입이시군요. 그런 사람들은 독립적인 관계를 선호해요. 결혼보다는 각자의 공간을 유지하는 관계가 더 맞을 수 있어요.",
-      "technique": [
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "그런 관계도 가능한가요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "물론이죠. 각자 집을 유지하면서 만나는 커플들도 있고, 법적 결혼 없이 동반자 관계를 유지하는 사람들도 있어요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "그런 선택지가 있다는 걸 몰랐어요. 조금 안심이 되네요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "본인에게 맞는 형태를 찾으면 돼요. 전통적인 결혼만이 답은 아니에요. 중요한 건 본인이 행복한 거죠.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "감사합니다. 많이 편해졌어요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "잘하실 거예요. 본인의 속도로, 본인의 방식으로 살아가세요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "오늘 이야기 나눠서 마음이 한결 가벼워진 것 같아요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
-      "technique": [
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "앞으로 어떻게 하면 좋을지 조금 더 생각해볼게요."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "천천히 생각해보시고, 다음에 만나서 어떻게 지내셨는지 이야기 나눠봐요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "네, 다음 상담 때 뵙겠습니다."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "네, 그때까지 자신을 잘 돌봐주세요. 응원하고 있을게요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "감사합니다. 선생님 덕분에 힘이 나요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "힘내세요. 잘 해내실 수 있을 거예요.",
-      "technique": [
-        "empathy",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 열심히 해볼게요!"
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "좋아요, 다음 주에 뵙겠습니다.",
-      "technique": [
-        "encouragement",
-        "structuring"
+        "support"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "29세",
-    "gender": "여성",
-    "occupation": "디자이너",
-    "background": "새로운 사람을 만나는 것이 두려운 사회불안"
-  }
+  ]
 }

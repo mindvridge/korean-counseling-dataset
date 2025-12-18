@@ -1,454 +1,342 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "친구 관계",
-    "total_turns": 30,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "validation",
-      "clarification",
-      "emotion_labeling",
-      "information_giving",
-      "closed_question"
-    ]
+    "topic": "자존감 문제",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:28.813614+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0002_i9j0k1l2",
-    "category": "adult",
-    "topic": "친구 관계"
+  "client_profile": {
+    "age": "38세",
+    "gender": "여성",
+    "occupation": "주부",
+    "background": "자존감 문제 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.426634+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "선생님... 저 더 이상 못하겠어요. 한계예요."
+      "text": "사람들 만나는 게 두려워요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "많이 힘드신 게 목소리에서 느껴져요. 지금 어떤 상황이신지 천천히 말씀해 주시겠어요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
       "turn": 2,
-      "speaker": "client",
-      "text": "저 간호사 10년 했어요. 이 일 정말 좋아했고, 환자들 돌보는 게 보람찼는데... 이제는 출근하는 게 너무 무서워요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "10년간 보람을 느끼며 해온 일인데 지금은 출근이 무섭게 느껴지시는군요. 언제부터 이런 변화가 생기셨나요?",
-      "technique": [
-        "reflection",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "6개월 전부터요. 코로나 병동으로 배치됐거든요. 처음엔 '내가 도와야지' 했는데... 매일 사람들이 힘들어나가는 걸 보면서..."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "6개월 동안 코로나 병동에서 환자들의 죽음을 계속 목격하셨군요. 그 경험이 얼마나 힘들었을지... 지금 어떤 감정이 가장 크세요?",
       "technique": [
         "empathy",
-        "emotion_labeling"
+        "open_question"
       ]
     },
     {
+      "speaker": "client",
+      "text": "네... 감사합니다. 사실 요즘 제가 너무 힘들어서요. 6개월 전에 팀장으로 승진했는데, 그 이후로 계속 뭔가에 쫓기는 것 같아요.",
+      "turn": 3
+    },
+    {
+      "speaker": "counselor",
+      "text": "승진하신 지 6개월 정도 되셨군요. 그동안 계속 무언가에 쫓기는 느낌을 받으셨다고 하셨는데, 구체적으로 어떤 상황에서 그런 느낌을 받으시나요?",
       "turn": 4,
-      "speaker": "client",
-      "text": "무감각이요. 처음엔 울기도 하고 슬프기도 했는데, 이제는 아무 감정도 안 느껴져요. 그게 더 무서워요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "감정이 무뎌지셨군요. 이건 '감정 소진'이라고 하는데, 너무 많은 감정적 충격을 받아서 마음이 스스로를 보호하기 위해 감정을 차단하는 거예요.",
       "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "보호라... 근데 이게 보호인가요? 저 환자한테 아무 감정도 못 느끼는 간호사가 됐어요. 그냥 기계처럼 일만 하고."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "환자에게 감정을 느끼지 못하는 자신이 낯설고 괴로우시군요. 일상생활에서도 비슷한 변화가 있으신가요?",
-      "technique": [
-        "empathy",
         "open_question"
       ]
     },
     {
+      "speaker": "client",
+      "text": "모든 게 다 그래요. 아침에 눈 뜨면 이미 피곤하고, 출근하면 처리해야 할 일들이 산더미처럼 쌓여있고... 팀원들 관리도 해야 하고, 상사한테 보고도 해야 하고. 집에 가면 10시가 넘어요.",
+      "turn": 5
+    },
+    {
+      "speaker": "counselor",
+      "text": "아침부터 밤늦게까지 쉴 틈 없이 일하시느라 정말 힘드셨겠어요. 신체적으로도, 정신적으로도 많이 지쳐 계신 것 같네요.",
       "turn": 6,
-      "speaker": "client",
-      "text": "집에 가면 그냥 쓰러져 자요. 남편이 말 걸어도 대꾸하기 싫고, 애들한테도 짜증만 나요. 예전엔 안 그랬는데..."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "가족과의 관계에서도 예전과 다르게 감정적으로 단절되고 짜증이 많아지셨네요. 수면은 어떠세요?",
       "technique": [
-        "reflection",
-        "closed_question"
+        "empathy"
       ]
     },
     {
-      "turn": 7,
       "speaker": "client",
-      "text": "잠은 많이 자는데 계속 피곤해요. 10시간씩 자도 피곤하고, 악몽도 자주 꿔요."
+      "text": "네, 맞아요. 주말에도 일 생각을 하게 되고... 최근에는 잠도 잘 안 와요. 자려고 누우면 내일 해야 할 일들이 머릿속에서 계속 맴돌아요.",
+      "turn": 7
     },
     {
-      "turn": 7,
       "speaker": "counselor",
-      "text": "많이 자도 피곤하고 악몽까지 꾸시는군요. 어떤 꿈을 꾸세요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
+      "text": "수면에도 어려움을 겪고 계시군요. 밤에 잠자리에 들면 업무 생각이 계속되어서 잠들기 어렵다는 말씀이시죠?",
       "turn": 8,
-      "speaker": "client",
-      "text": "병동 꿈이요. 환자가 힘들어가는데 제가 아무것도 못 하는 꿈, 저 때문에 환자가 죽는 꿈... 깨고 나면 땀으로 흠뻑 젖어있어요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "외상 후 스트레스 증상이 보이시네요. 낮에 경험한 충격적인 일들이 밤에 악몽으로 나타나고 있어요. 혹시 병원에서 특정 상황이 떠오르면 심장이 두근거리거나 회피하고 싶어지시나요?",
       "technique": [
-        "information_giving",
-        "closed_question"
+        "reflection"
       ]
     },
     {
-      "turn": 9,
       "speaker": "client",
-      "text": "네... 중환자실 앞만 지나가도 숨이 막혀요. 알람 소리만 들어도 심장이 떨려요."
+      "text": "네. 그리고 제가 원래 일을 완벽하게 하려는 성격이거든요. 팀장이 되고 나서는 더 그래야 한다는 압박감이 있어요. 실수하면 안 될 것 같고...",
+      "turn": 9
     },
     {
-      "turn": 9,
       "speaker": "counselor",
-      "text": "특정 장소나 소리가 트라우마를 자극하고 있군요. 이런 증상들은 본인이 약해서가 아니라, 견디기 힘든 상황에 너무 오래 노출되었기 때문이에요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
+      "text": "완벽하게 일을 처리해야 한다는 생각이 팀장이 되신 후 더 강해지셨다는 거네요. 그 부담감이 상당히 크게 느껴지시나 봐요.",
       "turn": 10,
-      "speaker": "client",
-      "text": "다른 간호사들은 잘만 버티던데... 저만 이러는 것 같아요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "'나만 이렇다'고 느껴지시는군요. 하지만 다른 사람들도 겉으로 표현하지 않을 뿐, 많은 의료진이 비슷한 어려움을 겪고 있어요. 주변 동료들과 이런 이야기를 나눠보신 적 있으세요?",
       "technique": [
-        "empathy",
-        "information_giving",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "아니요. 다들 바쁘고 힘든데 제가 힘들다고 하면 민폐잖아요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "자신의 어려움을 나누는 게 민폐라고 생각하시는군요. 그런데 다른 사람이 힘들다고 했을 때도 민폐라고 느끼시나요?",
-      "technique": [
-        "reflection",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "아니요, 당연히 도와주고 싶죠. 아, 제가 너무 저한테만 가혹한가요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "맞아요. 다른 사람에게는 공감하고 도움을 주면서 자신에게는 너무 엄격하시네요. 지금 본인에게 필요한 건 뭐라고 생각하세요?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "쉬고 싶어요. 진짜 한 달이라도 아무것도 안 하고 쉬고 싶어요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "휴식이 절실하시군요. 실제로 휴가를 쓰거나 병가를 내는 건 고려해보셨나요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "생각은 했는데... 인력이 부족해서 제가 빠지면 다른 사람들 부담이 늘어나잖아요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "다른 동료들을 배려하는 마음이 크시군요. 그런데 지금처럼 계속 가다가 완전히 쓰러지시면 더 오래 쉬어야 할 수도 있어요. 지금 잠깐 쉬는 것과 나중에 강제로 오래 쉬는 것 중 어떤 게 동료들에게도 더 나을까요?",
-      "technique": [
-        "validation",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "... 지금 쉬는 게 낫겠죠. 제가 완전히 쓰러지면 더 큰 문제니까."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "중요한 인식이에요. 이번 주에 수간호사나 상급자에게 현재 상태를 말씀드리고 휴가나 병가를 요청해보는 건 어떨까요?",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "그렇게 하면... 받아들여질까요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "현재 증상들 - 불면증, 악몽, 감정 소진, 회피 증상 - 을 솔직히 말씀드리고, 필요하면 진단서도 받으실 수 있어요. 의료진도 사람이에요. 아프면 쉬어야 해요.",
-      "technique": [
-        "information_giving",
         "validation"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "진단서요? 정신과를 가야 한다는 건가요?"
+      "text": "맞아요. 예전에는 제 일만 잘하면 됐는데, 이제는 팀 전체를 책임져야 하잖아요. 팀원들이 실수하면 그것도 제 책임인 것 같고... 그게 너무 무겁네요.",
+      "turn": 11
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "정신건강의학과 진료가 필요해 보여요. 외상 후 스트레스 장애나 중증 번아웃일 가능성이 있거든요. 이건 '마음이 약해서'가 아니라 실제 치료가 필요한 상태예요.",
+      "text": "개인 업무에서 팀 전체의 책임으로 역할이 확대되면서, 그 무게감을 많이 느끼고 계시는군요. 혹시 주변에 이런 어려움을 나눌 수 있는 분이 계신가요?",
+      "turn": 12,
       "technique": [
-        "information_giving",
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "글쎄요... 남편한테 얘기하면 '그만두면 되지'라고 하고, 친구들은 다들 바쁘고... 회사 사람들한테는 더 못하죠. 약해 보일까 봐요.",
+      "turn": 13
+    },
+    {
+      "speaker": "counselor",
+      "text": "주변에 마음 편히 털어놓을 곳이 없어서 혼자 감당하고 계셨던 거네요. 특히 직장에서는 약한 모습을 보이면 안 된다는 생각 때문에 더 힘드셨을 것 같아요.",
+      "turn": 14,
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네... 그래서 계속 혼자 버텨왔는데, 요즘은 정말 한계인 것 같아요. 지난주에는 회의 중에 갑자기 눈물이 날 것 같아서 화장실로 뛰어갔어요.",
+      "turn": 15
+    },
+    {
+      "speaker": "counselor",
+      "text": "회의 중에 감정이 북받쳐 오르는 경험을 하셨군요. 그동안 참아왔던 것들이 한계에 다다른 신호일 수 있어요. 그때 어떤 감정이 드셨나요?",
+      "turn": 16,
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "무력감? 아무리 열심히 해도 끝이 없고, 제가 뭘 하고 있는 건지 모르겠더라고요. 이게 제가 원하던 삶인가 싶기도 하고...",
+      "turn": 17
+    },
+    {
+      "speaker": "counselor",
+      "text": "무력감을 느끼시고, 지금의 삶이 본인이 원하던 모습인지에 대한 근본적인 질문을 하게 되셨네요. 그 질문은 매우 중요한 의미를 담고 있어요.",
+      "turn": 18,
+      "technique": [
         "validation"
       ]
     },
     {
-      "turn": 18,
       "speaker": "client",
-      "text": "저... 정신과 가는 거 창피하지 않을까요?"
+      "text": "그런가요? 저는 그냥 제가 나약해서 그런 건 줄 알았어요. 다른 사람들은 다 잘하는 것 같은데 저만 힘들어하는 것 같아서요.",
+      "turn": 19
     },
     {
-      "turn": 18,
       "speaker": "counselor",
-      "text": "'창피하다'는 생각이 드시는군요. 하지만 몸이 아프면 내과 가듯이, 마음이 아프면 정신과 가는 게 자연스러운 거예요. 특히 의료진은 더 많은 트라우마에 노출되니 정신건강 관리가 필수예요.",
-      "technique": [
-        "empathy",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "그렇게 생각하니... 조금 마음이 편해지네요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "휴식 외에도 일상에서 할 수 있는 것들을 찾아볼까요? 퇴근 후에 본인만을 위한 시간을 갖고 계신가요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
+      "text": "다른 사람들은 잘 해내는데 본인만 힘들어한다고 느끼시는군요. 하지만 실제로 많은 리더들이 비슷한 어려움을 경험합니다. 이것은 나약함이 아니라 과도한 책임감과 스트레스에 대한 자연스러운 반응이에요.",
       "turn": 20,
-      "speaker": "client",
-      "text": "전혀요. 집 가면 그냥 쓰러져 자요."
+      "technique": [
+        "normalization"
+      ]
     },
     {
-      "turn": 20,
+      "speaker": "client",
+      "text": "정말요? 그렇게 들으니까 조금 위안이 되네요. 그런데 어떻게 해야 할지 모르겠어요. 일을 그만둘 수도 없고...",
+      "turn": 21
+    },
+    {
       "speaker": "counselor",
-      "text": "일과 수면만 반복되고 있군요. 퇴근 후 30분이라도 본인을 위한 활동을 해보는 건 어떨까요? 예전에 좋아하던 게 있으셨나요?",
+      "text": "지금 당장 일을 그만두는 것이 유일한 해결책은 아니에요. 먼저 내담자님께서 스스로에게 부과하고 계신 '완벽해야 한다'는 기준에 대해 함께 살펴보면 좋을 것 같아요. 그 기준이 현실적이고 건강한 것인지요.",
+      "turn": 22,
       "technique": [
-        "reflection",
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "완벽해야 한다는 기준이요? 그게 당연한 거 아닌가요? 특히 리더라면...",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "turn": 24,
+      "technique": [
         "open_question"
       ]
     },
     {
-      "turn": 21,
       "speaker": "client",
-      "text": "예전엔... 요가 하고, 드라마 보는 거 좋아했어요."
+      "text": "음... 실수하지 않고, 모든 걸 통제할 수 있고, 팀원들한테 모범이 되고, 항상 답을 가지고 있어야 한다고 생각했어요.",
+      "turn": 25
     },
     {
-      "turn": 21,
       "speaker": "counselor",
-      "text": "요가나 드라마 감상 같은 활동이요. 일주일에 2-3번, 짧게라도 그런 시간을 가져보시면 어떨까요?",
+      "text": "그렇군요. 그런데 그 기준들을 들어보니, 사람이라기보다는 기계나 슈퍼히어로에게 기대하는 모습 같다는 생각이 드네요. 실제로 그런 리더를 본 적이 있으신가요?",
+      "turn": 26,
       "technique": [
-        "reflection",
-        "goal_setting"
+        "socratic_questioning"
       ]
     },
     {
-      "turn": 22,
       "speaker": "client",
-      "text": "해야 하는 건 알겠는데... 그럴 에너지가 없어요."
+      "text": "음... 생각해보니 없는 것 같네요. 그런데 저는 왜 저한테 그런 걸 기대했을까요?",
+      "turn": 27
     },
     {
-      "turn": 22,
       "speaker": "counselor",
-      "text": "에너지가 없으실 거예요. 그래서 아주 작게 시작하는 거예요. 10분짜리 요가 영상 하나, 드라마 한 편의 반... 이 정도면 가능할까요?",
+      "text": "좋은 질문이세요. 혹시 어렸을 때나 성장 과정에서 완벽해야 한다는 메시지를 받으신 경험이 있으신가요?",
+      "turn": 28,
       "technique": [
-        "validation",
-        "goal_setting"
+        "exploration"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "10분이면... 할 수 있을 것 같아요."
+      "text": "아... 부모님이 굉장히 엄격하셨어요. 특히 아버지가 '최선을 다하는 게 아니라 최고가 되어야 한다'고 자주 말씀하셨죠. 성적도 항상 1등 해야 했고...",
+      "turn": 29
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "좋아요. 그리고 가족과의 관계도 중요해요. 남편분께 지금 본인 상태를 솔직하게 말씀하신 적 있으세요?",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "turn": 30,
       "technique": [
-        "encouragement",
-        "open_question"
+        "exploration"
       ]
     },
     {
-      "turn": 24,
       "speaker": "client",
-      "text": "아니요. 남편도 회사 다니느라 바쁜데 제 얘기까지 들으면 부담스러울 것 같아서..."
+      "text": "실망하셨죠. 말로 표현은 안 하셔도 분위기로 느껴졌어요. 그게 너무 싫어서 더 열심히 했던 것 같아요.",
+      "turn": 31
     },
     {
-      "turn": 24,
       "speaker": "counselor",
-      "text": "또 다른 사람을 배려하시네요. 하지만 가장 가까운 사람에게 본인 상태를 공유하는 건 부담이 아니라 관계를 지키는 방법이에요. 남편분도 지금 왜 짜증이 나는지 이해하지 못하고 계시지 않을까요?",
+      "text": "부모님의 실망을 피하기 위해 더 완벽해지려고 노력하셨던 거네요. 그 패턴이 지금도 직장에서 반복되고 있는 것 같아요. 실수나 불완전함을 용납하지 못하는 것이요.",
+      "turn": 32,
       "technique": [
-        "validation",
-        "information_giving"
+        "interpretation"
       ]
     },
     {
-      "turn": 25,
       "speaker": "client",
-      "text": "맞아요... 남편이 계속 '요즘 왜 그러냐'고 물어보는데 저도 모르겠다고만 했어요."
+      "text": "맞아요... 그렇네요. 그럼 저는 어떻게 해야 하죠? 이 패턴을 바꿀 수 있을까요?",
+      "turn": 33
     },
     {
-      "turn": 25,
       "speaker": "counselor",
-      "text": "이번 주에 남편분과 조용한 시간을 갖고 지금 겪고 있는 것들을 나눠보세요. 도움을 요청하는 것도 좋아요.",
+      "text": "물론이에요. 오랜 패턴이라 시간이 걸리겠지만 충분히 변화 가능합니다. 먼저 '좋은 리더'에 대한 현실적인 기준을 함께 만들어보면 어떨까요? 완벽함이 아닌, 인간적이고 실현 가능한 기준으로요.",
+      "turn": 34,
       "technique": [
-        "goal_setting",
+        "collaborative_approach"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그게 가능할까요? 구체적으로 어떻게 하는 건가요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "예를 들어, '실수하지 않는 리더' 대신 '실수를 인정하고 배우는 리더', '모든 걸 통제하는 리더' 대신 '적절히 위임하고 신뢰하는 리더'처럼 말이에요. 내담자님이 생각하시는 현실적인 좋은 리더의 모습은 어떤 건가요?",
+      "turn": 36,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 팀원들과 소통을 잘하고, 그들의 성장을 돕고, 함께 문제를 해결해 나가는 리더? 그런데 그러려면 제가 모든 걸 다 알아야 하는 거 아닌가요?",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 방향으로 생각하고 계세요. 그런데 '모든 걸 다 알아야 한다'는 생각이 또 나왔네요. 리더가 모든 답을 알아야 한다고 생각하시는 이유는 뭘까요?",
+      "turn": 38,
+      "technique": [
+        "socratic_questioning"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그래야 존중받을 수 있을 것 같아서요. 모르면 무시당할 것 같고...",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "turn": 40,
+      "technique": [
+        "perspective_taking"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "글쎄요... 생각해본 적이 없네요. 한 번 물어봐야 하나? 아, 그런데 그것도 약해 보이려나요?",
+      "turn": 41
+    },
+    {
+      "speaker": "counselor",
+      "text": "팀원들의 의견을 구하는 것은 약함이 아니라 소통하고 협력하려는 강점이에요. 오늘 상담을 통해 내담자님이 얻어가고 싶은 것이 있다면 무엇일까요?",
+      "turn": 42,
+      "technique": [
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "일과 삶의 균형을 찾고 싶어요. 그리고 이렇게 불안하지 않고 좀 더 편안하게 일하고 싶어요. 가능할까요?",
+      "turn": 43
+    },
+    {
+      "speaker": "counselor",
+      "text": "충분히 가능합니다. 오늘 내담자님께서 완벽주의의 뿌리를 발견하신 것이 첫 번째 중요한 단계예요. 앞으로 함께 현실적인 기준을 만들고, 자기 돌봄 방법을 찾아가면서 변화를 만들어갈 수 있을 거예요. 다음 상담까지 작은 과제를 드려도 될까요?",
+      "turn": 44,
+      "technique": [
+        "hope_instillation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 뭔가요?",
+      "turn": 45
+    },
+    {
+      "speaker": "counselor",
+      "text": "하루에 한 가지씩, '완벽하지 않아도 괜찮았던 순간'을 기록해보세요. 그리고 그때 어떤 일이 일어났는지, 어떤 감정을 느꼈는지 간단히 메모해주시면 좋겠어요.",
+      "turn": 46,
+      "technique": [
+        "homework_assignment"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "알겠습니다. 해볼게요. 오늘 상담 받고 나니까 조금 숨통이 트이는 느낌이에요. 감사합니다.",
+      "turn": 47
+    },
+    {
+      "speaker": "counselor",
+      "text": "다행이네요. 오늘 용기 내어 오신 것, 그리고 솔직하게 이야기 나눠주신 것 정말 잘하셨어요. 다음 주에 또 뵙겠습니다.",
+      "turn": 48,
+      "technique": [
         "encouragement"
       ]
     },
     {
-      "turn": 26,
       "speaker": "client",
-      "text": "네... 해볼게요. 솔직히 혼자 감당하기엔 너무 벅차요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 26,
       "speaker": "counselor",
-      "text": "혼자 감당하실 필요 없어요. 오늘 이야기한 것들을 정리해볼까요? 수간호사께 휴가 요청하기, 정신건강의학과 진료 받기, 퇴근 후 10분 본인 시간 갖기, 남편과 대화하기. 이 중에 가장 먼저 하실 건 뭔가요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "validation",
-        "summarization",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "남편과 대화하는 거요. 오늘 당장 해야겠어요. 그리고 내일 수간호사님께 말씀드려볼게요."
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "아주 구체적으로 계획을 세우셨네요. 용기 내셔서 대단해요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 28,
-      "speaker": "client",
-      "text": "선생님, 제가... 간호사 그만둬야 할까요?"
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "지금 당장 그 결정을 내리실 필요는 없어요. 먼저 쉬고 회복한 후에 생각해도 늦지 않아요. 지금은 너무 지쳐서 판단하기 어려운 상태거든요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 29,
-      "speaker": "client",
-      "text": "그렇죠. 지금은 아무 생각도 할 수 없을 것 같아요. 일단 쉬는 게 먼저네요."
-    },
-    {
-      "turn": 29,
-      "speaker": "counselor",
-      "text": "맞아요. 휴식과 회복이 우선이에요. 다음 주에 만나서 어떻게 진행되었는지 이야기 나눠보죠. 그 전에 증상이 심해지면 언제든 응급실이나 위기상담 전화를 이용하세요.",
-      "technique": [
-        "validation",
-        "goal_setting",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 30,
-      "speaker": "client",
-      "text": "네, 알겠습니다. 오늘 정말 많은 도움이 됐어요. 감사합니다."
-    },
-    {
-      "turn": 30,
-      "speaker": "counselor",
-      "text": "10년간 헌신하신 만큼, 이제는 본인을 돌보실 시간이에요. 잘하실 거예요. 다음 주에 뵙겠습니다.",
-      "technique": [
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "40세",
-    "gender": "남성",
-    "occupation": "관리직",
-    "background": "오랜 친구와의 관계가 멀어져가는 상황"
-  }
+  ]
 }

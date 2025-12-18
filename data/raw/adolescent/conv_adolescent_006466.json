@@ -1,107 +1,98 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "대학 진학",
-    "total_turns": 27,
-    "quality_indicators": [
-      "reflection",
-      "open_question",
-      "emotion_labeling",
-      "empathy",
-      "closed_question",
-      "validation",
-      "information_giving",
-      "clarification"
-    ]
+    "topic": "학교 폭력과 따돌림",
+    "total_turns": 30,
+    "generated_at": "2025-12-18T07:14:24.880889+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0012_가치관차이",
-    "category": "adolescent",
-    "topic": "대학 진학"
+  "client_profile": {
+    "age": "18세",
+    "gender": "남성",
+    "occupation": "고등학교 3학년",
+    "background": "학교 폭력과 따돌림 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:35.946452+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 제 친구가 다른 애들 뒷담화하는 걸 너무 많이 해요. 듣기 불편한데 어떻게 해야 할까요?"
+      "text": "선생님, 비밀은 지켜주시는 거죠?"
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "친구의 행동이 불편하시군요. 뒷담화를 많이 한다고 하셨는데, 구체적으로 어떤 상황인지 말씀해주시겠어요?",
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
       "technique": [
         "empathy",
-        "reflection",
         "open_question"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "제 친구 유진이는 만날 때마다 다른 애들 험담을 해요. '쟤는 이래서 싫어', '저 애는 가식적이야' 이런 식으로... 처음에는 그냥 넘어갔는데 이제는 너무 심해요."
+      "text": "공부도 못하고, 밤늦게까지 보느라 잠도 부족하고... 그리고 계속 다른 사람들 보면서 비교하게 돼요. 다들 저보다 잘나 보여요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "처음에는 넘어갈 수 있었지만 점점 심해지면서 견디기 어려워지셨군요. 유진이의 그런 행동이 당신에게 어떤 영향을 미치나요?",
+      "text": "생활에 지장이 있고, 다른 사람들과 비교하면서 자존감도 낮아지는 거군요. 소셜미디어에서 주로 뭘 하세요?",
       "technique": [
-        "empathy",
         "reflection",
-        "open_question"
+        "open_question",
+        "empathy"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "기분이 나빠요. 그리고... 유진이가 저 없을 때는 저 얘기도 하는 거 아닌가 불안해요."
+      "text": "팔로워들 게시물 보고, 제 사진도 올리고... 그리고 좋아요 개수 확인하고, 댓글 확인하고... 계속 반복해요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "불쾌함과 함께 불안감도 느끼시는군요. 다른 사람을 험담하는 모습을 보면서 자신도 그렇게 얘기될까 걱정되시는 거네요.",
+      "text": "좋아요와 댓글을 확인하는 행동이 반복되는군요. 좋아요 개수가 당신에게 어떤 의미인가요?",
       "technique": [
-        "emotion_labeling",
         "reflection",
+        "open_question",
         "empathy"
       ]
     },
     {
       "turn": 4,
       "speaker": "client",
-      "text": "네... 맞아요. 그리고 유진이가 험담하는 애들 중에는 제가 괜찮다고 생각하는 애들도 있어요. 그럴 때마다 뭐라고 말해야 할지 모르겠어요."
+      "text": "좋아요가 많이 나오면... 기분이 좋아요. 사람들이 저를 인정해주는 느낌? 근데 적게 나오면 우울해져요."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "당신과 유진이의 생각이 다를 때 어떻게 반응하시나요?",
+      "text": "좋아요 개수가 자신의 가치를 결정하는 것처럼 느껴지는군요. 혹시 사진 올릴 때 어떤 기준으로 고르세요?",
       "technique": [
+        "reflection",
         "open_question"
       ]
     },
     {
       "turn": 5,
       "speaker": "client",
-      "text": "그냥... '응', '그래' 이렇게만 하고 넘어가요. 반박하면 유진이가 기분 나빠할 것 같아서..."
+      "text": "예쁘게 나온 거요. 보정도 많이 하고... 한 장 올리는데 몇 시간씩 걸릴 때도 있어요. 완벽해야 해서..."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "자신의 의견을 말하지 못하고 동조하는 척하고 계시는군요. 그게 편하지 않으시죠?",
+      "text": "완벽한 이미지를 만들기 위해 많은 시간과 노력을 쓰시는군요. 소셜미디어에 올린 자신의 모습과 실제 자신의 모습이 다르다고 느끼시나요?",
       "technique": [
         "reflection",
-        "closed_question"
+        "open_question"
       ]
     },
     {
       "turn": 6,
       "speaker": "client",
-      "text": "네... 거짓말하는 것 같아서 스트레스받아요. 제 가치관이랑 안 맞는 것 같아요."
+      "text": "완전 달라요... 인스타에서는 항상 행복하고 예쁜 모습만 보여주는데, 실제로는 그렇지 않거든요. 그게 저인 건지 잘 모르겠어요."
     },
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "가치관의 차이를 느끼고 계시군요. 당신에게 중요한 가치는 무엇인가요?",
+      "text": "온라인 페르소나와 실제 자신 사이에서 혼란을 겪고 계시는군요. '진짜 나'는 어떤 사람이라고 생각하세요?",
       "technique": [
         "reflection",
         "open_question"
@@ -110,303 +101,337 @@
     {
       "turn": 7,
       "speaker": "client",
-      "text": "저는... 없는 사람 험담하는 거 별로 안 좋아해요. 그리고 사람들한테 긍정적인 면을 보려고 노력하는 편이거든요."
+      "text": "잘 모르겠어요... 인스타에서는 자신감 있고 예쁜 사람인데, 실제로는 불안하고 평범해요. 어느 게 진짜 저인지..."
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "긍정성과 공정함을 중요하게 생각하시는군요. 그런 당신의 가치관과 유진이의 행동이 충돌하고 있네요.",
+      "text": "둘 다 당신의 모습이에요. 하지만 소셜미디어는 편집된 버전이고, 실제는 완전한 버전이죠. 완전한 당신은 강점도 있고 약점도 있는 거예요.",
       "technique": [
-        "validation",
-        "reflection"
+        "information_giving",
+        "validation"
       ]
     },
     {
       "turn": 8,
       "speaker": "client",
-      "text": "맞아요. 그래서 요즘 유진이랑 있는 게 편하지 않아요. 근데 중학교 때부터 친했던 친구라서..."
+      "text": "약점을 보여주면... 사람들이 실망할 것 같아요."
     },
     {
       "turn": 8,
       "speaker": "counselor",
-      "text": "오랜 우정이 있어서 관계를 유지하고 싶지만, 가치관 차이 때문에 불편하시군요. 유진이에게 당신의 불편함을 말해본 적 있나요?",
+      "text": "완벽해야 사랑받는다고 생각하시는군요. 혹시 친구들도 모두 완벽하게 보이나요?",
       "technique": [
         "reflection",
-        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "네... 다들 행복해 보이고, 친구 많고, 여행도 다니고... 저만 뒤처지는 것 같아요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "그럴까요? 다들 진짜 행복한 줄 알았는데..."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "소셜미디어는 현실의 하이라이트 릴이에요. 누구도 힘든 순간, 평범한 순간을 다 올리지 않아요. 그걸 비교 기준으로 삼으면 항상 부족하다고 느낄 수밖에 없어요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "하이라이트 릴이라... 그렇게 생각하니까 조금 다르게 보이네요."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "그리고 좋아요와 팔로워 수가 당신의 가치를 결정하나요? 실제 인간관계는 어떠세요?",
+      "technique": [
+        "validation",
+        "confrontation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "친구들은... 몇 명 있어요. 근데 요즘 친구들 만나는 것보다 인스타 보는 게 더 편해요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "온라인이 오프라인보다 편하다고 느끼시는 이유가 뭘까요?",
+      "technique": [
+        "open_question"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "온라인에서는... 제가 원하는 모습만 보여줄 수 있잖아요. 실제로 만나면 제 진짜 모습이 보일 것 같아서 불안해요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "진짜 모습을 보이는 게 두려운 거군요. 하지만 진정한 관계는 완벽한 모습이 아니라 진짜 모습을 나눌 때 만들어져요.",
+      "technique": [
+        "reflection",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "진짜 모습을... 보여줘도 되나요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "물론이에요. 취약함을 보이는 게 용기예요. 그리고 진짜 친구라면 완벽하지 않은 당신도 받아들일 거예요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "근데 선생님... 인스타를 끊으라는 건가요? 전 할 수 없을 것 같아요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "완전히 끊을 필요는 없어요. 하지만 건강한 관계를 만들 필요가 있어요. 하루에 몇 시간 정도 사용하세요?",
+      "technique": [
+        "information_giving",
         "closed_question"
       ]
     },
     {
-      "turn": 9,
+      "turn": 16,
       "speaker": "client",
-      "text": "없어요... 뭐라고 말해야 할지도 모르겠고, 말하면 유진이가 '넌 왜 그렇게 착한 척하냐'고 할 것 같아서..."
+      "text": "5-6시간? 어쩔 때는 더..."
     },
     {
-      "turn": 9,
+      "turn": 16,
       "speaker": "counselor",
-      "text": "유진이의 반응이 걱정되시는군요. 하지만 생각해보세요. 지금처럼 계속 불편함을 참으면서 관계를 유지하는 게 건강한 우정일까요?",
+      "text": "그건 과도한 시간이에요. 학업, 수면, 인간관계에 지장을 주고 있죠. 조금씩 줄여나가는 건 어떨까요?",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "어떻게 줄여요? 자꾸 보게 돼요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "앱 사용 시간 제한 설정을 하거나, 특정 시간대에만 보는 규칙을 만들 수 있어요. 예를 들어 '공부 시간과 자기 전 2시간은 보지 않기' 같은 거요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "규칙을... 만들어야 하나요?"
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "스스로 통제하기 어렵다면 규칙이 도움이 돼요. 그리고 소셜미디어 보는 시간 대신 다른 활동을 계획하는 것도 좋아요. 운동, 독서, 친구 만나기 등요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "다른 활동이요... 생각해보니 요즘 아무것도 안 했네요. 인스타만 봤어요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "소셜미디어가 다른 활동의 시간을 다 차지한 거예요. 원래 좋아하던 취미가 있었나요?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 10,
+      "turn": 20,
       "speaker": "client",
-      "text": "아니긴 한데... 말하면 싸울 것 같아요."
+      "text": "피아노 쳤었는데... 요즘은 안 쳐요. 시간이 없어서..."
     },
     {
-      "turn": 10,
+      "turn": 20,
       "speaker": "counselor",
-      "text": "갈등이 생길까봐 두려우시군요. 하지만 진정한 친구라면 당신의 솔직한 의견도 존중해줄 거예요. 공격적이지 않게 말하는 방법이 있어요.",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
-        "reflection",
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "어떻게요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "유진이를 비난하지 않고 당신의 감정을 전달하는 거예요. '나는 다른 사람 험담하는 게 불편해. 그 사람의 좋은 점도 있을 것 같아'라고 부드럽게 말하는 거죠.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "그렇게 말하면... 유진이가 이해해줄까요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "확실하지는 않지만 시도해볼 가치는 있어요. 유진이도 당신의 의견을 듣고 생각해볼 수 있어요. 그리고 만약 유진이가 당신의 의견을 전혀 존중하지 않는다면 그 관계를 다시 생각해봐야 할 수도 있고요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "관계를 다시 생각한다는 게... 친구 관계를 끝낸다는 건가요?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "꼭 그런 건 아니에요. 관계의 거리를 조정하는 거죠. 모든 친구와 똑같이 친하게 지낼 필요는 없어요. 가치관이 맞지 않는다면 조금 거리를 두면서 지낼 수도 있어요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "거리를 둔다... 그게 가능할까요? 같은 반이고 자주 마주치는데..."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "물리적 거리가 아니라 정서적 거리예요. 만날 때마다 깊은 대화를 나누지 않고, 가벼운 관계로 유지하는 거죠. 먼저 유진이에게 당신의 입장을 말해보고 그 반응을 봐서 결정해도 늦지 않아요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "알겠어요. 한번 말해볼게요. 근데 선생님, 제가 너무 예민한 건 아닐까요? 다른 애들은 그냥 넘어가는 것 같은데..."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "스스로를 의심하고 계시는군요. 하지만 당신의 불편함은 타당해요. 각자 가치관이 다르고, 당신은 그런 행동을 좋아하지 않는 거예요. 그게 예민한 게 아니라 당신의 기준이에요.",
-      "technique": [
-        "reflection",
-        "validation"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "제 기준... 맞네요. 저는 그런 게 싫은 거고, 그게 잘못된 건 아니죠."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "정확히 이해하셨어요. 자신의 가치관을 존중하는 게 중요해요. 다른 사람에게 맞추느라 자신을 잃어버리면 안 돼요.",
-      "technique": [
-        "validation",
+        "confrontation",
         "encouragement"
       ]
     },
     {
-      "turn": 17,
+      "turn": 21,
       "speaker": "client",
-      "text": "그동안 제가 그렇게 해왔던 것 같아요. 유진이한테 맞춰주느라..."
+      "text": "하고 싶긴 한데... 인스타가 더 끌려요."
     },
     {
-      "turn": 17,
+      "turn": 21,
       "speaker": "counselor",
-      "text": "그걸 인식하셨다는 게 중요해요. 이제 변화를 시도할 수 있어요. 유진이에게 언제 말씀하실 계획이세요?",
+      "text": "즉각적인 만족이 더 강하니까요. 좋아요는 즉시 기분을 좋게 하지만, 피아노는 연습이 필요하죠. 하지만 장기적으로는 피아노가 더 깊은 만족을 줄 거예요.",
       "technique": [
-        "validation",
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "장기적인 만족이요..."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "네. 소셜미디어의 좋아요는 순간적이지만, 자신의 능력을 개발하는 건 지속적인 자존감을 줘요. 어느 게 더 가치있을까요?",
+      "technique": [
+        "information_giving",
         "open_question"
       ]
     },
     {
-      "turn": 18,
-      "speaker": "client",
-      "text": "이번 주 안에... 둘이 얘기할 수 있는 시간을 만들어볼게요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "좋은 계획이에요. 대화할 때 유진이를 비난하는 톤이 아니라 당신의 감정을 전달하는 데 집중하세요. '너는 나쁜 사람이야'가 아니라 '나는 이게 불편해'인 거죠.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "네, I-메시지죠. 이해했어요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "완벽해요. 그리고 유진이도 변할 수 있어요. 당신의 의견을 듣고 자신의 행동을 돌아볼 수 있어요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "그랬으면 좋겠어요. 유진이도 나쁜 애는 아니거든요. 그냥 습관 같아요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "유진이의 좋은 면도 보고 계시네요. 그렇다면 더욱 대화가 의미 있을 거예요. 습관은 인식하면 바꿀 수 있으니까요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "네, 희망을 가져봐야겠어요. 근데 만약 유진이가 안 바뀌면요?"
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "그럼 당신이 어떻게 대응할지 결정해야 해요. 계속 불편함을 참으면서 관계를 유지할 건지, 거리를 둘 건지요. 어느 쪽이든 당신의 선택이에요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "제 선택... 맞네요. 제가 선택할 수 있는 거군요."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "그렇죠. 관계에서 당신도 주체예요. 일방적으로 참기만 할 필요 없어요. 건강한 경계를 설정할 권리가 있어요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
       "turn": 23,
       "speaker": "client",
-      "text": "경계 설정... 저한테 필요한 것 같아요. 저는 너무 남한테 맞춰주는 경향이 있어요."
+      "text": "능력 개발이... 더 가치있겠죠. 근데 당장은 힘들 것 같아요."
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "중요한 통찰이에요. 이번 경험이 경계를 설정하는 연습이 될 수 있어요. 유진이뿐만 아니라 다른 관계에서도 적용할 수 있고요.",
+      "text": "변화는 항상 어려워요. 하지만 작은 목표부터 시작하면 돼요. 이번 주에 소셜미디어 하루 30분 줄이고, 그 시간에 피아노 치는 건 어떨까요?",
       "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "네, 그렇게 생각하니까 조금 덜 무섭네요. 이게 저한테 도움이 되는 일이라고 생각하면..."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "훌륭한 관점 전환이에요. 오늘 대화에서 얻은 걸 정리해볼까요? 당신의 가치관을 존중하고, 유진이에게 솔직하게 전달하고, 당신의 선택을 존중하는 거예요.",
-      "technique": [
-        "validation",
-        "summarization"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네, 정리가 되네요. 제가 해야 할 일이 명확해졌어요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "다행이에요. 다음 주에 유진이와의 대화가 어떻게 됐는지 나눠봐요. 결과가 어떻든 당신이 자신을 위해 목소리를 낸 것 자체가 의미 있어요.",
-      "technique": [
-        "encouragement",
         "validation",
         "structuring"
       ]
     },
     {
+      "turn": 24,
+      "speaker": "client",
+      "text": "30분이요... 할 수 있을 것 같아요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 한 가지 더, 사진 올리기 전에 한 번 생각해보세요. '이게 진짜 내 모습인가? 왜 올리려고 하는가?' 하고요.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "왜 올리려고 하는지요... 생각해본 적 없어요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
       "turn": 26,
       "speaker": "client",
-      "text": "네, 감사합니다. 용기를 내볼게요."
+      "text": "맞는 말인 것 같아요... 저는 소셜미디어가 제 삶의 전부였던 것 같아요."
     },
     {
       "turn": 26,
       "speaker": "counselor",
-      "text": "당신은 할 수 있어요. 자신의 가치관을 지키는 건 중요한 일이에요. 응원할게요.",
+      "text": "깨달으신 게 중요해요. 이제부터 균형을 찾아가면 돼요. 소셜미디어도 하되, 실제 삶도 충실히 하는 거죠.",
       "technique": [
-        "encouragement",
-        "validation"
+        "validation",
+        "encouragement"
       ]
     },
     {
       "turn": 27,
       "speaker": "client",
-      "text": "네, 다음 주에 좋은 소식 들고 올게요."
+      "text": "균형이요... 노력해볼게요. 오늘 상담 받고 많이 생각하게 됐어요."
     },
     {
       "turn": 27,
       "speaker": "counselor",
-      "text": "기대하고 있을게요. 자신을 믿으세요.",
+      "text": "다행이에요. 그리고 힘들 때 소셜미디어 말고 진짜 사람에게 연락하세요. 친구나 가족, 아니면 저한테요.",
       "technique": [
         "encouragement",
-        "validation"
+        "structuring"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "네, 그렇게 할게요. 다음 주에 결과 얘기하러 올게요."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "기대할게요. 소셜미디어 시간 줄이기, 피아노 다시 시작하기, 두 가지 목표 잊지 마세요.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네, 기억할게요. 감사합니다, 선생님."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "당신은 온라인 페르소나가 아니라 실제 당신으로도 충분히 가치있어요. 그걸 믿으세요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "client",
+      "text": "네, 믿어볼게요. 다음 주에 뵙겠습니다."
+    },
+    {
+      "turn": 30,
+      "speaker": "counselor",
+      "text": "응원할게요. 진짜 삶을 살아가세요.",
+      "technique": [
+        "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "15세",
-    "gender": "여성",
-    "occupation": "중학교 3학년",
-    "background": "원하는 대학과 현실적 가능성 사이의 갈등"
-  }
+  ]
 }

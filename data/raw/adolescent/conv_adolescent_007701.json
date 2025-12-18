@@ -1,35 +1,26 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "따돌림",
-    "total_turns": 30,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "validation",
-      "closed_question",
-      "emotion_labeling",
-      "clarification",
-      "interpretation"
-    ]
+    "topic": "형제자매 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:26.131929+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_학업스트레스_0039_학원과부하_002",
-    "category": "adolescent",
-    "topic": "따돌림"
+  "client_profile": {
+    "age": "16세",
+    "gender": "여성",
+    "occupation": "고등학교 1학년",
+    "background": "형제자매 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.356371+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 저 요즘 친구가 하나도 없어요. 다들 저 피해요."
+      "text": "선생님, 비밀은 지켜주시는 거죠?"
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "친구들이 피한다고 느껴지는구나. 무슨 일이 있었는지 이야기해줄 수 있어?",
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
       "technique": [
         "empathy",
         "open_question"
@@ -38,292 +29,292 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "제가 약속을 맨날 못 지켜요. 주말에 놀자고 하면 저는 학원 있고, 평일에는 더 바쁘고... 이제 아무도 안 불러요."
+      "text": "한 6개월 전부터요. 중간고사 성적이 진짜 안 나왔는데, 기말도 망치고... 이젠 따라잡을 수가 없을 것 같아요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "학원 스케줄 때문에 친구들과 시간을 보낼 수 없어서 관계가 소원해진 거구나. 지금 학원을 얼마나 다니고 있어?",
+      "text": "성적이 생각만큼 나오지 않으면서 점점 더 학교 다니는 게 의미 없게 느껴지는 것 같네.",
+      "technique": [
+        "reflection",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "네... 맞아요. 수업 들어도 무슨 말인지 하나도 모르겠고, 친구들은 다 이해하는 것 같은데 저만 뒤처진 기분이에요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "검정고시 보고... 그 다음엔 아직 잘 모르겠어요. 일단 학교만 안 다녀도 스트레스가 줄어들 것 같아서요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "지금은 학교에서 벗어나는 것 자체가 해결책처럼 느껴지는구나. 검정고시 이후의 계획은 구체적으로 세워보진 않았고?",
+      "technique": [
+        "restatement",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "네... 솔직히 그냥 지금 상황에서 벗어나고 싶은 마음이 더 커요. 매일 아침 일어나는 게 너무 힘들거든요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "매일 아침이 고통스러울 정도로 지금 상황이 많이 힘든 거네. 부모님께는 이런 고민을 이야기해봤어?",
+      "technique": [
+        "empathy",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "아뇨... 말하면 엄청 화내실 것 같아서요. 엄마 아빠는 제가 대학 꼭 가야 한다고 생각하시거든요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "부모님의 기대와 네 현재 상황 사이에서 갈등이 있는 것 같구나. 부모님께 솔직한 마음을 전하는 게 두렵지?",
+      "technique": [
+        "interpretation",
+        "validation"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "네... 실망시키기도 싫고요. 근데 이대로는 정말 못 버틸 것 같아요. 요즘은 학교 가기 싫어서 꾀병도 부리고 있어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "상황이 정말 심각하게 느껴지는구나. 꾀병까지 부리게 될 만큼 힘든 거네. 혹시 학교에서 도움을 줄 수 있는 선생님이나 친구는 없어?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "담임 선생님이 계시긴 한데... 그냥 공부 열심히 하라는 말씀만 하실 것 같아요. 친구들한테는 더 말 못하겠고요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "주변에 진심으로 네 마음을 이해해줄 사람이 없다고 느껴지니까 더 외롭고 힘들겠다.",
+      "technique": [
+        "reflection",
+        "empathy"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "네... 그래서 혼자 인터넷으로 검정고시 후기 같은 거 찾아보고 있어요. 생각보다 많은 사람들이 그 길을 가더라고요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "스스로 정보를 찾아보면서 다른 가능성을 탐색하고 있구나. 그 후기들을 보면서 어떤 생각이 들었어?",
+      "technique": [
+        "validation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "어떤 사람들은 잘됐다고 하고, 어떤 사람들은 후회한다고 하더라고요. 근데 적어도 학교 안 다니는 게 편해 보였어요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "다양한 경험담을 봤구나. 결과는 사람마다 다르지만, 공통적으로 학교를 벗어나는 것에서 오는 자유로움은 있었던 거네.",
+      "technique": [
+        "summarization",
+        "reflection"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "네. 근데 선생님... 제가 진짜 자퇴해도 될까요? 아니면 그냥 참고 다녀야 할까요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "중요한 결정이라 확신이 서지 않는구나. 네가 지금 가장 힘들어하는 부분이 뭔지 구체적으로 정리해볼 수 있을까?",
+      "technique": [
+        "empathy",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "일단 성적 스트레스가 제일 크고요, 수업 시간에 앉아 있는 게 너무 답답해요. 그리고 아침마다 학교 가야 한다는 생각만 하면 배가 아파요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "성적 압박, 수업에 대한 무기력함, 그리고 신체적인 증상까지 나타나고 있네. 이런 증상들이 얼마나 지속되었어?",
+      "technique": [
+        "summarization",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "한 3-4개월 정도 된 것 같아요. 처음엔 가끔씩이었는데 요즘은 거의 매일이에요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "증상이 점점 더 심해지고 있구나. 그렇다면 자퇴가 아닌 다른 방법으로 이 문제를 해결할 수 있는 방법은 생각해봤어?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "글쎄요... 휴학 같은 거요? 근데 그것도 결국 다시 돌아가야 하잖아요. 똑같을 것 같아요."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "휴학도 고려해봤지만 근본적인 해결책이 아니라고 느끼는구나. 혹시 성적이 오르거나 수업을 이해할 수 있다면 생각이 달라질 수도 있을까?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 3,
-      "speaker": "client",
-      "text": "월화수목금토 다 있어요. 평일은 저녁 6시부터 10시까지, 토요일은 오전부터 오후까지요. 일요일만 쉬는데 그날은 너무 피곤해서 집에서 자요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "주 6일 학원에 일요일은 휴식... 친구들을 만날 시간이 거의 없겠다. 이런 스케줄은 언제부터였어?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "고1 때부터요. 처음엔 괜찮았는데 시간이 지날수록 외로워요. 소셜미디어에서 친구들 노는 사진 보면... 부러워요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "친구들의 일상을 보면서 소외감을 느끼는구나. 외로움이 크겠다. 혹시 우울한 기분도 자주 들어?",
-      "technique": [
-        "empathy",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "네... 요즘은 학원 가는 것도 싫고, 공부도 하기 싫고... 뭘 해도 재미가 없어요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "무기력감과 흥미 상실이 있구나. 이런 증상이 얼마나 지속됐어?",
-      "technique": [
-        "emotion_labeling",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "한 두 달 된 것 같아요. 처음엔 그냥 피곤한 줄 알았는데, 이제는 살고 싶지 않다는 생각까지 들어요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "'살고 싶지 않다'는 생각이 든다고 했는데, 구체적으로 어떤 생각이 드는지 말해줄 수 있어? 이건 정말 중요한 부분이야.",
-      "technique": [
-        "clarification",
-        "validation"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "자해나 그런 건 아니고요... 그냥 이렇게 사는 게 의미 없다는 생각? 매일 학원 가고, 공부하고, 자고... 반복이에요. 이게 뭔가 싶어요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "삶의 의미를 못 느끼고 있구나. 반복되는 일상 속에서 행복이나 즐거움이 없으니 공허한 거네. 부모님은 네 상태를 알고 계셔?",
-      "technique": [
-        "interpretation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "아니요. 말해봤자 공부 열심히 안 해서 그렇다고 하실 것 같아요. 성적은 괜찮거든요. 엄마 아빠는 만족하시는 것 같아요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "성적이 좋으니 부모님은 문제가 없다고 생각하시는 거구나. 하지만 너는 속으로 많이 힘들고. 이 괴리가 더 외롭게 만드는 것 같아.",
-      "technique": [
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "맞아요. 성적은 좋은데 전 불행해요. 이상하죠?"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "전혀 이상하지 않아. 성적이 인생의 전부는 아니니까. 사회적 관계, 여가, 휴식 이런 것들도 모두 행복에 중요한 요소야. 지금 너는 그런 것들이 없는 상태잖아.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "그럼 어떻게 해야 하죠? 학원을 그만둘 수도 없고... 성적 떨어지면 부모님이 실망하실 거고..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "학원을 다 그만두자는 게 아니야. 조정이 필요한 거지. 주 6일은 너무 많아. 최소한 하루는 친구들과 시간을 보낼 수 있어야 해. 어느 요일 학원이 가장 비효율적이라고 생각해?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "토요일 학원이요. 주말에도 학원 가는 게 제일 힘들어요. 친구들은 다 놀고 있는데..."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "토요일 학원이 가장 부담스럽구나. 토요일 학원은 어떤 과목이야?",
-      "technique": [
-        "restatement",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "국어 심화반이요. 문학 작품 분석하고 그런 거 하는데... 솔직히 혼자 해도 될 것 같아요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "자기주도 학습이 가능하다고 느끼는구나. 그럼 토요일 학원을 그만두고 그 시간에 친구들을 만나거나 혼자 공부하는 걸 부모님께 제안해봤어?",
-      "technique": [
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "아니요... 부모님이 반대하실 것 같아서요. 학원 끊으면 성적 떨어진다고 하실 거예요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "시도해보기 전에 거부당할 거라고 예상하고 있구나. 하지만 지금 네 정신 건강이 위험한 상태야. 친구도 없고, 우울하고, 살 의미를 못 느끼는 건 심각한 거야.",
-      "technique": [
-        "confrontation",
-        "validation"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "그렇긴 한데... 어떻게 말해야 할지 모르겠어요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "먼저 부모님께 네 감정을 솔직하게 말씀드리는 게 중요해. '외롭다, 우울하다, 친구가 없다, 이렇게 사는 게 힘들다'고. 그리고 토요일 하루만이라도 시간을 갖고 싶다고 제안하는 거야.",
-      "technique": [
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
       "turn": 15,
       "speaker": "client",
-      "text": "감정을 말하는 게... 부끄러워요. 나약해 보일 것 같고..."
+      "text": "음... 그럴 수도 있을 것 같긴 한데, 이미 너무 뒤처져서 따라잡기가 불가능해 보여요."
     },
     {
       "turn": 15,
       "speaker": "counselor",
-      "text": "감정을 표현하는 건 나약함이 아니라 용기야. 그리고 부모님은 네가 생각하는 것보다 네 마음을 이해하고 싶어 하실 거야. 시도해볼 가치가 있어.",
+      "text": "지금은 격차가 너무 커서 회복 불가능하다고 느껴지는구나. 그런데 네가 '불가능'하다고 느끼는 건 실제로 시도해봤을 때 그런 건지, 아니면 그럴 것 같다는 예상인지 궁금하네.",
+      "technique": [
+        "validation",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "음... 솔직히 제대로 해본 적은 없어요. 시작도 하기 전에 포기하는 것 같긴 해요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "스스로도 그 부분을 인식하고 있구나. 시도해보기 전에 미리 포기하는 패턴이 있는 것 같다는 거지? 이건 매우 중요한 통찰이야.",
       "technique": [
         "validation",
         "encouragement"
       ]
     },
     {
-      "turn": 16,
+      "turn": 17,
       "speaker": "client",
-      "text": "만약 안 들어주시면 어떡하죠?"
+      "text": "그런가요? 근데 선생님, 정말 따라잡을 수 있을까요? 너무 막막해요."
     },
     {
-      "turn": 16,
+      "turn": 17,
       "speaker": "counselor",
-      "text": "그럼 학교 상담 선생님이나 담임 선생님께 도움을 요청할 수 있어. 전문가가 개입하면 부모님도 더 진지하게 받아들이실 거야. 그리고 필요하면 가족 상담도 고려해볼 수 있고.",
+      "text": "막막한 마음은 충분히 이해해. 한 가지 제안인데, 자퇴를 결정하기 전에 한 달 정도 작은 목표를 세워서 시도해보는 건 어떨까? 그 결과를 보고 다시 판단해도 늦지 않을 것 같아.",
+      "technique": [
+        "empathy",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "한 달... 뭘 해보라는 거예요?"
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "예를 들어, 가장 취약한 과목 하나만 선택해서 기초부터 다시 시작해보는 거야. 학원이나 인터넷 강의를 활용할 수도 있고. 동시에 부모님께도 네 상황을 솔직하게 말씀드리는 거지.",
       "technique": [
         "information_giving",
         "structuring"
       ]
     },
     {
-      "turn": 17,
-      "speaker": "client",
-      "text": "저만의 문제가 아니라 가족 문제라는 거죠?"
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "어느 정도 그래. 부모님의 기대와 네 필요 사이에 균형이 필요한 거니까. 이건 함께 조정해야 하는 문제야.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "알겠어요... 용기 내봐야겠네요."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "그래, 용기 내봐. 그리고 한 가지 더, 지금 당장 네가 할 수 있는 건 친구들에게 먼저 연락해보는 거야. 바쁘더라도 점심시간이나 쉬는 시간에 대화할 수 있잖아.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
       "turn": 19,
       "speaker": "client",
-      "text": "이미 멀어진 친구들한테요? 어색할 것 같은데..."
+      "text": "부모님한테 말하는 게 제일 무서운데... 꼭 해야 할까요?"
     },
     {
       "turn": 19,
       "speaker": "counselor",
-      "text": "처음엔 어색하겠지만, 솔직하게 '최근에 바빠서 연락 못 해서 미안해. 보고 싶어'라고 말하면 이해해줄 거야. 진짜 친구라면 말이야.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "해볼게요. 근데 만날 시간이 없는데 연락만 한다고 될까요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "일단 연결을 회복하는 게 첫 단계야. 그리고 토요일 시간을 확보하면 그때 만날 수 있잖아. 단계적으로 가는 거지.",
-      "technique": [
-        "structuring",
-        "validation"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "그렇네요. 단계별로요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "그리고 일요일에 너무 자기만 하지 말고, 밖에 나가서 산책이라도 해봐. 햇빛 쬐고 운동하는 것도 우울감 완화에 도움이 돼.",
-      "technique": [
-        "information_giving",
         "encouragement"
       ]
     },
     {
+      "turn": 20,
+      "speaker": "client",
+      "text": "그럴까요... 한번 용기 내봐야겠네요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "technique": [
+        "encouragement",
+        "summarization"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "네, 좋아요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "첫째, 부모님께 지금의 힘든 상황을 솔직히 말씀드리기. 둘째, 한 과목을 선택해서 기초부터 다시 시작해보기. 셋째, 한 달 후 변화를 평가해보고 그때 다시 결정하기. 이렇게 해볼 수 있을까?",
+      "technique": [
+        "structuring",
+        "goal_setting"
+      ]
+    },
+    {
       "turn": 22,
       "speaker": "client",
-      "text": "일요일에는 너무 피곤해서 움직이기 싫은데..."
+      "text": "네... 해볼게요. 근데 한 달 안에 변화가 없으면 어떡하죠?"
     },
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "그 피곤함이 육체적인 것만이 아니라 정신적인 번아웃일 수 있어. 오히려 움직이면 기분이 나아질 수 있어. 30분이라도 시도해봐.",
+      "text": "그때는 다시 함께 이야기하면서 다른 대안을 찾아보면 돼. 중요한 건 지금처럼 혼자 고민하지 않고, 시도해본 후에 결정하는 거야. 네 생각은 어때?",
       "technique": [
         "information_giving",
         "validation"
@@ -332,119 +323,43 @@
     {
       "turn": 23,
       "speaker": "client",
-      "text": "알겠어요. 해볼게요."
+      "text": "그렇게 하는 게 나을 것 같아요. 지금 당장 자퇴하는 것보단 한번 해보는 게 나을 것 같네요."
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "좋아. 이제 정리해볼까? 첫째, 부모님께 감정 표현하고 토요일 학원 조정 제안. 둘째, 친구들에게 연락하기. 셋째, 일요일 산책 시도하기. 이렇게 세 가지야.",
+      "text": "좋은 결정이야. 성급하게 결정하기보다는 시도해보고 판단하겠다는 거니까. 다음 주에 다시 만나서 부모님과의 대화가 어땠는지, 과목 선택은 했는지 이야기해볼까?",
       "technique": [
-        "summarization",
+        "encouragement",
         "structuring"
       ]
     },
     {
       "turn": 24,
       "speaker": "client",
-      "text": "네, 할 수 있을 것 같아요."
+      "text": "네, 그럴게요. 선생님 덕분에 조금 마음이 정리된 것 같아요."
     },
     {
       "turn": 24,
       "speaker": "counselor",
-      "text": "그리고 네가 '살고 싶지 않다'는 생각이 자주 든다고 했는데, 이게 심해지면 꼭 다시 와야 해. 혹은 청소년 상담 전화 1388에 연락해도 돼. 알겠지?",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "네... 알겠어요. 그 정도로 심각한 거예요?"
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "우울감은 방치하면 악화될 수 있어. 지금은 초기 단계 같지만, 계속 관찰하고 필요하면 도움을 받아야 해. 네 마음 건강이 최우선이야.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "알겠습니다. 선생님 덕분에 뭘 해야 할지 알겠어요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "혼자 고민하지 말고, 주변에 도움을 요청하는 거야. 부모님, 친구들, 선생님들. 너는 혼자가 아니야.",
+      "text": "스스로 해답을 찾아가고 있는 거야. 힘들 때 언제든 이야기하러 오고, 우리 함께 이 과정을 헤쳐나가보자.",
       "technique": [
         "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 27,
+      "turn": 25,
       "speaker": "client",
-      "text": "네, 이제 혼자가 아니라는 걸 느껴요."
+      "text": "감사합니다, 선생님. 다음 주에 뵐게요."
     },
     {
-      "turn": 27,
+      "turn": 25,
       "speaker": "counselor",
-      "text": "다행이다. 다음 주에 어떻게 진행됐는지 꼭 와서 이야기해줘. 네가 잘 해낼 거라 믿어.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 28,
-      "speaker": "client",
-      "text": "네, 다음 주에 올게요. 정말 감사해요."
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "천만에. 힘들 때 언제든 와. 넌 소중한 사람이야. 성적보다 네가 더 중요해.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 29,
-      "speaker": "client",
-      "text": "제가 중요하다는 말... 오랜만에 들어요. 감사합니다."
-    },
-    {
-      "turn": 29,
-      "speaker": "counselor",
-      "text": "앞으로 자주 들어야 할 말이야. 너 자신을 소중히 여겨. 다음 주에 보자. 파이팅!",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 30,
-      "speaker": "client",
-      "text": "네, 파이팅!"
-    },
-    {
-      "turn": 30,
-      "speaker": "counselor",
-      "text": "응, 잘 가!",
+      "text": "응, 다음 주에 보자. 힘내!",
       "technique": [
         "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "14세",
-    "gender": "여성",
-    "occupation": "중학교 2학년",
-    "background": "학교에서 은근한 따돌림을 당하는 상황"
-  }
+  ]
 }

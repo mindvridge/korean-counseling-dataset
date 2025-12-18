@@ -1,37 +1,27 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "양육 스트레스",
+    "topic": "상사와의 갈등",
     "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "restatement",
-      "clarification",
-      "validation",
-      "closed_question",
-      "interpretation"
-    ]
+    "generated_at": "2025-12-18T07:14:29.026476+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_대인관계_0009_g3h4i5j6",
-    "category": "adult",
-    "topic": "양육 스트레스"
+  "client_profile": {
+    "age": "30세",
+    "gender": "남성",
+    "occupation": "개발자",
+    "background": "상사와의 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.670406+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "시어머니 때문에 미칠 것 같아요. 남편은 중간에서 아무것도 안 하고요."
+      "text": "직장 상사 때문에 미치겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "시댁과의 갈등이 심하시고, 남편분의 도움도 받지 못하고 계시는군요. 어떤 일들이 있으셨나요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 직장 상사 때문에 미치겠어요....라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
@@ -39,346 +29,403 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "시어머니가 집에 허락도 없이 오세요. 그리고 육아에 이것저것 간섭하고... 제가 하는 건 다 잘못됐대요."
+      "text": "몇 년 전에 친한 선배한테 사기 당했어요. 투자한다고 돈을 빌려줬는데 잠적해버렸어요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "경계 침범과 육아 간섭으로 힘드시군요. 구체적인 예를 하나 들어주시겠어요?",
+      "text": "신뢰했던 사람에게 배신당하셨군요. 금전적 피해와 함께 심리적 상처도 크셨을 것 같아요.",
       "technique": [
         "empathy",
-        "restatement",
-        "clarification"
+        "validation"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "어제도 갑자기 오셔서 '애가 왜 이렇게 말랐어?'라고 하시더라고요. 제가 밥을 안 먹인다고요. 얼마나 억울한지..."
+      "text": "돈보다 배신감이 더 컸어요. 그 사람을 정말 믿었거든요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "육아 방식을 비난받는다고 느끼시니 억울하고 화나셨겠어요. 그때 어떻게 반응하셨나요?",
-      "technique": [
-        "empathy",
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "참았죠. 뭐라고 하면 남편이 '엄마한테 왜 그래?'라고 할 거 뻔하니까요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "남편의 반응이 두려워서 참으셨군요. 실제로 남편분께 이런 상황을 말씀드린 적은 있으세요?",
+      "text": "배신감이 가장 힘드셨군요. 그 일 이후 사람들을 대하는 태도가 바뀌었나요?",
       "technique": [
         "reflection",
         "closed_question"
       ]
     },
     {
+      "turn": 4,
+      "speaker": "client",
+      "text": "완전히 바뀌었죠. 누가 뭐라고 하면 의심부터 해요. '진짜일까?', '속셈이 있는 건 아닐까?'"
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "모든 사람의 말과 행동을 의심하게 되셨군요. 그게 일상생활에 어떤 영향을 미치나요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
       "turn": 5,
       "speaker": "client",
-      "text": "여러 번 했죠. '어머니가 이렇게 말씀하셨다', '힘들다'고요. 근데 남편은 '그냥 그러려니 해', '엄마 성격이 원래 그래'라고만 해요."
+      "text": "피곤해요. 항상 경계하고 있어야 하니까. 그리고 친해질 수가 없어요. 벽을 쌓고 있는 느낌이에요."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "남편분이 문제를 최소화하고 회피하시는군요. 그 말을 들으면 어떤 기분이 드세요?",
+      "text": "끊임없는 경계로 지치시고, 친밀한 관계도 형성되지 않는군요. 본인도 이런 상태가 힘드시죠?",
       "technique": [
-        "interpretation",
-        "open_question"
+        "summarization",
+        "empathy"
       ]
     },
     {
       "turn": 6,
       "speaker": "client",
-      "text": "배신감이요. 결혼할 때 '우리 편이 되어주겠다'고 했는데... 거짓말이었어요."
+      "text": "네. 외롭고... 이렇게 사는 게 맞나 싶어요. 근데 어떻게 믿어요?"
     },
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "약속이 지켜지지 않아서 배신감을 느끼시는군요. 남편분이 왜 이렇게 반응하실까요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "마마보이니까요. 어머니 말씀이면 무조건이에요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "남편분을 마마보이로 보고 계시네요. 혹시 남편 입장에서는 어떤 고민이 있을까요?",
-      "technique": [
-        "reflection",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "고민이요? 뭘 고민해요. 그냥 편한 쪽으로만 가는 거죠."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "화가 많이 나셔서 남편의 입장을 생각하기 어려우실 것 같아요. 하지만 남편은 어머니와 아내 사이에서 곤란할 수 있어요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "그래서 저만 계속 참으라는 건가요?"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "참으라는 게 아니에요. 다른 방식으로 대화해보자는 거죠. '어머니 편을 들지 말고 내 편을 들어달라'가 아니라요.",
-      "technique": [
-        "clarification",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "그럼 뭐라고 해야 하나요?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "'어머니와 나 사이에서 중재해달라', '우리 부부의 경계를 지켜달라'고 구체적으로 요청하는 거예요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "경계요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "네. 예를 들어, '방문 전에 미리 연락하기', '육아 방식은 우리가 결정하기' 같은 규칙이요. 이런 경계를 남편과 함께 정하고 시어머니께 전달하는 거죠.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "남편이 그렇게까지 할까요? 어머니한테 그런 말을..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "확신은 못 하시겠지만, 시도는 해볼 만하지 않나요? 현재 방식으로는 계속 힘드실 텐데요.",
+      "text": "변화를 원하지만 방법을 모르시는군요. 먼저 물어볼게요. 모든 사람이 거짓말하나요?",
       "technique": [
         "validation",
         "confrontation"
       ]
     },
     {
-      "turn": 13,
+      "turn": 7,
       "speaker": "client",
-      "text": "맞아요. 이대로는 못 살아요. 근데 남편한테 어떻게 얘기하죠?"
+      "text": "... 다는 아니겠죠. 근데 누가 진실하고 누가 아닌지 어떻게 알아요?"
     },
     {
-      "turn": 13,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "감정이 격해지지 않은 차분한 시간에, '당신과 나눌 중요한 얘기가 있다'고 먼저 말하세요. 그리고 본인의 감정을 솔직하게 표현하는 거예요.",
+      "text": "좋은 질문이에요. 한 번에 알 수는 없어요. 시간을 두고 관찰하고 검증하는 과정이 필요해요.",
       "technique": [
-        "information_giving",
-        "structuring"
+        "validation",
+        "information_giving"
       ]
     },
     {
-      "turn": 14,
+      "turn": 8,
       "speaker": "client",
-      "text": "감정을요?"
+      "text": "그 사람도 오래 알았는데 배신했잖아요."
     },
     {
-      "turn": 14,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "네. '시어머니 때문에 화난다'가 아니라, '나는 존중받지 못하는 것 같아서 슬프고 외롭다'고 표현하는 거죠.",
+      "text": "맞아요, 100% 확실한 방법은 없어요. 하지만 위험을 0으로 만들려고 하면 관계 자체가 불가능해져요.",
       "technique": [
-        "clarification",
-        "emotion_labeling"
+        "validation",
+        "information_giving"
       ]
     },
     {
-      "turn": 15,
+      "turn": 9,
       "speaker": "client",
-      "text": "슬프고 외롭다... 맞아요. 화보다는 그런 감정이 더 큰 것 같아요."
+      "text": "그럼 어떡하라는 건가요?"
     },
     {
-      "turn": 15,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "정확히 파악하셨네요. 그 감정을 남편분께 전달하고, 무엇이 필요한지 구체적으로 말씀하세요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "필요한 게요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "'당신이 나를 지지해주고, 우리 가족의 경계를 함께 지켜주길 바란다'고요. 그리고 구체적인 행동을 제안하는 거예요.",
+      "text": "위험을 감수하되, 현명하게 관리하는 거예요. 처음부터 모든 걸 믿을 필요는 없어요. 작은 것부터 신뢰를 테스트하는 거죠.",
       "technique": [
         "information_giving",
         "clarification"
       ]
     },
     {
-      "turn": 17,
+      "turn": 10,
       "speaker": "client",
-      "text": "구체적인 행동이요?"
+      "text": "테스트요?"
     },
     {
-      "turn": 17,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "'어머니께 방문 전에 연락해달라고 말씀드려주세요', '육아에 대한 조언은 우리가 요청할 때만 해달라고 전해주세요' 같은 거요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "clarification",
         "information_giving"
       ]
     },
     {
-      "turn": 18,
+      "turn": 11,
       "speaker": "client",
-      "text": "그렇게 구체적으로 말하면 남편도 뭘 해야 할지 알겠네요."
+      "text": "아... 단계적으로 하라는 거군요."
     },
     {
-      "turn": 18,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "맞아요. 막연하게 '도와달라'고만 하면 어떻게 도와야 할지 몰라요. 구체적일수록 좋아요.",
+      "text": "정확해요. 갑자기 큰 신뢰를 주는 게 아니라, 천천히 쌓아가는 거죠. 그리고 위험 신호도 알아차리는 법을 배우는 거예요.",
       "technique": [
         "encouragement",
         "information_giving"
       ]
     },
     {
-      "turn": 19,
+      "turn": 12,
       "speaker": "client",
-      "text": "만약 남편이 거부하면요?"
+      "text": "위험 신호요?"
     },
     {
-      "turn": 19,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "그때는 부부 상담을 제안해보세요. 제3자의 도움이 필요할 수도 있어요. 하지만 일단 대화를 시도해보는 게 먼저예요.",
+      "text": "말과 행동이 다르다거나, 약속을 자주 어긴다거나, 책임을 회피한다거나 하는 신호들이요. 이런 게 보이면 거리를 두면 돼요.",
       "technique": [
         "information_giving",
-        "structuring"
+        "clarification"
       ]
     },
     {
-      "turn": 20,
+      "turn": 13,
       "speaker": "client",
-      "text": "네, 이번 주말에 한번 제대로 얘기해볼게요."
+      "text": "그런 신호들을 놓친 것 같아요. 그때..."
     },
     {
-      "turn": 20,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "좋은 결정이에요. 침착하게, 본인의 감정과 욕구를 전달하세요. 다음 주에 어떠셨는지 들려주세요.",
+      "text": "돌이켜보면 신호가 있었을 수도 있어요. 하지만 그때는 보고 싶지 않았을 거예요. 이제는 더 현명해지셨으니 알아차릴 수 있어요.",
       "technique": [
-        "encouragement",
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "그렇긴 하네요. 이제는 너무 과하게 의심하는 것 같지만..."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "맞아요. 이제는 반대쪽 극단에 있는 거예요. 균형을 찾아야 해요. 맹목적 신뢰도, 극도의 불신도 아닌 중간을요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "균형이요... 어떻게 찾아요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "'신뢰하되 검증한다'는 원칙이에요. 사람들에게 기회를 주되, 맹목적이지 않은 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "그게 쉽지 않을 것 같은데..."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "처음엔 어려워요. 하지만 연습하면 나아져요. 이번 주에 작은 시도 하나 해보시겠어요?",
+      "technique": [
+        "validation",
         "goal_setting"
       ]
     },
     {
+      "turn": 17,
+      "speaker": "client",
+      "text": "어떤 거요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "technique": [
+        "goal_setting",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "해볼게요. 근데 약속을 안 지키면 '역시나'라고 생각할 것 같아요."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "그럴 수 있어요. 하지만 한 사람이 약속을 안 지킨다고 모든 사람이 그런 건 아니에요. 패턴을 보는 거예요, 단일 사건을 보는 게 아니라요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "알겠습니다. 한번 해볼게요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "감사합니다."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "잘하실 거예요. 과거의 상처가 미래를 결정하지 않게 하세요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
+        "open_question",
+        "empathy"
+      ]
+    },
+    {
       "turn": 21,
       "speaker": "client",
-      "text": "감사합니다. 용기가 생겼어요."
+      "text": "네, 그래요. 말씀하시니까 조금 마음이 놓이는 것 같아요."
     },
     {
       "turn": 21,
       "speaker": "counselor",
-      "text": "잘하실 거예요. 본인과 가족을 위해 용기 내시는 모습이 멋져요.",
+      "text": "그렇게 느끼신다니 다행이에요. 앞으로 함께 해결해 나갈 수 있어요.",
       "technique": [
-        "encouragement",
-        "validation"
+        "validation",
+        "encouragement"
       ]
     },
     {
       "turn": 22,
       "speaker": "client",
-      "text": "오늘 이야기 나눠서 마음이 한결 가벼워진 것 같아요."
+      "text": "선생님과 이야기하니까 마음이 좀 가벼워지는 것 같아요."
     },
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
+      "text": "그렇게 말씀해 주셔서 감사해요. 앞으로도 함께 이야기 나눠요.",
       "technique": [
-        "empathy",
-        "validation"
+        "validation",
+        "encouragement"
       ]
     },
     {
       "turn": 23,
       "speaker": "client",
-      "text": "앞으로 어떻게 하면 좋을지 조금 더 생각해볼게요."
+      "text": "다음에는 뭘 이야기하면 될까요?"
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "천천히 생각해보시고, 다음에 만나서 어떻게 지내셨는지 이야기 나눠봐요.",
+      "text": "편하게 그때 마음에 있는 이야기를 해주시면 돼요. 준비된 것 없어도 괜찮아요.",
       "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "네, 다음 상담 때 뵙겠습니다."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "네, 그때까지 자신을 잘 돌봐주세요. 응원하고 있을게요.",
-      "technique": [
-        "encouragement",
+        "structuring",
         "validation"
       ]
     },
     {
-      "turn": 25,
+      "turn": 24,
       "speaker": "client",
-      "text": "감사합니다. 선생님 덕분에 힘이 나요."
+      "text": "혼자서는 어떻게 해야 할지 모르겠어요."
     },
     {
-      "turn": 25,
+      "turn": 24,
       "speaker": "counselor",
-      "text": "힘내세요. 잘 해내실 수 있을 거예요.",
+      "text": "혼자 해결하려고 하지 않으셔도 돼요. 함께 방법을 찾아볼게요.",
       "technique": [
         "empathy",
         "encouragement"
       ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "다음에는 뭘 이야기하면 될까요?"
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "편하게 그때 마음에 있는 이야기를 해주시면 돼요. 준비된 것 없어도 괜찮아요.",
+      "technique": [
+        "structuring",
+        "validation"
+      ]
     }
-  ],
-  "client_profile": {
-    "age": "32세",
-    "gender": "여성",
-    "occupation": "마케터",
-    "background": "자녀 양육으로 인한 극심한 스트레스"
-  }
+  ]
 }

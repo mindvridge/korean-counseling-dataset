@@ -1,37 +1,27 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "대학 진학",
-    "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "restatement",
-      "emotion_labeling",
-      "closed_question",
-      "summarization",
-      "validation"
-    ]
+    "topic": "학원 스트레스",
+    "total_turns": 30,
+    "generated_at": "2025-12-18T07:14:26.794816+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0006_SNS갈등_2f6b9a",
-    "category": "adolescent",
-    "topic": "대학 진학"
+  "client_profile": {
+    "age": "14세",
+    "gender": "여성",
+    "occupation": "중학교 2학년",
+    "background": "학원 스트레스 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:38.084277+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 친구가 제 사진을 막 올려서 정말 화가 나요."
+      "text": "어디서부터 말해야 할지 모르겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "친구가 동의 없이 사진을 올렸군요. 많이 화가 나고 불편하셨겠어요. 어떤 상황인지 자세히 말씀해주시겠어요?",
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
@@ -39,350 +29,412 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "지난주에 친구들이랑 놀러 갔는데, 유진이가 저 몰래 찍은 사진들을 인스타에 막 올렸어요. 제가 정말 못생기게 나온 사진까지..."
+      "text": "공부도 중간 정도고, 운동도 못하고, 미술도 음악도 평범해요. 친구들은 다 하나씩은 잘하는 게 있는데 저는..."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "동의도 구하지 않고, 본인이 원치 않는 사진까지 올라갔군요. 그 사진들을 보았을 때 어떤 기분이 드셨나요?",
+      "text": "다른 친구들과 비교하면서 자신은 특별한 게 없다고 생각하시는군요. '중간 정도', '평범하다'는 표현을 쓰셨는데, 그게 왜 나쁜 건가요?",
       "technique": [
-        "restatement",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "진짜 당황스럽고 창피했어요. 댓글에 애들이 '이게 뭐야' 이러면서 웃고... 완전 망신당한 기분이었어요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "당황스럽고 창피함, 그리고 망신당했다는 느낌까지 드셨군요. 정말 힘드셨겠어요. 유진이에게 뭔가 말씀하신 적은 있나요?",
-      "technique": [
-        "emotion_labeling",
         "empathy",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "카톡으로 '야, 그 사진 좀 내려줘. 나 진짜 싫어'라고 했는데, '뭐가 문제야? 다들 재밌어하는데'라고만 하더라고요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "자신의 불편함을 표현했는데 유진이가 진지하게 받아들이지 않았군요. 그럼 사진은 아직 올라가 있나요?",
-      "technique": [
         "reflection",
-        "closed_question"
+        "open_question"
       ]
     },
     {
-      "turn": 5,
+      "turn": 3,
       "speaker": "client",
-      "text": "네... 계속 있어요. 좋아요도 계속 늘어나고... 정말 스트레스받아요."
+      "text": "평범하면... 아무도 저를 안 봐요. 특별한 애들만 주목받고 칭찬받잖아요."
     },
     {
-      "turn": 5,
+      "turn": 3,
       "speaker": "counselor",
-      "text": "사진이 계속 올라가 있고 반응도 늘어나니까 더 불안하고 스트레스받으시겠어요. 지금 가장 원하는 게 무엇인가요?",
+      "text": "주목받지 못하는 게 자신의 가치를 떨어뜨린다고 느끼시는군요. 혹시 최근에 특별히 상처받은 일이 있었나요?",
       "technique": [
         "empathy",
-        "emotion_labeling",
+        "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 6,
+      "turn": 4,
       "speaker": "client",
-      "text": "일단 그 사진들을 내려줬으면 좋겠어요. 그리고 앞으로는 허락 없이 사진 올리지 말아 달라고 하고 싶고요."
+      "text": "지난주에 발표 대회 나갔는데... 상도 못 받고 완전 망쳤어요. 준비 엄청 했는데... 다른 애들은 다 잘하더라고요."
     },
     {
-      "turn": 6,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "명확한 두 가지 요구사항이 있으시군요. 현재 사진 삭제와 앞으로의 동의 요청. 모두 정당한 요구예요. 유진이는 평소에 어떤 친구인가요?",
+      "text": "열심히 준비했는데 원하는 결과를 얻지 못해서 실망하셨군요. 그런데 '완전 망쳤다'는 건 누가 한 말인가요? 당신이 스스로 판단한 건가요?",
       "technique": [
-        "summarization",
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "원래 친했어요. 근데 좀... 소셜미디어에 집착하는 편이에요. 맨날 인스타 스토리 올리고, 좋아요 많이 받으려고 하고..."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "유진이가 소셜미디어 활동을 중요하게 생각하는 사람이군요. 그렇다면 당신의 불편함보다 자신의 소셜미디어 콘텐츠를 우선시했을 수 있겠네요. 이런 일이 이번이 처음인가요?",
-      "technique": [
-        "restatement",
+        "empathy",
         "clarification"
       ]
     },
     {
-      "turn": 8,
+      "turn": 5,
       "speaker": "client",
-      "text": "사실 전에도 몇 번 있었어요. 근데 이번이 제일 심해요. 예전에는 그냥 넘어갔는데..."
+      "text": "선생님이 '수고했어'라고만 하셨어요. 칭찬은 안 하셨고... 그리고 제 친구가 '괜찮아, 다음에 잘하면 돼'라고 했는데 그게 위로처럼 안 들렸어요."
     },
     {
-      "turn": 8,
+      "turn": 5,
       "speaker": "counselor",
-      "text": "반복되는 패턴이었군요. 이전에는 넘어갔지만 이번에는 더 이상 참기 어렵다는 거죠. 왜 이전에는 넘어가셨나요?",
+      "text": "긍정적인 말들도 '잘 못했다'는 증거로 받아들이셨군요. 혹시 항상 이렇게 자신을 부정적으로 평가하시나요?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
+      "turn": 6,
+      "speaker": "client",
+      "text": "네... 뭘 해도 '난 잘 못했어', '다른 사람이 더 잘했어' 이런 생각만 들어요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "자동적으로 부정적인 생각이 드는 패턴이 있군요. 그럼 반대로, 최근에 잘했다고 생각한 일이 있나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "음... 잘 모르겠어요. 있을 것 같은데 떠오르지 않아요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "부정적인 기억은 잘 떠오르는데 긍정적인 기억은 잊어버리는 거군요. 이번 주에 친구나 선생님께 칭찬받은 적 있나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "친구가... '네가 설명해줘서 이해했어, 고마워'라고 했어요. 근데 그건 잘한 게 아니라 그냥..."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "친구를 도와준 건 잘한 일인데도 '그냥'이라고 평가절하하시는군요. 왜 당신의 강점을 인정하지 않으시나요?",
+      "technique": [
+        "confrontation",
+        "open_question"
+      ]
+    },
+    {
       "turn": 9,
       "speaker": "client",
-      "text": "사소한 거로 싸우기 싫어서요. 그리고 제가 예민한 건가 싶기도 하고... 근데 이번엔 정말 심했어요."
+      "text": "그게... 대단한 일이 아니잖아요. 누구나 할 수 있는 거고..."
     },
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "갈등을 피하고 싶었고, 자신의 감정을 의심하기도 하셨군요. 하지만 이번에는 선을 넘었다고 느끼시는 거죠. 사진을 동의 없이 올리는 건 예민한 게 아니라 정당한 경계예요. 이해되시나요?",
+      "text": "'누구나 할 수 있다'는 기준이 너무 높으신 것 같아요. 친구가 당신에게 고마워한 건 당신만의 특별한 능력을 인정한 거예요. 설명을 잘하는 능력이요.",
       "technique": [
-        "reflection",
-        "validation",
+        "confrontation",
         "information_giving"
       ]
     },
     {
       "turn": 10,
       "speaker": "client",
-      "text": "정말요? 제가 너무 민감한 건 아닐까 계속 생각했거든요."
+      "text": "설명을 잘하는 능력이요? 저한테 그런 게 있나요?"
     },
     {
       "turn": 10,
       "speaker": "counselor",
-      "text": "자신의 이미지와 초상권은 본인이 통제할 권리가 있어요. 동의 없이 사진을 올리는 건 그 권리를 침해하는 거예요. 불편함을 느끼는 게 당연해요. 이제 유진이에게 어떻게 이야기할지 생각해볼까요?",
-      "technique": [
-        "information_giving",
-        "validation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "또 카톡으로 할까요? 근데 이미 한번 무시했는데..."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "카톡으로는 진지함이 덜 전달될 수 있어요. 이번에는 직접 만나서 이야기하는 게 어떨까요? 얼굴을 보고 이야기하면 당신이 얼마나 진지한지 전달될 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "직접요? 무섭긴 한데... 그게 나을까요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "두렵다는 건 이해해요. 하지만 중요한 대화는 직접 하는 게 효과적이에요. 함께 어떻게 이야기할지 준비해볼까요? 어떤 내용을 전달하고 싶으세요?",
-      "technique": [
-        "validation",
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그 사진들이 저를 너무 불편하게 한다는 것, 당장 내려달라는 것, 그리고 앞으로는 제 허락을 받고 올려달라는 거요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "세 가지를 명확하게 정리하셨네요. 이걸 전달할 때 '나 전달법'을 사용하면 좋아요. '너는 왜 그랬어?'보다 '나는 이렇게 느꼈어'라고 말하는 거죠. 어떻게 말할 수 있을까요?",
-      "technique": [
-        "encouragement",
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "음... '나는 네가 내 허락 없이 사진을 올려서 정말 불편하고 창피했어. 그 사진들 내려줬으면 좋겠어. 그리고 앞으로는 내 허락을 받아줘' 이런 식인가요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "완벽해요! 비난하지 않으면서도 자신의 감정과 요구를 명확히 전달하셨어요. 그리고 한 가지 더, 유진이가 방어적으로 나오거나 '뭐가 문제야?'라고 하면 어떻게 대응하실 건가요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "음... 잘 모르겠어요. 어떻게 해야 할까요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "'네가 문제라고 생각 안 해도, 나는 정말 불편해. 내 사진이니까 내가 결정할 권리가 있어'라고 단호하게 말할 수 있어요. 상대가 어떻게 생각하든, 자신의 경계는 지킬 권리가 있어요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "단호하게... 할 수 있을까요? 저 원래 말을 세게 못하는데..."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "단호함은 공격성이 아니에요. 차분하지만 명확하게 자신의 입장을 지키는 거예요. 연습해볼까요? 제가 유진이 역할을 해볼게요. 한번 말씀해보세요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "(연습) 유진아, 나 네가 내 사진 올린 거 정말 불편해. 내려줘."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "(유진이 역할) 뭐가 문제야? 다들 재밌어하잖아. 너무 예민한 거 아니야?",
-      "technique": [
-        "structuring"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "아니야, 나는 정말 불편해. 내 사진이니까 내가 결정할 권리가 있어. 꼭 내려줘."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "(상담사로 돌아옴) 아주 잘하셨어요! 감정적이지 않으면서도 단호했어요. 이런 식으로 하시면 돼요. 어떤 느낌이 드세요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "생각보다... 할 만한 것 같아요. 연습하니까 덜 무섭네요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "연습이 자신감을 줬군요. 실제 상황에서도 이렇게 하시면 돼요. 그리고 만약 유진이가 계속 거부하면 어떻게 하실 건가요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "음... 어떻게 해야 할까요? 포기해야 하나요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "포기할 필요는 없어요. 소셜미디어 플랫폼에는 신고 기능이 있어요. 본인 동의 없이 올라간 사진은 신고하면 삭제될 수 있어요. 그리고 계속 거부한다면 그 관계가 진짜 건강한 우정인지 생각해봐야 할 수도 있고요.",
+      "text": "친구가 증명해줬잖아요. 그리고 선생님께서 '수고했다'고 하신 것도 당신의 노력을 인정하신 거예요. 하지만 당신은 상을 못 받았다는 결과만 보고 모든 걸 부정하는 거죠.",
       "technique": [
         "information_giving",
         "confrontation"
       ]
     },
     {
-      "turn": 21,
+      "turn": 11,
       "speaker": "client",
-      "text": "신고 기능이 있는 줄 몰랐어요. 그걸 마지막 수단으로 쓸 수 있겠네요."
+      "text": "그럼... 저는 어떻게 생각해야 하나요?"
     },
     {
-      "turn": 21,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "맞아요. 먼저 대화로 해결하려고 시도하고, 안 되면 다른 방법을 쓰는 거죠. 그리고 이번 일을 계기로 앞으로 사진을 찍을 때 서로 동의를 구하는 문화를 만들 수도 있어요. 어떻게 생각하세요?",
+      "text": "결과뿐만 아니라 과정도 보는 거예요. 열심히 준비한 것, 무대에 선 용기, 끝까지 해낸 것. 이 모든 게 가치있는 일이에요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "과정도 중요하다는 거예요? 근데 결과가 없으면 의미 없지 않나요?"
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "결과도 중요하지만 과정 없이 결과는 없어요. 그리고 실패는 성장의 기회예요. 이번 경험에서 배운 게 있나요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "음... 다음엔 시간 배분을 더 잘해야겠다는 생각은 했어요. 너무 긴장해서 빨리 끝냈거든요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "훌륭한 깨달음이에요. 실패에서 교훈을 얻은 거예요. 그게 성장이에요. 다음번엔 더 잘할 수 있겠죠?",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "그렇게 생각하니까... 조금 덜 우울하네요. 그래도 여전히 저는 특별한 게 없는 것 같아요."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "특별해지려고 애쓰는 것보다, 지금의 자신을 인정하는 게 먼저예요. 당신만의 강점을 찾아볼까요? 친구들이 당신을 좋아하는 이유는 뭘까요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "제가... 말을 잘 들어준다고 했어요. 그리고 착하다고..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "경청하는 능력과 친절함, 두 가지 훌륭한 강점이 있네요. 그런 성격적 강점은 성적이나 재능보다 더 중요할 수 있어요.",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 22,
+      "turn": 16,
       "speaker": "client",
-      "text": "좋은 생각이에요. 친구들끼리 그런 규칙 같은 걸 정하면 되겠네요."
+      "text": "정말요? 근데 그건 능력이 아니라 성격 아닌가요?"
     },
     {
-      "turn": 22,
+      "turn": 16,
       "speaker": "counselor",
-      "text": "정확해요. 서로의 경계를 존중하는 문화를 만드는 거죠. 그럼 언제 유진이와 이야기해볼 계획인가요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
-        "encouragement",
-        "closed_question"
+        "information_giving",
+        "validation"
       ]
     },
     {
-      "turn": 23,
+      "turn": 17,
       "speaker": "client",
-      "text": "내일... 점심시간에 만나서 이야기해볼게요."
+      "text": "위로요... 그렇게 생각해본 적 없어요. 저는 항상 부족하다고만 생각했는데..."
     },
     {
-      "turn": 23,
+      "turn": 17,
       "speaker": "counselor",
-      "text": "구체적인 계획을 세우셨네요. 훌륭해요. 대화하기 전에 우리가 연습한 내용을 한번 더 떠올려보세요. 준비된 느낌이 드시나요?",
+      "text": "자신을 부족하게 보는 렌즈로 세상을 보셨던 거예요. 이제 그 렌즈를 바꿔볼 필요가 있어요. 있는 그대로의 자신을 보는 연습이요.",
       "technique": [
-        "encouragement",
-        "closed_question"
+        "interpretation",
+        "information_giving"
       ]
     },
     {
-      "turn": 24,
+      "turn": 18,
       "speaker": "client",
-      "text": "네, 이제 할 수 있을 것 같아요. 떨리긴 하지만..."
+      "text": "어떻게 연습해요?"
     },
     {
-      "turn": 24,
+      "turn": 18,
       "speaker": "counselor",
-      "text": "떨리는 건 자연스러워요. 중요한 대화니까요. 하지만 자신의 경계를 지키는 건 정말 중요한 일이에요. 잘하실 거예요. 대화 후에 어떻게 됐는지 궁금하네요. 필요하면 다시 오세요.",
+      "text": "매일 자기 전에 오늘 잘한 일 세 가지를 적어보세요. 아무리 작은 것이라도요. '친구에게 웃어줬다', '숙제를 했다', '버스에서 자리를 양보했다' 이런 것들이요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "그런 작은 것도 써도 되나요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "작은 것들이 모여서 당신을 만드는 거예요. 그리고 그 작은 것들도 가치있어요. 누군가에게는 큰 의미일 수 있거든요.",
       "technique": [
         "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "해볼게요... 근데 또 실패하면 어떡하죠? 그럼 또 자신감 없어질 것 같아요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "차이가... 있나요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "큰 차이가 있어요. 전자는 당신 자체를 실패로 규정하는 거고, 후자는 한 번의 시도를 실패로 보는 거예요. 당신은 실패가 아니에요. 단지 시행착오를 겪고 있는 거죠.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "그렇게 생각하니까... 덜 무섭네요. 실패해도 괜찮다는 거죠?"
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "괜찮아요. 실패는 성장의 일부예요. 실패 없이는 배울 수 없어요. 중요한 건 포기하지 않는 거예요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "포기하지 않기... 어려운 것 같아요. 저는 금방 포기하는 성격이거든요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "그건 바꿀 수 있어요. 작은 목표부터 시작하세요. 달성 가능한 목표를 세우고, 이뤘을 때 자신을 칭찬하는 거예요.",
+      "technique": [
         "encouragement",
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "작은 목표요... 예를 들면요?"
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "'이번 주에 매일 잘한 일 3가지 쓰기', '친구에게 먼저 인사하기', '하루에 한 번 자신에게 긍정적인 말하기' 이런 거예요.",
+      "technique": [
+        "information_giving",
         "structuring"
       ]
     },
     {
       "turn": 25,
       "speaker": "client",
-      "text": "감사합니다, 선생님. 용기 얻었어요!"
+      "text": "할 수 있을 것 같아요. 오늘부터 시작해볼게요."
     },
     {
       "turn": 25,
       "speaker": "counselor",
-      "text": "그 용기 잘 간직하세요. 응원하겠습니다!",
+      "text": "좋아요. 그리고 자신에게 너무 가혹하지 마세요. 당신의 가장 친한 친구에게 하듯이 자신에게도 친절하게 대하세요.",
       "technique": [
-        "encouragement"
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "제 자신을... 친구처럼요?"
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "네. 친구가 실패했을 때 당신은 뭐라고 하나요? '넌 못났어'라고 하나요, 아니면 '괜찮아, 다음번엔 잘할 거야'라고 하나요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "당연히 위로해주죠... 아, 저는 왜 제 자신한테는 그렇게 못하는 거죠?"
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "자기 연민... 연습해볼게요. 오늘 상담 받고 많이 배운 것 같아요."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "잘하셨어요. 자존감을 키우는 건 시간이 걸려요. 하지만 꾸준히 노력하면 분명히 달라질 거예요. 다음 주에 일기 가져오면 함께 봐요.",
+      "technique": [
+        "encouragement",
+        "validation",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "client",
+      "text": "네, 일기 쓸게요. 감사합니다, 선생님."
+    },
+    {
+      "turn": 29,
+      "speaker": "counselor",
+      "text": "천천히 가요. 당신은 이미 충분히 가치있는 사람이에요. 그걸 깨닫는 건 시간문제예요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "client",
+      "text": "네, 믿어볼게요. 다음 주에 뵙겠습니다."
+    },
+    {
+      "turn": 30,
+      "speaker": "counselor",
+      "text": "응원할게요. 당신은 잘하고 있어요.",
+      "technique": [
+        "encouragement",
+        "validation"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "17세",
-    "gender": "여성",
-    "occupation": "고등학교 2학년",
-    "background": "원하는 대학과 현실적 가능성 사이의 갈등"
-  }
+  ]
 }

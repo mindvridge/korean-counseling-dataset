@@ -1,35 +1,26 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "진로 정체성",
-    "total_turns": 26,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "closed_question",
-      "validation",
-      "information_giving",
-      "clarification",
-      "encouragement"
-    ]
+    "topic": "이성 관계 고민",
+    "total_turns": 27,
+    "generated_at": "2025-12-18T07:14:25.109080+00:00"
   },
-  "seed_info": {
-    "source_file": "adolescent_career_0007",
-    "category": "adolescent",
-    "topic": "진로 정체성"
+  "client_profile": {
+    "age": "18세",
+    "gender": "남성",
+    "occupation": "고등학교 3학년",
+    "background": "이성 관계 고민 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.223088+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님... 저 요즘 미래가 너무 두려워요."
+      "text": "어디서부터 말해야 할지 모르겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "미래에 대한 두려움이 크신가봐요. 구체적으로 어떤 부분이 두려우신가요?",
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
       "technique": [
         "empathy",
         "open_question"
@@ -38,357 +29,368 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "뉴스를 보면 가 많은 직업을 대체할 거라고 하잖아요. 제가 대학 졸업할 때쯤엔 일자리가 없어지는 거 아닌가 싶어서요."
+      "text": "동생이 초등학교 때 주의력결핍과잉행동장애 진단받고 나서요. 그때부터 집안이 온통 동생 중심이 됐어요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "와 자동화로 인한 직업의 변화가 걱정되시는군요. 그런 기사나 뉴스를 자주 접하시나요?",
+      "text": "동생의 진단 이후 가족 역학이 완전히 바뀐 거네요. 구체적으로 어떤 점이 가장 힘든가요?",
       "technique": [
-        "empathy",
         "reflection",
-        "closed_question"
+        "open_question"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "네... 유튜브나 뉴스에서 자주 봐요. 회계사, 변호사, 의사까지도 가 대체할 수 있다고 하더라고요. 그럼 저는 뭘 해야 하나 싶어서..."
+      "text": "동생이 말썽을 피우면 부모님이 '동생은 어쩔 수 없어'라고 하시면서 넘어가는데, 제가 조금만 실수해도 엄청 혼나요. 불공평해요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "안정적이라고 생각했던 전문직도 위협받을 수 있다는 이야기를 듣고 더욱 불안해지셨군요. 이런 생각 때문에 진로 결정을 못 하고 계시나요?",
+      "text": "같은 행동에 대해 다른 기준이 적용되니까 불공평하고 억울한 마음이 드는군요.",
       "technique": [
         "empathy",
+        "emotion_labeling"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "맞아요. 그리고 동생이 제 물건을 망가뜨려도 '동생이니까 이해해줘' 이러시고... 저는 항상 참아야 하고."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "일방적으로 양보와 이해를 요구받는 상황이네요. 자신의 권리나 감정은 보호받지 못하는 것처럼 느껴지겠어요.",
+      "technique": [
+        "empathy",
+        "validation"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "네. 한번은 제가 동생한테 화를 냈는데, 부모님이 저보고 '오빠가 뭐하는 거야', '동생 상황을 이해 못 하니?' 이러시면서 오히려 저를 혼내셨어요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "정당한 감정 표현조차 받아들여지지 않고 오히려 비난받았군요. 그때 기분이 어땠나요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "배신감이요. 제 편은 아무도 없는 것 같았어요. 그리고... 동생이 밉고, 부모님도 원망스러워요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "가족 안에서 고립되고 혼자라는 느낌, 그리고 동생과 부모님에 대한 부정적 감정까지 생긴 거네요. 그런 감정을 가진 자신에 대해서는 어떻게 생각하세요?",
+      "technique": [
+        "emotion_labeling",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "죄책감 들어요. 동생은 일부러 그러는 게 아니잖아요. 주의력결핍과잉행동장애 때문인데... 제가 이해심 없는 건가요?"
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "동생의 상황을 이해하려 하면서도, 자신의 감정도 있으니까 갈등하는 거네요. 하지만 당신의 감정도 정당해요. 이해심이 없는 게 아니에요.",
+      "technique": [
+        "reflection",
+        "validation"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "정말요? 전 제가 이기적인 건 줄 알았어요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "이기적인 게 아니에요. 당신도 부모님의 관심과 공정한 대우를 받을 권리가 있어요. 동생의 어려움이 당신의 필요를 무시해도 된다는 의미는 아니거든요.",
+      "technique": [
         "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "네... 뭘 선택해도 나중엔 소용없을 것 같아서 아무것도 못 정하겠어요. 친구들은 다들 진로 정하는데 저만 멈춰 있는 느낌이에요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "미래에 대한 불안 때문에 현재의 선택도 못 하고 있는 상태군요. 이런 생각은 언제부터 하셨나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "몇 달 전부터요. 유튜브에서 우연히 그런 영상을 봤는데, 그 뒤로 계속 생각나요. 밤에 잠도 잘 안 와요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "그 생각이 일상생활에도 영향을 줄 정도로 심하시군요. 많이 힘드셨겠어요. 그런데 에 대한 정보를 여러 출처에서 확인해보셨나요?",
-      "technique": [
-        "empathy",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "음... 주로 유튜브 영상이랑 기사 몇 개 봤어요. 다들 비슷한 얘기를 하더라고요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "부정적인 내용에 더 많이 노출되신 것 같네요. 실제로는 가 모든 직업을 대체하는 게 아니라, 새로운 직업도 많이 만들어내고 있어요. 이런 내용은 들어보신 적 있나요?",
-      "technique": [
-        "reflection",
-        "information_giving",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "새로운 직업이요? 어떤 거요?"
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "개발자, 데이터 분석가, 윤리 전문가, 로봇 관리자 등 시대에 새롭게 생겨나는 직업들이 많아요. 또 가 대체하기 어려운 직업들도 있고요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "가 대체하기 어려운 직업이요? 그런 게 있나요?"
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "네, 창의성이 필요한 일, 사람과의 깊은 교감이 필요한 일, 복잡한 문제 해결이 필요한 일 등은 가 대체하기 어려워요. 예를 들어 예술가, 상담가, 교사 같은 직업이 그렇죠.",
-      "technique": [
         "information_giving"
       ]
     },
     {
       "turn": 9,
       "speaker": "client",
-      "text": "그렇구나... 그럼 저는 그런 쪽으로 가야 하나요?"
+      "text": "그렇게 생각하니까 좀 마음이 편해지네요. 근데... 이 상황을 어떻게 바꿀 수 있을까요?"
     },
     {
       "turn": 9,
       "speaker": "counselor",
-      "text": "반드시 그래야 한다기보다는, 중요한 건 변화에 적응할 수 있는 능력을 키우는 거예요. 어떤 직업을 선택하든 계속 배우고 발전하려는 자세가 더 중요해요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "변화에 적응하는 능력이요... 그런 건 어떻게 키워요?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "새로운 것을 배우는 것을 두려워하지 않고, 다양한 경험을 하고, 여러 분야에 관심을 가지는 거예요. 한 가지만 파는 것보다 융합적인 사고를 할 수 있는 게 미래에는 더 중요해질 거예요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "융합적인 사고요... 어렵게 느껴지네요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "어렵게 들리지만, 실제로는 당신이 관심 있는 여러 분야를 연결해서 생각하는 거예요. 혹시 평소에 관심 있는 분야가 있나요?",
-      "technique": [
-        "clarification",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "저는 미술을 좋아해요. 그림 그리는 것도 좋아하고, 디자인도 관심 있어요. 근데 이것도 가 대체할 수 있다고 하던데..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "미술과 디자인에 관심이 있으시군요. 가 그림을 그릴 수는 있지만, 사람의 감성과 창의적인 아이디어를 대체할 수는 없어요. 오히려 를 도구로 활용하는 디자이너가 미래에 더 필요할 거예요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "를 도구로 활용하는 디자이너요?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "네, 를 활용해서 더 효율적으로 작업하고, 가 만든 결과물을 사람의 감성으로 보완하는 거죠. 와 경쟁하는 게 아니라 협력하는 거예요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "그렇게 생각하니까 조금 다르게 보이네요. 근데 그런 걸 어떻게 배워요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "지금부터 관심 있는 분야를 깊이 공부하면서, 동시에 기술에도 관심을 가지면 돼요. 디자인과 프로그래밍을 함께 배운다든지, 미술과 과학을 융합한다든지 하는 식으로요.",
-      "technique": [
-        "information_giving",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "저는 수학이랑 과학을 못하는데... 그래도 할 수 있을까요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "지금 못한다고 해서 앞으로도 못하는 건 아니에요. 그리고 꼭 깊은 수준의 프로그래밍을 할 필요는 없어요. 기본적인 이해와 활용 능력만 있어도 충분해요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "그렇군요... 조금 희망이 보이는 것 같아요. 근데 여전히 불안해요. 미래가 어떻게 될지 모르잖아요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "미래에 대한 불확실성 때문에 불안하신 거군요. 그런데 불확실성은 두려움만 주는 게 아니라 기회이기도 해요. 정해진 미래가 없다는 건, 당신이 만들어갈 수 있다는 뜻이기도 하니까요.",
-      "technique": [
-        "reflection",
-        "restatement"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "제가 만들어간다... 그렇게 생각해본 적은 없었어요."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "미래는 정해진 게 아니라 만들어가는 거예요. 물론 쉽지는 않겠지만, 준비하고 노력하는 사람에게는 기회가 있어요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "그런데 어른들도 미래를 모르는데, 저 같은 학생이 어떻게 준비해요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "완벽하게 준비할 수는 없어요. 하지만 변화에 유연하게 대응할 수 있는 기본기를 갖추는 거죠. 깊이 있는 전문성과 넓은 시야, 그리고 배움을 멈추지 않는 자세요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "깊이 있는 전문성과 넓은 시야... 둘 다 갖추기는 어렵지 않나요?"
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "한 번에 다 갖출 필요는 없어요. 지금은 관심 있는 분야를 찾아 깊이 파고들면서, 동시에 다른 분야에도 호기심을 가지는 거예요. 천천히 만들어가면 돼요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "천천히... 그렇게 생각하니까 부담이 덜 되네요. 그럼 저는 지금 뭘 해야 할까요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "우선 관심 있는 미술과 디자인 분야를 계속 공부하세요. 그리고 나 기술에 대해서도 긍정적인 관점에서 알아보세요. 두려워하기보다는 활용할 수 있는 도구로 바라보는 거예요.",
-      "technique": [
-        "goal_setting",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "를 도구로... 그렇게 생각하면 덜 무섭네요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "맞아요. 는 적이 아니라 동료가 될 수 있어요. 그리고 부정적인 뉴스만 보지 말고, 긍정적인 변화와 기회에 대한 정보도 균형 있게 접하세요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "네, 그렇게 해볼게요. 그런데 또 불안해지면 어떡하죠?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "불안한 감정이 올 때마다 오늘 우리가 나눈 이야기를 떠올려보세요. 그리고 필요하면 언제든 다시 찾아와도 돼요. 혼자 감당하지 마세요.",
+      "text": "먼저 부모님께 자신의 감정을 전달해야 해요. 부모님이 당신의 어려움을 모르실 수 있어요.",
       "technique": [
         "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "말하면 또 '동생 이해해줘' 이러실 것 같은데요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "validation",
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "제 필요를 표현한다... 구체적으로 뭐라고 하면 좋을까요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "'엄마, 아빠, 동생 돌보시느라 힘드신 건 알아요. 근데 저도 부모님의 관심이 필요해요. 일주일에 한 번은 저랑만 시간을 가져주실 수 있을까요?' 이렇게 구체적으로 요청하는 거예요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "구체적으로 요청하는 거네요. 그럼 거절하기 어려울 것 같긴 해요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "맞아요. 막연하게 '관심 가져주세요'보다 구체적인 요청이 더 효과적이에요. 그리고 동생과의 경계도 설정할 필요가 있어요.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "경계요? 무슨 의미예요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "동생의 주의력결핍과잉행동장애를 이해하되, 당신의 물건이나 공간은 보호받아야 한다는 거예요. 부모님께 '동생이 제 방이나 물건을 건드리지 않게 해주세요'라고 요청할 수 있어요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "그렇게 하면... 이기적으로 보이지 않을까요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "두 자녀 모두의 필요... 부모님이 이해해주실까요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "부모님도 동생 돌보느라 지쳐서 당신을 제대로 보지 못하고 계실 거예요. 당신이 말하지 않으면 모르실 수 있어요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "맞아요. 제가 항상 괜찮은 척했으니까..."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "강한 형, 이해심 많은 형을 연기하느라 힘들었겠어요. 이제는 진짜 모습을 보여줘도 돼요.",
+      "technique": [
+        "empathy",
+        "validation"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "진짜 모습을 보여준다... 솔직히 무섭긴 해요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "validation",
         "encouragement"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "알겠어요. 해볼게요. 그런데 동생과의 관계는 어떡하죠? 자꾸 동생이 미워지는데..."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "동생을 미워하는 게 문제가 아니에요. 동생이 아니라 상황이 문제인 거죠. 동생도 자기 상황 때문에 힘들 거예요.",
+      "technique": [
+        "interpretation",
+        "validation"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "동생도 힘들다... 생각해보니 친구도 별로 없고, 학교에서도 힘들어하는 것 같긴 해요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "맞아요. 동생도 나름의 어려움이 있어요. 동생을 경쟁 상대가 아니라 같은 가족으로 보면, 조금 다르게 느껴질 수 있어요.",
+      "technique": [
+        "validation",
+        "interpretation"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "같은 가족으로... 근데 어떻게 관계를 개선하죠?"
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "동생과 단둘이 시간을 가져보는 건 어떨까요? 부모님 없이요. 동생의 다른 면을 발견할 수 있을 거예요.",
+      "technique": [
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "동생이랑 둘이서요? 뭘 하면 좋을까요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "동생이 좋아하는 것을 같이 해보는 거예요. 게임이든, 운동이든. 그 시간에는 형으로서가 아니라 그냥 같이 노는 사람으로요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "책임감 내려놓고 그냥 같이 놀기... 그것도 괜찮을 것 같네요."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "네. 그러면서 동생을 다시 보게 될 거예요. 그리고 당신도 스트레스 해소가 필요해요. 자신만의 시간과 공간이 있나요?",
+      "technique": [
+        "encouragement",
+        "open_question"
       ]
     },
     {
       "turn": 23,
       "speaker": "client",
-      "text": "감사합니다. 오늘 이야기하고 나니까 마음이 좀 편해졌어요."
+      "text": "별로 없어요. 집에 있으면 항상 동생 소리가 들리고, 부모님이 저 부르시고..."
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "다행이에요. 오늘 우리가 나눈 이야기를 정리해볼게요. 미래에 대한 막연한 두려움이 있었는데, 를 경쟁 상대가 아닌 도구로 보는 관점의 전환이 있었고, 자신이 좋아하는 미술과 디자인을 계속하면서 기술도 배워나가기로 했어요.",
+      "text": "개인 시간이 필요해요. 도서관이나 친구 집, 어디든 혼자만의 공간을 확보하세요. 그게 정신 건강에 중요해요.",
       "technique": [
-        "summarization",
+        "information_giving",
         "structuring"
       ]
     },
     {
       "turn": 24,
       "speaker": "client",
-      "text": "네, 맞아요. 이제 방향이 보이는 것 같아요."
+      "text": "제 공간을 만든다... 그것도 필요하겠네요."
     },
     {
       "turn": 24,
       "speaker": "counselor",
-      "text": "좋아요. 그리고 기억하세요. 미래는 두려워할 대상이 아니라 만들어갈 대상이에요. 당신에게는 그럴 수 있는 시간과 가능성이 있어요.",
+      "text": "정리해볼까요? 1. 부모님께 자신의 필요 구체적으로 표현하기, 2. 개인 공간 확보하기, 3. 동생과 새로운 관계 시도하기, 4. 자신의 감정 인정하기. 이렇게 해보는 거예요.",
+      "technique": [
+        "summarization",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "명확하네요. 특히 제 감정을 인정하는 게 중요한 것 같아요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "맞아요. 감정은 옳고 그른 게 없어요. 있는 그대로 인정하고, 건강하게 표현하는 게 중요해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "알겠어요. 이제 뭘 해야 할지 보이네요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "잘 하실 거예요. 그리고 기억하세요. 당신도 사랑받을 자격이 있고, 관심받을 권리가 있어요.",
       "technique": [
         "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 25,
+      "turn": 27,
       "speaker": "client",
-      "text": "네, 잊지 않을게요. 감사합니다, 선생님."
+      "text": "감사합니다. 힘이 났어요."
     },
     {
-      "turn": 25,
+      "turn": 27,
       "speaker": "counselor",
-      "text": "천천히 준비해나가세요. 그리고 궁금한 게 생기면 언제든 오세요. 응원할게요!",
+      "text": "언제든 힘들면 다시 오세요. 함께 해결해나갈 수 있어요.",
       "technique": [
         "encouragement",
         "structuring"
       ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "네, 다음에 또 올게요!"
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "기다릴게요. 힘내세요!",
-      "technique": [
-        "encouragement"
-      ]
     }
-  ],
-  "client_profile": {
-    "age": "18세",
-    "gender": "남성",
-    "occupation": "고등학교 3학년",
-    "background": "하고 싶은 것을 찾지 못해 방황하는 상황"
-  }
+  ]
 }

@@ -1,64 +1,54 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "업무 과부하",
-    "total_turns": 27,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "structuring",
-      "validation",
-      "reflection",
-      "emotion_labeling",
-      "clarification",
-      "confrontation"
-    ]
+    "topic": "직장 내 인간관계 갈등",
+    "total_turns": 29,
+    "generated_at": "2025-12-18T07:14:28.428639+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0020_이직고민_7a3f9d",
-    "category": "adult",
-    "topic": "업무 과부하"
+  "client_profile": {
+    "age": "42세",
+    "gender": "여성",
+    "occupation": "상담사",
+    "background": "직장 내 인간관계 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:38.961074+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "상담사님, 이직 문제로 머리가 너무 복잡해서 왔습니다."
+      "text": "이직을 해야 할지 고민이에요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "안녕하세요. 이직 결정이 쉽지 않으시군요. 어떤 상황인지 편하게 말씀해주시겠어요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 이직을 해야 할지 고민이에요....라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
         "empathy",
-        "open_question",
-        "structuring"
+        "open_question"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "지금 다니는 회사에서 5년 정도 일했는데요. 최근에 헤드헌터를 통해서 더 큰 회사에서 제안이 들어왔어요. 연봉도 40% 정도 올려준다고 하고..."
+      "text": "둘 다요. 잠들기도 어렵고, 새벽에 깨면 다시 못 자요. 그러다 보니 하루 종일 좀비처럼 지내요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "5년 동안 쌓은 경력을 인정받은 좋은 기회가 온 거네요. 그런데 결정이 어려우신 이유가 있으신가요?",
+      "text": "입면 장애와 수면 유지 장애 모두 있으시군요. 낮 동안의 피로가 심하시겠어요. 일상생활에 어떤 영향이 있나요?",
       "technique": [
-        "validation",
+        "reflection",
         "open_question"
       ]
     },
     {
       "turn": 3,
       "speaker": "client",
-      "text": "그게... 지금 회사 사람들이랑 정말 잘 지내거든요. 팀장님도 좋으시고, 동료들도 다 좋고... 근데 연봉 차이가 커서 포기하기도 아깝고..."
+      "text": "집중이 안 돼요. 서류 보다가 같은 줄을 몇 번씩 읽고... 실수도 많아지고. 클라이언트 미팅에서 멍하니 있을 때도 있어요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "현재 직장의 좋은 인간관계와 새로운 회사의 경제적 조건 사이에서 갈등하고 계시는군요. 양쪽 다 중요한 부분이라 고민이 되시겠어요.",
+      "text": "업무 수행에 심각한 영향을 주고 있군요. 변호사 일이면 정확성이 중요할 텐데 많이 불안하시겠어요.",
       "technique": [
         "reflection",
         "empathy"
@@ -67,344 +57,366 @@
     {
       "turn": 4,
       "speaker": "client",
-      "text": "네... 밤에 잠도 제대로 못 자요. 계속 이 생각 저 생각하다가... 아내는 연봉이 높은 데로 가라고 하는데, 저는 확신이 안 서요."
+      "text": "네... 실수할까 봐 너무 무서워요. 그 걱정 때문에 또 잠을 못 자는 것 같아요."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "결정을 못 내려서 수면까지 영향을 받고 계시고, 배우자와도 의견이 다른 상황이군요. 무엇이 가장 걱정되시나요?",
+      "text": "걱정이 수면을 방해하고, 수면 부족이 실수를 만들고, 그게 또 걱정이 되는 악순환이네요. 이런 상태가 얼마나 됐나요?",
       "technique": [
-        "emotion_labeling",
+        "interpretation",
         "open_question"
       ]
     },
     {
       "turn": 5,
       "speaker": "client",
-      "text": "새 회사에서 적응을 못하면 어쩌나 하는 게 제일 큰 걱정이에요. 지금은 눈 감고도 일할 수 있을 만큼 익숙한데... 새로운 환경, 새로운 사람들..."
+      "text": "한 달 정도요. 처음엔 중요한 재판 때문에 긴장해서 그런가 했는데, 재판 끝났는데도 계속돼요."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "익숙함에서 벗어나는 것에 대한 불안과 두려움이 크시군요. 변화 자체가 스트레스로 느껴지는 거죠. 혹시 과거에 비슷한 경험이 있으셨나요?",
+      "text": "스트레스 사건으로 시작됐지만 이제는 만성화됐군요. 수면을 위해 시도해본 것들이 있나요?",
       "technique": [
-        "emotion_labeling",
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "수면제요. 처음엔 효과 있었는데, 지금은 그것도 잘 안 들어요. 그래서 양을 늘렸어요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "수면제를 복용 중이시군요. 의사 처방인가요, 아니면 임의로 복용하시나요?",
+      "technique": [
+        "reflection",
         "clarification"
       ]
     },
     {
-      "turn": 6,
-      "speaker": "client",
-      "text": "5년 전에 지금 회사로 왔을 때도 그랬어요. 처음 몇 달은 정말 힘들었거든요. 그때 생각하면... 또 그걸 겪어야 하나 싶어요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "과거의 힘들었던 적응 과정이 떠오르면서 더 망설여지시는군요. 그런데 그때와 지금의 당신은 같은 사람일까요? 5년 동안 어떤 변화가 있었나요?",
-      "technique": [
-        "empathy",
-        "confrontation"
-      ]
-    },
-    {
       "turn": 7,
       "speaker": "client",
-      "text": "음... 그때보다는 경력도 쌓였고, 자신감도 생긴 것 같긴 해요. 기술적으로도 많이 성장했고..."
+      "text": "처음엔 처방받았는데... 요즘은 그냥 약국에서 사 먹어요. 더 강한 걸로..."
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "맞아요. 5년 전의 신입 개발자와 지금의 5년차 경력자는 다른 역량과 경험을 가지고 있죠. 그 점을 고려하면 적응 과정도 달라질 수 있지 않을까요?",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
-        "validation",
+        "reflection",
         "information_giving"
       ]
     },
     {
       "turn": 8,
       "speaker": "client",
-      "text": "그렇게 생각하니 좀 다르네요. 근데... 지금 회사 팀장님한테 너무 미안해요. 제가 나가면 팀에 구멍이 생기거든요."
+      "text": "알아요. 근데 안 먹으면 하나도 못 자요. 어떡해요?"
     },
     {
       "turn": 8,
       "speaker": "counselor",
-      "text": "팀에 대한 책임감과 팀장님에 대한 미안함도 있으시군요. 그건 당신이 팀을 중요하게 생각하고 책임감이 강하다는 증거예요. 그런데 이직을 배신으로 느끼시나요?",
+      "text": "약에 의존하게 된 상태시군요. 걱정되시죠. 하지만 제대로 된 치료를 받으면 약에서 벗어날 수 있어요.",
       "technique": [
         "validation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "배신이라고까지는... 근데 팀장님이 저를 정말 아껴주셨거든요. 힘들 때 많이 도와주시고... 그래서 더 미안한 거 같아요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "은혜를 입은 분에게 보답하고 싶은 마음이 있으시군요. 훌륭한 태도예요. 그런데 자신의 커리어 발전과 팀에 대한 의리, 둘 중 하나를 선택해야만 할까요?",
-      "technique": [
-        "validation",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "음... 어떻게든 양쪽 다 지킬 수 있으면 좋겠지만... 쉽지 않죠."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "완벽한 해결책은 없을 수 있어요. 하지만 이직을 한다 해도 충분한 인수인계 기간을 두고, 팀장님께 감사를 표현하는 등 최선을 다할 수는 있죠. 그렇게 하면 죄책감을 줄일 수 있을 거예요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "그렇긴 하네요... 그런데 새 회사에서 제안한 조건이 정말 좋을까요? 연봉은 높지만 일이 훨씬 힘들 수도 있잖아요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "새 회사의 근무 환경에 대한 정보가 부족해서 불안하신 거네요. 혹시 새 회사에 대해 조사해보셨나요? 실제 근무하는 사람들 이야기를 들어보셨다든지?",
-      "technique": [
-        "clarification",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "아직은 못 해봤어요. 어떻게 알아봐야 할지도 모르겠고..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "정보 수집이 필요할 것 같네요. 블라인드나 잡플래닛 같은 곳에서 회사 리뷰를 보거나, 지인 중에 그 회사 아는 사람이 있는지 찾아보는 것도 방법이에요. 헤드헌터에게 구체적인 업무 강도나 문화에 대해 물어볼 수도 있고요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "아, 그런 방법들이 있네요. 헤드헌터한테는 좋은 말만 들을 줄 알았는데 직접 물어봐도 되는 거예요?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "물론이죠. 구체적으로 물어볼수록 좋아요. 평균 퇴근 시간, 야근 빈도, 팀 분위기, 이직률 등을 물어보세요. 헤드헌터는 성사시키고 싶어하겠지만, 직접적인 질문에는 어느 정도 솔직하게 답할 거예요.",
-      "technique": [
-        "information_giving",
         "encouragement"
       ]
     },
     {
-      "turn": 14,
+      "turn": 9,
       "speaker": "client",
-      "text": "알겠습니다. 그렇게 해볼게요. 그런데... 만약 조사해봤는데 괜찮은 회사라면, 그럼 가야 하는 건가요?"
+      "text": "제대로 된 치료요? 약 말고 다른 방법이 있나요?"
     },
     {
-      "turn": 14,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "결정은 결국 본인이 하셔야 해요. 다만 결정할 때 고려해야 할 것들을 함께 정리해보면 어떨까요? 지금까지 말씀하신 걸 보면 여러 요소가 있는 것 같은데요.",
+      "text": "네, 인지행동치료가 불면증에 매우 효과적이에요. 약보다 장기적으로 더 좋은 결과를 보여요. 수면에 대한 잘못된 생각과 습관을 바꾸는 거죠.",
       "technique": [
-        "structuring",
-        "goal_setting"
+        "information_giving",
+        "clarification"
       ]
     },
     {
-      "turn": 15,
+      "turn": 10,
       "speaker": "client",
-      "text": "네, 정리하면 좋을 것 같아요. 머릿속이 너무 복잡해서..."
+      "text": "잘못된 생각이요? 저는 그냥 잠이 안 오는 건데..."
     },
     {
-      "turn": 15,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "좋아요. 지금까지 나온 요소들을 보면 연봉, 인간관계, 적응에 대한 불안, 현 직장에 대한 의리, 업무 강도 등이 있네요. 이 중에서 우선순위를 매겨보면 어떨까요?",
+      "text": "예를 들어 '오늘도 못 자면 어떡하지', '8시간은 자야 해' 같은 생각들이 오히려 불안을 높여 수면을 방해해요.",
       "technique": [
-        "summarization",
-        "structuring"
+        "clarification",
+        "information_giving"
       ]
     },
     {
-      "turn": 16,
+      "turn": 11,
       "speaker": "client",
-      "text": "우선순위요? 음... 일단 가족이 있으니까 경제적인 부분도 중요하고... 근데 행복도 중요하고..."
+      "text": "맞아요. 침대에 누우면 '오늘도 못 잘 거야' 생각부터 들어요."
     },
     {
-      "turn": 16,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "경제와 행복, 둘 다 중요하죠. 그런데 지금 직장에서 느끼는 행복이 새 직장에서는 절대 얻을 수 없는 건가요? 새로운 환경에서도 좋은 관계를 만들 가능성은 없을까요?",
+      "text": "그 생각이 긴장을 만들고 수면을 더 어렵게 해요. 침대가 '불면의 공간'이 되어버린 거예요.",
       "technique": [
-        "validation",
-        "confrontation"
+        "interpretation",
+        "information_giving"
       ]
     },
     {
-      "turn": 17,
+      "turn": 12,
       "speaker": "client",
-      "text": "그건... 아니겠죠. 가능성은 있죠. 제가 너무 현재 상황만 보고 있었나봐요."
+      "text": "정말 그래요. 침대만 보면 불안해요."
     },
     {
-      "turn": 17,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "현재의 확실함과 미래의 불확실함을 비교하는 건 당연해요. 하지만 미래는 만들어가는 것이기도 하죠. 새 직장에서도 좋은 관계를 만들 수 있다고 믿으시나요?",
-      "technique": [
-        "validation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "할 수 있을 것 같긴 해요. 지금도 처음엔 낯설었지만 잘 적응했으니까..."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "맞아요. 이미 한 번 해낸 경험이 있으시잖아요. 그리고 연봉 40% 인상은 가족의 경제적 안정에도 큰 도움이 될 거예요. 아내분도 그 부분을 고려하시는 것 같고요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "맞아요. 아내가 내년에 둘째 계획하고 있거든요. 육아휴직하면 수입이 줄어드니까... 그것도 생각해야 하는데..."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "앞으로의 가족 계획도 중요한 고려사항이네요. 그렇다면 이직이 단순히 현재의 선택이 아니라 가족의 미래를 위한 투자일 수도 있겠어요.",
-      "technique": [
-        "reflection",
-        "restatement"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "그렇게 보니까 조금 다르게 느껴지네요. 제 욕심이 아니라 가족을 위한 선택이라고 생각하면..."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "관점이 바뀌니 죄책감도 줄어드는 것 같네요. 그런데 이직을 결정하기 전에 현 회사에서 연봉 협상을 시도해보신 적은 있나요?",
-      "technique": [
-        "emotion_labeling",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "아니요, 그냥 정해진 대로 받았어요. 협상을 할 수 있는 건가요?"
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "물론이죠. 다른 회사에서 제안이 온 상황을 팀장님께 솔직하게 말씀드리고, 현 회사에서 머물 의향이 있지만 경제적 부분이 고민이라고 하시는 거예요. 회사에서 어떻게 대응하는지 보는 것도 하나의 방법이에요.",
+      "text": "그럼 침대를 다시 '수면의 공간'으로 만들어야 해요. 자극 통제 요법이라고 하는데, 침대는 오직 수면을 위해서만 사용하는 거예요.",
       "technique": [
         "information_giving",
         "structuring"
       ]
     },
     {
-      "turn": 22,
+      "turn": 13,
       "speaker": "client",
-      "text": "그런 방법도 있네요! 근데 그렇게 했다가 회사에서 기분 나빠하면 어쩌죠?"
+      "text": "침대에서 핸드폰 보거나 일하는 것도 안 되나요?"
     },
     {
-      "turn": 22,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "정직하게 소통하는 건 협박이 아니에요. '다른 제안이 있지만 이 회사에 머물고 싶다. 하지만 가족의 경제적 상황도 고려해야 한다'는 건 충분히 이해받을 수 있는 입장이에요. 만약 그걸로 기분 나빠하는 회사라면 그것도 중요한 정보죠.",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
+      "turn": 14,
+      "speaker": "client",
+      "text": "그럼 잠이 안 올 때는 어떻게 해요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "20-30분 이상 잠이 안 오면 침대에서 일어나세요. 다른 방에서 차분한 활동을 하다가 졸리면 다시 가는 거예요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "일어나라고요? 그럼 더 잠이 안 올 것 같은데..."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "처음엔 그렇게 느껴질 수 있어요. 하지만 뇌에게 '침대=수면'이라는 연결을 다시 학습시키는 과정이에요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "알겠어요. 시도해볼게요. 다른 방법도 있나요?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "취침 시간과 기상 시간을 일정하게 유지하세요. 주말에도요. 생체 리듬을 조절하는 게 중요해요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "주말엔 좀 더 자고 싶은데... 평일에 못 잔 걸 보충하려고요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그 마음은 이해하지만, 불규칙한 패턴이 불면증을 악화시켜요. 매일 같은 시간에 일어나는 게 핵심이에요.",
+      "technique": [
+        "empathy",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "힘들겠지만... 해볼게요. 그런데 기분도 우울해요. 수면 때문인가요?"
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "수면 부족과 우울은 서로 영향을 줘요. 잠을 못 자면 우울해지고, 우울하면 잠을 못 자는 악순환이죠.",
+      "technique": [
+        "information_giving",
+        "interpretation"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "요즘 아무 의욕이 없어요. 일도 하기 싫고, 사람 만나기도 싫고..."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "무기력과 의욕 저하가 있으시군요. 이런 증상이 얼마나 심한가요? 평소 즐기던 활동도 흥미가 없나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "네... 원래 운동 좋아했는데 요즘은 그것도 안 해요. 너무 피곤해서..."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "수면 부족으로 인한 피로와 우울 증상이 함께 있네요. 정신건강의학과 진료를 받아보시는 게 좋겠어요.",
+      "technique": [
+        "summarization",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "항우울제를 먹어야 하나요?"
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "의사 선생님이 판단하실 거예요. 항우울제 중 일부는 수면에도 도움이 돼요. 그리고 수면제를 안전하게 줄이는 것도 도와주실 거고요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "수면제를 끊을 수 있을까요? 벌써 몇 달째 먹고 있는데..."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
       "turn": 23,
       "speaker": "client",
-      "text": "아... 맞네요. 회사의 반응을 보는 것도 의미가 있겠네요."
+      "text": "알겠어요. 병원 예약해볼게요."
     },
     {
       "turn": 23,
       "speaker": "counselor",
-      "text": "그렇죠. 그럼 지금까지 이야기한 것들을 정리해볼까요? 어떤 단계로 진행하실 건가요?",
+      "text": "좋은 결정이에요. 그리고 낮에 햇빛을 충분히 쬐세요. 오전에 30분 정도 산책하면 생체 리듬 조절에 도움이 돼요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "사무실에만 있어서 햇빛을 잘 못 봐요..."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "점심시간에 밖에 나가보세요. 짧은 시간이라도요. 그리고 카페인과 알코올은 피하시고요.",
+      "technique": [
+        "goal_setting",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "커피를 많이 마시는데... 안 마시면 더 졸릴 것 같아요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "카페인이 일시적으로 각성시키지만, 수면의 질을 떨어뜨려요. 특히 오후 2시 이후에는 피하세요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "네... 줄여볼게요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "그리고 자기 전 루틴을 만들어보세요. 따뜻한 샤워, 스트레칭, 조명 어둡게 하기... 몸에게 '이제 잘 시간'이라는 신호를 주는 거예요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "루틴... 해볼게요. 할 게 많네요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "한 번에 다 하려고 하지 마세요. 이번 주에는 취침·기상 시간 일정하게 하기, 침대에서 핸드폰 안 보기, 이것만 해보세요.",
       "technique": [
         "validation",
         "goal_setting"
       ]
     },
     {
-      "turn": 24,
+      "turn": 28,
       "speaker": "client",
-      "text": "먼저 새 회사에 대해 조사를 하고, 헤드헌터한테도 구체적으로 물어보고... 그 다음에 현 회사 팀장님께 솔직하게 말씀드려보는 거죠?"
+      "text": "네, 그 정도는 할 수 있을 것 같아요."
     },
     {
-      "turn": 24,
+      "turn": 28,
       "speaker": "counselor",
-      "text": "좋은 계획이에요. 정보를 충분히 수집한 후에 현명한 결정을 내리는 거죠. 기한은 언제까지인가요?",
+      "text": "좋아요. 그리고 수면 일기를 써보세요. 몇 시에 잤는지, 몇 번 깼는지, 낮에 어땠는지... 패턴을 파악하는 데 도움이 돼요.",
       "technique": [
         "encouragement",
-        "closed_question"
+        "goal_setting"
       ]
     },
     {
-      "turn": 25,
+      "turn": 29,
       "speaker": "client",
-      "text": "새 회사에서 2주 안에 답을 달라고 했어요."
+      "text": "수면 일기요? 앱 같은 거 있나요?"
     },
     {
-      "turn": 25,
+      "turn": 29,
       "speaker": "counselor",
-      "text": "2주면 충분히 조사하고 결정할 시간이 있네요. 이번 주에 정보 수집하고, 다음 주 초에 팀장님과 대화하는 건 어떨까요?",
+      "text": "수면 추적 앱들이 많아요. 활용하시면 좋아요. 다음 주에 어떠셨는지 이야기 나눠봐요.",
       "technique": [
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "그렇게 하면 되겠네요. 마음이 좀 정리되는 것 같아요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "처음보다 훨씬 명확해지셨죠? 중요한 건 어떤 선택을 하든 그게 충분한 고민과 정보를 바탕으로 한 결정이라는 거예요. 그러면 후회가 덜할 거예요.",
-      "technique": [
-        "encouragement",
-        "validation"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "맞아요. 이제 뭘 해야 할지 알겠어요. 감사합니다."
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "스스로 답을 찾으셨어요. 결정 과정에서 또 어려움이 있으면 언제든 다시 오세요. 좋은 선택 하시길 바랄게요.",
-      "technique": [
-        "encouragement",
+        "information_giving",
         "structuring"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "35세",
-    "gender": "남성",
-    "occupation": "영업직",
-    "background": "계속 늘어나는 업무량으로 인한 번아웃"
-  }
+  ]
 }

@@ -1,37 +1,27 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "직장 내 괴롭힘",
+    "topic": "경제적 스트레스",
     "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "restatement",
-      "clarification",
-      "validation",
-      "closed_question",
-      "interpretation"
-    ]
+    "generated_at": "2025-12-18T07:14:28.198170+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_대인관계_0009_g3h4i5j6",
-    "category": "adult",
-    "topic": "직장 내 괴롭힘"
+  "client_profile": {
+    "age": "35세",
+    "gender": "남성",
+    "occupation": "자영업",
+    "background": "경제적 스트레스 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:38.695215+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "시어머니 때문에 미칠 것 같아요. 남편은 중간에서 아무것도 안 하고요."
+      "text": "미래가 불안해요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "시댁과의 갈등이 심하시고, 남편분의 도움도 받지 못하고 계시는군요. 어떤 일들이 있으셨나요?",
+      "text": "네, 잘 오셨어요. 오늘 무엇이 마음에 걸리시나요?",
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
@@ -39,12 +29,12 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "시어머니가 집에 허락도 없이 오세요. 그리고 육아에 이것저것 간섭하고... 제가 하는 건 다 잘못됐대요."
+      "text": "저는 조용히 집에서 쉬고 싶은데, 아내는 계속 밖에 나가자고 해요. 그리고 저는 계획적인데 아내는 즉흥적이고요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "경계 침범과 육아 간섭으로 힘드시군요. 구체적인 예를 하나 들어주시겠어요?",
+      "text": "라이프스타일과 성향이 다르시군요. 내향적-외향적, 계획적-즉흥적 차이가 있네요. 결혼 초기부터 이런 차이가 있었나요?",
       "technique": [
         "empathy",
         "restatement",
@@ -54,277 +44,263 @@
     {
       "turn": 3,
       "speaker": "client",
-      "text": "어제도 갑자기 오셔서 '애가 왜 이렇게 말랐어?'라고 하시더라고요. 제가 밥을 안 먹인다고요. 얼마나 억울한지..."
+      "text": "있었죠. 근데 연애할 땐 그게 매력적이었어요. 아내가 활발하고 재밌어서 좋았거든요."
     },
     {
       "turn": 3,
       "speaker": "counselor",
-      "text": "육아 방식을 비난받는다고 느끼시니 억울하고 화나셨겠어요. 그때 어떻게 반응하셨나요?",
+      "text": "처음엔 매력으로 느껴졌던 차이가 이제는 갈등의 원인이 되었군요. 언제부터 이게 문제가 되기 시작했나요?",
       "technique": [
         "empathy",
-        "validation",
+        "reflection",
         "open_question"
       ]
     },
     {
       "turn": 4,
       "speaker": "client",
-      "text": "참았죠. 뭐라고 하면 남편이 '엄마한테 왜 그래?'라고 할 거 뻔하니까요."
+      "text": "아이 낳고 나서요. 육아하면서 제가 더 예민해졌나 봐요. 쉬고 싶은데 아내는 가족 나들이 가자고 하고..."
     },
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "남편의 반응이 두려워서 참으셨군요. 실제로 남편분께 이런 상황을 말씀드린 적은 있으세요?",
+      "text": "육아로 지친 상태에서 휴식 방식에 대한 욕구가 달라서 충돌하시는군요. 아내분은 왜 나들이를 원하실까요?",
       "technique": [
-        "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "client",
+      "text": "글쎄요... 가족끼리 시간을 보내고 싶다고 하는데, 저는 그게 휴식이 아니거든요."
+    },
+    {
+      "turn": 5,
+      "speaker": "counselor",
+      "text": "본인에게는 휴식이 아니지만, 아내분에게는 가족과의 시간이 중요한 거군요. 두 분의 욕구가 다른 거예요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "그럼 어떻게 해야 하나요? 맨날 양보해야 하나요?"
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "양보가 아니라 조율이 필요해요. 혹시 아내분과 이런 차이에 대해 진지하게 대화해보신 적 있으세요?",
+      "technique": [
+        "information_giving",
         "closed_question"
       ]
     },
     {
-      "turn": 5,
-      "speaker": "client",
-      "text": "여러 번 했죠. '어머니가 이렇게 말씀하셨다', '힘들다'고요. 근데 남편은 '그냥 그러려니 해', '엄마 성격이 원래 그래'라고만 해요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "남편분이 문제를 최소화하고 회피하시는군요. 그 말을 들으면 어떤 기분이 드세요?",
-      "technique": [
-        "interpretation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "배신감이요. 결혼할 때 '우리 편이 되어주겠다'고 했는데... 거짓말이었어요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "약속이 지켜지지 않아서 배신감을 느끼시는군요. 남편분이 왜 이렇게 반응하실까요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
       "turn": 7,
       "speaker": "client",
-      "text": "마마보이니까요. 어머니 말씀이면 무조건이에요."
+      "text": "대화요? 그냥 '난 피곤하다', '나가기 싫다'고만 했지..."
     },
     {
       "turn": 7,
       "speaker": "counselor",
-      "text": "남편분을 마마보이로 보고 계시네요. 혹시 남편 입장에서는 어떤 고민이 있을까요?",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "'당신은 가족보다 쉬는 게 더 중요하냐'고 해요. 그럼 저도 화가 나서 '당신은 내 상황을 이해 안 하냐'고 하고... 싸움이 돼요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "서로 이해받지 못한다고 느끼시는군요. 두 분 다 자신의 입장만 주장하고 상대의 입장은 들으려 하지 않는 것 같아요.",
       "technique": [
         "reflection",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "고민이요? 뭘 고민해요. 그냥 편한 쪽으로만 가는 거죠."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "화가 많이 나셔서 남편의 입장을 생각하기 어려우실 것 같아요. 하지만 남편은 어머니와 아내 사이에서 곤란할 수 있어요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "그래서 저만 계속 참으라는 건가요?"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "참으라는 게 아니에요. 다른 방식으로 대화해보자는 거죠. '어머니 편을 들지 말고 내 편을 들어달라'가 아니라요.",
-      "technique": [
-        "clarification",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "그럼 뭐라고 해야 하나요?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "'어머니와 나 사이에서 중재해달라', '우리 부부의 경계를 지켜달라'고 구체적으로 요청하는 거예요.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "경계요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "네. 예를 들어, '방문 전에 미리 연락하기', '육아 방식은 우리가 결정하기' 같은 규칙이요. 이런 경계를 남편과 함께 정하고 시어머니께 전달하는 거죠.",
-      "technique": [
-        "information_giving",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "남편이 그렇게까지 할까요? 어머니한테 그런 말을..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "확신은 못 하시겠지만, 시도는 해볼 만하지 않나요? 현재 방식으로는 계속 힘드실 텐데요.",
-      "technique": [
-        "validation",
         "confrontation"
       ]
     },
     {
-      "turn": 13,
+      "turn": 9,
       "speaker": "client",
-      "text": "맞아요. 이대로는 못 살아요. 근데 남편한테 어떻게 얘기하죠?"
+      "text": "... 그런 것 같기도 하네요. 근데 10년 동안 계속 이랬는데 바뀔까요?"
     },
     {
-      "turn": 13,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "감정이 격해지지 않은 차분한 시간에, '당신과 나눌 중요한 얘기가 있다'고 먼저 말하세요. 그리고 본인의 감정을 솔직하게 표현하는 거예요.",
+      "text": "10년간 같은 패턴이었으니 회의적이실 수 있어요. 하지만 변화는 언제든 가능해요. 본인이 먼저 바뀌면요.",
       "technique": [
-        "information_giving",
-        "structuring"
+        "validation",
+        "encouragement"
       ]
     },
     {
-      "turn": 14,
+      "turn": 10,
       "speaker": "client",
-      "text": "감정을요?"
+      "text": "제가요? 왜 제가 바뀌어야 하죠?"
     },
     {
-      "turn": 14,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "네. '시어머니 때문에 화난다'가 아니라, '나는 존중받지 못하는 것 같아서 슬프고 외롭다'고 표현하는 거죠.",
-      "technique": [
-        "clarification",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "슬프고 외롭다... 맞아요. 화보다는 그런 감정이 더 큰 것 같아요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "정확히 파악하셨네요. 그 감정을 남편분께 전달하고, 무엇이 필요한지 구체적으로 말씀하세요.",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "필요한 게요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "'당신이 나를 지지해주고, 우리 가족의 경계를 함께 지켜주길 바란다'고요. 그리고 구체적인 행동을 제안하는 거예요.",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "information_giving",
         "clarification"
       ]
     },
     {
-      "turn": 17,
+      "turn": 11,
       "speaker": "client",
-      "text": "구체적인 행동이요?"
+      "text": "구체적으로 뭘 바꾸라는 건가요?"
     },
     {
-      "turn": 17,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "'어머니께 방문 전에 연락해달라고 말씀드려주세요', '육아에 대한 조언은 우리가 요청할 때만 해달라고 전해주세요' 같은 거요.",
+      "text": "대화 방식이요. 아내의 제안을 거절하기 전에, 아내의 욕구를 먼저 이해하려고 해보세요. '왜 나가고 싶은지' 물어보는 거죠.",
       "technique": [
-        "clarification",
-        "information_giving"
+        "information_giving",
+        "goal_setting"
       ]
     },
     {
-      "turn": 18,
+      "turn": 12,
       "speaker": "client",
-      "text": "그렇게 구체적으로 말하면 남편도 뭘 해야 할지 알겠네요."
+      "text": "그런 다음엔요?"
     },
     {
-      "turn": 18,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "맞아요. 막연하게 '도와달라'고만 하면 어떻게 도와야 할지 몰라요. 구체적일수록 좋아요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "만약 남편이 거부하면요?"
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "그때는 부부 상담을 제안해보세요. 제3자의 도움이 필요할 수도 있어요. 하지만 일단 대화를 시도해보는 게 먼저예요.",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "information_giving",
         "structuring"
       ]
     },
     {
-      "turn": 20,
+      "turn": 13,
       "speaker": "client",
-      "text": "네, 이번 주말에 한번 제대로 얘기해볼게요."
+      "text": "해결책이요? 둘 다 만족할 수 있는 게 있을까요?"
     },
     {
-      "turn": 20,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "좋은 결정이에요. 침착하게, 본인의 감정과 욕구를 전달하세요. 다음 주에 어떠셨는지 들려주세요.",
+      "text": "예를 들어, 주말 하루는 가족 나들이, 하루는 각자 시간 갖기. 아니면 나들이를 짧게 하고 집에서 함께 시간 보내기 같은 거요.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "아... 그렇게 할 수도 있겠네요. 생각 못 했어요."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "대화 없이는 이런 아이디어가 나올 수 없어요. 서로의 욕구를 이해하고 나면 창의적인 해결책이 나와요.",
+      "technique": [
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "근데 성격 차이는 어떡하죠? 그건 못 바꾸잖아요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "성격을 바꿀 필요는 없어요. 차이를 인정하고 존중하면 돼요. 차이가 문제가 아니라, 차이를 다루는 방식이 문제거든요.",
+      "technique": [
+        "information_giving",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "차이를 다루는 방식이요?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "네. 지금은 '당신이 이상하다'고 서로 비난하고 있잖아요. 대신 '우리가 다르구나. 어떻게 조율할까?'라고 접근하는 거예요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "그렇게 하면 싸움이 줄어들까요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "완전히 없어지진 않겠지만 줄어들 거예요. 그리고 싸워도 건설적인 싸움이 될 수 있어요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "건설적인 싸움이요?"
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "네. 서로를 비난하는 대신 문제를 해결하는 방향으로 싸우는 거죠. 이혼을 결정하기 전에 이런 시도를 해보시는 게 어떨까요?",
+      "technique": [
+        "clarification",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "... 한번 해볼게요. 10년을 함께했는데 그냥 포기하긴 아깝긴 하네요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "좋은 결정이에요. 이번 주에 아내분과 대화 시간을 가져보시고, 다음 주에 어떠셨는지 얘기 나눠봐요.",
       "technique": [
         "encouragement",
         "goal_setting"
       ]
     },
     {
-      "turn": 21,
+      "turn": 20,
       "speaker": "client",
-      "text": "감사합니다. 용기가 생겼어요."
+      "text": "네, 그렇게 하겠습니다. 감사합니다."
     },
     {
-      "turn": 21,
+      "turn": 20,
       "speaker": "counselor",
-      "text": "잘하실 거예요. 본인과 가족을 위해 용기 내시는 모습이 멋져요.",
+      "text": "잘하실 거예요. 관계를 위해 노력하시는 모습이 훌륭해요.",
       "technique": [
         "encouragement",
         "validation"
       ]
     },
     {
-      "turn": 22,
+      "turn": 21,
       "speaker": "client",
       "text": "오늘 이야기 나눠서 마음이 한결 가벼워진 것 같아요."
     },
     {
-      "turn": 22,
+      "turn": 21,
       "speaker": "counselor",
       "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
       "technique": [
@@ -333,12 +309,12 @@
       ]
     },
     {
-      "turn": 23,
+      "turn": 22,
       "speaker": "client",
       "text": "앞으로 어떻게 하면 좋을지 조금 더 생각해볼게요."
     },
     {
-      "turn": 23,
+      "turn": 22,
       "speaker": "counselor",
       "text": "천천히 생각해보시고, 다음에 만나서 어떻게 지내셨는지 이야기 나눠봐요.",
       "technique": [
@@ -347,12 +323,12 @@
       ]
     },
     {
-      "turn": 24,
+      "turn": 23,
       "speaker": "client",
       "text": "네, 다음 상담 때 뵙겠습니다."
     },
     {
-      "turn": 24,
+      "turn": 23,
       "speaker": "counselor",
       "text": "네, 그때까지 자신을 잘 돌봐주세요. 응원하고 있을게요.",
       "technique": [
@@ -361,24 +337,32 @@
       ]
     },
     {
-      "turn": 25,
+      "turn": 24,
       "speaker": "client",
       "text": "감사합니다. 선생님 덕분에 힘이 나요."
     },
     {
-      "turn": 25,
+      "turn": 24,
       "speaker": "counselor",
       "text": "힘내세요. 잘 해내실 수 있을 거예요.",
       "technique": [
         "empathy",
         "encouragement"
       ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네, 열심히 해볼게요!"
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "좋아요, 다음 주에 뵙겠습니다.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
     }
-  ],
-  "client_profile": {
-    "age": "32세",
-    "gender": "여성",
-    "occupation": "마케터",
-    "background": "동료들로부터 은근한 따돌림을 당하는 상황"
-  }
+  ]
 }

@@ -1,451 +1,411 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "양육 스트레스",
-    "total_turns": 30,
-    "quality_indicators": [
-      "reflection",
-      "open_question",
-      "closed_question",
-      "emotion_labeling",
-      "empathy",
-      "clarification",
-      "information_giving",
-      "structuring"
-    ]
+    "topic": "우울감과 무기력",
+    "total_turns": 28,
+    "generated_at": "2025-12-18T07:14:28.778644+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0012_w9x0y1z2",
-    "category": "adult",
-    "topic": "양육 스트레스"
+  "client_profile": {
+    "age": "27세",
+    "gender": "여성",
+    "occupation": "디자이너",
+    "background": "우울감과 무기력 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.387191+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "신임 사장님이 오시면서 회사 분위기가 완전히 바뀌었어요."
+      "text": "부모님과의 관계가 어려워요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "새 사장님이 오시면서 변화가 생겼군요. 어떻게 바뀌었나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 2,
-      "speaker": "client",
-      "text": "매출 목표를 두 배로 올리셨어요. 현실적으로 불가능한 숫자인데... 무조건 달성하라고만 하세요."
-    },
-    {
-      "turn": 2,
-      "speaker": "counselor",
-      "text": "현재의 두 배라는 목표를 설정하셨군요. 왜 불가능하다고 생각하시나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "시장 상황, 인력, 자원... 모든 게 부족해요. 작년에도 목표 달성하느라 힘들어라 일했는데, 그걸 두 배로 하라니..."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "객관적으로 자원이 부족한 상황에서 목표만 높아진 거네요. 이걸 사장님께 말씀드려 보셨나요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "말씀드렸죠. '방법을 찾으면 된다, 그게 팀장의 역할이다'라고 하시더라고요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "구체적인 지원 없이 '방법을 찾으라'는 답변을 들으셨군요. 그때 어떤 감정이 드셨어요?",
-      "technique": [
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "답답하고 화나고... '이분은 현장을 모르시는구나' 싶었어요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "현장과 괴리된 지시를 받는 것 같아서 답답하시군요. 지금 이 목표 달성률은 어떻게 되나요?",
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
       "technique": [
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 6,
+      "turn": 2,
       "speaker": "client",
-      "text": "50% 정도요? 그것도 팀원들이 과로하면서 겨우 만들어낸 건데, 사장님은 '왜 이것밖에 안 되냐'고 하세요."
+      "text": "응급실로 뛰어갔어요. 근데 검사 결과는 이상 없대요. 동료들이 다 봤잖아요. 너무 창피했어요."
     },
     {
-      "turn": 6,
+      "turn": 2,
       "speaker": "counselor",
-      "text": "팀원들이 과로하면서도 50%인데, 그조차 불만족스러워하시는군요. 팀원들은 어떤 상태인가요?",
+      "text": "신체적으로는 이상이 없었지만 증상은 분명히 있었고, 동료들 앞에서 그런 모습을 보인 게 부끄러우셨군요.",
       "technique": [
-        "reflection",
-        "open_question"
+        "summarization",
+        "validation",
+        "empathy"
       ]
     },
     {
-      "turn": 7,
+      "turn": 3,
       "speaker": "client",
-      "text": "다들 지쳐있어요. 사기도 바닥이고... 저한테 '팀장님, 이거 정말 해야 해요?'라고 물어봐요. 저도 모르겠어요."
+      "text": "네... 그 후로 또 올까 봐 너무 불안해요. 근무하는 내내 가슴이 두근거려요."
     },
     {
-      "turn": 7,
+      "turn": 3,
       "speaker": "counselor",
-      "text": "팀원들도 힘들어하고, 팀장으로서 본인도 답을 못 찾고 계시는군요. 가장 힘든 부분은 뭔가요?",
+      "text": "'또 올까 봐'하는 예기불안이 생겼군요. 실제로 또 발작이 온 적은 있나요?",
       "technique": [
-        "empathy",
-        "emotion_labeling"
+        "emotion_labeling",
+        "closed_question",
+        "empathy"
       ]
     },
     {
-      "turn": 8,
+      "turn": 4,
       "speaker": "client",
-      "text": "위에서는 압박하고, 아래에서는 불만이 올라오고... 저는 중간에서 샌드위치 신세예요."
+      "text": "한 번 더 있었어요. 이번엔 혼자 사무실에서... 어떻게 견뎠는지 모르겠어요."
     },
     {
-      "turn": 8,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "중간 관리자로서 양쪽의 압력을 다 받고 계시는군요. 이런 상황이 얼마나 지속됐나요?",
+      "text": "두 번째 발작을 혼자 견뎌내셨군요. 힘드셨을 텐데 잘 버티셨어요. 그때는 얼마나 지속됐나요?",
       "technique": [
-        "reflection",
+        "validation",
+        "encouragement",
         "clarification"
       ]
     },
     {
-      "turn": 9,
+      "turn": 5,
       "speaker": "client",
-      "text": "새 사장님 오신 지 6개월째요. 매달 회의 때마다 스트레스받고..."
+      "text": "정확히는 모르겠지만... 10분? 15분? 영원처럼 느껴졌어요."
     },
     {
-      "turn": 9,
+      "turn": 5,
       "speaker": "counselor",
-      "text": "6개월간 지속된 압박이군요. 지금 가장 필요한 게 뭐라고 생각하세요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "현실적인 목표요. 아니면 목표 달성을 위한 실질적 지원..."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "목표 조정이나 자원 지원이 필요하시군요. 이걸 어떻게 요청하면 좋을까요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "이미 말씀드렸는데 안 들어주시는데요..."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "이전 요청이 받아들여지지 않았던 건, 방식의 문제일 수 있어요. 데이터를 준비해서 제안해보셨나요?",
+      "text": "공황 발작은 보통 10-20분 정도 지속되다가 저절로 사라져요. 위험하지 않지만 정말 무섭게 느껴지죠.",
       "technique": [
         "information_giving",
-        "closed_question"
+        "validation"
       ]
     },
     {
-      "turn": 12,
+      "turn": 6,
       "speaker": "client",
-      "text": "데이터요?"
+      "text": "위험하지 않다고요? 그런데 심장이 터질 것 같았는데..."
     },
     {
-      "turn": 12,
+      "turn": 6,
       "speaker": "counselor",
-      "text": "네. 현재 시장 점유율, 경쟁사 성장률, 필요 인력과 예산 같은 구체적 수치를 제시하면서 '현재 자원으로 가능한 현실적 목표'를 역제안하는 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "아, 감정적으로 '힘들다'가 아니라 객관적 데이터로 말씀드리는 거군요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "정확해요. 사장님 같은 분들은 데이터에 더 반응하시거든요. 그리고 문제만 제시하지 말고 대안도 함께 제시하세요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "대안이요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "'목표를 낮춰주세요'가 아니라, '영업 인력 2명 충원 시 X% 증대 가능합니다' 또는 '마케팅 예산 증액 시 Y% 성장 가능합니다' 같은 식으로요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "제안서 형태로 준비해야겠네요."
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "맞아요. 그리고 팀원들과도 솔직한 대화가 필요해요. 지금 본인이 중간에서 압력을 혼자 받고 계시잖아요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "팀원들한테 뭐라고 말하죠? 위에서 압박한다고?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "상황을 공유하되, 함께 해결책을 찾자고 제안하는 거예요. '회사 목표가 이렇습니다. 현실적으로 어려운 상황이지만, 우리가 할 수 있는 최선을 찾아봅시다' 이런 식으로요.",
-      "technique": [
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "팀원들을 참여시키는 거군요."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "네. 그럼 '팀장이 우리를 압박한다'가 아니라 '우리가 함께 어려운 상황을 해결한다'가 되거든요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "그렇게 하면 팀 분위기가 좀 나아질까요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "가능성이 있어요. 투명하게 소통하면 신뢰가 생기거든요. 그리고 팀원들의 아이디어 중에 좋은 게 나올 수도 있고요.",
+      "text": "그렇게 느껴지지만, 실제로 심장에 문제가 생기거나 죽지 않아요. 뇌의 오작동이에요. 위험 신호를 잘못 보내는 거죠.",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 19,
+      "turn": 7,
       "speaker": "client",
-      "text": "해볼게요. 이번 주 팀 회의 때 이야기해볼게요."
+      "text": "오작동... 그럼 왜 자꾸 일어나는 거예요?"
     },
     {
-      "turn": 19,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "좋아요. 그리고 본인의 스트레스 관리도 중요해요. 중간 관리자의 스트레스가 가장 높거든요.",
+      "text": "스트레스, 과로, 수면 부족 등이 원인이 될 수 있어요. 간호사로 야간 근무하시면 이런 요인들이 많으시죠?",
       "technique": [
-        "encouragement",
-        "information_giving"
+        "information_giving",
+        "closed_question"
       ]
     },
     {
-      "turn": 20,
+      "turn": 8,
       "speaker": "client",
-      "text": "저도 지쳤어요. 집에 가면 아내한테 짜증만 내고..."
+      "text": "맞아요. 요즘 환자가 많아서 너무 힘들어요. 제대로 쉬지도 못하고..."
     },
     {
-      "turn": 20,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "스트레스가 가정에까지 영향을 미치는군요. 본인만의 스트레스 해소 방법이 있으신가요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "예전엔 운동했는데 요즘은 시간이 없어서..."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "운동이 도움이 됐었군요. 일주일에 한두 번이라도 시간을 내보는 건 어떨까요?",
+      "text": "과로와 수면 부족 상태에서 공황 발작이 시작됐군요. 몸이 '이제 그만'이라고 신호를 보낸 거예요.",
       "technique": [
         "reflection",
+        "interpretation"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "그럼 일을 그만둬야 하나요? 근데 생활이 있으니..."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "당장 그만두는 게 답은 아닐 수 있어요. 먼저 증상을 관리하고, 근무 환경을 조정할 방법을 찾아봐야 해요.",
+      "technique": [
+        "information_giving",
         "goal_setting"
       ]
     },
     {
-      "turn": 22,
+      "turn": 10,
       "speaker": "client",
-      "text": "그럴 시간이 어디 있어요..."
+      "text": "증상을 관리한다는 게... 어떻게요?"
     },
     {
-      "turn": 22,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "시간을 '찾는' 게 아니라 '만드는' 거예요. 본인이 건강해야 팀도 이끌 수 있어요. 쓰러지면 누가 팀을 챙기나요?",
+      "text": "공황 발작이 올 때 대처법을 배우는 거예요. 호흡법, 이완 기법, 인지 재구성 같은 거죠.",
       "technique": [
-        "confrontation",
-        "information_giving"
+        "information_giving",
+        "clarification"
       ]
     },
     {
-      "turn": 23,
+      "turn": 11,
       "speaker": "client",
-      "text": "... 그렇긴 하네요."
+      "text": "호흡법은 들어봤어요. 근데 그때는 숨 쉬기가 너무 힘든데..."
     },
     {
-      "turn": 23,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "일주일에 2시간이라도 본인을 위한 시간을 확보하세요. 그게 투자예요.",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
-        "goal_setting",
-        "information_giving"
+        "information_giving",
+        "structuring"
       ]
     },
     {
-      "turn": 24,
+      "turn": 12,
       "speaker": "client",
-      "text": "알겠습니다. 해보겠습니다."
+      "text": "네, 가르쳐주세요."
     },
     {
-      "turn": 24,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "이번 주에 할 수 있는 것들을 정리해볼까요? 데이터 기반 제안서 준비하기, 팀원들과 솔직한 대화하기, 일주일에 2시간 운동 시간 확보하기. 이 중에서 가장 먼저 할 건 뭔가요?",
+      "text": "복식호흡이에요. 손을 배에 올리고, 코로 천천히 숨을 들이마시면서 배가 나오게 하세요. 그리고 천천히 내쉬는 거예요.",
       "technique": [
-        "summarization",
-        "open_question"
+        "information_giving",
+        "structuring"
       ]
     },
     {
-      "turn": 25,
+      "turn": 13,
       "speaker": "client",
-      "text": "팀원들과 대화요. 이번 주 팀 회의가 있으니까."
+      "text": "(호흡 연습 후) 조금 진정되는 것 같아요."
     },
     {
-      "turn": 25,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "좋아요. 그리고 제안서는 2주 안에 준비해보세요.",
+      "text": "잘하셨어요. 매일 5분씩 연습하세요. 그리고 공황이 올 때 '위험하지 않아, 곧 지나간다'고 스스로에게 말해보세요.",
       "technique": [
         "encouragement",
         "goal_setting"
       ]
     },
     {
-      "turn": 26,
+      "turn": 14,
       "speaker": "client",
-      "text": "네, 데이터 수집부터 시작하겠습니다."
+      "text": "'위험하지 않아, 곧 지나간다'... 외워야겠어요."
     },
     {
-      "turn": 26,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "훌륭해요. 운동은 언제 하실 건가요?",
+      "text": "네, 반복하면 뇌가 학습해요. 그리고 야간 근무가 특히 힘드시면 주간 근무로 변경 가능한지 상사와 상의해보세요.",
       "technique": [
-        "encouragement",
-        "goal_setting"
+        "validation",
+        "information_giving"
       ]
     },
     {
-      "turn": 27,
+      "turn": 15,
       "speaker": "client",
-      "text": "토요일 아침에... 2시간 정도?"
+      "text": "주간 근무는... 어려울 것 같아요. 인력이 부족해서..."
     },
     {
-      "turn": 27,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "구체적으로 계획을 세우셨네요. 지키실 수 있겠어요?",
+      "text": "그렇다면 야간 근무 횟수를 줄일 수는 없을까요? 본인의 건강도 중요해요.",
+      "technique": [
+        "open_question",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "한번 얘기해볼게요. 근데 병원에서는 이해해줄까요?"
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "공황장애는 진단받을 수 있는 질환이에요. 진단서가 있으면 근무 조정을 요청할 수 있어요. 정신건강의학과 진료 받아보셨나요?",
+      "technique": [
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "아니요. 정신과 가는 게... 좀 꺼려져서요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "reflection",
+        "confrontation"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "맞는 말씀이에요. 환자들한테는 그렇게 말하면서 정작 저는..."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "약을 먹으면 공황이 안 오나요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "약이 발작 빈도를 줄이고 불안을 감소시켜요. 완전히 없애진 못해도 훨씬 관리하기 쉬워져요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "알겠어요. 병원 가볼게요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "좋은 결정이에요. 그리고 공황 발작이 온 장소를 피하고 계시진 않나요?",
       "technique": [
         "encouragement",
         "closed_question"
       ]
     },
     {
-      "turn": 28,
+      "turn": 21,
       "speaker": "client",
-      "text": "네, 해보겠습니다. 제가 건강해야 팀도 이끌 수 있다는 말씀이 와닿았어요."
+      "text": "네... 그 사무실에 가기 싫어요. 그리고 좁은 공간도 피하게 돼요."
     },
     {
-      "turn": 28,
+      "turn": 21,
       "speaker": "counselor",
-      "text": "오늘 상담에서 어떤 게 가장 도움이 되셨나요?",
+      "text": "회피가 시작됐군요. 회피는 단기적으론 편하지만, 장기적으론 공포를 키워요. 점진적으로 다시 노출해야 해요.",
       "technique": [
-        "open_question",
-        "summarization"
+        "reflection",
+        "information_giving"
       ]
     },
     {
-      "turn": 29,
+      "turn": 22,
       "speaker": "client",
-      "text": "감정이 아니라 데이터로 접근하는 것, 팀원들과 함께 해결책을 찾는 것, 그리고 제 자신도 돌봐야 한다는 거요."
+      "text": "그 공간에 다시 가라는 건가요? 무서운데..."
     },
     {
-      "turn": 29,
+      "turn": 22,
       "speaker": "counselor",
-      "text": "핵심을 잘 정리하셨네요. 중간 관리자로서 어려우시겠지만, 전략적으로 접근하시면 충분히 해결할 수 있어요. 다음 주에 어떻게 진행됐는지 이야기 나눠봐요.",
+      "text": "무서우실 거예요. 하지만 안전하다는 걸 경험해야 해요. 처음엔 누군가와 함께, 짧은 시간부터 시작하는 거예요.",
+      "technique": [
+        "validation",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "동료랑 같이 가볼 수 있을 것 같아요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 거기서 호흡 연습을 해보세요. '여기서도 안전해'라는 걸 몸으로 배우는 거예요.",
       "technique": [
         "encouragement",
         "goal_setting"
       ]
     },
     {
-      "turn": 30,
+      "turn": 24,
       "speaker": "client",
-      "text": "감사합니다. 방향이 보이는 것 같아요. 다음 주에 뵙겠습니다."
+      "text": "해볼게요. 근데 또 공황이 오면 어떡하죠?"
     },
     {
-      "turn": 30,
+      "turn": 24,
       "speaker": "counselor",
-      "text": "12년간 쌓으신 경험과 리더십을 믿으세요. 잘하실 거예요. 다음 주에 뵙겠습니다.",
+      "text": "올 수도 있어요. 하지만 이제는 대처 방법을 아시잖아요. 호흡하고, '곧 지나간다'고 상기시키는 거예요.",
       "technique": [
-        "encouragement",
-        "validation"
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네... 준비가 되어 있으면 조금 덜 무서울 것 같아요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "정확해요. 통제감을 갖는 게 중요해요. 그리고 수면과 휴식도 충분히 취하세요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "요즘 잠도 잘 못 자요. 공황이 또 올까 봐..."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "불안 때문에 수면도 방해받고 있군요. 자기 전에 이완 연습을 해보세요. 그리고 카페인은 피하시고요.",
+      "technique": [
+        "reflection",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "카페인... 밤샘 근무할 때 커피 많이 마셨는데..."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "카페인이 불안과 심계항진을 악화시켜요. 가능하면 줄여보세요. 특히 오후 이후엔 피하시고요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "client",
+      "text": "알겠어요. 할 게 많네요..."
+    },
+    {
+      "turn": 28,
+      "speaker": "counselor",
+      "text": "한 번에 다 하려고 하지 마세요. 우선순위는 병원 진료, 호흡 연습, 카페인 줄이기예요. 이것부터 해보세요.",
+      "technique": [
+        "validation",
+        "structuring"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "29세",
-    "gender": "여성",
-    "occupation": "디자이너",
-    "background": "자녀 양육으로 인한 극심한 스트레스"
-  }
+  ]
 }

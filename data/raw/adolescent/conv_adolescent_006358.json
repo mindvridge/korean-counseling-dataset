@@ -1,37 +1,27 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "친구 갈등",
-    "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "restatement",
-      "emotion_labeling",
-      "closed_question",
-      "summarization",
-      "validation"
-    ]
+    "topic": "학원 스트레스",
+    "total_turns": 27,
+    "generated_at": "2025-12-18T07:14:24.774905+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0006_SNS갈등_2f6b9a",
-    "category": "adolescent",
-    "topic": "친구 갈등"
+  "client_profile": {
+    "age": "18세",
+    "gender": "남성",
+    "occupation": "고등학교 3학년",
+    "background": "학원 스트레스 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:35.824282+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 친구가 제 사진을 막 올려서 정말 화가 나요."
+      "text": "공부가 안 돼요. 집중이 안 되고..."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "친구가 동의 없이 사진을 올렸군요. 많이 화가 나고 불편하셨겠어요. 어떤 상황인지 자세히 말씀해주시겠어요?",
+      "text": "그런 마음이 드셨군요. 언제부터 그런 생각이 드셨나요?",
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
@@ -39,26 +29,12 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "지난주에 친구들이랑 놀러 갔는데, 유진이가 저 몰래 찍은 사진들을 인스타에 막 올렸어요. 제가 정말 못생기게 나온 사진까지..."
+      "text": "거의 매일이요. 오빠 기분이 안 좋으면 저한테 화풀이해요. 물건 던지고, 욕하고... 가끔은 밀치기도 하고."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "동의도 구하지 않고, 본인이 원치 않는 사진까지 올라갔군요. 그 사진들을 보았을 때 어떤 기분이 드셨나요?",
-      "technique": [
-        "restatement",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "진짜 당황스럽고 창피했어요. 댓글에 애들이 '이게 뭐야' 이러면서 웃고... 완전 망신당한 기분이었어요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "당황스럽고 창피함, 그리고 망신당했다는 느낌까지 드셨군요. 정말 힘드셨겠어요. 유진이에게 뭔가 말씀하신 적은 있나요?",
+      "text": "매일 언어적, 신체적 폭력에 노출되어 있고, 오빠의 감정 쓰레기통이 되고 있는 상황이네요. 지금 안전하다고 느끼시나요?",
       "technique": [
         "emotion_labeling",
         "empathy",
@@ -66,301 +42,312 @@
       ]
     },
     {
-      "turn": 4,
+      "turn": 3,
       "speaker": "client",
-      "text": "카톡으로 '야, 그 사진 좀 내려줘. 나 진짜 싫어'라고 했는데, '뭐가 문제야? 다들 재밌어하는데'라고만 하더라고요."
+      "text": "아니요... 집에 있는 게 무서워요. 오빠가 언제 또 화낼지 모르니까 항상 눈치 보게 돼요."
     },
     {
-      "turn": 4,
+      "turn": 3,
       "speaker": "counselor",
-      "text": "자신의 불편함을 표현했는데 유진이가 진지하게 받아들이지 않았군요. 그럼 사진은 아직 올라가 있나요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "네... 계속 있어요. 좋아요도 계속 늘어나고... 정말 스트레스받아요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "사진이 계속 올라가 있고 반응도 늘어나니까 더 불안하고 스트레스받으시겠어요. 지금 가장 원하는 게 무엇인가요?",
+      "text": "자신의 집에서조차 안전하지 않고, 끊임없이 긴장 상태에 있는 거군요. 이건 매우 심각한 상황이에요. 신체적 상처를 입은 적도 있나요?",
       "technique": [
         "empathy",
-        "emotion_labeling",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "일단 그 사진들을 내려줬으면 좋겠어요. 그리고 앞으로는 허락 없이 사진 올리지 말아 달라고 하고 싶고요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "명확한 두 가지 요구사항이 있으시군요. 현재 사진 삭제와 앞으로의 동의 요청. 모두 정당한 요구예요. 유진이는 평소에 어떤 친구인가요?",
-      "technique": [
-        "summarization",
         "validation",
         "open_question"
       ]
     },
     {
-      "turn": 7,
+      "turn": 4,
       "speaker": "client",
-      "text": "원래 친했어요. 근데 좀... 소셜미디어에 집착하는 편이에요. 맨날 인스타 스토리 올리고, 좋아요 많이 받으려고 하고..."
+      "text": "멍든 적은 있어요. 그런데 부모님께 보여드려도 '오빠가 일부러 그런 건 아닐 거야' 하시면서... 오빠한테는 '조심해라' 정도만 말씀하세요."
     },
     {
-      "turn": 7,
+      "turn": 4,
       "speaker": "counselor",
-      "text": "유진이가 소셜미디어 활동을 중요하게 생각하는 사람이군요. 그렇다면 당신의 불편함보다 자신의 소셜미디어 콘텐츠를 우선시했을 수 있겠네요. 이런 일이 이번이 처음인가요?",
-      "technique": [
-        "restatement",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "사실 전에도 몇 번 있었어요. 근데 이번이 제일 심해요. 예전에는 그냥 넘어갔는데..."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "반복되는 패턴이었군요. 이전에는 넘어갔지만 이번에는 더 이상 참기 어렵다는 거죠. 왜 이전에는 넘어가셨나요?",
+      "text": "분명한 증거가 있어도 제대로 대처하지 않으시는군요. 부모님은 왜 그렇게 반응하신다고 생각하세요?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 9,
+      "turn": 5,
       "speaker": "client",
-      "text": "사소한 거로 싸우기 싫어서요. 그리고 제가 예민한 건가 싶기도 하고... 근데 이번엔 정말 심했어요."
+      "text": "오빠가 대학 입시 때문에 스트레스받고 있어서... 그걸 이해해주라는 것 같아요. 저도 수험생인데 제 스트레스는 신경 안 쓰시면서요."
     },
     {
-      "turn": 9,
+      "turn": 5,
       "speaker": "counselor",
-      "text": "갈등을 피하고 싶었고, 자신의 감정을 의심하기도 하셨군요. 하지만 이번에는 선을 넘었다고 느끼시는 거죠. 사진을 동의 없이 올리는 건 예민한 게 아니라 정당한 경계예요. 이해되시나요?",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
-        "reflection",
+        "empathy",
+        "validation"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "네. 왜 제 피해는 중요하지 않은 건지... 오빠의 스트레스가 저한테 폭력을 휘둘러도 되는 이유가 되나요?"
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "절대 아니에요. 어떤 이유도 폭력을 정당화할 수 없어요. 당신이 겪는 건 가정 내 폭력이고, 이건 명백한 문제예요.",
+      "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 10,
+      "turn": 7,
       "speaker": "client",
-      "text": "정말요? 제가 너무 민감한 건 아닐까 계속 생각했거든요."
+      "text": "가정 내 폭력... 그렇게까지 심각한 건가요? 그냥 형제 싸움 아니에요?"
     },
     {
-      "turn": 10,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "자신의 이미지와 초상권은 본인이 통제할 권리가 있어요. 동의 없이 사진을 올리는 건 그 권리를 침해하는 거예요. 불편함을 느끼는 게 당연해요. 이제 유진이에게 어떻게 이야기할지 생각해볼까요?",
-      "technique": [
-        "information_giving",
-        "validation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "또 카톡으로 할까요? 근데 이미 한번 무시했는데..."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "카톡으로는 진지함이 덜 전달될 수 있어요. 이번에는 직접 만나서 이야기하는 게 어떨까요? 얼굴을 보고 이야기하면 당신이 얼마나 진지한지 전달될 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "직접요? 무섭긴 한데... 그게 나을까요?"
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "두렵다는 건 이해해요. 하지만 중요한 대화는 직접 하는 게 효과적이에요. 함께 어떻게 이야기할지 준비해볼까요? 어떤 내용을 전달하고 싶으세요?",
-      "technique": [
-        "validation",
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "그 사진들이 저를 너무 불편하게 한다는 것, 당장 내려달라는 것, 그리고 앞으로는 제 허락을 받고 올려달라는 거요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "세 가지를 명확하게 정리하셨네요. 이걸 전달할 때 '나 전달법'을 사용하면 좋아요. '너는 왜 그랬어?'보다 '나는 이렇게 느꼈어'라고 말하는 거죠. 어떻게 말할 수 있을까요?",
-      "technique": [
-        "encouragement",
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "음... '나는 네가 내 허락 없이 사진을 올려서 정말 불편하고 창피했어. 그 사진들 내려줬으면 좋겠어. 그리고 앞으로는 내 허락을 받아줘' 이런 식인가요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "완벽해요! 비난하지 않으면서도 자신의 감정과 요구를 명확히 전달하셨어요. 그리고 한 가지 더, 유진이가 방어적으로 나오거나 '뭐가 문제야?'라고 하면 어떻게 대응하실 건가요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "음... 잘 모르겠어요. 어떻게 해야 할까요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "'네가 문제라고 생각 안 해도, 나는 정말 불편해. 내 사진이니까 내가 결정할 권리가 있어'라고 단호하게 말할 수 있어요. 상대가 어떻게 생각하든, 자신의 경계는 지킬 권리가 있어요.",
+      "text": "형제 싸움과 폭력은 다릅니다. 일방적이고, 반복적이고, 두려움을 느끼게 한다면 그건 폭력이에요. 당신이 집에서 안전하지 않다고 느낀다는 것 자체가 심각한 신호예요.",
       "technique": [
         "information_giving",
         "validation"
       ]
     },
     {
-      "turn": 16,
+      "turn": 8,
       "speaker": "client",
-      "text": "단호하게... 할 수 있을까요? 저 원래 말을 세게 못하는데..."
+      "text": "그렇구나... 그럼 어떻게 해야 하죠? 부모님은 안 도와주시는데..."
     },
     {
-      "turn": 16,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "단호함은 공격성이 아니에요. 차분하지만 명확하게 자신의 입장을 지키는 거예요. 연습해볼까요? 제가 유진이 역할을 해볼게요. 한번 말씀해보세요.",
+      "text": "여러 방법이 있어요. 먼저, 학교 상담 선생님이나 보건 선생님께 도움을 요청할 수 있어요. 혹은 청소년 상담기관에 연락할 수도 있고요.",
       "technique": [
         "information_giving",
         "structuring"
       ]
     },
     {
-      "turn": 17,
+      "turn": 9,
       "speaker": "client",
-      "text": "(연습) 유진아, 나 네가 내 사진 올린 거 정말 불편해. 내려줘."
+      "text": "학교 선생님께 말하면... 부모님이 알게 되고, 그러면 더 큰 문제가 생길 것 같은데요."
     },
     {
-      "turn": 17,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "(유진이 역할) 뭐가 문제야? 다들 재밌어하잖아. 너무 예민한 거 아니야?",
+      "text": "그런 걱정이 드는 거네요. 하지만 지금처럼 계속 당하는 것보다는 도움을 받는 게 중요해요. 전문가들은 당신의 안전을 최우선으로 고려할 거예요.",
       "technique": [
-        "structuring"
+        "empathy",
+        "information_giving"
       ]
     },
     {
-      "turn": 18,
+      "turn": 10,
       "speaker": "client",
-      "text": "아니야, 나는 정말 불편해. 내 사진이니까 내가 결정할 권리가 있어. 꼭 내려줘."
+      "text": "제 안전을... 생각해본 적 없었어요. 그냥 참으면 되는 줄 알았어요."
     },
     {
-      "turn": 18,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "(상담사로 돌아옴) 아주 잘하셨어요! 감정적이지 않으면서도 단호했어요. 이런 식으로 하시면 돼요. 어떤 느낌이 드세요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "생각보다... 할 만한 것 같아요. 연습하니까 덜 무섭네요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "연습이 자신감을 줬군요. 실제 상황에서도 이렇게 하시면 돼요. 그리고 만약 유진이가 계속 거부하면 어떻게 하실 건가요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "음... 어떻게 해야 할까요? 포기해야 하나요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "포기할 필요는 없어요. 소셜미디어 플랫폼에는 신고 기능이 있어요. 본인 동의 없이 올라간 사진은 신고하면 삭제될 수 있어요. 그리고 계속 거부한다면 그 관계가 진짜 건강한 우정인지 생각해봐야 할 수도 있고요.",
-      "technique": [
-        "information_giving",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "신고 기능이 있는 줄 몰랐어요. 그걸 마지막 수단으로 쓸 수 있겠네요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "맞아요. 먼저 대화로 해결하려고 시도하고, 안 되면 다른 방법을 쓰는 거죠. 그리고 이번 일을 계기로 앞으로 사진을 찍을 때 서로 동의를 구하는 문화를 만들 수도 있어요. 어떻게 생각하세요?",
+      "text": "참는 게 해결책이 아니에요. 이대로 가면 당신의 정신 건강에 심각한 영향을 줄 수 있어요. 이미 불안과 두려움을 겪고 있잖아요.",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 22,
+      "turn": 11,
       "speaker": "client",
-      "text": "좋은 생각이에요. 친구들끼리 그런 규칙 같은 걸 정하면 되겠네요."
+      "text": "맞아요. 밤에 잠도 잘 안 오고, 학교에서도 집중이 안 돼요. 항상 불안해요."
     },
     {
-      "turn": 22,
+      "turn": 11,
       "speaker": "counselor",
-      "text": "정확해요. 서로의 경계를 존중하는 문화를 만드는 거죠. 그럼 언제 유진이와 이야기해볼 계획인가요?",
+      "text": "이미 트라우마 증상이 나타나고 있어요. 이건 빨리 개입이 필요한 상황이에요. 당장 할 수 있는 것부터 시작해볼까요?",
       "technique": [
-        "encouragement",
-        "closed_question"
+        "emotion_labeling",
+        "structuring"
       ]
     },
     {
-      "turn": 23,
+      "turn": 12,
       "speaker": "client",
-      "text": "내일... 점심시간에 만나서 이야기해볼게요."
+      "text": "네... 뭘 해야 할까요?"
     },
     {
-      "turn": 23,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "구체적인 계획을 세우셨네요. 훌륭해요. 대화하기 전에 우리가 연습한 내용을 한번 더 떠올려보세요. 준비된 느낌이 드시나요?",
+      "text": "첫째, 증거를 남기세요. 오빠가 폭력을 휘두르거나 욕할 때 날짜와 내용을 기록하고, 상처가 있으면 사진을 찍어두세요. 이게 나중에 도움이 될 수 있어요.",
       "technique": [
-        "encouragement",
-        "closed_question"
+        "information_giving",
+        "structuring"
       ]
     },
     {
-      "turn": 24,
+      "turn": 13,
       "speaker": "client",
-      "text": "네, 이제 할 수 있을 것 같아요. 떨리긴 하지만..."
+      "text": "증거를 남긴다... 그런 생각은 못 했어요. 그 다음은요?"
     },
     {
-      "turn": 24,
+      "turn": 13,
       "speaker": "counselor",
-      "text": "떨리는 건 자연스러워요. 중요한 대화니까요. 하지만 자신의 경계를 지키는 건 정말 중요한 일이에요. 잘하실 거예요. 대화 후에 어떻게 됐는지 궁금하네요. 필요하면 다시 오세요.",
+      "text": "둘째, 위험할 때 피할 수 있는 안전한 장소를 확보하세요. 친구 집이나 친척 집, 아니면 방문에 잠금장치를 하는 것도 방법이에요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "안전한 장소... 친한 친구 집이 있긴 해요. 친구 부모님께 사정을 말씀드리면 도와주실 것 같아요."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "폭력이라고 분명히 말한다... 부모님이 화내시지 않을까요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "validation",
+        "structuring",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "외부에 도움 요청... 그 말이 부모님을 움직이게 할 수도 있겠네요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "네. 그리고 오빠와는 최대한 접촉을 줄이세요. 같은 공간에 있어야 한다면 부모님이 있을 때만 있고요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "오빠 피하기... 근데 집이 좁아서 쉽지 않을 것 같아요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "어렵겠지만 최대한 노력해보세요. 그리고 오빠가 화났을 때는 절대 맞서지 말고 그 자리를 피하세요. 당신의 안전이 가장 중요해요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "맞서지 않기... 사실 가끔은 대들었는데, 그러면 더 심해지더라고요."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "맞아요. 폭력적인 사람에게 맞서는 건 위험해요. 지금은 자신을 보호하는 게 우선이에요. 그리고 혹시 1388 청소년전화 알고 계세요?",
+      "technique": [
+        "validation",
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "들어본 것 같아요. 그게 뭐예요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "청소년을 위한 24시간 상담 전화예요. 위급할 때 언제든 전화할 수 있고, 가정 폭력에 대한 도움도 받을 수 있어요. 번호를 저장해두세요.",
+      "technique": [
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "24시간이요? 그럼 밤에 무서울 때도 전화할 수 있겠네요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "맞아요. 혼자가 아니에요. 도움을 받을 수 있는 곳이 많아요. 그리고 정말 위험하다고 느끼면 112에 신고하는 것도 주저하지 마세요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "112까지... 그 정도로 심각한 거군요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "네. 가정 내 폭력도 범죄예요. 당신은 보호받을 권리가 있어요. 이건 참고 넘어갈 문제가 아니에요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "제가 보호받을 권리가 있다... 처음으로 그렇게 생각해보네요."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "당연한 권리예요. 그리고 이 모든 게 당신 잘못이 아니에요. 오빠의 폭력은 오빠의 책임이고, 부모님의 무관심도 부모님의 문제예요.",
+      "technique": [
+        "validation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "제 잘못이 아니라... 그동안 제가 뭔가 잘못해서 오빠가 화내는 줄 알았어요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "많은 피해자가 그렇게 생각해요. 하지만 폭력은 어떤 이유로도 정당화될 수 없어요. 이제 자신을 탓하는 걸 멈추고, 자신을 보호하는 데 집중하세요.",
+      "technique": [
+        "validation",
+        "information_giving",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "알겠어요. 정리하면, 증거 남기기, 안전한 장소 확보, 부모님께 다시 말씀드리기, 외부 도움 요청하기... 이렇게 하면 되는 거죠?"
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "정확해요. 그리고 한 가지 더, 자신의 감정을 돌보세요. 필요하면 상담을 계속 받고, 안전해질 때까지 지원을 받으세요.",
+      "technique": [
         "encouragement",
         "structuring"
       ]
@@ -368,21 +355,44 @@
     {
       "turn": 25,
       "speaker": "client",
-      "text": "감사합니다, 선생님. 용기 얻었어요!"
+      "text": "네, 계속 도움받을게요. 혼자 해결하려고 하지 않을게요."
     },
     {
       "turn": 25,
       "speaker": "counselor",
-      "text": "그 용기 잘 간직하세요. 응원하겠습니다!",
+      "text": "잘 결심하셨어요. 이 상황이 빨리 해결되길 바라요. 그리고 다시 한번 말하지만, 당신은 안전할 자격이 있어요.",
       "technique": [
-        "encouragement"
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "감사합니다. 용기를 얻었어요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "언제든 위험하다고 느끼면 주저하지 말고 도움을 요청하세요. 제가 드린 번호들 꼭 저장하시고요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "네, 지금 바로 저장할게요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "잘 하셨어요. 다음에 만날 때 상황이 나아졌길 바랄게요. 안전하게 지내세요.",
+      "technique": [
+        "encouragement",
+        "validation"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "17세",
-    "gender": "남성",
-    "occupation": "고등학교 2학년",
-    "background": "친한 친구와의 오해로 인한 관계 악화"
-  }
+  ]
 }

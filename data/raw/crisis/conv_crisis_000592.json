@@ -1,24 +1,29 @@
 {
-  "category": "crisis",
+  "metadata": {
+    "category": "crisis",
+    "topic": "심각한 불안 발작",
+    "total_turns": 26,
+    "generated_at": "2025-12-18T07:14:32.809277+00:00"
+  },
   "client_profile": {
-    "age": "19",
-    "gender": "여성",
-    "occupation": "대학교 1학년",
-    "background": "최근 자해 충동이 심해짐, 과거 자해 경험 있음, 현재 극심한 스트레스 상태"
+    "age": "22세",
+    "gender": "남성",
+    "occupation": "대학생",
+    "background": "심각한 불안 발작 관련 상담"
   },
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 저 요즘 너무 힘들어요. 자꾸 이상한 생각이 나요."
+      "text": "더 이상 못 버티겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "오셔서 이야기해주셔서 감사해요. 이상한 생각이라고 하셨는데, 조금 더 구체적으로 말씀해 주실 수 있을까요?",
+      "text": "안녕하세요. 편하게 말씀해 주세요. 더 이상 못 버티겠어요....라고 하셨는데, 어떤 일이 있었나요?",
       "technique": [
         "empathy",
-        "clarification"
+        "open_question"
       ]
     },
     {
@@ -57,7 +62,7 @@
     {
       "turn": 4,
       "speaker": "counselor",
-      "text": "일주일 전에 자해를 하셨군요. 용기 내서 말씀해 주셔서 감사해요. 지금 상처 상태는 어떠세요? 치료가 필요한 정도인가요?",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
       "technique": [
         "validation",
         "clarification"
@@ -85,7 +90,7 @@
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "자해 충동이 반복적으로 생기니 힘들고 혼란스러우실 거예요. 혹시 어떤 상황에서 그런 생각이 특히 많이 드세요?",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "empathy",
         "open_question"
@@ -197,7 +202,7 @@
     {
       "turn": 14,
       "speaker": "counselor",
-      "text": "친구분을 배려하시는 마음이 느껴져요. 그런데 만약 반대로 그 친구가 이런 상황이었다면, 말해줬으면 좋겠다고 생각하지 않으실까요?",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "validation",
         "confrontation"
@@ -370,13 +375,5 @@
         "encouragement"
       ]
     }
-  ],
-  "generated_at": "2024-12-17T00:00:00.000Z",
-  "conversation_id": "CRI_20251218_0592",
-  "metadata": {
-    "generated_at": "2025-12-18T05:18:08.658362+00:00",
-    "model": "claude-sonnet-4-5",
-    "seed_category": "crisis",
-    "generator": "claude_code_direct"
-  }
+  ]
 }

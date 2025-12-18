@@ -1,37 +1,27 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "학원 스트레스",
-    "total_turns": 27,
-    "quality_indicators": [
-      "reflection",
-      "empathy",
-      "open_question",
-      "emotion_labeling",
-      "validation",
-      "closed_question",
-      "information_giving",
-      "interpretation"
-    ]
+    "topic": "가족 갈등과 부모와의 소통",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:26.250299+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0007_친구배신비밀",
-    "category": "adolescent",
-    "topic": "학원 스트레스"
+  "client_profile": {
+    "age": "18세",
+    "gender": "여성",
+    "occupation": "고등학교 3학년",
+    "background": "가족 갈등과 부모와의 소통 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:37.483112+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님... 제일 믿었던 친구가 저를 배신했어요. 정말 최악이에요."
+      "text": "선생님... 요즘 너무 힘들어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "가장 믿었던 친구에게 배신당했다고 느끼시는군요. 지금 많이 힘드시겠어요. 무슨 일이 있었는지 말씀해주시겠어요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
       "technique": [
-        "reflection",
         "empathy",
         "open_question"
       ]
@@ -39,329 +29,381 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "제가 은지한테만 말했던 비밀을... 반 애들이 다 알고 있었어요. 은지가 퍼뜨린 거예요."
+      "text": "입사한 지 6개월 정도 됐는데요, 팀 분위기에 적응이 잘 안 되는 것 같아요. 다들 친한데 저만 겉도는 느낌이랄까요. 점심시간에도 혼자 먹을 때가 많고..."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "은지에게만 털어놓았던 개인적인 이야기가 다른 친구들에게 알려졌군요. 어떻게 알게 되셨나요?",
+      "text": "6개월 동안 팀에서 겉도는 느낌을 받으셨군요. 혼자 점심을 드실 때 어떤 마음이 드셨나요?",
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "처음엔 '적응 기간이겠지' 했는데, 시간이 지나도 계속 이러니까 '내가 뭔가 문제가 있나?' 하는 생각이 들어요. 다른 사람들은 금방 친해지던데 저만 안 되니까 자존감도 떨어지고..."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "시간이 지나도 상황이 나아지지 않으니 자신에게 문제가 있는 건 아닐까 의심하게 되셨네요. 그런 생각이 들 때 자존감도 많이 낮아지셨을 것 같아요. 팀 동료들과 관계를 맺으려고 시도해 보신 적은 있으세요?",
+      "technique": [
+        "empathy"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "시도는 해봤어요. 먼저 말 걸어보기도 하고, 회식 때도 열심히 참여하려고 했는데... 뭔가 대화가 잘 안 이어지더라고요. 제가 말하면 분위기가 어색해지는 느낌? 그래서 요즘은 아예 말을 줄이게 돼요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "나름대로 노력을 많이 하셨네요. 그런데 대화가 이어지지 않는 경험을 반복하다 보니 이제는 말을 줄이게 되셨군요. 구체적으로 어떤 상황에서 대화가 어색해진다고 느끼셨는지 예를 들어주실 수 있을까요?",
       "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 3,
+      "turn": 5,
       "speaker": "client",
-      "text": "다른 반 애들이 저 보고 수군거리는 소리를 들었어요. '쟤가 그 애구나', '진짜 그랬대' 이런 식으로... 너무 창피했어요."
+      "text": "예를 들면... 다들 주말에 뭐 했는지 얘기할 때, 저는 주로 집에서 쉬거나 넷플릭스 본 게 다라서 할 말이 별로 없어요. 동료들은 등산 갔다, 골프 쳤다, 친구들 만났다 하는데... 제 얘기는 재미없어 보이더라고요."
     },
     {
-      "turn": 3,
+      "turn": 5,
       "speaker": "counselor",
-      "text": "사람들의 수군거림을 직접 들으셨군요. 사적인 일이 공개적으로 이야기되는 걸 경험하셨을 때 어떤 기분이 드셨나요?",
+      "text": "다른 분들의 활동적인 이야기에 비해 본인의 주말이 재미없어 보인다고 느끼셨네요. 그런데 궁금한 게 있어요. 집에서 쉬거나 넷플릭스를 보는 게 정말 재미없는 일이었나요, 아니면 다른 사람들이 그렇게 생각할까 봐 걱정되셨던 건가요?",
       "technique": [
         "reflection",
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "client",
+      "text": "아... 그렇게 생각해본 적은 없는데요. 사실 저는 집에서 쉬는 게 좋긴 해요. 근데 그걸 말하면 '너무 집순이네', '재미없겠다' 이런 반응이 돌아올 것 같아서... 맞아요, 걱정이 컸던 것 같아요."
+    },
+    {
+      "turn": 6,
+      "speaker": "counselor",
+      "text": "중요한 걸 알아차리셨네요. 본인은 집에서 쉬는 걸 좋아하시는데, 다른 사람들의 부정적 평가가 두려워서 그 이야기를 하지 못하셨던 거군요. 그렇게 자신의 모습을 숨기고 대화할 때 어떤 느낌이 드세요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "음... 불편하죠. 솔직하지 못한 것 같고, 가면 쓴 것 같은 느낌? 그래서 더 대화가 어색한 건지도 모르겠어요. 근데 진짜 제 모습을 보여주면 더 싫어할 것 같은데 어떻게 해야 할지 모르겠어요."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "생각해보니... 학창시절에도 비슷했던 것 같아요. 친구들이랑 어울리긴 했는데 항상 제가 맞춰주는 느낌이었어요. 제 의견보다는 다른 애들 의견 따라가고. 그래야 싫어하지 않을 것 같아서요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "오래전부터 관계에서 자신을 내려놓고 상대에게 맞춰왔던 패턴이 있었네요. 그렇게 하면 싫어하지 않을 거라고 믿으셨는데, 지금 돌이켜보면 그 방식이 진짜 친밀한 관계를 만드는 데 도움이 됐나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "아니요... 사실 친하다고 생각했던 친구들도 진짜 저를 알았던 건 아닌 것 같아요. 제가 힘들 때 연락할 사람도 없고. 그냥 겉으로만 어울렸던 거죠. 이제 보니 제가 계속 이런 식으로 살아온 것 같네요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "큰 통찰을 하셨어요. 거절당하지 않으려고 자신을 숨기고 맞춰왔지만, 결과적으로는 진정한 연결을 만들지 못했다는 걸 알아차리셨네요. 그럼 이제 어떻게 하고 싶으세요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "솔직해지고 싶어요. 근데 무섭기도 해요. 진짜 제 모습을 보여줬는데 거절당하면 어떡하죠? 지금도 외로운데 더 외로워질까 봐..."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "변화에 대한 두려움이 크시네요. 그건 자연스러운 감정이에요. 그런데 한 가지 여쭤볼게요. 지금 가면을 쓰고 겉도는 외로움과, 진짜 모습을 보여줬을 때의 외로움은 어떻게 다를까요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "음... 지금은 제가 노력 안 해서 외로운 건가 하는 자책이 있어요. 근데 진짜 모습을 보여주고 나서라면... 적어도 최선을 다했다는 마음은 들 것 같아요. 그리고 혹시 받아주는 사람이 있다면 그게 진짜 관계겠죠."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "정말 중요한 차이를 발견하셨어요. 진정성을 가지고 관계를 맺는 것과, 거절이 두려워 자신을 숨기는 것의 차이를요. 그럼 작은 것부터 시도해볼 수 있을까요? 직장에서 조금씩 진짜 모습을 보여주는 연습을 해보는 건 어떨까요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "구체적으로 어떻게 해야 할까요? 갑자기 달라지면 이상하게 보일 것 같기도 하고..."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그 정도면 할 수 있을 것 같아요. 사실 제가 요즘 본 드라마 정말 재밌었거든요. 그것도 이야기 거리가 될 수 있겠네요. 근데 만약 반응이 별로면요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "반응이 별로일 수도 있어요. 그런데 그건 당신이 잘못해서가 아니라 단지 취향이 다른 거예요. 모든 사람과 맞을 순 없잖아요. 중요한 건 당신이 진정성 있게 다가갔다는 거예요. 그리고 혹시 그 드라마를 좋아하는 동료가 있다면 그게 연결의 시작이 될 수도 있고요.",
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "맞는 말씀이에요. 제가 너무 모든 사람한테 좋은 사람이 되려고 했던 것 같아요. 그게 불가능한 건데... 그리고 생각해보니 팀에 한 명 정도는 저랑 비슷하게 조용한 사람도 있거든요."
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "오, 그 분도 눈에 들어오기 시작하셨네요. 전에는 왜 그 분이 보이지 않으셨을까요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "아마도... 제가 활발한 사람들한테만 인정받으려고 했던 것 같아요. 그 사람들이 중심이니까. 근데 조용한 동료분도 좋은 사람일 수 있는데 제가 무시한 거네요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "또 하나의 중요한 깨달음이에요. 모두에게 인정받을 필요도 없고, 조용한 관계도 충분히 가치 있다는 것을요. 그 동료분께 먼저 다가가보는 건 어떨까요? 비슷한 성향을 가진 분이라면 더 편안한 관계를 만들 수 있을 것 같은데요.",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "그분한테는 부담 없이 말 걸 수 있을 것 같아요. 이번 주에 한번 점심 같이 먹자고 해볼게요. 그리고 제 얘기도 솔직하게 해보고요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "좋은 계획이네요. 실천하시고 나서 어떤 일이 일어나든, 다음 상담 때 함께 나눠보면 좋겠어요. 성공하든 실패하든 그 경험에서 배울 게 있을 거예요. 오늘 상담하면서 어떤 생각이나 느낌이 드셨나요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "제가 왜 계속 외로웠는지 조금 이해가 됐어요. 제 자신을 숨기고 살았으니까요. 그리고 모든 사람한테 잘 보일 필요 없다는 것도요. 아직 두렵긴 한데, 뭔가 희망이 생긴 것 같아요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "네, 감사합니다. 상담 받길 정말 잘한 것 같아요. 혼자였으면 계속 자책만 했을 텐데..."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "용기 내어 찾아와 주셔서 제가 더 감사해요. 스스로를 돌아보고 변화하려는 의지가 있으시니 분명 좋은 변화가 있을 거예요. 다음 주 같은 시간에 뵐까요?",
+      "technique": [
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "네, 그때 뵙겠습니다. 이번 주 열심히 실천해볼게요!"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "응원하겠습니다. 완벽하게 하려고 하지 마시고, 작은 시도 하나하나가 소중한 거예요. 다음 주에 어떤 이야기를 들려주실지 기대하고 있을게요. 수고하셨어요.",
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "client",
+      "text": "감사합니다, 선생님. 안녕히 계세요."
+    },
+    {
+      "turn": 20,
+      "speaker": "counselor",
+      "text": "네, 안녕히 가세요. 힘든 순간이 있으면 오늘 나눈 이야기들을 떠올려 보세요.",
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
+      "technique": [
         "open_question",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "창피하고 화나고... 배신당한 기분이요. 은지한테만 말했는데 어떻게 이럴 수가 있어요?"
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "수치심, 분노, 배신감... 여러 감정들이 한꺼번에 느껴지시는군요. 그 비밀은 어떤 내용이었나요? 말씀하시기 편한 범위에서요.",
-      "technique": [
-        "emotion_labeling",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "제가... 부모님이 이혼하셨거든요. 그걸 은지한테만 말했어요. 다른 애들한테는 절대 알리고 싶지 않았는데..."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "매우 사적이고 민감한 가족 이야기였군요. 그런 중요한 비밀을 은지와만 나눴는데 배신당했다고 느끼시니 상처가 클 수밖에 없겠어요.",
-      "technique": [
-        "reflection",
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "네... 은지는 제 제일 친한 친구였어요. 5년이나 친했는데 어떻게 이럴 수가 있죠?"
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "5년이라는 긴 시간 동안 쌓아온 신뢰가 한순간에 무너진 느낌이시겠어요. 은지와는 이야기 나눠보셨나요?",
-      "technique": [
-        "empathy",
-        "validation",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "아니요. 얼굴도 보기 싫어요. 은지가 카톡도 하고 말 걸려고 했는데 다 무시했어요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "너무 화가 나서 대화 자체를 거부하고 계시는군요. 은지는 뭐라고 말하려고 했나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "카톡으로 미안하다고, 설명하고 싶다고 했어요. 근데 무슨 설명이 필요해요? 비밀 지키기로 했는데 퍼뜨린 게 사실이잖아요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "은지의 사과나 설명을 들을 마음의 여유가 없으시군요. 분노가 너무 커서 다른 건 들리지 않는 상태인 것 같아요. 그 마음 충분히 이해해요.",
-      "technique": [
-        "reflection",
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "맞아요. 지금은 은지 생각만 해도 화가 치밀어요. 어떻게 5년 우정을 이렇게 쉽게 버릴 수가 있어요?"
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "5년 우정의 가치를 은지가 무시했다고 느끼시는군요. 혹시 은지가 왜 그랬을지에 대해 생각해보신 적 있나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "글쎄요... 모르겠어요. 재미로? 아니면 다른 애들한테 잘 보이려고?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "은지의 동기를 추측하고 계시지만 확실하지는 않으시군요. 은지의 설명을 듣지 않으면 정확한 이유는 알 수 없을 것 같아요. 물론 이유가 뭐든 당신이 느끼는 상처는 정당해요.",
-      "technique": [
-        "reflection",
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "이유가 뭐든 상관없어요. 비밀을 지키지 않은 건 사실이니까요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "비밀이 지켜지지 않았다는 사실 자체에 집중하고 계시는군요. 그건 분명히 문제가 있는 일이에요. 지금 학교생활은 어떠세요? 다른 친구들의 반응은요?",
-      "technique": [
-        "reflection",
-        "validation",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "학교 가기 싫어요. 다들 저를 이상하게 볼 것 같아서... 실제로 몇몇 애들이 동정하는 눈빛으로 봐요. 그게 더 싫어요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "동정받는 것도 불편하시군요. 평소처럼 대해주길 원하지만 이미 상황이 바뀌어버렸다고 느끼시네요.",
-      "technique": [
-        "reflection",
         "empathy"
       ]
     },
     {
-      "turn": 13,
       "speaker": "client",
-      "text": "네... 제가 통제할 수 없는 상황이 된 것 같아요. 은지 때문에 제 사생활이 다 공개돼버렸어요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 13,
       "speaker": "counselor",
-      "text": "통제력을 잃은 느낌이 드시는군요. 자신에 대한 정보를 스스로 관리할 권리를 빼앗긴 것 같아서 더 힘드실 것 같아요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "reflection",
-        "interpretation",
+        "open_question",
         "empathy"
       ]
     },
     {
-      "turn": 14,
       "speaker": "client",
-      "text": "맞아요. 제가 언제 누구에게 말할지 정할 권리가 있었는데... 이제 다 알아버렸어요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 14,
       "speaker": "counselor",
-      "text": "당신의 권리가 침해당했어요. 그게 분노의 큰 이유 중 하나인 것 같아요. 이제 어떻게 하고 싶으세요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "validation",
-        "interpretation",
-        "open_question"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 15,
       "speaker": "client",
-      "text": "모르겠어요... 은지랑은 절대 다시 안 친하게 지낼 거예요. 근데 같은 반이라 얼굴은 봐야 하는데..."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 15,
       "speaker": "counselor",
-      "text": "관계를 끊고 싶지만 물리적으로 계속 마주쳐야 하는 상황이 곤란하시군요. 관계를 완전히 끝낼 건지, 아니면 다른 형태로 유지할 건지 고민되시나요?",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "reflection",
-        "clarification"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 16,
       "speaker": "client",
-      "text": "끝내고 싶어요. 근데... 5년이 아깝기도 해요. 그리고 사실 은지가 나쁜 애는 아니거든요. 이번 일만 빼면..."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 16,
       "speaker": "counselor",
-      "text": "복잡한 감정들이 공존하고 있군요. 화가 나지만 동시에 그동안의 시간도 소중했고, 은지의 좋은 면도 알고 계시네요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "네... 그래서 더 혼란스러워요. 화를 내야 하나, 용서해야 하나..."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "둘 중 하나를 선택해야 한다고 느끼시는군요. 하지만 화를 내는 것과 용서하는 것이 꼭 반대편에 있는 건 아니에요. 감정을 표현하면서도 대화의 문을 열 수는 있어요.",
-      "technique": [
-        "reflection",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "어떻게요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "은지에게 당신이 얼마나 상처받았는지, 배신감을 느꼈는지 솔직하게 말하는 거예요. 용서하겠다는 게 아니라 당신의 감정을 전달하는 거죠. 은지도 자신의 행동이 어떤 결과를 낳았는지 알 권리가 있어요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "말하면... 은지가 이해할까요?"
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "확실하게 말할 수는 없지만, 최소한 당신의 마음은 전달할 수 있어요. 그리고 은지의 설명도 들을 수 있고요. 진실한 대화 없이는 관계를 끝낼지 계속할지도 제대로 판단하기 어려워요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "그렇긴 하네요... 근데 만나면 뭐라고 시작해야 할지 모르겠어요."
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "첫 말을 꺼내기가 어렵게 느껴지시는군요. '내가 얼마나 상처받았는지 말하고 싶어. 그리고 네 이야기도 듣고 싶어'라고 시작할 수 있어요.",
-      "technique": [
-        "reflection",
-        "information_giving"
+        "open_question",
+        "empathy"
       ]
     },
     {
       "turn": 21,
       "speaker": "client",
-      "text": "그 정도면... 할 수 있을 것 같아요. 근데 선생님, 만약 은지가 대수롭지 않게 생각하면 어떡하죠?"
+      "text": "상담을 받으면 정말 나아질 수 있을까요?"
     },
     {
       "turn": 21,
       "speaker": "counselor",
-      "text": "진지하게 받아들이지 않을까봐 걱정되시는군요. 하지만 5년 우정이었다면 은지도 이 관계를 소중히 여길 거예요. 그리고 은지의 반응이 어떻든, 당신이 감정을 표현하는 것 자체가 중요해요.",
+      "text": "네, 많은 분들이 상담을 통해 변화를 경험하세요. 천천히 함께 해봐요.",
       "technique": [
-        "reflection",
-        "validation",
+        "encouragement",
         "information_giving"
       ]
     },
     {
       "turn": 22,
       "speaker": "client",
-      "text": "제 감정을 표현하는 게 중요하다는 말씀이시죠?"
+      "text": "다음에는 뭘 이야기하면 될까요?"
     },
     {
       "turn": 22,
       "speaker": "counselor",
-      "text": "정확히 이해하셨어요. 감정을 억누르면 분노만 커져요. 표현하면 적어도 당신은 시원해질 수 있어요.",
+      "text": "편하게 그때 마음에 있는 이야기를 해주시면 돼요. 준비된 것 없어도 괜찮아요.",
       "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "알겠어요. 한번 해볼게요. 근데... 다시 친해질 수 있을까요?"
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "그건 대화를 나눠봐야 알 수 있을 것 같아요. 어떤 관계든 신뢰가 깨졌을 때 회복하려면 시간과 노력이 필요해요. 은지가 진심으로 사과하고 변화를 보여준다면 가능할 수도 있어요.",
-      "technique": [
-        "information_giving",
+        "structuring",
         "validation"
       ]
     },
     {
+      "turn": 23,
+      "speaker": "client",
+      "text": "혼자서는 어떻게 해야 할지 모르겠어요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "혼자 해결하려고 하지 않으셔도 돼요. 함께 방법을 찾아볼게요.",
+      "technique": [
+        "empathy",
+        "encouragement"
+      ]
+    },
+    {
       "turn": 24,
       "speaker": "client",
-      "text": "신뢰를 다시 쌓는 게 쉽지는 않겠네요."
+      "text": "네, 그래요. 말씀하시니까 조금 마음이 놓이는 것 같아요."
     },
     {
       "turn": 24,
       "speaker": "counselor",
-      "text": "쉽지 않아요. 하지만 불가능하지도 않아요. 그리고 결과가 어떻든 대화를 시도하는 것 자체가 성숙한 태도예요.",
+      "text": "그렇게 느끼신다니 다행이에요. 앞으로 함께 해결해 나갈 수 있어요.",
       "technique": [
         "validation",
         "encouragement"
@@ -370,51 +412,16 @@
     {
       "turn": 25,
       "speaker": "client",
-      "text": "네... 해볼게요. 이번 주 중에 은지한테 얘기해볼게요."
+      "text": "선생님과 이야기하니까 마음이 좀 가벼워지는 것 같아요."
     },
     {
       "turn": 25,
       "speaker": "counselor",
-      "text": "용기 있는 결정이에요. 대화할 때 감정이 격해지면 잠시 멈추고 심호흡하는 것도 도움이 될 거예요. 차분하게 당신의 마음을 전달해보세요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "네, 선생님. 조언 감사합니다. 조금 마음이 정리된 것 같아요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "다행이에요. 배신감을 느끼는 건 정당하지만, 대화를 통해 진실을 확인하는 것도 중요해요. 다음 주에 어떻게 됐는지 함께 이야기 나눠봐요.",
+      "text": "그렇게 말씀해 주셔서 감사해요. 앞으로도 함께 이야기 나눠요.",
       "technique": [
         "validation",
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "네, 다음 주에 또 올게요. 결과가 어떻든 말씀드릴게요."
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "네, 기다릴게요. 어떤 결과가 나오든 당신이 용기 내서 대화를 시도한 것 자체가 의미 있어요. 응원할게요.",
-      "technique": [
-        "encouragement",
-        "validation"
+        "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "16세",
-    "gender": "남성",
-    "occupation": "고등학교 1학년",
-    "background": "과도한 학원 일정으로 인한 번아웃"
-  }
+  ]
 }

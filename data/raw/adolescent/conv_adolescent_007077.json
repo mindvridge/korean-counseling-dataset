@@ -1,391 +1,407 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "외모 고민",
-    "total_turns": 25,
-    "quality_indicators": [
-      "reflection",
-      "open_question",
-      "empathy",
-      "emotion_labeling",
-      "clarification",
-      "restatement",
-      "validation",
-      "closed_question"
-    ]
+    "topic": "자존감 저하와 외모 콤플렉스",
+    "total_turns": 27,
+    "generated_at": "2025-12-18T07:14:25.469303+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_또래관계_0001_친구갈등_7e3c9d",
-    "category": "adolescent",
-    "topic": "외모 고민"
+  "client_profile": {
+    "age": "15세",
+    "gender": "여성",
+    "occupation": "중학교 3학년",
+    "background": "자존감 저하와 외모 콤플렉스 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.643951+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "선생님, 요즘 너무 외로워요."
+      "text": "상담이 처음인데 뭘 말해야 할지 모르겠어요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "외로움을 느끼고 계시는군요. 무슨 일이 있었는지 이야기해주시겠어요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
+      "technique": [
+        "empathy",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 2,
+      "speaker": "client",
+      "text": "모든 게 불안해요. 모의고사 성적도 들쭉날쭉하고, 시간은 부족하고... 이대로 가면 목표 대학 못 갈 것 같아요."
+    },
+    {
+      "turn": 2,
+      "speaker": "counselor",
+      "text": "모의고사 성적의 불안정함과 시간 부족, 그리고 목표 달성에 대한 불안까지 여러 가지가 한꺼번에 몰려오는 느낌이시군요.",
       "technique": [
         "reflection",
-        "open_question",
-        "empathy"
+        "summarization"
       ]
     },
     {
-      "turn": 2,
+      "turn": 3,
       "speaker": "client",
-      "text": "제 단짝이었던 준호가 있는데요, 요즘 다른 애들하고만 놀아요. 저는 빼고요."
+      "text": "네... 얼마 전에는 갑자기 숨이 안 쉬어지고 심장이 너무 빨리 뛰어서 응급실 갔어요. 검사해봤는데 이상 없대요."
     },
     {
-      "turn": 2,
+      "turn": 3,
       "speaker": "counselor",
-      "text": "단짝이었던 친구가 다른 친구들과만 어울리니까 서운하고 외로우시겠어요. 언제부터 그런 느낌을 받으셨나요?",
+      "text": "공황발작 증상을 경험하셨네요. 신체적으로는 이상이 없지만 심리적 스트레스가 신체 증상으로 나타난 거예요. 그때 얼마나 무섭고 힘들었을까요.",
+      "technique": [
+        "emotion_labeling",
+        "empathy",
+        "validation"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "정말 무서웠어요. 죽는 줄 알았어요. 그 후로도 가끔 그런 느낌이 올 것 같아서 더 불안해요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "공황 증상 자체도 무섭지만, 또 그런 일이 생길까 봐 불안해하는 '예기불안'까지 겪고 있는 거네요. 그 증상은 얼마나 자주 느끼시나요?",
       "technique": [
         "empathy",
-        "emotion_labeling",
-        "clarification"
-      ]
-    },
-    {
-      "turn": 3,
-      "speaker": "client",
-      "text": "한 달 전쯤부터요. 준호가 축구부에 들어가면서 축구부 애들하고만 놀더라고요."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "준호가 축구부에 들어간 이후로 관계가 변화했다고 느끼시는군요. 그 전에는 어떤 사이였나요?",
-      "technique": [
-        "restatement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "초등학교 때부터 친했어요. 맨날 같이 다니고, 게임도 같이 하고... 근데 이제는 점심시간에도 축구부 애들이랑만 있어요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "오랜 시간 함께했던 친구인데, 갑자기 거리가 생긴 것 같아서 더 힘드시겠어요. 준호에게 그런 서운함을 표현해본 적이 있나요?",
-      "technique": [
-        "validation",
+        "interpretation",
         "closed_question"
       ]
     },
     {
       "turn": 5,
       "speaker": "client",
-      "text": "한번은 '너 요즘 나랑 안 놀잖아'라고 했더니, '무슨 소리야, 바빠서 그래'라고만 하더라고요."
+      "text": "실제로 공황까지는 아니지만 가슴이 답답하고 불안한 느낌은 거의 매일이요. 특히 모의고사 볼 때나 공부하다가 모르는 문제 나올 때..."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "서운함을 표현했는데 준호가 가볍게 넘어가니까 더 속상하고, 또 말하기도 어려워지는 것 같네요.",
+      "text": "시험 상황이나 어려운 문제를 마주했을 때 불안 증상이 심해지는군요. 그럴 때 어떻게 대처하고 계신가요?",
       "technique": [
-        "empathy",
-        "reflection"
+        "restatement",
+        "open_question"
       ]
     },
     {
       "turn": 6,
       "speaker": "client",
-      "text": "네... 그리고 사실 축구부 애들이 저를 좀 이상하게 봐요. 저는 운동 못하거든요."
+      "text": "그냥... 참아요. 계속 공부해야 하니까. 근데 집중이 안 되고 머리가 하얘져요. 시험 볼 때는 아는 문제도 틀리게 돼요."
     },
     {
       "turn": 6,
       "speaker": "counselor",
-      "text": "축구부 친구들과 어울리기 불편한 이유가 있었군요. 구체적으로 어떤 시선을 느끼셨나요?",
+      "text": "불안을 참으려고 하는데 오히려 집중력이 떨어지고 실수가 늘어나는 악순환이 일어나고 있네요. 이런 상태가 얼마나 지속됐나요?",
+      "technique": [
+        "reflection",
+        "interpretation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "한 3개월 정도? 여름방학 때부터 심해진 것 같아요. 주변에서 다들 수능 얼마 안 남았다고 하니까..."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "여름방학부터 시작해서 지금까지 약 3개월간 이런 상태로 지내왔군요. 주변의 압박도 불안을 가중시키는 요인이 되었을 것 같아요.",
+      "technique": [
+        "restatement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "client",
+      "text": "부모님도 매일 공부하라고, 수능 잘 봐야 한다고 말씀하세요. 저도 알아요. 근데 그 말 들으면 더 불안해져요."
+    },
+    {
+      "turn": 8,
+      "speaker": "counselor",
+      "text": "부모님의 격려가 오히려 압박으로 느껴지는 거네요. 혹시 부모님께 지금 느끼는 불안과 공황 증상에 대해 말씀드린 적 있나요?",
+      "technique": [
+        "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "응급실 간 건 아셨는데... 그냥 스트레스 때문이라고만 했어요. 심각하다고 하면 더 걱정하실까 봐요. 그리고 '정신 차리고 공부해'라는 말 들을까 봐도 무서워요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "부모님께 솔직한 마음을 표현하기 어려워서 혼자 감당하고 있었네요. 부모님의 반응에 대한 두려움도 있고요. 친구들이나 선생님께는 어떤가요?",
+      "technique": [
+        "empathy",
+        "reflection",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "client",
+      "text": "친구들도 다 힘들어해요. 저만 힘든 게 아니니까 괜히 불평하는 것 같아서... 선생님들은 바쁘시고요."
+    },
+    {
+      "turn": 10,
+      "speaker": "counselor",
+      "text": "주변 사람들도 각자 힘든 상황이라고 생각하니까 자신의 어려움을 표현하기 어려웠던 거네요. 혼자서 이 모든 걸 견뎌내려고 하셨군요.",
+      "technique": [
+        "reflection",
+        "empathy",
+        "validation"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "네... 그래서 더 힘든 것 같아요. 말할 데가 없으니까요. 밤에도 잠을 잘 못 자요. 자다가도 불안해서 깨고..."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "technique": [
+        "empathy",
+        "interpretation"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "맞아요. 낮에 졸리고 집중 안 되고... 그러면 공부가 안 되고, 또 불안해지고... 계속 이래요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "불안 → 수면 부족 → 집중력 저하 → 학습 부진 → 더 큰 불안. 이런 악순환 고리에 갇혀 있는 상황이네요. 이 고리를 끊기 위해서는 어디서부터 시작하면 좋을까요?",
+      "technique": [
+        "summarization",
+        "open_question",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "잘 모르겠어요... 공부를 더 열심히 해야 할 것 같은데, 그럴 여력이 없어요."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "지금 상태에서 공부량을 늘리는 건 오히려 역효과일 수 있어요. 먼저 불안을 관리하는 방법을 배워야 해요. 불안이 줄어들면 집중력이 높아지고 공부 효율도 좋아질 거예요.",
+      "technique": [
+        "information_giving",
+        "validation"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "불안을 관리한다는 게... 어떻게 하는 건가요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "여러 방법이 있는데, 우선 호흡법부터 배워볼까요? 불안할 때 호흡이 얕고 빨라지는데, 의도적으로 깊고 천천히 호흡하면 신체가 진정돼요. 복식호흡을 아시나요?",
+      "technique": [
+        "information_giving",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "배로 숨 쉬는 거요? 들어는 봤는데 제대로 해본 적은 없어요."
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "그럼 간단히 연습해볼까요? 코로 천천히 4초 동안 숨을 들이마시고, 4초 참았다가, 입으로 6초 동안 천천히 내쉬는 거예요. 배가 부풀어 오르고 꺼지는 걸 느껴보세요.",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "client",
+      "text": "(호흡 연습 후) 신기하네요. 조금 마음이 진정되는 것 같아요."
+    },
+    {
+      "turn": 16,
+      "speaker": "counselor",
+      "text": "잘하셨어요. 이걸 하루에 여러 번, 특히 불안할 때마다 해보세요. 5분만 해도 효과가 있어요. 그리고 또 하나, 지금 가장 걱정되는 게 뭔가요?",
+      "technique": [
+        "encouragement",
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "목표 대학을 못 갈까 봐요. 제가 원하는 대학은 최저 2등급인데, 이번 모의고사에서 3등급 나왔거든요."
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "technique": [
+        "reflection",
+        "validation",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "client",
+      "text": "무슨 말씀이신지...? 목표는 그냥 그 대학 가는 거예요."
+    },
+    {
+      "turn": 18,
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "technique": [
+        "information_giving",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "그럼 제 꿈을 포기하라는 건가요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "아니에요. 최선의 목표는 여전히 그 대학이에요. 하지만 만약 그게 안 되더라도 자신의 가치가 사라지는 건 아니라는 걸 인정하는 거예요. 대학이 인생의 전부는 아니니까요.",
       "technique": [
         "clarification",
-        "open_question"
+        "information_giving",
+        "validation"
       ]
     },
     {
-      "turn": 7,
+      "turn": 20,
       "speaker": "client",
-      "text": "제가 체육시간에 실수하면 웃고 그래요. 그리고 '너는 운동 안 하니까 몰라'이런 식으로 말하고..."
+      "text": "머리로는 알겠는데... 마음은 그렇지 않아요. 그 대학 가야 인생이 풀릴 것 같거든요."
     },
     {
-      "turn": 7,
+      "turn": 20,
       "speaker": "counselor",
-      "text": "그런 말들을 들으면 무시당하는 느낌이 들고, 그 그룹에 끼기가 더 어려워지겠어요. 준호는 그럴 때 어떤 반응을 보이나요?",
+      "text": "그 생각이 지금 큰 압박이 되고 있어요. '이 시험이 내 인생을 결정한다'는 생각 자체가 과도한 부담이에요. 실제로는 많은 길이 있어요. 이 생각을 조금씩 바꿔보는 게 필요해요.",
       "technique": [
-        "emotion_labeling",
-        "empathy",
-        "open_question"
+        "confrontation",
+        "information_giving"
       ]
     },
     {
-      "turn": 8,
+      "turn": 21,
       "speaker": "client",
-      "text": "그냥 같이 웃거나... 아무 말도 안 해요. 예전 같으면 저 편을 들어줬을 텐데..."
+      "text": "쉽지 않을 것 같아요. 어릴 때부터 그렇게 생각해왔는걸요."
     },
     {
-      "turn": 8,
+      "turn": 21,
       "speaker": "counselor",
-      "text": "준호가 자신을 지켜주지 않는다는 느낌에 배신감도 느껴지시는군요.",
-      "technique": [
-        "emotion_labeling",
-        "empathy"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "맞아요. 진짜 배신당한 기분이에요. 우리 그렇게 오래 친했는데..."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "그 배신감과 외로움이 정말 크시겠어요. 지금 가장 힘든 부분은 무엇인가요?",
+      "text": "오랫동안 가지고 있던 생각을 바꾸는 건 쉽지 않죠. 하지만 가능해요. 천천히, 하나씩 해나가면 돼요. 일단 지금은 불안 관리부터 시작해볼까요?",
       "technique": [
         "validation",
-        "open_question"
+        "encouragement",
+        "structuring"
       ]
     },
     {
-      "turn": 10,
+      "turn": 22,
       "speaker": "client",
-      "text": "혼자라는 느낌이요. 학교에서 같이 어울릴 친구가 없어요. 준호 말고는 딱히 친한 애가 없었거든요."
+      "text": "네... 그게 먼저인 것 같긴 해요. 지금 상태로는 공부도 제대로 못 하니까요."
     },
     {
-      "turn": 10,
+      "turn": 22,
       "speaker": "counselor",
-      "text": "준호와의 관계에 많이 의존했었는데, 지금은 그 공백이 크게 느껴지는군요. 다른 친구들과 관계를 만들어본 적은 있나요?",
-      "technique": [
-        "restatement",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "시도는 했는데... 잘 안 돼요. 다들 이미 친한 애들끼리 그룹이 있잖아요."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "새로운 관계를 만들기가 쉽지 않았군요. 그런데 준호와의 우정은 어떻게 하고 싶으세요? 회복하고 싶은 마음이 있나요, 아니면 거리를 두고 싶으신가요?",
+      "text": "맞아요. 그럼 이번 주 목표를 정해볼까요? 첫째, 아까 배운 호흡법을 하루 3회 이상 연습하기. 둘째, 잠자기 전에 불안한 생각을 노트에 적어보기. 이 두 가지만 해볼까요?",
       "technique": [
         "validation",
-        "open_question",
+        "goal_setting",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "노트에 적으라고요? 그럼 더 불안해지지 않을까요?"
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "반대예요. 머릿속에서 맴도는 생각을 밖으로 꺼내면 객관적으로 볼 수 있어요. 그리고 뇌가 '이미 기록했으니까 잊어도 돼'라고 인식해서 오히려 잠이 잘 와요.",
+      "technique": [
+        "information_giving",
         "clarification"
       ]
     },
     {
-      "turn": 12,
-      "speaker": "client",
-      "text": "솔직히 잘 모르겠어요. 화도 나고 서운한데... 그래도 얘밖에 없어서..."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "복잡한 감정이 공존하고 있네요. 화나고 서운하지만, 동시에 준호가 유일한 친구라서 놓치기 싫은 마음도 있는 거죠?",
-      "technique": [
-        "emotion_labeling",
-        "reflection"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "네, 맞아요. 그래서 더 힘든 것 같아요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "이해합니다. 그럼 두 가지를 함께 생각해볼까요? 하나는 준호와의 관계, 또 하나는 다른 친구 관계 만들기요. 어느 것부터 이야기해보고 싶으세요?",
-      "technique": [
-        "validation",
-        "structuring",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "준호 먼저요... 어떻게 해야 할까요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "준호에게 솔직한 감정을 다시 한번 전달해보는 건 어떨까요? 이번에는 좀 더 구체적으로, 어떤 행동들이 서운했는지, 자신이 어떤 감정을 느끼는지 말이에요.",
-      "technique": [
-        "open_question",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그런데 또 가볍게 넘어가면 어떡해요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "그 두려움이 있으시군요. 하지만 이번에는 '바빠서 그래'라는 식의 답변으로는 넘어가지 않겠다는 의지를 보여주는 게 중요해요. '나는 진지하게 이야기하고 싶다'라고 먼저 말하는 거죠.",
-      "technique": [
-        "emotion_labeling",
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "그렇게 말하면... 준호가 부담스러워하지 않을까요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "친구가 부담스러워할까봐 걱정되는 마음도 이해해요. 하지만 진짜 우정이라면 서로의 솔직한 감정을 나눌 수 있어야 하지 않을까요? 자신의 감정을 표현할 권리가 있어요.",
-      "technique": [
-        "validation",
-        "confrontation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "맞는 말씀이에요... 제가 너무 눈치만 본 것 같기도 해요."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "그걸 깨달으신 것만으로도 큰 진전이에요. 그럼 준호에게 어떤 내용을 전달하고 싶으세요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "축구부 들어간 건 좋은데, 저를 완전히 빼놓는 것 같아서 서운하다는 것. 그리고 다른 애들이 저를 무시할 때 아무 말도 안 해줘서 배신감 느꼈다는 것..."
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "명확하게 정리하셨네요. 구체적인 상황과 그때의 감정을 함께 전달하는 거죠. 그리고 준호에게 바라는 게 있다면 무엇인가요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "예전처럼 가끔은 저랑도 시간을 보내줬으면 좋겠어요. 매일은 아니더라도..."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "현실적이고 합리적인 요청이네요. 준호의 새로운 관계도 인정하면서, 자신과의 시간도 가져달라는 거죠. 이런 내용으로 대화를 시도해보시는 건 어떨까요?",
-      "technique": [
-        "validation",
-        "summarization",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 20,
-      "speaker": "client",
-      "text": "네, 해볼게요. 그런데... 다른 친구 만드는 건 어떻게 해야 할까요?"
-    },
-    {
-      "turn": 20,
-      "speaker": "counselor",
-      "text": "좋은 질문이에요. 준호 외에도 관계를 확장하는 것이 중요하죠. 학교에서 관심 있는 활동이나 동아리 같은 게 있나요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "게임을 좋아하는데... 게임 동아리 같은 게 있는지 모르겠어요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "게임이라는 공통 관심사가 있으면 대화 시작이 쉬워질 수 있어요. 학교에 게임 관련 동아리가 있는지 알아보거나, 같은 반에 게임 좋아하는 친구들이 있는지 관찰해보는 건 어떨까요?",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "그런 방법도 있네요. 제가 너무 준호한테만 집중했나봐요."
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "그걸 인식하신 게 중요해요. 한 사람에게만 의존하면 그 관계에 문제가 생겼을 때 더 큰 타격을 받게 되죠. 여러 친구들과 관계를 맺으면 더 건강한 또래관계를 만들 수 있어요.",
-      "technique": [
-        "encouragement",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "네, 이제 알겠어요. 준호랑도 대화해보고, 다른 친구들도 사귀어보려고 노력할게요."
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "좋은 계획이에요. 두 가지를 정리하면, 준호에게는 솔직한 감정과 바람을 전달하기, 그리고 게임이라는 공통 관심사를 통해 새로운 친구 관계 만들어보기. 맞나요?",
-      "technique": [
-        "encouragement",
-        "summarization",
-        "goal_setting"
-      ]
-    },
-    {
       "turn": 24,
       "speaker": "client",
-      "text": "네, 맞아요. 할 수 있을 것 같아요."
+      "text": "그렇군요. 그럼 한번 해볼게요. 근데 공황 증상이 또 오면 어떡하죠?"
     },
     {
       "turn": 24,
       "speaker": "counselor",
-      "text": "충분히 하실 수 있어요. 혹시 과정에서 어려움이 생기면 언제든 다시 오세요. 함께 해결책을 찾아보면 돼요.",
+      "text": "공황 증상이 오면 먼저 기억하세요. '이건 위험한 게 아니야, 곧 지나갈 거야'라고요. 그리고 호흡법을 천천히 하세요. 만약 자주 반복되면 정신과 상담도 고려해볼 필요가 있어요. 약물치료가 도움이 될 수 있거든요.",
       "technique": [
-        "encouragement",
-        "structuring",
-        "empathy"
+        "information_giving",
+        "validation"
       ]
     },
     {
       "turn": 25,
       "speaker": "client",
-      "text": "감사합니다, 선생님. 훨씬 마음이 가벼워졌어요."
+      "text": "정신과요? 약 먹어야 하나요?"
     },
     {
       "turn": 25,
       "speaker": "counselor",
-      "text": "다행이에요. 용기내서 실천해보세요. 응원하겠습니다.",
+      "text": "지금 당장은 아니에요. 일단 우리가 시도하는 방법들을 먼저 해보고, 그래도 힘들면 전문적인 도움을 받는 거예요. 너무 걱정하지 마세요.",
       "technique": [
+        "clarification",
         "validation",
         "encouragement"
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "client",
+      "text": "알겠어요. 이번 주 과제 열심히 해볼게요."
+    },
+    {
+      "turn": 26,
+      "speaker": "counselor",
+      "text": "좋아요. 그리고 기억하세요. 수능은 중요하지만 당신의 가치를 결정하지 않아요. 지금 이 순간도 당신은 충분히 가치 있는 사람이에요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "client",
+      "text": "감사해요. 그 말 들으니까 좀 위로가 돼요."
+    },
+    {
+      "turn": 27,
+      "speaker": "counselor",
+      "text": "천천히 해나가요. 다음 주에 어떻게 지냈는지 이야기 나눠봐요. 힘들 때는 언제든 연락하세요.",
+      "technique": [
+        "encouragement",
+        "structuring",
+        "validation"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "17세",
-    "gender": "여성",
-    "occupation": "고등학교 2학년",
-    "background": "외모에 대한 콤플렉스로 인한 자존감 저하"
-  }
+  ]
 }

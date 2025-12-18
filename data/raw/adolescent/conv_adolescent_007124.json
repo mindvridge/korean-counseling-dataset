@@ -1,401 +1,342 @@
 {
   "metadata": {
     "category": "adolescent",
-    "topic": "외로움",
-    "total_turns": 26,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "restatement",
-      "reflection",
-      "emotion_labeling",
-      "validation",
-      "interpretation",
-      "information_giving"
-    ]
+    "topic": "교사와의 갈등",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:25.515189+00:00"
   },
-  "seed_info": {
-    "source_file": "청소년_가족갈등_0004_간섭통제반발_01",
-    "category": "adolescent",
-    "topic": "외로움"
+  "client_profile": {
+    "age": "16세",
+    "gender": "남성",
+    "occupation": "고등학교 1학년",
+    "background": "교사와의 갈등 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:36.698915+00:00",
   "conversation": [
     {
-      "turn": 1,
       "speaker": "client",
-      "text": "엄마가 제 모든 걸 다 통제하려고 해요. 정말 숨막혀요."
+      "text": "친구들이랑 문제가 있어요.",
+      "turn": 1
     },
     {
-      "turn": 1,
       "speaker": "counselor",
-      "text": "어머니의 통제로 인해 숨 막히는 느낌을 받고 있군요. 구체적으로 어떤 부분에서 그렇게 느끼시나요?",
+      "text": "힘드셨겠어요. 지금 느끼시는 감정을 천천히 이야기해 주세요.",
+      "turn": 2,
       "technique": [
         "empathy",
         "open_question"
       ]
     },
     {
-      "turn": 2,
       "speaker": "client",
-      "text": "제 일정을 전부 짜놓으세요. 학원 끝나면 몇 시에 집에 와야 하고, 친구 만나는 것도 허락받아야 하고... 제 휴대폰도 수시로 확인하시고요."
+      "text": "음... 사실 처음엔 별로 오고 싶지 않았는데, 요즘 학교 가기가 너무 힘들어서... 그냥 한번 와봤어요.",
+      "turn": 3
     },
     {
-      "turn": 2,
       "speaker": "counselor",
-      "text": "시간 관리부터 친구 관계, 휴대폰 사용까지 모든 영역에서 어머니의 감시와 통제를 받고 있다고 느끼는군요.",
+      "text": "학교 가는 게 많이 힘들었구나. 오고 싶지 않았던 마음도 있었는데 용기 내서 와준 거네요. 학교에서 어떤 점이 가장 힘든가요?",
+      "turn": 4,
       "technique": [
-        "restatement",
+        "validation"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "저 이번 학기에 전학을 왔거든요. 아빠 직장 때문에 어쩔 수 없이... 새 학교에서 친구를 하나도 못 사귀었어요.",
+      "turn": 5
+    },
+    {
+      "speaker": "counselor",
+      "text": "전학을 오게 되었군요. 본인 의지와 상관없이 환경이 바뀌었고, 새로운 곳에서 친구 사귀는 게 쉽지 않았나 보네요.",
+      "turn": 6,
+      "technique": [
         "reflection"
       ]
     },
     {
-      "turn": 3,
       "speaker": "client",
-      "text": "네. 친구들은 자유롭게 놀러 다니는데, 전 항상 허락받아야 하고 시간도 정해져 있어요. 너무 창피해요."
+      "text": "네... 전 학교에서는 친구들이랑 정말 잘 지냈는데, 여기는 이미 다들 친한 애들끼리 그룹이 다 짜여 있어서... 낄 곳이 없어요.",
+      "turn": 7
     },
     {
-      "turn": 3,
       "speaker": "counselor",
-      "text": "친구들과 비교했을 때 자신만 제약이 많아서 창피하고 억울한 마음이 드는군요.",
+      "text": "이전 학교에서는 친구 관계가 좋았는데, 새 학교에서는 이미 형성된 친구 그룹들 사이에서 자리를 찾기 어렵다는 거죠. 그 차이가 더 힘들게 느껴질 것 같아요.",
+      "turn": 8,
       "technique": [
-        "emotion_labeling",
         "empathy"
       ]
     },
     {
-      "turn": 4,
       "speaker": "client",
-      "text": "맞아요. 얼마 전에도 친구들이랑 영화 보러 가자고 했는데, 엄마가 '누구랑 가는데?', '몇 시에 끝나는데?', '왜 가야 하는데?' 이렇게 계속 물어보시더니 결국 안 된대요."
+      "text": "맞아요. 쉬는 시간마다 혼자 있어야 하는데 그게 너무 창피하고... 점심시간이 제일 싫어요. 어디 앉아야 할지 몰라서.",
+      "turn": 9
     },
     {
-      "turn": 4,
       "speaker": "counselor",
-      "text": "친구들과의 약속도 자유롭게 할 수 없고, 여러 질문 끝에 결국 거절당하는 경험을 하셨군요. 그때 기분이 어땠나요?",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 10,
       "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 5,
-      "speaker": "client",
-      "text": "화나고 서러웠어요. 친구들한테도 미안하고... '우리 엄마는 왜 이렇게 간섭이 심할까' 생각했어요."
-    },
-    {
-      "turn": 5,
-      "speaker": "counselor",
-      "text": "분노와 서러움, 그리고 친구들에 대한 미안함까지 복잡한 감정을 느꼈네요. 어머니께 이런 마음을 이야기해본 적이 있나요?",
-      "technique": [
-        "emotion_labeling",
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "말했죠! 근데 '너를 위해서 그러는 거야', '세상이 얼마나 위험한지 몰라' 이러시면서 오히려 저보고 철없다고 하세요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "자신의 감정을 표현했지만 이해받지 못하고, 오히려 미성숙하다는 평가를 받아서 더 답답했겠어요.",
-      "technique": [
-        "empathy",
-        "validation"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "네. 그래서 요즘엔 그냥 포기하고 말 안 해요. 어차피 안 들어주실 거니까."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "반복된 경험 때문에 소통 자체를 포기하게 된 상태네요. 하지만 속으로는 답답함이 계속 쌓이고 있는 것 같아요.",
-      "technique": [
-        "reflection",
         "empathy"
       ]
     },
     {
-      "turn": 8,
       "speaker": "client",
-      "text": "맞아요. 가끔은 그냥 집 나가고 싶어요. 근데 그럴 수도 없고..."
+      "text": "네... 그래서 요즘은 아예 점심도 잘 안 먹고, 도서관에 가서 숨어 있어요. 근데 그것도 이상해 보일까봐 불안하고...",
+      "turn": 11
     },
     {
-      "turn": 8,
       "speaker": "counselor",
-      "text": "상황에서 벗어나고 싶을 만큼 힘들지만, 실제로 그럴 수는 없어서 갇힌 느낌을 받는군요. 혹시 어머니가 왜 이렇게 행동하시는지 생각해본 적 있나요?",
+      "text": "도서관에 가는 것도 편하지만은 않은 거네요. 어떻게 하든 다른 사람들 시선이 신경 쓰이는 상황이군요.",
+      "turn": 12,
       "technique": [
-        "emotion_labeling",
-        "empathy",
-        "open_question"
+        "reflection"
       ]
     },
     {
-      "turn": 9,
       "speaker": "client",
-      "text": "글쎄요... 그냥 저를 믿지 못하시는 거 아닌가요?"
+      "text": "맞아요. 그리고 전 학교 친구들한테 연락하면 답장도 늦게 오고... 다들 바쁜가봐요. 저만 혼자 남겨진 기분이에요.",
+      "turn": 13
     },
     {
-      "turn": 9,
       "speaker": "counselor",
-      "text": "신뢰받지 못한다고 느끼는군요. 그런데 어머니 입장에서는 걱정과 불안 때문일 수도 있어요. 물론 그게 과한 통제를 정당화하는 건 아니지만요.",
+      "text": "새 학교에서도 어렵고, 이전 친구들과의 관계도 예전 같지 않아서 양쪽 모두에서 외로움을 느끼고 있는 거네요. 정말 힘든 시간을 보내고 있구나.",
+      "turn": 14,
       "technique": [
-        "validation",
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "걱정이요? 근데 친구들 부모님도 걱정하실 텐데, 왜 우리 엄마만 이렇게 심해요?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "좋은 질문이에요. 사람마다 불안을 다루는 방식이 달라요. 어머니는 통제로 불안을 해소하려는 것 같네요. 혹시 어머니에게 특별한 경험이나 걱정거리가 있으신가요?",
-      "technique": [
-        "validation",
-        "information_giving",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "음... 엄마가 예전에 사고 당한 적이 있다고 들었어요. 그것 때문인가요?"
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "그럴 가능성이 있어요. 과거의 트라우마가 현재의 과보호로 나타나는 거죠. 하지만 그렇다고 해서 당신의 힘든 감정이 무시되어야 하는 건 아니에요.",
-      "technique": [
-        "interpretation",
         "validation"
       ]
     },
     {
-      "turn": 12,
       "speaker": "client",
-      "text": "그렇구나... 생각해보니 엄마도 힘드실 수도 있겠네요. 근데 그래도 저는 답답한데 어떡하죠?"
+      "text": "네... 저는 왜 이렇게 친구를 못 사귀는 걸까요? 다른 애들은 쉽게 친해지던데...",
+      "turn": 15
     },
     {
-      "turn": 12,
       "speaker": "counselor",
-      "text": "어머니를 이해하면서도 자신의 필요는 여전히 중요하다는 걸 알고 계시네요. 양쪽 모두를 고려하는 해결책이 필요할 것 같아요.",
-      "technique": [
-        "validation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "어떻게요? 어떤 해결책이 있을까요?"
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "먼저 어머니의 걱정을 인정하면서, 점진적으로 신뢰를 쌓아가는 방법이 있어요. 작은 것부터 약속을 지키고, 투명하게 소통하면서 자유를 조금씩 넓혀가는 거죠.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "약속을 지키고 투명하게 소통한다... 구체적으로 어떻게 해야 하죠?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "예를 들어, 외출할 때 미리 계획을 알려드리고, 중간중간 연락하고, 약속한 시간에 꼭 귀가하는 거예요. 그러면 어머니도 점차 안심하시게 될 거예요.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그런데... 그것도 답답하긴 한데요. 왜 제가 그렇게까지 해야 해요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "억울한 마음이 드는 건 이해해요. 하지만 이건 어머니를 위해서가 아니라 당신 자신의 자유를 위한 투자라고 생각해보면 어떨까요?",
-      "technique": [
-        "validation",
-        "interpretation"
-      ]
-    },
-    {
+      "text": "다른 친구들은 쉽게 친해지는 것처럼 보이니까 나만 유독 어려운 것 같고, 내가 뭔가 부족한 건 아닐까 하는 생각이 드는 거죠?",
       "turn": 16,
-      "speaker": "client",
-      "text": "제 자유를 위한 투자... 그렇게 생각하니까 조금 다르게 느껴지네요."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "맞아요. 당장은 불편하지만 장기적으로는 더 많은 자유를 얻을 수 있는 방법이에요. 그리고 어머니와도 대화를 해볼 필요가 있어요.",
       "technique": [
-        "encouragement",
-        "structuring"
+        "reflection"
       ]
     },
     {
-      "turn": 17,
       "speaker": "client",
-      "text": "대화요? 어떤 대화를 해야 할까요?"
+      "text": "네... 제가 말을 잘 못하는 것도 아닌데, 왜 이렇게 어려운지 모르겠어요. 먼저 말 걸기도 무섭고...",
+      "turn": 17
     },
     {
-      "turn": 17,
       "speaker": "counselor",
-      "text": "자신이 성장하고 있고, 책임감 있게 행동할 수 있다는 걸 보여드리고, 조금씩 자율권을 달라고 요청하는 거예요. '엄마, 내가 이번 달 약속 다 지켰으니 다음엔 30분 더 있어도 될까요?' 이런 식으로요.",
+      "text": "먼저 다가가고 싶은 마음은 있는데, 막상 하려고 하면 두려운 마음이 더 크게 느껴지나요? 혹시 어떤 게 두려운지 말해줄 수 있을까요?",
+      "turn": 18,
       "technique": [
-        "information_giving",
-        "structuring"
+        "open_ended_question"
       ]
     },
     {
-      "turn": 18,
       "speaker": "client",
-      "text": "아, 단계적으로 협상하는 거네요?"
+      "text": "거절당할까봐요... 말 걸었는데 시큰둥하게 반응하면 어떡하지, 이상한 애라고 생각하면 어떡하지... 그런 생각들이 계속 들어요.",
+      "turn": 19
     },
     {
-      "turn": 18,
       "speaker": "counselor",
-      "text": "정확해요! 한 번에 모든 걸 바꾸려고 하면 어머니도 불안해하실 테니까, 조금씩 변화를 만들어가는 거죠.",
+      "text": "거절당하거나 부정적으로 평가받을까봐 걱정되는 거군요. 그런 걱정들이 먼저 다가가는 걸 더 어렵게 만드는 것 같네요. 그런 걱정을 하는 게 당연해요.",
+      "turn": 20,
       "technique": [
-        "encouragement",
+        "normalization"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "정말요? 다른 애들은 그런 거 신경 안 쓰는 것 같던데...",
+      "turn": 21
+    },
+    {
+      "speaker": "counselor",
+      "text": "겉으로 보기엔 그렇게 보일 수 있지만, 사실 많은 사람들이 새로운 환경에서 비슷한 걱정을 해요. 특히 전학처럼 갑작스러운 변화를 겪을 때는 더욱 그렇죠. 이전 학교에서 처음 친구를 사귈 때는 어땠나요?",
+      "turn": 22,
+      "technique": [
+        "normalization"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 그때는 중학교 입학할 때였는데, 같은 초등학교 출신 애들이 몇 명 있어서 그렇게 어렵진 않았어요. 그 애들이랑 먼저 친해지고, 그 다음엔 자연스럽게 다른 애들도 알게 됐고...",
+      "turn": 23
+    },
+    {
+      "speaker": "counselor",
+      "text": "아, 그때는 이미 아는 친구들이 있어서 그들이 다리 역할을 해줬던 거네요. 지금은 그런 연결고리가 없으니까 더 막막하게 느껴지는 거구나.",
+      "turn": 24,
+      "technique": [
+        "reflection"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "네, 맞아요. 지금은 정말 아무도 모르는 상태니까... 어떻게 시작해야 할지 모르겠어요.",
+      "turn": 25
+    },
+    {
+      "speaker": "counselor",
+      "text": "완전히 새로운 시작이라 막막하지만, 동시에 이전 학교에서는 친구들과 잘 지냈던 경험이 있잖아요. 그건 네가 충분히 관계를 맺을 수 있는 능력이 있다는 걸 보여주는 거예요.",
+      "turn": 26,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그런가요...? 근데 지금은 그때랑 다른 것 같아요.",
+      "turn": 27
+    },
+    {
+      "speaker": "counselor",
+      "text": "상황은 다르지만, 네가 가진 능력은 그대로예요. 지금 새 학교에서 혹시 조금이라도 말을 나눠본 친구가 있나요? 아주 짧은 대화라도요.",
+      "turn": 28,
+      "technique": [
+        "strength_based_approach"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 옆자리 앉은 애가 가끔 수업 관련해서 물어보긴 해요. 필기 놓친 거 있으면 보여달라고 하거나...",
+      "turn": 29
+    },
+    {
+      "speaker": "counselor",
+      "text": "그거 좋은 시작점이네요! 그 친구가 먼저 말을 거는 거잖아요. 그럼 그 친구는 너에게 어느 정도 편안함을 느끼고 있다는 신호일 수 있어요.",
+      "turn": 30,
+      "technique": [
+        "reframing"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아... 그렇게 생각해본 적은 없었어요. 그냥 필요해서 물어보는 줄만 알았는데...",
+      "turn": 31
+    },
+    {
+      "speaker": "counselor",
+      "text": "그럴 수도 있지만, 교실에 많은 친구들이 있는데 굳이 너에게 물어본다는 건 의미가 있을 수 있어요. 그 친구와의 관계를 조금씩 발전시켜볼 수 있을 것 같은데, 어떻게 생각해요?",
+      "turn": 32,
+      "technique": [
+        "exploration"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "해보고 싶긴 한데... 어떻게 해야 할지 모르겠어요. 그냥 갑자기 말 걸면 이상하지 않을까요?",
+      "turn": 33
+    },
+    {
+      "speaker": "counselor",
+      "text": "충분히 그렇게 느끼실 수 있어요. 조금 더 이야기해 주시겠어요?",
+      "turn": 34,
+      "technique": [
+        "guidance"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "음... 시험 기간이 다가오는데, 같이 공부하자고 하면... 너무 부담스러울까요?",
+      "turn": 35
+    },
+    {
+      "speaker": "counselor",
+      "text": "좋은 생각이에요. 다만 처음부터 '같이 공부하자'보다는 '이 부분 어떻게 이해했어?' 같은 가벼운 질문으로 대화를 더 나눠보고, 자연스럽게 '우리 점심시간에 같이 복습해볼까?' 정도로 제안하는 건 어떨까요?",
+      "turn": 36,
+      "technique": [
+        "suggestion"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "아, 그게 더 부담 없을 것 같네요. 해볼 수 있을 것 같아요... 근데 거절하면 어떡하죠?",
+      "turn": 37
+    },
+    {
+      "speaker": "counselor",
+      "text": "거절할 수도 있죠. 그런데 거절이 꼭 너를 싫어해서가 아닐 수도 있어요. 그날 다른 약속이 있거나, 혼자 공부하는 스타일일 수도 있고요. 한 번의 거절이 모든 걸 결정하는 건 아니에요.",
+      "turn": 38,
+      "technique": [
+        "cognitive_restructuring"
+      ]
+    },
+    {
+      "speaker": "client",
+      "text": "그렇게 생각하니까 좀 덜 무섭네요. 그래도 여전히 떨리긴 하지만...",
+      "turn": 39
+    },
+    {
+      "speaker": "counselor",
+      "text": "떨리는 게 당연해요. 새로운 시도를 하는 거니까요. 그 떨림을 느끼면서도 시도해보겠다는 용기가 중요한 거예요. 오늘 우리 대화에서 어떤 부분이 가장 도움이 되었나요?",
+      "turn": 40,
+      "technique": [
         "validation"
       ]
     },
     {
-      "turn": 19,
       "speaker": "client",
-      "text": "그런데 엄마가 동의 안 하시면요?"
+      "text": "제가 친구를 못 사귀는 게 제 잘못만은 아니라는 것, 그리고 작은 것부터 시작해볼 수 있다는 게 도움이 됐어요. 조금은 희망이 생긴 것 같아요.",
+      "turn": 41
     },
     {
-      "turn": 19,
       "speaker": "counselor",
-      "text": "처음에는 쉽지 않을 수 있어요. 하지만 계속 신뢰를 쌓고 대화를 시도하다 보면 점차 변화가 생길 거예요. 인내가 필요한 과정이에요.",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
+      "turn": 42,
       "technique": [
-        "information_giving",
         "encouragement"
       ]
     },
     {
-      "turn": 20,
       "speaker": "client",
-      "text": "시간이 걸리겠네요... 근데 지금 당장 친구들 만나는 것도 힘든데..."
+      "text": "네, 좋아요. 다음 주에 다시 와도 될까요? 그때까지 한번 시도해보고 싶어요.",
+      "turn": 43
     },
     {
-      "turn": 20,
       "speaker": "counselor",
-      "text": "당장의 답답함도 이해해요. 그래서 단기적으로는 어머니가 안심할 수 있는 조건을 만들어보는 건 어떨까요? 예를 들어, 잘 아는 친구들과 부모님이 아시는 장소에서 만나는 것부터요.",
+      "text": "물론이죠. 다음 주에 또 만나요. 결과가 어떻든, 시도한 자체가 중요하다는 걸 기억하세요. 오늘 용기 내서 와줘서 고마워요.",
+      "turn": 44,
       "technique": [
-        "empathy",
-        "structuring",
-        "information_giving"
+        "support"
       ]
     },
     {
-      "turn": 21,
       "speaker": "client",
-      "text": "엄마가 아는 장소에서요? 그럼 좀 허락해주실 수도 있겠네요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 21,
       "speaker": "counselor",
-      "text": "네, 어머니의 불안을 줄여드리면서 당신도 친구들을 만날 수 있는 방법이에요. 그리고 그 경험이 쌓이면 어머니도 당신을 더 신뢰하게 되실 거예요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement",
-        "information_giving"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 22,
       "speaker": "client",
-      "text": "알겠어요. 한번 해볼게요. 이번 주말에 친구들이랑 집 근처 카페에서 만나는 거 제안해볼게요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 22,
       "speaker": "counselor",
-      "text": "좋은 계획이에요. 그리고 어머니께 미리 누구랑 만나고 무엇을 할 건지 자세히 설명하고, 중간에 연락도 하세요. 그러면 성공 확률이 높아질 거예요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "encouragement",
-        "structuring",
-        "information_giving"
+        "open_question",
+        "empathy"
       ]
     },
     {
-      "turn": 23,
       "speaker": "client",
-      "text": "네, 그렇게 할게요. 그런데 제가 이렇게까지 해야 한다는 게 여전히 억울하긴 하네요."
+      "text": "네, 그렇게 해보겠습니다. 조금 더 이야기를 나누고 싶어요.",
+      "technique": []
     },
     {
-      "turn": 23,
       "speaker": "counselor",
-      "text": "그 감정도 충분히 타당해요. 하지만 지금은 현실적인 해결책을 찾는 게 중요하고, 동시에 어머니와의 관계도 개선해 나가는 거예요. 둘 다 중요해요.",
+      "text": "좋습니다. 그 부분에 대해 조금 더 자세히 이야기해볼까요?",
       "technique": [
-        "validation",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "네... 알겠어요. 조금씩 해보겠습니다."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "오늘 이야기 나눈 것 정리해볼까요? 첫째, 작은 약속 지키며 신뢰 쌓기. 둘째, 어머니가 안심할 수 있는 조건으로 외출 제안하기. 셋째, 단계적으로 자율권 확대 협상하기. 이렇게 해보는 거예요.",
-      "technique": [
-        "summarization",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "명확하네요. 이렇게 정리하니까 할 수 있을 것 같아요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "잘하실 거예요. 변화는 시간이 걸리지만, 노력하면 분명 달라질 거예요. 다음에 어떻게 됐는지 이야기 나눠봐요.",
-      "technique": [
-        "encouragement",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "네, 감사합니다. 좀 더 긍정적으로 생각하게 됐어요."
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "긍정적인 마음으로 접근하는 것 자체가 큰 변화예요. 응원할게요.",
-      "technique": [
-        "encouragement",
-        "validation"
+        "open_question",
+        "empathy"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "16세",
-    "gender": "여성",
-    "occupation": "고등학교 1학년",
-    "background": "친구를 사귀는 것이 어려워 늘 혼자인 상황"
-  }
+  ]
 }

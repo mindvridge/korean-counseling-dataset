@@ -1,35 +1,26 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "불안장애",
-    "total_turns": 30,
-    "quality_indicators": [
-      "empathy",
-      "open_question",
-      "reflection",
-      "emotion_labeling",
-      "closed_question",
-      "validation",
-      "confrontation",
-      "encouragement"
-    ]
+    "topic": "삶의 의미 상실",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:28.677718+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0006_y5z6a7b8",
-    "category": "adult",
-    "topic": "불안장애"
+  "client_profile": {
+    "age": "23세",
+    "gender": "여성",
+    "occupation": "대학생",
+    "background": "삶의 의미 상실 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.273297+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "같은 팀 동료 때문에 너무 스트레스예요."
+      "text": "주변에서 상담 받아보라고 해서요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "팀 동료와의 관계가 많이 힘드신가 봐요. 어떤 상황인지 말씀해 주시겠어요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
       "technique": [
         "empathy",
         "open_question"
@@ -38,225 +29,222 @@
     {
       "turn": 2,
       "speaker": "client",
-      "text": "저는 완벽주의 성향이 있어서 모든 걸 꼼꼼하게 확인하는데, 그 동료는 대충대충 해요. 같이 일하면 제가 다 다시 확인해야 해요."
+      "text": "네, 몇 달 만이었어요. 제가 일이 바빠서 계속 못 나갔거든요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "본인은 꼼꼼한 스타일인데 동료는 덜 꼼꼼해서, 결국 본인이 재확인 작업을 하게 되시는군요. 구체적으로 어떤 문제들이 있었나요?",
+      "text": "일 때문에 모임에 자주 참석하지 못하셨군요. 오랜만에 갔는데 소외감을 느끼시니 서운하셨겠어요.",
       "technique": [
-        "empathy",
+        "restatement",
+        "empathy"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "다들 사이에 있었던 일들을 공유하는데, 저는 그걸 몰라서 끼어들 수가 없더라고요."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "그동안의 공백이 대화에 어려움을 만들었군요. 친구들은 어떤 반응이었나요?",
+      "technique": [
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "그냥... 평소처럼요. '오랜만이다' 하고는 자기들끼리 얘기하고. 저한테 특별히 관심 주는 것 같진 않았어요."
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "특별한 환대를 받지 못했다고 느끼시는군요. 본인은 모임에서 어떻게 하셨나요?",
+      "technique": [
         "reflection",
         "open_question"
       ]
     },
     {
-      "turn": 3,
+      "turn": 5,
       "speaker": "client",
-      "text": "지난주에도 그 동료가 작성한 보고서에 숫자 오류가 세 군데나 있었어요. 제가 최종 검토하다가 발견해서 고쳤는데, 만약 못 찾았으면 큰일 날 뻔했어요."
+      "text": "그냥 앉아서 듣고만 있었어요. 뭘 얘기해야 할지 모르겠더라고요."
     },
     {
-      "turn": 3,
+      "turn": 5,
       "speaker": "counselor",
-      "text": "중요한 오류를 발견하셨네요. 그 상황에서 어떤 감정이 드셨나요?",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
-        "empathy",
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "화나고, 불안하고... '이 사람 믿을 수 없다'는 생각이 들었어요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "화와 불안, 그리고 신뢰가 깨진 느낌이시군요. 그 동료에게 이런 오류에 대해 피드백을 주시나요?",
-      "technique": [
-        "empathy",
-        "reflection",
+        "restatement",
         "closed_question"
       ]
     },
     {
-      "turn": 5,
+      "turn": 6,
       "speaker": "client",
-      "text": "말하죠. '여기 틀렸어요, 다음엔 더 꼼꼼히 확인해주세요'라고. 근데 그 사람은 '네' 하고는 또 똑같이 실수해요."
+      "text": "물어보지도 않는데 제가 먼저 얘기하는 것도 그렇고... 그냥 있었어요."
     },
     {
-      "turn": 5,
+      "turn": 6,
       "speaker": "counselor",
-      "text": "피드백을 주지만 행동 변화가 없어서 더 답답하시겠어요. 그럴 때 어떻게 하시나요?",
+      "text": "먼저 말하기가 부담스러우셨군요. 친구들이 물어봐주길 기다리셨는데 그러지 않았나요?",
+      "technique": [
+        "empathy",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "client",
+      "text": "네... 예전엔 안 그랬거든요. 제가 좀 늦게 와도 '어떻게 지냈어?' 이런 거 물어봤는데."
+    },
+    {
+      "turn": 7,
+      "speaker": "counselor",
+      "text": "예전과 달라진 분위기에 실망하셨군요. 친구들이 변했다고 느끼시나요?",
       "technique": [
         "validation",
         "open_question"
       ]
     },
     {
-      "turn": 6,
+      "turn": 8,
       "speaker": "client",
-      "text": "처음부터 제가 하죠. 뭐. 그게 더 빨라요. 두 번 일하는 것보다는..."
+      "text": "그런 것 같아요. 아니면... 제가 너무 안 나가서 멀어진 건가 싶기도 하고요."
     },
     {
-      "turn": 6,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "동료의 일까지 본인이 떠안고 계시는군요. 그러면 업무량은 어떻게 되나요?",
+      "text": "말씀하시기 어려우셨을 텐데 이야기해 주셔서 감사해요.",
       "technique": [
         "reflection",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "client",
+      "text": "거의 6개월이요. 중간에 한두 번 빠진 게 아니라 계속 못 갔어요."
+    },
+    {
+      "turn": 9,
+      "speaker": "counselor",
+      "text": "6개월이면 꽤 긴 시간이네요. 그동안 친구들과 개별적으로 연락은 하셨나요?",
+      "technique": [
+        "validation",
         "closed_question"
       ]
     },
     {
-      "turn": 7,
+      "turn": 10,
       "speaker": "client",
-      "text": "당연히 많아지죠. 야근도 늘고... 근데 제가 안 하면 팀 전체가 문제가 생기니까 어쩔 수 없어요."
+      "text": "거의 안 했어요. 가끔 단톡방에 글 올라오는 거 보는 정도?"
     },
     {
-      "turn": 7,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "'내가 해야 팀이 안전하다'고 느끼시는군요. 그런데 이렇게 계속 대신 해주시면 그 동료는 어떻게 될까요?",
+      "text": "개별 연락도 거의 없으셨군요. 그렇다면 친구들 입장에서는 본인이 바빠서 관계에 소홀하다고 느꼈을 수도 있어요.",
       "technique": [
-        "reflection",
+        "interpretation",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "그럴 수도 있겠네요. 근데 저도 바빴는데... 친구들은 이해해줘야 하는 거 아닌가요?"
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "본인의 상황을 이해받고 싶으시죠. 하지만 친구들이 본인이 얼마나 바빴는지 알고 있을까요?",
+      "technique": [
+        "empathy",
         "confrontation"
       ]
     },
     {
-      "turn": 8,
+      "turn": 12,
       "speaker": "client",
-      "text": "... 계속 그대로겠죠. 어차피 제가 확인해주니까."
+      "text": "... 말은 안 했어요. 그냥 '바쁘다'고만 했지."
     },
     {
-      "turn": 8,
+      "turn": 12,
       "speaker": "counselor",
-      "text": "정확히 파악하셨어요. 본인이 대신 해주는 게 오히려 그 동료의 성장을 막고 있을 수 있어요.",
+      "text": "구체적으로 설명하지 않으셨군요. '바쁘다'는 말만으로는 전달이 안 될 수 있어요. 친구들은 본인이 관심이 없어진 거라고 오해할 수도 있고요.",
+      "technique": [
+        "restatement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "그럼 어떻게 해야 하죠? 지금이라도 설명하면 될까요?"
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
         "encouragement",
-        "information_giving"
+        "goal_setting"
       ]
     },
     {
-      "turn": 9,
+      "turn": 14,
       "speaker": "client",
-      "text": "그럼 어떡해요? 실수한 걸 그대로 놔두라는 건가요?"
+      "text": "갑자기 그러면 어색하지 않을까요?"
     },
     {
-      "turn": 9,
+      "turn": 14,
       "speaker": "counselor",
-      "text": "그게 아니라, 피드백 방식을 바꿔보는 거예요. 지금은 '여기 틀렸어요'라고 결과만 알려주시잖아요. 대신 '어디가 틀렸는지 직접 찾아보세요'라고 하면 어떨까요?",
-      "technique": [
-        "clarification",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "그럼 시간이 더 걸리잖아요."
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "단기적으로는 그럴 수 있어요. 하지만 장기적으로는 그 동료가 스스로 확인하는 습관을 갖게 되면 본인 부담이 줄어들 거예요.",
+      "text": "처음엔 어색할 수 있어요. 하지만 진심은 통해요. 그리고 관계 회복은 누군가는 먼저 시작해야 하죠.",
       "technique": [
         "validation",
         "information_giving"
       ]
     },
     {
-      "turn": 11,
+      "turn": 15,
       "speaker": "client",
-      "text": "... 그렇긴 하네요."
+      "text": "뭐라고 말하면 좋을까요?"
     },
     {
-      "turn": 11,
+      "turn": 15,
       "speaker": "counselor",
-      "text": "그리고 중요한 건, 그 동료가 정말 '대충' 하는 건지, 아니면 '다른 기준'을 가지고 있는 건지 구분해볼 필요가 있어요. 그 동료와 업무 기준에 대해 이야기해보신 적 있으세요?",
-      "technique": [
-        "information_giving",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "업무 기준이요? 틀린 건 틀린 거죠. 기준이 뭐가 있어요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "예를 들어, 본인은 '100% 완벽'이 기준이라면, 그 동료는 '80% 정확도면 충분'이라고 생각할 수 있어요. 서로 기대치가 다를 수 있다는 거죠.",
+      "text": "'그동안 바빠서 연락 못 해서 미안해. 너희가 소중한데 소홀했던 것 같아. 앞으로는 더 신경 쓸게'라고 솔직하게 표현하는 거예요.",
       "technique": [
         "information_giving",
         "clarification"
       ]
     },
     {
-      "turn": 13,
+      "turn": 16,
       "speaker": "client",
-      "text": "회계 업무는 100%가 맞아야죠!"
+      "text": "그렇게 말하면... 좀 오글거리는데요."
     },
     {
-      "turn": 13,
+      "turn": 16,
       "speaker": "counselor",
-      "text": "회계에서 정확성이 중요한 건 맞아요. 그렇다면 팀 차원에서 그 기준을 명확히 공유하고, 체크리스트나 검수 절차를 만드는 건 어떨까요?",
+      "text": "처음엔 어색하고 쑥스러울 수 있어요. 하지만 관계를 소중히 여긴다면 감정 표현이 필요해요.",
       "technique": [
         "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "체크리스트요?"
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "네, '보고서 제출 전 반드시 확인할 항목' 같은 걸 만드는 거예요. 그럼 개인의 성향이 아니라 팀의 규칙이 되는 거죠.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "그게... 도움이 될까요?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "최소한 '왜 이렇게까지 해야 하냐'는 반발은 줄일 수 있어요. 개인 요구가 아니라 팀 규칙이니까요. 그리고 본인도 매번 전체를 다시 확인하는 대신 체크리스트만 확인하면 되고요.",
-      "technique": [
-        "information_giving",
         "encouragement"
       ]
     },
     {
-      "turn": 16,
-      "speaker": "client",
-      "text": "그렇긴 하네요. 근데 그 동료가 따라줄까요?"
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "팀장으로서 팀 규칙을 만드는 건 권한 내의 일이에요. 그리고 따르지 않을 경우의 결과도 명확히 해야죠.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
       "turn": 17,
       "speaker": "client",
-      "text": "결과요?"
+      "text": "그리고 앞으로도 계속 바쁠 텐데... 또 못 나가면 어떡하죠?"
     },
     {
       "turn": 17,
       "speaker": "counselor",
-      "text": "예를 들어, '체크리스트 확인 없이 제출한 보고서는 반려한다' 같은 거요. 그럼 그 동료도 책임감을 갖게 되겠죠.",
+      "text": "모든 모임에 참석할 필요는 없어요. 대신 개별적으로 연락을 유지하거나, 한 달에 한 번이라도 꼭 참석하겠다는 의지를 보이는 거죠.",
       "technique": [
         "information_giving",
         "structuring"
@@ -265,190 +253,114 @@
     {
       "turn": 18,
       "speaker": "client",
-      "text": "아, 그렇게 명확하게 정하는 거군요."
+      "text": "개별 연락이요?"
     },
     {
       "turn": 18,
       "speaker": "counselor",
-      "text": "네. 그리고 한 가지 더 생각해볼 게 있어요. 혹시 본인의 완벽주의가 때로는 과도한 건 아닌지요. 정말 모든 부분이 100%여야 하나요?",
+      "text": "네. 단톡방에만 의존하지 말고, 친한 친구들에게 일주일에 한 번씩이라도 안부 물어보는 거예요. 작은 관심이 관계를 유지시켜요.",
+      "technique": [
+        "clarification",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "그렇게 하면 관계가 나아질까요?"
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "보장할 순 없지만, 노력하지 않으면 더 멀어질 거예요. 관계는 양방향이니까 본인의 노력이 필요해요.",
       "technique": [
         "information_giving",
         "confrontation"
       ]
     },
     {
-      "turn": 19,
-      "speaker": "client",
-      "text": "... 글쎄요. 작은 실수도 용납이 안 되거든요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "그 기준이 본인을 지치게 하고, 동료와의 갈등도 만들고 있을 수 있어요. 중요한 것과 덜 중요한 것을 구분해보는 건 어떨까요?",
-      "technique": [
-        "interpretation",
-        "information_giving"
-      ]
-    },
-    {
       "turn": 20,
       "speaker": "client",
-      "text": "그게 쉽지 않아요. 다 중요해 보이거든요."
+      "text": "네, 이번 주에 친한 친구한테 먼저 연락해볼게요."
     },
     {
       "turn": 20,
       "speaker": "counselor",
-      "text": "그럴 수 있어요. 하지만 '치명적 오류'와 '사소한 오류'는 다르잖아요. 숫자 오류는 치명적이지만, 예를 들어 폰트 크기 같은 건 덜 중요할 수 있죠.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 21,
-      "speaker": "client",
-      "text": "맞는 말이에요. 제가 너무 모든 걸 완벽하게 하려고 했나봐요."
-    },
-    {
-      "turn": 21,
-      "speaker": "counselor",
-      "text": "본인에게도, 동료에게도 너무 높은 기준을 적용하고 계셨던 것 같아요. 이번 주에 할 수 있는 걸 정해볼까요?",
-      "technique": [
-        "interpretation",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 22,
-      "speaker": "client",
-      "text": "네, 뭐부터 시작하면 좋을까요?"
-    },
-    {
-      "turn": 22,
-      "speaker": "counselor",
-      "text": "먼저 팀 회의를 열어서 보고서 체크리스트를 함께 만들어보세요. 동료의 의견도 듣고요.",
-      "technique": [
-        "structuring",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 23,
-      "speaker": "client",
-      "text": "그 동료 의견도요?"
-    },
-    {
-      "turn": 23,
-      "speaker": "counselor",
-      "text": "네. 그래야 '내 규칙'이 아니라 '우리 규칙'이 되니까요. 그리고 그 과정에서 동료가 왜 특정 부분을 놓치는지 이해할 수도 있어요.",
-      "technique": [
-        "information_giving",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "알겠어요. 해보겠습니다."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "그리고 동료가 실수했을 때, 바로 고쳐주는 대신 '다시 한번 확인해보세요'라고 돌려보내는 연습도 해보세요.",
-      "technique": [
-        "goal_setting",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 25,
-      "speaker": "client",
-      "text": "그게 참기 힘들 것 같은데... 해볼게요."
-    },
-    {
-      "turn": 25,
-      "speaker": "counselor",
-      "text": "처음엔 어렵겠지만, 장기적으로는 본인도 편해지실 거예요. 그리고 본인의 완벽주의도 조금씩 내려놓는 연습을 하세요.",
-      "technique": [
-        "validation",
-        "encouragement"
-      ]
-    },
-    {
-      "turn": 26,
-      "speaker": "client",
-      "text": "완벽주의를 내려놓는다는 게... 구체적으로 어떻게 하는 건가요?"
-    },
-    {
-      "turn": 26,
-      "speaker": "counselor",
-      "text": "'이 정도면 충분하다'는 선을 정하는 거예요. 예를 들어 '치명적 오류만 없으면 네'라고요. 완벽을 추구하되, 완벽하지 않아도 괜찮다는 걸 받아들이는 거죠.",
-      "technique": [
-        "information_giving",
-        "structuring"
-      ]
-    },
-    {
-      "turn": 27,
-      "speaker": "client",
-      "text": "쉽지 않겠지만... 시도는 해보겠습니다."
-    },
-    {
-      "turn": 27,
-      "speaker": "counselor",
-      "text": "오늘 정한 것들을 정리해볼까요? 팀 회의에서 체크리스트 함께 만들기, 동료에게 재확인 기회 주기, 본인의 완벽주의 기준 조정하기. 맞나요?",
-      "technique": [
-        "summarization",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 28,
-      "speaker": "client",
-      "text": "네, 맞아요. 생각보다 제가 바꿔야 할 것도 많네요."
-    },
-    {
-      "turn": 28,
-      "speaker": "counselor",
-      "text": "갈등은 한쪽만의 문제가 아니에요. 본인의 높은 기준과 동료의 다른 스타일이 부딪힌 거니, 서로 조율이 필요해요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 29,
-      "speaker": "client",
-      "text": "알겠습니다. 다음 주에 결과 말씀드릴게요."
-    },
-    {
-      "turn": 29,
-      "speaker": "counselor",
-      "text": "좋아요. 완벽하게 하려고 하지 마세요. 조금씩 시도해보는 것만으로도 충분해요. 다음 주에 어떻게 되었는지 이야기 나눠봐요.",
+      "text": "좋은 결정이에요. 용기 내서 먼저 다가가 보세요. 다음 주에 어떠셨는지 얘기 나눠봐요.",
       "technique": [
         "encouragement",
         "goal_setting"
       ]
     },
     {
-      "turn": 30,
+      "turn": 21,
       "speaker": "client",
-      "text": "감사합니다. 다음 주에 뵙겠습니다."
+      "text": "감사합니다."
     },
     {
-      "turn": 30,
+      "turn": 21,
       "speaker": "counselor",
-      "text": "본인에게도 동료에게도 조금 더 관대해지시길 바라요. 다음 주에 뵙겠습니다.",
+      "text": "관계를 회복하려는 모습이 훌륭해요. 잘하실 거예요.",
       "technique": [
         "encouragement",
         "validation"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "선생님과 이야기하니까 마음이 좀 가벼워지는 것 같아요."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "그렇게 말씀해 주셔서 감사해요. 앞으로도 함께 이야기 나눠요.",
+      "technique": [
+        "validation",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "혼자서는 어떻게 해야 할지 모르겠어요."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "혼자 해결하려고 하지 않으셔도 돼요. 함께 방법을 찾아볼게요.",
+      "technique": [
+        "empathy",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "상담을 받으면 정말 나아질 수 있을까요?"
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "네, 많은 분들이 상담을 통해 변화를 경험하세요. 천천히 함께 해봐요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네, 그래요. 말씀하시니까 조금 마음이 놓이는 것 같아요."
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "그렇게 느끼신다니 다행이에요. 앞으로 함께 해결해 나갈 수 있어요.",
+      "technique": [
+        "validation",
+        "encouragement"
       ]
     }
-  ],
-  "client_profile": {
-    "age": "33세",
-    "gender": "남성",
-    "occupation": "프리랜서",
-    "background": "일상에서 지속적으로 느끼는 불안과 걱정"
-  }
+  ]
 }

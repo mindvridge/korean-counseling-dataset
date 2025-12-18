@@ -1,451 +1,369 @@
 {
   "metadata": {
     "category": "adult",
-    "topic": "양육 스트레스",
-    "total_turns": 30,
-    "quality_indicators": [
-      "reflection",
-      "open_question",
-      "clarification",
-      "summarization",
-      "empathy",
-      "closed_question",
-      "emotion_labeling",
-      "information_giving"
-    ]
+    "topic": "불안장애",
+    "total_turns": 25,
+    "generated_at": "2025-12-18T07:14:28.555995+00:00"
   },
-  "seed_info": {
-    "source_file": "성인_직장스트레스_0003_m3n4o5p6",
-    "category": "adult",
-    "topic": "양육 스트레스"
+  "client_profile": {
+    "age": "27세",
+    "gender": "여성",
+    "occupation": "디자이너",
+    "background": "불안장애 관련 상담"
   },
-  "generated_at": "2025-12-18T06:35:39.121788+00:00",
   "conversation": [
     {
       "turn": 1,
       "speaker": "client",
-      "text": "교사 생활 15년 만에 처음으로 상담을 받아보네요."
+      "text": "사람들 만나는 게 두려워요."
     },
     {
       "turn": 1,
       "speaker": "counselor",
-      "text": "15년 만에 처음 상담을 받으시는군요. 오늘 어떤 이야기를 나누고 싶으신가요?",
+      "text": "말씀해 주셔서 감사해요. 조금 더 자세히 들려주시겠어요?",
       "technique": [
-        "reflection",
+        "empathy",
         "open_question"
       ]
     },
     {
       "turn": 2,
       "speaker": "client",
-      "text": "요즘 학교 가기가 너무 싫어요. 아침에 눈 뜨면 '오늘도 또...' 이런 생각만 들어요."
+      "text": "대화하는 게 어색하고... 무슨 말을 해야 할지 모르겠어요. 집에만 있다 보니까요."
     },
     {
       "turn": 2,
       "speaker": "counselor",
-      "text": "아침마다 출근이 괴롭게 느껴지시는군요. 예전에도 그러셨나요, 아니면 최근에 변화가 생긴 건가요?",
+      "text": "대화 자체가 어색하게 느껴지시는군요. 재택 전에는 어떠셨나요?",
       "technique": [
+        "empathy",
+        "restatement",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "client",
+      "text": "그땐 괜찮았어요. 회사에서 동료들이랑 자연스럽게 얘기하고 그랬는데..."
+    },
+    {
+      "turn": 3,
+      "speaker": "counselor",
+      "text": "회사에서의 자연스러운 교류가 없어지니 대화 기술이 퇴화된 느낌이시군요. 지금 사회적 접촉은 어느 정도 되시나요?",
+      "technique": [
+        "empathy",
+        "interpretation",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "client",
+      "text": "거의 없어요. 화상회의 말고는... 밖에 나가는 것도 일주일에 한두 번?"
+    },
+    {
+      "turn": 4,
+      "speaker": "counselor",
+      "text": "대부분의 시간을 집에서 혼자 보내시는군요. 이런 생활이 얼마나 계속되었나요?",
+      "technique": [
+        "empathy",
         "reflection",
         "clarification"
       ]
     },
     {
-      "turn": 3,
-      "speaker": "client",
-      "text": "예전엔 아니었어요. 처음 10년은 정말 열정적으로 했어요. 애들 가르치는 게 좋았고, 보람도 느꼈죠. 근데 최근 2-3년 사이에..."
-    },
-    {
-      "turn": 3,
-      "speaker": "counselor",
-      "text": "처음 10년은 열정과 보람이 있었는데 최근 2-3년 사이에 변화가 생기셨군요. 그 시기에 어떤 일이 있었나요?",
-      "technique": [
-        "summarization",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 4,
-      "speaker": "client",
-      "text": "업무가 계속 늘어났어요. 담임도 맡고, 교과 수업도 하고, 생활지도도 하고, 거기다 행정업무까지... 교사가 해야 할 게 너무 많아요."
-    },
-    {
-      "turn": 4,
-      "speaker": "counselor",
-      "text": "담임, 교과, 생활지도, 행정업무까지 여러 역할을 동시에 하고 계시는군요. 하루 일과가 어떻게 되시나요?",
-      "technique": [
-        "reflection",
-        "open_question"
-      ]
-    },
-    {
       "turn": 5,
       "speaker": "client",
-      "text": "7시 반에 학교 가서 밤 10시에 집에 와요. 수업 준비, 학생 상담, 학부모 전화, 공문서 작성, 회의... 쉴 틈이 없어요."
+      "text": "2년이요. 처음엔 좋았어요. 출퇴근 안 해도 되고, 편하고... 근데 점점 외로워지더라고요."
     },
     {
       "turn": 5,
       "speaker": "counselor",
-      "text": "하루 14시간 넘게 학교에서 보내시는군요. 그 시간 동안 잠깐이라도 쉴 수 있는 시간이 있으신가요?",
-      "technique": [
-        "reflection",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 6,
-      "speaker": "client",
-      "text": "점심시간이요? 그것도 학생들 지도하거나 학부모 전화 받느라 제대로 못 먹어요."
-    },
-    {
-      "turn": 6,
-      "speaker": "counselor",
-      "text": "점심시간마저도 온전한 휴식이 아니시군요. 이런 생활이 2-3년 지속되면서 어떤 변화를 느끼셨나요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 7,
-      "speaker": "client",
-      "text": "처음엔 피곤한 정도였는데, 이제는... 아무것도 하기 싫어요. 학생들한테도 예전처럼 관심이 안 가요."
-    },
-    {
-      "turn": 7,
-      "speaker": "counselor",
-      "text": "피로를 넘어서 무기력함을 느끼시고, 학생들에 대한 관심도 줄어드셨군요. 그런 본인 모습을 보면 어떤 생각이 드세요?",
-      "technique": [
-        "reflection",
-        "emotion_labeling"
-      ]
-    },
-    {
-      "turn": 8,
-      "speaker": "client",
-      "text": "제가 나쁜 교사가 된 것 같아요. 학생들한테 미안하고... 근데 또 한편으로는 '내가 왜 이렇게까지 해야 하나' 싶기도 하고요."
-    },
-    {
-      "turn": 8,
-      "speaker": "counselor",
-      "text": "죄책감과 억울함을 동시에 느끼시는군요. '나쁜 교사'라고 생각하시는 구체적인 이유가 있나요?",
-      "technique": [
-        "empathy",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 9,
-      "speaker": "client",
-      "text": "요즘엔 학생이 질문해도 짜증이 나요. 예전엔 친절하게 설명해줬는데, 이제는 '교과서 봐' 이러고 말아요. 학생들도 느끼는 것 같아요."
-    },
-    {
-      "turn": 9,
-      "speaker": "counselor",
-      "text": "학생들에게 예전처럼 친절하게 대하지 못하는 자신을 발견하시고 죄책감을 느끼시는군요. 이건 본인이 나빠서가 아니라 번아웃 증상이에요. 감정적 고갈 상태에서는 다른 사람에게 공감하기 어려워져요.",
-      "technique": [
-        "empathy",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 10,
-      "speaker": "client",
-      "text": "번아웃이요? 그게... 저한테도 해당되는 건가요?"
-    },
-    {
-      "turn": 10,
-      "speaker": "counselor",
-      "text": "네, 지금 말씀하신 증상들 - 극심한 피로, 무기력, 냉소적 태도, 학생에 대한 관심 저하 - 모두 번아웃의 전형적인 증상이에요. 교사는 특히 번아웃에 취약한 직업이고요.",
-      "technique": [
-        "information_giving",
-        "validation"
-      ]
-    },
-    {
-      "turn": 11,
-      "speaker": "client",
-      "text": "그럼 이걸 어떻게 해야 하나요? 저는 계속 교사로 살아야 하는데..."
-    },
-    {
-      "turn": 11,
-      "speaker": "counselor",
-      "text": "걱정이 되시는군요. 먼저 현재 업무량을 조정할 수 있는 방법을 찾아볼 필요가 있어요. 학교에서 업무 경감에 대해 요청해보신 적 있으신가요?",
-      "technique": [
-        "empathy",
-        "closed_question"
-      ]
-    },
-    {
-      "turn": 12,
-      "speaker": "client",
-      "text": "교장 선생님께 한번 말씀드렸는데... '다들 힘든 거 똑같아요' 이러시더라고요."
-    },
-    {
-      "turn": 12,
-      "speaker": "counselor",
-      "text": "도움을 요청했는데 제대로 된 응답을 받지 못하셨군요. '다들 힘들다'는 말이 오히려 더 외롭게 느껴지셨을 것 같아요.",
-      "technique": [
-        "reflection",
-        "validation"
-      ]
-    },
-    {
-      "turn": 13,
-      "speaker": "client",
-      "text": "맞아요. '나만 약한가' 싶었죠. 그래서 그냥 참고 있어요."
-    },
-    {
-      "turn": 13,
-      "speaker": "counselor",
-      "text": "참는 게 유일한 방법처럼 느껴지셨겠어요. 하지만 지금처럼 계속 참다가는 더 큰 문제가 생길 수 있어요. 교원 노조나 교사 지원 과정 같은 건 알아보셨나요?",
-      "technique": [
-        "empathy",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 14,
-      "speaker": "client",
-      "text": "그런 게 있어요? 잘 모르겠는데요."
-    },
-    {
-      "turn": 14,
-      "speaker": "counselor",
-      "text": "교육청마다 교사 심리지원 과정이 있고, 교원 휴직 제도도 있어요. 필요하면 건강상의 이유로 휴직도 가능하고요.",
-      "technique": [
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 15,
-      "speaker": "client",
-      "text": "휴직이요? 그런데 휴직하면 제 반 학생들은 어떡하죠?"
-    },
-    {
-      "turn": 15,
-      "speaker": "counselor",
-      "text": "또 학생들 걱정을 하시네요. 그런데 지금처럼 번아웃 상태에서 수업하시는 게 학생들에게 더 좋을까요, 잠시 쉬고 회복해서 건강하게 돌아오시는 게 더 좋을까요?",
-      "technique": [
-        "reflection",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 16,
-      "speaker": "client",
-      "text": "... 후자겠죠. 제 상태로는 제대로 가르칠 수도 없으니까."
-    },
-    {
-      "turn": 16,
-      "speaker": "counselor",
-      "text": "중요한 깨달음이에요. 휴직까지는 아니더라도 당장 할 수 있는 것들을 찾아볼까요? 업무 중에 줄이거나 위임할 수 있는 게 있을까요?",
-      "technique": [
-        "encouragement",
-        "open_question"
-      ]
-    },
-    {
-      "turn": 17,
-      "speaker": "client",
-      "text": "행정업무 중 일부는... 교무실 다른 선생님들과 나눌 수 있을 것 같기도 해요."
-    },
-    {
-      "turn": 17,
-      "speaker": "counselor",
-      "text": "좋아요. 이번 주에 동료 교사들과 업무 분담에 대해 이야기해보시는 건 어떨까요?",
-      "technique": [
-        "encouragement",
-        "goal_setting"
-      ]
-    },
-    {
-      "turn": 18,
-      "speaker": "client",
-      "text": "그런데 다들 바쁜데 제가 부탁하면 민폐 아닐까요?"
-    },
-    {
-      "turn": 18,
-      "speaker": "counselor",
-      "text": "또 '민폐'라는 단어를 쓰시네요. 협력을 요청하는 것과 민폐는 다른 거예요. 다른 선생님이 도움을 청하시면 어떻게 하시나요?",
-      "technique": [
-        "reflection",
-        "confrontation"
-      ]
-    },
-    {
-      "turn": 19,
-      "speaker": "client",
-      "text": "당연히 도와주죠. 아, 제가 또 혼자 다 떠안으려고 했네요."
-    },
-    {
-      "turn": 19,
-      "speaker": "counselor",
-      "text": "맞아요. 본인에게는 너무 엄격하시고 다른 사람에게는 관대하시네요. 퇴근 후 시간은 어떻게 보내세요?",
+      "text": "처음엔 편했지만 시간이 지나며 외로움을 느끼기 시작하셨군요. 언제부터 문제라고 느끼셨나요?",
       "technique": [
         "validation",
         "open_question"
       ]
     },
     {
-      "turn": 20,
+      "turn": 6,
       "speaker": "client",
-      "text": "집에 와서 수업 준비하고, 학생 생활기록부 쓰고... 그러다 자요."
+      "text": "몇 달 전부터요. 주말에도 아무도 안 만나고 집에만 있으니까... 이게 정상인가 싶었어요."
     },
     {
-      "turn": 20,
+      "turn": 6,
       "speaker": "counselor",
-      "text": "집에서도 일을 계속하시는군요. 본인만의 시간은 전혀 없으신가요?",
+      "text": "주말에도 사회적 교류가 없으시군요. 친구들이나 가족은 어떠세요?",
       "technique": [
         "reflection",
-        "closed_question"
+        "open_question"
       ]
     },
     {
-      "turn": 21,
+      "turn": 7,
       "speaker": "client",
-      "text": "없어요. 주말에도 학교 일 생각하고, 밀린 업무 하고..."
+      "text": "친구들은 다 바쁘고... 가족은 지방에 계세요. 전화는 가끔 하지만 직접 만나진 못해요."
     },
     {
-      "turn": 21,
+      "turn": 7,
       "speaker": "counselor",
-      "text": "완전한 휴식 시간이 없으시네요. 뇌와 몸이 회복할 시간이 필요해요. 주말 중 하루, 또는 반나절이라도 완전히 일을 내려놓는 시간을 만들어보시겠어요?",
+      "text": "물리적으로 가까운 사람들이 없으시군요. 외로움을 느낄 때 어떻게 하시나요?",
       "technique": [
         "empathy",
-        "goal_setting"
+        "open_question"
       ]
     },
     {
-      "turn": 22,
+      "turn": 8,
       "speaker": "client",
-      "text": "그게 가능할까요? 일이 밀릴 텐데..."
+      "text": "게임하거나 유튜브 봐요. 그것도 지겹긴 한데... 다른 할 게 없어요."
     },
     {
-      "turn": 22,
+      "turn": 8,
       "speaker": "counselor",
-      "text": "일은 항상 있어요. 완벽하게 끝나는 날은 없어요. 하지만 본인이 쓰러지면 그 일은 누가 하나요?",
+      "text": "온라인 활동으로 외로움을 달래시는군요. 하지만 만족스럽지는 않으신 것 같네요.",
       "technique": [
-        "information_giving",
-        "confrontation"
+        "interpretation",
+        "reflection"
       ]
     },
     {
-      "turn": 23,
+      "turn": 9,
       "speaker": "client",
-      "text": "... 다른 선생님들이 하겠죠. 그럼 더 미안한데."
+      "text": "네. 진짜 사람이랑 얘기하고 싶은데... 막상 기회가 생기면 피하게 돼요."
     },
     {
-      "turn": 23,
+      "turn": 9,
       "speaker": "counselor",
-      "text": "바로 그래서 지금 쉬어야 하는 거예요. 지금 조금씩 쉬면서 회복하시면 오래 일할 수 있지만, 지금처럼 가다가 쓰러지시면 오래 쉬어야 하잖아요.",
+      "text": "외로운데 사람을 피한다는 게 모순적으로 들리시나요? 왜 피하게 되는 것 같으세요?",
       "technique": [
         "confrontation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 24,
-      "speaker": "client",
-      "text": "맞는 말이에요. 저도 이러다 정말 쓰러질 것 같거든요."
-    },
-    {
-      "turn": 24,
-      "speaker": "counselor",
-      "text": "이번 주말부터 시작해볼까요? 토요일 오후나 일요일 중 반나절을 본인을 위한 시간으로 정해보세요. 예전에 좋아하셨던 취미가 있으신가요?",
-      "technique": [
-        "goal_setting",
         "open_question"
       ]
     },
     {
-      "turn": 25,
+      "turn": 10,
       "speaker": "client",
-      "text": "예전엔 등산 좋아했는데... 몇 년 동안 안 가봤네요."
+      "text": "어색할 것 같아서요. 그리고 피곤하기도 하고... 집이 편해요."
     },
     {
-      "turn": 25,
+      "turn": 10,
       "speaker": "counselor",
-      "text": "등산이요. 이번 주말에 가벼운 산행을 해보시는 건 어떨까요? 자연 속에서 걷는 게 스트레스 해소에 정말 좋아요.",
+      "text": "단기적으로는 집이 편하지만, 장기적으로는 고립되고 있는 거예요. 이게 계속되면 어떻게 될 것 같으세요?",
+      "technique": [
+        "information_giving",
+        "open_question"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "client",
+      "text": "더 심해지겠죠... 이미 사람 만나는 게 너무 힘들어졌는데."
+    },
+    {
+      "turn": 11,
+      "speaker": "counselor",
+      "text": "그런 상황이셨군요. 그때 어떤 기분이 드셨어요?",
       "technique": [
         "reflection",
+        "closed_question"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "client",
+      "text": "깨고 싶긴 한데... 어떻게 해야 할지 모르겠어요."
+    },
+    {
+      "turn": 12,
+      "speaker": "counselor",
+      "text": "작은 것부터 시작하면 돼요. 갑자기 많은 사람을 만나려고 하지 말고요. 예를 들어, 카페에 가서 주문하는 것부터요.",
+      "technique": [
+        "encouragement",
+        "information_giving"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "client",
+      "text": "카페 주문이요? 그건 별로 안 어려운데..."
+    },
+    {
+      "turn": 13,
+      "speaker": "counselor",
+      "text": "그럼 거기서 한 단계 더 나가보는 거예요. 점원에게 추천 메뉴 물어보기, 같은 테이블 사람에게 간단히 인사하기 같은 거요.",
+      "technique": [
+        "clarification",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "client",
+      "text": "그게 도움이 될까요?"
+    },
+    {
+      "turn": 14,
+      "speaker": "counselor",
+      "text": "사회적 근육을 키우는 거예요. 운동 안 하던 사람이 갑자기 마라톤 뛸 수 없듯이, 작은 상호작용부터 연습하는 거죠.",
+      "technique": [
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "client",
+      "text": "그렇게 생각하니 이해가 되네요. 다른 방법도 있나요?"
+    },
+    {
+      "turn": 15,
+      "speaker": "counselor",
+      "text": "취미 모임이나 동호회에 참여해보는 건 어떨까요? 공통 관심사가 있으니 대화하기 쉬워요.",
+      "technique": [
+        "information_giving",
         "goal_setting"
       ]
     },
     {
-      "turn": 26,
+      "turn": 16,
       "speaker": "client",
-      "text": "그러고 싶긴 한데... 할 수 있을지 모르겠어요."
+      "text": "동호회요... 가본 적이 없는데 어떻게 찾아요?"
     },
     {
-      "turn": 26,
+      "turn": 16,
       "speaker": "counselor",
-      "text": "처음엔 어려울 수 있어요. 하지만 한 번 해보시고, 어떤 느낌인지 다음 상담 때 이야기해주세요. 작은 변화가 큰 변화의 시작이 될 수 있어요.",
+      "text": "그런 경험을 하셨군요. 지금은 어떠세요?",
       "technique": [
-        "validation",
+        "information_giving",
+        "clarification"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "client",
+      "text": "온라인이면 좀 나을 것 같아요. 근데 뭘 해야 할까요?"
+    },
+    {
+      "turn": 17,
+      "speaker": "counselor",
+      "text": "본인이 좋아하는 게 뭔가요? 게임, 독서, 운동, 뭐든 좋아요.",
+      "technique": [
+        "open_question",
         "encouragement"
       ]
     },
     {
-      "turn": 27,
+      "turn": 18,
       "speaker": "client",
-      "text": "네, 해보겠습니다. 그리고 동료들한테도 업무 협력을 부탁해볼게요."
+      "text": "게임 좋아해요. 근데 혼자 하는 게임만..."
     },
     {
-      "turn": 27,
+      "turn": 18,
       "speaker": "counselor",
-      "text": "훌륭해요. 오늘 정한 것들을 정리해볼까요? 동료 교사들과 업무 분담 논의하기, 주말 반나절 본인 시간 갖기, 등산 가보기. 이 외에 필요한 게 있다면 교육청 교사 지원 과정도 알아보세요.",
+      "text": "그럼 온라인 게임 커뮤니티에 참여해보세요. 같이 게임하면서 자연스럽게 대화할 수 있어요.",
+      "technique": [
+        "information_giving",
+        "goal_setting"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "client",
+      "text": "그거라면 해볼 만할 것 같아요."
+    },
+    {
+      "turn": 19,
+      "speaker": "counselor",
+      "text": "힘드셨겠어요. 그 부분에 대해 더 이야기해 볼까요?",
       "technique": [
         "encouragement",
-        "summarization",
-        "information_giving"
+        "goal_setting"
       ]
     },
     {
-      "turn": 28,
+      "turn": 20,
       "speaker": "client",
-      "text": "네, 알겠습니다. 오늘 상담이 도움이 많이 됐어요."
+      "text": "네, 해볼게요. 감사합니다."
     },
     {
-      "turn": 28,
+      "turn": 20,
       "speaker": "counselor",
-      "text": "15년간 헌신하신 만큼, 이제는 본인을 돌보실 때예요. 번아웃은 본인의 잘못이 아니라 시스템의 문제이기도 해요. 본인을 너무 책망하지 마세요.",
-      "technique": [
-        "validation",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 29,
-      "speaker": "client",
-      "text": "그렇게 생각하니 조금 마음이 편해지네요. 제 탓만 하고 있었거든요."
-    },
-    {
-      "turn": 29,
-      "speaker": "counselor",
-      "text": "다음 주에 만나서 이번 주 어떻게 보내셨는지 이야기 나눠보죠. 혹시 증상이 더 심해지면 정신건강의학과 진료도 고려해주세요.",
-      "technique": [
-        "goal_setting",
-        "information_giving"
-      ]
-    },
-    {
-      "turn": 30,
-      "speaker": "client",
-      "text": "네, 감사합니다. 다음 주에 뵙겠습니다."
-    },
-    {
-      "turn": 30,
-      "speaker": "counselor",
-      "text": "힘내세요. 좋은 교사가 되려면 먼저 건강한 사람이어야 해요. 다음 주에 뵙겠습니다.",
+      "text": "작은 시작이 큰 변화를 만들어요. 잘하실 거예요.",
       "technique": [
         "encouragement",
         "validation"
       ]
+    },
+    {
+      "turn": 21,
+      "speaker": "client",
+      "text": "오늘 이야기 나눠서 마음이 한결 가벼워진 것 같아요."
+    },
+    {
+      "turn": 21,
+      "speaker": "counselor",
+      "text": "그렇게 느끼셨다니 다행이에요. 오늘 나눈 이야기들이 도움이 되셨으면 좋겠어요.",
+      "technique": [
+        "empathy",
+        "validation"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "client",
+      "text": "앞으로 어떻게 하면 좋을지 조금 더 생각해볼게요."
+    },
+    {
+      "turn": 22,
+      "speaker": "counselor",
+      "text": "천천히 생각해보시고, 다음에 만나서 어떻게 지내셨는지 이야기 나눠봐요.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "client",
+      "text": "네, 다음 상담 때 뵙겠습니다."
+    },
+    {
+      "turn": 23,
+      "speaker": "counselor",
+      "text": "네, 그때까지 자신을 잘 돌봐주세요. 응원하고 있을게요.",
+      "technique": [
+        "encouragement",
+        "validation"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "client",
+      "text": "감사합니다. 선생님 덕분에 힘이 나요."
+    },
+    {
+      "turn": 24,
+      "speaker": "counselor",
+      "text": "힘내세요. 잘 해내실 수 있을 거예요.",
+      "technique": [
+        "empathy",
+        "encouragement"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "client",
+      "text": "네, 열심히 해볼게요!"
+    },
+    {
+      "turn": 25,
+      "speaker": "counselor",
+      "text": "좋아요, 다음 주에 뵙겠습니다.",
+      "technique": [
+        "encouragement",
+        "structuring"
+      ]
     }
-  ],
-  "client_profile": {
-    "age": "32세",
-    "gender": "여성",
-    "occupation": "마케터",
-    "background": "자녀 양육으로 인한 극심한 스트레스"
-  }
+  ]
 }
